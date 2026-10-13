@@ -1,152 +1,74 @@
 {
  "probes": [
   {
-   "id": "br_rotaoeste_api",
-   "url": "https://novarotadooeste.com.br/api.php?a=trafego",
+   "id": "br_santos_mapacamera_js",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/js/Gestao/Cameras/MapaCamera.js",
    "noOrigin": true,
    "text": true,
-   "save": 60000
+   "save": 400000
   },
   {
-   "id": "br_rotaoeste_home",
-   "url": "https://novarotadooeste.com.br/",
-   "noOrigin": true,
-   "text": true,
-   "save": 400000,
-   "grep": [
-    "ipcamlive[^\"'<> ]*",
-    "alias=[\\w-]+",
-    "[Kk][Mm]\\s?\\d{2,3}[^<]{0,60}"
-   ],
-   "grepMax": 60
-  },
-  {
-   "id": "br_tamoios_cams",
-   "url": "https://www23.concessionariatamoios.com.br/cameras",
-   "noOrigin": true,
-   "text": true,
-   "save": 300000,
-   "grep": [
-    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
-   ],
-   "grepMax": 80
-  },
-  {
-   "id": "br_santos_aovivo",
-   "url": "https://www.santos.sp.gov.br/santosaovivo",
-   "noOrigin": true,
-   "text": true,
-   "save": 300000,
-   "grep": [
-    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
-   ],
-   "grepMax": 80
-  },
-  {
-   "id": "br_renovias_kml",
-   "url": "https://www.google.com/maps/d/kml?mid=1GorHVfjpsDG4K7egMgo-LfUybeA2Erqr&forcekml=1",
-   "noOrigin": true,
-   "text": true,
-   "save": 300000,
-   "grep": [
-    "<name>[^<]{0,80}"
-   ],
-   "grepMax": 60
-  },
-  {
-   "id": "yt_cor1",
-   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=sTgZm_sQpEs&format=json",
-   "noOrigin": true
-  },
-  {
-   "id": "yt_cor2",
-   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=feDsVZJNUJM&format=json",
-   "noOrigin": true
-  },
-  {
-   "id": "yt_rotaoeste",
-   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=ORL1f4bUsvo&format=json",
-   "noOrigin": true
-  },
-  {
-   "id": "yt_tamoios",
-   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=wQewLINcV4k&format=json",
-   "noOrigin": true
-  },
-  {
-   "id": "br_ipcam_rotaoeste",
-   "url": "https://g3.ipcamlive.com/player/player.php?alias=camerakm525",
-   "noOrigin": true,
-   "text": true,
-   "head": 300,
-   "grep": [
-    "[^\"'<> ]*(m3u8|snapshot|jpg)[^\"'<> ]*"
-   ],
-   "grepMax": 20
-  },
-  {
-   "id": "br_climaaovivo",
-   "url": "https://www.climaaovivo.com.br/",
+   "id": "br_santos_mapa_js",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/js/mapa.js",
    "noOrigin": true,
    "text": true,
    "save": 400000,
    "grep": [
-    "href=\"[^\"]{4,120}\""
-   ],
-   "grepMax": 200
-  },
-  {
-   "id": "br_alertablu",
-   "url": "https://alertablu.blumenau.sc.gov.br/",
-   "noOrigin": true,
-   "text": true,
-   "save": 200000,
-   "grep": [
-    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
+    "[\"'][^\"']*(Camera|camera|Camara)[^\"']*[\"']"
    ],
    "grepMax": 60
   },
   {
-   "id": "br_derdf",
-   "url": "https://www.der.df.gov.br/",
+   "id": "ar_pasos_listado",
+   "url": "https://www.argentina.gob.ar/seguridad/pasosinternacionales/listado",
+   "noOrigin": true,
+   "save": 80000
+  },
+  {
+   "id": "hr_hak_manifest",
+   "url": "https://www.hak.hr/info/kamere/manifest/A1.json",
+   "noOrigin": true,
+   "save": 30000
+  },
+  {
+   "id": "hr_hak_mapcam",
+   "url": "https://go.hak.hr/map-cam",
    "noOrigin": true,
    "text": true,
+   "save": 100000,
    "grep": [
-    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
+    "[^\"'<> ]*(json|api)[^\"'<> ]*"
    ],
    "grepMax": 40
   },
   {
-   "id": "br_joinville",
-   "url": "https://www.joinville.sc.gov.br/",
+   "id": "dk_webcams_guess1",
+   "url": "https://storage.googleapis.com/trafikkort-data/geojson/25832/webcams.point.json",
    "noOrigin": true,
-   "text": true,
-   "grep": [
-    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
-   ],
-   "grepMax": 40
+   "save": 20000
   },
   {
-   "id": "br_artesp",
-   "url": "https://www.artesp.sp.gov.br/",
+   "id": "dk_webcams_guess2",
+   "url": "https://storage.googleapis.com/trafikkort-data/geojson/25832/cameras.point.json",
    "noOrigin": true,
-   "text": true,
-   "grep": [
-    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
-   ],
-   "grepMax": 40
+   "save": 20000
   },
   {
-   "id": "br_cetsp_list",
-   "url": "https://cameras.cetsp.com.br/View/Cam.aspx",
+   "id": "dk_webcams_guess3",
+   "url": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-webcams.point.json",
+   "noOrigin": true,
+   "save": 20000
+  },
+  {
+   "id": "mk_amsm_cams",
+   "url": "https://amsm.mk/sostojba-na-patishta/video-kameri/",
    "noOrigin": true,
    "text": true,
    "save": 200000,
    "grep": [
-    "[^\"'<> ]*Cams?/[^\"'<> ]+",
-    "option[^>]*value=\"[^\"]*\"[^>]*>[^<]{0,80}"
+    "[^\"'<> ]*(\\.jpg|\\.png|m3u8|kamer|camera)[^\"'<> ]*"
    ],
-   "grepMax": 200
+   "grepMax": 80
   }
  ]
 }
