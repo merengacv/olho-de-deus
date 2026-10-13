@@ -1,61 +1,67 @@
 {
  "probes": [
   {
-   "id": "pt_ip_q",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2021/MapServer/3/query?f=json&cacheHint=true&resultOffset=0&resultRecordCount=8000&where=1=1&orderByFields=objectid&outFields=*&outSR=4326&spatialRel=esriSpatialRelIntersects",
+   "id": "pt_ip_2022",
+   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2022/MapServer?f=json",
+   "noOrigin": true
+  },
+  {
+   "id": "pt_ip_2023",
+   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2023/MapServer?f=json",
+   "noOrigin": true
+  },
+  {
+   "id": "pt_ip_2024",
+   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2024/MapServer?f=json",
+   "noOrigin": true
+  },
+  {
+   "id": "pt_ip_2025",
+   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2025/MapServer?f=json",
+   "noOrigin": true
+  },
+  {
+   "id": "pt_ip_2026",
+   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2026/MapServer?f=json",
+   "noOrigin": true
+  },
+  {
+   "id": "pt_ip_base",
+   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada/MapServer?f=json",
+   "noOrigin": true
+  },
+  {
+   "id": "pt_ip_rest",
+   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services?f=json",
+   "noOrigin": true
+  },
+  {
+   "id": "us_faa_bundle",
+   "url": "https://weathercams.faa.gov/public/bundle.d3a7ed7df87cf37e2c59.js",
    "noOrigin": true,
-   "timeout": 60000
+   "text": true,
+   "head": 200,
+   "grep": [
+    "[\"'`]/api/[^\"'`]{0,80}",
+    "https://[a-z0-9.-]*faa\\.gov[^\"'`]{0,80}",
+    "https://[a-z0-9.-]*wcams[^\"'`]{0,80}",
+    "[Aa]uthorization[^;]{0,120}",
+    "x-api-key[^;]{0,120}",
+    "apiKey[^;]{0,80}",
+    "webimages[^\"'`]{0,80}"
+   ],
+   "grepMax": 25
   },
   {
-   "id": "pt_ip_services",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP?f=json",
-   "noOrigin": true
-  },
-  {
-   "id": "pt_ip_layer3",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2021/MapServer/3?f=json",
-   "noOrigin": true
-  },
-  {
-   "id": "us_faa_root",
-   "url": "https://weathercams.faa.gov/",
+   "id": "cl_aip_camara",
+   "url": "https://aipchile.dgac.gob.cl/camara/",
    "noOrigin": true,
    "text": true,
    "grep": [
-    "[^\"'<> ]*\\.js[^\"'<> ]*",
-    "/api/[^\"'<> ]*"
+    "[^\"'<> ]*(camara|\\.jpg|\\.png)[^\"'<> ]*",
+    "<option[^>]*>[^<]{0,60}"
    ],
-   "grepMax": 30
-  },
-  {
-   "id": "us_faa_sites",
-   "url": "https://weathercams.faa.gov/api/sites",
-   "noOrigin": true
-  },
-  {
-   "id": "us_faa_cameras",
-   "url": "https://weathercams.faa.gov/api/cameras",
-   "noOrigin": true
-  },
-  {
-   "id": "cl_aip_cam",
-   "url": "https://aipchile.dgac.gob.cl/camaras",
-   "noOrigin": true,
-   "text": true,
-   "grep": [
-    "[^\"'<> ]*(camara|camera|webcam|\\.jpg)[^\"'<> ]*"
-   ],
-   "grepMax": 40
-  },
-  {
-   "id": "cl_meteochile",
-   "url": "https://www.meteochile.gob.cl/PortalDMC-web/index.xhtml",
-   "noOrigin": true,
-   "text": true,
-   "grep": [
-    "[^\"'<> ]*(camara|camera|webcam)[^\"'<> ]*"
-   ],
-   "grepMax": 30
+   "grepMax": 60
   }
  ]
 }
