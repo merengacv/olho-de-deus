@@ -1,83 +1,82 @@
 {
  "probes": [
   {
-   "id": "windy_preflight",
-   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
-   "method": "OPTIONS",
-   "headers": {
-    "Access-Control-Request-Method": "GET",
-    "Access-Control-Request-Headers": "x-windy-api-key"
-   }
-  },
-  {
-   "id": "windy_get_ghpages",
-   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
-   "windy": true
-  },
-  {
-   "id": "windy_get_localhost",
-   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
-   "windy": true,
-   "headers": {
-    "Origin": "http://localhost:8080"
-   }
-  },
-  {
-   "id": "windy_get_noorigin",
-   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
-   "windy": true,
-   "noOrigin": true
-  },
-  {
-   "id": "windy_get_referer",
-   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
-   "windy": true,
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://merengacv.github.io/olho-de-deus/"
-   }
-  },
-  {
-   "id": "ecoponte_api",
-   "url": "https://www.ecoviasponte.com.br/api/playful-map",
-   "noOrigin": true
-  },
-  {
-   "id": "ecovias_api",
+   "id": "ecovias_full",
    "url": "https://www.ecovias.com.br/api/playful-map",
-   "noOrigin": true
-  },
-  {
-   "id": "ecopistas_api",
-   "url": "https://www.ecopistas.com.br/api/playful-map",
-   "noOrigin": true
-  },
-  {
-   "id": "eco101_api",
-   "url": "https://www.eco101.com.br/api/playful-map",
-   "noOrigin": true
-  },
-  {
-   "id": "ecosul_api",
-   "url": "https://www.ecosul.com.br/api/playful-map",
-   "noOrigin": true
-  },
-  {
-   "id": "ecoponte_img",
-   "url": "https://www.ecoviasponte.com.br/boletim/camera/5",
-   "noOrigin": true
-  },
-  {
-   "id": "tw_thb_stream",
-   "url": "https://cctv-ss03.thb.gov.tw:443/T1-123K+850",
    "noOrigin": true,
-   "timeout": 8000
+   "save": 200000,
+   "timeout": 60000
   },
   {
-   "id": "tw_fw_stream",
-   "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=10000",
+   "id": "ecoponte_full",
+   "url": "https://www.ecoviasponte.com.br/api/playful-map",
    "noOrigin": true,
-   "timeout": 8000
+   "save": 200000
+  },
+  {
+   "id": "tripcheck_cctv",
+   "url": "https://tripcheck.com/Scripts/map/data/cctvinventory.js",
+   "noOrigin": true,
+   "text": true,
+   "head": 1500
+  },
+  {
+   "id": "drivenc_cams",
+   "url": "https://eapps.ncdot.gov/services/traffic-prod/v1/cameras/",
+   "noOrigin": true,
+   "head": 1500
+  },
+  {
+   "id": "drivenc_cams_v",
+   "url": "https://eapps.ncdot.gov/services/traffic-prod/v1/cameras?verbose=true",
+   "noOrigin": true,
+   "head": 1500
+  },
+  {
+   "id": "hamburg_ogc",
+   "url": "https://api.hamburg.de/datasets/v1/verkehrskameras/collections/verkehrskameras/items?f=json&limit=5",
+   "noOrigin": true
+  },
+  {
+   "id": "hamburg_wfs",
+   "url": "https://geodienste.hamburg.de/HH_WFS_Verkehrskameras?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities",
+   "noOrigin": true,
+   "text": true,
+   "grep": [
+    "<(wfs:)?Name>[^<]+"
+   ],
+   "grepMax": 10
+  },
+  {
+   "id": "anas_webcam",
+   "url": "https://www.stradeanas.it/it/webcam",
+   "noOrigin": true,
+   "text": true,
+   "grep": [
+    "webcam[^\"'<> ]{0,120}",
+    "[^\"'<> ]*\\.(jpg|json)[^\"'<> ]*"
+   ],
+   "grepMax": 30
+  },
+  {
+   "id": "goakamai",
+   "url": "https://goakamai.org/cameras",
+   "noOrigin": true,
+   "text": true,
+   "grep": [
+    "[^\"'<> ]*(camera|cctv)[^\"'<> ]*"
+   ],
+   "grepMax": 30
+  },
+  {
+   "id": "ky_goky",
+   "url": "https://goky.ky.gov/",
+   "noOrigin": true,
+   "text": true,
+   "grep": [
+    "[^\"'<> ]*(camera|cctv)[^\"'<> ]*"
+   ],
+   "grepMax": 20
   }
  ]
 }
