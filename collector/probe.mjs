@@ -29,7 +29,9 @@ function summarizeJSON(v, depth = 0) {
   }
   return typeof v === "string" ? v.slice(0, 200) : v;
 }
-const scrub = (s) => (KEY ? String(s).split(KEY).join("[CHAVE]") : String(s));
+// chaves com cara de segredo (Google Maps etc.) também saem: o GitHub recusa o envio
+const SECRET = /AIza[0-9A-Za-z_-]{35}|AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|sk_(live|test)_[0-9A-Za-z]{16,}|gh[pousr]_[0-9A-Za-z]{30,}|github_pat_[0-9A-Za-z_]{40,}|xox[abprs]-[0-9A-Za-z-]{10,}|sk\.eyJ[0-9A-Za-z._-]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY-----[\s\S]*?-----END [A-Z ]*PRIVATE KEY-----|AccountKey=[0-9A-Za-z+\/=]{40,}|SG\.[0-9A-Za-z_-]{16,}\.[0-9A-Za-z_-]{16,}/g;
+const scrub = (s) => (KEY ? String(s).split(KEY).join("[CHAVE]") : String(s)).replace(SECRET, "[CHAVE]");
 
 async function hit(p) {
   const headers = { "User-Agent": UA, Accept: p.accept || "*/*", ...(p.noOrigin ? {} : { Origin: ORIGIN }), ...(p.headers || {}) };
@@ -105,5 +107,5 @@ const workers = Array.from({ length: 8 }, async () => {
 await Promise.all(workers);
 const order = new Map(spec.probes.map((p, i) => [p.id, i]));
 results.sort((a, b) => (order.get(a.id.split(":")[0]) - order.get(b.id.split(":")[0])) || a.id.localeCompare(b.id));
-await writeFile(join(outDir, "probe.json"), JSON.stringify({ ranAt: new Date().toISOString(), results }, null, 1));
+await writeFile(join(outDir, "probe.json"), scrub(JSON.stringify({ ranAt: new Date().toISOString(), results }, null, 1)));
 for (const r of results) console.log(String(r.status || r.error).slice(0, 30).padEnd(10), r.id, r.headers ? (r.headers["access-control-allow-origin"] || "-") : "");

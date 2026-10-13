@@ -1,67 +1,43 @@
 {
  "probes": [
   {
-   "id": "pt_ip_2022",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2022/MapServer?f=json",
-   "noOrigin": true
-  },
-  {
-   "id": "pt_ip_2023",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2023/MapServer?f=json",
-   "noOrigin": true
-  },
-  {
-   "id": "pt_ip_2024",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2024/MapServer?f=json",
-   "noOrigin": true
-  },
-  {
-   "id": "pt_ip_2025",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2025/MapServer?f=json",
-   "noOrigin": true
-  },
-  {
-   "id": "pt_ip_2026",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada2026/MapServer?f=json",
-   "noOrigin": true
-  },
-  {
-   "id": "pt_ip_base",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/SITE_EXTERNO_IP/viajar_na_estrada/MapServer?f=json",
-   "noOrigin": true
-  },
-  {
-   "id": "pt_ip_rest",
-   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services?f=json",
-   "noOrigin": true
-  },
-  {
    "id": "us_faa_bundle",
    "url": "https://weathercams.faa.gov/public/bundle.d3a7ed7df87cf37e2c59.js",
    "noOrigin": true,
    "text": true,
-   "head": 200,
-   "grep": [
-    "[\"'`]/api/[^\"'`]{0,80}",
-    "https://[a-z0-9.-]*faa\\.gov[^\"'`]{0,80}",
-    "https://[a-z0-9.-]*wcams[^\"'`]{0,80}",
-    "[Aa]uthorization[^;]{0,120}",
-    "x-api-key[^;]{0,120}",
-    "apiKey[^;]{0,80}",
-    "webimages[^\"'`]{0,80}"
-   ],
-   "grepMax": 25
+   "head": 100,
+   "save": 2100000
   },
   {
-   "id": "cl_aip_camara",
+   "id": "cl_aip_show7",
+   "url": "https://aipchile.dgac.gob.cl/camara/show/id/7",
+   "noOrigin": true,
+   "text": true,
+   "save": 60000,
+   "grep": [
+    "[^\"'<> ]*(\\.jpg|\\.png|\\.jpeg|imagen|foto)[^\"'<> ]*",
+    "<img[^>]+>"
+   ],
+   "grepMax": 30
+  },
+  {
+   "id": "cl_aip_js",
+   "url": "https://aipchile.dgac.gob.cl/js/camaras.js",
+   "noOrigin": true,
+   "text": true,
+   "save": 60000
+  },
+  {
+   "id": "cl_aip_list",
    "url": "https://aipchile.dgac.gob.cl/camara/",
    "noOrigin": true,
    "text": true,
-   "grep": [
-    "[^\"'<> ]*(camara|\\.jpg|\\.png)[^\"'<> ]*",
-    "<option[^>]*>[^<]{0,60}"
-   ],
-   "grepMax": 60
+   "save": 200000
+  },
+  {
+   "id": "pt_ip_mobile",
+   "url": "https://sigip.infraestruturasdeportugal.pt/pub/rest/services/MOBILE_DEV?f=json",
+   "noOrigin": true
   }
  ]
 }
