@@ -1,0 +1,6 @@
+node_modules/
+out/
+site/
+collector/.cache/
+*.log
+.DS_Store

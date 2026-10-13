@@ -1,0 +1,45 @@
+# Sondagem das fontes: testa se servidores de mapas e APIs de câmeras respondem
+# (e com quais cabeçalhos). Roda quando a lista de sondas muda ou à mão.
+# O resultado vai para o ramo "sondagem" (um único commit, sobrescrito a cada vez).
+name: Sondar fontes
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - collector/probe.mjs
+      - collector/probes.json
+      - .github/workflows/sondar.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sondar
+  cancel-in-progress: false
+
+jobs:
+  sondar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Sondar
+        run: node collector/probe.mjs collector/probes.json out/probe.json
+        env:
+          WINDY_API_KEY: ${{ secrets.WINDY_API_KEY }}
+      - name: Publicar no ramo sondagem
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          cd out
+          git init -q -b sondagem
+          git config user.name "olho-robo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "sondagem $(date -u +%FT%TZ)"
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" sondagem
