@@ -53,7 +53,7 @@ for (const s of spec.pages || spec) {
       return {
         img: pick("img[src]", "src"), iframe: pick("iframe[src]", "src"), video: pick("video[src], video source[src]", "src"),
         links: [...document.querySelectorAll("a[href]")].map((a) => ({ h: abs(a.getAttribute("href")), t: (a.textContent || "").trim().slice(0, 80) }))
-          .filter((x) => /cam|câmera|camera|ao.vivo|live|webcam|cctv|transito|trânsito/i.test(x.h + " " + x.t)).slice(0, 300),
+          .filter((x) => /cam|câmera|cámara|camara|kamer|kamera|ao.vivo|en.vivo|live|webcam|cctv|transito|trânsito|tránsito|volc|vulc|камер|カメラ|카메라|กล้อง/i.test(x.h + " " + x.t)).slice(0, 300),
         text: (document.body ? document.body.innerText : "").slice(0, 3000),
       };
     });

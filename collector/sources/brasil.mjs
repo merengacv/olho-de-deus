@@ -1,6 +1,6 @@
 // Brasil: órgãos públicos com câmeras abertas na web. Cada leitor usa a mesma lista que
 // o portal oficial carrega no navegador (descoberta com o farejador, tools/farejar.mjs).
-import { fetchJSON, fetchText, clean, xmlBlocks, xmlVal, pool } from "../lib/util.mjs";
+import { fetchJSON, fetchText, clean, xmlBlocks, xmlVal, decodeXml, pool } from "../lib/util.mjs";
 
 // número da rodovia + km inteiro: junta a lista com coordenadas e a lista com imagens
 const roadKey = (rod, km) => {
@@ -61,7 +61,46 @@ async function ecorodovias(ctx) {
   return out;
 }
 
+// Motiva (antigo Grupo CCR): cada concessionária publica as câmeras numa página com
+// coordenadas e o vídeo ao vivo (HLS na CloudFront). Concessionárias sem a página dão 404.
+const MOTIVA = ["riosp", "autoban", "viaoeste", "rodoanel", "spvias", "viasul", "viacosteira", "vialagos", "pantanal", "sorocabana", "minas-sp", "parana", "msvia", "barcas"];
+export function motivaParse(html, slug) {
+  const out = [];
+  for (const a of html.match(/<article class="cmp-contentfragment cmp-contentfragment--camera[\s\S]*?<\/article>/g) || []) {
+    const d = {};
+    for (const m of a.matchAll(/element--(\w+)" data-elementValue="([^"]*)"/g)) d[m[1]] = decodeXml(m[2]);
+    const [la, lo] = String(d.coordinates || "").split(",").map((x) => parseFloat(x));
+    if (!Number.isFinite(la) || !Number.isFinite(lo) || (Math.abs(la) < 0.1 && Math.abs(lo) < 0.1)) continue;
+    if (!/^https:\/\/[^\s"]+\.m3u8/i.test(d.streamUrl || "")) continue;
+    const road = (String(d.directionFragment || "").match(/\/rodovias\/([a-z]{2,3}-\d{2,3})\//i) || [])[1];
+    const cls = (a.match(/cmp-contentfragment--camera cmp-contentfragment--([\w-]+)/) || [])[1];
+    const uf = (String(d.name || "").match(/,\s*([A-Z]{2})\s*$/) || [])[1];
+    out.push({
+      id: slug + "-" + (cls || String(d.name).replace(/\W+/g, "").toLowerCase()),
+      name: clean((road ? road.toUpperCase() + " " : "") + String(d.name || d.kilometerDescription || "").replace(/^KM/i, "km")),
+      lat: la, lng: lo, hls: d.streamUrl, where: clean([d.nearestCity, uf].filter(Boolean).join(", ")),
+      page: `https://rodovias.motiva.com.br/${slug}/cameras-ao-vivo/`,
+    });
+  }
+  return out;
+}
+async function motiva(ctx) {
+  const out = [];
+  await pool(MOTIVA, 4, async (slug) => {
+    let html;
+    try { html = await fetchText(`https://rodovias.motiva.com.br/${slug}/cameras-ao-vivo/`, { timeout: 60000, retries: 1 }); }
+    catch (e) { if (!/HTTP 404/.test(e.message)) ctx.warn(slug + ": " + e.message); return; }
+    out.push(...motivaParse(html, slug));
+  });
+  return out;
+}
+
 export default [
+  {
+    id: "motiva", name: "Motiva — câmeras ao vivo das rodovias", org: "Motiva (concessionárias de rodovias, antigo Grupo CCR)", country: "BR", type: "trafego",
+    home: "https://rodovias.motiva.com.br/", attr: "Motiva — câmeras das concessionárias", lic: "vídeo público dos sites das concessionárias",
+    run: (ctx) => motiva(ctx),
+  },
   {
     id: "der-sp", name: "DER-SP — câmeras das rodovias", org: "Departamento de Estradas de Rodagem do Estado de São Paulo", country: "BR", type: "trafego",
     home: "https://dersp.der.sp.gov.br/WebSite/Servicos/ServicosOnline/CamerasOnline.aspx", attr: "DER-SP — Governo do Estado de São Paulo", lic: "imagens públicas do DER-SP",
