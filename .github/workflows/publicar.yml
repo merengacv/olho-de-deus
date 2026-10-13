@@ -77,7 +77,9 @@ jobs:
       - name: Configuração do site
         env:
           WINDY_API_KEY: ${{ secrets.WINDY_API_KEY }}
-        run: node -e 'require("fs").writeFileSync("site/config.js", "window.__OLHO_CFG=" + JSON.stringify({ windyKey: process.env.WINDY_API_KEY || "" }) + ";\n")'
+        run: |
+          node -e 'require("fs").writeFileSync("site/config.js", "window.__OLHO_CFG=" + JSON.stringify({ windyKey: process.env.WINDY_API_KEY || "" }) + ";\n")'
+          test -s site/config.js && echo "config.js pronto"
 
       - name: O site existe?
         id: site
