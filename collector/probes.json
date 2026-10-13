@@ -69,6 +69,24 @@
     "[^\"'<> ]*(\\.jpg|\\.png|m3u8|kamer|camera)[^\"'<> ]*"
    ],
    "grepMax": 80
+  },
+  {
+   "id": "antt_res1",
+   "url": "https://dados.antt.gov.br/api/3/action/resource_show?id=9299586b-3b56-4986-99a8-33d4fce5a938",
+   "noOrigin": true,
+   "full": true
+  },
+  {
+   "id": "antt_res2",
+   "url": "https://dados.antt.gov.br/api/3/action/resource_show?id=49bcce5a-b183-4c25-8908-c8debb6fabc3",
+   "noOrigin": true,
+   "full": true
+  },
+  {
+   "id": "antt_pkg",
+   "url": "https://dados.antt.gov.br/api/3/action/package_show?id=quilometro-principal",
+   "noOrigin": true,
+   "full": true
   }
  ]
 }
