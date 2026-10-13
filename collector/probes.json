@@ -1,62 +1,152 @@
 {
  "probes": [
   {
-   "id": "faa_sites_ref",
-   "url": "https://weathercams.faa.gov/api/sites",
+   "id": "br_rotaoeste_api",
+   "url": "https://novarotadooeste.com.br/api.php?a=trafego",
    "noOrigin": true,
-   "headers": {
-    "Referer": "https://weathercams.faa.gov/",
-    "Accept": "application/json"
-   }
+   "text": true,
+   "save": 60000
   },
   {
-   "id": "faa_sites_origin",
-   "url": "https://weathercams.faa.gov/api/sites",
+   "id": "br_rotaoeste_home",
+   "url": "https://novarotadooeste.com.br/",
    "noOrigin": true,
-   "headers": {
-    "Origin": "https://weathercams.faa.gov",
-    "Referer": "https://weathercams.faa.gov/map",
-    "Accept": "application/json",
-    "X-Requested-With": "XMLHttpRequest"
-   }
+   "text": true,
+   "save": 400000,
+   "grep": [
+    "ipcamlive[^\"'<> ]*",
+    "alias=[\\w-]+",
+    "[Kk][Mm]\\s?\\d{2,3}[^<]{0,60}"
+   ],
+   "grepMax": 60
   },
   {
-   "id": "faa_sites_ours",
-   "url": "https://weathercams.faa.gov/api/sites",
-   "headers": {
-    "Referer": "https://merengacv.github.io/olho-de-deus/"
-   }
-  },
-  {
-   "id": "faa_cam_last",
-   "url": "https://weathercams.faa.gov/api/cameras/10171/images/last/1",
+   "id": "br_tamoios_cams",
+   "url": "https://www23.concessionariatamoios.com.br/cameras",
    "noOrigin": true,
-   "headers": {
-    "Referer": "https://weathercams.faa.gov/"
-   }
+   "text": true,
+   "save": 300000,
+   "grep": [
+    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
+   ],
+   "grepMax": 80
   },
   {
-   "id": "faa_cam_last_ours",
-   "url": "https://weathercams.faa.gov/api/cameras/10171/images/last/1",
-   "headers": {
-    "Referer": "https://merengacv.github.io/olho-de-deus/"
-   }
-  },
-  {
-   "id": "faa_summary",
-   "url": "https://weathercams.faa.gov/api/summary?state=AK",
+   "id": "br_santos_aovivo",
+   "url": "https://www.santos.sp.gov.br/santosaovivo",
    "noOrigin": true,
-   "headers": {
-    "Referer": "https://weathercams.faa.gov/"
-   }
+   "text": true,
+   "save": 300000,
+   "grep": [
+    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
+   ],
+   "grepMax": 80
   },
   {
-   "id": "faa_cameras_us",
-   "url": "https://weathercams.faa.gov/api/cameras/state/US",
+   "id": "br_renovias_kml",
+   "url": "https://www.google.com/maps/d/kml?mid=1GorHVfjpsDG4K7egMgo-LfUybeA2Erqr&forcekml=1",
    "noOrigin": true,
-   "headers": {
-    "Referer": "https://weathercams.faa.gov/"
-   }
+   "text": true,
+   "save": 300000,
+   "grep": [
+    "<name>[^<]{0,80}"
+   ],
+   "grepMax": 60
+  },
+  {
+   "id": "yt_cor1",
+   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=sTgZm_sQpEs&format=json",
+   "noOrigin": true
+  },
+  {
+   "id": "yt_cor2",
+   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=feDsVZJNUJM&format=json",
+   "noOrigin": true
+  },
+  {
+   "id": "yt_rotaoeste",
+   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=ORL1f4bUsvo&format=json",
+   "noOrigin": true
+  },
+  {
+   "id": "yt_tamoios",
+   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=wQewLINcV4k&format=json",
+   "noOrigin": true
+  },
+  {
+   "id": "br_ipcam_rotaoeste",
+   "url": "https://g3.ipcamlive.com/player/player.php?alias=camerakm525",
+   "noOrigin": true,
+   "text": true,
+   "head": 300,
+   "grep": [
+    "[^\"'<> ]*(m3u8|snapshot|jpg)[^\"'<> ]*"
+   ],
+   "grepMax": 20
+  },
+  {
+   "id": "br_climaaovivo",
+   "url": "https://www.climaaovivo.com.br/",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "grep": [
+    "href=\"[^\"]{4,120}\""
+   ],
+   "grepMax": 200
+  },
+  {
+   "id": "br_alertablu",
+   "url": "https://alertablu.blumenau.sc.gov.br/",
+   "noOrigin": true,
+   "text": true,
+   "save": 200000,
+   "grep": [
+    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
+   ],
+   "grepMax": 60
+  },
+  {
+   "id": "br_derdf",
+   "url": "https://www.der.df.gov.br/",
+   "noOrigin": true,
+   "text": true,
+   "grep": [
+    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
+   ],
+   "grepMax": 40
+  },
+  {
+   "id": "br_joinville",
+   "url": "https://www.joinville.sc.gov.br/",
+   "noOrigin": true,
+   "text": true,
+   "grep": [
+    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
+   ],
+   "grepMax": 40
+  },
+  {
+   "id": "br_artesp",
+   "url": "https://www.artesp.sp.gov.br/",
+   "noOrigin": true,
+   "text": true,
+   "grep": [
+    "[^\"'<> ]*(camera|câmera|camara|cam[0-9_-]|cctv|webcam|ao-vivo|aovivo|ipcamlive|m3u8|youtube\\.com/embed/[\\w-]+|youtu\\.be/[\\w-]+)[^\"'<> ]*"
+   ],
+   "grepMax": 40
+  },
+  {
+   "id": "br_cetsp_list",
+   "url": "https://cameras.cetsp.com.br/View/Cam.aspx",
+   "noOrigin": true,
+   "text": true,
+   "save": 200000,
+   "grep": [
+    "[^\"'<> ]*Cams?/[^\"'<> ]+",
+    "option[^>]*value=\"[^\"]*\"[^>]*>[^<]{0,80}"
+   ],
+   "grepMax": 200
   }
  ]
 }
