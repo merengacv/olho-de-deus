@@ -62,7 +62,9 @@ const state = (page) => page.evaluate(() => {
   const E = o.engine();
   let tt = 0, tl = 0;
   if (E) E.children.forEach((m) => { if (m.isMesh && m.material && !(m.material.userData && m.material.userData.olhoNight === true)) { tt++; if (m.material.map && m.material.map.image) tl++; } });
-  return { cams: C.state, n: C.n, windy: o.S.windy.length, sw: o.SW, basemap: o.S.basemap, level: E && E.level, tiles: tt, tilesLoaded: tl, pov: o.globe().pointOfView(),
+  const ovl = {};
+  for (const k in o.OVL || {}) { const L = o.OVL[k]; if (L) ovl[k] = { on: !!L.tileUrl, level: L.level, tiles: L.children.filter((m) => m.isMesh && m.visible).length }; }
+  return { cams: C.state, n: C.n, windy: o.S.windy.length, ovl, basemap: o.S.basemap, level: E && E.level, tiles: tt, tilesLoaded: tl, pov: o.globe().pointOfView(),
     chunks: { ok: C.chunks.size, loading: [...C.loading.keys()].filter((k) => !C.chunks.has(k)), waiting: [...C.waiting.keys()] }, src };
 });
 // quadros por segundo do globo (no Actions o WebGL roda no processador, então é lento)

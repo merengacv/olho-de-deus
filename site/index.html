@@ -601,15 +601,18 @@ async function getJSON(url, opt) {
     }
   } finally { clearTimeout(timer); }
 }
-function loadScript(urls) {
+// carrega um script (tenta os endereços em ordem); desiste de cada um depois de "ms"
+function loadScript(urls, ms) {
   return new Promise((resolve, reject) => {
     let i = 0;
     const next = () => {
       if (i >= urls.length) return reject(new Error("falha ao carregar " + urls[0]));
       const s = document.createElement("script");
+      let done = false;
+      const timer = setTimeout(() => { if (!done) { done = true; s.remove(); next(); } }, ms || 45000);
       s.src = urls[i++]; s.async = true;
-      s.onload = () => resolve();
-      s.onerror = () => { s.remove(); next(); };
+      s.onload = () => { if (!done) { done = true; clearTimeout(timer); resolve(); } };
+      s.onerror = () => { if (!done) { done = true; clearTimeout(timer); s.remove(); next(); } };
       document.head.appendChild(s);
     };
     next();
@@ -630,7 +633,7 @@ function ccName(cc) {
 /* =========================================================================
    1. CONFIGURAÇÃO
    ========================================================================= */
-const VERSION = "3.0";
+const VERSION = "3.1";
 const CFG = window.__OLHO_CFG || {};
 const LIBS = {
   globe: ["vendor/globe.gl.min.js", "https://unpkg.com/globe.gl@2.46.2/dist/globe.gl.min.js", "https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js"],
@@ -981,7 +984,7 @@ const TILE_NIGHT_GLSL = [
   "  gl_FragColor.rgb = mix(col, lit, uNightT);",
   "}",
 ].join("\n");
-const isNightMat = (m) => !!(m && m.map) && (m.isMeshLambertMaterial === true || !!(m.userData && m.userData.olhoNight === true));
+const isNightMat = (m) => !!(m && m.map) && !(m.userData && m.userData.olhoLabel) && (m.isMeshLambertMaterial === true || !!(m.userData && m.userData.olhoNight === true));
 
 function initGlobe() {
   const el = $("#globe");
@@ -1133,6 +1136,7 @@ function setupEngine(tries) {
   // nível do ladrilho por altitude (em raios da Terra): ~1 pixel de imagem por pixel de tela
   ENGINE.thresholds = Array.from({ length: 30 }, (_, i) => (i <= 4 ? 16 : 28) / Math.pow(2, i));
   try { ENGINE.updatePov(globe.camera()); } catch (e) { /* atualiza no próximo movimento */ }
+  setTimeout(applyOverlays, 0);
   const inner = ENGINE.children.find((o) => o.isMesh && o.geometry && o.geometry.parameters && o.geometry.parameters.radius < 100);
   if (inner) {
     inner.rotation.y = -Math.PI / 2; // mesma orientação da esfera do three-globe (meridiano de Greenwich no eixo Z)
@@ -1147,35 +1151,102 @@ function setupEngine(tries) {
   }
   return true;
 }
-// endereço de cada ladrilho; com rótulos/ruas, passa pelo service worker que junta as camadas
-function tileFn(bm) {
-  const layers = (S.labels ? "l" : "") + (S.roads ? "r" : "");
-  if (layers && SW.ready) {
-    const base = bm.id + (bm.id === "gibs" ? "@" + gibsDate() : "");
-    return (x, y, l) => "_t/" + base + "/" + layers + "/" + l + "/" + y + "/" + x + ".jpg";
+// Rótulos e ruas: camadas transparentes da Esri por cima da foto. Cada uma é um segundo
+// motor de ladrilhos do próprio globe.gl, do mesmo tamanho do globo, desenhado por cima
+// (deslocamento de profundidade); o navegador baixa e decodifica as imagens direto.
+const OVL = { l: null, r: null };
+const OVL_URL = {
+  l: (x, y, z) => "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/" + z + "/" + y + "/" + x,
+  r: (x, y, z) => "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/" + z + "/" + y + "/" + x,
+};
+function makeOverlay(k) {
+  if (!ENGINE || !ENGINE.parent) return null;
+  let E;
+  try { E = new ENGINE.constructor(100, { minLevel: 0, maxLevel: 19, mercatorProjection: true }); }
+  catch (e) { console.warn("[olho] camada de rótulos indisponível:", e); return null; }
+  E.thresholds = ENGINE.thresholds.slice();
+  E.children.slice().forEach((o) => { if (o.isMesh) E.remove(o); }); // sem a esfera preta de fundo
+  const order = k === "l" ? 2 : 1, baseAdd = E.add;
+  E.add = function () {
+    for (const o of arguments) {
+      const m = o && o.material;
+      if (!m) continue;
+      m.transparent = true; m.alphaTest = 0.02; m.depthWrite = false;
+      m.polygonOffset = true; m.polygonOffsetFactor = -1; m.polygonOffsetUnits = -4 * order;
+      m.userData.olhoLabel = true;
+      o.renderOrder = order;
+      // nível do ladrilho pela largura (360°/2^n): só o nível atual aparece, senão os
+      // rótulos de níveis diferentes se sobrepõem (são transparentes)
+      const ph = o.geometry && o.geometry.parameters && o.geometry.parameters.phiLength;
+      if (ph) { o.userData.lv = Math.round(Math.log2((2 * Math.PI) / ph)); o.visible = o.userData.lv === E.level; }
+    }
+    return baseAdd.apply(this, arguments);
+  };
+  E.userData.olhoOverlay = k;
+  ENGINE.parent.add(E);
+  E.position.copy(ENGINE.position); E.quaternion.copy(ENGINE.quaternion); E.scale.copy(ENGINE.scale);
+  return E;
+}
+function applyOverlays() {
+  const tiles = (BASEMAP_BY[S.basemap] || BASEMAPS[0]).id !== "dark";
+  for (const k of ["r", "l"]) {
+    const want = tiles && (k === "l" ? S.labels : S.roads);
+    let E = OVL[k];
+    if (want && !E) E = OVL[k] = makeOverlay(k);
+    if (!E) continue;
+    if (want) {
+      E.visible = true;
+      if (E.tileUrl !== OVL_URL[k]) E.tileUrl = OVL_URL[k];
+      try { E.updatePov(globe.camera()); } catch (e) { /* atualiza no próximo movimento */ }
+    } else if (E.tileUrl) { E.tileUrl = null; E.clearTiles(); E.visible = false; }
   }
-  return bm.url;
+}
+// depois de um salto de câmera (busca, seleção), os motores precisam olhar de novo
+// com as matrizes já atualizadas; senão o lugar novo fica sem ladrilhos até mexer
+let settleTimer = 0;
+function settleTiles() {
+  clearTimeout(settleTimer);
+  settleTimer = setTimeout(() => {
+    if (!globe) return;
+    const cam = globe.camera();
+    cam.updateMatrixWorld();
+    try { if (ENGINE && ENGINE.tileUrl) ENGINE.updatePov(cam); } catch (e) { /* ignora */ }
+    overlayPov();
+  }, 150);
+}
+function overlayPov() {
+  if (!globe) return;
+  const cam = globe.camera();
+  for (const k in OVL) {
+    const E = OVL[k];
+    if (!E || !E.visible || !E.tileUrl) continue;
+    try { E.updatePov(cam); } catch (e) { /* ignora */ }
+    const lv = E.level;
+    for (const o of E.children) if (o.userData.lv != null) o.visible = o.userData.lv === lv;
+  }
 }
 function applyBasemap(force) {
   if (!globe) return;
   const bm = BASEMAP_BY[S.basemap] || BASEMAPS[0], tiles = bm.id !== "dark";
-  const key = tiles ? bm.id + "|" + (SW.ready ? (S.labels ? "l" : "") + (S.roads ? "r" : "") : "") + "|" + (bm.id === "gibs" ? gibsDate() : "") : "dark";
-  if (key === S.mapKey && !force) return;
-  S.mapKey = key;
-  setupEngine();
-  if (ENGINE) ENGINE.clearTiles();
-  if (tiles) {
-    if (S.globeImg !== TINY) { globe.globeImageUrl(TINY); S.globeImg = TINY; }
-    globe.globeTileEngineMaxLevel(bm.max);
-    globe.globeTileEngineUrl(tileFn(bm));
-  } else {
-    globe.globeTileEngineUrl(null);
-    if (!DARK_TEX) DARK_TEX = makeTexture();
-    globe.globeImageUrl(DARK_TEX); S.globeImg = DARK_TEX;
+  const key = tiles ? bm.id + "|" + (bm.id === "gibs" ? gibsDate() : "") : "dark";
+  if (key !== S.mapKey || force) {
+    S.mapKey = key;
+    setupEngine();
+    if (ENGINE) ENGINE.clearTiles();
+    if (tiles) {
+      if (S.globeImg !== TINY) { globe.globeImageUrl(TINY); S.globeImg = TINY; }
+      globe.globeTileEngineMaxLevel(bm.max);
+      globe.globeTileEngineUrl(bm.url);
+    } else {
+      globe.globeTileEngineUrl(null);
+      if (!DARK_TEX) DARK_TEX = makeTexture();
+      globe.globeImageUrl(DARK_TEX); S.globeImg = DARK_TEX;
+    }
+    setLights(tiles);
+    globe.atmosphereColor(tiles ? "#5ab0ff" : C.accent);
+    applyGrid();
   }
-  setLights(tiles);
-  globe.atmosphereColor(tiles ? "#5ab0ff" : C.accent);
-  applyGrid();
+  if (ENGINE) applyOverlays(); // sem o motor ainda: setupEngine chama quando achar
   renderAttrib();
 }
 // No satélite a luz é plana (as cores da foto ficam como são); a sombra é a da noite.
@@ -1206,6 +1277,7 @@ function nightFade() {
 // ---------- câmera do globo: zoom suave até 1 km do chão ----------
 function tuneView() {
   if (!globe) return;
+  overlayPov();
   const cam = globe.camera(), d = cam.position.length(), a = d / 100 - 1;
   // cada giro da roda muda a altitude em ~15%, perto ou longe
   controls.zoomSpeed = clamp((2.6 * a) / (1 + a), 0.006, 1.4);
@@ -1391,6 +1463,7 @@ function setHexVisible(v) {
 let povTimer = 0, windyTimer = 0;
 function onPov(pov) {
   const a = pov.altitude;
+  overlayPov(); settleTiles();
   const near = a < 0.32;
   if (near !== S.hexHidden) { S.hexHidden = near; setHexVisible(!near); }
   nightFade();
@@ -1872,7 +1945,8 @@ function loadChunk(k) {
     const list = CAMS.waiting.get(k) || [];
     list.push(resolve);
     CAMS.waiting.set(k, list);
-    loadScript([CAMS.base + "c/" + k + ".js"]).then(() => {
+    // segunda tentativa com outro endereço (escapa de um pedido preso no cache)
+    loadScript([CAMS.base + "c/" + k + ".js", CAMS.base + "c/" + k + ".js?r=" + Date.now()], 25000).then(() => {
       if (!CAMS.chunks.has(k)) { CAMS.waiting.delete(k); reject(new NetErr("parse", "pacote de câmeras inválido")); }
     }, (e) => { CAMS.waiting.delete(k); reject(new NetErr("network", "não deu para carregar os detalhes da câmera")); });
   });
@@ -1934,10 +2008,12 @@ async function computeRegion() {
   const r = camsNear(pov.lat, pov.lng, km, 40);
   const wl = S.layers.windy ? windyNear(pov.lat, pov.lng, km, 12) : [];
   const tok = ++S.regionTok;
-  await rowsFor(r.list.map((x) => x[1]));
+  const names = rowsFor(r.list.map((x) => x[1]));
+  const quick = await Promise.race([names.then(() => true), sleep(2500).then(() => false)]);
   if (tok !== S.regionTok) return;
   S.region = { lat: pov.lat, lng: pov.lng, km, list: r.list, total: r.total, windy: wl, where: whereIs(pov.lat, pov.lng) };
   renderFeed();
+  if (!quick) { await names; if (tok === S.regionTok) renderFeed(); }
 }
 
 // ---------- Windy Webcams: consulta ao vivo na região da tela ----------
@@ -2205,11 +2281,17 @@ async function fillCamsNear(boxId, lat, lng, tok, excludeI, excludeW) {
   if (!r.list.length) { km = 120; r = camsNear(lat, lng, km, 8, excludeI); }
   if (!r.list.length) { km = 600; r = camsNear(lat, lng, km, 5, excludeI); }
   const wl = S.layers.windy ? windyNear(lat, lng, km, 4).filter((x) => x[1] !== excludeW) : [];
-  await rowsFor(r.list.map((x) => x[1]));
-  if (tok !== S.tok || !document.getElementById(boxId)) return;
-  const items = r.list.map((x) => ({ d: x[0], h: camLi(x[1], x[0]) })).concat(wl.map((x) => ({ d: x[0], h: windyLi(x[1], x[0]) }))).sort((a, b) => a.d - b.d).slice(0, 9);
-  document.getElementById(boxId).innerHTML = "<h3>Câmeras por perto" + (r.total > 8 ? " · " + f0(r.total) + " num raio de " + f0(km) + " km" : "") + "</h3>" +
-    (items.length ? '<ul class="list">' + items.map((x) => x.h).join("") + "</ul>" : '<p class="note">Nenhuma câmera pública num raio de ' + f0(km) + " km.</p>");
+  const draw = () => {
+    if (tok !== S.tok || !document.getElementById(boxId)) return;
+    const items = r.list.map((x) => ({ d: x[0], h: camLi(x[1], x[0]) })).concat(wl.map((x) => ({ d: x[0], h: windyLi(x[1], x[0]) }))).sort((a, b) => a.d - b.d).slice(0, 9);
+    document.getElementById(boxId).innerHTML = "<h3>Câmeras por perto" + (r.total > 8 ? " · " + f0(r.total) + " num raio de " + f0(km) + " km" : "") + "</h3>" +
+      (items.length ? '<ul class="list">' + items.map((x) => x.h).join("") + "</ul>" : '<p class="note">Nenhuma câmera pública num raio de ' + f0(km) + " km.</p>");
+  };
+  // os nomes vêm dos pacotes do banco: espera um pouco por eles, mas não para sempre
+  const names = rowsFor(r.list.map((x) => x[1]));
+  const quick = await Promise.race([names.then(() => true), sleep(2500).then(() => false)]);
+  draw();
+  if (!quick) { await names; draw(); }
 }
 
 function renderDossier(soft) {
@@ -2623,11 +2705,7 @@ function layerStatus(k) {
 }
 function mapPanelHTML() {
   const bm = BASEMAP_BY[S.basemap] || BASEMAPS[0], tiles = bm.id !== "dark";
-  let note = esc(bm.desc);
-  if (tiles && (S.labels || S.roads)) {
-    if (!SW.ok) note += " Rótulos e ruas aparecem no site publicado (precisam de https).";
-    else if (!SW.ready) note += " Ativando rótulos…";
-  }
+  const note = esc(bm.desc);
   return '<div class="mapsel"><span class="k">Mapa de fundo</span><div class="row">' +
     BASEMAPS.map((b) => '<button class="chip" type="button" data-act="basemap" data-v="' + b.id + '" aria-pressed="' + (S.basemap === b.id) + '" title="' + esc(b.desc) + '">' + esc(b.nm) + "</button>").join("") + "</div>" +
     (tiles ? '<div class="row"><button class="chip" type="button" data-act="labels" aria-pressed="' + S.labels + '" title="Nomes de países, cidades e bairros sobre a foto">Rótulos</button>' +
@@ -2854,7 +2932,7 @@ function sourcesTabHTML() {
         '<div class="note">' + esc(s.lic) + ' · <a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">site</a></div></div></div>';
     }).join("") +
     camSourcesHTML() +
-    '<div class="sec-h"><span class="k">Mapa</span></div><p class="pad note">' + bm.attr + (bm.id !== "dark" && SW.ready && (S.labels || S.roads) ? ". " + esc(LABEL_ATTR) : "") +
+    '<div class="sec-h"><span class="k">Mapa</span></div><p class="pad note">' + bm.attr + (bm.id !== "dark" && (S.labels || S.roads) ? ". " + esc(LABEL_ATTR) : "") +
     ". Luzes noturnas: NASA Black Marble. Base: NASA Blue Marble. Contornos: Natural Earth.</p>" +
     '<div class="sec-h"><span class="k">Outros mapas ao vivo · abrem na fonte</span></div>' +
     LIVE_MAPS.map((d) => '<a class="dir" href="' + esc(d.url) + '" target="_blank" rel="noopener noreferrer"><span class="tx">' + esc(d.n) + "<small>" + esc(d.what) + "</small></span>" + ARROW + "</a>").join("") +
@@ -2879,7 +2957,7 @@ function renderAttrib() {
   const el = $("#attrib");
   if (!el) return;
   const bm = BASEMAP_BY[S.basemap] || BASEMAPS[0], parts = [bm.attr];
-  if (bm.id !== "dark" && SW.ready && (S.labels || S.roads)) parts.push(esc(LABEL_ATTR));
+  if (bm.id !== "dark" && (S.labels || S.roads)) parts.push(esc(LABEL_ATTR));
   if (S.layers.windy && WINDY.key) parts.push('Webcams: <a href="https://www.windy.com/" target="_blank" rel="noopener noreferrer">windy.com</a>');
   setHTML(el, parts.join(" · "));
 }
@@ -2969,19 +3047,13 @@ function submitSearch() {
 /* =========================================================================
    11. LIGAÇÕES DE EVENTOS E INICIALIZAÇÃO
    ========================================================================= */
-// service worker dos mapas (rótulos e ruas por cima do satélite); só em https ou localhost
-const SW = { ok: false, ready: false };
-function setupSW() {
-  const secure = location.protocol === "https:" || /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-  if (!("serviceWorker" in navigator) || !secure) return;
-  SW.ok = true;
-  SW.ready = !!navigator.serviceWorker.controller;
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    if (SW.ready) return;
-    SW.ready = true;
-    applyBasemap(); renderLayers();
-  });
-  navigator.serviceWorker.register("sw.js").catch((e) => { SW.ok = false; console.warn("[olho] service worker indisponível:", e); renderLayers(); });
+// A v3.0 usava um service worker para juntar rótulos e foto; ele travava a página em
+// computadores lentos. Agora as camadas são desenhadas pelo globo: remove o antigo.
+function dropOldSW() {
+  try {
+    if (!("serviceWorker" in navigator)) return;
+    navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.unregister())).catch(() => {});
+  } catch (e) { /* navegador sem service worker */ }
 }
 function openCamsTab() {
   if (NARROW.matches) { if (S.sheet !== "cams") setSheet("cams"); return; }
@@ -3171,7 +3243,7 @@ function bootFail(err) {
   $("#boot").appendChild(b);
 }
 async function boot() {
-  drawStars(); wire(); setupSW(); renderLayers(); renderFeed(); renderFooter(); tickClock();
+  drawStars(); wire(); dropOldSW(); renderLayers(); renderFeed(); renderFooter(); tickClock();
   setInterval(tickClock, 1000);
   const satP = loadScript(LIBS.sat).then(() => !!window.satellite, () => false);
   try {
@@ -3192,7 +3264,7 @@ async function boot() {
   if (h) selectPlace(h[0], h[1], {}, true);
   setTimeout(checkOffline, 9000);
   // gancho de depuração: abra com ?debug no fim do endereço
-  if (/[?&]debug\b/.test(location.search)) window.__olho = { S, ISS, CAMS, GRID, SW, select, selectPlace, pickAt, screenToGlobe, camRef, applyBasemap, flyTo, stopInertia, globe: () => globe, engine: () => ENGINE };
+  if (/[?&]debug\b/.test(location.search)) window.__olho = { S, ISS, CAMS, GRID, OVL, select, selectPlace, pickAt, screenToGlobe, camRef, applyBasemap, flyTo, stopInertia, globe: () => globe, engine: () => ENGINE };
 }
 boot();
 })();

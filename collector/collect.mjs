@@ -9,7 +9,9 @@
 //      data/cams/c/N.js    detalhes (nome, endereços de imagem/vídeo), 1000 por arquivo
 //      data/cams/report.json  relatório da coleta
 //
-// Uso: node collector/collect.mjs --out site/data/cams --cache collector/.cache [--only id1,id2] [--no-seed]
+// Uso: node collector/collect.mjs --out site/data/cams --cache collector/.cache [--only id1,id2] [--no-seed] [--offline]
+// --offline: não consulta as fontes, remonta o banco com a última coleta guardada (para
+// publicar só uma mudança do site sem esperar a coleta inteira).
 import { mkdir, writeFile, readFile, rm } from "node:fs/promises";
 import { join } from "node:path";
 import { countryAt } from "./lib/countries.mjs";
@@ -29,6 +31,7 @@ const OUT = args.out || "site/data/cams", CACHE = args.cache || "collector/.cach
 const ONLY = args.only ? new Set(String(args.only).split(",")) : null;
 // prazo das fontes diretas (minutos): depois dele, quem não respondeu entra com a última coleta boa
 const DEADLINE = Date.now() + (Number(args.deadline) || 38) * 60000;
+const OFFLINE = !!args.offline;
 const CHUNK = 1000;
 export const TYPES = ["trafego", "clima", "cidade", "natureza", "praia", "montanha", "rio", "porto", "aviacao", "vulcao", "ciencia", "fauna", "fronteira", "ferrovia", "ceu", "portal"];
 const T0 = Date.now();
@@ -79,6 +82,11 @@ function withTimeout(p, ms) {
 async function runSource(src) {
   const t = Date.now(), warns = [];
   const rec = { id: src.id, name: src.name, org: src.org, cc: src.country || "", home: src.home, lic: src.lic, attr: src.attr, type: src.type, live: src.live };
+  if (OFFLINE) {
+    const cached = (await readCache(src.id)) || [];
+    Object.assign(rec, { ok: cached.length > 0, from: "cache", n: cached.length, ms: 0, warns: ["modo rápido: última coleta guardada"] });
+    return [rec, cached];
+  }
   try {
     const left = DEADLINE - Date.now();
     if (left < 5000) throw new Error("sem tempo nesta coleta (prazo geral esgotado)");

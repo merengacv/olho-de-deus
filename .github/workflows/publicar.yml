@@ -37,6 +37,24 @@ jobs:
         with:
           node-version: 22
 
+      # Mudança só no site (sem mexer nas fontes): remonta o banco com a última coleta
+      # guardada, em minutos, em vez de consultar todas as fontes de novo.
+      - name: Coleta completa ou rápida?
+        id: modo
+        env:
+          ANTES: ${{ github.event.before }}
+        run: |
+          modo=completo
+          if [ "${{ github.event_name }}" = "push" ] && [ -n "$ANTES" ]; then
+            git fetch -q --depth=1 origin "$ANTES" 2>/dev/null || true
+            if git diff --name-only "$ANTES" HEAD > /tmp/mudou.txt 2>/dev/null; then
+              cat /tmp/mudou.txt
+              grep -qE '^collector/(sources|lib)/' /tmp/mudou.txt || modo=rapido
+            fi
+          fi
+          echo "modo=$modo" >> "$GITHUB_OUTPUT"
+          echo "modo: $modo"
+
       - name: Recuperar a última coleta boa
         uses: actions/cache/restore@v4
         with:
@@ -45,7 +63,7 @@ jobs:
           restore-keys: coleta-
 
       - name: Coletar câmeras
-        run: node --max-old-space-size=6144 collector/collect.mjs --out site/data/cams --cache collector/.cache --deadline 36
+        run: node --max-old-space-size=6144 collector/collect.mjs --out site/data/cams --cache collector/.cache --deadline 36 ${{ steps.modo.outputs.modo == 'rapido' && '--offline' || '' }}
 
       - name: Guardar esta coleta
         if: always()
