@@ -1,61 +1,149 @@
 {
-  "probes": [
-    { "id": "eox_s2_2025_z0", "url": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2025_3857/default/g/0/0/0.jpg" },
-    { "id": "eox_s2_2025_z3", "url": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2025_3857/default/g/3/4/2.jpg" },
-    { "id": "eox_s2_2025_z14_sp", "url": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2025_3857/default/g/14/9295/6069.jpg" },
-    { "id": "eox_s2_2025_z16_sp", "url": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2025_3857/default/g/16/37181/24279.jpg" },
-    { "id": "eox_s2_2024_z3", "url": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/3/4/2.jpg" },
-    { "id": "eox_blackmarble_z2", "url": "https://tiles.maps.eox.at/wmts/1.0.0/blackmarble_3857/default/g/2/1/1.jpg" },
-    { "id": "eox_overlay_bright_z3", "url": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_bright_3857/default/g/3/4/2.png" },
-    { "id": "gibs_viirs_tc_z2", "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-10-12/GoogleMapsCompatible_Level9/2/1/1.jpg" },
-    { "id": "gibs_noaa20_tc_z2", "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_NOAA20_CorrectedReflectance_TrueColor/default/2026-10-12/GoogleMapsCompatible_Level9/2/1/1.jpg" },
-    { "id": "gibs_modis_terra_z2", "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2026-10-12/GoogleMapsCompatible_Level9/2/1/1.jpg" },
-    { "id": "gibs_bmng_default", "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/default/GoogleMapsCompatible_Level8/2/1/1.jpeg" },
-    { "id": "gibs_bmng_notime", "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_NextGeneration/default/GoogleMapsCompatible_Level8/2/1/1.jpeg" },
-    { "id": "gibs_blackmarble_2016", "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_Black_Marble/default/2016-01-01/GoogleMapsCompatible_Level8/2/1/1.png" },
-    { "id": "gibs_citylights_2012", "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_CityLights_2012/default/default/GoogleMapsCompatible_Level8/2/1/1.jpg" },
-    { "id": "esri_public_z2", "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/2/1/1" },
-    { "id": "esri_ibasemaps_nokey", "url": "https://ibasemaps-api.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/2/1/1" },
-    { "id": "jsd_night", "url": "https://cdn.jsdelivr.net/npm/three-globe@2.45.4/example/img/earth-night.jpg" },
-    { "id": "jsd_bluemarble", "url": "https://cdn.jsdelivr.net/npm/three-globe@2.45.4/example/img/earth-blue-marble.jpg" },
-    { "id": "jsd_hls", "url": "https://cdn.jsdelivr.net/npm/hls.js@1.6.15/dist/hls.min.js", "head": 80 },
-
-    { "id": "windy_list", "windy": true, "url": "https://api.windy.com/webcams/api/v3/webcams?limit=3&include=location,player,urls,categories&lang=pt", "full": true },
-    { "id": "windy_br", "windy": true, "url": "https://api.windy.com/webcams/api/v3/webcams?limit=2&countries=BR&include=location,player,urls,categories", "full": true },
-    { "id": "windy_countries", "windy": true, "url": "https://api.windy.com/webcams/api/v3/countries?lang=pt", "full": true },
-    { "id": "windy_categories", "windy": true, "url": "https://api.windy.com/webcams/api/v3/categories?lang=pt", "full": true },
-    { "id": "windy_bbox_sa", "windy": true, "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&bbox=6,-34,-34,-74" },
-    { "id": "windy_bbox_world", "windy": true, "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&bbox=90,180,-90,-180" },
-    { "id": "windy_offset_1000", "windy": true, "url": "https://api.windy.com/webcams/api/v3/webcams?limit=50&offset=1000" },
-    { "id": "windy_offset_1050", "windy": true, "url": "https://api.windy.com/webcams/api/v3/webcams?limit=50&offset=1050" },
-    { "id": "windy_player", "url": "https://webcams.windy.com/webcams/public/embed/player/1249392511/day", "head": 400 },
-
-    { "id": "yt_nocookie", "url": "https://www.youtube-nocookie.com/embed/7Z9B3wFXndc", "head": 120 },
-    { "id": "cetsp_img", "url": "https://cameras.cetsp.com.br/Cams/180/1.jpg" },
-    { "id": "recife_snap", "url": "https://transito-recife.serttel.com.br/Index?handler=Snapshot&Codigo=158" },
-    { "id": "hls_caltrans", "url": "https://wzmedia.dot.ca.gov/D1/eureka_4th_r_320x240.stream/playlist.m3u8", "text": true },
-    { "id": "hls_ny511", "url": "https://s52.nysdot.skyvdn.com/rtplive/R5_011/playlist.m3u8", "text": true },
-    { "id": "hls_cotrip", "url": "https://publicstreamer1.cotrip.org:443/rtplive/025N16690CAM1RHS/playlist.m3u8", "text": true },
-    { "id": "hls_mndot", "url": "https://video.dot.state.mn.us/public/C30509.stream/playlist.m3u8", "text": true },
-    { "id": "hls_vdot", "url": "https://media-sfs1.vdotcameras.com/rtplive/FairfaxVideo0240/playlist_sfm4s.m3u8", "text": true },
-    { "id": "hls_istanbul", "url": "https://601a55c88ec6d.streamlock.net/hls/10.stream/playlist.m3u8", "text": true },
-    { "id": "hls_seoul", "url": "https://topiscctv1.eseoul.go.kr/edge6/ch1.stream/playlist.m3u8", "text": true },
-    { "id": "hls_ipcamlive", "url": "https://s37.ipcamlive.com/streams/25xik6vwmjhsainuj/stream.m3u8", "text": true },
-    { "id": "iframe_balitower", "url": "https://cctv.balitower.co.id/Ancol-001-701002_1/embed.html", "head": 200 },
-    { "id": "iframe_tvkur", "url": "https://player.tvkur.com/l/cin6kl9aojt0t6459qmg", "head": 200 },
-    { "id": "iframe_rtspme", "url": "https://rtsp.me/embed/4SEFEEBA/", "head": 200 },
-    { "id": "img_ibi511", "url": "https://prod-ut.ibi511.com/map/Cctv/100858" },
-    { "id": "img_511ga", "url": "https://511ga.org/map/Cctv/11139" },
-    { "id": "img_hk", "url": "https://tdcctv.data.one.gov.hk/AID01101.JPG" },
-
-    { "id": "overpass_webcam_br", "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3Bnwr%5B%22contact%3Awebcam%22%5D(-34,-74,6,-34)%3Bout%20center%2010%3B", "json": true, "full": true, "timeout": 70000 },
-    { "id": "overpass_count_world", "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A120%5D%3B(nwr%5B%22contact%3Awebcam%22%5D%3Bnwr%5B%22webcam%22%5D%3Bnwr%5B%22surveillance%3Atype%22%3D%22webcam%22%5D%3B)%3Bout%20count%3B", "json": true, "full": true, "timeout": 130000 },
-
-    { "id": "cetsp_home", "url": "https://www.cetsp.com.br/", "grep": ["[^\"'<> ]*(camera|cams?)[^\"'<> ]*"], "head": 300 },
-    { "id": "cetsp_transito_agora", "url": "https://www.cetsp.com.br/transito-agora/transito-nas-principais-vias.aspx", "grep": ["Cams/\\d+/\\d\\.jpg", "[^\"'<> ]*(camera|cams?)[^\"'<> ]*"], "head": 300 },
-    { "id": "climaaovivo_home", "url": "https://www.climaaovivo.com.br/", "grep": ["href=\"[^\"]+\"", "[^\"'<> ]*(snapshot|cam|camera)[^\"'<> ]*"], "head": 300, "grepMax": 60 },
-    { "id": "vejoaovivo_home", "url": "https://vejoaovivo.com.br/", "grep": ["href=\"[^\"]+\"", "[^\"'<> ]*(api|json|camera|cam)[^\"'<> ]*"], "head": 300, "grepMax": 60 },
-    { "id": "der_sp_home", "url": "https://www.der.sp.gov.br/", "grep": ["[^\"'<> ]*(camera|cameras|cam)[^\"'<> ]*"], "head": 200 },
-    { "id": "quebec_ckan", "url": "https://www.donneesquebec.ca/recherche/api/3/action/package_search?q=cam%C3%A9ras%20de%20circulation&rows=5", "json": true, "full": true }
-  ]
+ "probes": [
+  {
+   "id": "windy_ref_root",
+   "windy": true,
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=2&include=location,player,urls,categories",
+   "headers": {
+    "Referer": "https://merengacv.github.io/"
+   },
+   "full": true
+  },
+  {
+   "id": "windy_ref_path",
+   "windy": true,
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=2&include=location,player,urls,categories",
+   "headers": {
+    "Referer": "https://merengacv.github.io/olho-de-deus/"
+   },
+   "full": true
+  },
+  {
+   "id": "windy_no_origin",
+   "windy": true,
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=2",
+   "headers": {
+    "Origin": ""
+   },
+   "full": true
+  },
+  {
+   "id": "windy_origin_ref",
+   "windy": true,
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=2",
+   "headers": {
+    "Referer": "https://merengacv.github.io/olho-de-deus/index.html",
+    "Origin": "https://merengacv.github.io"
+   },
+   "full": true
+  },
+  {
+   "id": "cetsp_cameras",
+   "url": "https://www.cetsp.com.br/consultas/cameras-cet.aspx",
+   "grep": [
+    "Cams/\\d+/\\d+\\.jpg",
+    "[^\"'<>]{0,80}Cams/\\d+[^\"'<>]{0,80}",
+    "<option[^>]*>[^<]{0,80}",
+    "[^\"'<> ]*\\.(aspx|ashx|json)[^\"'<> ]*"
+   ],
+   "grepMax": 80,
+   "head": 1500
+  },
+  {
+   "id": "dersp_map",
+   "url": "https://dersp.der.sp.gov.br/WebSite/Servicos/ServicosOnline/CamerasOnlineMapa.aspx",
+   "grep": [
+    "[^\"'<> ]*\\.(m3u8|json|ashx|asmx|js)[^\"'<> ]*",
+    "-?\\d{1,2}\\.\\d{4,}\\s*,\\s*-?\\d{1,3}\\.\\d{4,}",
+    "[Ll]at[^,;]{0,40}",
+    "nip\\.io[^\"'<> ]*"
+   ],
+   "grepMax": 60,
+   "head": 1500
+  },
+  {
+   "id": "quebec_geojson",
+   "url": "https://ws.mapserver.transports.gouv.qc.ca/swtq?service=wfs&version=2.0.0&request=getfeature&typename=ms:infos_cameras&outfile=Camera&srsname=EPSG:4326&outputformat=geojson",
+   "json": true,
+   "head": 2500,
+   "timeout": 60000
+  },
+  {
+   "id": "overpass_kumi_count",
+   "url": "https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A170%5D%3B(nwr%5B%22contact%3Awebcam%22%5D%3Bnwr%5B%22webcam%22%5D%3B)%3Bout%20count%3B",
+   "json": true,
+   "full": true,
+   "timeout": 180000
+  },
+  {
+   "id": "overpass_eu_box",
+   "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A170%5D%3B(nwr%5B%22contact%3Awebcam%22%5D(35,-12,72,45)%3Bnwr%5B%22webcam%22%5D(35,-12,72,45)%3B)%3Bout%20count%3B",
+   "json": true,
+   "full": true,
+   "timeout": 180000
+  },
+  {
+   "id": "cav_city",
+   "url": "https://www.climaaovivo.com.br/sp/ubatuba",
+   "grep": [
+    "href=\"/[a-z]{2}/[^\"]+\"",
+    "[^\"'<> ]*(snapshot|camera|/cam/|stream|m3u8)[^\"'<> ]*"
+   ],
+   "grepMax": 60,
+   "head": 400
+  },
+  {
+   "id": "cav_cameras",
+   "url": "https://www.climaaovivo.com.br/cameras",
+   "grep": [
+    "href=\"/[a-z]{2}/[^\"]+\"",
+    "href=\"[^\"]*camera[^\"]*\""
+   ],
+   "grepMax": 60,
+   "head": 400
+  },
+  {
+   "id": "vejoaovivo_www",
+   "url": "https://www.vejoaovivo.com.br/",
+   "grep": [
+    "href=\"[^\"]+\"",
+    "[^\"'<> ]*(api|json|m3u8|camera|/cam)[^\"'<> ]*"
+   ],
+   "grepMax": 60,
+   "head": 400
+  },
+  {
+   "id": "santoandre_cam",
+   "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_553",
+   "grep": [
+    "[^\"'<> ]*\\.(m3u8|jpg|jpeg|mjpg|png|json)[^\"'<> ]*",
+    "<iframe[^>]+>",
+    "<img[^>]+>",
+    "<video[^>]+>"
+   ],
+   "grepMax": 40,
+   "head": 800
+  },
+  {
+   "id": "santoandre_root",
+   "url": "https://cameras.santoandre.sp.gov.br/",
+   "grep": [
+    "ID_\\d+",
+    "href=\"[^\"]+\"",
+    "[^\"'<> ]*\\.(m3u8|jpg|json)[^\"'<> ]*"
+   ],
+   "grepMax": 80,
+   "head": 800
+  },
+  {
+   "id": "faa_root",
+   "url": "https://weathercams.faa.gov/",
+   "grep": [
+    "[^\"'<> ]*api[^\"'<> ]*",
+    "[^\"'<> ]*\\.js[^\"'<> ]*"
+   ],
+   "grepMax": 40,
+   "head": 300
+  }
+ ]
 }
