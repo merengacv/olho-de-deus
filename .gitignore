@@ -1,6 +1,7 @@
 node_modules/
 out/
-site/
+rel/
+site/data/
 collector/.cache/
 *.log
 .DS_Store

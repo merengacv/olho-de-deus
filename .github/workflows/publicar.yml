@@ -1,0 +1,91 @@
+# Robô diário: coleta as câmeras de todas as fontes, grava o relatório no ramo
+# "relatorio" e publica o site no GitHub Pages.
+name: Coletar câmeras e publicar
+
+on:
+  schedule:
+    - cron: "23 7 * * *" # todo dia às 04:23 (Brasília)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - collector/**
+      - site/**
+      - .github/workflows/publicar.yml
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    outputs:
+      site: ${{ steps.site.outputs.ok }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Recuperar a última coleta boa
+        uses: actions/cache/restore@v4
+        with:
+          path: collector/.cache
+          key: coleta-${{ github.run_id }}
+          restore-keys: coleta-
+
+      - name: Coletar câmeras
+        run: node --max-old-space-size=6144 collector/collect.mjs --out site/data/cams --cache collector/.cache
+
+      - name: Guardar esta coleta
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: collector/.cache
+          key: coleta-${{ github.run_id }}
+
+      - name: Relatório no ramo "relatorio"
+        if: always()
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p rel
+          cp site/data/cams/report.json rel/ 2>/dev/null || echo '{"erro":"sem relatorio"}' > rel/report.json
+          cp site/data/cams/meta.js rel/ 2>/dev/null || true
+          cd rel
+          git init -q -b relatorio
+          git config user.name "olho-robo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "relatorio $(date -u +%FT%TZ)"
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" relatorio
+
+      - name: O site existe?
+        id: site
+        run: test -f site/index.html && echo "ok=true" >> "$GITHUB_OUTPUT" || echo "ok=false" >> "$GITHUB_OUTPUT"
+
+      - name: Empacotar o site
+        if: steps.site.outputs.ok == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  publicar:
+    needs: coletar
+    if: needs.coletar.outputs.site == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Publicar no GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
