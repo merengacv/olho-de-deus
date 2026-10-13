@@ -32,7 +32,8 @@ for (const s of spec.pages || spec) {
       const row = { u: redact(u.slice(0, 400)), t: type, s: r.status(), ct: ct.slice(0, 60), m: req.method() };
       if (req.method() === "POST") row.post = redact((req.postData() || "").slice(0, 600));
       rec.requests.push(row);
-      const interesting = ["xhr", "fetch", "document", "script"].includes(type) && /json|xml|text|javascript/.test(ct);
+      // scripts só quando a página pede (é onde moram chaves e o envio ao GitHub pode ser barrado)
+      const interesting = (["xhr", "fetch", "document"].includes(type) || (type === "script" && s.scripts)) && /json|xml|text|javascript/.test(ct);
       if (interesting && r.status() < 400 && n < (s.maxBodies || 25)) {
         const body = await r.text().catch(() => "");
         if (body && (type !== "script" || MEDIA.test(body.slice(0, 200000)))) {

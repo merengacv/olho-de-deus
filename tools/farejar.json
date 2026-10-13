@@ -1,308 +1,182 @@
 {
  "pages": [
   {
-   "id": "br-arteris",
-   "url": "https://www.arteris.com.br/",
+   "id": "br-tamoios-cams",
+   "url": "https://www23.concessionariatamoios.com.br/cameras",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "br-rotabandeiras",
-   "url": "https://www.rotadasbandeiras.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-entrevias",
-   "url": "https://www.entrevias.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-eixosp",
-   "url": "https://www.eixosp.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-eprcafe",
-   "url": "https://www.eprviasdocafe.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-viario",
-   "url": "https://www.viario.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-renovias",
-   "url": "https://renovias.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-triangulosol",
-   "url": "https://www.triangulodosol.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-tiete",
-   "url": "https://www.rodoviasdotiete.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-colinas",
-   "url": "https://www.rodoviasdascolinas.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-tebe",
-   "url": "https://www.tebe.com.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-viabahia",
-   "url": "https://www.viabahia.com.br/",
+   "id": "br-santos-aovivo",
+   "url": "https://www.santos.sp.gov.br/santosaovivo",
    "wait": 12000,
    "scroll": true
   },
   {
    "id": "br-rotaoeste",
-   "url": "https://www.rotadooeste.com.br/",
+   "url": "https://novarotadooeste.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "br-tamoios2",
-   "url": "https://www.concessionariatamoios.com.br/",
+   "id": "br-arteris-fernao",
+   "url": "https://www.arteris.com.br/nossas-rodovias/autopista-fernao-dias/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "br-cor-rio",
-   "url": "https://cor.rio/",
+   "id": "br-arteris-regis",
+   "url": "https://www.arteris.com.br/nossas-rodovias/autopista-regis-bittencourt/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "br-emdec",
-   "url": "https://www.emdec.com.br/",
+   "id": "br-viaaraucaria",
+   "url": "https://www.viaaraucaria.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "br-santos",
-   "url": "https://www.santos.sp.gov.br/",
+   "id": "br-eprlitoral",
+   "url": "https://www.eprlitoralpioneiro.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "br-appa",
-   "url": "https://www.appa.pr.gov.br/",
+   "id": "br-csg",
+   "url": "https://www.caminhosdaserragaucha.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "br-bc",
-   "url": "https://www.bc.sc.gov.br/",
+   "id": "br-rotamogiana",
+   "url": "https://rotamogiana.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "ar-ausa",
-   "url": "https://www.ausa.com.ar/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "ar-ausol",
-   "url": "https://www.ausol.com.ar/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "ar-corredores",
-   "url": "https://www.corredoresviales.com.ar/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "ar-pasos",
-   "url": "https://www.argentina.gob.ar/seguridad/pasosinternacionales",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "cl-uoct",
-   "url": "https://www.uoct.cl/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "cl-pasos",
-   "url": "https://www.pasosfronterizos.gov.cl/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "cl-costanera",
-   "url": "https://www.costaneranorte.cl/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "cl-autopistacentral",
-   "url": "https://www.autopistacentral.cl/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "cl-sernageomin",
-   "url": "https://rnvv.sernageomin.cl/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "pe-igp",
-   "url": "https://ovs.igp.gob.pe/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "pe-rutaslima",
-   "url": "https://www.rutasdelima.pe/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "uy-montevideo",
-   "url": "https://montevideo.gub.uy/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "mx-cenapred",
-   "url": "https://www.gob.mx/cenapred",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "mx-capufe",
-   "url": "https://www.gob.mx/capufe",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "co-sgc",
-   "url": "https://www2.sgc.gov.co/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "co-simur",
-   "url": "https://www.simur.gov.co/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "ec-igepn",
-   "url": "https://www.igepn.edu.ec/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "gt-insivumeh",
-   "url": "https://insivumeh.gob.gt/",
-   "wait": 12000,
-   "scroll": true,
-   "locale": "es-ES"
-  },
-  {
-   "id": "dk-vd",
-   "url": "https://trafikkort.vejdirektoratet.dk/",
+   "id": "br-viabrasil163",
+   "url": "https://viabrasilbr163.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "hr-hak",
-   "url": "https://www.hak.hr/info/kamere/",
+   "id": "br-rota116",
+   "url": "https://www.rota116.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "si-promet",
-   "url": "https://www.promet.si/sl/kamere",
+   "id": "br-cart",
+   "url": "https://www.cart.invepar.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "rs-putevi",
-   "url": "https://www.putevi-srbije.rs/index.php/kamere",
+   "id": "br-alertablu",
+   "url": "https://alertablu.blumenau.sc.gov.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "hu-utinform",
-   "url": "https://www.utinform.hu/",
+   "id": "br-derdf",
+   "url": "https://www.der.df.gov.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "mk-amsm",
-   "url": "https://amsm.mk/",
+   "id": "br-joinville",
+   "url": "https://www.joinville.sc.gov.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "th-bma",
-   "url": "https://bmatraffic.com/",
+   "id": "br-climaaovivo",
+   "url": "https://www.climaaovivo.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "il-ayalon",
-   "url": "https://www.ayalonhw.co.il/",
+   "id": "br-portosantos",
+   "url": "https://www.portodesantos.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "id-magma",
-   "url": "https://magma.esdm.go.id/v1/gunung-api/cctv",
+   "id": "br-cataratas",
+   "url": "https://cataratasdoiguacu.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "ph-phivolcs",
-   "url": "https://www.phivolcs.dost.gov.ph/",
+   "id": "br-bondinho",
+   "url": "https://bondinho.com.br/",
    "wait": 12000,
    "scroll": true
   },
   {
-   "id": "nz-geonet",
-   "url": "https://www.geonet.org.nz/volcano/cameras",
+   "id": "br-bhtrans",
+   "url": "https://prefeitura.pbh.gov.br/bhtrans",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-eptc",
+   "url": "https://prefeitura.poa.br/eptc",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-transalvador",
+   "url": "http://www.transalvador.salvador.ba.gov.br/",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-feira",
+   "url": "https://www.feiradesantana.ba.gov.br/",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-artesp",
+   "url": "https://www.artesp.sp.gov.br/",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-derpr",
+   "url": "https://www.der.pr.gov.br/",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-dermg",
+   "url": "https://www.der.mg.gov.br/",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-defesacivilsc",
+   "url": "https://www.defesacivil.sc.gov.br/",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-itaipu",
+   "url": "https://www.itaipu.gov.br/",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-curitiba",
+   "url": "https://www.curitiba.pr.gov.br/",
+   "wait": 12000,
+   "scroll": true
+  },
+  {
+   "id": "br-floripa",
+   "url": "https://www.pmf.sc.gov.br/",
    "wait": 12000,
    "scroll": true
   }
