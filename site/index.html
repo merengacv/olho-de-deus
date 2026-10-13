@@ -1951,7 +1951,8 @@ async function windyFetch(path, params) {
   try {
     let r;
     try { r = await fetch(url, { headers: { "x-windy-api-key": WINDY.key }, credentials: "omit", signal: ctl ? ctl.signal : undefined }); }
-    catch (e) { throw new NetErr(e && e.name === "AbortError" ? "timeout" : "network", e && e.name === "AbortError" ? "tempo esgotado" : "o Windy recusou a conexão (verifique se este endereço está autorizado na chave)"); }
+    // o Windy responde "domínio não autorizado" sem cabeçalho CORS: o navegador só vê uma falha de rede
+    catch (e) { throw new NetErr(e && e.name === "AbortError" ? "timeout" : "auth", e && e.name === "AbortError" ? "tempo esgotado" : "o Windy recusou a consulta deste endereço (" + location.hostname + " precisa estar autorizado na chave)"); }
     if (r.status === 401 || r.status === 403) {
       let msg = "";
       try { msg = (await r.json()).message || ""; } catch (e) { /* sem corpo */ }

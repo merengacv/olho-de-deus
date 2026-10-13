@@ -82,8 +82,17 @@ async function runSource(src) {
   try {
     const left = DEADLINE - Date.now();
     if (left < 5000) throw new Error("sem tempo nesta coleta (prazo geral esgotado)");
-    const raw = await withTimeout(src.run({ warn: (m) => warns.push(m) }), Math.min(src.timeout || 15 * 60000, left));
+    // ctx.partial: regiões que falharam hoje (a fonte devolve só parte); delas fica a coleta anterior
+    const ctx = { warn: (m) => warns.push(m), partial: [] };
+    const raw = await withTimeout(src.run(ctx), Math.min(src.timeout || 15 * 60000, left));
     const cams = (raw || []).map((c) => norm(c, src)).filter(Boolean);
+    if (ctx.partial.length) {
+      const old = (await readCache(src.id)) || [], ids = new Set(cams.map((c) => c.id));
+      const inBox = (c) => ctx.partial.some(([so, we, no, ea]) => c.lat >= so && c.lat <= no && c.lng >= we && c.lng <= ea);
+      let added = 0;
+      for (const c of old) if (!ids.has(c.id) && inBox(c)) { cams.push(c); added++; }
+      if (added) warns.push(`${added} câmeras de regiões que falharam vieram da coleta anterior`);
+    }
     if (!cams.length) throw new Error("nenhuma câmera válida na resposta");
     await writeCache(src.id, cams);
     Object.assign(rec, { ok: true, from: "origem", n: cams.length, ms: Date.now() - t, warns: warns.slice(0, 5), sample: cams.slice(0, 2) });
@@ -111,9 +120,15 @@ async function main() {
     }
   }));
 
-  const sources = [], all = [], covered = new Set();
+  // Fontes "agregadoras" (OpenStreetMap, Wikidata) têm um punhado de câmeras de cada
+  // site: não servem para dizer que um site inteiro já foi lido, e só entram onde
+  // ainda não houver câmera (vêm por último).
+  const sources = [], all = [], covered = new Set(), later = [];
+  const cell = (c) => Math.round(c.lat * 4500) + ":" + Math.round(c.lng * 4500);
   for (const [rec, cams] of results) {
     sources.push(rec);
+    const src = SOURCES.find((x) => x.id === rec.id) || {};
+    if (src.aggregate) { later.push([rec, cams]); continue; }
     for (const c of cams) { all.push(c); covered.add(hostKey(mediaOf(c))); }
   }
 
@@ -122,7 +137,6 @@ async function main() {
     try {
       const bySrc = await loadSeed(log);
       // pontos já cobertos por fontes diretas (células de ~25 m): a mesma câmera com outro endereço
-      const cell = (c) => Math.round(c.lat * 4500) + ":" + Math.round(c.lng * 4500);
       const taken = new Set(all.map(cell));
       let used = 0, dropped = 0, samePoint = 0;
       for (const [src, cams] of bySrc) {
@@ -147,6 +161,16 @@ async function main() {
     } catch (e) {
       log("semente falhou: " + e.message);
       sources.push({ id: "s-erro", name: "Catálogo-semente", ok: false, err: e.message, n: 0 });
+    }
+  }
+
+  // ---------- agregadoras: só onde ainda não há câmera ----------
+  {
+    const taken = new Set(all.map(cell));
+    for (const [rec, cams] of later) {
+      let kept = 0;
+      for (const c of cams) { const k = cell(c); if (taken.has(k)) continue; taken.add(k); all.push(c); kept++; }
+      rec.kept = kept;
     }
   }
 

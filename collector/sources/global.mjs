@@ -20,7 +20,7 @@ const BOXES = [
 
 export default [
   { id: "osm", name: "OpenStreetMap — webcams", org: "Colaboradores do OpenStreetMap", country: "", type: "cidade", home: "https://www.openstreetmap.org/", attr: "© colaboradores do OpenStreetMap", lic: "ODbL 1.0",
-    timeout: 14 * 60000,
+    timeout: 14 * 60000, aggregate: true,
     run: async (ctx) => {
       const out = new Map(), errs = [], t0 = Date.now(), BUDGET = 12 * 60000;
       const take = (j) => {
@@ -36,7 +36,7 @@ export default [
       const ask = (ep, q, ms) => fetchJSON(ep, { method: "POST", body: new URLSearchParams({ data: q }), headers: { "Content-Type": "application/x-www-form-urlencoded" }, timeout: ms, retries: 0 });
       // 1) o planeta inteiro numa consulta só (o índice por chave do Overpass costuma dar conta)
       const global = `[out:json][timeout:280];(nwr["contact:webcam"];nwr["webcam"];);out center tags;`;
-      try { take(await Promise.any(OVERPASS.slice(0, 2).map((ep) => ask(ep, global, 300000)))); }
+      try { take(await Promise.any(OVERPASS.map((ep) => ask(ep, global, 300000)))); }
       catch (e) { errs.push("global: " + (e.errors ? e.errors.map((x) => x.message).join(" / ") : e.message)); }
       // 2) se não veio, por regiões, três de cada vez, até o prazo
       if (!out.size) {
@@ -48,16 +48,17 @@ export default [
             for (let a = 0; a < OVERPASS.length && !ok && Date.now() - t0 < BUDGET; a++) {
               try { take(await ask(OVERPASS[(w + a) % OVERPASS.length], q, 150000)); ok = true; } catch (e) { errs.push(`${b}: ${e.message}`); }
             }
-            if (!ok) ctx.warn(`OSM: região ${b} falhou`);
+            if (!ok) { ctx.warn(`OSM: região ${b} falhou`); ctx.partial.push(b); }
           }
         }));
+        for (let j = k; j < BOXES.length; j++) ctx.partial.push(BOXES[j]); // sem tempo para estas
       }
       if (!out.size) throw new Error(errs.slice(0, 3).join(" | ") || "sem resposta do Overpass");
       if (errs.length) ctx.warn(errs.slice(0, 2).join(" | "));
       return [...out.values()];
     } },
 
-  { id: "wikidata", name: "Wikidata — webcams", org: "Colaboradores do Wikidata", country: "", type: "cidade", home: "https://www.wikidata.org/wiki/Property:P4238", attr: "Wikidata", lic: "CC0",
+  { id: "wikidata", name: "Wikidata — webcams", org: "Colaboradores do Wikidata", country: "", type: "cidade", home: "https://www.wikidata.org/wiki/Property:P4238", attr: "Wikidata", lic: "CC0", aggregate: true,
     run: async () => {
       const q = `SELECT ?i ?iLabel ?w ?coord WHERE { ?i wdt:P4238 ?w; wdt:P625 ?coord. SERVICE wikibase:label { bd:serviceParam wikibase:language "pt,en,es,fr,de,it,ja,ru,zh". } }`;
       const j = await fetchJSON("https://query.wikidata.org/sparql?format=json&query=" + encodeURIComponent(q), { accept: "application/sparql-results+json", timeout: 120000 });
