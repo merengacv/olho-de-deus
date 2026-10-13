@@ -40,11 +40,11 @@ const body = (start, length) => ({
 async function run(host) {
   const base = "https://" + host;
   const cams = [];
-  // páginas de 500 (alguns servidores falham ou cortam páginas maiores); para quando
-  // a página vem vazia ou só repete o que já veio
-  const PAGE = 500, seenRows = new Set();
+  // o servidor devolve no máximo 100 por página; para quando a página vem vazia ou
+  // só repete o que já veio
+  const PAGE = 100, seenRows = new Set();
   let start = 0, total = Infinity, guard = 0;
-  while (start < total && guard++ < 120) {
+  while (start < total && guard++ < 400) {
     const d = await fetchJSON(base + "/List/GetData/Cameras", { body: body(start, PAGE), timeout: 90000, headers: { Referer: base + "/cctv" } });
     const rows = d.data || [];
     total = Math.min(Number(d.recordsFiltered ?? d.recordsTotal ?? rows.length) || rows.length, 50000);

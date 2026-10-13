@@ -1,572 +1,80 @@
 {
  "probes": [
   {
-   "id": "ibi_fl_p0",
-   "url": "https://fl511.com/List/GetData/Cameras",
-   "method": "POST",
+   "id": "thb_cctv_thb",
+   "url": "https://168.thb.gov.tw/api/Cctvdata/thb",
    "noOrigin": true,
    "headers": {
-    "Referer": "https://fl511.com/cctv"
-   },
-   "body": {
-    "draw": 1,
-    "columns": [
-     {
-      "data": "sortId",
-      "name": "sortId",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     }
-    ],
-    "order": [
-     {
-      "column": 0,
-      "dir": "asc"
-     }
-    ],
-    "start": 0,
-    "length": 500,
-    "search": {
-     "value": "",
-     "regex": false
-    }
-   },
-   "grep": [
-    "\"recordsFiltered\":\\d+",
-    "\"DT_RowId\":\"?[^,\"]+"
-   ],
-   "grepMax": 5
+    "Referer": "https://168.thb.gov.tw/"
+   }
   },
   {
-   "id": "ibi_fl_p2000",
-   "url": "https://fl511.com/List/GetData/Cameras",
-   "method": "POST",
+   "id": "thb_cctv_freeway",
+   "url": "https://168.thb.gov.tw/api/Cctvdata/freeway",
    "noOrigin": true,
    "headers": {
-    "Referer": "https://fl511.com/cctv"
-   },
-   "body": {
-    "draw": 1,
-    "columns": [
-     {
-      "data": "sortId",
-      "name": "sortId",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     }
-    ],
-    "order": [
-     {
-      "column": 0,
-      "dir": "asc"
-     }
-    ],
-    "start": 2000,
-    "length": 500,
-    "search": {
-     "value": "",
-     "regex": false
-    }
-   },
-   "grep": [
-    "\"recordsFiltered\":\\d+",
-    "\"DT_RowId\":\"?[^,\"]+"
-   ],
-   "grepMax": 5
+    "Referer": "https://168.thb.gov.tw/"
+   }
   },
   {
-   "id": "ibi_fl_p4500",
-   "url": "https://fl511.com/List/GetData/Cameras",
-   "method": "POST",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://fl511.com/cctv"
-   },
-   "body": {
-    "draw": 1,
-    "columns": [
-     {
-      "data": "sortId",
-      "name": "sortId",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     }
-    ],
-    "order": [
-     {
-      "column": 0,
-      "dir": "asc"
-     }
-    ],
-    "start": 4500,
-    "length": 500,
-    "search": {
-     "value": "",
-     "regex": false
-    }
-   },
-   "grep": [
-    "\"recordsFiltered\":\\d+",
-    "\"DT_RowId\":\"?[^,\"]+"
-   ],
-   "grepMax": 5
-  },
-  {
-   "id": "ibi_ga_p2000",
-   "url": "https://511ga.org/List/GetData/Cameras",
-   "method": "POST",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://511ga.org/cctv"
-   },
-   "body": {
-    "draw": 1,
-    "columns": [
-     {
-      "data": "sortId",
-      "name": "sortId",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     }
-    ],
-    "order": [
-     {
-      "column": 0,
-      "dir": "asc"
-     }
-    ],
-    "start": 2000,
-    "length": 500,
-    "search": {
-     "value": "",
-     "regex": false
-    }
-   },
-   "grep": [
-    "\"recordsFiltered\":\\d+",
-    "\"DT_RowId\":\"?[^,\"]+"
-   ],
-   "grepMax": 5
-  },
-  {
-   "id": "ibi_ab_p0",
-   "url": "https://511.alberta.ca/List/GetData/Cameras",
-   "method": "POST",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://511.alberta.ca/cctv"
-   },
-   "body": {
-    "draw": 1,
-    "columns": [
-     {
-      "data": "sortId",
-      "name": "sortId",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     }
-    ],
-    "order": [
-     {
-      "column": 0,
-      "dir": "asc"
-     }
-    ],
-    "start": 0,
-    "length": 500,
-    "search": {
-     "value": "",
-     "regex": false
-    }
-   },
-   "grep": [
-    "\"recordsFiltered\":\\d+",
-    "\"DT_RowId\":\"?[^,\"]+"
-   ],
-   "grepMax": 5
-  },
-  {
-   "id": "ibi_ab_p0_100",
-   "url": "https://511.alberta.ca/List/GetData/Cameras",
-   "method": "POST",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://511.alberta.ca/cctv"
-   },
-   "body": {
-    "draw": 1,
-    "columns": [
-     {
-      "data": "sortId",
-      "name": "sortId",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     }
-    ],
-    "order": [
-     {
-      "column": 0,
-      "dir": "asc"
-     }
-    ],
-    "start": 0,
-    "length": 100,
-    "search": {
-     "value": "",
-     "regex": false
-    }
-   },
-   "grep": [
-    "\"recordsFiltered\":\\d+",
-    "\"DT_RowId\":\"?[^,\"]+"
-   ],
-   "grepMax": 5
-  },
-  {
-   "id": "ibi_ut_p2000",
-   "url": "https://udottraffic.utah.gov/List/GetData/Cameras",
-   "method": "POST",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://udottraffic.utah.gov/cctv"
-   },
-   "body": {
-    "draw": 1,
-    "columns": [
-     {
-      "data": "sortId",
-      "name": "sortId",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     }
-    ],
-    "order": [
-     {
-      "column": 0,
-      "dir": "asc"
-     }
-    ],
-    "start": 2000,
-    "length": 500,
-    "search": {
-     "value": "",
-     "regex": false
-    }
-   },
-   "grep": [
-    "\"recordsFiltered\":\\d+",
-    "\"DT_RowId\":\"?[^,\"]+"
-   ],
-   "grepMax": 5
-  },
-  {
-   "id": "cars_ia_z12",
-   "url": "https://www.511ia.org/api/graphql",
-   "method": "POST",
-   "noOrigin": true,
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 43.6,
-       "south": 40.3,
-       "east": -90.1,
-       "west": -96.7,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "grep": [
-    "\"uri\":\"camera/\\d+\"",
-    "camera/\\d+"
-   ],
-   "grepMax": 30
-  },
-  {
-   "id": "cars_ia_z8",
-   "url": "https://www.511ia.org/api/graphql",
-   "method": "POST",
-   "noOrigin": true,
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 43.6,
-       "south": 40.3,
-       "east": -90.1,
-       "west": -96.7,
-       "zoom": 8,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "grep": [
-    "\"uri\":\"camera/\\d+\"",
-    "camera/\\d+"
-   ],
-   "grepMax": 30
-  },
-  {
-   "id": "cars_ia_dm_z13",
-   "url": "https://www.511ia.org/api/graphql",
-   "method": "POST",
-   "noOrigin": true,
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 41.7,
-       "south": 41.5,
-       "east": -93.5,
-       "west": -93.75,
-       "zoom": 13,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "grep": [
-    "\"uri\":\"camera/\\d+\"",
-    "camera/\\d+"
-   ],
-   "grepMax": 30
-  },
-  {
-   "id": "cars_mn_z12",
-   "url": "https://511mn.org/api/graphql",
-   "method": "POST",
-   "noOrigin": true,
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 49.4,
-       "south": 43.4,
-       "east": -89.4,
-       "west": -97.3,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "grep": [
-    "\"uri\":\"camera/\\d+\"",
-    "camera/\\d+"
-   ],
-   "grepMax": 30
-  },
-  {
-   "id": "cars_mn_msp_z13",
-   "url": "https://511mn.org/api/graphql",
-   "method": "POST",
-   "noOrigin": true,
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 45.05,
-       "south": 44.9,
-       "east": -93.15,
-       "west": -93.35,
-       "zoom": 13,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "grep": [
-    "\"uri\":\"camera/\\d+\"",
-    "camera/\\d+"
-   ],
-   "grepMax": 30
-  },
-  {
-   "id": "cars_ma_z12",
-   "url": "https://mass511.com/api/graphql",
-   "method": "POST",
-   "noOrigin": true,
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 42.9,
-       "south": 41.2,
-       "east": -69.8,
-       "west": -73.6,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "grep": [
-    "\"uri\":\"camera/\\d+\"",
-    "camera/\\d+"
-   ],
-   "grepMax": 30
-  },
-  {
-   "id": "cars_ma_bos_z13",
-   "url": "https://mass511.com/api/graphql",
-   "method": "POST",
-   "noOrigin": true,
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 42.4,
-       "south": 42.3,
-       "east": -71.0,
-       "west": -71.15,
-       "zoom": 13,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "grep": [
-    "\"uri\":\"camera/\\d+\"",
-    "camera/\\d+"
-   ],
-   "grepMax": 30
-  },
-  {
-   "id": "cars_in_z12",
-   "url": "https://511in.org/api/graphql",
-   "method": "POST",
-   "noOrigin": true,
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 41.8,
-       "south": 37.7,
-       "east": -84.7,
-       "west": -88.1,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "grep": [
-    "\"uri\":\"camera/\\d+\"",
-    "camera/\\d+"
-   ],
-   "grepMax": 30
-  },
-  {
-   "id": "autobahn_roads",
-   "url": "https://verkehr.autobahn.de/o/autobahn/",
+   "id": "dersp_api_cameras",
+   "url": "http://200.144.30.103:8084/api/cameras",
    "noOrigin": true
   },
   {
-   "id": "autobahn_a1_webcam",
-   "url": "https://verkehr.autobahn.de/o/autobahn/A1/services/webcam",
+   "id": "dersp_xml_live",
+   "url": "https://dersp.der.sp.gov.br/Upload/XML/cameraslive.xml",
+   "noOrigin": true,
+   "text": true,
+   "head": 3000
+  },
+  {
+   "id": "dersp_xml_stream",
+   "url": "https://dersp.der.sp.gov.br/Upload/XML/cameraslivestream.xml",
+   "noOrigin": true,
+   "text": true,
+   "head": 600
+  },
+  {
+   "id": "dersp_hls_cors",
+   "url": "https://34.104.32.249.nip.io/SP055-KM211A/stream.m3u8",
+   "text": true,
+   "head": 400
+  },
+  {
+   "id": "dersp_img",
+   "url": "https://dersp.der.sp.gov.br/Upload/Cameras/CamSP324km081S1.jpg",
    "noOrigin": true
   },
   {
-   "id": "autobahn_a9_webcam",
-   "url": "https://verkehr.autobahn.de/o/autobahn/A9/services/webcam",
+   "id": "cetsp_img_https",
+   "url": "https://cameras.cetsp.com.br/Cams/184/1.jpg",
    "noOrigin": true
   },
   {
-   "id": "br_cetsp_cam",
-   "url": "http://cameras.cetsp.com.br/View/Cam.aspx",
-   "noOrigin": true,
-   "text": true,
-   "grep": [
-    "[^\"'<> ]*\\.(jpg|jpeg|png|ashx|aspx|m3u8)[^\"'<> ]*",
-    "Cams?/[^\"'<> ]+",
-    "option[^>]*value=\"[^\"]+\"[^>]*>[^<]{0,60}"
-   ],
-   "grepMax": 60
+   "id": "cetsp_img_http",
+   "url": "http://cameras.cetsp.com.br/Cams/184/1.jpg",
+   "noOrigin": true
   },
   {
-   "id": "br_poa_cam",
-   "url": "https://www.portoalegre.rs.gov.br/web/portoalegre/camera-ao-vivo",
-   "noOrigin": true,
-   "text": true,
-   "grep": [
-    "(youtube\\.com|youtu\\.be)/[^\"'<> ]+",
-    "<iframe[^>]+src=\"[^\"]+\"",
-    "[^\"'<> ]*\\.(m3u8|jpg)[^\"'<> ]*"
-   ],
-   "grepMax": 60
+   "id": "recife_snap",
+   "url": "https://transito-recife.serttel.com.br/Index?handler=Snapshot&Codigo=158",
+   "noOrigin": true
   },
   {
-   "id": "br_cor_rio",
-   "url": "https://cor.rio/",
+   "id": "recife_snap_ref",
+   "url": "https://transito-recife.serttel.com.br/Index?handler=Snapshot&Codigo=158",
+   "noOrigin": true,
+   "headers": {
+    "Referer": "https://merengacv.github.io/"
+   }
+  },
+  {
+   "id": "promet_datajs",
+   "url": "https://www.promet.si/Data/SuperFlexi/Solutions/Kamere%20(Detail)/resources/data.js",
    "noOrigin": true,
    "text": true,
-   "grep": [
-    "[^\"'<> ]*(camera|cameras|cctv|api)[^\"'<> ]*"
-   ],
-   "grepMax": 60
+   "head": 2000
   }
  ]
 }

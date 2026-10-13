@@ -5,17 +5,18 @@ const T = (o) => ({ country: "US", type: "trafego", lic: "dados públicos (gover
 
 // ---------- Castle Rock "CARS" (GraphQL) ----------
 const CARS_Q = "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }";
-async function cars(api, box, maxId = 120000, step = 6000) {
-  const ranges = [];
-  for (let s = 1; s < maxId; s += step) ranges.push(s);
+// Uma consulta por estado no zoom 12 devolve as câmeras soltas (sem agrupar). Se ainda
+// vier algum grupo ("cluster"), a caixa é dividida em quatro e consultada de novo.
+async function cars(api, box) {
   const seen = new Map();
-  await pool(ranges, 3, async (s) => {
-    const uris = []; for (let i = s; i < s + step; i++) uris.push("camera/" + i);
-    const q = [{ query: CARS_Q, variables: { input: { north: box[0], south: box[1], east: box[2], west: box[3], zoom: 1, layerSlugs: ["normalCameras"], nonClusterableUris: uris } } }];
-    const d = await fetchJSON(api, { body: q, timeout: 90000 });
+  const ask = async (b, depth) => {
+    const q = [{ query: CARS_Q, variables: { input: { north: b[0], south: b[1], east: b[2], west: b[3], zoom: 12, layerSlugs: ["normalCameras"], nonClusterableUris: [] } } }];
+    const d = await fetchJSON(api, { body: q, timeout: 120000 });
     const feats = (d && d[0] && d[0].data && d[0].data.mapFeaturesQuery && d[0].data.mapFeaturesQuery.mapFeatures) || [];
+    let clusters = 0;
     for (const f of feats) {
-      if (!/^camera\//.test(f.uri || "") || !f.features || !f.features[0]) continue;
+      if (!/^camera\//.test(f.uri || "")) { if (/cluster/i.test((f.__typename || "") + (f.uri || ""))) clusters++; continue; }
+      if (!f.features || !f.features[0]) continue;
       const [lng, lat] = f.features[0].geometry.coordinates;
       for (const v of f.views || []) {
         const hls = (v.sources || []).map((x) => x && x.src).find((u) => /^https:\/\/.+\.m3u8(\?|$)/i.test(u || "") && !/token=/i.test(u));
@@ -25,7 +26,12 @@ async function cars(api, box, maxId = 120000, step = 6000) {
         if (!seen.has(id)) seen.set(id, { id, name: clean(v.title || f.tooltip), lat, lng, img: img.replace(/\?\d{10,}$/, ""), hls });
       }
     }
-  });
+    if (clusters && depth < 3) {
+      const mLat = (b[0] + b[1]) / 2, mLng = (b[2] + b[3]) / 2;
+      for (const sub of [[b[0], mLat, b[2], mLng], [b[0], mLat, mLng, b[3]], [mLat, b[1], b[2], mLng], [mLat, b[1], mLng, b[3]]]) await ask(sub, depth + 1);
+    }
+  };
+  await ask(box, 0);
   return [...seen.values()];
 }
 
@@ -72,7 +78,7 @@ export default [
      ["in", "511 Indiana", "https://511in.org/api/graphql", [41.8, 37.7, -84.7, -88.1], "Indiana DOT", 120000],
      ["mn", "511 Minnesota", "https://511mn.org/api/graphql", [49.4, 43.4, -89.4, -97.3], "Minnesota DOT", 120000],
      ["ma", "Mass 511", "https://mass511.com/api/graphql", [42.9, 41.2, -69.8, -73.6], "Massachusetts DOT", 120000],
-  ].map(([k, name, api, box, org, max]) => T({ id: "cars-" + k, name, org, home: api.replace("/api/graphql", "/"), attr: org, run: () => cars(api, box, max) })),
+  ].map(([k, name, api, box, org]) => T({ id: "cars-" + k, name, org, home: api.replace("/api/graphql", "/"), attr: org, run: () => cars(api, box) })),
 
   T({ id: "sd511", name: "SD511", org: "South Dakota DOT", home: "https://www.sd511.org/", attr: "South Dakota DOT", run: async () => {
     const j = await fetchJSON("https://sd.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson");
