@@ -22,14 +22,14 @@ concurrency:
 jobs:
   sondar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with:
           node-version: 22
       - name: Sondar
-        run: node collector/probe.mjs collector/probes.json out/probe.json
+        run: node collector/probe.mjs collector/probes.json out
         env:
           WINDY_API_KEY: ${{ secrets.WINDY_API_KEY }}
       - name: Publicar no ramo sondagem
