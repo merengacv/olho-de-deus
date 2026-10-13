@@ -31,4 +31,17 @@ export default [
       return arr.filter((f) => f && f.eventCategory === "liveCams" && f.properties && f.properties.href).map((f) => ({
         id: f.id, name: clean(`${f.properties.title}${f.properties.view ? " — " + f.properties.view : ""}`), lat: f.geometry.coordinates[1], lng: f.geometry.coordinates[0], img: f.properties.href, dir: f.properties.direction }));
     } },
+
+  // Taiwan: rodovias provinciais (公路局) e autoestradas (高公局). A imagem é um fluxo
+  // MJPEG contínuo que o navegador mostra numa <img>.
+  ...[["tw-thb", "公路局 — CCTV das rodovias provinciais", "Directorate General of Highways (Taiwan)", "thb"],
+      ["tw-freeway", "高速公路局 — CCTV das autoestradas", "Freeway Bureau (Taiwan)", "freeway"]].map(([id, name, org, kind]) => ({
+    id, name, org, country: "TW", type: "trafego", home: "https://168.thb.gov.tw/", attr: org + " · 168.thb.gov.tw", lic: "dados abertos do governo de Taiwan",
+    run: async () => {
+      const j = await fetchJSON("https://168.thb.gov.tw/api/Cctvdata/" + kind, { timeout: 90000, headers: { Referer: "https://168.thb.gov.tw/" } });
+      return ((j && j.Result) || []).filter((c) => c && /^https:\/\//i.test(c.html || "")).map((c) => ({
+        id: c.id, name: clean(c.stakenumber || c.id), lat: +c.gisy, lng: +c.gisx, img: c.html, page: "https://168.thb.gov.tw/",
+      }));
+    },
+  })),
 ];

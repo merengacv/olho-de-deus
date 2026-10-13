@@ -3,9 +3,7 @@
 // Campos: [nome, cidade/região, código do país, lat, lng, endereço, órgão]
 const PORTAIS = [
   ["Câmeras CET (trânsito)", "São Paulo, SP", "BR", -23.5505, -46.6333, "https://www.cetsp.com.br/consultas/cameras-cet.aspx", "CET — Companhia de Engenharia de Tráfego"],
-  ["Câmeras online das rodovias (DER-SP)", "Rodovias de São Paulo", "BR", -22.9, -47.06, "https://dersp.der.sp.gov.br/WebSite/Servicos/ServicosOnline/CamerasOnlineMapa.aspx", "DER-SP"],
   ["Centro de Operações Rio (COR)", "Rio de Janeiro, RJ", "BR", -22.9068, -43.1729, "https://cor.rio/", "Prefeitura do Rio de Janeiro"],
-  ["Trânsito ao vivo (CTTU)", "Recife, PE", "BR", -8.0476, -34.877, "https://transito-recife.serttel.com.br/", "CTTU — Prefeitura do Recife"],
   ["Central de Monitoramento de Imagens", "Jaú, SP", "BR", -22.2936, -48.5592, "https://jaucameras.com.br/", "Prefeitura de Jaú"],
 ];
 

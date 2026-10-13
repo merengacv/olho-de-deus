@@ -2394,8 +2394,14 @@ function stopMedia() {
   clearInterval(MEDIA.timer); MEDIA.timer = 0; MEDIA.tok++;
   if (MEDIA.hls) { try { MEDIA.hls.destroy(); } catch (e) { /* já destruído */ } MEDIA.hls = null; }
   const box = $("#camMedia");
-  if (box) box.querySelectorAll("video, iframe").forEach((v) => { try { if (v.pause) v.pause(); v.removeAttribute("src"); if (v.load) v.load(); } catch (e) { /* ok */ } v.remove(); });
+  if (box) {
+    box.querySelectorAll("video, iframe").forEach((v) => { try { if (v.pause) v.pause(); v.removeAttribute("src"); if (v.load) v.load(); } catch (e) { /* ok */ } v.remove(); });
+    // imagem MJPEG é uma conexão aberta: sem o src, o navegador fecha
+    box.querySelectorAll("img").forEach((i) => { i.onload = i.onerror = null; i.removeAttribute("src"); });
+  }
 }
+// fluxo MJPEG (Taiwan, muitos DOTs): a <img> recebe quadros sem parar, não precisa renovar
+const isMjpeg = (u) => /mjpe?g|bmjpg|abs2mjpg|nphMotionJpeg|video\.cgi|faststream|cctv-ss\d+\.thb\.gov\.tw/i.test(u || "");
 function mediaMsg(box, html) { box.innerHTML = '<div class="msg">' + html + "</div>"; }
 function stampTxt() { return "recebida às " + new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }); }
 async function startMedia(i, row, mode, tok) {
@@ -2416,10 +2422,10 @@ async function startMedia(i, row, mode, tok) {
     if (src.live === "sg") url = await sgImage(row[0]).catch(() => url);
     if (!alive()) return;
     box.innerHTML = '<img id="camImg" alt="Imagem atual da câmera ' + esc(row[1]) + '" referrerpolicy="no-referrer" decoding="async"><figcaption class="stamp" id="camStamp">carregando imagem…</figcaption><span class="live">AO VIVO</span>';
-    const img = $("#camImg"), stamp = $("#camStamp");
-    let plain = false, okOnce = false;
+    const img = $("#camImg"), stamp = $("#camStamp"), mj = isMjpeg(url);
+    let plain = mj, okOnce = false;
     const bust = () => (plain ? url : url + (url.indexOf("?") >= 0 ? "&" : "?") + "_olho=" + Math.floor(Date.now() / 30000));
-    img.onload = () => { okOnce = true; if (stamp) stamp.textContent = stampTxt(); };
+    img.onload = () => { okOnce = true; if (stamp) stamp.textContent = mj ? "vídeo contínuo (MJPEG)" : stampTxt(); };
     img.onerror = () => {
       if (!alive()) return;
       if (!plain) { plain = true; img.src = bust(); return; } // alguns servidores recusam parâmetros extras
@@ -2427,6 +2433,7 @@ async function startMedia(i, row, mode, tok) {
       else if (stamp) stamp.textContent = "sem imagem nova agora";
     };
     img.src = bust();
+    if (mj) { if (stamp) stamp.textContent = "vídeo contínuo (MJPEG)"; return; }
     MEDIA.timer = setInterval(() => { if (!alive()) return clearInterval(MEDIA.timer); if (!document.hidden) img.src = bust(); }, 60000);
   } else if (mode === "mp4") {
     box.innerHTML = '<video id="camVid" muted autoplay loop playsinline controls preload="auto"></video><span class="live still">CLIPE</span>';
@@ -2839,8 +2846,8 @@ function sourcesTabHTML() {
   return '<div class="sec-h"><span class="k">Saúde das fontes</span></div>' +
     SOURCES.map((s) => {
       const st = S.src[s.k] || {};
-      const hint = s.k === "windy" && st.kind === "auth"
-        ? '<div class="note">Para ligar: na conta da API do Windy (api.windy.com/keys), autorize o endereço <b>' + esc(location.hostname) + "</b> nesta chave.</div>" : "";
+      const hint = s.k === "windy" && st.status === "error" && st.kind !== "config"
+        ? '<div class="note">Para ligar: na conta da API do Windy (api.windy.com/keys), autorize o endereço <b>' + esc(location.hostname) + "</b> nesta chave. Sem isso o Windy recusa a consulta feita pelo navegador.</div>" : "";
       return '<div class="src-row" data-s="' + srcState(s.k) + '"><i></i><div><b>' + esc(s.name) + '</b><div class="note">' + esc(srcLine(s.k)) + "</div>" +
         (st.status === "error" && st.msg ? '<div class="note err">' + esc(st.msg) + "</div>" : "") + hint +
         '<div class="note">' + esc(s.lic) + ' · <a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">site</a></div></div></div>';

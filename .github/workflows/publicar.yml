@@ -13,7 +13,6 @@ on:
       - "!collector/probe.mjs"
       - "!collector/probes.json"
       - site/**
-      - tools/conferir.mjs
       - .github/workflows/publicar.yml
 
 permissions:

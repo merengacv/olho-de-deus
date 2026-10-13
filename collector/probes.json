@@ -1,80 +1,83 @@
 {
  "probes": [
   {
-   "id": "thb_cctv_thb",
-   "url": "https://168.thb.gov.tw/api/Cctvdata/thb",
-   "noOrigin": true,
+   "id": "windy_preflight",
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
+   "method": "OPTIONS",
    "headers": {
-    "Referer": "https://168.thb.gov.tw/"
+    "Access-Control-Request-Method": "GET",
+    "Access-Control-Request-Headers": "x-windy-api-key"
    }
   },
   {
-   "id": "thb_cctv_freeway",
-   "url": "https://168.thb.gov.tw/api/Cctvdata/freeway",
-   "noOrigin": true,
+   "id": "windy_get_ghpages",
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
+   "windy": true
+  },
+  {
+   "id": "windy_get_localhost",
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
+   "windy": true,
    "headers": {
-    "Referer": "https://168.thb.gov.tw/"
+    "Origin": "http://localhost:8080"
    }
   },
   {
-   "id": "dersp_api_cameras",
-   "url": "http://200.144.30.103:8084/api/cameras",
+   "id": "windy_get_noorigin",
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
+   "windy": true,
    "noOrigin": true
   },
   {
-   "id": "dersp_xml_live",
-   "url": "https://dersp.der.sp.gov.br/Upload/XML/cameraslive.xml",
-   "noOrigin": true,
-   "text": true,
-   "head": 3000
-  },
-  {
-   "id": "dersp_xml_stream",
-   "url": "https://dersp.der.sp.gov.br/Upload/XML/cameraslivestream.xml",
-   "noOrigin": true,
-   "text": true,
-   "head": 600
-  },
-  {
-   "id": "dersp_hls_cors",
-   "url": "https://34.104.32.249.nip.io/SP055-KM211A/stream.m3u8",
-   "text": true,
-   "head": 400
-  },
-  {
-   "id": "dersp_img",
-   "url": "https://dersp.der.sp.gov.br/Upload/Cameras/CamSP324km081S1.jpg",
-   "noOrigin": true
-  },
-  {
-   "id": "cetsp_img_https",
-   "url": "https://cameras.cetsp.com.br/Cams/184/1.jpg",
-   "noOrigin": true
-  },
-  {
-   "id": "cetsp_img_http",
-   "url": "http://cameras.cetsp.com.br/Cams/184/1.jpg",
-   "noOrigin": true
-  },
-  {
-   "id": "recife_snap",
-   "url": "https://transito-recife.serttel.com.br/Index?handler=Snapshot&Codigo=158",
-   "noOrigin": true
-  },
-  {
-   "id": "recife_snap_ref",
-   "url": "https://transito-recife.serttel.com.br/Index?handler=Snapshot&Codigo=158",
+   "id": "windy_get_referer",
+   "url": "https://api.windy.com/webcams/api/v3/webcams?limit=1&lang=pt&include=location",
+   "windy": true,
    "noOrigin": true,
    "headers": {
-    "Referer": "https://merengacv.github.io/"
+    "Referer": "https://merengacv.github.io/olho-de-deus/"
    }
   },
   {
-   "id": "promet_datajs",
-   "url": "https://www.promet.si/Data/SuperFlexi/Solutions/Kamere%20(Detail)/resources/data.js",
+   "id": "ecoponte_api",
+   "url": "https://www.ecoviasponte.com.br/api/playful-map",
+   "noOrigin": true
+  },
+  {
+   "id": "ecovias_api",
+   "url": "https://www.ecovias.com.br/api/playful-map",
+   "noOrigin": true
+  },
+  {
+   "id": "ecopistas_api",
+   "url": "https://www.ecopistas.com.br/api/playful-map",
+   "noOrigin": true
+  },
+  {
+   "id": "eco101_api",
+   "url": "https://www.eco101.com.br/api/playful-map",
+   "noOrigin": true
+  },
+  {
+   "id": "ecosul_api",
+   "url": "https://www.ecosul.com.br/api/playful-map",
+   "noOrigin": true
+  },
+  {
+   "id": "ecoponte_img",
+   "url": "https://www.ecoviasponte.com.br/boletim/camera/5",
+   "noOrigin": true
+  },
+  {
+   "id": "tw_thb_stream",
+   "url": "https://cctv-ss03.thb.gov.tw:443/T1-123K+850",
    "noOrigin": true,
-   "text": true,
-   "head": 2000
+   "timeout": 8000
+  },
+  {
+   "id": "tw_fw_stream",
+   "url": "https://cctvn.freeway.gov.tw/abs2mjpg/bmjpg?camera=10000",
+   "noOrigin": true,
+   "timeout": 8000
   }
  ]
 }

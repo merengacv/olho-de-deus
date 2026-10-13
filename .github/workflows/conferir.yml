@@ -1,0 +1,54 @@
+# Fotografa o site publicado (sem coletar de novo). Roda quando o script de
+# conferência muda ou na mão (Actions → Conferir o site → Run workflow).
+name: Conferir o site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/conferir.mjs
+      - .github/workflows/conferir.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: conferir
+  cancel-in-progress: true
+
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: tools
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Instalar o navegador de teste
+        run: |
+          npm init -y >/dev/null
+          npm i --no-save playwright@1.56.0
+          npx playwright install --with-deps chromium
+
+      - name: Fotografar o site publicado
+        run: node tools/conferir.mjs "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" telas
+
+      - name: Fotos no ramo "telas"
+        if: always()
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p telas
+          cd telas
+          git init -q -b telas
+          git config user.name "olho-robo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "telas $(date -u +%FT%TZ)" || exit 0
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" telas
