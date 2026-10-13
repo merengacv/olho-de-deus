@@ -1,0 +1,51 @@
+# Farejador: abre portais de câmeras num navegador de verdade e anota de onde vêm as
+# listas e as imagens. Resultado no ramo "farejo". Só roda quando a lista muda.
+name: Farejar portais
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/farejar.json
+      - tools/farejar.mjs
+      - .github/workflows/farejar.yml
+
+permissions:
+  contents: write
+
+jobs:
+  farejar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: tools
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Instalar o navegador
+        run: |
+          npm init -y >/dev/null
+          npm i --no-save playwright@1.56.0
+          npx playwright install --with-deps chromium
+
+      - name: Farejar
+        run: node tools/farejar.mjs tools/farejar.json farejo
+
+      - name: Resultado no ramo "farejo"
+        if: always()
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p farejo
+          cd farejo
+          git init -q -b farejo
+          git config user.name "olho-robo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "farejo $(date -u +%FT%TZ)" || exit 0
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" farejo
