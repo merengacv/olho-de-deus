@@ -1,5 +1,5 @@
 # Robô diário: coleta as câmeras de todas as fontes, grava o relatório no ramo
-# "relatorio" e publica o site no GitHub Pages.
+# "relatorio", publica o site no GitHub Pages e fotografa o site publicado (ramo "telas").
 name: Coletar câmeras e publicar
 
 on:
@@ -10,7 +10,10 @@ on:
     branches: [main]
     paths:
       - collector/**
+      - "!collector/probe.mjs"
+      - "!collector/probes.json"
       - site/**
+      - tools/conferir.mjs
       - .github/workflows/publicar.yml
 
 permissions:
@@ -43,7 +46,7 @@ jobs:
           restore-keys: coleta-
 
       - name: Coletar câmeras
-        run: node --max-old-space-size=6144 collector/collect.mjs --out site/data/cams --cache collector/.cache
+        run: node --max-old-space-size=6144 collector/collect.mjs --out site/data/cams --cache collector/.cache --deadline 36
 
       - name: Guardar esta coleta
         if: always()
@@ -68,9 +71,17 @@ jobs:
           git commit -qm "relatorio $(date -u +%FT%TZ)"
           git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" relatorio
 
+      # A API do Windy só pode ser consultada na hora, pelo navegador (os termos proíbem
+      # guardar os dados). A chave vai para o site e fica protegida pela trava de domínio
+      # configurada na conta do Windy.
+      - name: Configuração do site
+        env:
+          WINDY_API_KEY: ${{ secrets.WINDY_API_KEY }}
+        run: node -e 'require("fs").writeFileSync("site/config.js", "window.__OLHO_CFG=" + JSON.stringify({ windyKey: process.env.WINDY_API_KEY || "" }) + ";\n")'
+
       - name: O site existe?
         id: site
-        run: test -f site/index.html && echo "ok=true" >> "$GITHUB_OUTPUT" || echo "ok=false" >> "$GITHUB_OUTPUT"
+        run: test -f site/index.html && test -f site/data/cams/meta.js && echo "ok=true" >> "$GITHUB_OUTPUT" || echo "ok=false" >> "$GITHUB_OUTPUT"
 
       - name: Empacotar o site
         if: steps.site.outputs.ok == 'true'
@@ -82,6 +93,8 @@ jobs:
     needs: coletar
     if: needs.coletar.outputs.site == 'true'
     runs-on: ubuntu-latest
+    outputs:
+      url: ${{ steps.deploy.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -89,3 +102,41 @@ jobs:
       - name: Publicar no GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+
+  conferir:
+    needs: publicar
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: tools
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Instalar o navegador de teste
+        run: |
+          npm init -y >/dev/null
+          npm i --no-save playwright@1.56.0
+          npx playwright install --with-deps chromium
+
+      - name: Fotografar o site publicado
+        run: |
+          sleep 45
+          node tools/conferir.mjs "${{ needs.publicar.outputs.url }}" telas
+
+      - name: Fotos no ramo "telas"
+        if: always()
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p telas
+          cd telas
+          git init -q -b telas
+          git config user.name "olho-robo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "telas $(date -u +%FT%TZ)" || exit 0
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" telas

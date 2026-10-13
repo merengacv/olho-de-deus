@@ -20,28 +20,40 @@ const BOXES = [
 
 export default [
   { id: "osm", name: "OpenStreetMap — webcams", org: "Colaboradores do OpenStreetMap", country: "", type: "cidade", home: "https://www.openstreetmap.org/", attr: "© colaboradores do OpenStreetMap", lic: "ODbL 1.0",
+    timeout: 14 * 60000,
     run: async (ctx) => {
-      const out = new Map(), errs = [];
-      for (const b of BOXES) {
-        const q = `[out:json][timeout:150];(nwr["contact:webcam"](${b});nwr["webcam"](${b}););out center tags;`;
-        let ok = false;
-        for (const ep of OVERPASS) {
-          try {
-            const j = await fetchJSON(ep, { method: "POST", body: new URLSearchParams({ data: q }), headers: { "Content-Type": "application/x-www-form-urlencoded" }, timeout: 180000, retries: 1 });
-            for (const e of j.elements || []) {
-              const t = e.tags || {}, lat = e.lat ?? (e.center && e.center.lat), lng = e.lon ?? (e.center && e.center.lon);
-              const url = String(t["contact:webcam"] || t.webcam || "").split(";")[0].trim();
-              const m = mediaFromUrl(url);
-              if (lat == null || !Object.keys(m).length) continue;
-              out.set(e.type + e.id, { id: e.type + "/" + e.id, name: clean(t.name || t["name:en"] || t.description || "Webcam"), lat, lng, ...m,
-                type: t.natural === "peak" || t.aerialway ? "montanha" : t.natural === "beach" ? "praia" : t.aeroway ? "aviacao" : t.harbour || t.seamark ? "porto" : undefined });
-            }
-            ok = true; break;
-          } catch (e) { errs.push(`${b}: ${e.message}`); }
+      const out = new Map(), errs = [], t0 = Date.now(), BUDGET = 12 * 60000;
+      const take = (j) => {
+        for (const e of (j && j.elements) || []) {
+          const t = e.tags || {}, lat = e.lat ?? (e.center && e.center.lat), lng = e.lon ?? (e.center && e.center.lon);
+          const url = String(t["contact:webcam"] || t.webcam || "").split(";")[0].trim();
+          const m = mediaFromUrl(url);
+          if (lat == null || !Object.keys(m).length) continue;
+          out.set(e.type + e.id, { id: e.type + "/" + e.id, name: clean(t.name || t["name:en"] || t.description || "Webcam"), lat, lng, ...m,
+            type: t.natural === "peak" || t.aerialway ? "montanha" : t.natural === "beach" ? "praia" : t.aeroway ? "aviacao" : t.harbour || t.seamark ? "porto" : undefined });
         }
-        if (!ok) ctx.warn(`OSM: região ${b} falhou`);
+      };
+      const ask = (ep, q, ms) => fetchJSON(ep, { method: "POST", body: new URLSearchParams({ data: q }), headers: { "Content-Type": "application/x-www-form-urlencoded" }, timeout: ms, retries: 0 });
+      // 1) o planeta inteiro numa consulta só (o índice por chave do Overpass costuma dar conta)
+      const global = `[out:json][timeout:280];(nwr["contact:webcam"];nwr["webcam"];);out center tags;`;
+      try { take(await Promise.any(OVERPASS.slice(0, 2).map((ep) => ask(ep, global, 300000)))); }
+      catch (e) { errs.push("global: " + (e.errors ? e.errors.map((x) => x.message).join(" / ") : e.message)); }
+      // 2) se não veio, por regiões, três de cada vez, até o prazo
+      if (!out.size) {
+        let k = 0;
+        await Promise.all([0, 1, 2].map(async (w) => {
+          while (k < BOXES.length && Date.now() - t0 < BUDGET) {
+            const b = BOXES[k++], q = `[out:json][timeout:120];(nwr["contact:webcam"](${b});nwr["webcam"](${b}););out center tags;`;
+            let ok = false;
+            for (let a = 0; a < OVERPASS.length && !ok && Date.now() - t0 < BUDGET; a++) {
+              try { take(await ask(OVERPASS[(w + a) % OVERPASS.length], q, 150000)); ok = true; } catch (e) { errs.push(`${b}: ${e.message}`); }
+            }
+            if (!ok) ctx.warn(`OSM: região ${b} falhou`);
+          }
+        }));
       }
-      if (!out.size && errs.length) throw new Error(errs.slice(0, 3).join(" | "));
+      if (!out.size) throw new Error(errs.slice(0, 3).join(" | ") || "sem resposta do Overpass");
+      if (errs.length) ctx.warn(errs.slice(0, 2).join(" | "));
       return [...out.values()];
     } },
 

@@ -26,6 +26,8 @@ import { loadSeed, seedSourceName } from "./sources/seed.mjs";
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, x, i, arr) => (x.startsWith("--") ? a.concat([[x.slice(2), arr[i + 1] && !arr[i + 1].startsWith("--") ? arr[i + 1] : true]]) : a), []));
 const OUT = args.out || "site/data/cams", CACHE = args.cache || "collector/.cache";
 const ONLY = args.only ? new Set(String(args.only).split(",")) : null;
+// prazo das fontes diretas (minutos): depois dele, quem não respondeu entra com a última coleta boa
+const DEADLINE = Date.now() + (Number(args.deadline) || 38) * 60000;
 const CHUNK = 1000;
 export const TYPES = ["trafego", "clima", "cidade", "natureza", "praia", "montanha", "rio", "porto", "aviacao", "vulcao", "ciencia", "fauna", "fronteira", "ferrovia", "ceu", "portal"];
 const T0 = Date.now();
@@ -77,7 +79,9 @@ async function runSource(src) {
   const t = Date.now(), warns = [];
   const rec = { id: src.id, name: src.name, org: src.org, cc: src.country || "", home: src.home, lic: src.lic, attr: src.attr, type: src.type, live: src.live };
   try {
-    const raw = await withTimeout(src.run({ warn: (m) => warns.push(m) }), src.timeout || 15 * 60000);
+    const left = DEADLINE - Date.now();
+    if (left < 5000) throw new Error("sem tempo nesta coleta (prazo geral esgotado)");
+    const raw = await withTimeout(src.run({ warn: (m) => warns.push(m) }), Math.min(src.timeout || 15 * 60000, left));
     const cams = (raw || []).map((c) => norm(c, src)).filter(Boolean);
     if (!cams.length) throw new Error("nenhuma câmera válida na resposta");
     await writeCache(src.id, cams);
@@ -113,21 +117,31 @@ async function main() {
   }
 
   // ---------- semente ----------
-  if (!args["no-seed"] && !ONLY) {
+  if (!args["no-seed"] && (!ONLY || args.seed)) {
     try {
       const bySrc = await loadSeed(log);
-      let used = 0, dropped = 0;
+      // pontos já cobertos por fontes diretas (células de ~25 m): a mesma câmera com outro endereço
+      const cell = (c) => Math.round(c.lat * 4500) + ":" + Math.round(c.lng * 4500);
+      const taken = new Set(all.map(cell));
+      let used = 0, dropped = 0, samePoint = 0;
       for (const [src, cams] of bySrc) {
-        const keep = cams.filter((c) => !covered.has(hostKey(mediaOf(c))));
+        const keep = cams.filter((c) => {
+          if (covered.has(hostKey(mediaOf(c)))) return false;
+          if (taken.has(cell(c))) { samePoint++; return false; }
+          return true;
+        });
         dropped += cams.length - keep.length;
         if (!keep.length) continue;
         const nm = seedSourceName(src, keep);
-        const rec = { id: "s-" + src.replace(/^opencctv_/, ""), name: nm.name, org: nm.host, cc: "", home: nm.host ? "https://" + nm.host + "/" : "", lic: "catálogo aberto Argus (MIT); imagens dos respectivos donos", attr: nm.host, seed: true };
+        // id único (duas redes da semente podem ter o mesmo nome curto)
+        let sid = "s-" + src.replace(/^opencctv_/, "");
+        while (sources.some((x) => x.id === sid)) sid += "_";
+        const rec = { id: sid, name: nm.name, org: nm.host, cc: "", home: nm.host ? "https://" + nm.host + "/" : "", lic: "catálogo aberto Argus (MIT); imagens dos respectivos donos", attr: nm.host, seed: true };
         const ok = keep.map((c) => norm(c, rec)).filter(Boolean);
         rec.n = ok.length; rec.ok = true; rec.from = "semente";
         if (ok.length) { sources.push(rec); all.push(...ok); used += ok.length; }
       }
-      log(`semente: ${used} usadas, ${dropped} já cobertas por fontes diretas`);
+      log(`semente: ${used} usadas, ${dropped} já cobertas por fontes diretas (${samePoint} no mesmo ponto)`);
       await writeCache("_seed_ok", { at: new Date().toISOString(), used });
     } catch (e) {
       log("semente falhou: " + e.message);
@@ -146,6 +160,14 @@ async function main() {
     uniq.push(c);
   }
   log(`${all.length} câmeras, ${uniq.length} sem duplicatas`);
+  // mesma fonte, mesmo nome, mesmo lugar: são vistas diferentes do mesmo poste
+  const views = new Map();
+  for (const c of uniq) {
+    const k = c.s + "|" + c.name + "|" + c.lat.toFixed(3) + "|" + c.lng.toFixed(3);
+    const n = (views.get(k) || 0) + 1;
+    views.set(k, n);
+    if (n > 1) c.name = clean(c.name + (c.dir ? " · " + c.dir : " · vista " + n), 120);
+  }
 
   // ---------- ordenação (país, depois proximidade) ----------
   const morton = (lat, lng) => {
@@ -157,7 +179,9 @@ async function main() {
   uniq.sort((a, b) => (a.cc < b.cc ? -1 : a.cc > b.cc ? 1 : a._m - b._m));
 
   // ---------- saída ----------
-  const srcIdx = new Map(sources.filter((s) => s.n > 0).map((s, k) => [s.id, k]));
+  // índice de cada fonte na lista publicada (sem repetir ids: um id repetido desalinharia tudo)
+  const srcIdx = new Map();
+  for (const s of sources) if (s.n > 0 && !srcIdx.has(s.id)) srcIdx.set(s.id, srcIdx.size);
   const countries = [];
   const pts = { lat: [], lng: [], t: [], s: [], m: [] };
   uniq.forEach((c, k) => {
@@ -173,17 +197,24 @@ async function main() {
     const s = sources.find((x) => x.id === id);
     return { id, name: s.name, org: s.org || "", cc: s.cc || "", home: s.home || "", lic: s.lic || "", attr: s.attr || "", n: perSrc.get(id) || 0, from: s.from, live: s.live || undefined, seed: s.seed || undefined };
   });
-  const meta = { v: 1, generated: new Date().toISOString(), total: uniq.length, chunk: CHUNK, types: TYPES, sources: srcList, countries };
+  // Os arquivos pesados ficam numa pasta com o carimbo da coleta (nome nunca se
+  // repete): o navegador nunca mistura posições de hoje com detalhes de ontem.
+  const generated = new Date().toISOString();
+  const dir = "g" + generated.replace(/[-:]/g, "").replace(/\.\d+Z$/, "");
+  const meta = { v: 2, generated, dir, total: uniq.length, chunk: CHUNK, types: TYPES, sources: srcList, countries };
+  // posições em diferenças sucessivas (as câmeras vêm ordenadas por proximidade): arquivo bem menor
+  const delta = (a) => a.map((v, k) => (k ? v - a[k - 1] : v));
+  const ptsOut = { g: dir, enc: "d", lat: delta(pts.lat), lng: delta(pts.lng), t: pts.t, s: pts.s, m: pts.m };
 
   await rm(OUT, { recursive: true, force: true });
-  await mkdir(join(OUT, "c"), { recursive: true });
+  await mkdir(join(OUT, dir, "c"), { recursive: true });
   await writeFile(join(OUT, "meta.js"), "window.__OLHO_CAMS_META=" + JSON.stringify(meta) + ";\n");
-  await writeFile(join(OUT, "pts.js"), "window.__OLHO_CAMS_PTS=" + JSON.stringify(pts) + ";\n");
+  await writeFile(join(OUT, dir, "pts.js"), "window.__OLHO_CAMS_PTS=" + JSON.stringify(ptsOut) + ";\n");
   for (let k = 0; k * CHUNK < uniq.length; k++) {
     const rows = uniq.slice(k * CHUNK, (k + 1) * CHUNK).map((c) => [c.id, c.name, c.img || "", c.hls || "", c.mp4 || "", c.emb || "", c.page || "", c.where || "", c.dir || ""]);
-    await writeFile(join(OUT, "c", k + ".js"), `window.__olhoChunk(${k},${JSON.stringify(rows)});\n`);
+    await writeFile(join(OUT, dir, "c", k + ".js"), `window.__olhoChunk(${k},${JSON.stringify(rows)});\n`);
   }
-  const report = { generated: meta.generated, seconds: Math.round((Date.now() - T0) / 1000), total: uniq.length, raw: all.length,
+  const report = { generated, dir, seconds: Math.round((Date.now() - T0) / 1000), total: uniq.length, raw: all.length,
     byCountry: Object.fromEntries(countries.map(([cc, , n]) => [cc || "??", n])),
     byType: Object.fromEntries(TYPES.map((t) => [t, uniq.filter((c) => c.t === t).length])),
     sources: sources.map(({ sample, ...s }) => ({ ...s, sample: sample && sample.slice(0, 1) })) };

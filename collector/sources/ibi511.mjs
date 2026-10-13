@@ -40,12 +40,17 @@ const body = (start, length) => ({
 async function run(host) {
   const base = "https://" + host;
   const cams = [];
+  // páginas de 500 (alguns servidores falham ou cortam páginas maiores); para quando
+  // a página vem vazia ou só repete o que já veio
+  const PAGE = 500, seenRows = new Set();
   let start = 0, total = Infinity, guard = 0;
-  while (start < total && guard++ < 20) {
-    const d = await fetchJSON(base + "/List/GetData/Cameras", { body: body(start, 2500), timeout: 90000, headers: { Referer: base + "/cctv" } });
+  while (start < total && guard++ < 120) {
+    const d = await fetchJSON(base + "/List/GetData/Cameras", { body: body(start, PAGE), timeout: 90000, headers: { Referer: base + "/cctv" } });
     const rows = d.data || [];
     total = Math.min(Number(d.recordsFiltered ?? d.recordsTotal ?? rows.length) || rows.length, 50000);
-    for (const r of rows) {
+    const fresh = rows.filter((r) => { const k = String(r.DT_RowId ?? r.id ?? JSON.stringify(r.latLng || r.location)); if (seenRows.has(k)) return false; seenRows.add(k); return true; });
+    if (rows.length && !fresh.length) break;
+    for (const r of fresh) {
       const ll = r.latLng ? wktPoint(r.latLng.geography && r.latLng.geography.wellKnownText) : null;
       const lat = ll ? ll[0] : Number(r.latitude), lng = ll ? ll[1] : Number(r.longitude);
       const site = clean(r.location || (Array.isArray(r.description1) ? r.description1[0] : r.description1) || r.roadway || "Câmera");
