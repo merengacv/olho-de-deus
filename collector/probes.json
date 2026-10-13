@@ -1,92 +1,57 @@
 {
  "probes": [
   {
-   "id": "br_santos_mapacamera_js",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/js/Gestao/Cameras/MapaCamera.js",
+   "id": "br_santos_lista",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/Camera/listarPontosCamerasSantosAoVivo",
+   "method": "POST",
+   "body": "",
    "noOrigin": true,
-   "text": true,
-   "save": 400000
-  },
-  {
-   "id": "br_santos_mapa_js",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/js/mapa.js",
-   "noOrigin": true,
-   "text": true,
+   "headers": {
+    "Referer": "https://www.santos.sp.gov.br/santosaovivo",
+    "X-Requested-With": "XMLHttpRequest",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json, text/javascript, */*; q=0.01"
+   },
    "save": 400000,
-   "grep": [
-    "[\"'][^\"']*(Camera|camera|Camara)[^\"']*[\"']"
-   ],
-   "grepMax": 60
+   "timeout": 60000
   },
   {
-   "id": "ar_pasos_listado",
-   "url": "https://www.argentina.gob.ar/seguridad/pasosinternacionales/listado",
+   "id": "br_santos_lista_get",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/Camera/listarPontosCamerasSantosAoVivo",
    "noOrigin": true,
-   "save": 80000
-  },
-  {
-   "id": "hr_hak_manifest",
-   "url": "https://www.hak.hr/info/kamere/manifest/A1.json",
-   "noOrigin": true,
-   "save": 30000
-  },
-  {
-   "id": "hr_hak_mapcam",
-   "url": "https://go.hak.hr/map-cam",
-   "noOrigin": true,
-   "text": true,
-   "save": 100000,
-   "grep": [
-    "[^\"'<> ]*(json|api)[^\"'<> ]*"
-   ],
-   "grepMax": 40
-  },
-  {
-   "id": "dk_webcams_guess1",
-   "url": "https://storage.googleapis.com/trafikkort-data/geojson/25832/webcams.point.json",
-   "noOrigin": true,
+   "headers": {
+    "Referer": "https://www.santos.sp.gov.br/santosaovivo",
+    "X-Requested-With": "XMLHttpRequest"
+   },
    "save": 20000
   },
   {
-   "id": "dk_webcams_guess2",
-   "url": "https://storage.googleapis.com/trafikkort-data/geojson/25832/cameras.point.json",
+   "id": "br_santos_top",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/MapaCamera/listarCamerasMaisAcessadas",
+   "method": "POST",
+   "body": "",
    "noOrigin": true,
+   "headers": {
+    "Referer": "https://www.santos.sp.gov.br/santosaovivo",
+    "X-Requested-With": "XMLHttpRequest",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json, text/javascript, */*; q=0.01"
+   },
+   "save": 100000
+  },
+  {
+   "id": "br_santos_num",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/Camera/exibirNumero",
+   "method": "POST",
+   "body": "args%5B%5D=1",
+   "noOrigin": true,
+   "headers": {
+    "Referer": "https://www.santos.sp.gov.br/santosaovivo",
+    "X-Requested-With": "XMLHttpRequest",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json, text/javascript, */*; q=0.01"
+   },
    "save": 20000
-  },
-  {
-   "id": "dk_webcams_guess3",
-   "url": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-webcams.point.json",
-   "noOrigin": true,
-   "save": 20000
-  },
-  {
-   "id": "mk_amsm_cams",
-   "url": "https://amsm.mk/sostojba-na-patishta/video-kameri/",
-   "noOrigin": true,
-   "text": true,
-   "save": 200000,
-   "grep": [
-    "[^\"'<> ]*(\\.jpg|\\.png|m3u8|kamer|camera)[^\"'<> ]*"
-   ],
-   "grepMax": 80
-  },
-  {
-   "id": "antt_res1",
-   "url": "https://dados.antt.gov.br/api/3/action/resource_show?id=9299586b-3b56-4986-99a8-33d4fce5a938",
-   "noOrigin": true,
-   "full": true
-  },
-  {
-   "id": "antt_res2",
-   "url": "https://dados.antt.gov.br/api/3/action/resource_show?id=49bcce5a-b183-4c25-8908-c8debb6fabc3",
-   "noOrigin": true,
-   "full": true
-  },
-  {
-   "id": "antt_pkg",
-   "url": "https://dados.antt.gov.br/api/3/action/package_show?id=quilometro-principal",
-   "noOrigin": true,
-   "full": true
   }
  ]
 }
