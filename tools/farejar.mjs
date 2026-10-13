@@ -13,6 +13,10 @@ const [, , SPEC = "tools/farejar.json", OUT = "farejo"] = process.argv;
 const spec = JSON.parse(await readFile(SPEC, "utf8"));
 await mkdir(join(OUT, "corpos"), { recursive: true });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// chaves de API que aparecem nas páginas (Google Maps etc.) são públicas, mas o GitHub
+// recusa enviar arquivos com cara de segredo: troca por um marcador antes de gravar
+const SECRET = /AIza[0-9A-Za-z_-]{35}|AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|sk_(live|test)_[0-9A-Za-z]{16,}|rk_live_[0-9A-Za-z]{16,}|gh[pousr]_[0-9A-Za-z]{30,}|github_pat_[0-9A-Za-z_]{40,}|xox[abprs]-[0-9A-Za-z-]{10,}|sk\.eyJ[0-9A-Za-z._-]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY-----[\s\S]*?-----END [A-Z ]*PRIVATE KEY-----|AccountKey=[0-9A-Za-z+\/=]{40,}|SG\.[0-9A-Za-z_-]{16,}\.[0-9A-Za-z_-]{16,}|https:\/\/hooks\.slack\.com\/services\/[0-9A-Za-z\/]+/g;
+const redact = (t) => String(t).replace(SECRET, "[CHAVE]");
 const MEDIA = /\.(m3u8|mp4|jpe?g|png|webp|mjpg|mjpeg)(\?|$)|snapshot|camera|cctv|webcam|youtube\.com\/embed|player/i;
 const summary = [];
 
@@ -25,16 +29,16 @@ for (const s of spec.pages || spec) {
   page.on("response", async (r) => {
     try {
       const req = r.request(), u = r.url(), type = req.resourceType(), ct = (r.headers()["content-type"] || "").toLowerCase();
-      const row = { u: u.slice(0, 400), t: type, s: r.status(), ct: ct.slice(0, 60), m: req.method() };
-      if (req.method() === "POST") row.post = (req.postData() || "").slice(0, 600);
+      const row = { u: redact(u.slice(0, 400)), t: type, s: r.status(), ct: ct.slice(0, 60), m: req.method() };
+      if (req.method() === "POST") row.post = redact((req.postData() || "").slice(0, 600));
       rec.requests.push(row);
       const interesting = ["xhr", "fetch", "document", "script"].includes(type) && /json|xml|text|javascript/.test(ct);
-      if (interesting && r.status() < 400 && n < (s.maxBodies || 60)) {
+      if (interesting && r.status() < 400 && n < (s.maxBodies || 25)) {
         const body = await r.text().catch(() => "");
         if (body && (type !== "script" || MEDIA.test(body.slice(0, 200000)))) {
           const file = `${s.id}-${++n}.txt`;
-          await writeFile(join(OUT, "corpos", file), `${req.method()} ${u}\n${row.post ? "POST " + row.post + "\n" : ""}content-type: ${ct}\n\n` + body.slice(0, s.bodyMax || 300000));
-          rec.bodies.push({ file, u: u.slice(0, 300), bytes: body.length, type });
+          await writeFile(join(OUT, "corpos", file), redact(`${req.method()} ${u}\n${row.post ? "POST " + row.post + "\n" : ""}content-type: ${ct}\n\n` + body.slice(0, s.bodyMax || 200000)));
+          rec.bodies.push({ file, u: redact(u.slice(0, 300)), bytes: body.length, type });
         }
       }
     } catch (e) { /* resposta sem corpo */ }
@@ -57,11 +61,11 @@ for (const s of spec.pages || spec) {
         text: (document.body ? document.body.innerText : "").slice(0, 3000),
       };
     });
-    await page.screenshot({ path: join(OUT, s.id + ".png") }).catch(() => {});
+    await page.screenshot({ path: join(OUT, s.id + ".jpg"), type: "jpeg", quality: 55 }).catch(() => {});
   } catch (e) { rec.errors.push(String(e.message || e).slice(0, 300)); }
   rec.mediaRequests = rec.requests.filter((r) => MEDIA.test(r.u)).slice(0, 200);
   summary.push({ id: rec.id, url: rec.url, title: rec.title, requests: rec.requests.length, bodies: rec.bodies.length, media: rec.mediaRequests.length, errors: rec.errors });
-  await writeFile(join(OUT, s.id + ".json"), JSON.stringify(rec, null, 1));
+  await writeFile(join(OUT, s.id + ".json"), redact(JSON.stringify(rec, null, 1)));
   await ctx.close();
 }
 await writeFile(join(OUT, "resumo.json"), JSON.stringify(summary, null, 1));
