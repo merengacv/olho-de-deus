@@ -16,7 +16,11 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // chaves de API que aparecem nas páginas (Google Maps etc.) são públicas, mas o GitHub
 // recusa enviar arquivos com cara de segredo: troca por um marcador antes de gravar
 const SECRET = /AIza[0-9A-Za-z_-]{35}|AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|sk_(live|test)_[0-9A-Za-z]{16,}|rk_live_[0-9A-Za-z]{16,}|gh[pousr]_[0-9A-Za-z]{30,}|github_pat_[0-9A-Za-z_]{40,}|xox[abprs]-[0-9A-Za-z-]{10,}|sk\.eyJ[0-9A-Za-z._-]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY-----[\s\S]*?-----END [A-Z ]*PRIVATE KEY-----|AccountKey=[0-9A-Za-z+\/=]{40,}|SG\.[0-9A-Za-z_-]{16,}\.[0-9A-Za-z_-]{16,}|https:\/\/hooks\.slack\.com\/services\/[0-9A-Za-z\/]+/g;
-const redact = (t) => String(t).replace(SECRET, "[CHAVE]");
+// além dos formatos conhecidos: tokens JWT, chaves da Esri (AAPK/AAPT), Mapbox e qualquer
+// parâmetro de URL com cara de credencial (key=, token=, signature=...)
+const SECRET2 = /\beyJ[\w-]{10,}\.[\w-]{10,}\.[\w-]{8,}|\bAAP[KT][\w-]{20,}|\b[ps]k\.eyJ[\w.-]{20,}|\b[0-9a-f]{32,}\b/g;
+const PARAM = /([?&;](?:key|apikey|api_key|api-key|token|access_token|accesstoken|auth|authorization|subscription-key|client_secret|signature|sig|x-amz-signature|x-amz-credential|code)=)[^&"'\s<>]+/gi;
+const redact = (t) => String(t).replace(SECRET, "[CHAVE]").replace(SECRET2, "[CHAVE]").replace(PARAM, "$1[CHAVE]");
 const MEDIA = /\.(m3u8|mp4|jpe?g|png|webp|mjpg|mjpeg)(\?|$)|snapshot|camera|cctv|webcam|youtube\.com\/embed|player/i;
 const summary = [];
 
