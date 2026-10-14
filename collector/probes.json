@@ -1,12 +1,9 @@
 {
  "probes": [
-  { "id": "src_rotaoeste", "source": "brasil:rota-do-oeste", "sample": 2 },
-  { "id": "sg_v1", "url": "https://api.data.gov.sg/v1/transport/traffic-images", "noOrigin": true, "save": 30000 },
-  { "id": "sg_v2", "url": "https://api-open.data.gov.sg/v2/real-time/api/traffic-images", "noOrigin": true, "save": 30000 },
-  { "id": "qld_geojson", "url": "https://api.qldtraffic.qld.gov.au/v1/webcams?apikey=3e83add325cbb69ac4d8e5bf433d770b", "noOrigin": true, "save": 20000 },
-  { "id": "ibb_ckan", "url": "https://data.ibb.gov.tr/api/3/action/package_search?q=kamera&rows=20", "noOrigin": true, "save": 30000 },
-  { "id": "cat_cameres", "url": "http://www.gencat.cat/transit/opendata/cameres.xml", "noOrigin": true, "text": true, "save": 30000 },
-  { "id": "cat_cameres2", "url": "https://www.gencat.cat/transit/opendata/cameres.xml", "noOrigin": true, "text": true, "save": 30000 },
-  { "id": "vd_webcam", "url": "https://webcam.vd.dk/", "noOrigin": true, "text": true, "save": 20000 }
+  { "id": "cat_img_https", "url": "https://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc87.gif", "noOrigin": true },
+  { "id": "cat_img_http", "url": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc87.gif", "noOrigin": true },
+  { "id": "cat_full", "url": "https://www.gencat.cat/transit/opendata/cameres.xml", "noOrigin": true, "text": true, "save": 300000 },
+  { "id": "qld_img", "url": "https://cameras.qldtraffic.qld.gov.au/Metropolitan/Archerfield_Ipswich_Mwy_sth.jpg", "noOrigin": true },
+  { "id": "qld_full", "url": "https://api.qldtraffic.qld.gov.au/v1/webcams?apikey=3e83add325cbb69ac4d8e5bf433d770b", "noOrigin": true, "save": 150000 }
  ]
 }
