@@ -1,164 +1,164 @@
 {
  "pages": [
   {
-   "id": "us-midrive",
-   "url": "https://mdotjboss.state.mi.us/MiDrive/cameras",
+   "id": "dk-vd",
+   "url": "https://trafikkort.vejdirektoratet.dk/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-drivenc",
-   "url": "https://drivenc.gov/",
+   "id": "de-svzbw",
+   "url": "https://www.svz-bw.de/kamerabilder",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-cotrip",
-   "url": "https://maps.cotrip.org/",
+   "id": "de-nrw",
+   "url": "https://www.verkehr.nrw/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-drivetexas",
-   "url": "https://drivetexas.org/",
+   "id": "de-berlin",
+   "url": "https://viz.berlin.de/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-ohgo",
-   "url": "https://www.ohgo.com/",
+   "id": "de-hessen",
+   "url": "https://www.mobil.hessen.de/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-tripcheck",
-   "url": "https://tripcheck.com/",
+   "id": "fr-sytadin",
+   "url": "https://www.sytadin.fr/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-smartway",
-   "url": "https://smartway.tn.gov/traffic",
+   "id": "uk-scotland",
+   "url": "https://trafficscotland.org/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-algo",
-   "url": "https://algotraffic.com/",
+   "id": "uk-ni",
+   "url": "https://www.trafficwatchni.com/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-511va",
-   "url": "https://www.511virginia.org/",
+   "id": "ee-tarktee",
+   "url": "https://tarktee.ee/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-getaroundil",
-   "url": "https://www.gettingaroundillinois.com/",
+   "id": "lv-lvceli",
+   "url": "https://www.lvceli.lv/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-mdottraffic",
-   "url": "https://www.mdottraffic.com/",
+   "id": "bg-api",
+   "url": "https://www.api.bg/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-idrivear",
-   "url": "https://www.idrivearkansas.com/",
+   "id": "tr-kgm",
+   "url": "https://www.kgm.gov.tr/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-oktraffic",
-   "url": "https://oktraffic.org/",
+   "id": "au-sa",
+   "url": "https://traffic.sa.gov.au/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-wyoroad",
-   "url": "https://www.wyoroad.info/",
+   "id": "au-vic",
+   "url": "https://traffic.vicroads.vic.gov.au/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-goakamai",
-   "url": "https://goakamai.org/",
+   "id": "au-wa",
+   "url": "https://www.mainroads.wa.gov.au/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-511mt",
-   "url": "https://www.511mt.net/",
+   "id": "pl-gddkia",
+   "url": "https://www.gddkia.gov.pl/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-nmroads",
-   "url": "https://nmroads.com/",
+   "id": "pt-ip",
+   "url": "https://www.infraestruturasdeportugal.pt/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-wv511",
-   "url": "https://wv511.org/",
+   "id": "rs-putevi",
+   "url": "https://www.putevi-srbije.rs/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-511sc",
-   "url": "https://www.511sc.org/",
+   "id": "gr-egnatia",
+   "url": "https://www.egnatia.eu/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   },
   {
-   "id": "us-houston",
-   "url": "https://traffic.houstontranstar.org/",
+   "id": "mk-roads",
+   "url": "https://roads.org.mk/",
    "wait": 15000,
    "scroll": false,
-   "maxBodies": 20,
-   "bodyMax": 150000
+   "maxBodies": 18,
+   "bodyMax": 120000
   }
  ]
 }
