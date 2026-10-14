@@ -1,6 +1,6 @@
 {
  "probes": [
-  { "id": "antt_kmz", "url": "https://dados.antt.gov.br/dataset/9c0951da-0ca9-43b8-b158-f8bd591209c1/resource/588d468c-0f91-4055-bd26-9c64b09d9656/download/dados_quilometo_principal.kmz", "noOrigin": true, "timeout": 300000, "raw": true },
-  { "id": "antt_pkg", "url": "https://dados.antt.gov.br/api/3/action/package_show?id=9c0951da-0ca9-43b8-b158-f8bd591209c1", "noOrigin": true, "timeout": 60000, "save": 60000 }
+  { "id": "src_rotaoeste", "source": "brasil:rota-do-oeste", "sample": 6 },
+  { "id": "src_eco", "source": "brasil:ecorodovias", "sample": 3 }
  ]
 }

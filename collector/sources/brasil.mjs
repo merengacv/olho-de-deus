@@ -1,6 +1,7 @@
 // Brasil: órgãos públicos com câmeras abertas na web. Cada leitor usa a mesma lista que
 // o portal oficial carrega no navegador (descoberta com o farejador, tools/farejar.mjs).
 import { UA, fetchJSON, fetchText, clean, xmlBlocks, xmlVal, decodeXml, pool } from "../lib/util.mjs";
+import { kmPosition, roadKey as federalRoad } from "../lib/antt.mjs";
 
 // número da rodovia + km inteiro: junta a lista com coordenadas e a lista com imagens
 const roadKey = (rod, km) => {
@@ -54,8 +55,10 @@ async function ecorodovias(ctx) {
       const pois = [...((byRoad.get(g.Name) || new Map()).values())].sort((x, y) => x.km - y.km);
       for (const c of g.Cameras || []) {
         total++;
-        const pt = kmToPoint(pois, +c.KM);
+        let pt = kmToPoint(pois, +c.KM);
         if (!/^https:\/\//i.test(c.Url || "")) { noImg++; continue; }
+        // rodovia federal: o km sai da tabela oficial da ANTT quando a concessionária não tem ponto perto
+        if (!pt && federalRoad(g.Name)) { const p = await kmPosition(g.Name, +c.KM, { cache: ctx.cache }).catch(() => null); if (p) pt = { lat: p[0], lng: p[1] }; }
         if (!pt) { noPos++; lost.add(g.Name + " km " + c.KM); continue; }
         out.push({ id: base.replace(/^https:\/\/(www\.)?/, "") + "-" + c.CameraID, name: clean(`${titleCase(c.Description)} — ${g.DisplayName || g.Name}, km ${c.KM}`),
           lat: pt.lat, lng: pt.lng, img: c.Url, page: base + "/", where: name });
@@ -218,6 +221,23 @@ async function praiaGrande() {
   });
 }
 
+// Nova Rota do Oeste (BR-163/MT): a página inicial da concessionária embute as câmeras do
+// ipcamlive com o km no nome ("camerakm603"); a posição sai da tabela de km da ANTT.
+async function rotaDoOeste(ctx) {
+  const B = "https://novarotadooeste.com.br/";
+  const html = await fetchText(B, { timeout: 60000 });
+  const out = [], seen = new Set();
+  for (const m of html.matchAll(/https:\/\/([\w.-]*ipcamlive\.com)\/player\/player\.php\?alias=(camerakm(\d+)[\w-]*)/gi)) {
+    if (seen.has(m[2])) continue;
+    seen.add(m[2]);
+    const km = +m[3], p = await kmPosition("BR-163/MT", km, { cache: ctx.cache }).catch(() => null);
+    if (!p) { ctx.warn("km " + km + " fora da tabela da ANTT"); continue; }
+    out.push({ id: m[2], name: `BR-163 km ${km} — Nova Rota do Oeste`, lat: p[0], lng: p[1], where: "BR-163, MT", page: B,
+      emb: `https://${m[1]}/player/player.php?alias=${m[2]}&autoplay=1&mute=1&disableautofullscreen` });
+  }
+  return out;
+}
+
 export default [
   {
     id: "motiva", name: "Motiva — câmeras ao vivo das rodovias", org: "Motiva (concessionárias de rodovias, antigo Grupo CCR)", country: "BR", type: "trafego",
@@ -285,6 +305,11 @@ export default [
         img: "https://transito-recife.serttel.com.br/Index?handler=Snapshot&Codigo=" + c.IdCamera, page: "https://transito-recife.serttel.com.br/",
       }));
     },
+  },
+  {
+    id: "rota-do-oeste", name: "Nova Rota do Oeste — câmeras da BR-163", org: "Concessionária Nova Rota do Oeste (BR-163/MT)", country: "BR", type: "trafego",
+    home: "https://novarotadooeste.com.br/", attr: "Nova Rota do Oeste", lic: "vídeo público do site da concessionária (posição pelo km, tabela da ANTT)",
+    run: (ctx) => rotaDoOeste(ctx),
   },
   {
     id: "ecorodovias", name: "EcoRodovias — câmeras das concessionárias", org: "Grupo EcoRodovias (concessionárias de rodovias)", country: "BR", type: "trafego",
