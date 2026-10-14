@@ -1,12 +1,7 @@
 {
  "probes": [
-  { "id": "src_barueri", "source": "brasil:barueri", "sample": 5 },
-  { "id": "src_riodasantas", "source": "paginas:pref-rio-das-antas", "sample": 5 },
-  { "id": "src_saocaetano", "source": "paginas:pref-sao-caetano", "sample": 10 },
-  { "id": "pg_doh", "url": "https://dns.google/resolve?name=cameras.praiagrande.sp.gov.br&type=A", "noOrigin": true, "text": true, "save": 2000 },
-  { "id": "pg_aovivo", "url": "https://cameras.praiagrande.sp.gov.br/aovivo", "noOrigin": true, "text": true, "save": 300000 },
-  { "id": "cetsp_root", "url": "https://cameras.cetsp.com.br/", "noOrigin": true, "text": true, "save": 20000 },
-  { "id": "cetsp_cams", "url": "https://cameras.cetsp.com.br/Cams/", "noOrigin": true, "text": true, "save": 20000 },
-  { "id": "cetsp_robots", "url": "https://cameras.cetsp.com.br/robots.txt", "noOrigin": true, "text": true, "save": 2000 }
+  { "id": "pg_main", "url": "https://cameras.praiagrande.sp.gov.br/js/main.js", "noOrigin": true, "text": true, "save": 300000 },
+  { "id": "cetsp_landing", "url": "https://cameras.cetsp.com.br/Scripts/landingAni.js", "noOrigin": true, "text": true, "save": 60000 },
+  { "id": "cetsp_sprite", "url": "https://cameras.cetsp.com.br/Scripts/spriteClass.js", "noOrigin": true, "text": true, "save": 30000 }
  ]
 }
