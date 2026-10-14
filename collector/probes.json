@@ -1,38 +1,10 @@
 {
  "probes": [
   {
-   "id": "cars_ks",
-   "url": "https://www.kandrive.gov/api/graphql",
-   "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 39.2,
-       "south": 38.9,
-       "east": -94.6,
-       "west": -95.0,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
-  },
-  {
    "id": "cars_co",
-   "url": "https://www.cotrip.org/api/graphql",
+   "url": "https://511.cotrip.org/api/graphql",
    "noOrigin": true,
-   "timeout": 40000,
+   "timeout": 90000,
    "method": "POST",
    "headers": {
     "Content-Type": "application/json"
@@ -54,13 +26,14 @@
       }
      }
     }
-   ]
+   ],
+   "save": 20000
   },
   {
-   "id": "cars_nc",
-   "url": "https://drivenc.gov/api/graphql",
+   "id": "cars_ks_full",
+   "url": "https://www.kandrive.gov/api/graphql",
    "noOrigin": true,
-   "timeout": 40000,
+   "timeout": 90000,
    "method": "POST",
    "headers": {
     "Content-Type": "application/json"
@@ -70,10 +43,10 @@
      "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
      "variables": {
       "input": {
-       "north": 35.9,
-       "south": 35.7,
-       "east": -78.5,
-       "west": -78.8,
+       "north": 40.0,
+       "south": 37.0,
+       "east": -94.6,
+       "west": -102.05,
        "zoom": 12,
        "layerSlugs": [
         "normalCameras"
@@ -82,259 +55,37 @@
       }
      }
     }
-   ]
+   ],
+   "save": 20000
   },
   {
-   "id": "cars_ms",
-   "url": "https://www.mdottraffic.com/api/graphql",
-   "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 32.4,
-       "south": 32.2,
-       "east": -90.1,
-       "west": -90.3,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
+   "id": "cat_bcn_https",
+   "url": "https://www.bcn.cat/transit/imatges/PlCerda.gif",
+   "noOrigin": true
   },
   {
-   "id": "cars_mi",
-   "url": "https://mdotjboss.state.mi.us/api/graphql",
-   "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 42.5,
-       "south": 42.2,
-       "east": -83.0,
-       "west": -83.3,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
+   "id": "src_qld",
+   "source": "asiapac:qldtraffic",
+   "sample": 2
   },
   {
-   "id": "cars_nd",
-   "url": "https://travel.dot.nd.gov/api/graphql",
-   "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 46.9,
-       "south": 46.7,
-       "east": -100.7,
-       "west": -100.9,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
+   "id": "src_cat",
+   "source": "europe:sct-cat",
+   "sample": 3
   },
   {
-   "id": "cars_mt",
-   "url": "https://www.511mt.net/api/graphql",
+   "id": "midrive",
+   "url": "https://mdotjboss.state.mi.us/MiDrive/map",
    "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 45.9,
-       "south": 45.7,
-       "east": -108.4,
-       "west": -108.7,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
+   "text": true,
+   "save": 60000
   },
   {
-   "id": "cars_wy",
-   "url": "https://map.wyoroad.info/api/graphql",
+   "id": "drivenc",
+   "url": "https://drivenc.gov/",
    "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 41.2,
-       "south": 41.0,
-       "east": -104.7,
-       "west": -104.9,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
-  },
-  {
-   "id": "cars_ak",
-   "url": "https://511.alaska.gov/api/graphql",
-   "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 61.3,
-       "south": 61.1,
-       "east": -149.7,
-       "west": -150.0,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
-  },
-  {
-   "id": "cars_va",
-   "url": "https://511.vdot.virginia.gov/api/graphql",
-   "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 37.6,
-       "south": 37.4,
-       "east": -77.3,
-       "west": -77.6,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
-  },
-  {
-   "id": "cars_nj",
-   "url": "https://511nj.org/api/graphql",
-   "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 40.8,
-       "south": 40.6,
-       "east": -74.0,
-       "west": -74.3,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
-  },
-  {
-   "id": "cars_tn",
-   "url": "https://smartway.tn.gov/api/graphql",
-   "noOrigin": true,
-   "timeout": 40000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 36.2,
-       "south": 36.0,
-       "east": -86.6,
-       "west": -86.9,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ]
+   "text": true,
+   "save": 60000
   }
  ]
 }

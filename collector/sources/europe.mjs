@@ -12,6 +12,26 @@ export function kmlPlacemarks(kml) {
   });
 }
 
+// Catalunha: o Servei Català de Trànsit publica num WFS aberto as câmeras dele e as de
+// Barcelona (IMI), Terrassa e Andorra. As imagens do SCT só existem em http (o https do
+// servidor tem certificado recusado) e o site é https: essas entram como link para a imagem.
+const capWords = (s) => String(s || "").toLowerCase().replace(/(^|[\s'(-])(\p{L})/gu, (m, a, b) => a + b.toUpperCase());
+async function catalunya() {
+  const x = await fetchText("https://www.gencat.cat/transit/opendata/cameres.xml", { timeout: 90000 });
+  return xmlBlocks(x, "cameres").map((b, i) => {
+    const [lng, lat] = (xmlVal(b, "coordinates") || "").split(",").map(Number);
+    const font = xmlVal(b, "font"), road = clean(xmlVal(b, "carretera")), mun = clean(xmlVal(b, "municipi")), pk = clean(xmlVal(b, "pk"));
+    let url = xmlVal(b, "link").replace(/&#13;/g, "").trim().replace(/\?a=1$/, "");
+    if (/^http:\/\/(www\.)?bcn\.cat\//i.test(url)) url = url.replace(/^http:/i, "https:");
+    const ok = /^https:\/\//i.test(url);
+    const key = (url.match(/sctidcam=([\w.-]+)/) || url.match(/\/([\w.-]+)\.(?:gif|jpe?g|png)/i) || [])[1] || String(i);
+    const name = font === "SCT" ? `${road}${pk ? " pk " + pk : ""} — ${capWords(mun)}` : road.split(" / ")[0] + (font === "Andorra" ? "" : "");
+    const where = font === "Andorra" ? "Andorra" : font === "IMI" ? "Barcelona" : capWords(mun);
+    return { id: font + "-" + key, name: clean(name, 110), lat, lng, img: ok ? url : undefined, page: ok ? "https://transit.gencat.cat/ca/" : url,
+      where, cc: font === "Andorra" ? "AD" : "ES" };
+  });
+}
+
 export default [
   { id: "tfl", name: "TfL JamCams", org: "Transport for London", country: "GB", type: "trafego", home: "https://tfl.gov.uk/traffic/status/", attr: "Powered by TfL Open Data. Contém dados da OS © Crown copyright.", lic: "TfL Open Data",
     run: async () => {
@@ -23,6 +43,8 @@ export default [
       }).filter(Boolean);
     } },
 
+  { id: "sct-cat", name: "Servei Català de Trànsit — càmeres", org: "Servei Català de Trànsit (Generalitat de Catalunya)", country: "ES", type: "trafego", home: "https://transit.gencat.cat/",
+    attr: "Servei Català de Trànsit; Ajuntament de Barcelona; Ajuntament de Terrassa; Govern d'Andorra", lic: "dades obertes de la Generalitat de Catalunya", run: () => catalunya() },
   { id: "dgt", name: "DGT — cámaras de tráfico", org: "Dirección General de Tráfico (Espanha)", country: "ES", type: "trafego", home: "https://infocar.dgt.es/etraffic/", attr: "DGT — Punto de Acceso Nacional (NAP)", lic: "CC BY 4.0",
     run: async () => {
       const x = await fetchText("https://nap.dgt.es/datex2/v3/dgt/DevicePublication/camaras_datex2_v37.xml", { timeout: 120000 });

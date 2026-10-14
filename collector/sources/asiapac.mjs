@@ -24,6 +24,17 @@ export default [
         img: `https://www.trafficnz.info/camera/${c.id}.jpg`, dir: c.direction, where: c.region && c.region.name }));
     } },
 
+  // Queensland: a API aberta do QLDTraffic (chave pública publicada pelo próprio TMR para dados abertos)
+  { id: "qldtraffic", name: "QLDTraffic — webcams", org: "Department of Transport and Main Roads (Queensland)", country: "AU", type: "trafego", home: "https://qldtraffic.qld.gov.au/", attr: "QLDTraffic — TMR Queensland", lic: "CC BY 4.0",
+    run: async () => {
+      const j = await fetchJSON("https://api.qldtraffic.qld.gov.au/v1/webcams?apikey=3e83add325cbb69ac4d8e5bf433d770b", { timeout: 90000 });
+      return (j.features || []).filter((f) => f && f.properties && /^https:/i.test(f.properties.image_url || "") && f.geometry).map((f) => {
+        const p = f.properties;
+        return { id: String(p.id), name: clean(p.description), lat: +f.geometry.coordinates[1], lng: +f.geometry.coordinates[0], img: p.image_url,
+          dir: clean(p.direction, 24), where: clean([p.locality, p.district].filter(Boolean).join(", ")) };
+      });
+    } },
+
   { id: "nsw", name: "Live Traffic NSW", org: "Transport for NSW", country: "AU", type: "trafego", home: "https://www.livetraffic.com/", attr: "Transport for NSW", lic: "CC BY 4.0 (Transport for NSW Open Data)",
     run: async () => {
       const j = await fetchJSON("https://www.livetraffic.com/datajson/all-feeds-web.json", { timeout: 90000 });
