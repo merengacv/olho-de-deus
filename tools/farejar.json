@@ -1,183 +1,129 @@
 {
  "pages": [
   {
-   "id": "br-tamoios-cams",
-   "url": "https://www23.concessionariatamoios.com.br/cameras",
-   "wait": 12000,
+   "id": "br-camerascet",
+   "url": "https://camerascet.prefeitura.sp.gov.br/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-santos-aovivo",
-   "url": "https://www.santos.sp.gov.br/santosaovivo",
-   "wait": 12000,
+   "id": "br-barueri",
+   "url": "http://servicos.barueri.sp.gov.br/cameras",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-rotaoeste",
-   "url": "https://novarotadooeste.com.br/",
-   "wait": 12000,
+   "id": "br-camerasrj",
+   "url": "https://www.camerasrj.com.br/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-arteris-fernao",
-   "url": "https://www.arteris.com.br/nossas-rodovias/autopista-fernao-dias/",
-   "wait": 12000,
+   "id": "br-friburgo",
+   "url": "https://nfci.pmnf.rj.gov.br/camerasaovivo.html",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-arteris-regis",
-   "url": "https://www.arteris.com.br/nossas-rodovias/autopista-regis-bittencourt/",
-   "wait": 12000,
+   "id": "br-saocaetano",
+   "url": "https://www.saocaetanodosul.sp.gov.br/pages/24",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-viaaraucaria",
-   "url": "https://www.viaaraucaria.com.br/",
-   "wait": 12000,
+   "id": "br-praiagrande",
+   "url": "https://www2.praiagrande.sp.gov.br/noticia/id/60851",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-eprlitoral",
-   "url": "https://www.eprlitoralpioneiro.com.br/",
-   "wait": 12000,
+   "id": "br-itaoca",
+   "url": "https://www.itaoca.sp.gov.br/camerasaovivo",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-csg",
-   "url": "https://www.caminhosdaserragaucha.com.br/",
-   "wait": 12000,
+   "id": "br-buritama",
+   "url": "https://buritama.sp.gov.br/camera-ao-vivo/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-rotamogiana",
-   "url": "https://rotamogiana.com.br/",
-   "wait": 12000,
+   "id": "br-feliz",
+   "url": "https://www.feliz.rs.gov.br/site/cameras-ao-vivo",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-viabrasil163",
-   "url": "https://viabrasilbr163.com.br/",
-   "wait": 12000,
+   "id": "br-riodasantas",
+   "url": "https://riodasantas.sc.gov.br/pagina-35081/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-rota116",
-   "url": "https://www.rota116.com.br/",
-   "wait": 12000,
+   "id": "br-joaopessoa",
+   "url": "http://antigo.joaopessoa.pb.gov.br/semob-jp-disponibiliza-link-direto-para-populacao-acessar-as-68-cameras-e-se-programar-no-transito/cameras-de-transito/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-cart",
-   "url": "https://www.cart.invepar.com.br/",
-   "wait": 12000,
+   "id": "br-imperatriz",
+   "url": "https://imperatriz.ma.gov.br/noticias/transito-e-transporte/prefeitura-disponibiliza-imagens-de-cameras-de-monitoramento-de-transito.html",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-alertablu",
-   "url": "https://alertablu.blumenau.sc.gov.br/",
-   "wait": 12000,
+   "id": "br-parnamirim",
+   "url": "https://tribunadonorte.com.br/natal/prefeitura-de-parnamirim-disponibiliza-site-com-imagens-das-cameras-de-monitoramento/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-derdf",
-   "url": "https://www.der.df.gov.br/",
-   "wait": 12000,
+   "id": "br-niveldorio",
+   "url": "https://niveldorio.com/ao-vivo",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-joinville",
-   "url": "https://www.joinville.sc.gov.br/",
-   "wait": 12000,
+   "id": "br-espiai",
+   "url": "https://aovivo.alertaitajuba.com.br/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-climaaovivo",
-   "url": "https://www.climaaovivo.com.br/",
-   "wait": 12000,
+   "id": "br-camerasdaserra",
+   "url": "https://camerasdaserra.com.br/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-portosantos",
-   "url": "https://www.portodesantos.com.br/",
-   "wait": 12000,
+   "id": "br-brusque",
+   "url": "https://www.brusqueaovivo.com/cameras",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-cataratas",
-   "url": "https://cataratasdoiguacu.com.br/",
-   "wait": 12000,
+   "id": "br-torres",
+   "url": "https://torresaovivo.com.br/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-bondinho",
-   "url": "https://bondinho.com.br/",
-   "wait": 12000,
+   "id": "br-eptc-mon",
+   "url": "https://prefeitura.poa.br/eptc/controle-e-monitoramento-da-mobilidade",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-bhtrans",
-   "url": "https://prefeitura.pbh.gov.br/bhtrans",
-   "wait": 12000,
+   "id": "br-transitoaovivo",
+   "url": "https://transitoaovivo.com/transito-cetsp-1/",
+   "wait": 14000,
    "scroll": true
   },
   {
-   "id": "br-eptc",
-   "url": "https://prefeitura.poa.br/eptc",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-transalvador",
-   "url": "http://www.transalvador.salvador.ba.gov.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-feira",
-   "url": "https://www.feiradesantana.ba.gov.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-artesp",
-   "url": "https://www.artesp.sp.gov.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-derpr",
-   "url": "https://www.der.pr.gov.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-dermg",
-   "url": "https://www.der.mg.gov.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-defesacivilsc",
-   "url": "https://www.defesacivil.sc.gov.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-itaipu",
-   "url": "https://www.itaipu.gov.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-curitiba",
-   "url": "https://www.curitiba.pr.gov.br/",
-   "wait": 12000,
-   "scroll": true
-  },
-  {
-   "id": "br-floripa",
-   "url": "https://www.pmf.sc.gov.br/",
-   "wait": 12000,
+   "id": "br-copacabana",
+   "url": "https://copacabana.com/cameras",
+   "wait": 14000,
    "scroll": true
   }
  ]
