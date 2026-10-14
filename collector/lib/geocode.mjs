@@ -45,6 +45,41 @@ export function geocodeAll(q, opt = {}) {
   return p;
 }
 
+// Cruzamento de duas ruas ("Av. A com Rua B"): pergunta ao Overpass (OpenStreetMap) pelo
+// nó que as duas vias têm em comum perto da cidade. Devolve [lat, lng] ou null.
+const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter"];
+const VOWEL = { a: "[aáàâã]", e: "[eéê]", i: "[ií]", o: "[oóôõ]", u: "[uúü]", c: "[cç]" };
+function streetRe(s) {
+  const base = String(s).replace(/^(rua|avenida|travessa|alameda|estrada|rodovia|pra[cç]a|largo|viaduto|ponte)\s+/i, "")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s]/g, " ").trim().toLowerCase();
+  return "(^| )" + base.split(/\s+/).map((w) => w.split("").map((ch) => VOWEL[ch] || ch).join("")).join(" +") + "$";
+}
+export function intersection(a, b, center, opt = {}) {
+  const run = async () => {
+    await load(opt.cache);
+    const key = "x|" + [a, b].map((x) => String(x).toLowerCase()).sort().join("|") + "|" + center.slice(0, 2).map((v) => v.toFixed(2)).join(",");
+    if (key in cache) return cache[key];
+    const r = Math.round((center[2] || 12) * 1000), at = `(around:${r},${center[0]},${center[1]})`;
+    const q = `[out:json][timeout:25];way${at}["highway"]["name"~"${streetRe(a)}",i]->.a;way${at}["highway"]["name"~"${streetRe(b)}",i]->.b;node(w.a)(w.b);out 10;`;
+    let res;
+    for (const ep of OVERPASS) {
+      try {
+        const j = await fetchJSON(ep, { method: "POST", body: new URLSearchParams({ data: q }), headers: { "Content-Type": "application/x-www-form-urlencoded" }, timeout: 40000, retries: 0 });
+        const pts = ((j && j.elements) || []).filter((e) => Number.isFinite(e.lat)).map((e) => [Math.round(e.lat * 1e5) / 1e5, Math.round(e.lon * 1e5) / 1e5]);
+        pts.sort((p, q2) => kmBetween(p, center) - kmBetween(q2, center));
+        res = pts[0] || null;
+        break;
+      } catch { /* tenta o próximo servidor */ }
+    }
+    if (res === undefined) return null; // sem resposta: tenta de novo na próxima coleta
+    cache[key] = res; dirty = true;
+    return res;
+  };
+  const p = chain.then(run, run);
+  chain = p.catch(() => null);
+  return p;
+}
+
 export async function geocode(q, opt = {}) {
   const all = await geocodeAll(q, opt);
   return all[0] || null;

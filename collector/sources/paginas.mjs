@@ -4,7 +4,7 @@
 // pelo endereço do nome (Nominatim, com cache; cruzamento "Rua A com Rua B" vira o
 // ponto onde as duas se encontram) ou, sem endereço, perto do centro da cidade.
 import { fetchText, clean, decodeXml } from "../lib/util.mjs";
-import { geocodeAll, kmBetween, saveGeocode } from "../lib/geocode.mjs";
+import { geocodeAll, intersection, kmBetween, saveGeocode } from "../lib/geocode.mjs";
 
 // páginas lidas (lat/lng = centro da cidade, usado quando o nome não traz endereço)
 export const PAGINAS = [
@@ -128,6 +128,7 @@ async function locate(name, pg, opt) {
   const near = [pg.lat, pg.lng, 25];
   const [a, b] = streetsOf(name);
   if (!a) return null;
+  if (b) { const x = await intersection(a, b, [pg.lat, pg.lng, 12], opt); if (x) return x; }
   const A = await geocodeAll(`${a}, ${pg.city}, ${pg.uf}, Brasil`, { ...opt, near });
   if (!A.length) return null;
   if (b) {
@@ -140,7 +141,8 @@ async function locate(name, pg, opt) {
 }
 
 async function readPage(pg, ctx) {
-  const html = await fetchText(pg.url, { timeout: 60000, retries: 1, charset: "auto" });
+  const html = await fetchText(pg.url, { timeout: 60000, retries: 1, charset: "auto",
+    headers: { Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.5" } });
   const found = parsePage(html), out = [];
   let k = 0;
   for (const f of found) {

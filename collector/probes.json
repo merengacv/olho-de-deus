@@ -1,20 +1,12 @@
 {
  "probes": [
-  { "id": "src_feliz", "source": "paginas:pref-feliz", "sample": 15 },
-  { "id": "src_friburgo", "source": "paginas:pref-nova-friburgo", "sample": 15 },
-  { "id": "src_saocaetano", "source": "paginas:pref-sao-caetano", "sample": 10 },
-  { "id": "src_riodasantas", "source": "paginas:pref-rio-das-antas", "sample": 5 },
   { "id": "src_barueri", "source": "brasil:barueri", "sample": 5 },
-  { "id": "src_serra", "source": "brasil:camerasdaserra", "sample": 3 },
-  { "id": "cet_doh", "url": "https://dns.google/resolve?name=camerascet.prefeitura.sp.gov.br&type=A", "noOrigin": true, "text": true },
-  { "id": "cet_robots", "url": "https://camerascet.prefeitura.sp.gov.br/robots.txt", "noOrigin": true, "text": true },
-  { "id": "cet_home", "url": "https://camerascet.prefeitura.sp.gov.br/", "noOrigin": true, "text": true, "save": 200000 },
-  { "id": "cet_old", "url": "https://www.cetsp.com.br/consultas/cameras-cet.aspx", "noOrigin": true, "text": true, "save": 300000, "grep": ["Cams/\\d+[^\"'<]{0,40}"], "grepMax": 400 },
-  { "id": "cet_img", "url": "https://cameras.cetsp.com.br/Cams/200/1.jpg", "noOrigin": true },
-  { "id": "cav_cidades", "url": "https://www.climaaovivo.com.br/cidades", "noOrigin": true, "text": true, "save": 400000 },
-  { "id": "camerite_backupti", "url": "https://backupti.camerite.com/", "noOrigin": true, "text": true, "save": 100000 },
-  { "id": "transalvador_doh", "url": "https://dns.google/resolve?name=cameras-transalvador.salvador.ba.gov.br&type=A", "noOrigin": true, "text": true },
-  { "id": "transalvador_home", "url": "https://cameras-transalvador.salvador.ba.gov.br/", "noOrigin": true, "text": true, "save": 200000 },
-  { "id": "csg_cameras", "url": "https://www.csg.com.br/pagina/cameras", "noOrigin": true, "text": true, "save": 300000, "grep": ["[^\"'<>]{0,80}(m3u8|ipcamlive|rtsp\\.me|youtube|\\.jpg|camera)[^\"'<>]{0,80}"], "grepMax": 80 }
+  { "id": "src_riodasantas", "source": "paginas:pref-rio-das-antas", "sample": 5 },
+  { "id": "src_saocaetano", "source": "paginas:pref-sao-caetano", "sample": 10 },
+  { "id": "pg_doh", "url": "https://dns.google/resolve?name=cameras.praiagrande.sp.gov.br&type=A", "noOrigin": true, "text": true, "save": 2000 },
+  { "id": "pg_aovivo", "url": "https://cameras.praiagrande.sp.gov.br/aovivo", "noOrigin": true, "text": true, "save": 300000 },
+  { "id": "cetsp_root", "url": "https://cameras.cetsp.com.br/", "noOrigin": true, "text": true, "save": 20000 },
+  { "id": "cetsp_cams", "url": "https://cameras.cetsp.com.br/Cams/", "noOrigin": true, "text": true, "save": 20000 },
+  { "id": "cetsp_robots", "url": "https://cameras.cetsp.com.br/robots.txt", "noOrigin": true, "text": true, "save": 2000 }
  ]
 }
