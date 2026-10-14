@@ -1,11 +1,6 @@
 {
  "probes": [
-  { "id": "src_cav", "source": "brasil:climaaovivo", "sample": 4 },
-  { "id": "cav_page1", "url": "https://www.climaaovivo.com.br/ce/abaiara-torre-da-linkcariri", "noOrigin": true, "text": true, "grep": ["<title>[^<]{0,120}"] },
-  { "id": "cav_page2", "url": "https://www.climaaovivo.com.br/ma/acailandia", "noOrigin": true, "text": true, "grep": ["<title>[^<]{0,120}"] },
-  { "id": "dersp_live", "url": "https://dersp.der.sp.gov.br/Upload/XML/cameraslive.xml", "noOrigin": true, "text": true, "save": 900000 },
-  { "id": "dersp_stream", "url": "https://dersp.der.sp.gov.br/Upload/XML/cameraslivestream.xml", "noOrigin": true, "text": true, "save": 900000 },
-  { "id": "dersp_pos", "url": "http://200.144.30.103:8084/api/cameras", "noOrigin": true, "text": true, "save": 900000 },
-  { "id": "pg_main", "url": "https://cameras.praiagrande.sp.gov.br/js/main.js", "noOrigin": true, "text": true, "save": 300000 }
+  { "id": "src_pg", "source": "brasil:praia-grande", "sample": 6 },
+  { "id": "pg_api", "url": "https://cameras.praiagrande.sp.gov.br/aovivo/api", "noOrigin": true, "text": true, "save": 120000 }
  ]
 }

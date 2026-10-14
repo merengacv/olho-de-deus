@@ -198,6 +198,18 @@ async function climaAoVivo() {
     }));
 }
 
+// Praia Grande: mapa oficial das câmeras de monitoramento da prefeitura (orla, avenidas,
+// entradas da cidade). A lista com coordenadas é aberta; a imagem o mapa pede por POST,
+// então aqui entra o ponto com o link para o mapa oficial.
+async function praiaGrande() {
+  const B = "https://cameras.praiagrande.sp.gov.br/aovivo";
+  const list = await fetchJSON(B + "/api", { timeout: 60000, headers: { Referer: B } });
+  return (Array.isArray(list) ? list : []).filter((c) => isFinite(c.Latitude) && isFinite(c.Longitude) && Math.abs(+c.Latitude) > 1).map((c) => ({
+    id: String(c.Id || c.Name), name: clean(decodeXml(String(c.Description || c.Name || "")).replace(/<[^>]+>/g, " "), 110),
+    lat: +c.Latitude, lng: +c.Longitude, where: "Praia Grande, SP", page: B,
+  }));
+}
+
 export default [
   {
     id: "motiva", name: "Motiva — câmeras ao vivo das rodovias", org: "Motiva (concessionárias de rodovias, antigo Grupo CCR)", country: "BR", type: "trafego",
@@ -213,6 +225,11 @@ export default [
     id: "barueri", name: "Barueri — câmeras da cidade", org: "Prefeitura de Barueri (Cidade Inteligente)", country: "BR", type: "cidade",
     home: "https://servicos.barueri.sp.gov.br/cameras/", attr: "Prefeitura de Barueri", lic: "pontos do mapa público de câmeras; imagem só na página oficial",
     run: () => barueri(),
+  },
+  {
+    id: "praia-grande", name: "Praia Grande — câmeras de monitoramento", org: "Prefeitura da Estância Balneária de Praia Grande", country: "BR", type: "cidade",
+    home: "https://cameras.praiagrande.sp.gov.br/aovivo", attr: "Prefeitura de Praia Grande (SEAD)", lic: "pontos do mapa oficial de câmeras; imagem na página oficial",
+    run: () => praiaGrande(),
   },
   {
     id: "climaaovivo", name: "Clima ao Vivo (rede privada)", org: "Clima ao Vivo", country: "BR", type: "clima",
