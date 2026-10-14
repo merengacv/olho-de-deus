@@ -1,6 +1,7 @@
 {
  "probes": [
-  { "id": "src_pg", "source": "brasil:praia-grande", "sample": 6 },
-  { "id": "pg_api", "url": "https://cameras.praiagrande.sp.gov.br/aovivo/api", "noOrigin": true, "text": true, "save": 120000 }
+  { "id": "src_eco", "source": "brasil:ecorodovias", "sample": 2 },
+  { "id": "src_pg", "source": "brasil:praia-grande", "sample": 4 },
+  { "id": "antt_kmz_head", "url": "https://dados.antt.gov.br/dataset/9c0951da-0ca9-43b8-b158-f8bd591209c1/resource/588d468c-0f91-4055-bd26-9c64b09d9656/download/dados_quilometo_principal.kmz", "noOrigin": true }
  ]
 }

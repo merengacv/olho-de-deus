@@ -48,15 +48,20 @@ async function ecorodovias(ctx) {
       if (!byRoad.has(road)) byRoad.set(road, new Map());
       byRoad.get(road).set(Math.round(p.KM * 10), { km: +p.KM, lat: +p.Latitude, lng: +p.Longitude });
     }
+    let total = 0, noPos = 0, noImg = 0;
+    const lost = new Set();
     for (const g of d.Cameras || []) {
       const pois = [...((byRoad.get(g.Name) || new Map()).values())].sort((x, y) => x.km - y.km);
       for (const c of g.Cameras || []) {
+        total++;
         const pt = kmToPoint(pois, +c.KM);
-        if (!pt || !/^https:\/\//i.test(c.Url || "")) continue;
+        if (!/^https:\/\//i.test(c.Url || "")) { noImg++; continue; }
+        if (!pt) { noPos++; lost.add(g.Name + " km " + c.KM); continue; }
         out.push({ id: base.replace(/^https:\/\/(www\.)?/, "") + "-" + c.CameraID, name: clean(`${titleCase(c.Description)} — ${g.DisplayName || g.Name}, km ${c.KM}`),
           lat: pt.lat, lng: pt.lng, img: c.Url, page: base + "/", where: name });
       }
     }
+    if (noPos || noImg) ctx.warn(`${name}: ${total} câmeras, ${noPos} sem posição (${[...lost].slice(0, 6).join("; ")}), ${noImg} sem imagem https`);
   });
   return out;
 }
