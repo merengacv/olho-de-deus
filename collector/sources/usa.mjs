@@ -155,13 +155,14 @@ export default [
       lat: +c.start_lat, lng: +c.start_lng, hls: `https://vtc1.roadsummary.com/rtplive/${c.md5}/playlist.m3u8`, page: "https://wv511.org/" }));
   } }),
 
-  // Arkansas (IDrive Arkansas): GeoJSON público das câmeras, cada uma com vídeo HLS
+  // Arkansas (IDrive Arkansas): GeoJSON público das câmeras
   T({ id: "idrivear", name: "IDrive Arkansas", org: "Arkansas DOT (ARDOT)", home: "https://www.idrivearkansas.com/", attr: "ARDOT — IDrive Arkansas", run: async () => {
     const j = await fetchJSON("https://layers.idrivearkansas.com/cameras.geojson?v=" + Math.floor(Date.now() / 1e4), { timeout: 90000, headers: { Referer: "https://www.idrivearkansas.com/" } });
     return ((j && j.features) || []).filter((f) => f && f.geometry && f.properties && f.properties.status !== "offline").map((f) => {
-      const p = f.properties, hls = p.hls_stream_protected || p.hls_stream || "";
+      // o vídeo é assinado (CloudFront com chave do próprio site): fica o link para o mapa oficial
+      const p = f.properties;
       return { id: String(p.id), name: clean(p.name), lat: +f.geometry.coordinates[1], lng: +f.geometry.coordinates[0], dir: clean(p.direction_name, 24),
-        hls: /^https:.+\.m3u8/i.test(hls) ? hls : undefined, page: "https://www.idrivearkansas.com/" };
+        page: "https://www.idrivearkansas.com/" };
     });
   } }),
 

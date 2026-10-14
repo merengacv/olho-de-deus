@@ -1,11 +1,7 @@
 {
  "probes": [
-  { "id": "src_nc", "source": "ibi511:511-nc", "sample": 2 },
-  { "id": "src_ar", "source": "usa:idrivear", "sample": 2 },
-  { "id": "src_wv", "source": "usa:wv511", "sample": 2 },
-  { "id": "src_ma", "source": "usa:cars-ma", "sample": 2 },
-  { "id": "src_mn", "source": "usa:cars-mn", "sample": 1 },
-  { "id": "ar_hls", "url": "https://cdn.idrivearkansas.com/live/idrive_457_base.stream/playlist.m3u8", "text": true, "save": 2000 },
-  { "id": "wy_i80", "url": "https://www.wyoroad.info/Highway/webcameras/all?route=I80Cameras", "noOrigin": true, "text": true, "save": 60000 }
+  { "id": "wy_site", "url": "https://www.wyoroad.info/highway/webcameras/view?site=I80EvanstonPOE", "noOrigin": true, "text": true, "save": 60000 },
+  { "id": "wy_map", "url": "https://map.wyoroad.info/", "noOrigin": true, "text": true, "save": 30000 },
+  { "id": "src_ar", "source": "usa:idrivear", "sample": 1 }
  ]
 }
