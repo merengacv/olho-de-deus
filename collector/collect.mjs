@@ -136,13 +136,13 @@ async function main() {
   // Fontes "agregadoras" (OpenStreetMap, Wikidata) têm um punhado de câmeras de cada
   // site: não servem para dizer que um site inteiro já foi lido, e só entram onde
   // ainda não houver câmera (vêm por último).
-  const sources = [], all = [], covered = new Set(), later = [];
+  const sources = [], all = [], covered = new Map(), later = [];
   const cell = (c) => Math.round(c.lat * 4500) + ":" + Math.round(c.lng * 4500);
   for (const [rec, cams] of results) {
     sources.push(rec);
     const src = SOURCES.find((x) => x.id === rec.id) || {};
     if (src.aggregate) { later.push([rec, cams]); continue; }
-    for (const c of cams) { all.push(c); const h = hostKey(mediaOf(c)); if (!SHARED_HOST.test(h)) covered.add(h); }
+    for (const c of cams) { all.push(c); const h = hostKey(mediaOf(c)); if (!SHARED_HOST.test(h)) covered.set(h, (covered.get(h) || 0) + 1); }
   }
 
   // ---------- semente ----------
@@ -150,11 +150,17 @@ async function main() {
     try {
       const bySrc = await loadSeed(log);
       // pontos já cobertos por fontes diretas (células de ~25 m): a mesma câmera com outro endereço
-      const taken = new Set(all.map(cell));
+      const taken = new Set(all.map(cell)), urls = new Set(all.map((c) => urlKey(mediaOf(c))));
+      // um site lido direto "cobre" a semente dele só se trouxe quase tantas câmeras quanto ela
+      // (lista completa e atual); se trouxe bem menos, ficam as da semente que não repetem
+      const seedPerHost = new Map();
+      for (const cams of bySrc.values()) for (const c of cams) { const h = hostKey(mediaOf(c)); seedPerHost.set(h, (seedPerHost.get(h) || 0) + 1); }
+      const isCovered = (h) => covered.has(h) && covered.get(h) >= 0.85 * (seedPerHost.get(h) || 0);
       let used = 0, dropped = 0, samePoint = 0;
       for (const [src, cams] of bySrc) {
         const keep = cams.filter((c) => {
-          if (covered.has(hostKey(mediaOf(c)))) return false;
+          const h = hostKey(mediaOf(c));
+          if (isCovered(h) || urls.has(urlKey(mediaOf(c)))) return false;
           if (taken.has(cell(c))) { samePoint++; return false; }
           return true;
         });
