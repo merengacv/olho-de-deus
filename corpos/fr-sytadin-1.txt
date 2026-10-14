@@ -1,0 +1,835 @@
+GET https://www.sytadin.fr/
+content-type: text/html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<title>Sytadin : l'état du trafic en Île-de-France en temps réel</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="robots" content="index, follow" />
+		<meta name="revisit-after" content="7 days" />
+	
+		
+		
+		<link href="/resources/css/sytadin2.css" rel="stylesheet" type="text/css" />
+		<link href="/resources/css/sytadin-gp.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/resources/css/print.css" media="print" />
+		
+		<link rel="shortcut icon" type="images/x-icon" href="/favicon.ico" />
+		
+		 <link href="/resources/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+		 
+		 <script type="text/javascript" src="/resources/js/variablesSytadin-gp.js"></script>
+  		<script  type="text/javascript" src="/resources/js/jquery.min.js"></script>  
+  		<script type="text/javascript" src="/resources/js/jquery.cookie.js"></script>				
+  		<script type="text/javascript" src="/resources/js/sytadin.js"></script>			
+		<script type="text/javascript" src="/resources/js/jquery.tablesorter.js"></script>
+	
+		
+		
+		
+	</head>
+
+	<body onload="construct();">
+		<div id="global">	
+			
+			
+			<!--header-->
+				
+
+<div id="header">
+		<h1><a href="/" title="Sytadin"><img src="/resources/images/sytadin_titre6.png" alt="Sytadin"/></a></h1>		
+</div>
+			<!--header-->
+			
+			
+			<!--alert-->
+				
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var contentToRefreshed = "/refreshed/alert_block.jsp.html";
+	refreshed(contentToRefreshed ,"alert_block", 180000);
+</script>		
+<div class="main_block title_black" id="alert_block">	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--date limite : Wed Oct 14 03:40:15 CEST 2026-->
+<!--date donnees : 2026-10-14 04:08:17.0-->
+<!--degrade : false -->
+	<h3>
+		<img src="/resources/images/black_arrow_left.gif" alt="" style="float:left;" />
+		<img src="/resources/images/black_arrow_right.gif" alt="" style="float:right;" />
+		<span>4 Alerte(s) Réseau : </span> 
+	</h3>
+	<div class="main_content" style="overflow:auto;padding-bottom:0;position:relative;">
+	
+	<a  href="https://x.com/Sytadin" id="twitter_link" target="_top">
+		<img alt="Suivre @Sytadin" src="/images/twitter.png" id="twitter_link" title="Twitter" />
+	</a>
+		<script type="text/javascript">		
+			$(document).ready(function() {
+				activationTwitterButton();
+			});	
+		</script>
+	
+	
+	
+		
+		
+		
+		
+		
+			<ul style="float:left;">
+				
+					<li>						
+						<a href="/sys/alert_reseau.jsp.html#599549" title="INFO/Fermeture de la Francilienne (N104) entre Combs-la-Ville (A5b) et Tigery (A5a) du 20 au 23/10/26" target="_top"> 
+						
+								12/10/26
+									&agrave; 09:43 :&nbsp;
+						
+							
+							INFO/Fermeture de la Francilienne (N104) entre Combs-la-Ville (A5b) et Tigery (A5a) du 20 au 23/10/26
+
+						</a>
+					</li>
+				
+					<li>						
+						<a href="/sys/alert_reseau.jsp.html#599334" title="INFO/Fermeture de l'A14 entre Nanterre (A86) et Pont de Neuilly du 18 au 30/10/26" target="_top"> 
+						
+								06/10/26
+									&agrave; 14:17 :&nbsp;
+						
+							
+							INFO/Fermeture de l'A14 entre Nanterre (A86) et Pont de Neuilly du 18 au 30/10/26
+
+						</a>
+					</li>
+				
+					<li>						
+						<a href="/sys/alert_reseau.jsp.html#599100" title="INFO/N2 vers la province (Dammartin-en-Goële) : Fermeture de la sortie n°8 vers la D401 du 05/10 au 27/11/26" target="_top"> 
+						
+								02/10/26
+									&agrave; 17:12 :&nbsp;
+						
+							
+							INFO/N2 vers la province (Dammartin-en-Goële) : Fermeture de la sortie n°8 vers la D401 du 05/10 au 27/11/26
+
+						</a>
+					</li>
+				
+					<li>						
+						<a href="/sys/alert_reseau.jsp.html#595620" title="INFO/Travaux de confortement du tunnel de Saint-Cloud (A13) du 16/11/26 à fin août 2027" target="_top"> 
+						
+								22/07/26
+									&agrave; 09:28 :&nbsp;
+						
+							
+							INFO/Travaux de confortement du tunnel de Saint-Cloud (A13) du 16/11/26 à fin août 2027
+
+						</a>
+					</li>
+					
+			
+			</ul>
+		
+	
+
+		
+		
+	
+	</div>
+	<div class="main_footer">
+		<img src="/resources/images/main_bottom_left.gif" alt="" style="float:left;" />								
+		<img src="/resources/images/main_bottom_right.gif" alt="" style="float:right;" />
+	</div>
+	
+
+
+
+
+</div>
+
+
+				<div id="hiddenAlert" style="position:relative;">
+					<a href="javascript:hiddenDivAlert();">
+						<img id="fleche_alerte" alt="Masquer" src="/resources/images/fleche_horizon_in.png" style="margin-top:0;margin-bottom:6px;" />
+					</a>
+					<div id="twitter">
+			<div id="twitter2">
+							<a href="http://twitter.com/Sytadin" target="_top">
+								<img src="/images/SytadinTwitterLogo4_48x48.png" alt="Suivre @Sytadin" />
+							</a>
+							<strong><a href="http://twitter.com/Sytadin"  target="_top" style="color:#6D8092;">@Sytadin</a> sur Twitter</strong>
+							<br /><br />
+							<a href="https://twitter.com/Sytadin"  target="_top" class="twitter-follow-button" data-show-count="false" data-lang="fr">Suivre @Sytadin</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	
+							
+			</div>
+</div><!--twitter-->
+				</div><!--hiddenAlert-->
+			<!--alert-->
+			
+			
+			
+			
+			
+				
+			<!--left-->	
+			<div id="left">
+				<ul> 
+					<li>					
+						
+
+
+
+
+<div class="block_menu">
+	<h2 class="block_menu_title_big" id="title_block_menu_left_1">Se déplacer maintenant</h2>
+	<ul>
+												<li>
+			<a href="/" title="Carte temps réel">Carte temps réel</a>
+		</li>
+		<li><a href="/gp/itineraire.action?stat=false" title="Calculer son temps de parcours">Calculer son temps de parcours</a></li>
+	<li><a href="/sys/temps_de_parcours.jsp.html?type=secteur" title="Temps de parcours par secteur">Temps de parcours par secteur</a></li>
+	</ul>
+</div>
+					</li>
+					<li> 
+						
+
+
+
+
+<div class="block_menu">
+	<h2  class="block_menu_title_big" id="title_block_menu_left_2">Prévoir ses déplacements</h2>
+	<ul>
+	  
+		<li>
+			<a href="/gp/itineraire.action?stat=true" title="Partir au meilleur moment">Partir au meilleur moment</a>
+		</li>
+		<li>
+			<a href="/sys/fermetures_nocturnes.jsp.html" title="Fermetures nocturnes de la semaine">Fermetures nocturnes de la semaine</a>
+		</li>
+		<li>
+			<a href="/gp/chantier.action" title="Calendrier des chantiers">Calendrier des chantiers</a>
+		</li>				
+		<li style="list-style:none;padding:0;text-align:center;border-bottom:none;">
+			<!--[if IE 7]>&nbsp;<![endif]-->
+			<a href="/sys/chantiers_carte.jsp.html" >				
+				<img src="/resources/images/banniere_chantiers_mini.gif" alt="chantiers" />
+			</a>
+		</li>
+	</ul>
+</div>
+					</li>
+
+					<li> 
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="block_menu">
+<script type="text/javascript">
+	var contentToRefreshed = "/refreshed/cumul_bouchon.jsp.html";
+	refreshed(contentToRefreshed ,"cumul_bouchon", 180000);
+
+//	var contentToRefreshed = "/opencms/opencms/sys/refreshed/vitesse_moyenne.jsp";
+//	refreshed(contentToRefreshed ,"vitesse_moyenne", 180000);
+
+</script>
+	<h2   class="block_menu_title_small" id="title_block_menu_left_3">Plus sur le trafic</h2>
+	<ul>
+		<li class="list-style_none" id="cumul_bouchon">			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Actuellement:
+
+<br />
+<img  src="/resources/images/led_number_2.gif" alt="2 km" /><img src="/resources/images/led_number_Km.gif" alt="" />de bouchon
+		</li>
+		
+		<li>
+			
+			<a href="/sys/barometre_bouchon.jsp.html" title="Cumul de bouchon">Cumul de bouchon</a>
+		</li>
+		<li>
+			<a href="/sys/historique_en_videos.jsp.html" title="Historique en vidéos">Historique en vidéos</a>
+		</li>				
+			
+		<li style="border-bottom:none;">
+			<a href="https://www.dir.ile-de-france.developpement-durable.gouv.fr/tableau-de-bord-mensuel-de-la-circulation-r102.html" target="_blank" title="Tableau de bord de la circulation" >Tableau de bord de la circulation</a>
+		</li>
+
+</ul>
+</div>
+					</li>
+				</ul> 
+				
+			</div>
+			<!--left-->
+				
+			<!--right-->
+			<div id="right">
+				<ul> 
+					<li>					
+						
+
+
+
+
+
+
+
+<div class="block_menu">
+	 <h2  class="block_menu_title_big" id="title_block_menu_right_1">Mon sytadin</h2>
+		 <ul>
+		   <li id="liste_itineraires_miniature" style="display:none;list-style: none">
+			   <script type="text/javascript">
+			   $(document).ready(function() {
+					 if($.cookie('authentification')=="true"){
+						   var contentItinerairesFavoris = "/gp/itinerairesFavorisMiniature.action";
+						   $('#liste_itineraires_miniature').html("chargement en cours...");
+						   vaChercher(contentItinerairesFavoris ,"liste_itineraires_miniature");
+						   refreshed(contentItinerairesFavoris ,"liste_itineraires_miniature", 180000);                          
+						   $('#mon_compte').css( "border-bottom", "none");
+						   $('#liste_itineraires_miniature').show();
+						   $('#deconnexion').show();
+						   var hostname = location.hostname; 				   
+                     }
+				});	
+			   </script>
+		   </li>
+		   <li id="mon_compte" style="border-bottom:none;">
+			   <a id="cas" href="/gp/identification.action" title="Mon compte">Mon compte</a>
+		  </li>
+		  <li id="deconnexion" style="display:none;border-bottom:none;">
+		  	<a href="/gp/deconnexion.action" title="Se déconnecter">Se déconnecter</a>
+		  </li>
+	 	</ul>
+</div>
+
+					</li>
+					<li> 
+						
+
+
+
+
+<div class="block_menu">
+							<h2 class="block_menu_title_big" id="title_block_menu_right_2">Pour votre sécurité</h2>
+							<ul> 						
+								<li>
+									<a href="https://vigilance.meteofrance.fr/fr" target="_blank">Vigilance METEO FRANCE</a>
+								</li>
+								
+								  
+									<li>
+										<a href="securite/securite_routiere.html" title="Sécurité routière">Sécurité routière</a>
+									</li>
+								 
+								<li style="list-style:none;padding:0;text-align:center;border-bottom:none;">
+									<!--[if IE 7]>&nbsp;<![endif]-->
+									<a href="https://www.dir.ile-de-france.developpement-durable.gouv.fr/recommandations-en-matiere-de-conduite-a1689.html" target="_blank">
+										<img src="/resources/images/174x90_230310_AD_DIRIF.gif" alt="Tunnels" />
+									</a>
+								</li>
+									<li>
+										<a href="https://www.airparif.fr/surveiller-la-pollution/la-prevision" target="_blank">Qualité de l'air Idf</a>
+									</li>
+									<li>
+										<a href="https://www.lcsqa.org/fr/vigilance-atmospherique/episodes/carte" target="_blank">Vigilance atmosphérique France</a>
+									</li>
+
+							</ul>
+						</div>
+
+					</li>
+					
+					<li>
+						
+
+
+
+
+<div class="block_menu">
+							<h2   class="block_menu_title_small" id="title_block_menu_right_3">Sytadin pratique</h2>
+							<ul> 
+							<!--						
+								<li style="list-style:none;padding:0;text-align:left;">
+
+									<form  action="/" method="post" id="formSearch">
+										<fieldset style="border:none;">
+												<label>Rechercher : </label>
+												<input type="text" name="recherche" class="menu_textarea" />
+											<label></label>
+												<input type="submit" name="submit" value="OK"  class="menu_submit" />
+										</fieldset>
+									</form>
+
+								</li> 
+								<li>
+									<a href="#"  title="">
+										Aide sur le moteur de recherche du site
+									</a>
+								</li>
+							-->
+
+								
+								  	
+									<li class="FAQ">
+										<a href="pratique/FAQ.html" title="FAQ">FAQ</a>
+									</li>
+								  
+								  	
+									<li class="Info éditeur">
+										<a href="pratique/info_editeur.html" title="Info éditeur">Info éditeur</a>
+									</li>
+								  
+								  	
+									<li class="Sytadin sur smartphone">
+										<a href="pratique/smartphone.html" title="Sytadin sur smartphone">Sytadin sur smartphone</a>
+									</li>
+								  				
+								<li>
+									<a href="/sys/plan_du_site.jsp.html"  title="Plan du site">
+										Plan du site
+									</a>
+								</li>	
+								</ul>
+						</div>
+					</li>
+					<li> 
+						
+
+
+
+
+<div class="block_menu">
+	<h2 class="block_menu_title_small" id="title_block_menu_right_4">Plus sur Sytadin</h2>
+		<ul> 						
+			
+		<li><a href="https://www.dir.ile-de-france.developpement-durable.gouv.fr/notre-service-sytadin-a1729.html">Qui sommes-nous ?</a></li>	
+		<li><a href="https://www.dir.ile-de-france.developpement-durable.gouv.fr" title="Partenariats">Actualités</a></li>
+		</ul>
+</div>
+					</li>					
+				</ul>	
+			</div>
+			<!--right-->
+				
+					
+			<div id="hiddenLeft">
+				<a href="javascript:hiddenDiv('left');">
+				<img id="fleche_left" alt="Masquer" src="/resources/images/fleche_left_in.png" style="margin-left:0;margin-right:4px;" /></a>
+			</div><!--hiddenLeft-->
+			<div id="hiddenRight">
+				<a href="javascript:hiddenDiv('right');">
+				<img id="fleche_right" alt="Masquer" src="/resources/images/fleche_right_in.png" style="margin-right:0;margin-left:4px;" /></a>
+			</div><!--hiddenRight-->
+					
+			<!--content-->
+			<div id="content">					
+					
+					
+					
+
+
+<div class="main_block">
+	<h3 class=" title_red">
+		<img src="/resources/images/red_arrow_left.gif" alt="" style="float:left;" />
+		<img src="/resources/images/red_arrow_right.gif" alt="" style="float:right;" />
+		<span>Carte temps réel</span>
+		
+	</h3>
+
+	<div class="main_content" id="main_content">
+
+			
+			 
+		<!--chargement de la cartographie-->
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="carto_menu_top" >
+	<!-- Affichage eregie premier ministre -->		
+	<script type="text/javascript">
+	   <!--
+
+		OAS_rn = '001234567890'; OAS_rns = '1234567890';
+		OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+		
+		var URL = $(location).attr('href'); 
+		if($.cookie("eregiepm")!="true"){
+		  
+		   var indexFrame = URL.toUpperCase().indexOf("FRAME");
+		   
+		   if ( indexFrame == -1 ) {
+		      document.write("<scr"+"ipt type='text/javascript' src='http://eregie.premier-ministre.gouv.fr/RealMedia/ads/adstream_jx.ads/www.sytadin.fr/crise/1" + OAS_rns +"@Position1'><\/script>");
+			  $.cookie("eregiepm", "true", {  path: '/' });
+		   }
+		}
+
+       //  -->
+	</script>
+
+	<noscript>
+		<a href='http://eregie.premier-ministre.gouv.fr/RealMedia/ads/click_nx.ads/www.sytadin.fr/crise/@Position1'><img src='http://eregie.premier-ministre.gouv.fr/RealMedia/ads/adstream_nx.ads/www.sytadin.fr/crise/@Position1'></a>
+	</noscript>
+
+	<img src="/resources/images/raster_onglets_left.gif" style="float:left;padding-right:20px;" alt="" />
+	<img src="/resources/images/raster_onglets_right.gif" style="float:right;padding-left:20px;" alt="" />
+	<a href="javascript:callSwitchLayer('vitesses');" id="vitesses">
+		Les vitesses
+	</a>
+	<a href="javascript:callSwitchLayer('bouchons');" style="border-left :solid 1px #CCCCCC;border-right :solid 1px #CCCCCC;color:#BD3D00;font-weight:bold;text-decoration:underline;" id="bouchons">
+		Les bouchons
+	</a>
+	
+	
+		
+	
+			
+						
+					
+</div>
+<!--carto_menu-top-->
+
+<div id="map" class="map center">
+	<script type="text/javascript" src="/resources/js/OpenLayers.js"></script>
+	<script type="text/javascript" src="/resources/js/toolsBarTpsReel.js"></script>
+	<script type="text/javascript" src="/resources/js/cartesTempsReel-gp.js"></script>						
+	<script type="text/javascript">			
+		init();
+	</script>	
+	<script type="text/javascript">	
+		$(document).ready(function() {
+			//vue favorite
+			favorite = $.urlParam('favorite');
+			if(favorite !=null){				
+				loadFavoris(favorite);					
+			}
+			//masquage des volets
+			volet_left = $.urlParam('left');
+			if(volet_left != null && volet_left == 0){
+				hiddenDiv('left');
+			}
+			volet_right = $.urlParam('right');
+			if(volet_right != null && volet_right == 0){
+				hiddenDiv('right');
+			}
+			volet_alert = $.urlParam('alert');
+			if(volet_alert != null && volet_alert == 0){
+				hiddenDivAlert();
+			}
+				
+			//legende
+			$("#aide").hover(function(){
+				   showLegend();
+				 },function(){
+				  hideLegend();
+			 });
+
+			});		
+						
+	</script>
+	<noscript> 
+		<img src="/carto/dynamique/emprises/segment_TOTALE.png"  alt="" />
+	</noscript> 
+</div>
+<!--map-->
+
+<!-- X_i_T_i was here -->
+			
+					
+						
+			
+			
+			
+			
+			
+			 
+			
+			
+					
+	</div><!--main_content-->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="main_content" style="background-color:white;margin:0;padding-top:0;padding-bottom:0;">
+
+	<a href="javascript:hiddenAllDiv();" title="Plein écran">
+		<img src="/resources/images/bouton_plein_ecran.gif" alt="Plein écran" />
+	</a>								
+	<a href="javascript:window.print();" title="Imprimer la page">
+		<img src="/resources/images/bouton_imprim.gif" alt="Imprimer la page" />
+	</a>
+	<a href="#" id="aide" title="Aide">
+		<img src="/resources/images/bouton_aide.gif" alt="Aide" />
+	</a>
+	<div id="legende_carto" style="display:none;">	
+		<div class="block_legende" style="background: white url(/resources/images/legende_noir.gif) no-repeat;background-position:left center;">Impossible</div>
+		<div class="block_legende" style="background: white url(/resources/images/legende_rouge2.gif) no-repeat;background-position:left center;">Difficile</div>
+		<div class="block_legende" style="background: white url(/resources/images/legende_jaune2.gif) no-repeat;background-position:left center;">Délicate</div>
+		<div class="block_legende" style="background: white url(/resources/images/legende_vert.gif) no-repeat;background-position:left center;">Normale</div>
+		<div class="block_legende" style="background: white url(/resources/images/legende_gris.gif) no-repeat;background-position:left center;">Non Renseigné</div>
+	</div>
+	
+</div>	
+<div class="main_footer">
+	<img src="/resources/images/main_bottom_left.gif" alt="" style="float:left;" />
+	
+	<img src="/resources/images/main_bottom_right.gif" alt="" style="float:right;" />
+</div>						
+	
+</div><!--main_block-->
+
+
+
+
+
+
+
+
+
+	
+
+					
+					
+						
+				<!--copyright-->
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="copyright">
+	© 2014 - Toute reproduction interdite sans l'accord écrit préalable de la Direction des routes Île-de-France (DiRIF).<br />
+	Version 2.8.0
+</div>
+ <div>
+ <a href="https://www.ecologie.gouv.fr/actualites/lancement-campagne-nationale-securite-intervenants-route" target="_blank"><img style="width: 600px;" title="securite_agents" src="https://www.sytadin.fr/images/Securite_Agents3.gif" alt="" /></a>
+ </div>
+ 
+
+				<!--copyright-->
+					
+	            <!--banner-->
+
+					
+				
+						
+						
+			</div><!--content-->		
+					
+					
+				
+				
+		
+		</div><!-- global-->
+	</body>
+</html>
+
+

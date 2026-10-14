@@ -1,0 +1,596 @@
+{
+ "id": "pl-gddkia",
+ "url": "https://www.gddkia.gov.pl/",
+ "requests": [
+  {
+   "u": "https://www.gddkia.gov.pl/",
+   "t": "document",
+   "s": 301,
+   "ct": "text/html; charset=iso-8859-1",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/web/gddkia",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/fonts/font-awesome.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/css/vendors/modaal.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/css/vendors/jquery-ui-1.13.2-smoothness.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/css/vendors/vue-select-3.20.4.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/css/govpl_template.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/css/main-e2e76f964fa.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/polyfills/polyfills.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/vendors/modaal.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/vendors/jquery-3.7.1.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/vendors/b_util.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/vendors/jquery-ui-1.13.2.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/vendors/b_tab_orginal.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/vendors/validate.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/gov_context.js?locale=pl_PL",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/accordion.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/govpl.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/polyfills/modernizr-custom.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/bundle-d06e3b45586.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/utils.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://www.gov.pl/35f29647-f912-4426-ae0b-631be6e995f5",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/eu/eu-center-pl.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/bip_simple.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtm.js?id=GTM-TZ2N3NZ",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/abd311ec-21f3-411c-bf3b-ca7253692fc1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/b3786d99-b0e7-47c6-8763-f8b5027af0c0",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/7ba7319f-f11b-43c6-b942-d4625f62274e",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/css/fonts/gov-icons.woff?fnnyxz",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/fonts/open-sans/mem8YaGs126MiZpBA-U1UQ.woff",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/Herb_Polski.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/body_end.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/fonts/open-sans/mem5YaGs126MiZpBA-UN7rg-Vg.woff",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/e2fd5d7a-02cb-4f3a-8659-58cb494e3c4d",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/photo/format/7f2fe955-7406-4669-a985-22937916f8d6/resolution/525x221",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/fonts/open-sans/mem5YaGs126MiZpBA-UNirk-Vg.woff",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/photo/4978c35a-3946-42ff-9822-e80e20438110",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/photo/237cdfee-1706-4d8e-9f77-a4453cf2a8c6",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/d9b6b7e7-dde2-4a80-9888-de7018cec559",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/a44b840d-fc8d-4c4d-aa32-1cd7030250dd",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/7453064b-b1fe-4527-9ccc-19f06a247254",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/photo/format/27fe3027-a238-4f52-95e0-8705300c090a/resolution/525x221",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/photo/format/840eee8e-de25-4160-a695-94fd45b689e0/resolution/525x221",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/photo/format/292d3bd5-734c-42e6-8414-49e999a2bbdc/resolution/700x295",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/register_metadata.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/scripts/zawbi_banner.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/css/zawbi_banner.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/photo/a6631d28-8291-4474-b530-32864664800e",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/d1f36360-3f2d-47f4-bd47-f2d28cb87eb1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/7ed9e6cb-4c07-45bf-a640-f2ffb4c8ec0f",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/faaa34ae-ee16-4b4b-8bbb-daebe54fa29c",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/d0764205-4861-48fd-9ed9-a5e873a94191",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/3a0bbc44-b985-4498-85bf-2e96c9a27540",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/91ac5408-ed47-4db8-a81e-446e85fb54cb",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/facebook.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/facebook-color.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/twitter.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/instagram.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/twitter-color.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/instagram-color.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/youtube.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/youtube-color.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/linkedin.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/social/svg/linkedin-color.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/eu/fe-pc-left-pl.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/godlo-12.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/eu/rp-left-pl.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/eu/eu-efrp-left-pl.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/eu/eu-efrp-right-pl.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/img/icons/chevron-down.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/29f2239f-8913-4202-802e-69b6bae4d373",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/ecc5afe7-49ae-4db5-92ed-e10335f7b52f",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/a3318ed1-0832-4f9e-8746-6fabfab30993",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gov.pl/logo/653ef3c9-893c-45cc-a2af-a7eb7d2dc482",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://matomo.www.gov.pl/analytics/js/container_68lYTZ79.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://matomo.www.gov.pl/analytics/matomo.php?action_name=Generalna%20Dyrekcja%20Dr%C3%B3g%20Krajowych%20i%20Autostrad%20-%20Generalna%20Dyrekcja%20Dr%C3%B3g%20Krajowych%20i%20Autostrad%20-%20Portal%20Gov.pl&idsite=1&rec=1&r=704545&h=2&m=13&s=42&url=https%3A%2F%2Fwww.gov.pl%2Fweb%2Fgddkia&_id=&_idn=1&send_image=0&_refts=0&pv_id=lABzt9&bots=1&pf_net=822&pf_srv=147&pf_tfr=141&pf_dm1=1687&uadata=%7B",
+   "t": "ping",
+   "s": 204,
+   "ct": "",
+   "m": "POST",
+   "post": ""
+  }
+ ],
+ "bodies": [
+  {
+   "file": "pl-gddkia-1.txt",
+   "u": "https://www.gov.pl/web/gddkia",
+   "bytes": 136867,
+   "type": "document"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://www.gov.pl/photo/a6631d28-8291-4474-b530-32864664800e",
+   "https://www.gov.pl/img/icons/eu/eu-center-pl.svg",
+   "https://www.gov.pl/img/bip_simple.svg",
+   "https://www.gov.pl/logo/abd311ec-21f3-411c-bf3b-ca7253692fc1",
+   "https://www.gov.pl/logo/b3786d99-b0e7-47c6-8763-f8b5027af0c0",
+   "https://www.gov.pl/logo/7ba7319f-f11b-43c6-b942-d4625f62274e",
+   "https://www.gov.pl/logo/7453064b-b1fe-4527-9ccc-19f06a247254",
+   "https://www.gov.pl/logo/a44b840d-fc8d-4c4d-aa32-1cd7030250dd",
+   "https://www.gov.pl/logo/e2fd5d7a-02cb-4f3a-8659-58cb494e3c4d",
+   "https://www.gov.pl/logo/d9b6b7e7-dde2-4a80-9888-de7018cec559",
+   "https://www.gov.pl/logo/d1f36360-3f2d-47f4-bd47-f2d28cb87eb1",
+   "https://www.gov.pl/logo/a44b840d-fc8d-4c4d-aa32-1cd7030250dd",
+   "https://www.gov.pl/logo/e2fd5d7a-02cb-4f3a-8659-58cb494e3c4d",
+   "https://www.gov.pl/logo/d9b6b7e7-dde2-4a80-9888-de7018cec559",
+   "https://www.gov.pl/photo/format/292d3bd5-734c-42e6-8414-49e999a2bbdc/resolution/1920x810",
+   "https://www.gov.pl/photo/format/7f2fe955-7406-4669-a985-22937916f8d6/resolution/1920x810",
+   "https://www.gov.pl/photo/format/840eee8e-de25-4160-a695-94fd45b689e0/resolution/1920x810",
+   "https://www.gov.pl/photo/format/27fe3027-a238-4f52-95e0-8705300c090a/resolution/1920x810",
+   "https://www.gov.pl/logo/7ed9e6cb-4c07-45bf-a640-f2ffb4c8ec0f",
+   "https://www.gov.pl/logo/faaa34ae-ee16-4b4b-8bbb-daebe54fa29c",
+   "https://www.gov.pl/logo/d0764205-4861-48fd-9ed9-a5e873a94191",
+   "https://www.gov.pl/logo/91ac5408-ed47-4db8-a81e-446e85fb54cb",
+   "https://www.gov.pl/logo/3a0bbc44-b985-4498-85bf-2e96c9a27540",
+   "https://www.gov.pl/img/icons/social/svg/facebook.svg",
+   "https://www.gov.pl/img/icons/social/svg/facebook-color.svg",
+   "https://www.gov.pl/img/icons/social/svg/twitter.svg",
+   "https://www.gov.pl/img/icons/social/svg/twitter-color.svg",
+   "https://www.gov.pl/img/icons/social/svg/instagram.svg",
+   "https://www.gov.pl/img/icons/social/svg/instagram-color.svg",
+   "https://www.gov.pl/img/icons/social/svg/youtube.svg",
+   "https://www.gov.pl/img/icons/social/svg/youtube-color.svg",
+   "https://www.gov.pl/img/icons/social/svg/linkedin.svg",
+   "https://www.gov.pl/img/icons/social/svg/linkedin-color.svg",
+   "https://www.gov.pl/img/icons/godlo-12.svg",
+   "https://www.gov.pl/img/icons/eu/fe-pc-left-pl.svg",
+   "https://www.gov.pl/img/icons/eu/rp-left-pl.svg",
+   "https://www.gov.pl/img/icons/eu/eu-efrp-left-pl.svg",
+   "https://www.gov.pl/img/icons/eu/eu-efrp-right-pl.svg"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [],
+  "text": "Przejdź do sekcji Baner - logotyp i liczniki (nowy)\nPrzejdź do sekcji Aktualności\nPrzejdź do sekcji Informacje z województw\nPrzejdź do sekcji Co robimy\nPrzejdź do sekcji Polecane linki\nPrzejdź do sekcji Załatw sprawę\nPrzejdź do sekcji Kontakt\nPrzejdź do sekcji Stopka gov.pl\nStrona główna\ngov.pl\nRada Ministrów\nKancelaria Premiera\nMinisterstwa\nUrzędy, instytucje\ni placówki RP\n Usługi dla obywatela\n Usługi dla przedsiębiorcy\n Usługi dla urzędnika\n Usługi dla rolnika\nProfil zaufany\nBaza wiedzy\nSerwis Służby Cywilnej\n Сайт для громадян України –Serwis dla obywateli Ukrainy\nZamknij menu GOV.pl\ngov.pl\ngov.pl\nUrzędy centralne\ngov.pl\nUrzędy centralne\n \nLogowanie do panelu\nmObywatel\nGeneralna Dyrekcja Dróg Krajowych i Autostrad\nO urzędzie\nCo robimy\nAktualności\nOddziały\nZałatw sprawę\nKontakt\nSieć dróg szybkiego ruchu\n5596,1 km w tym:\n1950 km autostrad\n3646,1 km dróg ekspresowych\nSzczegóły\nRządowy Program Budowy Dróg Krajowych do 2030\n1233,3 km w realizacji\n245,6 km w przetargu\n2067,6 km w przygotowaniu\nSzczegóły\nProgram budowy 100 obwodnic na lata 2020 - 2030\n118,5 km w użytkowaniu\n168,5 km w realizacji\n117 km w przetargu\n463,3 km w przygotowaniu\nSzczegóły\nFormatowanie banera\nAktualności\nzobacz wszystkie\n13.10.2026\nCzłowiek, który wskazał drogę\n12.10.2026 GDDKiA Oddział w Białymstoku\nDK64 koło Łomży gotowa\n12.10.2026 GDDKiA Oddział w Rzeszowie\nRuszamy z północno-wschodnią obwodnicą Rzeszowa\n09.10.2026 GDDKiA Oddział w Kielcach\nSzukamy wykonawcy dla obwodnicy Osieka\nInformacje z województw\n\nWybierz województwo, aby sprawdzić stan dróg w budowie, aktualne warunki drogowe oraz informacje o odpowiednim oddziale GDDKiA.\n\nLista województw \nWybierz województwo\ndolnośląskie\nkujawsko-pomorskie\nlubelskie\nlubuskie\nłódzkie\nmałopolskie\nmazowieckie\nopolskie\npodkarpackie\npodlaskie\npomorskie\nśląskie\nświętokrzyskie\nwarmińsko-mazurskie\nwielkopolskie\nzachodniopomorskie\n\nPrzygotowanie dróg krajowych - wersja pdf\n\n\n\nCo robimy\nPrzygotowanie dróg krajowych\nStrony internetowe kontraktów\nZamówienia publiczne\nFundusze Europejskie\nForum inwestycyjne\nZespół S7\nBadania i rozwój\nEdukacja\nDane do pobrania\nOchrona danych osobowych\nAkty prawne\nPolecane linki\nInformacja drogowa - 19 111\nPrzetargi na dzierżawę Miejsc Obsługi ...\nDla wykonawców i podwykonawców\nSerwis mapowy GDDKiA\nProgramy\nzobacz wszystkie\nZałatw sprawę\nzobacz wszystkie\nNumery kont dla opłat dot. wniosków\nInformacja publiczna\nPetycje\nSkargi i wnioski\nSzkody z ubezpieczenia OC zarządcy drogi\nWypłata odszkodowania za nieruchomości przejęte pod budowę dróg krajowych\nAwarie, przebudowy i remonty obiektów w pasie drogowym\nCzasowe zajęcie pasa drogowego\nLokalizacja obiektów w i poza pasem drogowym\nZezwolenie na lokalizację zjazdu lub przebudowę istniejącego zjazdu\nPrzejazdy nienormatywne\nWspółpraca GDDKiA z jednostkami samorządowymi\nUzgodnienia\nProcedura zgłoszeń wewnętrznych\nProcedura zgłoszeń zewnętrznych\nstopka\nGeneralna Dyrekcja Dróg Krajowych i Autostrad\nADRES\n\nul. Wronia 53\n\n00-874 Warszawa\n\nNIP 526 26 05 735\n\nRegon 017511575"
+ },
+ "errors": [],
+ "title": "Generalna Dyrekcja Dróg Krajowych i Autostrad - Generalna Dyrekcja Dróg Krajowych i Autostrad - Portal Gov.pl",
+ "mediaRequests": []
+}

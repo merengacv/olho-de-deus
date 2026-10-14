@@ -1,0 +1,1732 @@
+{
+ "id": "gr-egnatia",
+ "url": "https://www.egnatia.eu/",
+ "requests": [
+  {
+   "u": "https://www.egnatia.eu/",
+   "t": "document",
+   "s": 301,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C300italic%2C400italic%2C700italic%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C300italic%2C400italic%2C700italic&subset=latin%2Clatin-ext&ver=1.0.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://consent.cookiebot.com/uc.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-YT8H733TMR",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-YT8H733TMR&gtm=45je6ac1v9130580261za208zd9130580261xf1&_p=1791944073952&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA&are=1&cid=1476559071.1791944074&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=4&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.17.0&uaw=0&ul=pt-br&_s=1",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.10.1",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider.custom.css?ver=1594123387",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.1",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/flexy-breadcrumb/public/css/flexy-breadcrumb-public.css?ver=1.2.1",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/flexy-breadcrumb/public/css/font-awesome.min.css?ver=4.7.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/css/gspeech.css?g_version=3.2.12&ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/css/the-tooltip.css?g_version=3.2.12&ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/simple-banner/simple-banner.css?ver=3.1.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=2.6.1",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/wp-accessibility-helper/assets/css/wp-accessibility-helper.min.css?ver=0.5.9.4",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/style.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/font-awesome/css/font-awesome.min.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/elegant-icons/style.min.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/linea-icons/style.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/dripicons/dripicons.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/kiko/kiko-all.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/font-awesome-5/css/font-awesome-5.min.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://consentcdn.cookiebot.com/consentconfig/b5a644ba-5428-47b8-a768-d2fc0cbfaecb/settings.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/stylesheet.min.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/print.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/style_dynamic.css?ver=1761127246",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/responsive.min.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/style_dynamic_responsive.css?ver=1761127246",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.9.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/bridge-core/modules/core-dashboard/assets/css/core-dashboard.min.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge-child/style.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/mailin/css/mailin-front.css?ver=6.9.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2025/09/egnatia_banner-1920x750px-1536x600.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/ScrollToPlugin.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2025/02/visual_id_espa_cropped.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2024/12/visual_id_espa.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/style.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.11",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/Header_Erga_Meletes_1.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.10.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/flexy-breadcrumb/public/js/flexy-breadcrumb-public.js?ver=1.2.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/simple-posts-ticker/public/js/jquery.marquee.min.js?ver=1.5.2",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.10.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/simple-posts-ticker/public/js/ticker.min.js?ver=1.1.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/wp-accessibility-helper/assets/js/wp-accessibility-helper.min.js?ver=1.0.0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.10.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/svg-support/vendor/DOMPurify/DOMPurify.min.js?ver=2.5.9",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/js/color.js?g_version=3.2.12&ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/js/jQueryRotate.2.1.js?g_version=3.2.12&ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/controlgroup.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/checkboxradio.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/js/easing.js?g_version=3.2.12&ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/button.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/js/mediaelement-and-player.min.js?g_version=3.2.12&ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/simple-banner/simple-banner.js?ver=3.1.0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/svg-support/js/min/svgs-inline-min.js?ver=2.6.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/droppable.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/progressbar.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/mailin/js/mailin-front.js?ver=1762427084",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/selectable.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://ssl.google-analytics.com/ga.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=282135249&utmhn=egnatia.eu&utmcs=UTF-8&utmsr=1366x900&utmvp=1366x900&utmsc=24-bit&utmul=pt-br&utmje=0&utmfl=-&utmdt=%CE%91%CF%81%CF%87%CE%B9%CE%BA%CE%AE%20-%20%CE%95%CE%B3%CE%BD%CE%B1%CF%84%CE%AF%CE%B1%20%CE%9F%CE%B4%CF%8C%CF%82%20%CE%91.%CE%95.&utmhid=1311127785&utmr=-&utmp=%2F&utmht=1791944076693&utmac=UA-153523320-1&utmcc=__ut",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/spinner.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.egnatia.eu/wp-content/uploads/2020/07/logo_comitech_1_0.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/03/down-sm.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-02-bg-1536x659.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-03-bg-1536x594.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/line-4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/Header_Erga_Odikh_Asfaleia_1.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2021/04/header_geopili_1.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2021/02/egnatiapass-icon-white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/Header_Erga_Alles_Drasthriothtes_1.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://consent.cookiebot.com/b5a644ba-5428-47b8-a768-d2fc0cbfaecb/cc.js?renew=false&referer=egnatia.eu&dnt=false&init=false",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/elegant-icons/fonts/ElegantIcons.woff",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/css/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-blind.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-bounce.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-clip.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-drop.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-explode.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-fade.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-fold.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-highlight.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-pulsate.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-size.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-scale.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-shake.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/ui/effect-transfer.min.js?ver=1.13.3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/doubletaptogo.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/modernizr.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.appear.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/hoverIntent.min.js?ver=1.10.2",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/counter.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/easypiechart.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/mixitup.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.prettyPhoto.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.fitvids.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.flexslider-min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/infinitescroll.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.waitforimages.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/waypoints.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jplayer.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/bootstrap.carousel.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/skrollr.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.easing.1.3.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/Chart.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/abstractBaseClass.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.countdown.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.multiscroll.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.justifiedGallery.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/bigtext.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.sticky-kit.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/owl.carousel.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/typed.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.carouFredSel-6.2.1.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/lemmon-slider.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.fullPage.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.mousewheel.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.touchSwipe.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.isotope.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/packery-mode.pkgd.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.stretch.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/imagesloaded.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/rangeslider.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.event.move.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jquery.twentytwenty.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/swiper.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/TweenLite.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/smoothPageScroll.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/default_dynamic.js?ver=1761127246",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/default.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.9.0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/qode-like.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/js/gspeech_pro.js?ver=3.2.12",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/js/gspeech.js?ver=3.2.12",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/images/spinner.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/diavgeia-logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://egnatia.eu/8062ccd0-fcb1-42ed-abd9-26fe2a5977f4",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/04/logo-dark.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/04/interreg-greece-albania.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/04/interreg_crossbo.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/trapeza-ependyseon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/eu.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/ypoyrgeio-metaforon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2025/03/egnatia-logo-1-cropped.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/v5/skin.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2025/02/espa-2021-2027.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2023/04/wcag2.1aa-v.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2023/04/wcag2.1aa-blue-v.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge-child/valid-rss-rogers.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge-child/friendly.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?ver=6.7.11",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?ver=6.7.11",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/Category_VPMS.jpg?id=8020",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/Category_Kairos.jpg?id=8022",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/map-title-background-1.png?id=349",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/Newsletter_Background.jpg?id=572",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-04-bg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-05-bg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-06-bg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/logo-egnatia-circle-2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/wp-emoji-release.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-04-bg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-04-bg-1536x605.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "gr-egnatia-1.txt",
+   "u": "https://egnatia.eu/",
+   "bytes": 270493,
+   "type": "document"
+  },
+  {
+   "file": "gr-egnatia-2.txt",
+   "u": "https://consentcdn.cookiebot.com/consentconfig/b5a644ba-5428-47b8-a768-d2fc0cbfaecb/settings.json",
+   "bytes": 611,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+   "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+   "https://egnatia.eu/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg",
+   "https://egnatia.eu/wp-content/uploads/2025/03/egnatia-logo-1-cropped.png",
+   "https://egnatia.eu/wp-content/uploads/2025/02/visual_id_espa_cropped.jpg",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAjCAYAAADrJzjpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAztJREFUeNrMWL9v01AQtkOlbO5eKTvC3ZComr0C5hRlY4iSHdI/oMofUCUDEoOr7hFlrqvuLmFgqhG72ZjqLRt36feiF/N+2I7tcNLVSe34fXfv7rt75zolxfO8Ll180hekHUlNkpI+kCakP0njNE2jMuu7BYB6dHlL+pr0jVOthKS3pDdkSFoJcHj2HWnfaUbmpF9sO+EaAPO2T0m7zm6EgZ+TAbHq5jMN6DO6XOWI2TqF137fbred5XJ5b/Q44vhqh142eX8gx7+bAf0VTNGkBEhMH4mvcxqHTE+Al4FPG0xA4cWPhCNR7PpMw1whPT9YAwdzXDcEmD32gQCEGsrl/BoZfs8hE7bwZdxgWLzSgGYPf7eAdmCY48LKXzUDjuHluCLaPdqjP4c1h8UFAQ4MtHtWhipbBTzGiXTASp9PUaZtZfxEBZpzinRREvRK9tDwGAGITF678akcR9jmIdjIw+0ERkaa5JtV0Os8ClZZWKpkih7iMktfEigBfq5qlOj+CB72tg0/kuerkk9ldd+SHG3Sl5zx9KxP+ofK8IYB9D0m/UG6zADm5z9z+cZ7tpVP3ALIBeiuYNVk4JcGD+fh5KKSIG9SpkOfaYqvKPleCea4Ea2o1LePK27SeJ0eYiVm4COR+VuAb6La9uDgLjuohV3tCEt4K0B//4vECA+BiRsx55+Sz6xByuDPYekuvczF60QwGcKwLwPvI0xkzln1Ffzjhg1IsSb3NBeZeyMRxq5Udjf6XQ1P13FQ3jgw0/Jzw/pTOPXAlf9hA585QB9DD0syEY8p7jGiCC3rMcaJWEcA58RcZLhyoDukWoxx8HJfkWCp1C4UeW+2EVu1IKLkXysqZ4Dk2EmCIucmClzcB81d6aE7zZayAUFTBgDLUHOMjAjGafbMKce6blBza4vHkmA78OzQ0Hak4PNENZ6wgRcviBC3nFwPRXcDQH0kdzdHj7SunNpJFs5+s4JMIVhCJPfvzH0f79svMf6IQRaJdQQHj0xq5Oy8zggURcg8O5QobtzwZCsXIbgFYnKIHahrnhijv881anZL0pWonP4WhsTIi29Ogbl4aeCWqnlsCQEG+1i0KqvkrwADAA4ohyFmUvzrAAAAAElFTkSuQmCC",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe594+m576FjAZKL6XXkSDiYox5UQFLXZEoNZJzXg9B/0hK6SKGWkiMcRVBewjnNIuURdIzyFBFo0jZPnoGqaMbCEqRJkSNIiFPCfILj7F1GLkySfvuqnFlShDxWesF6D76zF4jPJ/GWvum7/NRjBCegtsXQuuTY/odOJIAAAAASUVORK5CYII=",
+   "https://egnatia-demo.eu/wp-content/uploads/2019/10/Egnatia-Logo-1.png",
+   "https://egnatia.eu/wp-content/uploads/2025/02/visual_id_espa_cropped.jpg",
+   "https://egnatia.eu/wp-content/uploads/2024/12/visual_id_espa.jpg",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAaVBMVEUJO8bU1dgENMQAILwACbAABKNNctT////+/v74+fv09fjj4+PDzuy9yOm3xOeBhM6OpN6Hn919ltw5ZNHw8vXr7fXJy9czXs4tWs0oVcoGG6rl5++ZrOHV3PCBgsmmt+YIMKKrscgAAI7AuEORAAAAXUlEQVR4ATXKgQbDMACE4e/ayGgMG8DW93+6GmwCWztE8bvDF+KYhFHUZDdD0NO+QRHDjqcQYf9kKpOms5wCXE8x57EFwgJbnnkhI8ct9XLHD2/SStYeUI1JQbAC/u0uEcnG0vheAAAAAElFTkSuQmCC",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg==",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAaVBMVEUJO8bU1dgENMQAILwACbAABKNNctT////+/v74+fv09fjj4+PDzuy9yOm3xOeBhM6OpN6Hn919ltw5ZNHw8vXr7fXJy9czXs4tWs0oVcoGG6rl5++ZrOHV3PCBgsmmt+YIMKKrscgAAI7AuEORAAAAXUlEQVR4ATXKgQbDMACE4e/ayGgMG8DW93+6GmwCWztE8bvDF+KYhFHUZDdD0NO+QRHDjqcQYf9kKpOms5wCXE8x57EFwgJbnnkhI8ct9XLHD2/SStYeUI1JQbAC/u0uEcnG0vheAAAAAElFTkSuQmCC",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg==",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAaVBMVEUJO8bU1dgENMQAILwACbAABKNNctT////+/v74+fv09fjj4+PDzuy9yOm3xOeBhM6OpN6Hn919ltw5ZNHw8vXr7fXJy9czXs4tWs0oVcoGG6rl5++ZrOHV3PCBgsmmt+YIMKKrscgAAI7AuEORAAAAXUlEQVR4ATXKgQbDMACE4e/ayGgMG8DW93+6GmwCWztE8bvDF+KYhFHUZDdD0NO+QRHDjqcQYf9kKpOms5wCXE8x57EFwgJbnnkhI8ct9XLHD2/SStYeUI1JQbAC/u0uEcnG0vheAAAAAElFTkSuQmCC",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg==",
+   "https://egnatia.eu/wp-content/uploads/2020/02/Header_Erga_Meletes_1.svg",
+   "https://egnatia.eu/wp-content/uploads/2020/02/Header_Erga_Meletes_1.svg",
+   "https://egnatia.eu/wp-content/uploads/2020/02/Header_Erga_Alles_Drasthriothtes_1.svg",
+   "https://egnatia.eu/wp-content/uploads/2020/02/Header_Erga_Odikh_Asfaleia_1.svg",
+   "https://egnatia.eu/wp-content/uploads/2021/04/header_geopili_1.svg",
+   "https://egnatia.eu/wp-content/uploads/2021/02/egnatiapass-icon-white.png",
+   "https://egnatia.eu/wp-content/uploads/2025/09/egnatia_banner-1920x750px-1536x600.jpg",
+   "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-02-bg-1536x659.jpg",
+   "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-03-bg-1536x594.jpg",
+   "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-04-bg.jpg",
+   "https://egnatia.eu/wp-content/uploads/2020/02/logo-egnatia-circle-2.png",
+   "https://egnatia.eu/wp-includes/images/spinner.gif",
+   "https://egnatia-demo.eu/wp-content/uploads/2019/10/Egnatia-Logo-1.png",
+   "https://egnatia.eu/wp-content/uploads/2019/10/diavgeia-logo.png",
+   "https://egnatia.eu/wp-content/uploads/2020/04/logo-dark.png",
+   "https://egnatia.eu/wp-content/uploads/2019/10/diavgeia-logo.png",
+   "https://egnatia.eu/wp-content/uploads/2020/04/logo-dark.png",
+   "https://egnatia.eu/wp-content/uploads/2020/04/interreg-greece-albania.png",
+   "https://egnatia.eu/wp-content/uploads/2020/04/interreg_crossbo.jpg",
+   "https://www.egnatia.eu/wp-content/uploads/2020/07/logo_comitech_1_0.png",
+   "https://egnatia.eu/wp-content/uploads/2019/10/trapeza-ependyseon.png",
+   "https://egnatia.eu/wp-content/uploads/2019/10/eu.png",
+   "https://egnatia.eu/wp-content/uploads/2019/10/ypoyrgeio-metaforon.png",
+   "https://egnatia.eu/wp-content/uploads/2025/02/espa-2021-2027.jpg",
+   "https://egnatia.eu/wp-content/uploads/2023/04/wcag2.1aa-v.png",
+   "https://egnatia.eu/wp-content/uploads/2023/04/wcag2.1aa-blue-v.png",
+   "https://egnatia.eu/wp-content/themes/bridge-child/valid-rss-rogers.png",
+   "https://egnatia.eu/wp-content/themes/bridge-child/friendly.png"
+  ],
+  "iframe": [
+   "https://egnatiaodos.maps.arcgis.com/apps/webappviewer/index.html?id=[CHAVE]"
+  ],
+  "video": [],
+  "links": [],
+  "text": "Κλείσιμο\nΜέγεθος Γραμματοσειράς\nA-\nA+\nΕπαναφορά μεγέθους\nΑντίθεση\nΕπιλέξτε χρώμα\nΥπογράμμιση συνδέσμων\nΕπισήμανση συνδέσμων\nΚαθαρισμός Cookies\nΑντιστροφή χρωμάτων\nΚλείσιμο\nAccessibility by WAH\nΑυτή η ιστοσελίδα χρησιμοποιεί cookies\nΑυτός ο ιστότοπος χρησιμοποιεί cookies για να βελτιώσει την εμπειρία σας, για την εξατομίκευση περιεχομένου και διαφημίσεων, την παροχή λειτουργιών κοινωνικών μέσων, ανάλυση της επισκεψιμότητάς κά. Επιπλέον, μοιραζόμαστε πληροφορίες που αφορούν τον τρόπο που χρησιμοποιείτε τον ιστότοπό μας με συνεργάτες κοινωνικών μέσων, διαφήμισης και αναλύσεων, οι οποίοι ενδεχομένως να τις συνδυάσουν με άλλες πληροφορίες που τους έχετε παραχωρήσει ή τις οποίες έχουν συλλέξει σε σχέση με την από μέρους σας χρήση των υπηρεσιών τους. Τα μη αναγκαία (λειτουργικά) cookies είναι εξ ορισμού απενεργοποιημένα. Μπορείτε να τα διαχειριστείτε πατώντας τα αντίστοιχα πεδία παρακάτω.\n\nΕπιλογή συγκατάθεσης\nΑναγκαία\nΠροτιμήσεις\nΣτατιστικά\nΕμπορικής προώθησης\nΡυθμίσεις Cookie\nΝα επιτρέπονται όλα\nΕπιτρέπεται η επιλογή\nΆρνηση\nΑναζήτηση\n \nΕΤΑΙΡΕΙΑ\nΕΡΓΑ\nΠΕΡΙΒΑΛΛΟΝ\nON-LINE ΥΠΗΡΕΣΙΕΣ\nΠΡΟΚΗΡΥΞΕΙΣ-ΔΙΑΓΩΝΙΣΜΟΙ\nΝΕΑ-ΑΝΑΚΟΙΝΩΣΕΙΣ\nΕΠΙΚΟΙΝΩΝΙΑ\nΣΥΓΧΡΗΜΑΤΟΔΟΤΟΥΜΕΝΑ ΕΡΓΑ & ΜΕΛΕΤΕΣ\n\n \nΕΡΓΑ & ΜΕΛΕΤΕΣ\n\n \nΑΛΛΕΣ ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ\n\n \nΟΔΙΚΗ ΑΣΦΑΛΕΙΑ\n\n \nΓΕΩΠΥΛΗ\n\n \nEGNATIA PASS\n\nΠαροχή υπηρεσιών τεχνικής υποστήριξης, συντήρησης και Ολοκληρωμ�«Κάθετος άξονας 70 Εγνατίας Οδού: Τμήμα “Ξάνθη-Σμίνθη” (70.1.4) ΥΠρομήθεια λογισμικού για την υποστήριξη των εργασιών επίβλεψης μΕτήσια ανανέωση του υπ’αρ. CSI 22389491 συμβολαίου Τεχνικής Υποστήριξ�«Βελτίωση (Κατασκευή) οδού πρόσβασης για το έργο “Χώρος Υγειονομ�«Παροχή υπηρεσιών Λειτουργικής Μίσθωσης (Leasing) συνολικά επτά (7) οχ«Παροχή Υπηρεσιών Ιατρικής της Εργασίας στα Κεντρικά Γραφεία και\n\nΝΕΑ – ΑΝΑΚΟΙΝΩΣΕΙΣ\n\n21/04/2026 ΥΠΟΘΑΛΑΣΣΙΑ ΣΗΡΑΓΓΑ ΑΚΤΙΟΥ – ΠΡΕΒΕΖΑΣ\n15/04/2026 Νέος φορέας διαχείρισης του αυτοκινητόδρομου της Εγνατίας οδού, από 31/12/2025\n10/11/2025 ΥΠΟΘΑΛΑΣΣΙΑ ΣΗΡΑΓΓΑ ΑΚΤΙΟΥ – ΠΡΕΒΕΖΑΣ\n06/11/2025 ΥΠΟΘΑΛΑΣΣΙΑ ΣΗΡΑΓΓΑ ΑΚΤΙΟΥ – ΠΡΕΒΕΖΑΣ\n24/06/2025 25 Ιουνίου 2025 Ευρωπαϊκή Ημέρα Ευαισθητοποίησης για τους εργαζόμενους πεδίου των αυτοκινητοδρόμων\n06/06/2025 ΥΠΟΘΑΛΑΣΣΙΑ ΣΗΡΑΓΓΑ ΑΚΤΙΟΥ – ΠΡΕΒΕΖΑΣ\n04/06/2025 ΣΔ Πολυμύλου\n27/05/2025 ΥΠΟΘΑΛΑΣΣΙΑ ΣΗΡΑΓΓΑ ΑΚΤΙΟΥ – ΠΡΕΒΕΖΑΣ\n19/05/2025 Εργασίες συντήρησης του οδοστρώματος στην περιοχή του Περιστερίου της ΠΕ Ιωαννίνων\n01/04/2025 ΥΠΟΘΑΛΑΣΣΙΑ ΣΗΡΑΓΓΑ ΑΚΤΙΟΥ – ΠΡΕΒΕΖΑΣ\n\nΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ\n\nVPMS\n\nΕΦΑΡΜΟΓΗ\n\nΠΕΡΙΣΣΟΤΕΡΑ\n\nΟ ΚΑΙΡΟΣ\n\nΤΩΡΑ\n\nΠΕΡΙΣΣΟΤΕΡΑ\n\nΠαρατηρητήριο Εγνατίας Οδού\n\nΧΡΗΣΙΜΕΣ ΠΛΗΡΟΦΟΡΙΕΣ\n\nNEWSLETTER\n\nΕγγραφείτε στο newsletter για να μαθαίνετε τα\nτελευταία νέα μας\n\nΕΤΑΙΡΕΙΑ\nΙστορικό\nΔιοικητικό Συμβούλιο\nΟικονομικά Στοιχεία\nMasterplan\nΚοινωνική Ευθύνη\nΕΡΓΑ\nΕγνατία Οδός\nΚάθετοι Άξονες\nΈργα Εξωτερικού\nΈργα Νησιών\nΈργα Δήμων\nΕθνικοί Οδοί\nΕπαρχιακοί Οδοί\nON-LINE ΥΠΗΡΕΣΙΕΣ\nΕφαργομή VPMS\nΑΚΟΛΟΥΘΗΣΤΕ ΜΑΣ\n\npowered by \n\n\nΕΥΡΩΠΑΪΚΗ ΤΡΑΠΕΖΑ ΕΠΕΝΔΥΣΕΩΝ\n\n\nΕΥΡΩΠΑΪΚΗ ΕΝΩΣΗ\n\n\nΥΠΟΥΡΓΕΙΟ ΥΠΟΔΟΜΩΝ ΚΑΙ ΜΕΤΑΦΟΡΩΝ\nΕΤΑΙΡΙΚΟ ΣΥΜΦΩΝΟ ΓΙΑ ΤΟ ΠΛΑΙΣΙΟ ΑΝΑΠΤΥΞΗΣ (ΕΣΠΑ)\n\nSite Map | Όροι Χρήσης | Πολιτική Προστασίας Π"
+ },
+ "errors": [],
+ "title": "Αρχική - Εγνατία Οδός Α.Ε.",
+ "mediaRequests": [
+  {
+   "u": "https://egnatia.eu/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2025/09/egnatia_banner-1920x750px-1536x600.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2025/02/visual_id_espa_cropped.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2024/12/visual_id_espa.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/gspeech/includes/js/mediaelement-and-player.min.js?g_version=3.2.12&ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.egnatia.eu/wp-content/uploads/2020/07/logo_comitech_1_0.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/03/down-sm.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-02-bg-1536x659.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-03-bg-1536x594.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/line-4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2021/02/egnatiapass-icon-white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge/js/plugins/jplayer.min.js?ver=6.9.6",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/diavgeia-logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/04/logo-dark.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/04/interreg-greece-albania.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/04/interreg_crossbo.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/trapeza-ependyseon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/eu.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/ypoyrgeio-metaforon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2025/03/egnatia-logo-1-cropped.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2025/02/espa-2021-2027.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2023/04/wcag2.1aa-v.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2023/04/wcag2.1aa-blue-v.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge-child/valid-rss-rogers.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/themes/bridge-child/friendly.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/Category_VPMS.jpg?id=8020",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/Category_Kairos.jpg?id=8022",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/map-title-background-1.png?id=349",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2019/10/Newsletter_Background.jpg?id=572",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-04-bg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-05-bg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-06-bg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/2020/02/logo-egnatia-circle-2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-04-bg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://egnatia.eu/wp-content/uploads/layerslider/home-slider-new/slide-04-bg-1536x605.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ]
+}

@@ -1,0 +1,273 @@
+{
+ "id": "de-hessen",
+ "url": "https://www.mobil.hessen.de/",
+ "requests": [
+  {
+   "u": "https://www.mobil.hessen.de/",
+   "t": "document",
+   "s": 301,
+   "ct": "text/html; charset=iso-8859-1",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/css/css_IaA2oFg6LuU266P1J7gY-UJjSFAfkxDPvNHbBSYVO-w.css?delta=0&language=de&theme=hw_radix_standard&include=eJxVj9EOgyAMRX8I5ZOaClVZEElbpvz9wGxze7v39KRpcYqUI1Zii99oJpTgwCGrvaNxO5P1XDLGER94mvWAH_M9-YPjzHvSLjL6cIIoJo_srWiN1LkeYYG5JKdhT2Kl-bGCEgpxbhvEbJQKyHOB4LrR69DqcFXTHFwY8yqfA24ylpTLFIOs5I1UUdr6P_QCMmBgkQ",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/modules/modified/ableplayer/css/ableplayer.override.min.css?tm8u36",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/css/css_9bDv-34Th_f6BubPFhOpqcUZn-Wi7nRGEI7u86rSWy8.css?delta=2&language=de&theme=hw_radix_standard&include=eJxVj9EOgyAMRX8I5ZOaClVZEElbpvz9wGxze7v39KRpcYqUI1Zii99oJpTgwCGrvaNxO5P1XDLGER94mvWAH_M9-YPjzHvSLjL6cIIoJo_srWiN1LkeYYG5JKdhT2Kl-bGCEgpxbhvEbJQKyHOB4LrR69DqcFXTHFwY8yqfA24ylpTLFIOs5I1UUdr6P_QCMmBgkQ",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/css/css_WfawbyGZ95nMwdqAmINtkvzeQsjxL2KDtOfs5SEYDTA.css?delta=3&language=de&theme=hw_radix_standard&include=eJxVj9EOgyAMRX8I5ZOaClVZEElbpvz9wGxze7v39KRpcYqUI1Zii99oJpTgwCGrvaNxO5P1XDLGER94mvWAH_M9-YPjzHvSLjL6cIIoJo_srWiN1LkeYYG5JKdhT2Kl-bGCEgpxbhvEbJQKyHOB4LrR69DqcFXTHFwY8yqfA24ylpTLFIOs5I1UUdr6P_QCMmBgkQ",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/themes/custom/hw_radix_standard/src/js/modernizr/modernizr-custom.js?v=3.6.0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/js/js_NtRxJ0HQnDJCPg2OuRBgJy2vl-KGw8dhvzoOTgqX7Xk.js?scope=footer&delta=0&language=de&theme=hw_radix_standard&include=eJxtjdEOgyAMRX-IySeRC9QMV8EVnOLXLyTEzcSX9uacpheWaWFUEo0zKoscnHGQon9RuSSkvawLeIAr4UMPDvF15RN29dzM34duLnAYJcXSDgU-7CYXRA_xenqvJPVGzMmTxHDIjculMjW-kR2TzLrv3sI4qm7jC9flXMk",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/modules/modified/ableplayer/js/ableplayer.min.js?v=4.3.0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/themes/custom/hw_radix_standard/logo-hessen.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/themes/custom/hw_radix_standard/assets/icons/icon_placeholder.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/themes/custom/hw_radix_standard/assets/fonts/Gellix/HessenGellix-Bold.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/js/js_erUucQKY3JTc5jGdxI2Qtc1vI2G8p9w7F5vMnGAG9KQ.js?scope=footer&delta=2&language=de&theme=hw_radix_standard&include=eJxtjdEOgyAMRX-IySeRC9QMV8EVnOLXLyTEzcSX9uacpheWaWFUEo0zKoscnHGQon9RuSSkvawLeIAr4UMPDvF15RN29dzM34duLnAYJcXSDgU-7CYXRA_xenqvJPVGzMmTxHDIjculMjW-kR2TzLrv3sI4qm7jC9flXMk",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/themes/custom/hw_radix_standard/assets/fonts/Gellix/HessenGellix-Regular.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/themes/custom/hw_radix_standard/assets/fonts/Bootstrap-icons/bootstrap-icons.woff2?[CHAVE]=",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/libraries/lazysizes/lazysizes.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2025-03/symbolbild_baustelle_chessen_mobil.jpg?itok=Qb_w1PXb",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2026-10/ou_bad_camberg-7_0.jpg?itok=XfOvvgRP",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2024-10/robert_schittko_copyright-103.jpg?h=443c9cea&itok=TjEigoSc",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2026-09/b_45_neubau_zeller_bruecke_september_2026.jpg?itok=WkxRQ-qF",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2026-09/foto_siegerehrung.jpg?itok=CZeqi4lk",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "de-hessen-1.txt",
+   "u": "https://mobil.hessen.de/",
+   "bytes": 249833,
+   "type": "document"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_xs/public/2025-03/symbolbild_baustelle_chessen_mobil.jpg?itok=lXt6uMD6",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_xs/public/2026-10/ou_bad_camberg-7_0.jpg?itok=RNenHASK",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_xs/public/2024-10/robert_schittko_copyright-103.jpg?h=443c9cea&itok=WUFFKgf2",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_xs/public/2026-09/b_45_neubau_zeller_bruecke_september_2026.jpg?itok=aBVxQsx_",
+   "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_xs/public/2026-09/foto_siegerehrung.jpg?itok=jq_AOgsk",
+   "https://mobil.hessen.de/themes/custom/hw_radix_standard/logo-hessen.svg"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [
+   {
+    "h": "https://mobil.hessen.de/presse/bad-camberg-bau-der-ortsumgehung-fuer-luftkurort-schreitet-voran",
+    "t": "© Hessen Mobil\n      \n      \n  \n\n\n            \n      \n\n      13.10.2026\nHessisch"
+   }
+  ],
+  "text": "Direkt zum Kopf der Seite\nDirekt zum Inhalt\nDirekt zum Fuß der Seite\n \n\nmobil.\nhessen.de\n\nKontakt\nInfomaterial\nhessen.de\nÖffnet sich in einem neuen Fenster\nMenü\nSuche\nMedienraum\nThemen A–Z\nAktuelle Meldungen\nKarriere\nWirtschaftsverkehr\n\nDarmstadt 13°C\n\n© Deutscher Wetterdienst\nÖffnet sich in einem neuen Fenster\nVerkehrsservice Hessen\nÖffnet sich in einem neuen Fenster\n\nHessen Mobil\n\nAktuelles\n© Hessen Mobil\n\nHessen\n\nBaustellen im Überblick\n\nAktuelle Baustellen in Hessen anzeigen – mit nur einem Klick nach Ihrer Region filtern!\n\nMehr erfahren\nTop-Meldungen\n© Hessen Mobil\n\n13.10.2026\n\nHessisches Verkehrsministerium\n\nPressemitteilung\n\nKreis Limburg-Weilburg\n\nBad Camberg: Bau der Ortsumgehung für Luftkurort schreitet voran\n\nFünf von zehn Brücken und die ersten drei Streckenabschnitte sind fertiggestellt\n\n© Robert Schittko\n\n06.10.2026\n\nZentrale\n\nPressemitteilung\n\nWiesbaden\n\nDeutscher Straßen- und Verkehrskongress 2026 in Wiesbaden:\n\nHessen Mobil präsentiert innovative Verkehrslösungen und lädt zum Dialog ein\n\n© Hessen Mobil\n\n28.09.2026\n\nSüdhessen\n\nPressemitteilung\n\nOdenwaldkreis\n\nB 45: Neubau der Talbrücke bei Bad König/Zell\n\nHessen Mobil: Sperrpause der Bahnlinie in den Herbst- und Winterferien\n\n© Hessen Mobil\n\n25.09.2026\n\nHessen Mobil\n\nPressemitteilung\n\nHessen\n\nStrahlende Sieger nach spektakulärem Großereignis\n\nHessen Mobil hat in Eschwege die 5. Hessischen Schneepflugmeisterschaften ausgerichtet\n\nProjekte\n© Hessen Mobil\n\nPlanung und Bau\n\nProjekte nach Regionen\nUnsere Planungs- und Bauprojekte, sortiert nach Regionen, finden Sie hier\nAktuelle Videos\nYoutube Video: Kaltasphalteinbau im Dünnschichtverfahren: Im Einsatz mit Günther Böhnert\n:Dauer: 58 Sekunden\n 00:58 s\n© Hessen Mobil\n\nSchwalm-Eder-Kreis\n\nKaltasphalteinbau im Dünnschichtverfahren: Im Einsatz mit Günther Böhnert\n:Video:Dauer: 2 Minuten, 44 Sekunden\n 02:44 min\n© Hessen Mobil\n\nNaturschutz\n\nUmwelt im Fokus beim Neubau der Ortsumgehung Münchhausen-Wetter-Lahntal\n:Video:Dauer: 4 Minuten, 58 Sekunden\n 04:58 min\n© Hessen Mobil\n\nVerkehrsmanagement\n\nSo arbeitet unsere VMZ RheinMain\nSocial Media Kanäle\nInstagram\nÖffnet sich in einem neuen Fenster\nYouTube\nÖffnet sich in einem neuen Fenster\nLinkedIn\nÖffnet sich in einem neuen Fenster\nXING\nÖffnet sich in einem neuen Fenster\nEinblicke\n© Simeon Uhl\n\nRadverkehr\n\nWas macht eigentlich ein Radverkehrskoordinator?\n\nBei Hessen Mobil gibt es in allen sechs Regionen sogenannte Radverkehrskoordinatorinnen und -koordinatoren. Seit Oktober 2025 ist Maik Bock als Radverkehrskoordinator für Nordhessen im Einsatz.\n\nZum Artikel\nÖffnet sich in einem neuen Fenster\nOrganisation\n© Hessen Mobil\n\nHessen Mobil\n\nZentrale\n\nTreten Sie in Kontakt mit uns! Hier finden Sie den Kontakt zu unserer Zentrale in Wiesbaden.\n\n© Hessen Mobil\n\nHessen Mobil\n\nAußenstellen\n\nHier finden Sie eine Kontaktübersicht unserer 14 regionalen Außenstellen.\n\nHessen Mobil in Zahlen\n\nMitarbeitende insgesamt, über\n\n3.000\n\n1 von 12\n\nzurück\nvor\n\nHessen Mobil - Straßen- und Verkehrsmanagement\n\nImpressum\nDaten"
+ },
+ "errors": [],
+ "title": "Startseite mobil.hessen.de | mobil.hessen.de",
+ "mediaRequests": [
+  {
+   "u": "https://mobil.hessen.de/modules/modified/ableplayer/css/ableplayer.override.min.css?tm8u36",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/modules/modified/ableplayer/js/ableplayer.min.js?v=4.3.0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2025-03/symbolbild_baustelle_chessen_mobil.jpg?itok=Qb_w1PXb",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2026-10/ou_bad_camberg-7_0.jpg?itok=XfOvvgRP",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2024-10/robert_schittko_copyright-103.jpg?h=443c9cea&itok=TjEigoSc",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2026-09/b_45_neubau_zeller_bruecke_september_2026.jpg?itok=WkxRQ-qF",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2026-09/foto_siegerehrung.jpg?itok=CZeqi4lk",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ]
+}

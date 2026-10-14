@@ -1,0 +1,33 @@
+{
+ "id": "de-svzbw",
+ "url": "https://www.svz-bw.de/kamerabilder",
+ "requests": [
+  {
+   "u": "https://www.svz-bw.de/kamerabilder",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "de-svzbw-1.txt",
+   "u": "https://www.svz-bw.de/kamerabilder",
+   "bytes": 343895,
+   "type": "document"
+  }
+ ],
+ "dom": {
+  "img": [
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODMuNDcgOTAuNzEiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+Yml0Ync8L3RpdGxlPjxnIGlkPSJFYmVuZV8yIiBkYXRhLW5hbWU9IkViZW5lIDIiPjxnIGlkPSJFYmVuZV8xLTIiIGRhdGEtbmFtZT0iRWJlbmUgMSI+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjI1MC4zNCAxNS44NiAyMzkuNzEgMTUuODYgMjI3LjQ5IDY3LjU5IDIxNC4wMiAxNS44NiAyMDYuNTggMTUuODYgMjIyLjA4IDc0Ljg1IDIzMi44IDc0Ljg1IDI0NS4wMiAyMi4xNCAyNTcuMjUgNzQuODUgMjY3Ljk3IDc0Ljg1IDI4My40NyAxNS44NiAyNzYuMDMgMTUuODYgMjYyLjU2IDY3LjU5IDI1MC4zNCAxNS44NiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE5MS43LDQ0LjQ3YzUuMjItMS45NSw2LjczLTUuMzIsNi43My05Ljg0VjI3LjgxYzAtNy43OS00LjYxLTEyLTEzLjkxLTEySDE2MS43NnY1OWgyNGM4Ljg2LDAsMTQuNjItNC40MywxNC42Mi0xMi42N1Y1NS4xQzIwMC4zOCw0OC44MSwxOTYuODQsNDUuMzUsMTkxLjcsNDQuNDdaTTE2OS4zNywyMi40MWgxNC43MWM0LjYxLDAsNi43MywxLjc3LDYuNzMsNS41OHY2LjY0YzAsNC4yNi0yLjIxLDYuOTEtOCw2LjkxSDE2OS4zN1ptMjMuMzksMzkuMTVjMCw0LjQzLTIuNjYsNi43NC04LjA2LDYuNzRIMTY5LjM3VjQ4LjFoMTQuODljNS44NCwwLDguNSwyLjU3LDguNSw3LjI2WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTU0LDBWOTAuNzFoOTAuNzFWMFpNNzguMjEsNzQuODVINzAuNTl2LTU5aDcuNjJabTUyLjYxLTUyLjE3SDExMy4yVjc0Ljg1aC03LjYyVjIyLjY4SDg4VjE1Ljg1aDQyLjg3WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTI5Ljk0LDQ1YzUuMjMtMiw2LjczLTUuMzEsNi43My05LjgzVjI4LjMxYzAtNy44LTQuNi0xMi0xMy45LTEySDB2NTlIMjRjOC44NSwwLDE0LjYxLTQuNDIsMTQuNjEtMTIuNjZWNTUuNTlDMzguNjIsNDkuMywzNS4wOCw0NS44NSwyOS45NCw0NVpNNy42MiwyMi45aDE0LjdjNC42MSwwLDYuNzQsMS43Nyw2Ljc0LDUuNTh2Ni42NWMwLDQuMjUtMi4yMiw2LjkxLTgsNi45MUg3LjYyWk0zMSw2Mi4wNmMwLDQuNDMtMi42NSw2LjczLTguMDYsNi43M0g3LjYyVjQ4LjU5SDIyLjVjNS44NSwwLDguNSwyLjU3LDguNSw3LjI3WiIvPjwvZz48L2c+PC9zdmc+"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [],
+  "text": ""
+ },
+ "errors": [],
+ "title": "Die Seite konnte nicht geladen werden.",
+ "mediaRequests": []
+}

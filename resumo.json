@@ -1,0 +1,184 @@
+[
+ {
+  "id": "dk-vd",
+  "url": "https://trafikkort.vejdirektoratet.dk/",
+  "title": "Trafikinfo.dk",
+  "requests": 174,
+  "bodies": 20,
+  "media": 36,
+  "errors": []
+ },
+ {
+  "id": "de-svzbw",
+  "url": "https://www.svz-bw.de/kamerabilder",
+  "title": "Die Seite konnte nicht geladen werden.",
+  "requests": 1,
+  "bodies": 1,
+  "media": 0,
+  "errors": []
+ },
+ {
+  "id": "de-nrw",
+  "url": "https://www.verkehr.nrw/",
+  "title": "Karte - VERKEHR.NRW",
+  "requests": 250,
+  "bodies": 4,
+  "media": 130,
+  "errors": []
+ },
+ {
+  "id": "de-berlin",
+  "url": "https://viz.berlin.de/",
+  "title": "Verkehrsinformationszentrale",
+  "requests": 25,
+  "bodies": 1,
+  "media": 7,
+  "errors": []
+ },
+ {
+  "id": "de-hessen",
+  "url": "https://www.mobil.hessen.de/",
+  "title": "Startseite mobil.hessen.de | mobil.hessen.de",
+  "requests": 23,
+  "bodies": 1,
+  "media": 9,
+  "errors": []
+ },
+ {
+  "id": "fr-sytadin",
+  "url": "https://www.sytadin.fr/",
+  "title": "Sytadin : l'état du trafic en Île-de-France en temps réel",
+  "requests": 108,
+  "bodies": 8,
+  "media": 48,
+  "errors": []
+ },
+ {
+  "id": "uk-scotland",
+  "url": "https://trafficscotland.org/",
+  "title": "Traffic Scotland | Trunk road traffic updates & route planner",
+  "requests": 94,
+  "bodies": 8,
+  "media": 32,
+  "errors": []
+ },
+ {
+  "id": "uk-ni",
+  "url": "https://www.trafficwatchni.com/",
+  "title": "TrafficWatchNI - Home",
+  "requests": 90,
+  "bodies": 6,
+  "media": 10,
+  "errors": []
+ },
+ {
+  "id": "ee-tarktee",
+  "url": "https://tarktee.ee/",
+  "title": "Tark Tee",
+  "requests": 216,
+  "bodies": 22,
+  "media": 74,
+  "errors": []
+ },
+ {
+  "id": "lv-lvceli",
+  "url": "https://www.lvceli.lv/",
+  "title": "Sākumlapa - Latvijas Valsts ceļi",
+  "requests": 90,
+  "bodies": 8,
+  "media": 20,
+  "errors": []
+ },
+ {
+  "id": "bg-api",
+  "url": "https://www.api.bg/",
+  "requests": 0,
+  "bodies": 0,
+  "media": 0,
+  "errors": [
+   "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.api.bg/\", waiting until \"domcontentloaded\"\n"
+  ]
+ },
+ {
+  "id": "tr-kgm",
+  "url": "https://www.kgm.gov.tr/",
+  "title": "Karayolları Genel Müdürlüğü - Ana Sayfa",
+  "requests": 115,
+  "bodies": 4,
+  "media": 54,
+  "errors": []
+ },
+ {
+  "id": "au-sa",
+  "url": "https://traffic.sa.gov.au/",
+  "title": "Um momento…",
+  "requests": 15,
+  "bodies": 4,
+  "media": 0,
+  "errors": []
+ },
+ {
+  "id": "au-vic",
+  "url": "https://traffic.vicroads.vic.gov.au/",
+  "requests": 0,
+  "bodies": 0,
+  "media": 0,
+  "errors": [
+   "page.goto: net::ERR_NAME_NOT_RESOLVED at https://traffic.vicroads.vic.gov.au/\nCall log:\n  - navigating to \"https://traffic.vicroads.vic.gov.au/\", waiting until \"domcontentloaded\"\n"
+  ]
+ },
+ {
+  "id": "au-wa",
+  "url": "https://www.mainroads.wa.gov.au/",
+  "title": "Main Roads Western Australia",
+  "requests": 68,
+  "bodies": 11,
+  "media": 4,
+  "errors": []
+ },
+ {
+  "id": "pl-gddkia",
+  "url": "https://www.gddkia.gov.pl/",
+  "title": "Generalna Dyrekcja Dróg Krajowych i Autostrad - Generalna Dyrekcja Dróg Krajowych i Autostrad - Portal Gov.pl",
+  "requests": 76,
+  "bodies": 1,
+  "media": 0,
+  "errors": []
+ },
+ {
+  "id": "pt-ip",
+  "url": "https://www.infraestruturasdeportugal.pt/",
+  "title": "Início | Infraestruturas de Portugal",
+  "requests": 65,
+  "bodies": 2,
+  "media": 31,
+  "errors": []
+ },
+ {
+  "id": "rs-putevi",
+  "url": "https://www.putevi-srbije.rs/",
+  "title": "Насловна",
+  "requests": 93,
+  "bodies": 1,
+  "media": 32,
+  "errors": []
+ },
+ {
+  "id": "gr-egnatia",
+  "url": "https://www.egnatia.eu/",
+  "title": "Αρχική - Εγνατία Οδός Α.Ε.",
+  "requests": 199,
+  "bodies": 2,
+  "media": 37,
+  "errors": []
+ },
+ {
+  "id": "mk-roads",
+  "url": "https://roads.org.mk/",
+  "title": "Јавно претпријатие за државни патишта – © 2023",
+  "requests": 64,
+  "bodies": 3,
+  "media": 4,
+  "errors": []
+ }
+]

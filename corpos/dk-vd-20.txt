@@ -1,0 +1,4 @@
+GET https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadblocks.point.json?cachekey=1791943733228
+content-type: application/json
+
+{"layerId":"layer_id_19J1", "layerName":"25832/future-roadblocks.point", "type":"FeatureCollection", "features":[]}

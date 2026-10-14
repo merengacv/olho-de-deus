@@ -1,0 +1,5 @@
+POST https://australiaeast-1.in.applicationinsights.azure.com//v2/track
+POST [{"time":"2026-10-14T02:13:20.727Z","iKey":"cef79574-41cd-45c3-9c7e-d5f1096a768d","name":"Microsoft.ApplicationInsights.[CHAVE].RemoteDependency","tags":{"ai.user.id":"FwJnqqvCPCr2r94VQI96hA","ai.session.id":"MviCM1Vbq54kjptoQnczOe","ai.device.id":"browser","ai.device.type":"Browser","ai.operation.name":"/","ai.operation.id":"[CHAVE]","ai.internal.sdkVersion":"javascript:2.8.18"},"data":{"baseType":"RemoteDependencyData","baseData":{"id":"|[CHAVE].a9a2fb3a206944f3.","ver":2,"name":"POST https://analytics.google.com/g/co
+content-type: application/json; charset=utf-8
+
+{"itemsReceived":5,"itemsAccepted":5,"appId":null,"errors":[]}

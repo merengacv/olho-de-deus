@@ -1,0 +1,1644 @@
+{
+ "id": "dk-vd",
+ "url": "https://trafikkort.vejdirektoratet.dk/",
+ "requests": [
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://monsido-consent.com/v1/mcm.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://monsido-consent.com/v1/assets/cookie-banner-modern.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZ9hiA.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.clarity.ms/tag/temdvil3rd",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://scripts.clarity.ms/0.8.72/clarity.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://analytics.silktide.com/[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://i.clarity.ms/collect",
+   "t": "xhr",
+   "s": 204,
+   "ct": "",
+   "m": "POST",
+   "post": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�Z�o�8��W\u0004\u0006\u000b�]�!��2�w�\u0013_{mڽM������([�,\n��8-r�Ð�-�N�\u0016�&�M�\u0017r�3�!��\u001b�(�Et\u0018\f}�0�\u00143�0j�2y�r�J\u0010Fl����\u0010F��n\u001ec#\u0007�h�4e\u001d��5�H��{U5�\u0007�%�*yߨJ4�\u0019&�g�\u000e#���[Fq���y8��\u000e�2\u001b3�G�\u0001f�b\f�\u000eF�?�^#|�(���\u0003\u0006ܢ+�5�sq�\u000e�u�ߌ���Y�Z[����s\u0006ָ,s�/9{�5g��\u000fm�:}����=���^Z��\u001aXo�HrYדE���9lH��\u001dҡ�[�\"\u0015U֪�;���_��Ʒ�F\u000beE���=��!�EeC���\\|���3\u001b�<|�\u0012��0��\u0016i_�\u0001z��\u001fRxr�-�[�\u001f�0��\u0007������J\u0014�\u0002��ff��f�a\u000e�놏o�3�V����<l\u001b6��Ζ�[|\u0019z_X�����_�E�n&�t7�l\u0006�a�T���\u000e\u0012��!\u000b\u001d۷Y\u0018�\u0018�ic\u001b;����\u001c3�$\u0005s!/\u0000\u0018�`�b\u000f�`�\u0001\u0005S\u0019XE�\r���\u0003\u0018���8 �0��èԹ�t���\u0005¨\u0010K�z�,s�Q���Y�6y�0���F.uۆ�0�tA\u0018墘�N\u0004�(\u0011� 3)�&�5�Uш���k\u0004F`��r\f\u0003�:�\u0017�\u0004��s��\u0006a���\\X�e!�a�\u0002���7�>v�-�w `�?\b\u0007��>�1\u000f!�\u0000\u0001t"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/polyfills-LI6MVZF3.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/styles-M2NQHPWV.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/chunk-OSQMNGTH.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/main-GXCRMS35.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://i.clarity.ms/collect",
+   "t": "ping",
+   "s": 204,
+   "ct": "",
+   "m": "POST",
+   "post": "{\"e\":[\"0.8.72\",2,111,1110,\"temdvil3rd\",\"1m2sf4i\",\"t5xtwc\",1,1,1,0,\"https://trafikkort.vejdirektoratet.dk/index.html\"],\"a\":[[111,4,1,1366,900,1366,900,0,0,0,0,0,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[1221,0,2,3594,3,1,4,3,5,2,25,4],[1221,36,6,[716,3]]],\"p\":[[716,6,21,4,20,\"LINK\",\"rel=stylesheet\",\"href=styles-M2NQHPWV.css\",\"media=all\"]]}"
+  },
+  {
+   "u": "https://monsido-consent.com/v1/assets/i18n/da_DK.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadblocks.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/menu/bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadblocks.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/deicing-service-level/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/menu/question-circle.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/exit-number/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-strong-wind-traffic-announcements.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/extended-area.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-blocking-events.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-blocking-events.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-winther-road.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-slippery-road.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-queue.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-queue.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-other-traffic-announcements.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-ice-snow.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-roadworks.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-events.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-events.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-strong-wind-traffic-announcements.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadblocks.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-queue.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadblocks.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-winther-road.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-blocking-events.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-events.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-slippery-road.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-accidents.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/wind-speeds.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-queue.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-other-traffic-announcements.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-blocking-events.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-other-traffic-announcements.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-events.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-accidents.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-ice-snow.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/wind-speeds.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-saltspreder-position.line.json?cachekey=1791943733237",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-saltspreder-position.line.json?cachekey=1791943733237",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/extended-area-without-dk.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-blocking-roadwork.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-accidents.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-other-traffic-announcements.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadwork.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-other.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-other-traffic-announcements.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-blocking-roadwork.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-blocking-roadwork.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-events.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-ice-snow.area.json?cachekey=1791943733236",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadblocks.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-blocking-roadwork.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-roadworks.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-winther-road.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-blocking-events.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-other-traffic-announcements.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-strong-wind-traffic-announcements.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-blocking-events.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-slippery-road.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadblocks.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-roadworks.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-blocking-roadwork.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadwork.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://i.clarity.ms/collect",
+   "t": "xhr",
+   "s": 204,
+   "ct": "",
+   "m": "POST",
+   "post": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�ے�F�(�+��Ɍ�\u0003�q�5��;�\u0012��6I��(�NS\u001c\u0019\u0012����L�A��E�8o�\u000b�\u000ff_�g̟�/Y�\u0000\u0001 �D\u0016�\u0014�\u0019��L����������~�\u0016�W\u000b�FnH\u00166���\u0011�\u00175�d�yA�la/����^��\u0017�S�M\u00176�\u0011������~��A]%��͛���k�K�W�M]VI�j7{� �f�ƽ�7�⵽H\u0016�W��\u001d٘\u0006�\u001d#��~���q/�D6�_\b�Գ\u0017?�E�fa�R��\u001b���$�7�o�\u000b��k^�\u0010۳[8�\u000f�'ā���UQ|�_\u00125`٫ų�׼(�\u0007�����\u000fƧ��|{uc�D�ρwb��v\u0005�;[�5�\u001f�4ti`���7/�=��\"ì���Myb}Ò�`���eUn�\u0003�a\u0017�!��KC�d�T���xmc��m�O�W�\u0017�x�]�n�f�ڎ�W�]�<�\u001e����E\u0019�79���~�Ȓ�k�\u0010�ՂS\u0005\u001f\u0000%pq�\"���W�.���=��\u0017����:��Q�l��\u0016��g�W\u001b���&\u0000��\b�W\u000b�\u0002~E����R�\u0000^\u0004p\u0006Z���r�q��\n��:\u0004�)\u0019�\u0001�~|q\u000e?�$@���(��N�=\u0013��0\u0017\u000f\u001c�8�hH�\u0017P\u0010$���\u0003�\"�o\u0013��E\n�B�\u0002 ���4\tl\fd �\u001a\u0003�\u0018�C6��\u0007�D�\u0006�i�H�\u0007���_��\u0017;1(��^���WWo\u0017RN�l'�؋�e������"
+  },
+  {
+   "u": "https://api.monsido-consent.com/v1/cookie_banner/UdjEC-brj2ASnJyD6e42eA/cookies.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadwork.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadwork.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-other.point.json?cachekey=1791943733151",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/wind-speed/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/map-controls/zoom_in.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/friluftskort.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/map-controls/zoom_out.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/warning-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/menu/car.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/rest-area/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/carpool/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-events.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/map-controls/geolocation.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/route-number/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/warning/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/logo/vd/logo-hvid.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/snow-and-ice-slippery/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/temperature/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-other.point.json?cachekey=1791943733228",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/roadwork/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/deicing/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=5&TileRow=2",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=4&TileRow=3",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=4&TileRow=2",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=4&TileRow=1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=3&TileRow=2",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=5&TileRow=3",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-area-car.point.json?cachekey=1791943733248",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-saltspreder-position.point.json?cachekey=1791943733248",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-queue.line.json?cachekey=1791943733245",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-area-cyclepath.point.json?cachekey=1791943733248",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-saltspreder-position.point.json?cachekey=1791943733249",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadwork.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-area-lastsalting-roads.point.json?cachekey=1791943733247",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/dmi-warnings.json?cachekey=1791943733250",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadwork.area.json?cachekey=1791943733246",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-area-lastsalting-cyclepaths.point.json?cachekey=1791943733248",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-blocking-roadwork.area.json?cachekey=1791943733246",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadwork.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-queue.line.json?cachekey=1791943733245",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-blocking-roadwork.line.json?cachekey=1791943733238",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/critical-announcements.json?cachekey=1791943733250",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadwork.area.json?cachekey=1791943733246",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-area-servicelevel-cyclepaths.point.json?cachekey=1791943733249",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data-tiles/get-token?localtime=1791943733148",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-blocking-roadwork.area.json?cachekey=1791943733246",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data-tiles/truck-network-metadata.json?cachekey=1791943733145",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data-tiles/winter-network-metadata.json?cachekey=1791943733147",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data-tiles/flow-network-metadata.json?cachekey=1791943733149",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data-tiles/typicaltraffic/daytype2/quarters/8.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data-tiles/winter.json?cachekey=1791943733237",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/winther-condition-area-servicelevel-car.point.json?cachekey=1791943733247",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/logo/vd-black.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/technical-issue-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/close.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=5&TileRow=1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=3&TileRow=3",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=6&TileRow=2",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=3&TileRow=1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=6&TileRow=3",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=4&TileRow=4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=6&TileRow=1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=5&TileRow=4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=2&TileRow=2",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=2&TileRow=3",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=3&TileRow=4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/warning/current-other-traffic-announcements.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=2&TileRow=1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://i.clarity.ms/collect",
+   "t": "xhr",
+   "s": 204,
+   "ct": "",
+   "m": "POST",
+   "post": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�U]��6\u0010�\n��@[\f���\u001f��&@�\b6-� /�\u0011��X�\"\u0005r���5r��%\u0017���$')H��\u001a�\u0016\u0005*\t\u0012��曙o(�w�|���h2\u001ag\u001c2H�\u0014Ҥʀ\u0013v�A��5\u001cx�e~S(\u000e��;z_\u0007h\u0012O�%���ꊜܨ��:\u001a\u001d�Q\u000ewd�$�Q��R���і:�W�%�-�iZ�\u0017����~�a�\u0013�Z�2dP@\ni^U0M���t��\n\u00120{���-�\u000bi$�A�TU\u00019�P@\u0001%䐕0>!�\n*X��\u0004�\u0014�$�d�Z\u0001�c%�\u0004*('\u0013H�\u0014���\u001cx���\u000b�����8pO�\u001a\u0017����53&���=᜽W\rmg,M�o�l�����C9�Ff��٫��^s�\u0011�\b�p�\u0003z1I���qC3��wsFN\u001a���\u0013֩V�Y42��#یu����.\u0005���8�~�!���,b��S����-\u0003~��+��Gq����\u0017\u0001:kD�\u0016��F���Q���\u001a9p-M�h�x��K�B��Dֈ��w��{���7IR�z2g_���=�\u001b0ɴ~�!�#Q[m�u\u0013�`�XCb#;��g��\u0010�y�}���#͙\u001b�?��-��f,��\r*\u000e��j�����0�8��C��2�S�a�8NlU��\u001a!�\u001a{:ϟ:�\u0018��W�\f˫�r��4?-�w���!4$L+�|R�E�\u0017�x�Ej��i�\u0011�4�E�Ke�1�\nO�\te<:C9M#���r�u"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=6&TileRow=4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=7&TileRow=3",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=2&TileRow=4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=7&TileRow=2",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/67/40.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/68/39.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/68/38.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/66/40.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/67/39.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/66/39.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/68/40.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/67/38.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/69/38.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/66/38.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=7&TileRow=1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/69/40.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=1&TileRow=3",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/69/39.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=1&TileRow=2",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=7&TileRow=4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=1&TileRow=1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMTS?apikey=[CHAVE]&layer=topo_skaermkort_daempet&style=default&tilematrixset=View1&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix=2&TileCol=1&TileRow=4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://c.clarity.ms/c.gif",
+   "t": "image",
+   "s": 302,
+   "ct": "",
+   "m": "GET"
+  },
+  {
+   "u": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=E9A84644D145428D89C725C722B58186&RedC=c.clarity.ms&MXFR=13FBD06F8CE468BA24A5C79D88E46635",
+   "t": "image",
+   "s": 302,
+   "ct": "",
+   "m": "GET"
+  },
+  {
+   "u": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=E9A84644D145428D89C725C722B58186&MUID=3CDA21FA2CBB6DAE0F0536082D686C8D",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://i.clarity.ms/collect",
+   "t": "xhr",
+   "s": 204,
+   "ct": "",
+   "m": "POST",
+   "post": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�P]o�0\f�/|�(����\u0015�\u000f��8�e+�8�]��>8M�\u0016\u0018�2\u0010<�\u0004�;�\u001b9�t$E+\u001aM(�T]���\u0001�[�͇\"�\u0004R����\u0013��\u0017�\u0007��|\u0004ݘ��r>s�W?�1��܏�'7sL�\u001d�q>�ut/��K�\u001ed��uZ\u0019\tm Q�\rJY<Ҕ\u0006�*�d]�lU�\u0005$T)+\u0003Z��'ˎ@7MPES�\u000f��=~(�������O�\u0019�<�?C�o�ѕ�#\n%:Z��\u0018OC\\�[Y\fq9<��5\u0004��\r��,�\u000f3��=\u000f�}\u0017C���X2��q�,�̖��\\�C�w��\u0017��6\u001f|�\u0013S�Sp�����޽���}�,F��\u001a��K\u001fZC�'����8�m�%�K�\u001f��2|%�?���P�hQB��B\u000bmd\u000bs\f*T�-Ti���7�/F��\u0002\u0000\u0000"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "dk-vd-1.txt",
+   "u": "https://trafikkort.vejdirektoratet.dk/",
+   "bytes": 13759,
+   "type": "document"
+  },
+  {
+   "file": "dk-vd-2.txt",
+   "u": "https://monsido-consent.com/v1/assets/i18n/da_DK.json",
+   "bytes": 6963,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-3.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadblocks.point.json?cachekey=1791943733151",
+   "bytes": 116,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-4.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadblocks.point.json?cachekey=1791943733151",
+   "bytes": 115,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-5.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-strong-wind-traffic-announcements.point.json?cachekey=1791943733151",
+   "bytes": 139,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-6.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-blocking-events.point.json?cachekey=1791943733151",
+   "bytes": 121,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-7.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-blocking-events.point.json?cachekey=1791943733151",
+   "bytes": 120,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-8.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-winther-road.point.json?cachekey=1791943733151",
+   "bytes": 118,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-9.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-slippery-road.point.json?cachekey=1791943733151",
+   "bytes": 119,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-10.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-queue.point.json?cachekey=1791943733151",
+   "bytes": 111,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-11.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-queue.point.json?cachekey=1791943733151",
+   "bytes": 110,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-12.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-other-traffic-announcements.point.json?cachekey=1791943733151",
+   "bytes": 132,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-13.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-ice-snow.point.json?cachekey=1791943733151",
+   "bytes": 114,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-14.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-roadworks.point.json?cachekey=1791943733151",
+   "bytes": 150995,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-15.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-events.point.json?cachekey=1791943733151",
+   "bytes": 112,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-16.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-events.point.json?cachekey=1791943733151",
+   "bytes": 111,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-17.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-strong-wind-traffic-announcements.point.json?cachekey=1791943733228",
+   "bytes": 139,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-18.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/current-roadblocks.point.json?cachekey=1791943733228",
+   "bytes": 116,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-19.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-queue.point.json?cachekey=1791943733228",
+   "bytes": 110,
+   "type": "xhr"
+  },
+  {
+   "file": "dk-vd-20.txt",
+   "u": "https://storage.googleapis.com/trafikkort-data/geojson/25832/future-roadblocks.point.json?cachekey=1791943733228",
+   "bytes": 115,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://trafikkort.vejdirektoratet.dk/assets/logo/vd/logo-hvid.svg",
+   "https://trafikkort.vejdirektoratet.dk/assets/warning/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/roadwork/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/menu/question-circle.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/menu/question-circle.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/wind-speed/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/temperature/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/rest-area/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/carpool/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/route-number/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/exit-number/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/menu/car.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/temperature/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/snow-and-ice-slippery/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/warning-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/deicing/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/menu/question-circle.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/deicing-service-level/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/menu/bike.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/snow-and-ice-slippery/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/deicing/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/menu/question-circle.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/deicing-service-level/layer-switcher-icon.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/map-controls/geolocation.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/map-controls/zoom_in.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/map-controls/zoom_out.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/logo/vd-black.svg",
+   "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/close.png",
+   "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/technical-issue-icon.png"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [],
+  "text": "Skip to Cookie banner\nTrafikkortet - aktuel trafikinformation på de danske veje\nProblemer på en statsvej? Ring 80 20 20 60.\nRing altid 112, hvis du går i stå i motorvejens vognbaner\nTrafikinfo.dk\nEfterårsferietrafikken\nBegivenheder\nGiv et praj\nErhvervstransport\n50 km\n© Vejdirektoratet, Kort: © Klimadatastyrelsen Cookies\nTrafikinformation\nAdvarsel\nVejarbejde\nLive trafik\nTypisk trafik\nFremtidige vejarbejder og begivenheder\nMere information\nVintertrafik bil\nVintertrafik cykel\nE-mail service\nLinks\nAdressesøgning\nVis liste <\nMeddelelser\nTest af vinterinformation på kortet\n\nVi tester i øjeblikket vinterinformation på trafikkortet. Derfor kan der i perioder fremgå testmeldinger om vinterforhold på kortet. Meldingerne er alene oprettet til test og afspejler derfor ikke aktuelle forhold på vejen. Tak for tålmodigheden, mens vi tester.\n\nSenest opdateret d. 06-10-2026 kl. 06:52\nHold mig orienteret om særmeldinger\nOpdateret kl. 02:08"
+ },
+ "errors": [],
+ "title": "Trafikinfo.dk",
+ "mediaRequests": [
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/menu/bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/deicing-service-level/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/menu/question-circle.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/exit-number/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/extended-area.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/extended-area-without-dk.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/wind-speed/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/map-controls/zoom_in.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/friluftskort.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/map-controls/zoom_out.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/warning-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/menu/car.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/rest-area/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/carpool/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/map-controls/geolocation.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/route-number/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/warning/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/snow-and-ice-slippery/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/temperature/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/roadwork/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/deicing/layer-switcher-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/technical-issue-icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/announcement-panel/close.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://trafikkort.vejdirektoratet.dk/assets/warning/current-other-traffic-announcements.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/67/40.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/68/39.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/68/38.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/66/40.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/67/39.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/66/39.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/68/40.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/67/38.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/69/38.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/66/38.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/69/40.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://los-tiles-dk.vmz.services/tiles/los/512/7/69/39.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ]
+}

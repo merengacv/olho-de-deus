@@ -1,0 +1,725 @@
+GET https://viz.berlin.de/
+content-type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="form-action 'self'; upgrade-insecure-requests;" />
+
+    <title>Verkehrsinformationszentrale</title>
+      <link rel="stylesheet" type="text/css" href="https://www.berlin.de/i9f/r1/bundle/berlin_organization.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.berlin.de/i9f/r1/bundle/fontawesome.all.min.css" />
+    <link rel="stylesheet" type="text/css" href="/site/templates/styles/viz.css" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Verkehrsinformationszentrale" />
+  <meta property="og:url" content="https://viz.berlin.de/" />
+  <meta property="og:image" content="https://viz.berlin.de/site/templates/img/viz-og.png" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDoNotTrack", true]);
+    _paq.push(["disableCookies"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://viz-matomo.de/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+<style>.privacywire{background:#fff;bottom:-250%;box-shadow:0 -1px 3px rgba(0,0,0,.3);left:0;opacity:0;padding:1rem;position:fixed;right:0;transition:bottom .3s ease-in,opacity .3s ease;z-index:1}.show-banner .privacywire-banner,.show-message .privacywire-message,.show-options .privacywire-options{bottom:0;opacity:1}.privacywire-header{font-weight:700}.privacywire button[hidden],.privacywire-ask-consent-blueprint,[data-ask-consent-rendered="1"]{display:none}</style><script>var PrivacyWireSettings={"version":2,"dnt":"0","bots":"0","customFunction":"reloadPageAfterCookieSettingsChange","messageTimeout":1500,"consentByClass":"0","cookieGroups":{"necessary":"Notwendige","functional":"Bluesky Widget","statistics":"Externe Medien (Mikrodepots)","marketing":"VBB Widget","external_media":"YouTube Widget"}};</script><script type='module' src='/site/modules/PrivacyWire/js/PrivacyWire.js'></script><script nomodule type='text/javascript' src='/site/modules/PrivacyWire/js/ie_polyfill.js'></script><script nomodule type='text/javascript' src='/site/modules/PrivacyWire/js/PrivacyWire_legacy.js'></script></head>
+	<body class="home">
+		<div id="page-wrapper">
+			<header id="header">
+  <div class="header__row-portalbrand">
+    <div class="logo">
+      <a href="https://www.berlin.de/" title="Zur Startseite von berlin.de">
+        <img class="logo" title="Zur Startseite von berlin.de" src="/site/templates/img/logo_berlin_m_srgb.svg" alt="Berlin.de" />
+      </a>
+    </div>
+  </div>
+
+  <div class="header__row-pageheader">
+    <div class="pageheader__logo">
+      <p class="textlogo">
+                <a href="/">
+          <span class="institution">VIZ</span>
+          <span class="title" style="hyphens: auto;">Verkehrsinformationszentrale</span>
+        </a>
+      </p>
+    </div>
+
+    <nav class="pageheader__quicklinks" aria-label="Bereichsnavigation">
+  <ul>
+    </ul>
+</nav>
+
+    <div class="pageheader__services">
+      <div id="servicebuttonAccessibility" class="service-button-overlay js-service-button-overlay accessibility">
+  <div class="service-button-overlay__button">
+    <button type="button" class="icon-button js-button-overlay-open" aria-haspopup="true" aria-label="Overlay Öffnen: Barrierefreiheit">
+      <i class="icon fas fa-universal-access" aria-hidden="true"></i>
+      <span class="aural">Öffnen: Barrierefreiheit</span>
+      <span class="text">Barrierefrei</span>
+    </button>
+  </div>
+  <!--noindex--><!--googleoff: index-->
+  <div class="service-button-overlay__overlay overlay js-overlay-container robots-nocontent" role="dialog" aria-modal="true" hidden="hidden">
+    <div class="overlay__header">
+      <h2 class="heading"><span>Barrierefreiheit</span></h2>
+      <button type="button" class="close-button js-button-overlay-close" aria-label="Overlay Schließen: Barrierefreiheit">
+        <i class="fas fa-times" aria-hidden="true"></i>
+        <span class="aural">Schließen: Barrierefreiheit</span>
+      </button>
+    </div>
+    <div class="overlay__body">
+      <ul class="wcag-linklist">
+            </ul>
+              <h3>Wie barrierefrei ist diese Webseite?</h3>
+        <p>
+          <a href="/barrierefreiheitserklarung/">Erklärung zur digitalen Barrierefreiheit</a>
+        </p>
+            <h3>Wen können Sie bei Anmerkungen oder Fragen zur digitalen Barrierefreiheit (Feedbackoption) kontaktieren?</h3>
+      <div class="richtext">
+    	  <div class="modul-contact">
+<ul class="list--contact">
+	<li class="name">Verkehrs­informations­zentrale Berlin (VIZ)</li>
+	<li class="tel">Tel.: (+49) 151 72962006</li>
+	<li class="email"><a href="mailto:VIZ-Redaktion@SenMVKU.berlin.de">E-Mail</a></li>
+</ul>
+</div>    	</div>
+      <h3>Wo gibt es zusätzliche Informationen zur Barrierefreiheit im Land Berlin?</h3>
+      <p>
+        <a target="_blank" class="extern" href="https://www.berlin.de/moderne-verwaltung/barrierefreie-it/">Barrierefreie Informations- und Kommunikationstechnik (IKT)</a>
+      </p>
+    </div>
+  </div>
+  <!--googleon: index--><!--/noindex-->
+</div>
+      <div id="servicebuttonSearch" class="service-button-overlay js-service-button-overlay search fullwidth">
+  <div class="service-button-overlay__button">
+    <button type="button" class="icon-button js-button-overlay-open" aria-haspopup="true" aria-label="Overlay Öffnen: Suche">
+      <i class="icon fa fa-search" aria-hidden="true"></i>
+      <span class="aural">Öffnen: Suche</span>
+      <span class="text">Suche</span>
+    </button>
+  </div>
+  <!--noindex--><!--googleoff: index-->
+  <div class="service-button-overlay__overlay overlay js-overlay-container robots-nocontent" role="dialog" aria-modal="true" hidden="hidden">
+    <div class="overlay__header">
+      <h2 class="heading"><span class="aural">Suche</span></h2>
+      <button type="button" class="close-button js-button-overlay-close" aria-label="Overlay Schließen: Suche">
+        <i class="fas fa-times" aria-hidden="true"></i>
+        <span class="aural">Schließen: Suche</span>
+      </button>
+    </div>
+    <div class="overlay__body">
+      <div class="search-container">
+                          <form class="search-form--new" action="/suchergebnis/" method="get">
+            <div class="searchform-slot ">
+              <div class="form-group">
+                <label class="notaural" for="searchFormInput_q">Suche auf der Internetseite &quot;Verkehrsinformationszentrale&quot;</label>
+                <div class="searchterm">
+                  <div class="input-wrapper">
+                    <i class="fas fa-search lens" aria-hidden="true"></i>
+                    <input class="form-control search" value="" placeholder="Suchbegriff" name="q" id="searchFormInput_q" autocomplete="off"
+                    title="Hier können Sie einen Text eingeben, um die Internetseite &quot;Die Regierende Bürgermeisterin von Berlin – Senatskanzlei Informationen zum Coronavirus (Covid-19)&quot;
+                    zu durchsuchen"/>
+                  </div>
+                  <button class="button button--clean submit " type="submit" title="Suche">
+                    <span class="aural">Suche</span><i class="fas fa-arrow-right icon" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+              </div>
+    </div>
+  </div>
+  <!--googleon: index--><!--/noindex-->
+</div>
+      <div id="servicebuttonMenu" class="service-button-overlay js-service-button-overlay menu">
+  <div class="service-button-overlay__button">
+    <button type="button" class="icon-button js-button-overlay-open" aria-haspopup="true" aria-label="Overlay Öffnen: Menü">
+      <i class="icon fa fa-bars" aria-hidden="true"></i>
+      <span class="aural">Öffnen: Menü</span>
+      <span class="text">Menü</span>
+    </button>
+  </div>
+  <!--noindex--><!--googleoff: index-->
+  <div class="service-button-overlay__overlay overlay js-overlay-container robots-nocontent" role="dialog" aria-modal="true" hidden="hidden">
+  <div class="overlay__header">
+    <h2 class="heading"><span>Menü</span></h2>
+    <button type="button" class="close-button js-button-overlay-close" aria-label="Overlay Schließen: Menü">
+      <i class="fas fa-times" aria-hidden="true"></i>
+      <span class="aural">Schließen: Menü</span>
+    </button>
+  </div>
+  <div class="overlay__body">
+    <nav id="navigation-primary" class="js-navigation-primary">
+      <div class="tree-wrapper js-navigation-tree-wrapper">
+        <h3 class="aural">Seitennavigation</h3>
+        <ul class="navigation-tree">
+                            <li>
+            <a class="" href="/verkehr-in-berlin/">Verkehr in Berlin</a>
+                          <ul class="navigation-tree">
+                                              <li>
+                  <a class="" href="/verkehr-in-berlin/verkehrslage/">Verkehrslage</a>
+                                  </li>
+                                              <li>
+                  <a class="" href="/verkehr-in-berlin/baustellen-sperrungen-und-sonstige-storungen/">Baustellen, Sperrungen und sonstige Störungen</a>
+                                  </li>
+                                              <li>
+                  <a class="" href="/verkehr-in-berlin/bus-und-bahn/">ÖPNV &amp; Sharing</a>
+                                  </li>
+                                              <li>
+                  <a class="" href="/verkehr-in-berlin/parken/">Parken &amp; Laden</a>
+                                      <ul class="navigation-tree">
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/parken/parkraumkartierung/">Parkraumkartierung</a>
+                        </li>
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/parken/parkhauser-und-parkplatze/">Parkhäuser und Parkplätze</a>
+                        </li>
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/parken/ladeeinrichtungen/">Ladeeinrichtungen</a>
+                        </li>
+                                          </ul>
+                                  </li>
+                                              <li>
+                  <a class="" href="/verkehr-in-berlin/radverkehr/">Radverkehr</a>
+                                  </li>
+                                              <li>
+                  <a class="" href="/verkehr-in-berlin/wirtschaftsverkehr/">Wirtschaftsverkehr</a>
+                                      <ul class="navigation-tree">
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/wirtschaftsverkehr/mikro-depot/">Mikro-Depot Berlin</a>
+                        </li>
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/wirtschaftsverkehr/kepahnliche-verkehre/">KEP-ähnliche-Verkehre</a>
+                        </li>
+                                          </ul>
+                                  </li>
+                                              <li>
+                  <a class="" href="/verkehr-in-berlin/verkehrsanalysen/">Verkehrsanalysen</a>
+                                      <ul class="navigation-tree">
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/verkehrsanalysen/pendleranalyse/">Pendleranalyse</a>
+                        </li>
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/verkehrsanalysen/stauschwerpunkte/">Stauschwerpunkte</a>
+                        </li>
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/verkehrsanalysen/verkehrslage/">Analyse der historischen Verkehrslage</a>
+                        </li>
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/verkehrsanalysen/kep-ahnliche-verkehre/">KEP-ähnliche-Verkehre</a>
+                        </li>
+                                                                      <li>
+                          <a class="" href="/verkehr-in-berlin/verkehrsanalysen/entwicklung-der-taglichen-verkehrsstarke-wahrend-der-corona-pandemie/">Entwicklung der täglichen Verkehrsstärke während der Corona-Pandemie</a>
+                        </li>
+                                          </ul>
+                                  </li>
+                            </ul>
+                      </li>
+                            <li>
+            <a class="" href="/fernverkehr/">Fernverkehr</a>
+                          <ul class="navigation-tree">
+                                              <li>
+                  <a class="" href="/fernverkehr/flugzeug/">Flugzeug</a>
+                                  </li>
+                                              <li>
+                  <a class="" href="/fernverkehr/fernbahn/">Fernbahn</a>
+                                  </li>
+                            </ul>
+                      </li>
+                            <li>
+            <a class="" href="/wasserstrassen/">Wasserstraßen</a>
+                      </li>
+                            <li>
+            <a class="" href="/umwelt/">Umwelt</a>
+                          <ul class="navigation-tree">
+                                              <li>
+                  <a class="" href="/umwelt/luftqualitat/">Luftqualität</a>
+                                  </li>
+                                              <li>
+                  <a class="" href="/umwelt/umweltzone/">Umweltzone</a>
+                                  </li>
+                                              <li>
+                  <a class="" href="/umwelt/wetter/">Wetter</a>
+                                  </li>
+                            </ul>
+                      </li>
+                            <li>
+            <a class="" href="/service/">Weitere Dienste</a>
+                      </li>
+                </ul>
+      </div>
+      
+<div class="navigation-meta">
+  <h3 class="heading">Information in other languages</h3>
+  <ul>
+          <li>
+        <a href="/en/"
+          title="Link to a foreign language: English"
+          hreflang="en">
+          <span lang="en">English</span>
+        </a>
+      </li>
+      </ul>
+</div>
+      <div class="navigation-meta">
+  <h3 class="heading">Weiteres</h3>
+  <ul>
+          <li>
+      <a href="https://www.facebook.com/vizberlin/" class="extern ic-fa-facebook" target="_blank" title="Facebook (Öffnet in neuem Fenster)">Facebook</a>
+    </li>
+          <li>
+      <a href="https://bsky.app/profile/vizberlin.bsky.social" class="extern" target="_blank" title="Bluesky (Öffnet in neuem Fenster)">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/></svg>
+        Bluesky
+      </a>
+    </li>
+  
+  </ul>
+</div>
+    </nav>
+  </div>
+</div>
+<!--googleon: index--><!--/noindex-->
+    </div>
+  </div>
+</div>
+
+</header>
+	    <div id="layout-grid" class="" role="main">
+        <div id="layout-grid__area--contentheader">
+          				  				</div>
+        <div id="layout-grid__area--maincontent">
+
+																															  
+        
+  <div class="herounit-homepage herounit-image-with-overlay fullwidth 0" 
+          style="margin-top: -40px;"
+        >
+    <div class="image image--herounit-coverall-with-overlay">
+      <div class="content content_gallery " id="galerie-voll">
+                  <div class="image__image">
+                        <img src="/site/assets/files/1238/adobestock_221180840_frankpeters.1920x0.jpg" alt="Stimmungsbild Berlin" />
+          </div>
+                          <p class="image__copyright hero-copyright"><strong>Bild: </strong>© Frank Peters – stock.adobe.com</p>
+                          <div class="image__overlay">
+            <div class="inner">
+              <div class="textbox">
+                                <h1 class="title">Verkehrs­informations­zentrale Berlin (VIZ)</h1>
+                                  <p class="text">Aktuelle Informationen für alle Verkehrsmittel</p>
+                              </div>
+            </div>
+          </div>
+              </div>
+    </div>
+  </div>
+
+  
+																										  <div class="content content_teaser desktop-only" id="teaser-dreispaltig">
+
+            <section class="modul-multiteaser">
+                <div class="flexgrid grid--2">
+                      <article class="modul-teaser" data-add-clickable-area="smart">
+  <div class="image">
+    <div class="image__image">
+                            <img src="/site/assets/files/1309/a111_achtung_hoch_fav-bk_small.640x480.png" alt="Symbolbild Stau auf Autobahn">
+          </div>
+          
+              <p class="image__copyright">VIZ Berlin</p>
+      </div>
+
+  <h3 class="title">Verkehrslage</h3>
+  <div class="inner">
+    <p class="text">
+      Die Verkehrslagekarte Berlin zeigt Ihnen wo der Verkehr störungsfrei fließt (grün) und wo Sie mit Verkehrsbehinderungen (gelb) oder Stau (rot) rechnen müssen.      <a href="/verkehr-in-berlin/verkehrslage/" target="_self"class="more" data-mainlink="true" title="Teaser" style="" aria-label="Link zu: Verkehrslage">Mehr<span class="aural">zu: Verkehrslage</span></a>
+    </p>
+  </div>
+</article>
+                      <article class="modul-teaser" data-add-clickable-area="smart">
+  <div class="image">
+    <div class="image__image">
+                            <img src="/site/assets/files/1311/baustellen-_sperrungen_und_sonstige_stoerungen.640x480.jpg" alt="Symbolbild Baustelle">
+          </div>
+          
+              <p class="image__copyright">VIZ Berlin</p>
+      </div>
+
+  <h3 class="title">Baustellen, Sperrungen und sonstige Störungen</h3>
+  <div class="inner">
+    <p class="text">
+      Staus durch Unfälle, Baustellen, sonstige Störungen wie Demonstrationen und erhöhtes Verkehrsaufkommen sind in einer Stadt wie Berlin nicht zu vermeiden.      <a href="/verkehr-in-berlin/baustellen-sperrungen-und-sonstige-storungen/" target="_self"class="more" data-mainlink="true" title="Teaser" style="" aria-label="Link zu: Baustellen, Sperrungen und sonstige Störungen">Mehr<span class="aural">zu: Baustellen, Sperrungen und sonstige Störungen</span></a>
+    </p>
+  </div>
+</article>
+                    </div>
+      </section>
+      </div>
+																		  <div class="content content_bloglist_html " id="aktuelles-und-vbb-desktop">
+  
+  <div class="flexgrid grid--2">
+    <div class="">
+      <article class="modul-card" data-add-clickable-area="smart">
+                              <h3>Aktuelle Meldungen</h3>
+            <div class="card__body">
+              
+  <ul>
+          <li><a href="/aktuelle-meldungen/viz-verkehrsvorschau/">Verkehrsvorschau für Mittwoch, 14.10.2026</a></li>
+          <li><a href="/aktuelle-meldungen/fernverkehr-neuer-fahrplan-2027/">Fernverkehr: Neuer Fahrplan 2027</a></li>
+          <li><a href="/aktuelle-meldungen/baubeginn-zur-verbesserung-des-radfahrstreifens-in-der-friedenstrasse/">Baubeginn zur Verbesserung des Radfahrstreifens in der Friedenstraße</a></li>
+          <li><a href="/aktuelle-meldungen/rigaer-strasse-wird-sicherer-und-fahrradfreundlicher/">Rigaer Straße wird sicherer und fahrradfreundlicher</a></li>
+          <li><a href="/aktuelle-meldungen/verlangerung-des-radfahrstreifens-auf-der-b96a-kopenicker-landstrasse-bis-zur-trojanstrasse/">Verlängerung des Radfahrstreifens auf der B96a Köpenicker Landstraße bis zur Trojanstraße</a></li>
+          <li><a href="/aktuelle-meldungen/baumassnahmen-in-der-dorpfeldstrasse-19.10-bis-16.12.26/">Baumaßnahmen in der Dörpfeldstraße 19.10. bis 16.12.26</a></li>
+          <li><a href="/aktuelle-meldungen/geschutzte-radverkehrsanlage-in-der-oberlandstrasse/">Geschützte Radverkehrsanlage in der Oberlandstraße in Tempelhof</a></li>
+          <li><a href="/aktuelle-meldungen/nachtliche-wartungsarbeiten-auf-der-a113/">Nächtliche Wartungsarbeiten auf der A113</a></li>
+          <li><a href="/aktuelle-meldungen/vollsperrung-der-galerie-zum-s-bahnhof-jannowitzbrucke/">Vollsperrung der Galerie zum S-Bahnhof Jannowitzbrücke aufgrund von Tragwerksschäden</a></li>
+          <li><a href="/aktuelle-meldungen/bauwerksuntersuchung-an-der-rudolf-wissell-brucke/">Bauwerksuntersuchung an der Rudolf-Wissell-Brücke</a></li>
+          <li><a href="/aktuelle-meldungen/mehr-sicherheit-am-koppenplatz-in-mitte/">Mehr Sicherheit am Koppenplatz in Mitte</a></li>
+          <li><a href="/aktuelle-meldungen/pankow-sperrung-der-kreuzung-dietzgenstrasse-schonhauser-strasse-schillerstrasse-12-30.10.26/">Pankow: Sperrung der Kreuzung Dietzgenstraße / Schönhauser Straße / Schillerstraße 12.-30.10.26</a></li>
+      </ul>
+            </div>
+              </article>
+    </div>
+    <div class="">
+      <article class="modul-card" data-add-clickable-area="smart">
+                                                <div class="">
+  <h3 style="margin-top: 0">Bluesky Meldungen</h3>
+
+<div data-category="functional" data-ask-consent="1" class="require-consent" style="max-height: 500px; overflow-y: auto;">
+
+  <script type="text/plain" data-type="module" data-category="functional" class="require-consent" data-src="/site/templates/scripts/bsky-embed.es.js"></script>
+  <bsky-embed 
+    username="vizberlin.bsky.social" 
+    limit="10"
+    custom-styles="
+      article.p-4 { 
+        padding: 1rem 0; 
+      }
+      article.p-4 div.flex.gap-2 div.w-full {
+        width: calc(100% - 4rem);
+      }
+      article.p-4 .text-sm {
+        color: black;
+      }
+    ">
+  </bsky-embed>
+
+</div>
+</div>
+              </article>
+    </div>
+  </div>
+</div>
+																		  <div class="content content_teaser mobile-only" id="teaser-dreispaltig-1">
+
+            <section class="modul-multiteaser">
+                <div class="flexgrid grid--2">
+                      <article class="modul-teaser" data-add-clickable-area="smart">
+  <div class="image">
+    <div class="image__image">
+                            <img src="/site/assets/files/1892/a111_achtung_hoch_fav-bk_small.640x480.png" alt="Symboldbild Autobahn mit Verkehrseinschränkung">
+          </div>
+          
+              <p class="image__copyright">VIZ Berlin</p>
+      </div>
+
+  <h3 class="title">Verkehrslage</h3>
+  <div class="inner">
+    <p class="text">
+      Die Verkehrslagekarte Berlin zeigt Ihnen wo der Verkehr störungsfrei fließt (grün) und wo Sie mit Verkehrsbehinderungen (gelb) oder Stau (rot) rechnen müssen.      <a href="/verkehr-in-berlin/verkehrslage/" target="_self"class="more" data-mainlink="true" title="Teaser" style="" aria-label="Link zu: Verkehrslage">Mehr<span class="aural">zu: Verkehrslage</span></a>
+    </p>
+  </div>
+</article>
+                      <article class="modul-teaser" data-add-clickable-area="smart">
+  <div class="image">
+    <div class="image__image">
+                            <img src="/site/assets/files/1894/baustellen-_sperrungen_und_sonstige_stoerungen.640x480.jpg" alt="Symbolbild einer Baustelle an einer komplexen Kreuzung">
+          </div>
+          
+              <p class="image__copyright">VIZ Berlin</p>
+      </div>
+
+  <h3 class="title">Baustellen, Sperrungen und sonstige Störungen</h3>
+  <div class="inner">
+    <p class="text">
+      Staus durch Unfälle, Baustellen, sonstige Störungen wie Demonstrationen und erhöhtes Verkehrsaufkommen sind in einer Stadt wie Berlin nicht zu vermeiden.      <a href="/verkehr-in-berlin/baustellen-sperrungen-und-sonstige-storungen/" target="_self"class="more" data-mainlink="true" title="Teaser" style="" aria-label="Link zu: Baustellen, Sperrungen und sonstige Störungen">Mehr<span class="aural">zu: Baustellen, Sperrungen und sonstige Störungen</span></a>
+    </p>
+  </div>
+</article>
+                    </div>
+      </section>
+      </div>
+																		  <div class="content content_teaser " id="ladesaule-parkplatze">
+
+            <section class="modul-multiteaser">
+                <div class="flexgrid grid--2">
+                      <article class="modul-teaser" data-add-clickable-area="smart">
+  <div class="image">
+    <div class="image__image">
+                            <img src="/site/assets/files/2076/2026_lis_akp2-1_new.640x480.jpg" alt="Parkplatz mit Ladesäule">
+          </div>
+          
+              <p class="image__copyright">VIZ Berlin</p>
+      </div>
+
+  <h3 class="title">Ladeeinrichtungen im öffentlichen Raum Berlins</h3>
+  <div class="inner">
+    <p class="text">
+      Standorte, Eigenschaften, Belegungsgrad und Direktladepreise für alle Ladepunkte im öffentlichen Raum auf der E-Informationsplattform Berlin.      <a href="/verkehr-in-berlin/parken/ladeeinrichtungen/" target="_self"class="more" data-mainlink="true" title="Teaser" style="" aria-label="Link zu: Ladeeinrichtungen im öffentlichen Raum Berlins">Mehr<span class="aural">zu: Ladeeinrichtungen im öffentlichen Raum Berlins</span></a>
+    </p>
+  </div>
+</article>
+                      <article class="modul-teaser" data-add-clickable-area="smart">
+  <div class="image">
+    <div class="image__image">
+                            <img src="/site/assets/files/2077/scan-fahrzeug.640x480.jpg" alt="Scanfahrzeug zur Aufnahme von Parkplätzen">
+          </div>
+          
+              <p class="image__copyright">VIZ Berlin</p>
+      </div>
+
+  <h3 class="title">Parkraumkartierung</h3>
+  <div class="inner">
+    <p class="text">
+      Im Rahmen einer umfangreichen Datenerhebung wurden alle öffentlichen Straßenparkplätze Berlins erfasst. In dieser Karte können Sie sich einen Überblick verschaffen und mit Klick auf eine Parkfläche weitere Informationen abrufen.      <a href="/verkehr-in-berlin/parken/parkraumkartierung/" target="_self"class="more" data-mainlink="true" title="Teaser" style="" aria-label="Link zu: Parkraumkartierung">Mehr<span class="aural">zu: Parkraumkartierung</span></a>
+    </p>
+  </div>
+</article>
+                    </div>
+      </section>
+      </div>
+																		  <div class="content content_richtext_html " id="vbb-widget">
+  
+  <div class="flexgrid grid--2">
+    <div class="">
+      <article class="modul-card" data-add-clickable-area="smart">
+                                                <div class="">
+  <h3 style="margin-top: 0">Multimodales Routing mit dem VBB</h3>
+
+<div data-category="marketing" data-ask-consent="1" class="require-consent">
+
+  <div class="html-vbb">
+    <div data-hfs-widget="true" data-hfs-widget-tp="true" data-hfs-widget-tp-autosearch="true" data-hfs-widget-sq="true" data-hfs-widget-sq-displaymode="query" data-hfs-widget-sq-autosearch="true"></div>
+    <p style="text-align: center; font-size: 12px;">Dieser Service wird Ihnen vom VBB zur Verfügung gestellt. Alle Angaben sind ohne Gewähr. Was mit Ihren Dateneingaben passiert, lesen Sie in der <a style="text-decoration: underline" href="https://www.vbb.de/datenschutz/" target="_blank" rel="noopener">Datenschutzerklärung des VBB</a>.</p>
+          <script type="text/plain" data-type="text/javascript" data-category="marketing" class="require-consent" data-src="https://fahrinfo.vbb.de/webapp/staticfiles/hafas-widget-core.1.0.0.js?language=de_DE"></script>
+            </div>
+
+</div>
+</div>
+              </article>
+    </div>
+    <div class="">
+      <article class="modul-card" data-add-clickable-area="smart">
+                            <div class="richtext">
+  <div class="modul-contact">
+<h2 class="title">Kontakt VIZ-Redaktion</h2>
+
+<address> </address>
+
+<ul class="list--contact">
+	<li class="name">Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt</li>
+	<li class="address loc"><a class="address" href="#" rel="noreferrer noopener" target="_blank" title="Diese Adresse auf Karte anzeigen"><span class="street">Am Köllnischen Park 3</span>, <span class="city">Berlin</span> </a></li>
+	<li class="mobile">Mobil: (+49) 151 72962006</li>
+	<li class="email"><a href="mailto:VIZ-Redaktion@SenMVKU.berlin.de">E-Mail</a></li>
+</ul>
+
+<div class="modul-contact">
+<p class="email">Montag - Freitag<br>
+06:00 bis 20:00 Uhr</p>
+</div>
+</div></div>
+              </article>
+    </div>
+  </div>
+</div>
+										</div>
+				<div id="layout-grid__area--contentfooter">
+  <div id="content-footer" role="contentinfo">
+    <div class="content-footer__brand">
+    </div>
+    <a class="to-top" href="#top">Zum Seitenanfang</a>
+    <nav class="content-footer__links" aria-label="Weiterführende Links">
+      <ul class="js-collapse-palm">
+        <li class="initial-open">
+          <h3 class="heading js-trigger">VIZ Berlin</h3>
+          <ul>
+                                  <li><a href="/impressum/" style="hyphens: auto;">Impressum</a></li>
+                                  <li><a href="/datenschutz/" style="hyphens: auto;">Datenschutzerklärung</a></li>
+                                  <li><a href="/barrierefreiheitserklarung/" style="hyphens: auto;">Barrierefreiheitserklärung</a></li>
+                                  <li><a href="/kontakt/" style="hyphens: auto;">Kontakt</a></li>
+                      <li><a class="privacywire-show-options">Cookie Einstellungen</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3 class="heading js-trigger">Zentrales</h3>
+          <ul>
+                                  <li><a href="/uber-uns/" style="hyphens: auto;">Über uns</a></li>
+                                  <li><a href="/aktuelle-meldungen/" style="hyphens: auto;">Meldungen Archiv</a></li>
+                      <li><a href="https://www.berlin.de/sen/uvk/">Senatsverwaltung für Mobilität</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3 class="heading js-trigger">Social Media</h3>
+          <ul>
+                                          <li>
+              <a href="https://www.facebook.com/vizberlin/" class="extern" target="_blank" title="Facebook (Öffnet in neuem Fenster)">Facebook</a>
+            </li>
+                                          <li>
+              <a href="https://bsky.app/profile/vizberlin.bsky.social" class="extern" target="_blank" title="Bluesky (Öffnet in neuem Fenster)">Bluesky</a>
+            </li>
+                    </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+	    </div>
+						  
+<!-- Landesfooter.view -->
+
+    <footer id="footer" class="kiekma screendefault" data-nosnippet="true">
+        <!-- portalfooter logo -->
+        <div class="footer__brand">
+            <div class="image__image">
+            <a href="https://www.berlin.de/" title="Berlin.de Startseite">
+                <img alt="Berlin.de zur Startseite" src="https://www.berlin.de/i9f/r1/images/logo_berlin_m_negativ.svg" />
+            </a>
+            </div>
+                    </div>
+        <!-- portalfooter links -->
+        <nav class="footer__links" aria-label="Weitere Bereiche auf Berlin.de">
+            <h2 class="aural">Weitere Informationen zu Berlin.de</h2>
+            <ul class="js-collapse-palm">
+                <li>
+                    <!--FLEX BEGIN: Footerlinklist-->
+    <h3 class="heading js-trigger">Service</h3><ul><li><a href="https://service.berlin.de/app/" >Service-App</a></li><li><a href="https://service.berlin.de/terminvereinbarung/" >Termin vereinbaren</a></li><li><a href="https://www.berlin.de/moderne-verwaltung/sicherheit-technik/ikt-basisdienste-1509918.php#115" >B&#252;rgertelefon 115</a></li><li><a href="https://www.berlin.de/polizei/service/so-erreichen-sie-uns/artikel.532842.php" >Notdienste</a></li><li><a href="https://www.berlin.de/ea/" >Gewerbeservice</a></li></ul><!--FLEX END: Footerlinklist-->
+                </li>
+                <li>
+                    <!--FLEX BEGIN: Footerlinklist-->
+    <h3 class="heading js-trigger">Behörden</h3><ul><li><a href="https://service.berlin.de/behoerden/" >Beh&#246;rden A-Z</a></li><li><a href="https://service.berlin.de/senatsverwaltungen/" >Senatsverwaltungen</a></li><li><a href="https://service.berlin.de/bezirksaemter/" >Bezirks&#228;mter</a></li><li><a href="https://service.berlin.de/standorte/buergeraemter/" >B&#252;rger&#228;mter</a></li><li><a href="https://service.berlin.de/jobcenter/" >Jobcenter</a></li><li><a href="https://www.berlin.de/einwanderung/" >Einwanderungsamt</a></li></ul><!--FLEX END: Footerlinklist-->
+                </li>
+                <li>
+                    <!--FLEX BEGIN: Footerlinklist-->
+    <h3 class="heading js-trigger">Politik & Verwaltung</h3><ul><li><a href="https://www.berlin.de/rbmskzl/politik/senat/" >Landesregierung</a></li><li><a href="https://www.berlin.de/karriereportal/" >Karriere im Land Berlin</a></li><li><a href="https://mein.berlin.de" >B&#252;rgerbeteiligung</a></li><li><a href="https://daten.berlin.de" >Open Data</a></li><li><a href="https://www.berlin.de/vergabeplattform/" >Vergaben</a></li></ul><!--FLEX END: Footerlinklist-->
+                </li>
+                <li>
+                    <!--FLEX BEGIN: Footerlinklist-->
+    <h3 class="heading js-trigger">Aktuelles</h3><ul><li><a href="https://www.berlin.de/presse/" >Pressemitteilungen</a></li><li><a href="https://www.berlin.de/polizei/polizeimeldungen/" >Polizeimeldungen</a></li><li><a href="https://www.berlin.de/land/kalender/" >Veranstaltungen</a></li><li><a href="https://www.berlin.de/rbmskzl/fokusthemen/" >Fokusthemen</a></li></ul><!--FLEX END: Footerlinklist-->
+                </li>
+                <li>
+                    <!--FLEX BEGIN: Footerlinklist-->
+    <h3 class="heading js-trigger">Themen</h3><ul><li><a href="https://www.berlin.de/moderne-verwaltung/" >Moderne Verwaltung</a></li><li><a href="https://www.berlin.de/sen/uvk/mobilitaet-und-verkehr/" >Mobilit&#228;t</a></li><li><a href="https://www.berlin.de/sen/bauen/" >Bauen</a></li><li><a href="https://www.berlin.de/sen/wohnen/service/mietspiegel/" >Mietspiegel</a></li><li><a href="https://www.berlin.de/sen/bildung/" >Bildung</a></li></ul><!--FLEX END: Footerlinklist-->
+                </li>
+                <li>
+                    <!--FLEX BEGIN: Footerlinklist-->
+    <h3 class="heading js-trigger">Weitere Informationen</h3><ul><li><a href="https://www.berlin.de/kultur-und-tickets/" >Kultur &#38; Ausgehen</a></li><li><a href="https://www.berlin.de/tourismus/" >Tourismus</a></li><li><a href="https://www.berlin.de/wirtschaft/" >Wirtschaft</a></li><li><a href="https://www.berlin.de/special/" >Stadtleben</a></li><li><a href="https://www.berlin.de/stadtplan/" >Stadtplan</a></li></ul><!--FLEX END: Footerlinklist-->
+                </li>
+            </ul>
+        </nav>
+
+        <div class="footer__claim">
+                        <p>
+                Berlin.de ist ein Angebot des Landes Berlin.            </p>
+        </div>
+    </footer>
+
+<!-- /Landesfooter.view -->
+					</div>
+
+		
+  <script src="https://www.berlin.de/i9f/r1/bundle/berlin_organization.js"></script>
+<script src="/site/templates/scripts/main.js"></script>
+
+	<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    backToStart = document.getElementById("back-to-privacy-start");
+    backToStart.addEventListener("click", () => {
+      document.getElementById("privacywire-wrapper").classList.remove("show-options");
+      document.getElementById("privacywire-wrapper").classList.add("show-banner");
+    })
+  });
+</script>
+
+<div class="privacywire-wrapper" id="privacywire-wrapper">
+    <div class="privacywire-page-wrapper">
+        <div class="privacywire privacywire-banner">
+            <div class='privacywire-header'>Cookie Einstellungen</div>            <div class="privacywire-body">
+                <div class="privacywire-text"><p>Cookies erleichtern die Bereitstellung unserer Dienste. Mit der Nutzung unserer Dienste erklären Sie sich damit einverstanden, dass wir Cookies verwenden.</p>
+
+<p>Zur <a href="/datenschutz/">Datenschutzerklärung</a></p></div>
+                <div class="privacywire-buttons">
+                    <button class="allow-all" >Alle akzeptieren</button>
+                    <button class="allow-necessary" >Nur notwendige akzeptieren</button>
+
+                    <button class="choose" >Cookies auswählen</button>
+                </div>
+                            </div>
+
+        </div>
+        <div class="privacywire privacywire-options">
+            <div class='privacywire-header'>Cookie Einstellungen</div>            <div class="privacywire-body">
+                <div class="privacywire-text"><p>Cookies erleichtern die Bereitstellung unserer Dienste. Mit der Nutzung unserer Dienste erklären Sie sich damit einverstanden, dass wir Cookies verwenden.</p>
+
+<p>Zur <a href="/datenschutz/">Datenschutzerklärung</a></p></div>
+                <div class="privacywire-text">
+                    <ul>
+                        <li >
+                            <label for="necessary"><input class="required" type="checkbox" name="necessary" id="necessary" value="1" checked disabled>Notwendige</label>
+                        </li>
+                        <li >
+                            <label for="functional"><input class="optional" type="checkbox" name="functional" id="functional" value="0">Bluesky Widget</label>
+                        </li>
+                        <li hidden>
+                            <label for="statistics"><input class="optional" type="checkbox" name="statistics" id="statistics" value="0">Externe Medien (Mikrodepots)</label>
+													<ul>
+														<li><label><input class="substat required" type="checkbox" checked disabled>Tableau Public</label></li>
+														<li><label><input class="substat required" type="checkbox" checked disabled>Google Tag Manager</label></li>
+														<li><label><input class="substat required" type="checkbox" checked disabled>Mapbox</label></li>
+														<li><label><input class="substat required" type="checkbox" checked disabled>Cloudfront</label></li>
+														<li><label><input class="substat required" type="checkbox" checked disabled>ggf. New Relic</label></li>
+													</ul>
+                        </li>
+                        <li >
+                            <label for="marketing"><input class="optional" type="checkbox" name="marketing" id="marketing" value="0">VBB Widget</label>
+                        </li>
+                        <li >
+                            <label for="external_media"><input class="optional" type="checkbox" name="external_media" id="external_media" value="0">YouTube Widget</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="privacywire-buttons">
+                    <button class="toggle" ></button>
+                    <button class="save">Einstellungen speichern</button>
+                    <button class="allow-all" hidden>Alle akzeptieren</button>
+                    <button id="back-to-privacy-start" class="back">Zurück</button>
+                </div>
+                            </div>
+        </div>
+        <div class="privacywire privacywire-message"><div class="privacywire-body">Die Cookie-Einstellungen wurden gespeichert.</div></div>
+    </div>
+</div><div hidden class="privacywire-ask-consent-blueprint" id="privacywire-ask-consent-blueprint">
+  <div class="twoclick">
+      <p class="privacywire-consent-message">
+        <p>Hier klicken um die Einbindung von {category} zu aktivieren. Der Erhebung und Übermittlung der personenbezogenen Daten an den Anbieter wird zugestimmt. Es gelten die dortigen Datenschutzerklärungen.</p>
+
+<p>Zur <a href="https://www.berlin.de/sen/uvk/datenschutzerklaerung.844084.php" rel="noreferrer noopener" target="_blank">Datenschutzerklärung</a> der Senatsverwaltung für Umwelt, Mobilität, Verbraucher- und Klimaschutz.</p>      </p>
+      <button class="button privacywire-consent-button" type="button" data-consent-category="{categoryname}">
+        Erlaube {category}      </button>
+  </div>
+</div></body>
+</html>

@@ -1,0 +1,7359 @@
+GET https://www.verkehr.nrw/
+content-type: text/html;charset=utf-8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="ltr" dir="ltr" lang="de-DE">
+	<head>
+		<title>Karte - VERKEHR.NRW</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="title" content="Verkehr.NRW – Das Verkehrsinformationsportal für Nordrhein-Westfalen">
+		<meta name="description" content="Bleiben Sie mobil: Echtzeit-Verkehrsmeldungen, Live-Abfahrtszeiten des ÖPNV, Benzin- und Dieselpreise, Baustelleninfos und vieles mehr. Jetzt entdecken!">
+		<meta name="keywords" content="Aktuelle Verkehrslage, Baustellen, Benzinpreise, Dieselpreise, Preisvergleich, E-Ladestationen, Routenplanung, Nordrhein-Westfalen">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="https://www.verkehr.nrw/o/dynamic-data-mapping-web/css/main.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1791806877748" rel="stylesheet" type = "text/css" />
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+<link href="https://www.verkehr.nrw/o/dynamic-data-mapping-form-builder/css/main.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1791806877748" rel="stylesheet" type = "text/css" />
+<link href="https://www.verkehr.nrw/o/dynamic-data-mapping-form-renderer/css/main.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1791806877748" rel="stylesheet" type = "text/css" />
+
+
+<link href="https://www.verkehr.nrw/o/map-theme/images/favicon.ico" rel="icon" />
+
+
+
+
+
+	<link data-senna-track="temporary" href="https://verkehr.nrw" rel="canonical" />
+
+	
+
+			
+				<link data-senna-track="temporary" href="https://verkehr.nrw" hreflang="x-default" rel="alternate" />
+			
+
+			<link data-senna-track="temporary" href="https://verkehr.nrw/de" hreflang="de-DE" rel="alternate" />
+
+	
+
+			
+
+			<link data-senna-track="temporary" href="https://verkehr.nrw/en" hreflang="en-GB" rel="alternate" />
+
+	
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://www.verkehr.nrw/o/map-theme/css/clay.css?browserId=other&amp;themeId=maptheme_WAR_maptheme&amp;minifierType=css&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+<link data-senna-track="temporary" href="/o/frontend-css-web/main.css?browserId=other&amp;themeId=maptheme_WAR_maptheme&amp;minifierType=css&amp;languageId=de_DE&amp;b=7102&amp;t=1557361611547" id="liferayPortalCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+		<link data-senna-track="temporary" href="/combo?browserId=other&amp;minifierType=&amp;themeId=maptheme_WAR_maptheme&amp;languageId=de_DE&amp;b=7102&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fsearch%2Fbar%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&amp;de_strassennrw_vipnrw_gas_portlet_GasPricesPortlet:%2Fcss%2Fmain.css&amp;de_strassennrw_vipnrw_journal_content_viewer_portlet_JournalContentViewerPortlet:%2Fcss%2Fmain.css&amp;de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet:%2Fcss%2Fmain.css&amp;de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet:%2Fcss%2Fvipnrw-paginator.css&amp;de_strassennrw_vipnrw_map_portlet_MapPortlet:%2Fcss%2Fol.css&amp;de_strassennrw_vipnrw_map_portlet_MapPortlet:%2Fcss%2Fmain.css&amp;de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet:%2Fcss%2Fmain.css&amp;de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet:%2Fcss%2Fmain.css&amp;de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet:%2Fcss%2Fvipnrw-paginator.css&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fcss%2Fmain.css&amp;de_strassennrw_vipnrw_search_portlet_SearchPortlet:%2Fcss%2Fmain.css&amp;t=1791799680000" id="9d5a4820" rel="stylesheet" type="text/css" />
+
+	
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return true;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 141.0;
+			},
+
+			getRevision: function() {
+				return '537.36';
+			},
+			getVersion: function() {
+				return '141.0';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return true;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return true;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return true;
+			},
+			isMac: function() {
+				return false;
+			},
+			isMobile: function() {
+				return false;
+			},
+			isMozilla: function() {
+				return false;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return true;
+			},
+			isSafari: function() {
+				return true;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return true;
+			},
+			isWindows: function() {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			null
+
+			
+
+			
+		];
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			NTLM_AUTH_ENABLED: false,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '3';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/vipnrw/~/control_panel/manage';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/web/vipnrw/karte';
+				},
+				getLayoutURL: function() {
+					return 'https://www.verkehr.nrw/web/vipnrw/karte';
+				},
+				getParentLayoutId: function() {
+					return '0';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'de-DE';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https://verkehr.nrw';
+			},
+			getCDNBaseURL: function() {
+				return 'https://www.verkehr.nrw';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '20135';
+			},
+			getCompanyId: function() {
+				return '20099';
+			},
+			getDefaultLanguageId: function() {
+				return 'de_DE';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'de_DE';
+			},
+			getParentGroupId: function() {
+				return '20126';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://www.verkehr.nrw/o/map-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/map-theme';
+			},
+			getPlid: function() {
+				return '34111';
+			},
+			getPortalURL: function() {
+				return 'https://www.verkehr.nrw';
+			},
+			getScopeGroupId: function() {
+				return '20126';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '20126';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://www.verkehr.nrw/group/vipnrw/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '20126';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=34111';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fwww\x2everkehr\x2enrw\x2fweb\x2fvipnrw\x2fkarte';
+			},
+			getUserEmailAddress: function() {
+				return '';
+			},
+			getUserId: function() {
+				return '20103';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isFreeformLayout: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getAvailableLangPath: function() {
+				return 'available_languages.jsp?browserId=other&themeId=maptheme_WAR_maptheme&colorSchemeId=01&minifierType=js&languageId=de_DE&b=7102&t=1791806803158';
+			},
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&';
+			},
+			getDateFormat: function() {
+				return '%d.%m.%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+				
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getLangPath: function() {
+				return 'aui_lang.jsp?browserId=other&themeId=maptheme_WAR_maptheme&colorSchemeId=01&minifierType=js&languageId=de_DE&b=7102&t=1557361610505';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505';
+			}
+		};
+
+		Liferay.authToken = 'nYiZwZ2d';
+
+		
+
+		Liferay.currentURL = '\x2f';
+		Liferay.currentURLEncoded = '\x252F';
+	// ]]>
+</script>
+
+
+
+<script src="/o/js_loader_config?t=1791806834321" type="text/javascript"></script>
+<script src="/o/frontend-js-web/loader/config.js" type="text/javascript"></script>
+<script src="/o/frontend-js-web/loader/loader.js" type="text/javascript"></script>
+<script data-senna-track="permanent" src="https://www.verkehr.nrw/combo?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/jquery/jquery.js&/o/frontend-js-web/clay/popper.js&/o/frontend-js-web/clay/bootstrap.js&/o/frontend-js-web/aui/aui/aui.js&/o/frontend-js-web/aui/aui-base-html5-shiv/aui-base-html5-shiv.js&/o/frontend-js-web/liferay/browser_selectors.js&/o/frontend-js-web/liferay/modules.js&/o/frontend-js-web/liferay/aui_sandbox.js&/o/frontend-js-web/clay/collapsible-search.js&/o/frontend-js-web/clay/side-navigation.js&/o/frontend-js-web/jquery/fm.js&/o/frontend-js-web/jquery/form.js&/o/frontend-js-web/misc/svg4everybody.js&/o/frontend-js-web/aui/arraylist-add/arraylist-add.js&/o/frontend-js-web/aui/arraylist-filter/arraylist-filter.js&/o/frontend-js-web/aui/arraylist/arraylist.js&/o/frontend-js-web/aui/array-extras/array-extras.js&/o/frontend-js-web/aui/array-invoke/array-invoke.js&/o/frontend-js-web/aui/attribute-base/attribute-base.js&/o/frontend-js-web/aui/attribute-complex/attribute-complex.js&/o/frontend-js-web/aui/attribute-core/attribute-core.js&/o/frontend-js-web/aui/attribute-observable/attribute-observable.js&/o/frontend-js-web/aui/attribute-extras/attribute-extras.js&/o/frontend-js-web/aui/base-base/base-base.js&/o/frontend-js-web/aui/base-pluginhost/base-pluginhost.js&/o/frontend-js-web/aui/classnamemanager/classnamemanager.js&/o/frontend-js-web/aui/datatype-xml-format/datatype-xml-format.js&/o/frontend-js-web/aui/datatype-xml-parse/datatype-xml-parse.js&/o/frontend-js-web/aui/dom-base/dom-base.js&/o/frontend-js-web/aui/dom-core/dom-core.js&/o/frontend-js-web/aui/dom-screen/dom-screen.js&/o/frontend-js-web/aui/dom-style/dom-style.js&/o/frontend-js-web/aui/event-base/event-base.js&/o/frontend-js-web/aui/event-custom-base/event-custom-base.js&/o/frontend-js-web/aui/event-custom-complex/event-custom-complex.js&/o/frontend-js-web/aui/event-delegate/event-delegate.js&/o/frontend-js-web/aui/event-focus/event-focus.js&/o/frontend-js-web/aui/event-hover/event-hover.js" type = "text/javascript"></script>
+<script data-senna-track="permanent" src="https://www.verkehr.nrw/combo?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/event-key/event-key.js&/o/frontend-js-web/aui/event-mouseenter/event-mouseenter.js&/o/frontend-js-web/aui/event-mousewheel/event-mousewheel.js&/o/frontend-js-web/aui/event-outside/event-outside.js&/o/frontend-js-web/aui/event-resize/event-resize.js&/o/frontend-js-web/aui/event-simulate/event-simulate.js&/o/frontend-js-web/aui/event-synthetic/event-synthetic.js&/o/frontend-js-web/aui/intl/intl.js&/o/frontend-js-web/aui/io-base/io-base.js&/o/frontend-js-web/aui/io-form/io-form.js&/o/frontend-js-web/aui/io-queue/io-queue.js&/o/frontend-js-web/aui/io-upload-iframe/io-upload-iframe.js&/o/frontend-js-web/aui/io-xdr/io-xdr.js&/o/frontend-js-web/aui/json-parse/json-parse.js&/o/frontend-js-web/aui/json-stringify/json-stringify.js&/o/frontend-js-web/aui/node-base/node-base.js&/o/frontend-js-web/aui/node-core/node-core.js&/o/frontend-js-web/aui/node-event-delegate/node-event-delegate.js&/o/frontend-js-web/aui/node-event-simulate/node-event-simulate.js&/o/frontend-js-web/aui/node-focusmanager/node-focusmanager.js&/o/frontend-js-web/aui/node-pluginhost/node-pluginhost.js&/o/frontend-js-web/aui/node-screen/node-screen.js&/o/frontend-js-web/aui/node-style/node-style.js&/o/frontend-js-web/aui/oop/oop.js&/o/frontend-js-web/aui/plugin/plugin.js&/o/frontend-js-web/aui/pluginhost-base/pluginhost-base.js&/o/frontend-js-web/aui/pluginhost-config/pluginhost-config.js&/o/frontend-js-web/aui/querystring-stringify-simple/querystring-stringify-simple.js&/o/frontend-js-web/aui/queue-promote/queue-promote.js&/o/frontend-js-web/aui/selector-css2/selector-css2.js&/o/frontend-js-web/aui/selector-css3/selector-css3.js&/o/frontend-js-web/aui/selector-native/selector-native.js&/o/frontend-js-web/aui/selector/selector.js&/o/frontend-js-web/aui/widget-base/widget-base.js&/o/frontend-js-web/aui/widget-htmlparser/widget-htmlparser.js&/o/frontend-js-web/aui/widget-skin/widget-skin.js&/o/frontend-js-web/aui/widget-uievents/widget-uievents.js" type = "text/javascript"></script>
+<script data-senna-track="permanent" src="https://www.verkehr.nrw/combo?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/yui-throttle/yui-throttle.js&/o/frontend-js-web/aui/aui-base-core/aui-base-core.js&/o/frontend-js-web/aui/aui-base-lang/aui-base-lang.js&/o/frontend-js-web/aui/aui-classnamemanager/aui-classnamemanager.js&/o/frontend-js-web/aui/aui-component/aui-component.js&/o/frontend-js-web/aui/aui-debounce/aui-debounce.js&/o/frontend-js-web/aui/aui-delayed-task-deprecated/aui-delayed-task-deprecated.js&/o/frontend-js-web/aui/aui-event-base/aui-event-base.js&/o/frontend-js-web/aui/aui-event-input/aui-event-input.js&/o/frontend-js-web/aui/aui-form-validator/aui-form-validator.js&/o/frontend-js-web/aui/aui-node-base/aui-node-base.js&/o/frontend-js-web/aui/aui-node-html5/aui-node-html5.js&/o/frontend-js-web/aui/aui-selector/aui-selector.js&/o/frontend-js-web/aui/aui-timer/aui-timer.js&/o/frontend-js-web/liferay/dependency.js&/o/frontend-js-web/liferay/dom_task_runner.js&/o/frontend-js-web/liferay/events.js&/o/frontend-js-web/liferay/language.js&/o/frontend-js-web/liferay/lazy_load.js&/o/frontend-js-web/liferay/liferay.js&/o/frontend-js-web/liferay/util.js&/o/frontend-js-web/liferay/global.bundle.js&/o/frontend-js-web/liferay/portal.js&/o/frontend-js-web/liferay/portlet.js&/o/frontend-js-web/liferay/workflow.js&/o/frontend-js-web/liferay/address.js&/o/frontend-js-web/liferay/form.js&/o/frontend-js-web/liferay/form_placeholders.js&/o/frontend-js-web/liferay/icon.js&/o/frontend-js-web/liferay/menu.js&/o/frontend-js-web/liferay/notice.js&/o/frontend-js-web/liferay/poller.js" type = "text/javascript"></script>
+
+
+
+
+	
+
+	<script data-senna-track="temporary" src="/o/js_bundle_config?t=1791806877748" type="text/javascript"></script>
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		
+			
+				
+				
+			
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+	
+
+
+
+	
+		
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+		<script data-senna-track="temporary" src="/combo?browserId=other&amp;minifierType=&amp;themeId=maptheme_WAR_maptheme&amp;languageId=de_DE&amp;b=7102&amp;de_strassennrw_vipnrw_contact_portlet_ContactPortlet:%2Fjs%2FliferayEventListener.js&amp;de_strassennrw_vipnrw_gas_portlet_GasPricesPortlet:%2Fjs%2Fmain.js&amp;de_strassennrw_vipnrw_gas_portlet_GasPricesPortlet:%2Fjs%2FliferayEventListener.js&amp;de_strassennrw_vipnrw_journal_content_viewer_portlet_JournalContentViewerPortlet:%2Fjs%2Fmain.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2Frouting-portlet-properties.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FroutingInput.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FrouteSettings.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FsavedRoutes.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FbikeRouting.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FcarRouting.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FrouteSummary.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FcarRoutePathwayConverter.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FpublicTransportRouting.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2FintermodalRoutingUiHelper.js&amp;de_strassennrw_vipnrw_routing_portlet_RoutingPortlet:%2Fjs%2Fd3%2Fd3.min.js&amp;t=1791799680000" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://www.verkehr.nrw/o/map-theme/css/main.css?browserId=other&amp;themeId=maptheme_WAR_maptheme&amp;minifierType=css&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+<link data-senna-track="permanent" href="https://www.verkehr.nrw/combo?browserId=other&minifierType=css&languageId=de_DE&b=7102&t=1557361605911&/o/product-navigation-simulation-theme-contributor/css/simulation_panel.css&/o/product-navigation-product-menu-theme-contributor/product_navigation_product_menu.css&/o/product-navigation-control-menu-theme-contributor/product_navigation_control_menu.css" rel="stylesheet" type = "text/css" />
+<script data-senna-track="permanent" src="https://www.verkehr.nrw/combo?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1557361605911&/o/product-navigation-control-menu-theme-contributor/product_navigation_control_menu.js" type = "text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					page: event.page - 1
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					page: event.page - 1
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+// ]]>
+</script>
+
+
+
+
+
+
+
+		<script src="https://www.verkehr.nrw/o/map-theme/js/portal-properties.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+
+		<script src="https://www.verkehr.nrw/o/map-theme/js/jquery/jquery.jfontsize-2.0.js"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/jquery/jquery-ui.js"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/jquery/catcomplete.js"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/jquery/datepicker-de.js"></script>
+
+		<script src="https://www.verkehr.nrw/o/map-theme/js/theme-helper.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/sidebar.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/vrrDataParser.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/vipnrw-global-utils.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/vipnrw.cookie.handler.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/vipnrw-traffic-object-converter.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/vipnrw-error-message-handler.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/mapRoutesHandler.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;b=7102&amp;t=1791806877748"></script>
+
+		<script src="https://www.verkehr.nrw/o/map-theme/js/clipboard.min.js"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/jstorage.js"></script>
+		<script src="https://www.verkehr.nrw/o/map-theme/js/jsrender.min.js"></script>
+
+	</head>
+
+	<body class=" controls-visible  yui3-skin-sam guest-site signed-out public-page site >
+	 	<header style="display:flex;">
+		 	<div class="logo">
+				<img id="logoImage_01" alt="Logo VERKEHR.NRW" aria-hidden="true" src="https://www.verkehr.nrw/o/map-theme/images/logo-verkehr-nrw.png" onclick=redirectToPortal()>
+			</div>
+		</header>
+
+<div onclick="openInNewTab()" class="new-widow-icon" role="menuitem" title="Ansicht in neuem Fenster öffnen">
+	<a tabindex="-1" href="#" title="Ansicht in neuem Fenster öffnen" ><span><i class="fa fa-external-link"></i></span></a>
+</div>
+<aside tabindex="0" class="menu-button" title="Menü">
+	<i class="fa fa-bars" ></i>
+</aside>
+<aside class="sidebar" >
+	<div id="sidebar-menu" class="sidebar-menu"  role="navigation">
+<div id="sidebar-header"
+		 title="Schließen"
+		 style="cursor: pointer; display: flex; justify-content: space-between;">
+		 <div style="display: flex;justify-content: flex-start;">
+			 <div id="sidebar-header-title">
+Menü			 </div>
+		 </div>
+		 <div
+		 	id="sidebar-header-close-button"
+		 	title="Schließen">
+			<i aria-hidden="true" class="fa fa-angle-double-left"></i>
+		</div>
+	</div>
+
+	<div id="sidebar-language-items">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_  portlet-static portlet-static-end decorate portlet-language " id="p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_" >
+		<span id="p_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet">
+	<script>
+		addPortletMainPageControlEntry('_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_',  'Sprachauswahl', '', 'undefined', 99);
+	</script>
+
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	<div class="truncate-text">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown lfr-icon-menu " >
+	
+		
+			<button aria-expanded="false" aria-haspopup="true" class="btn btn-monospaced btn-secondary dropdown-toggle " id="_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_kldx___menu" title="Aktionen" type="button">
+				<span class="inline-item"  id="uvlz____"><svg class="lexicon-icon lexicon-icon-de-de" focusable="false" role="presentation" title="" ><use data-href="https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg#de-de"></use></svg></span>
+
+				
+					<span class="btn-section">de-de</span>
+				
+			</button>
+		
+		
+	
+
+	<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-menu', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+		Liferay.Menu.register('_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_kldx___menu');
+	})();});
+// ]]>
+</script>
+
+	
+		
+		
+			<ul class="dropdown-menu dropdown-menu-left-side">
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<li class="" role="presentation">
+			
+				
+					<a href="/c/portal/update_language?p_l_id=34111&amp;redirect=%2F&amp;languageId=en_GB" target="_self" class=" lfr-icon-item taglib-icon" id="_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_kldx______menu__english_2d_beta_2d_united_2d_kingdom__1" role="menuitem" >
+						
+
+
+	
+		<span class="inline-item inline-item-before"  id="jbfs____"><svg class="lexicon-icon lexicon-icon-en-gb" focusable="false" role="presentation" title="" ><use data-href="https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg#en-gb"></use></svg></span>
+	
+	
+	
+
+
+
+	
+		<span class="taglib-text-icon">English [Beta]-United Kingdom</span>
+	
+	
+
+					</a>
+				
+				
+			
+		</li>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</ul>
+	
+</div>
+
+<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-menu', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	Liferay.Menu.handleFocus('#_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_kldx___menumenu');
+})();});
+// ]]>
+</script>	</div>
+
+
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+			</div>
+		
+</section>
+
+
+
+		
+	
+
+		
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+		<div id="jfontsize">
+			<a class="jfontsize-button" id="jfontsize-m2" href="#" title="verkleinern ">A-</a>
+			<a class="jfontsize-button" id="jfontsize-d2" href="#" title="zurücksetzen">A</a>
+			<a class="jfontsize-button" id="jfontsize-p2" href="#" title="vergrößern">A+</a>
+		</div>
+	</div>
+</div>
+		<!-- deprecated, prepared for removal -->
+		<!-- <div class="sidebar-separator"> </div> -->
+<div class="sidebar-scrollable">
+	<div id="vipnrwMenuPortletList">
+</div>
+	<div class="sidebar-separator"> </div>
+	<div tabindex="0" class="sidebar-menu-item accessible-for-keydown" onclick="showMapLegend();showPortletControls();" role="menuitem">
+		<a tabindex="-1" href="#" ><span><i class="fa fa-key"></i>Legende</span></a>
+	</div>
+	<div class="sidebar-separator"> </div>
+
+	<div tabindex="0" class="sidebar-menu-item accessible-for-keydown" role="menuitem" onclick="showDeeplinkPopup()">
+		<a tabindex="-1" href="#"><span><i class="fa fa-link"></i>Link zu dieser Ansicht</span></a>
+	</div>
+
+	<div tabindex="0" id="openInNewWindowId" role="menuitem" class="sidebar-menu-item accessible-for-keydown" onclick="openInNewTab()">
+		<a tabindex="-1" href="#"><span><i class="fa fa-external-link"></i>Ansicht in neuem Fenster öffnen</span></a>
+	</div>
+	<div tabindex="0" class="sidebar-menu-item accessible-for-keydown" onclick="toolbarClick();">
+	 	<a tabindex="-1" href="#" >
+	 		<span><i class="fa fa-bars"></i><div id="map-controls-toggle-title">Kartenmenü ausblenden</div></span>
+	 	</a>
+	</div>
+
+
+	<div id="vipnrw-dialog-window" style="display: none; word-wrap: break-word;"> </div>
+	<div class="sidebar-separator"> </div>
+<div class="vipnrw-menuitems" aria-label="Seiten der Site" role="menubar">
+					<div tabindex="0" class="sidebar-menu-item accessible-for-keydown" role="menuitem" onclick="closeMenu();Liferay.fire('show-menu-article', {portletId: '_de_strassennrw_vipnrw_journal_content_viewer_portlet_JournalContentViewerPortlet_', position: '0', title: 'FAQ', icon: 'fa fa-question'})">
+						<a tabindex="-1" href="#" ><span><i class="fa fa-question"></i>FAQ</span></a>
+					</div>
+					<div tabindex="0" class="sidebar-menu-item accessible-for-keydown" role="menuitem" onclick="closeMenu();Liferay.fire('show-menu-article', {portletId: '_de_strassennrw_vipnrw_journal_content_viewer_portlet_JournalContentViewerPortlet_', position: '1', title: 'Impressum', icon: 'fa fa-dot-circle-o'})">
+						<a tabindex="-1" href="#" ><span><i class="fa fa-dot-circle-o"></i>Impressum</span></a>
+					</div>
+					<div tabindex="0" class="sidebar-menu-item accessible-for-keydown" role="menuitem" onclick="closeMenu();Liferay.fire('show-menu-article', {portletId: '_de_strassennrw_vipnrw_journal_content_viewer_portlet_JournalContentViewerPortlet_', position: '2', title: 'Datenschutz', icon: 'fa fa-user-secret'})">
+						<a tabindex="-1" href="#" ><span><i class="fa fa-user-secret"></i>Datenschutz</span></a>
+					</div>
+					<div tabindex="0" class="sidebar-menu-item accessible-for-keydown" role="menuitem" onclick="closeMenu();Liferay.fire('show-menu-article', {portletId: '_de_strassennrw_vipnrw_journal_content_viewer_portlet_JournalContentViewerPortlet_', position: '3', title: 'Nutzungsbedingungen', icon: 'fa fa-hand-o-right'})">
+						<a tabindex="-1" href="#" ><span><i class="fa fa-hand-o-right"></i>Nutzungsbedingungen</span></a>
+					</div>
+					<div tabindex="0" class="sidebar-menu-item accessible-for-keydown" role="menuitem" onclick="closeMenu();Liferay.fire('show-menu-article', {portletId: '_de_strassennrw_vipnrw_journal_content_viewer_portlet_JournalContentViewerPortlet_', position: '4', title: 'Barrierefreiheit', icon: 'fa fa-wheelchair'})">
+						<a tabindex="-1" href="#" ><span><i class="fa fa-wheelchair"></i>Barrierefreiheit</span></a>
+					</div>
+		<div class="sidebar-separator"></div>
+
+</div>
+<div class="sidebar-menu-item"> 	
+	<div id="sign-in-link">	
+		<a data-redirect="true" id="sign-in" rel="nofollow">
+			<span><i class="fa fa-sign-in"></i>Anmelden</span>
+		</a>
+	</div>
+	<div id="login-mask">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_login_web_portlet_LoginPortlet_  portlet-static portlet-static-end decorate portlet-login " id="p_p_id_com_liferay_login_web_portlet_LoginPortlet_" >
+		<span id="p_com_liferay_login_web_portlet_LoginPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_com_liferay_login_web_portlet_LoginPortlet">
+	<script>
+		addPortletMainPageControlEntry('_com_liferay_login_web_portlet_LoginPortlet_',  'Anmeldung', '', 'undefined', 99);
+	</script>
+
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		<div class="login-container">
+			
+				
+			
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=com_liferay_login_web_portlet_LoginPortlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_com_liferay_login_web_portlet_LoginPortlet_javax.portlet.action=%2Flogin%2Flogin&amp;_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin&amp;p_auth=nYiZwZ2d" class="form sign-in-form " data-fm-namespace="_com_liferay_login_web_portlet_LoginPortlet_" id="_com_liferay_login_web_portlet_LoginPortlet_loginForm" method="post" name="_com_liferay_login_web_portlet_LoginPortlet_loginForm" autocomplete="on" >
+	
+		<fieldset class="input-container" disabled="disabled">
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_com_liferay_login_web_portlet_LoginPortlet_formDate"    name="_com_liferay_login_web_portlet_LoginPortlet_formDate"     type="hidden" value="1791943766477"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_com_liferay_login_web_portlet_LoginPortlet_saveLastPath"    name="_com_liferay_login_web_portlet_LoginPortlet_saveLastPath"     type="hidden" value="false"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_com_liferay_login_web_portlet_LoginPortlet_redirect"    name="_com_liferay_login_web_portlet_LoginPortlet_redirect"     type="hidden" value=""   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_com_liferay_login_web_portlet_LoginPortlet_doActionAfterLogin"    name="_com_liferay_login_web_portlet_LoginPortlet_doActionAfterLogin"     type="hidden" value="false"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+				<div class="inline-alert-container lfr-alert-container"></div>
+
+				
+
+				
+					
+
+				
+				
+				
+				
+				
+				
+				
+
+				
+
+				
+				
+
+				
+
+				<fieldset class="fieldset " ><div class="">
+
+					
+
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-text-wrapper">
+
+
+
+
+
+	<label class="control-label" for="_com_liferay_login_web_portlet_LoginPortlet_login">
+		
+				E-Mail-Adresse
+			</label>
+		
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field clearable form-control"  id="_com_liferay_login_web_portlet_LoginPortlet_login"    name="_com_liferay_login_web_portlet_LoginPortlet_login"     type="text" value="@strassen.nrw.de"   />
+			
+		
+
+		
+	
+
+
+
+
+
+	
+
+
+
+	</div>
+
+
+
+
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-text-wrapper">
+
+
+
+
+
+	<label class="control-label" for="_com_liferay_login_web_portlet_LoginPortlet_password">
+		
+				Kennwort
+			</label>
+		
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_com_liferay_login_web_portlet_LoginPortlet_password"    name="_com_liferay_login_web_portlet_LoginPortlet_password"     type="password" value=""   />
+			
+		
+
+		
+	
+
+
+
+
+
+	
+
+
+
+	</div>
+
+
+
+
+					<span id="_com_liferay_login_web_portlet_LoginPortlet_passwordCapsLockSpan" style="display: none;">Feststelltaste ist aktiviert.</span>
+
+					
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group form-inline input-checkbox-wrapper">
+
+
+
+
+
+	<label  for="_com_liferay_login_web_portlet_LoginPortlet_rememberMe">
+		
+
+
+
+
+
+	
+	
+	
+	
+
+		
+
+		<input  class="field"  id="_com_liferay_login_web_portlet_LoginPortlet_rememberMe" name="_com_liferay_login_web_portlet_LoginPortlet_rememberMe"  onClick=""  type="checkbox"    />
+	
+	
+	
+	
+	
+
+
+
+
+
+	
+			Anmeldedaten speichern
+		</label>
+	
+
+
+
+	</div>
+
+
+
+					
+				</div></fieldset>
+
+				<div class="button-holder " >
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<button
+			class="btn  btn-primary btn-default"
+
+			
+
+			id="_com_liferay_login_web_portlet_LoginPortlet_xcid"
+
+			
+
+			
+
+			type="submit"
+
+			
+			
+		>
+	
+
+
+
+
+
+	<span class="lfr-btn-label">Anmelden</span>
+
+
+
+
+
+	
+	
+		</button>
+	
+
+
+
+
+
+
+
+				</div>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_com_liferay_login_web_portlet_LoginPortlet_checkboxNames"    name="_com_liferay_login_web_portlet_LoginPortlet_checkboxNames"     type="hidden" value="rememberMe"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+		</fieldset>
+	
+</form>
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-form', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_com_liferay_login_web_portlet_LoginPortlet_loginForm'
+
+			
+				, fieldRules: [
+
+					
+
+							
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '',
+								fieldName: '_com_liferay_login_web_portlet_LoginPortlet_password',
+								validatorName: 'required'
+							}
+
+					
+
+							,
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '',
+								fieldName: '_com_liferay_login_web_portlet_LoginPortlet_login',
+								validatorName: 'required'
+							}
+
+					
+
+				]
+			
+
+			
+				, onSubmit: function(event) {
+					event.preventDefault();
+				}
+			
+
+			, validateOnBlur: false
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'com_liferay_login_web_portlet_LoginPortlet') {
+			delete Liferay.Form._INSTANCES['_com_liferay_login_web_portlet_LoginPortlet_loginForm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+		A.all('#_com_liferay_login_web_portlet_LoginPortlet_loginForm .input-container').removeAttribute('disabled');
+	
+
+	Liferay.fire(
+		'_com_liferay_login_web_portlet_LoginPortlet_formReady',
+		{
+			formName: '_com_liferay_login_web_portlet_LoginPortlet_loginForm'
+		}
+	);
+})();});
+// ]]>
+</script>
+
+			
+
+
+
+
+
+
+		</div>
+
+		<script type="text/javascript">
+// <![CDATA[
+(function() {var $ = AUI.$;var _ = AUI._;
+			var form = document.getElementById('_com_liferay_login_web_portlet_LoginPortlet_loginForm');
+
+			if (form) {
+				form.addEventListener(
+					'submit',
+					function(event) {
+						
+
+						submitForm(form);
+					}
+				);
+
+				var password = form.querySelector('#_com_liferay_login_web_portlet_LoginPortlet_password');
+
+				if (password) {
+					password.addEventListener(
+						'keypress',
+						function(event) {
+							Liferay.Util.showCapsLock(event, '_com_liferay_login_web_portlet_LoginPortlet_passwordCapsLockSpan');
+						}
+					);
+				}
+			}
+		})();
+// ]]>
+</script>
+	
+
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+			</div>
+		
+</section>
+
+
+
+		
+	
+
+		
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+	</div>
+</div>		 	
+</div>
+	 </div>
+</aside>
+		<ul class="portlet-controls">
+			<li data-order="0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_de_strassennrw_vipnrw_search_portlet_SearchPortlet_  portlet-static portlet-static-end decorate search-css " id="p_p_id_de_strassennrw_vipnrw_search_portlet_SearchPortlet_" >
+		<span id="p_de_strassennrw_vipnrw_search_portlet_SearchPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_de_strassennrw_vipnrw_search_portlet_SearchPortlet">
+	<script>
+		addPortletMainPageControlEntry('_de_strassennrw_vipnrw_search_portlet_SearchPortlet_',  'Suche', 'fa fa-search', 'input', 0);
+	</script>
+
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var search_portlet_id = '_de_strassennrw_vipnrw_search_portlet_SearchPortlet_';
+	var search_portlet_resource_url = 'https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_search_portlet_SearchPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage';
+		
+	var search_portlet_photon_api_url = 'https://www.verkehr.nrw/api';
+	var search_portlet_photon_reverse_url = 'https://www.verkehr.nrw/reverse';
+	var search_portlet_photon_api_limit = '5';
+	var search_portlet_photon_osm_tag = 'null';
+	var search_portlet_traffic_object_limit = '5';
+	var search_portlet_init_items_limit = '5';
+	var search_portlet_more_items_limit = '15';
+
+	$(document).ready(function() {
+		initSearchPortlet();
+	});
+</script>
+
+<div class="search-css search-custom-input">
+	<input class="search-css" id="_de_strassennrw_vipnrw_search_portlet_SearchPortlet_searchInput" placeholder="In Verkehr.NRW suchen...">
+</div>
+ 
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+			</div>
+		
+</section>
+
+
+
+		
+	
+
+		
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+			</li>
+			<li class="marquee-container">
+				<div class="marquee" id="marquee" role="marquee" aria-label="Aktuelle Portalnachriten als Lauftext" ></div>
+			</li>
+
+		</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_de_strassennrw_vipnrw_map_portlet_MapPortlet_  portlet-static portlet-static-end decorate map-css " id="p_p_id_de_strassennrw_vipnrw_map_portlet_MapPortlet_" >
+		<span id="p_de_strassennrw_vipnrw_map_portlet_MapPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_de_strassennrw_vipnrw_map_portlet_MapPortlet">
+	<script>
+		addPortletMainPageControlEntry('_de_strassennrw_vipnrw_map_portlet_MapPortlet_',  'Karte', 'fa fa-map', 'undefined', 0);
+	</script>
+
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+<script type="text/javascript">
+
+	var pgRoutingURL = 'null';
+	var addToFavoritesURL = 'https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_map_portlet_MapPortlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_de_strassennrw_vipnrw_map_portlet_MapPortlet_javax.portlet.action=addToFavorites&p_auth=nYiZwZ2d';
+	var disableWebcamURL = 'https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_map_portlet_MapPortlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_de_strassennrw_vipnrw_map_portlet_MapPortlet_javax.portlet.action=disableWebcam&p_auth=nYiZwZ2d';
+	 
+	var mapContextPath = '/o/de.strassennrw.vipnrw.map';
+	var addToListCheckboxMessage = "An der Videowand anzeigen";
+ 	var errorOnLogin =  "";
+ 	var urlGeoServer = '/geoserver/vipnrw/wms';
+	var urlGWCGeoServer = 'https://geotiles.verkehr.nrw/geowebcache/service/wms';
+	var urlS3Server = 'https://tiles.verkehr.nrw/osm_tiles/{z}/{x}/{y}.png';
+	var urlS3ServerForeground = 'https://tiles.verkehr.nrw/osm_tiles_foreground/{z}/{x}/{y}.png';
+
+	var map_portlet_deeplink_zoomLevel = '';
+	var map_portlet_deeplink_center = '';
+	var map_portlet_deeplink_vipPortalUrl = 'https://www.verkehr.nrw';
+	var map_portlet_deeplink_start = 'null';
+	var map_portlet_deeplink_target = 'null';
+	var map_portlet_deeplink_vias = 'null';
+	var map_portlet_deeplink_layer = '';
+	var map_portlet_deeplink_highlight_route = false;
+
+	var map_portlet_debugging = 'null';
+	var toolbarCarLayer = 'true';
+	var toolbarBikeAndPublicLayer = 'true';
+	var toolbarGPS = 'true';
+	var toolbarAirView = 'true';
+	var toolbarLegend = 'false';
+	var toolbarRefreshLos = 'false';
+ 
+	
+	var osrmViaroutingUrl = '/route/v1/driving/';
+	
+	var vrrPdfUrl = '/pdf-vrr';
+	var vrrRequestUrl = '/vrr';
+	var vrrDMLimit = '6';
+	var vipPortalUrl = '/route/v1/driving/';
+	var rrpRequestUrl = '/vrr';
+	var sevasVzUrl = 'https://sevas.nrw.de/vz';
+
+	var animationFile = 'null';
+
+	var isLosVisible =true;
+	var isLosColorBlindVisible = false;
+	var isLosForecastBaseVisible = false;
+	var isSatelliteVisible =false;
+	var isParkingInfosVisible =false;
+	var isMaintenancesVisible =true;
+	var isRoadworksVisible =true;
+	var isObstructionsVisible =true;
+	var isWebcamsVisible =true;
+	var isStationsVisible =false;
+	var isPlannedLayerVisible = false;
+	var isElectricChargingLayerVisible =false;
+	var useW3CMaxDistance =true;
+	var w3CMaxDistance =10000;
+	var isGasStationLayerVisible= false;
+	var isTaxiStandLayerVisible= false;
+	var wfsPopupRefreshInterval = 30000;
+	var isEventLayerVisible = false;
+
+	var map_portlet_deeplink_car =null;
+	var map_portlet_deeplink_public_transport =null;
+	var map_portlet_deeplink_bike =null;
+	var map_portlet_deeplink_intermodal =null;
+
+	var map_portlet_deeplink_print_view =false;
+	var map_portlet_deeplink_print_view_parameter =null;
+
+	var map_portlet_deeplink_app_parameter =false;
+	var event_id_action ='getEventIdForDate';
+
+	var map_portlet_id = '_de_strassennrw_vipnrw_map_portlet_MapPortlet_';
+	var map_portlet_resource_url = 'https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_map_portlet_MapPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage';
+	var footerHeight = 0;
+	var headerHeight = 0;
+	var windowResizeTimeoutId = null;
+
+	var csrfToken = 'yd0Yw6_S-2nFJbALwOTmavTmLramK3Av__cgMi3blPwV/BsLaXgUm5pskAZtXF80xiqJREUrx9sGfW9y5K/RwA=';
+	var reloadAfter = 240;
+	
+	function logWebsiteVisit() {
+		var userAction = "VISIT_WEBSITE";
+		var referrer = "";
+		if (inIframe()) {
+			userAction = "VISIT_WEBSITE_IFRAME";
+			referrer = ", " + document.referrer;
+		}
+		
+		addUserBehavior(userAction, undefined, window.navigator.userAgent + ', ' + $(window).width() + 'x' + $(window).height() + referrer);
+	}
+	
+	logWebsiteVisit();
+	
+	$(document).ready(
+			function() {
+				initMap();
+				if (map_portlet_deeplink_print_view) {
+					Liferay.fire('vipnrw-theme-add-print-section', {
+						headerDivId : 'p_p_id' + map_portlet_id,
+						contentDivId : 'p_p_id' + map_portlet_id,
+						label : 'Karte',
+						iconClass : 'fa fa-map'
+					});
+				}
+
+				setCookie('verkehr-nrw-portal-url',
+						map_portlet_deeplink_vipPortalUrl, 999);
+				if (map_portlet_deeplink_app_parameter == 'true') {
+					Liferay.fire('vipnrw-send-link-to-view');
+				}
+				if (errorOnLogin != null && errorOnLogin != ""
+						&& errorOnLogin != "undefined") {
+					vipnrwErrorMessage(errorOnLogin, "info", 5, "");
+				}
+				$("#legendTitle").keydown(function (event) {
+					if (isEnterOrSpacebar(event.keyCode)) {
+						$(this).click();
+					}
+				});
+
+			});
+
+	function updateMapSize() {
+		if (!map_portlet_deeplink_print_view) {
+			try {
+				var width = 0;
+				var height = 0;
+				var mapMinHeight = 320;
+
+				if (typeof (window.innerWidth) == 'number') {
+					//Non-IE
+					width = window.innerWidth;
+					height = window.innerHeight;
+				} else if (document.documentElement
+						&& (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+					//IE 6+ in 'standards compliant mode'
+					width = document.documentElement.clientWidth;
+					height = document.documentElement.clientHeight;
+				} else if (document.body
+						&& (document.body.clientWidth || document.body.clientHeight)) {
+					//IE 4 compatible
+					width = document.body.clientWidth;
+					height = document.body.clientHeight;
+				}
+
+				if (height - (footerHeight + headerHeight) > mapMinHeight) {
+					mapMinHeight = height - (footerHeight + headerHeight);
+				}
+
+				document.getElementById(map_portlet_id + "olMap").style.height = mapMinHeight
+						+ "px";
+
+				var size = map.getSize();
+				size.height = mapMinHeight + "px";
+				size.width = width;
+				var size = map.setSize(size);
+				map.updateSize();
+			} catch (e) {
+				console.log(e.message);
+			}
+		}
+	}
+</script>
+
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_olMap" class="olMap">
+	<div id="olInfo">
+		<div class="scale-container">
+			<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_olScaleLineContainer"></div>
+			<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_olMapScaleText" class="ol-viewport ol-unselectable ol-scale-text"></div>
+		</div>
+		<div class="coordinates" id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_olMousePositionContainer"></div>
+	</div>
+	<div tabindex="-1" aria-hidden="true" id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_attribution" class="ol-attribution ol-unselectable ol-control ol-uncollapsible">
+		<ul>
+			<li>&copy; <a aria-hidden="true" tabindex="-1" href="http://www.openstreetmap.org/copyright"
+				target="_blank">OpenStreetMap</a> Mitwirkende &nbsp; und <a onclick="showFAQPortlet()">
+					weitere (s.FAQ) | b-116
+			</a>
+			</li>
+		</ul>
+	</div>
+
+	
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbar" class="map-css map-toolbar">
+	<div class="map-css map-toolbar-section on-forcast-hidden">
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarGps"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Standort finden">
+			<i class="map-css vipnrw-font vipnrw-map_target" aria-hidden="true"></i>
+		</div>
+	</div>
+	<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarZoom"
+		class="map-css map-toolbar-section on-forcast-hidden">
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarZoomin"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Vergrößern">
+			<i class="map-css fa fa-plus-circle" aria-hidden="true"></i>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarZoomout"
+			tabindex="0"
+			role="button"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Verkleinern">
+			<i class="map-css fa fa-minus-circle" aria-hidden="true"></i>
+		</div>
+
+		
+			<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarPrint"
+				role="button"
+				tabindex="0"
+				aria-label="Standort finden"
+				class="map-css map-toolbar-item" onclick="void(0)"
+				title="Karte drucken">
+				<i class="map-css fa fa-print vipnrw-custom-button" aria-hidden="true"></i>
+			</div>
+		
+
+	</div>
+	<div class="map-css map-toolbar-section on-forcast-hidden">
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarRoute"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" style="margin-bottom: 1px;"
+			onclick="void(0)"
+			title="Ansicht: nur Route (an/aus)">
+			<i class="map-css vipnrw-font vipnrw-213" aria-hidden="true"></i>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarCar"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Ansicht: Auto (an/aus)">
+			<i class="map-css vipnrw-font vipnrw-map_car" aria-hidden="true"></i>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarPublicTransport"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Ansicht: Bus & Bahn (an/aus)">
+			<i class="map-css fa fa-bus" aria-hidden="true"></i>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarBike"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Ansicht: Fahrrad (an/aus)">
+			<i class="map-css fa fa-bicycle" aria-hidden="true" style="font-size: 19px;"></i>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarIntermodal"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Ansicht: Intermodal (an/aus)">
+			<i class="map-css fa fa-puzzle-piece" aria-hidden="true" style="font-size: 19px;"></i>
+		</div>
+
+	</div>
+	<!-- hidden for not logged in users. css marker to hide: data-toolbar-item-type="forecast"  -->
+	<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarForecastSection"
+		class="map-css map-toolbar-section" data-toolbar-item-type="forecast">
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarForecastItem"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Verkehrsprognose">
+			<i class="map-css fa fa-history mirrored" aria-hidden="true"></i>
+			<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarForecastMenu" title="" class="forecast">
+				<div class="forecast-container">
+					<header class="forecast-topper">
+						<div
+							title="Verkehrsprognose">
+							<div>
+								<div class="forecast-header-title">
+									<span>Verkehrsprognose</span>
+								</div>
+							</div>
+						</div>
+						<div class="forecast-close-button"
+							role="button"
+							tabindex="0"
+							title="schließen"
+							aria-label="schließen"
+							onclick="closeForecastMenu();">
+							<span><i aria-hidden="true"
+								class="fa fa-angle-double-down ol-popup-closer"></i></span>
+						</div>
+					</header>
+					<div role="radiogroup">
+					<div class="forecast-reset">
+						<input type="radio" name="traffic" title="Aktuelle Verkehrslage"
+							id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_present" value="1" onclick="forecastRadioClicked(1)"
+							checked> <label for="_de_strassennrw_vipnrw_map_portlet_MapPortlet_present">Aktuelle Verkehrslage</label>
+					</div>
+					<div class="forecast-reset">
+						<input type="radio" name="traffic" title="15 min" id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_15" value="2" onclick="forecastRadioClicked(2)">
+						<label for="_de_strassennrw_vipnrw_map_portlet_MapPortlet_15">15 min</label>
+					</div>
+					<div class="forecast-reset">
+						<input type="radio" name="traffic"  title="30 min" id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_30" value="3" onclick="forecastRadioClicked(3)">
+						<label for="_de_strassennrw_vipnrw_map_portlet_MapPortlet_30">30 min</label>
+					</div>
+					<div class="forecast-reset">
+						<input type="radio" name="traffic"  title="45	 min" id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_45" value="4" onclick="forecastRadioClicked(4)">
+						<label for="_de_strassennrw_vipnrw_map_portlet_MapPortlet_45">45 min</label>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="map-css map-toolbar-section">
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarLayersButton"
+			role="button"
+			tabindex="0"
+			aria-label="Standort finden"
+			class="map-css map-toolbar-item" onclick="void(0)"
+			title="Ansicht auswählen (an/aus)">
+			<i class="map-css vipnrw-font vipnrw-map_layer_selection" aria-hidden="true"></i>
+			<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarLayerMenu"
+				class="map-css layermenu">
+				<header class="layermenu-topper">
+					<div
+						title="Ansicht auswählen (an/aus)">
+						<div>
+							<div class="layermenu-header-title">
+								<span>Auswahl</span>
+							</div>
+						</div>
+					</div>
+					<div	tabindex="0"
+							role="button"
+							aria-label="Schließen"
+							id="layerMenuCloseButton"
+							class="layermenu-close-button"
+							title="Schließen"
+							onclick="closeLayerMenu();" >
+						<span><i aria-hidden="true"
+							class="fa fa-angle-double-down ol-popup-closer" aria-hidden="true"></i></span>
+					</div>
+				</header>
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarLayerMenuContent"></div>
+			</div>
+		</div>
+	</div>
+</div><div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenu" class="map-context-menu">
+	<div class="ol-popup-header map-context-menu-header">
+		<div style="width: 100%; text-align: center;">
+			<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuTitle" class="ol-popup-title">
+				Menü
+			</div>
+		</div>
+		<div>
+			<i id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuCloser"
+				class="fa fa-angle-double-down ol-popup-closer" aria-hidden="true"></i>
+		</div>
+	</div>
+	<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuContent" class="map-context-menu-list">
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuStart"
+			class="map-context-menu-entry">
+			<span><i class="fa fa-map-pin"></i> Start setzen</span>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuTarget"
+			class="map-context-menu-entry">
+			<span><i class="fa fa-map-pin"></i> Ziel setzen</span>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuVia"
+			class="map-context-menu-entry">
+			<span><i class="fa fa-map-pin"></i> Zwischenziel setzen</span>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuDelete"
+			class="map-context-menu-entry">
+			<span><i class="fa fa-trash"></i> Route löschen</span>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuZoomIn"
+			class="map-context-menu-entry">
+			<span><i class="fa fa-search-plus"></i> Hereinzoomen</span>
+		</div>
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextMenuZoomOut"
+			class="map-context-menu-entry">
+			<span><i class="fa fa-search-minus"></i> Herauszoomen</span>
+		</div>
+	</div>
+</div>
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextFeatureMenu" class="map-context-menu">
+	<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextFeatureMenuContent">
+		<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapContextFeatureMenuList" class="map-context-menu-list"></div>
+	</div>
+</div>
+
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapFeatureInfoPopup" class="ol-popup ol-popup-width">
+	<div class="ol-popup-header">
+		<div class="ol-popup-header popup-header">
+			<div class="popup-header-title">
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapFeatureInfoPopupTitle" class="ol-popup-title">
+					weitere Informationen hierzu ...
+				</div>
+			</div>
+			<div>
+				<i id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapFeatureInfoPopupCloser" class="fa fa-angle-double-down ol-popup-closer" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+	<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapFeatureInfoPopupContent" class="ol-popup-content-scroll"></div>
+</div>
+<!-- oben: mapFeatureInfoPopup unten: mapWfsFeatureInfoPopup -->
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapWfsFeatureInfoPopup" class="ol-popup ol-popup-width">
+	<div class="ol-popup-header">
+		<div class="ol-popup-header popup-header">
+			<div class="popup-header-title">
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapWfsFeatureInfoPopupTitle" class="ol-popup-title">
+					weitere Informationen hierzu ...
+				</div>
+			</div>
+			<div>
+				<i id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapWfsFeatureInfoPopupCloser" class="fa fa-angle-double-down ol-popup-closer" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+	<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapWfsFeatureInfoPopupContent" class="ol-popup-content-scroll"></div>
+</div><div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapCarRoutePopup" class="ol-popup-route" style="cursor: pointer;">
+	<table style="width: 100%;" aria-hidden="true" class="ol-route-popup-content">
+		<colgroup>
+		</colgroup>
+		<tr>
+			<td style="text-shadow: 3px 3px 2px rgba(61, 61, 61, 0.6);"><i class="vipnrw-font vipnrw-map_car"
+				aria-hidden="true" style="font-size: 16px; background-color: rgba(255, 255, 255, 0.4); padding: 1px;"></i></td>
+			<td>
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapCarRoutePopupDistance" class="routing-popup-distance"></div>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+
+			<td>
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapCarRoutePopupDuration" class="routing-popup-duration"></div>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapCarRoutePopupTravelTimeLoss" class="routing-popup-travel-time-loss"></div>
+			</td>
+
+		</tr>
+
+	</table>
+</div>
+
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapPublicTransportRoutePopup" class="ol-popup-route" style="cursor: pointer;">
+	<table style="width: 100%; text-shadow: 3px 3px 2px rgba(61, 61, 61, 0.6);" class="ol-route-popup-content">
+		<tr>
+			<td><i class="fa fa-bus" aria-hidden="true"
+				style="font-size: 16px; background-color: rgba(255, 255, 255, 0.4); padding: 1px;"></i>
+			</td>
+			<td>
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapPublicTransportRoutePopupDuration" class="routing-popup-distance"></div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapBikeRoutePopup" class="ol-popup-route" style="cursor: pointer;">
+	<table style="width: 100%;" class="ol-route-popup-content">
+		<tr>
+			<td style="text-shadow: 3px 3px 2px rgba(61, 61, 61, 0.6);"><i class="fa fa-bicycle" aria-hidden="true"
+				style="font-size: 16px; background-color: rgba(255, 255, 255, 0.4); padding: 1px;"></i></td>
+			<td>
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapBikeRoutePopupDistance" class="routing-popup-distance"></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapBikeRoutePopupDuration" class="routing-popup-duration"></div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapIntermodalRoutePopup" 
+	class="ol-popup-route" style="cursor: pointer;">
+	<table style="width: 100%;" class="ol-route-popup-content"> 
+		<tr>
+			<td><i class="fa fa-puzzle-piece" aria-hidden="true"
+				style="font-size: 16px; background-color: rgba(255, 255, 255, 0.4); padding: 1px;"></i>
+			</td>
+			<td>
+				<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapIntermodalRoutePopupDuration" class="routing-popup-duration"></div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapRouteDescriptionPopup" class="ol-popup" style="cursor: pointer;"></div>
+<div id="vipnrw-dialog-webcam-stream" style="display: none;">
+	<iframe title="Webcam Video" id="vipnrw-dialog-webcam-stream-frame" style="border: 0px none;" height="100%" width="100%"> </iframe>
+</div>
+
+<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarLegendDiv" class="map-css legend" style="display: none;">
+	<h3 id="legendTitle" tabindex="0" aria-label=" vipnrw.portlet.button.close" onclick="Liferay.fire('vipnrw-show-legend')" title=" vipnrw.portlet.button.close">
+	Legende
+	<i aria-hidden="true" class="map-css fa fa-angle-double-up"
+		style="float: right; font-size: 18px; padding-right: 5px;"></i>
+	</h3>
+	<div id="_de_strassennrw_vipnrw_map_portlet_MapPortlet_mapToolbarLegendContent" class="map-css legend-content">
+		<table class="map-css vipLegendTable">
+			<thead>
+				<tr>
+					<th colspan="2">Routen f&uuml;r ...</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<hr
+							style="border-top: 1px solid #000000; height: 5px; background-color: #377eb8; border-bottom: 1px solid #000000;" />
+					</td>
+					<td>Auto </td>
+				</tr>
+				<tr>
+					<td>
+						<hr
+							style="border-top: 1px solid #000000; height: 5px; background-color: #a65628; border-bottom: 1px solid #000000;" />
+					</td>
+					<td>Bus & Bahn</td>
+				</tr>
+				<tr>
+					<td>
+						<hr
+							style="border-top: 1px solid #000000; height: 5px; background-color: #ff7f00; border-bottom: 1px solid #000000;" />
+					</td>
+					<td>Fahrrad</td>
+				</tr>
+				<td>
+					<hr
+						style="border-top: 1px solid #000000; height: 5px; background-color: #984ea3; border-bottom: 1px solid #000000;" />
+				</td>
+				<td>Intermodal</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Verkehrslage</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<div style="background-color: #25ee17;" class="map-css legend-info"></div>
+					</td>
+					<td>frei</td>
+				</tr>
+				<tr>
+					<td>
+						<div style="background-color: #00aa00;" class="map-css legend-info"></div>
+					</td>
+					<td>dicht</td>
+				</tr>
+				<tr>
+					<td>
+						<div style="margin: 0 auto; position: relative;">
+							<div style="background-color: #e78c00; display: inline-block;" class="map-css legend-info">
+							</div>
+							<div style="background-color: #0000ff; display: inline-block;" class="map-css legend-info">
+							</div>
+						</div>
+					</td>
+					<td>z&auml;h <br />
+						<span style="font-size: 11px"> - Basisdarstellung; Farbfehlsicht
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div style="background-color: #e81600;" class="map-css legend-info"></div>
+					</td>
+					<td>gestaut</td>
+				</tr>
+				<tr>
+					<td>
+						<div style="background-color: #960000;" class="map-css legend-info"></div>
+					</td>
+					<td>stehend</td>
+				</tr>
+				<tr>
+					<td>
+						<div style="background-color: #000000;" class="map-css legend-info"></div>
+					</td>
+					<td>gesperrt</td>
+				</tr>
+				<tr>
+					<td><br />
+						<div style="color:red;font-size=2;">+10&#9660;; +10;+10&#9650;; +>60</div>
+					</td>
+					<td>Verlustzeit in Minuten <br /> <span
+							style="font-size: 11px"> - fallend; unver&auml;ndert; steigend <br /> - mehr als eine Stunde
+						</span></td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Zeichen</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img class="map-css legend-info-image" width="80" height="35"
+							alt="Graue Linie mit Pfeilen in Fahrtrichtung"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/roadwork_mark.png" /></td>
+					<td>Streckenabschnitt mit einer Meldung</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image"
+							alt="Farbiges Verkehrszeichen 250, Verbot einer Druchfahrt" width="35" height="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/250.svg" />
+						<img class="map-css legend-info-image"
+							alt="Graustufen Verkehrszeichen 250, Verbot einer Druchfahrt" width="35" height="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/250_sw.svg" />
+					</td>
+					<td>Vollsperrung <br />
+						<span style="font-size: 11px"> aktuell; zuk&uumlnftig
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image"
+							alt="Farbiges Bild als Verkehrszeichen, Verbot einer Agfahrt" width="35" height="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/448.svg" />
+						<img class="map-css legend-info-image"
+							alt="Graustufen Bild als Verkehrszeichen, Verbot einer Abfahrt" width="35" height="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/448_sw.svg" />
+					</td>
+					<td>Sperrung Auf-, Abfahrt
+						<br /> <span style="font-size: 11px"> aktuell; zuk&uumlnftig
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image"
+							alt="Farbiges Verkehrszeiche 253, Verbot einer Durchfaht fuer KFZ ueber 3,5t" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/253.svg" />
+						<img class="map-css legend-info-image"
+							alt="Graustufen Verkehrszeichen 253, Verbot einer Durchfaht fuer KFZ ueber 3,5t" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/253_sw.svg" />
+					</td>
+					<td>Sperrung f&uuml;r LKW
+						<br /> <span style="font-size: 11px"> aktuell; zuk&uumlnftig
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image"
+							alt="Farbige Verkehrszeichen 262, Verbot einer Durchfaht fuer KFZ ueber 3,5t" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/262-2.svg" />
+						<img class="map-css legend-info-image"
+							alt="Graustufen Verkehrszeichen 262, Verbot einer Durchfaht fuer KFZ ueber 3,5t" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/262-2_sw.svg" />
+					</td>
+					<td>Sperrung 3,5t <br /> <span
+							style="font-size: 11px"> aktuell; zuk&uumlnftig
+						</span></td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image"
+							alt="Farbiges Verkehrszeichen 262, Verbot einer Durchfaht fuer KFZ ueber 5,5t" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/262.svg" />
+						<img class="map-css legend-info-image"
+							alt="Graustufen Verkehrszeichen 262, Verbot einer Durchfaht fuer KFZ ueber 5,5t" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/262_sw.svg" />
+					</td>
+					<td>Sperrung 5,5t <br /> <span
+							style="font-size: 11px"> aktuell; zuk&uumlnftig
+						</span></td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image"
+							alt="Ein grauer Warnkegel als Kennzeichnung fÃ¼r eine Tagesbaustelle" height="35" width="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/warnkegel.svg" />
+						<img class="map-css legend-info-image"
+							alt="Ein grauer Warnkegel als Kennzeichnung fÃ¼r eine Tagesbaustelle" height="35" width="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/warnkegel_sw.svg" />
+					</td>
+					<td>Tagesbaustelle
+						<br /> <span style="font-size: 11px"> aktuell; zuk&uumlnftig
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image" alt="Farbiges Verkehrszeichnen 123, Baustelle" width="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/123.svg" />
+						<img class="map-css legend-info-image" alt="Graustufen Verkehrszeichnen 123, Baustelle"
+							width="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/123_sw.svg" />
+					</td>
+					<td>Dauerbaustelle
+						<br /> <span style="font-size: 11px"> aktuell; zuk&uumlnftig
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image" alt="Farbiges Warnschild" width="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/101.svg" /></td>
+					<td>Warnhinweis</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image" alt="Verkehrzeichen einer Umleitung" width="80"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/detour.png" /></td>
+					<td>Umleitung <br />
+						<span style="font-size: 11px"> mit Hinweisschild
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image" alt="Symbol einer Video-Kamera" width="35" height="35"
+							src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/webcam.svg" /></td>
+					<td>Webcam</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image" alt="Verkehrszeichen 316-50 parken und Mitfahren"
+							width="35" height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/316_P+M_31.png" /></td>
+					<td>Parken + Mitnehmen</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image" alt="Verkehrszeichen 314, Parkplatz" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/314-50.svg" />
+						<img class="map-css legend-info-image" alt="Verkehrszeichen 314-50 Parkhaus, Parkgarage"
+							width="35" height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/314-50-1.svg" />
+					</td>
+					<td>Parkplatz; Parkhaus</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image" alt="Verkehrszeichen 224, Haltestelle" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/224-50.svg" /></td>
+					<td>Haltestelle von Bus & Bahn</td>
+				</tr>
+				<tr>
+					<td><img class="map-css legend-info-image" alt="Verkehrszeichen 229, Taxistand" width="35"
+							height="35" src="/o/de.strassennrw.vipnrw.map/images/wfs/svg/229.svg" /></td>
+					<td>Taxistand</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+	<img id="geolocation_marker"
+		src="/o/de.strassennrw.vipnrw.map/images/geolocation_marker_heading.png"
+		alt="Pfeilsymbol als Kennzeichnung der eigenen Position auf der Karte"
+		style="display: none;">
+	<div id="geolocation_info" class="gps-info-overlay" style="display: none;"></div>
+	
+	<!-- 	<div id="mobile-scroll-catcher" class="mobile-scroll-catcher" style="display: block;"></div> -->
+	<!-- 	<div id="mobile-scroll-catcher-left" class="mobile-scroll-catcher" style="display: block;left:0;"></div> -->
+</div>
+
+
+
+
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+			</div>
+		
+</section>
+
+
+
+		
+	
+
+		
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+		<div id="vipnrw-popup-overlay" class="vipnrw-popup-top-overlay" style="display: none;">
+			 <div class="vipnrw-popup-header" onclick="hidePortalPopupOverlay()">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			 </div>
+			<div id="vipnrw-popup-overlay-content" class="vipnrw-popup-top-overlay-content"></div>
+		</div>
+		<div id="vipnrw-error-popup" class="vipnrw-error-popup">
+			<div id="vipnrw-error-popup-content" class="vipnrw-error-popup-content">
+			</div>
+		</div>
+		<div class="disclaimer-icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+		<div id="vipnrw-disclaimer-popup" class="vipnrw-disclaimer-popup">
+			<div class="disclaimer-internal-icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+			<div id="vipnrw-disclaimer-popup-content" class="vipnrw-disclaimer-popup-content">
+				Sie haben den <span style="color:#984ea3;"><strong>intermodalen Router </strong></span>(<i class="map-css fa fa-puzzle-piece"></i>) ausgewählt. Dabei handelt es sich um einen Prototypen in der Testphase. Dieses neue Feature kombiniert für Sie die optimale Route aus Rad und ÖPNV. Wie der Router funktioniert können Sie in folgendem Video nachvollziehen: <a target="_blank" href="https://youtu.be/MQrnndIFCgY">https://youtu.be/MQrnndIFCgY</a>
+			</div>
+			<div class="vipnrw-error-message-col-right">
+				<button id="disclaimerCloseButton" title="Disclaimer zum intermoden Routing ein und ausblenden" class="ui-button ui-widget ui-corner-all" onclick="toggleDisclaimer();">
+					<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="disclaimer-internal-icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+		</div>
+
+		<aside class="info-slider" style="display:none">
+			<section style="display:none" id="info_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_  portlet-static portlet-static-end decorate contact-css " id="p_p_id_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_" >
+		<span id="p_de_strassennrw_vipnrw_contact_portlet_ContactPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_de_strassennrw_vipnrw_contact_portlet_ContactPortlet">
+	<script>
+		addPortletMainPageControlEntry('_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_',  'Kontakt', 'fa fa-user', 'undefined', 3);
+	</script>
+
+			<script>
+				addPortletMenuButton('_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_', 3, 'Kontakt', 'fa fa-user');
+			</script>
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+<script type="text/javascript">
+	var contactPortletNamespace = '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_';
+	Liferay.on( 'restore-portlet-width', function(parameter) {
+		var portletId = parameter.portletId;
+		if (portletId && (portletId == contactPortletNamespace || '_' + portletId + '_' == contactPortletNamespace)) {
+			$('.info-slider').css('width', '');
+		}
+	});
+
+	var debugModeIsOn = 'false';
+	var errorSinceLastLoad = 'false';
+	var	emailSentSucceded = 'false';
+	$('.taglib-captcha').ready(function() {
+		$('.icon-refresh').addClass('fa fa-refresh');
+	});
+
+// remove in production
+	$(document).ready(
+			function() {
+				if(errorSinceLastLoad == 'true') {
+				    Liferay.fire('vipnrw-maximize-portlet', {
+			            portletId: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_'
+			        });
+				    $('#' + contactPortletNamespace + 'requesterTopic').val(sessionStorage.getItem("requesterTopic"));
+					$('#' + contactPortletNamespace + 'requesterMessage').val(sessionStorage.getItem("requesterMessage"));
+					$('#' + contactPortletNamespace + 'requesterName').val(sessionStorage.getItem("requesterName"));
+					$('#' + contactPortletNamespace + 'requesterEmail').val(sessionStorage.getItem("requesterEmail"));
+					$('#' + contactPortletNamespace + 'requesterPhone').val(sessionStorage.getItem("requesterPhone"));
+				} else if(emailSentSucceded == 'true') {
+					sessionStorage.removeItem("requesterTopic");
+					sessionStorage.removeItem("requesterMessage");
+					sessionStorage.removeItem("requesterName");
+					sessionStorage.removeItem("requesterEmail");
+					sessionStorage.removeItem("requesterPhone");
+					// search sourcecode inside map module
+// 					var message =
+//
+					//vipnrwErrorMessage(message, "info", 5, "");
+				}
+
+				$('#_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_sendButton').on('click', function() {
+					addUserBehavior("SEND_CONTACT_MAIL");
+					sessionStorage.setItem('requesterTopic',$('#' + contactPortletNamespace + 'requesterTopic').val());
+					sessionStorage.setItem('requesterMessage',$('#' + contactPortletNamespace + 'requesterMessage').val());
+					sessionStorage.setItem('requesterName',$('#' + contactPortletNamespace + 'requesterName').val());
+					sessionStorage.setItem('requesterEmail',$('#' + contactPortletNamespace + 'requesterEmail').val());
+					sessionStorage.setItem('requesterPhone',$('#' + contactPortletNamespace + 'requesterPhone').val());
+				});
+			});
+</script>
+
+<section class="contact-css content">
+<script type="text/javascript">
+	// catpchta reload icon bugfix
+	$('.taglib-captcha').ready(function() {
+		$('.icon-refresh').addClass('fa fa-refresh')
+	});
+</script>
+<header class="portlet-topper">
+	<div class="portlet-title" title="Kontakt">
+		<span class="portlet-title-text"><i aria-hidden="true"
+			class="fa fa-user"></i> Kontakt</span>
+		<div tabindex="0" role="button" class="portlet-header-button" aria-label="schließen" title="schließen">
+				<i aria-hidden="true" class="fa fa-angle-double-left"></i>
+		</div>
+	</div>
+	<i aria-hidden="true" class="restore-header-button fa icon-resize-small" title="zurücksetzen"></i>
+</header>
+
+	
+		<section class="contact-css html-content">
+		
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_contact_portlet_ContactPortlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_javax.portlet.action=sendMail&amp;_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_senderMailAddress=kontakt%40verkehr.nrw&amp;_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_recipientMailAddress=kontakt%40verkehr.nrw&amp;p_auth=nYiZwZ2d" class="form  " data-fm-namespace="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_" id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_fm" method="post" name="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_fm" >
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_formDate"    name="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_formDate"     type="hidden" value="1791943766556"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+				<div class="contact-css sendform" id="mailContent">
+					<h3>
+						Kontakt - Fragen, Anregungen, Kritik, Ideen...
+					</h3>
+					<p>
+						Mit diesem Formular können Sie uns eine E-Mail schicken.
+					</p>
+
+					<p>
+						Empfänger
+						: 
+						<a href="mailto:kontakt@verkehr.nrw"> kontakt@verkehr.nrw
+						</a>
+					</p>
+
+					<fieldset class="fieldset " ><legend class="fieldset-legend"><span class="legend">Nachricht</span></legend><div class="">
+						
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-text-wrapper">
+
+
+
+
+
+	<label class="control-label" for="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterTopic">
+		
+				Betreff
+
+		
+
+		
+			<span class="reference-mark text-warning"  id="ored____"><svg class="lexicon-icon lexicon-icon-asterisk" focusable="false" role="presentation" title="" ><use data-href="https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg#asterisk"></use></svg></span>
+
+			<span class="hide-accessible">Erforderlich</span>
+			</label>
+		
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterTopic"    name="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterTopic"     type="text" value=""  style="flex: 1"  />
+			
+		
+
+		
+	
+
+
+
+
+
+	
+
+
+
+	</div>
+
+
+
+						<p>
+							Bitte beschreiben Sie Ihr Anliegen möglichst ausführlich – z.B. den betroffenen Verkehrsträger (Auto, Bus & Bahn, Fahrrad), den Sachverhalt, eine Verbesserungsmöglichkeit.
+						</p>
+						
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-text-wrapper">
+
+
+
+
+
+	<label class="control-label" for="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterMessage">
+		
+				Ihre Nachricht
+
+		
+
+		
+			<span class="reference-mark text-warning"  id="fehs____"><svg class="lexicon-icon lexicon-icon-asterisk" focusable="false" role="presentation" title="" ><use data-href="https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg#asterisk"></use></svg></span>
+
+			<span class="hide-accessible">Erforderlich</span>
+			</label>
+		
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+
+				
+
+				<textarea class="field form-control"  id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterMessage"  name="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterMessage"       style="flex: 1" rows="5" ></textarea>
+
+				
+
+				
+			
+			
+		
+
+		
+	
+
+
+
+
+
+	
+
+
+
+	</div>
+
+
+
+					</div></fieldset>
+
+					<fieldset class="fieldset " ><legend class="fieldset-legend"><span class="legend">Absender</span></legend><div class="">
+						<p>
+							Wenn Sie hier Ihren Absender eintragen, erleichtern Sie uns die Bearbeitung bei evtl. Rückfragen. Ferner können wir Ihnen dann mitteilen, was aus Ihrer Anfrage geworden ist.
+						</p>
+						
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-text-wrapper">
+
+
+
+
+
+	<label class="control-label" for="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterName">
+		
+				Name
+
+		
+
+		
+			<span class="reference-mark text-warning"  id="kwsw____"><svg class="lexicon-icon lexicon-icon-asterisk" focusable="false" role="presentation" title="" ><use data-href="https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg#asterisk"></use></svg></span>
+
+			<span class="hide-accessible">Erforderlich</span>
+			</label>
+		
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterName"    name="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterName"     type="text" value=""  style="flex: 1"  />
+			
+		
+
+		
+	
+
+
+
+
+
+	
+
+
+
+	</div>
+
+
+
+
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-text-wrapper">
+
+
+
+
+
+	<label class="control-label" for="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterEmail">
+		
+				E-Mail
+
+		
+
+		
+			<span class="reference-mark text-warning"  id="ffek____"><svg class="lexicon-icon lexicon-icon-asterisk" focusable="false" role="presentation" title="" ><use data-href="https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg#asterisk"></use></svg></span>
+
+			<span class="hide-accessible">Erforderlich</span>
+			</label>
+		
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterEmail"    name="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterEmail"     type="text" value=""  style="flex: 1"  />
+			
+		
+
+		
+	
+
+
+
+
+
+	
+
+
+
+	</div>
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-text-wrapper">
+
+
+
+
+
+	<label class="control-label" for="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterPhone">
+		
+				Telefon
+			</label>
+		
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterPhone"    name="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterPhone"     type="text" value=""  style="flex: 1" ype="text"  />
+			
+		
+
+		
+	
+
+
+
+
+
+	
+
+
+
+	</div>
+
+
+
+					</div></fieldset>
+
+					<fieldset class="fieldset " ><legend class="fieldset-legend"><span class="legend">Bitte den nachfolgenden Sicherheitscode eingeben</span></legend><div class="">
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="taglib-captcha">
+		<img alt="Text der identifiziert werden soll" class="captcha" id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_captcha" src="https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_contact_portlet_ContactPortlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_resource_id=captcha-request&amp;p_p_cacheability=cacheLevelPage&amp;t=1791943766557" />
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<span
+			class="refresh lfr-portal-tooltip"
+			
+				title="CAPTCHA neu laden"
+			
+		>
+			
+				
+					<a href="javascript:;" target="_self" class=" lfr-icon-item taglib-icon" id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_refreshCaptcha" >
+						
+
+
+	
+	
+	
+		
+			
+			
+				
+					<i class="icon-refresh"></i>
+				
+			
+		
+	
+
+
+
+	
+	
+		<span class="taglib-text hide-accessible">CAPTCHA neu laden</span>
+	
+
+					</a>
+				
+				
+			
+		</span>
+	
+
+
+
+
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="form-group input-text-wrapper">
+
+
+
+
+
+	<label class="control-label" for="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_captchaText">
+		
+				Textüberprüfung
+
+		
+
+		
+			<span class="reference-mark text-warning"  id="qcss____"><svg class="lexicon-icon lexicon-icon-asterisk" focusable="false" role="presentation" title="" ><use data-href="https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg#asterisk"></use></svg></span>
+
+			<span class="hide-accessible">Erforderlich</span>
+			</label>
+		
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+			
+			
+				<input  class="field form-control"  id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_captchaText"    name="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_captchaText"     type="text" value=""  size="10"  />
+			
+		
+
+		
+	
+
+
+
+
+
+	
+
+
+
+	</div>
+
+
+
+	</div>
+
+	<script type="text/javascript">
+// <![CDATA[
+
+		var refreshCaptcha = document.getElementById('_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_refreshCaptcha');
+
+		if (refreshCaptcha) {
+			refreshCaptcha.addEventListener(
+				'click',
+				function() {
+					var url = Liferay.Util.addParams('t=' + Date.now(), 'https\x3a\x2f\x2fwww\x2everkehr\x2enrw\x2fweb\x2fvipnrw\x2fkarte\x3fp_p_id\x3dde_strassennrw_vipnrw_contact_portlet_ContactPortlet\x26p_p_lifecycle\x3d2\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_resource_id\x3dcaptcha-request\x26p_p_cacheability\x3dcacheLevelPage');
+
+					var captcha = document.getElementById('_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_captcha');
+
+					if (captcha) {
+						captcha.setAttribute('src', url);
+					}
+				}
+			);
+		}
+	
+// ]]>
+</script>
+
+						<small>(Wir verwenden diesen, um zu verhindern, dass Spam-Roboter automatisch Mails (Spam) über dieses Formular versenden können).</small>
+					</div></fieldset>
+					<fieldset class="fieldset " ><div class="">
+						<div class="button-holder " >
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<button
+			class="btn ui-button ui-widget ui-corner-all btn-default"
+
+			
+
+			id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_ucyx"
+
+			
+
+			
+
+			type="reset"
+
+			
+			
+		>
+	
+
+
+
+
+
+	<span class="lfr-btn-label">Zurücksetzen</span>
+
+
+
+
+
+	
+	
+		</button>
+	
+
+
+
+
+
+
+
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<button
+			class="btn ui-button ui-widget ui-corner-all btn-primary btn-default"
+
+			
+
+			id="_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_sendButton"
+
+			
+
+			
+
+			type="submit"
+
+			
+			
+		>
+	
+
+
+
+
+
+	<span class="lfr-btn-label">Nachricht senden</span>
+
+
+
+
+
+	
+	
+		</button>
+	
+
+
+
+
+
+
+
+						</div>
+					</div></fieldset>
+					<p>
+						<br /> <strong>Vertraulichkeit</strong><br />
+						Wir sichern Ihnen zu, Ihre Angaben vertraulich zu behandeln. Wir werden ferner Ihre Kontaktdaten nur intern an diejenigen Mitarbeiter weitergeben, die Ihr Anliegen bearbeiten.
+					</p>
+					<p>
+						<br /> <span class="text-warning" id="ored__column1__0"> <svg class="lexicon-icon lexicon-icon-asterisk"
+								focusable="false" role="img" title="vipnrw.contact.required.info" viewBox="0 0 512 512">
+								<path class="lexicon-icon-outline"
+									d="M323.6,190l146.7-48.8L512,263.9l-149.2,47.6l93.6,125.2l-104.9,76.3l-96.1-126.4l-93.6,126.4L56.9,435.3l92.3-123.9
+										L0,263.8l40.4-122.6L188.4,190v-159h135.3L323.6,190L323.6,190z">
+								</path>
+						</svg>
+						</span> <em><small>erforderliche Eingaben</small></em>
+					</p>
+				</div>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+</form>
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-form', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_fm'
+
+			
+				, fieldRules: [
+
+					
+
+							
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '',
+								fieldName: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterEmail',
+								validatorName: 'required'
+							}
+
+					
+
+							,
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '\u0055\u006e\u0067\u00fc\u006c\u0074\u0069\u0067\u0065\u0020\u0045\u002d\u004d\u0061\u0069\u006c\u0020\u0041\u0064\u0072\u0065\u0073\u0073\u0065',
+								fieldName: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterEmail',
+								validatorName: 'email'
+							}
+
+					
+
+							,
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '',
+								fieldName: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterTopic',
+								validatorName: 'required'
+							}
+
+					
+
+							,
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '',
+								fieldName: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterName',
+								validatorName: 'required'
+							}
+
+					
+
+							,
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '',
+								fieldName: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_captchaText',
+								validatorName: 'required'
+							}
+
+					
+
+							,
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '',
+								fieldName: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_requesterMessage',
+								validatorName: 'required'
+							}
+
+					
+
+				]
+			
+
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'de_strassennrw_vipnrw_contact_portlet_ContactPortlet') {
+			delete Liferay.Form._INSTANCES['_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+
+	Liferay.fire(
+		'_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_formReady',
+		{
+			formName: '_de_strassennrw_vipnrw_contact_portlet_ContactPortlet_fm'
+		}
+	);
+})();});
+// ]]>
+</script>
+		</section>
+	
+
+</section>
+
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+			</div>
+		
+</section>
+
+
+
+		
+	
+
+		
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+			</section>
+			<section style="display:none" id="info_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_  portlet-static portlet-static-end decorate news-css " id="p_p_id_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_" >
+		<span id="p_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet">
+	<script>
+		addPortletMainPageControlEntry('_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_',  'Aktuelles', 'fa fa-info-circle', 'button', 2);
+	</script>
+
+			<script>
+				addPortletMenuButton('_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_', 2, 'Aktuelles', 'fa fa-info-circle');
+			</script>
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var newsPortletNamespace = '_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_';
+var newsPortletResourceURL = 'https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage';
+
+
+var lengthValue = null;
+var abstractLength = parseInt();
+if (isNaN(abstractLength)) {
+	abstractLength = 200;
+}
+
+var journalStructureId = null;
+
+var isAppCall = false;
+
+$(document).ready(function() {
+// 	if(!isAppCall) {
+    	initMarqueeNews();
+		refreshNewsPreview();
+// 	}
+});
+
+</script>
+
+
+<header class="portlet-topper">
+	<div class="portlet-title" title="Aktuelles">
+		<span class="portlet-title-text"><i aria-hidden="true"
+			class="fa fa-info-circle"></i> Aktuelles</span>
+		<div tabindex="0" role="button" class="portlet-header-button" aria-label="schließen" title="schließen">
+				<i aria-hidden="true" class="fa fa-angle-double-left"></i>
+		</div>
+	</div>
+	<i aria-hidden="true" class="restore-header-button fa icon-resize-small" title="zurücksetzen"></i>
+</header>
+<section class="news-css html-content">
+<div id="_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_news" class=".news-css vip-news-content-height">
+	<table id="_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_newsTable" style="width: 100%;">
+		<tr>
+			<td class=".news-css vip-news-info-table-row">
+			</td>
+		</tr>
+	</table>
+
+	<div id="_de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet_newsArticleDiv" class=".news-css vip-news-article">
+	</div>
+</div>
+</section>
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+			</div>
+		
+</section>
+
+
+
+		
+	
+
+		
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+			</section>
+			<section style="display:none" id="info_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_  portlet-static portlet-static-end decorate map-details-css " id="p_p_id_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_" >
+		<span id="p_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet">
+	<script>
+		addPortletMainPageControlEntry('_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_',  'Meldungen zur Karte', 'vipnrw-font vipnrw-map_details', 'undefined', 3);
+	</script>
+
+			<script>
+				addPortletMenuButton('_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_', 3, 'Meldungen zur Karte', 'vipnrw-font vipnrw-map_details');
+			</script>
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_errorMsg" style="display: none; padding: 10px 10px 0px 10px;"></div>
+<script type="text/javascript">
+	var map_details_portlet_id = '_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_';
+	var map_details_portlet_resource_url = 'https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage';
+</script>
+<header class="portlet-topper">
+	<div class="portlet-title" title="Meldungen zur Karte">
+		<span class="portlet-title-text"><i aria-hidden="true" class="vipnrw-font vipnrw-map_details"></i>
+			Meldungen zur Karte</span>
+		<div tabindex="0" role="button" class="portlet-header-button" aria-label="schließen" title="schließen">
+				<i aria-hidden="true" class="fa fa-angle-double-left"></i>
+		</div>
+	</div>
+	<i aria-hidden="true" class="restore-header-button fa icon-resize-small" title="zurücksetzen"></i>
+</header>
+<section class="map-details-css html-content">
+	<article id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_detailTabs" class="map-details-css tabs">
+		<header class="map-details-css tabs-header">
+			<ul>
+				<li id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_mapDetailsWarningsTab" onclick="mapDetailsWarningsTabClick()"
+					title="Warnhinweise"><a href="#_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_warnings">
+						<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+						<div class="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_tab-label">Warnhinweise</div>
+				</a></li>
+				<li onclick="mapDetailsObstructionsTabClick()" title="Sperrungen">
+					<a href="#_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_obstructions"> <i class="fa fa-circle-o" aria-hidden="true"></i> <div class="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_tab-label">Sperrungen</div>
+				</a>
+				</li>
+				<li onclick="mapDetailsRoadworksTabClick()" title="Baustellen">
+					<a href="#_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_roadworks"> <i class="vipnrw-font vipnrw-123"></i> <div class="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_tab-label">Baustellen</div>
+				</a>
+				</li>
+				<li onclick="mapDetailsParkingTabClick()" title="Parken"><a
+					href="#_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_parking"> <i class="fa fa-product-hunt" aria-hidden="true"></i> <div class="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_tab-label">Parken</div>
+				</a></li>
+				<li style="visibility:hidden;" onclick="mapDetailsWebcamsTabClick()" title="Webcams"><a
+					href="#_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_webcams"> <i class="fa fa-video-camera" aria-hidden="true"></i> <div class="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_tab-label">Webcams</div>
+				</a></li>
+
+			</ul>
+		</header>
+		<section class="map-details-css tabs-content">
+			<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_warnings">
+				<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_contentDiv" class="map-css map-details-css tabs-content-container"></div>
+				<div style="text-align: center;">
+					<div class="loader"></div>
+					<div style="text-align: center;padding:16px;">
+						Lade Daten für Kartenausschnitt...
+					</div>
+				</div>
+			</div>
+			<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_obstructions">
+				<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_contentDiv" class="map-css map-details-css tabs-content-container"></div>
+				<div style="text-align: center;">
+					<div class="loader"></div>
+					<div style="text-align: center;padding:16px;">
+						Lade Daten für Kartenausschnitt...
+					</div>
+				</div>
+			</div>
+			<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_roadworks">
+				<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_contentDiv" class="map-css map-details-css tabs-content-container"></div>
+				<div style="text-align: center;">
+					<div class="loader"></div>
+					<div style="text-align: center;padding:16px;">
+						Lade Daten für Kartenausschnitt...
+					</div>
+				</div>
+			</div>
+			<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_webcams">
+				<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_contentDiv" class="map-css map-details-css tabs-content-container"></div>
+				<div style="text-align: center;padding:16px;">
+					<div class="loader"></div>
+					<div>
+						Lade Daten für Kartenausschnitt...
+					</div>
+				</div>
+			</div>
+			<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_parking">
+				<div id="_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_contentDiv" class="map-css map-details-css tabs-content-container"></div>
+				<div style="text-align: center;padding:16px;">
+					<div class="loader"></div>
+					<div>
+						Lade Daten für Kartenausschnitt...
+						<i id="maxCount"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="map-details-css tabs-footer">
+			<div class="map-details-css pagination" id="pagination"></div>
+		</footer>
+	</article>
+</section>
+<script type="text/javascript">
+	$('#' + map_details_portlet_id + 'detailTabs').tabs();
+</script>
+
+
+
+
+
+
+
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+			</div>
+		
+</section>
+
+
+
+		
+	
+
+		
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+			</section>
+			<section style="display:none" id="info_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_  portlet-static portlet-static-end decorate road-details-css " id="p_p_id_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_" >
+		<span id="p_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet">
+	<script>
+		addPortletMainPageControlEntry('_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_',  'Meldungen nach Straßen-Nr.', 'vipnrw-font vipnrw-road_details', 'undefined', 4);
+	</script>
+
+			<script>
+				addPortletMenuButton('_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_', 4, 'Meldungen nach Straßen-Nr.', 'vipnrw-font vipnrw-road_details');
+			</script>
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_errorMsg" style="display: none; padding: 10px 10px 0px 10px;"></div>
+
+<script type="text/javascript">
+	var road_details_portlet_id = "_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_";
+	var road_details_portlet_resource_url = "https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage";
+	var road_sign_action = "getRoadsByCategory";
+	var road_messages_action = "getTrafficObjectByCategoryAndRoad";
+</script>
+<header class="portlet-topper">
+	<div class="portlet-title" title="Meldungen nach Straßen-Nr.">
+		<span class="portlet-title-text"><i aria-hidden="true"
+			class="vipnrw-font vipnrw-road_details"></i> Meldungen nach Straßen-Nr.</span>
+		<div tabindex="0" role="button" class="portlet-header-button" aria-label="schließen" title="schließen">
+				<i aria-hidden="true" class="fa fa-angle-double-left"></i>
+		</div>
+	</div>
+	<i aria-hidden="true" class="restore-header-button fa icon-resize-small" title="zurücksetzen"></i>
+</header>
+<section class="road-details-css html-content">
+	<article id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_detailTabs" class="road-details-css tabs">
+		<header class="road-details-css tabs-header">
+			<ul>
+				<li role="button" onclick="roadDetailsWarningsTabClick()" aria-label="Warnhinweise" title="Warnhinweise">
+					<a href="#_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_warnings-tab"> <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <div>Warnhinweise</div></a>
+				</li>
+				<li  role="button"  onclick="roadDetailsObstructionsTabClick()" aria-label="Sperrungen" title="Sperrungen">
+					<a href="#_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_obstructions-tab"> <i class="fa fa-circle-o" aria-hidden="true"></i> <div>Sperrungen</div></a>
+				</li>
+				<li  role="button"  onclick="roadDetailsRoadworksTabClick()" aria-label="Baustellen" title="Baustellen">
+					<a href="#_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_roadworks-tab"> <i class="vipnrw-font vipnrw-123" aria-hidden="true"></i> <div>Baustellen</div></a>
+				</li>
+				<li  role="button" style="visibility:hidden;" onclick="roadDetailsWebcamsTabClick()" aria-label="Webcams" title="Webcams"><a
+					href="#_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_webcams-tab"> <i class="fa fa-video-camera" aria-hidden="true"></i> <div>Webcams</div></a>
+				</li>
+				<button type="button"
+				id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_back"
+				title="Webcams"
+				aria-label="Webcams"
+				class="return-label" onclick="back()">&laquo; Zurück</button>
+			</ul>
+		</header>
+		<section class="road-details-css tabs-content">
+			<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_warnings-tab">
+				<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_warnings-roads" class="road-details-css tabs-roads-container"></div>
+				<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_warnings-messages" class="road-details-css map-css tabs-messages-container">
+					<div style="text-align: center;padding:16px;">
+						Lade Daten...
+					</div>
+				</div>
+			</div>
+			<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_obstructions-tab">
+				<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_obstructions-roads" class="road-details-css tabs-roads-container"></div>
+				<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_obstructions-messages" class="road-details-css map-css tabs-messages-container">
+					<div style="text-align: center;padding:16px;">
+						Lade Daten...
+					</div>
+				</div>
+			</div>
+			<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_roadworks-tab">
+				<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_roadworks-roads" class="road-details-css tabs-roads-container"></div>
+				<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_roadworks-messages" class="road-details-css map-css tabs-messages-container">
+					<div style="text-align: center;padding:16px;">
+						Lade Daten...
+					</div>
+				</div>
+			</div>
+			<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_webcams-tab">
+				<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_webcams-roads" class="road-details-css tabs-roads-container"></div>
+				<div id="_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_webcams-messages" class="road-details-css map-css tabs-messages-container">
+					<div style="text-align: center;padding:16px;">
+						Lade Daten...
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="road-details-css tabs-footer">
+			<div class="road-details-css pagination" id="pagination"></div>
+		</footer>
+	</article>
+</section>
+<script type="text/javascript">
+	$("#" + road_details_portlet_id + "detailTabs").tabs();
+</script>
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+			</div>
+		
+</section>
+
+
+
+		
+	
+
+		
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+		 	</section>
+			<section style="display:none" id="info_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_  portlet-static portlet-static-end decorate routing-css " id="p_p_id_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_" >
+		<span id="p_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+		
+
+		
+<section class="portlet" id="portlet_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet">
+	<script>
+		addPortletMainPageControlEntry('_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_',  'Route', 'vipnrw-font vipnrw-212', 'button', 1);
+	</script>
+
+			<script>
+				addPortletMenuButton('_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_', 1, 'Route', 'vipnrw-font vipnrw-212');
+			</script>
+	
+			<div class=" portlet-content-container" >
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	var routingContextPath = '/o/de.strassennrw.vipnrw.routing';
+	var routing_portlet_id = '_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_';
+	var routing_portlet_resource_url = 'https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_routing_portlet_RoutingPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage';
+
+	var routing_portlet_photon_api_url = 'https://www.verkehr.nrw/api';
+	var routing_portlet_photon_reverse_url = 'https://www.verkehr.nrw/reverse';
+	var routing_portlet_photon_osm_tag = 'null';
+	var routing_portlet_photon_api_limit = '5';
+	var routing_portlet_traffic_object_limit = '5';
+	var routing_portlet_init_items_limit = '5';
+	var routing_portlet_nominatim_address_limit = '3';
+	var map_portlet_deeplink_car = null;
+	var map_portlet_deeplink_public_transport = null;
+	var map_portlet_deeplink_bike = null;
+	var map_portlet_deeplink_intermodal =null;
+	var routing_portlet_print_view_url = '/print/routing';
+	var routing_portlet_print_view_parameter = 'null';
+
+	var maasRouterURL = 'https://www.verkehr.nrw/route';
+	var maasRouterOptionsURL = 'https://www.verkehr.nrw/options';
+	
+	// quickfix, remove www from maasRoutingUrl when origin does not contain www
+	let wwwSearchString = "www\.";
+	if (!window.location.origin.includes(wwwSearchString)) {
+		maasRouterURL = maasRouterURL.replace(wwwSearchString, "");
+		maasRouterOptionsURL = maasRouterOptionsURL.replace(wwwSearchString, "");
+	}
+
+	var routing_portlet_printview = false;
+
+	$(document).ready(function() {
+		initRoutingPortlet();
+	    restoreRoutePointsFromUrl();
+	    restoreRoutePoints();
+	});
+
+</script>
+
+<header class="portlet-topper">
+	<div class="portlet-title"
+		title="Route">
+		<span class="  portlet-title-text"><i aria-hidden="true"
+			class="vipnrw-font vipnrw-212"></i> Route</span>
+		<div tabindex="0" role="button" class="portlet-header-button" aria-label="schließen" title="schließen">
+				<i aria-hidden="true" class="fa fa-angle-double-left"></i>
+		</div>
+	</div>
+	<i aria-hidden="true"
+		class="restore-header-button fa icon-resize-small"
+		title="zurücksetzen"></i>
+</header>
+<section class="routing-css html-content">
+	<div class="routing-input">
+		<div class="input-row">
+			<div tabindex="0" role="button" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_startPointInput-icon">
+				<i
+				class="fa fa-map-pin vipnrw-custom-button" aria-hidden="true"
+				title="Zum Start zoomen"></i>
+			</div>
+			<input tabindex="0" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_startPointInput"
+				placeholder="Start"
+				class="vipnrw-custom-input"> 
+				<div tabindex="0" role="button">
+					<i id="startPointInputRemoveButton"
+					class="fa fa-minus vipnrw-custom-button" aria-hidden="true"
+					title="Start löschen"
+					onclick="removeStartPoint()"></i>
+				</div>
+		</div>
+		<div class="input-row">
+			<div tabindex="0" role="button" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_addViaPointButton">
+				<i class="fa fa-plus vipnrw-custom-button" aria-hidden="true"
+					title="Zwischenziel hinzufügen"></i>
+			</div>
+			<hr class="via-point" />
+			<div tabindex="0" role="button" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_flipPointsButton">
+				<i class="fa fa-exchange fa-rotate-90 vipnrw-custom-button"
+					aria-hidden="true"
+					title="Start - Ziel vertauschen"></i>
+			</div>
+		</div>
+		<div id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_viaPointTable"></div>
+		<div class="input-row">
+			<div tabindex="0" role="button" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_targetPointInput-icon">
+				<i class="fa fa-map-pin vipnrw-custom-button" aria-hidden="true"
+					title="Zum Ziel zoomen"></i>
+			</div>
+			<input tabindex="0" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_targetPointInput"
+				placeholder="Ziel"
+				class="vipnrw-custom-input"> 
+			<div tabindex="0" role="button" id="targetPointInputRemoveButton">
+				<i class="fa fa-minus vipnrw-custom-button" aria-hidden="true"
+				title="Ziel löschen"
+				onclick="removeTargetPoint()"></i>
+			</div>
+		</div>
+		<div class="error-message"
+			id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_errorMsgGeolocation" style="display: none"></div>
+		<div class="error-message" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_errorMsgCar"
+			style="display: none"></div>
+		<div class="error-message" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_errorMsgCarDynamic"
+			style="display: none"></div>
+		<div class="error-message"
+			id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_errorMsgPublicTransport"
+			style="display: none"></div>
+		<div class="error-message"
+			id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_errorMsgIntermodal"
+			style="display: none"></div>
+		<div class="error-message" id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_errorMsgBike"
+			style="display: none"></div>
+	</div>
+
+	<div class="routing-transport-tabs"
+		id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTabs">
+		<ul>
+			<li><a href="#_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-1" class="tab"
+				title="Zusammenfassung">&Sigma;</a></li>
+			<li><a id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-2-item"
+				href="#_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-2" class="tab"
+				onclick="addUserBehavior('CAR_ROUTE_DETAILS')"
+				title="Auto"> <i
+					class="vipnrw-font vipnrw-map_car"></i></a></li>
+			<li><a id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-3-item"
+				href="#_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-3" class="tab"
+				onclick="addUserBehavior('PUBLIC_TRANSPORT_ROUTE_DETAILS')"
+				title="Bus & Bahn" onclick="restoreBusSelectionState();" >
+					<i class="fa fa-bus"></i>
+			</a></li>
+			<li><a id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-4-item"
+				href="#_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-4" class="tab"
+				onclick="addUserBehavior('BIKE_ROUTE_DETAILS')"
+				title="Fahrrad">
+					<i class="fa fa-bicycle"></i>
+			</a></li>
+			<li><a id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-5-item"
+				href="#_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-5" class="tab"
+				onclick="addUserBehavior('INTERMODAL_ROUTE_DETAILS')"
+				title="Intermodal">
+					<i class="fa fa-puzzle-piece"></i>
+			</a></li>
+			<li><a id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-6-item"
+				href="#_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-6"
+				onclick="addUserBehavior('SAVED_ROUTES')"
+				title="Gespeicherte Routen"
+				class="tab"> <i id="saveRouteTabIcon" class="fa fa-bookmark-o"></i></a></li>
+		</ul>
+		<div id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_transportTab-1" class="ui-tab-no-padding">
+			<script id="pubicTransportSummaryTableSortableContent"
+	type="text/x-jsrender">
+{{for data}}
+<tr class="ptSummaryRow publicTransportSelection" id ="ptSelection{{:id}}" onclick="onClickRoutingSummaryBus({{:id}})">
+	<td class="first-column-nc"><i class="fa fa-bus"></i></td>
+	<td>
+		<div>
+			<div class="summaryContent">
+				<div>{{:startTime}} - {{:endTime}} ({{:publicduration}})</div>
+				<div>{{:changes}}x Umsteigen</div>
+			</div>
+		</div>
+		<div style="display: flex;  align-items: center;  justify-content: space-evenly;gap: 2px;">
+
+			{{props partialRouteList ~len=partialRouteList.length}}
+				{{if prop.meansOfTransport.icon == "niederflurbus.png" ||  prop.meansOfTransport.icon == "bus.png" || prop.meansOfTransport.icon == "sb.png" }}
+					<div><i class="fa fa-bus" aria-hidden="true"></i></div>
+				{{else prop.meansOfTransport.icon == "fussweg.png"}}
+					<div><img alt="Symbol Fussweg" aria-hidden="true" src="/o/de.strassennrw.vipnrw.routing/js/images/pt/fussweg-sm-b.png"></div>
+				{{else prop.meansOfTransport.icon = "directions_via.png" || prop.meansOfTransport.icon == "straï¿½enbahn.png" || prop.meansOfTransport.icon == "s-bahn.png"}}
+					<div><i class="fa fa-train" aria-hidden="true"></i></div>
+				{{else}}
+				{{/if}}
+			{{if prop.meansOfTransport.icon && #index < ~len-1 }}
+					<div><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+    		{{/if}}
+
+			{{/props}}
+
+		</div>
+	</td>
+</tr>
+{{else}}
+<tr id="publicTransportDummyRow" class="ptSummaryRow">
+	<td class="first-column-nc"><i class="fa fa-bus"></i></td>
+	<td>
+		<div class="summaryInput">
+			<div id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_busSummaryContent">-</div>
+		</div>
+	</td>
+</tr>
+{{/for}}
+</script>
+
+<script id="publicTransportDummySummaryRow" type="text/x-jsrender">
+<tr id="publicTransportDummyRow" class="ptSummaryRow">
+	<td class="first-column-nc"><i class="fa fa-bus"></i></td>
+	<td>
+		<div id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_busSummaryContent-loading"	style="display: none;">
+				<div style="display: table;">
+				<div class="loader-small"></div>
+				<div style="display: table-cell; vertical-align: middle; padding-left: 10px;">
+				Lade Daten...
+				</div>
+			</div>
+		</div>
+		<div class="summaryInput">
+			<div id="_de_strassennrw_vipnrw_routing_portlet_RoutingPortlet_busSummaryContent">-</div>
+
+		</div>
+	</td>
+</tr>
+</script>
+
+<script id="intermodalSummaryTableSortableContent"
+	type="text/x-jsrender">
+{{for data}}
+<tr class="imSummaryRow intermodalSelection" onclick="onClickRoutingSummaryIntermodal({{:id}})">
+	<td class="first-column-nc"><i class="fa fa-puzzle-piece"></i></td>
+	<td>
+		<div class="summaryContent">
+			<div>{{:startTime}} - {{:endTime}} ({{:durationString}})</div>
+			<div>{{:changes}}x Umsteigen</div>
+		</div>
+		<div style="display: flex;  align-items: center;  justify-content: space-evenly;gap: 2px;">
+			{{props features ~len=features.length}}
+				{{if prop.values_ && prop.values_.transportation && prop.values_.transportation.product.modality == "PUBLIC_TRANSPORT"}}
+
+{{if prop.values_.transportation.product.product_class == 0 }}
+	<div><i class="fa fa-train" aria-hidden="true"

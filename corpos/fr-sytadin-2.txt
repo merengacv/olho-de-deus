@@ -1,0 +1,4 @@
+GET https://www.sytadin.fr/carto/dynamique/cartoTempsReel.json?_=1791943818783
+content-type: application/json
+
+{"dossier":"14040937","periode":120,"mode":"N","date_bch":"1791943697","date_vit":"1791943697"}

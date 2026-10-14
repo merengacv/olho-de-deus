@@ -1,0 +1,915 @@
+GET https://tarktee.ee/assets/i18n/en.json
+content-type: application/json
+
+{
+	"Change_language": "Change language",
+	"Close": "Close",
+	"Intro_text": "Traffic information system Tark Tee provides information about road conditions, restrictions and road works.Tark Tee helps to plan a safe journey.Traffic Information centre is available through toll free number <b>1247</b>.</br> ESTONIAN TRANSPORT ADMINISTRATION AIMS FOR A SAFE AND EFFECTIVE TRAFFIC ENVIRONMENT",
+	"Email": "E-mail address",
+	"form_email_invalid": "E-mail address is invalid",
+	"form_required": "Field is required",
+	"form_maxlength": "The value you entered is too long",
+	"form_at_least_one_required": "At least one field must be filled out",
+	"TechnicalException": "A technical error has occurred",
+	"Yes": "Yes",
+	"No": "No",
+	"And": "and",
+	"Search": "Search",
+	"Save": "Save",
+	"Saved": "Saved",
+	"Date_info": "The information displayed reflects the current knowledge about the chosen date. Information may still change.",
+	"datex": {
+		"accept": "I have read and agree to the",
+		"accept_link": "Terms of Use",
+		"back": "Back",
+		"companyCode": "Registry code of the establishment",
+		"companyName": "Name of the establishment",
+		"description": "Description",
+		"data_missing": "Data not available yet",
+		"example": "Sample message",
+		"firstName": "Given name",
+		"form": "Registration form",
+		"guide": "Guide for using the DATEX II services of Estonian Transport Administration",
+		"notes": "Comments",
+		"purpose": "Purpose of registration",
+		"register": "Register",
+		"schema": "Schema",
+		"service": "DATEX II service",
+		"service_cameras_desc": "Road camera pictures",
+		"service_camera_locations_desc": "Locations of road cameras",
+		"service_measurement_desc": "Locations of road weather stations and traffic counters",
+		"service_restrictions_desc": "Traffic restriction data",
+		"service_safety_desc": "Important road safety data",
+		"service_traffic_desc": "Measurement results of traffic counters",
+		"service_weather_desc": "Measurement results of road weather stations",
+		"service_parking_sites_desc": "Truck Parking",
+		"vms_sites_desc": "Variable message sign (VMS) locations",
+		"vms_desc": "Variable message signs (VMS)",
+		"vms_info": "Tark Tee intermediates service provided by VMS control system",
+		"surname": "Surname",
+		"text_form_info": "Registering as the customer of the DATEX II gateway of the Transport Administration ensures access to the DATEX services of the Transport Administration.",
+		"text_form_info2": "The use of gateway does not require logging in. After registering, you will receive a unique API key, which should be used to access the DATEX II services. NB! The key will only become valid once an employee of the Transport Administration has reviewed your registration. You will be sent a corresponding letter.",
+		"text_page_link": "website of DATEX II",
+		"text_use": "Registration is required if you want to use the data provided through the DATEX II services of Estonian Transport Administration. Registration provides access to all services. If you have any questions, please contact the Traffic Management Center of the Transport Administration at tmc@transpordiamet.ee.",
+		"title_form": "Registration form of the DATEX II gateway of Estonian Transport Administration",
+		"title_main": "Smart Road DATEX II data gateway",
+		"title_use": "Using DATEX services",
+		"title_what_is_datex": "What is DATEX II?",
+		"text_what_is_datex_1": "DATEX II (Data Exchange) is an open unified data standard established by the European Union for transmitting traffic data and safety-related information.",
+		"text_what_is_datex_2": "The purpose of the standard is to ensure that different consumers and producers of traffic data (countries, traffic operators and service providers) can exchange data in a unified and standardized format.",
+		"text_what_is_datex_3": "A detailed overview of the standard can be found on the ",
+		"title_versions": "Service versions",
+		"text_versions_intro": "Tark Tee supports two DATEX II versions:",
+		"text_versions_36": "general services and specialized SRTI services that provide real-time access to safety-related data (slippery roads, animals, accidents, road works, weather conditions, etc.).",
+		"text_versions_23": "general and legacy services (weather data, traffic data, cameras).",
+		"title_services_36": "DATEX II 3.6 services",
+		"title_services_23": "DATEX II 2.3 services",
+		"title_raw_data": "Raw data",
+		"teenus": "Service",
+		"formaat": "Format",
+		"raw_weather_metadata_desc": "Weather station metadata",
+		"raw_weather_data_desc": "Weather station measurements",
+		"raw_road_camera_metadata_desc": "Road camera metadata",
+		"raw_road_camera_images_desc": "Road camera images",
+		"title_related_materials": "Related materials",
+		"srti_temporary_slippery_road_desc": "Temporary slippery road",
+		"srti_animal_obstacle_desc": "Animals, people, obstacles, debris on the road",
+		"srti_unprotected_accident_desc": "Unprotected accident area",
+		"srti_short_term_road_works_desc": "Short-term road works",
+		"srti_reduced_visibility_desc": "Reduced visibility",
+		"srti_wrong_way_driver_desc": "Wrong-way driver",
+		"srti_unmanaged_blockage_desc": "Unmanaged blockage on the road",
+		"srti_exceptional_weather_desc": "Exceptional weather conditions",
+		"request_example": "Request example",
+		"Client_registration_success": "Client registration successful. E-mail has been sent."
+	},
+	"map": {
+		"Baselayer_text": "Map",
+		"Choose_basemap": "Choose basemap",
+		"Graylayer_text": "Greyscale",
+		"Hybridlayer_text": "Hybrid",
+		"Open_tarktee": "Open Tark Tee",
+		"Ortolayer_text": "Orthophoto",
+		"Search": "Search address or road",
+		"Restriction_not_found": "Restriction not found. Restriction is deleted or expired.",
+		"Object_not_found": "Object not found. Object is deleted or expired."
+	},
+	"notices": {
+		"Earlier_press_releases": "Earlier press Releases",
+		"Future_annotations": "Future annotations",
+		"Todays_and_prior_notices": "Today's and prior notices",
+		"Todays_press_releases": "Today's press Releases",
+		"Traffic_info": "Traffic info",
+		"No_messages": "No traffic notices",
+		"Button_text": "Notices"
+	},
+	"notifications": {
+		"Subscribe": "Subscribe",
+		"Area": "Notification area",
+		"Type": "Notification type",
+		"Register": "Register",
+		"Cancel": "Cancel",
+		"RegistrationAlreadyExists": "Notifications have already been ordered with these parameters",
+		"EmailSent": "E-mail sent",
+		"Activated": "Registration was successful. A notification regarding new traffic restrictions will be sent to you every morning.",
+		"Unsubscribed": "Subscription of notifications cancelled",
+		"AlreadyActivated": "Notifications have already been activated",
+		"TokenNotFound": "The notification subscription link is broken or the subscription has already been cancelled",
+		"RestrictionExpired": "Restriction not found or no longer valid",
+		"UnsubscribeConfirmation": "Would you like to stop receiving notifications regarding traffic restrictions?",
+		"UnsubscribeSuccess": "You have successfully unsubscribed from receiving notifications",
+		"InvalidEmail": "E-mail address is invalid",
+		"Road_number": "Road number",
+		"Road_number_help": "Enter the road numbers separated by commas (e.g. \"15,22,11254\"). If necessary, you can find the road numbers on the map.",
+		"Area_or_road_required": "Please fill in either notification area or road number.",
+		"Too_many_road_numbers": "You can enter up to 10 road numbers",
+		"Or": "or",
+		"Button_text": "Subscribe",
+		"Truck_traffic_warning": "The route planner does not take into account the traffic restrictions on local government roads",
+		"Restrictions_mass_warning": "Due to technical problems, not all new Mass and size restrictions are displayed on map! For additional information on restrictions implemented on a specific road, please call Traffic Management Center 6120100."
+	},
+	"feedback": {
+		"Feedback": "Feedback",
+		"Question": "What is the probability of you recommending TarkTee.ee website to your friend or colleague?",
+		"Min": "not likely at all",
+		"Max": "very likely",
+		"Comment": "Please give the reason of your assessment",
+		"GiveFeedback": "Submit feedback"
+	},
+	"route": {
+		"Add_start": "Add starting point",
+		"Add_end": "Add destination",
+		"Add_route_point": "Add route point",
+		"Date": "Date",
+		"Height": "Height",
+		"Width": "Width",
+		"Car": "Car",
+		"Truck": "Truck",
+		"Route_length": "Route length",
+		"Route_time": "Travel time",
+		"Not_found": "Could not find route",
+		"Not_found_hardtop": "Could not find route on paved roads",
+		"Not_found_point": "Unable to find route through waypoint {{value}}.",
+		"Not_found_points": "Unable to find route through waypoints {{value}}.",
+		"Calculate_route_no_result_for_parameter_set": "No route found between selected points, please adjust start and end ponts",
+		"Data_not_found": "Data not found",
+		"Fastest": "Fastest",
+		"Only_hardtop_roads": "Only paved roads",
+		"Please_wait_while_server_is_looking_for_data": "Please wait while server is looking for data",
+		"Remove": "Remove",
+		"Route_calculating": "Loading, please wait",
+		"Shortest_distance": "Shortest distance",
+    "Use_current_location": "Use current location"
+  },
+	"share": {
+		"Code": "Code",
+		"Code_placeholder": "HTML code to be embedded on the map page",
+		"Copy": "Copy",
+		"Link": "Link",
+		"Link_placeholder": "Link to the map",
+		"Share": "Share",
+		"Button_text": "Share",
+		"Share_object_button_text": "Share"
+	},
+	"language": {
+		"Button_text": "&nbsp;"
+	},
+	"table": {
+		"Traffic_restrictions_table": "Traffic restrictions",
+		"Mass_restrictions_table": "Weight and size restrictions",
+		"Increased_maximum_speeds_table": "Increased speed limits",
+		"Contact": "Contact",
+		"County": "County",
+		"Description": "Description",
+		"Direction": "Direction",
+		"End_km": "End km",
+		"From": "From",
+		"Highway": "Road",
+		"Info": "Additional information",
+		"Restriction": "Restriction",
+		"Restriction_effect": "Impact of restriction",
+		"Restriction_specification": "Restriction specification",
+		"Restriction_type": "Restriction type",
+		"Restriction_value": "Restriction value",
+		"Road_name": "Road name",
+		"Road_nr": "Road number",
+		"Start_km": "Start km",
+		"To": "Until",
+		"Detour": "Detour"
+	},
+	"useful": {
+		"Bicicle_roads": "Bicycle roads",
+		"Border_points": "Border points",
+		"Ferries": "Ferries",
+		"Important_information_for_driving_in_Estonia": "Important information for driving in Estonia",
+		"Peatus_ee_application": "Peatus.ee application",
+		"Road_camera_pictures": "Road camera pictures",
+		"Road_weather_stations_application": "Road weather stations application",
+		"Tow_truck_info": "Tow truck info",
+		"Useful_links": "Useful links"
+	},
+	"info": {
+		"Info": "Info",
+		"Info_text_1": "The traffic information application of Estonian Transport Administration – Smart Road – provides road users with information about traffic restrictions, road works, and road conditions. Smart Road helps you to plan a safer and more efficient journey. ",
+		"Info_text_2": "Information about public roads is also provided through the state helpline  <b>1247</b>.",
+		"Info_text_3": "The Smart Road portal is administered by <a href='https://www.transpordiamet.ee/maanteed-veeteed-ohuruum/liikluskorraldus/liiklusjuhtimiskeskus'>the Traffic Management Centre of Estonian Transport Administration</a>.",
+		"Info_text_4": "",
+		"Give_feedback": "Feedback can be given here.",
+		"Datagate": "Data gateway",
+		"Datex_info": "Estonian Transport Administration operatively provides information about traffic restrictions, road works, and traffic hazards through the DATEX II data gateway for free use. DATEX II is a pan-European standard for transmitting traffic data; more detailed information about the service is available on the data gateway website.",
+		"Datex2_datagate": "Datex II data gateway",
+		"Do_not_show": "Do not show this again",
+		"Button_text": "Info"
+	},
+	"admin": {
+		"Traffic_info": "Traffic information",
+		"Map_layers": "Map layers",
+    "Map_layers_presets": "Presets",
+		"Datex2": "DATEX II",
+		"datex": {
+			"Clients": "en:DATEX II kliendid",
+			"Services_stat": "en:Teenuste statistika",
+			"Clients_stat": "en:Klientide statistika",
+			"Client_name": "en:Kliendi nimi",
+			"Register_code": "en:Registrikood",
+			"Representative": "en:Esindaja nimi",
+			"Status": "en:Staatus",
+			"Last_change_date": "en:Viimase muutmise aeg",
+			"Activated": "en:Aktiveeritud",
+			"Deactivated": "en:Deaktiveeritud",
+			"Representative_first_name": "en:Esindaja eesnimi",
+			"Representative_surname": "en:Esindaja perenimi",
+			"Key_status": "en:Võtme staatus",
+			"API_key": "en:API-võti",
+			"Record_create_date": "en:Kirje loomise aeg",
+			"Record_update_date": "en:Kirje viimase muutmise aeg",
+			"Last_updater": "en:Viimane muutja",
+			"Activate_API_key": "en:Aktiveeri API-võti",
+			"Deactivate_API_key": "en:Deaktiveeri API-võti",
+			"Generate_API_key": "en:Genereeri uus API-võti",
+			"Confirm_user": "en:Kinnita kasutaja",
+			"Delete_user": "en:Kustuta kasutaja",
+			"Delete_user_confirm": "en:Oled sa kindel, et soovid kasutajat kustutada?",
+			"Client": "en:Klient",
+			"Service": "en:Teenus",
+			"Last_12_months": "en:Viimased 12 kuud",
+			"Whole_time": "en:Terve kasutusperiood",
+			"Last_request_date": "en:Viimase päringu aeg",
+			"SRTI_params": "SRTI parameters"
+		},
+		"feedback": {
+			"score": "Score",
+			"userComment": "Comment",
+			"time": "Time",
+			"activity": "User activated",
+			"sessionId": "Identifier",
+			"Initiated_by_user": {
+				"true": "Yes",
+				"false": "No"
+			}
+		}
+	},
+	"common": {
+		"Actions": "Actions",
+		"Edit": "Edit",
+		"Delete": "Delete",
+		"Cancel": "Cancel",
+		"Confirm_delete": "Are you sure you want to delete this item?",
+		"Yes": "Yes",
+		"No": "No"
+	},
+	"srti": {
+		"Rule_name": "Rule name",
+		"Event_type": "Event type",
+		"Data_source": "Data source",
+		"Enabled": "Enabled",
+		"Enable": "Enable",
+		"Disable": "Disable",
+		"Priority": "Priority",
+		"Reliability": "Reliability",
+		"Edit_params": "Edit parameters",
+		"Parameters": "Parameters",
+		"Max_age_hours": "Max data age",
+		"Max_duration_hours": "Max duration (hours)",
+		"Hours": "hours",
+		"No_rules": "SRTI rules not configured",
+		"Conditions": "Conditions",
+		"Rule_A_WRS": "Rule A – WRS code (DRS511)",
+		"Rule_A_description": "WRS 3-digit code per RWS200 specification. Define allowed digits for each position.",
+		"Rule_B_Grip": "Rule B – DSC211 grip coefficient",
+		"Rule_B_description": "DSC211 sensor grip coefficient value (0.0-1.0). Select comparison operator and threshold.",
+		"Valid_first_position": "First position",
+		"Valid_second_position": "Middle position",
+		"Valid_third_position": "Last position",
+		"Position_hint": "Allowed digits",
+		"Valid_WRS_codes": "Valid WRS codes",
+		"WRS_codes_hint": "Comma-separated codes, e.g.: 206,207,216,217",
+		"Grip_comparison_operator": "Comparison operator",
+		"Grip_threshold": "Grip coefficient threshold",
+		"Grip_coefficient_hint": "Value 0-1, e.g. 0.4",
+		"Less_than": "Less than",
+		"Less_than_equal": "Less than or equal",
+		"Greater_than": "Greater than",
+		"Greater_than_equal": "Greater than or equal",
+		"Equal": "Equal",
+		"Precipitation_types": "Precipitation types",
+		"Status_filter": "Status filter",
+		"Status_confirmed": "Confirmed",
+		"Status_unconfirmed": "Unconfirmed",
+		"Status_all": "All",
+		"Exclude_resource_status": "Exclude resource status",
+		"Resource_finished": "Finished",
+		"Resource_active": "Active",
+		"Resource_none": "No exclusion",
+		"Require_active": "Require active status",
+		"Require_abnormality_flag": "Require abnormality flag",
+		"Waze_subtypes": "Waze subtypes",
+		"Require_confirmation": "Require confirmation",
+		"Hosis_status_filter": "HOSIS statuses",
+		"Hosis_status_hint": "Select active statuses (S and E are active)",
+		"Event_type_filter": "Event type filter",
+		"Event_type_filter_hint": "Comma-separated event types, e.g.: accident,collision",
+		"Allowed_causes": "Allowed restriction causes",
+		"Allowed_causes_hint": "Comma-separated TTSM cause codes, e.g.: PAVING,ROAD_SURFACE_MARKING,GEOLOGICAL_STUDIES",
+		"Visibility_rule_description": "Generate events from TAP weather station (PWD12/PWD22) visibility data.",
+		"Visibility_comparison_operator": "Comparison operator",
+		"Visibility_threshold": "Visibility threshold (m)",
+		"Visibility_threshold_hint": "Visibility threshold in meters, e.g.: 600",
+		"Exceptional_weather_description": "Generate exceptional weather events (snow, wind, freezing rain) from TAP weather station data.",
+		"Snow_intensity_threshold": "Snow intensity threshold (mm/h)",
+		"Snow_intensity_hint": "Snow intensity in mm/h, e.g.: 1.0",
+		"Wind_speed_threshold": "Wind speed threshold (m/s)",
+		"Wind_speed_hint": "Wind gust speed in m/s, e.g.: 20",
+		"Freezing_rain_threshold": "Freezing rain threshold (mm/h)",
+		"Freezing_rain_hint": "Freezing rain intensity in mm/h, e.g.: 0.5"
+	},
+	"cookie_law": {
+		"Text": "This website uses cookies. By continuing its use, you agree with the website’s use of cookies and general terms and conditions.",
+		"Accept": "I agree",
+		"More_info": "More information",
+		"More_info_link": "https://www.mnt.ee/eng/organization/protection-private-information"
+	},
+	"rest_error": {
+		"InvalidEmail": "E-mail address is invalid"
+	},
+	"enum": {
+		"NotificationType": {
+			"TRAFFIC": "Traffic restrictions",
+			"WEIGHT_AND_SIZE": "Weight and size restrictions",
+			"ALL": "All"
+		},
+		"RestrictionEffect": {
+			"COMPLETE_CLOSURE": "Complete closure",
+			"ONE_WAY_CLOSED": "One way closed",
+			"LANE_CLOSED": "Lane closed",
+			"SPEED_LIMITED": "Speed limited",
+			"OTHER": "Other"
+		},
+		"RestrictionCause": {
+			"EVENT": "Event",
+			"PAVING": "Paving",
+			"BRIDGE_OVERPASS_CONSTRUCTION": "Bridge/overpass construction",
+			"UTILITY_COMS_CONSTRUCTION": "Utility/communications construction",
+			"SIDEWALK_CONSTRUCTION": "Sidewalk construction",
+			"CONSTRUCTION": "Construction",
+			"GRAVEL_ROAD_REPAIRS": "Gravel road repairs",
+			"CULVERT_REPAIRS": "Culvert repairs",
+			"ROAD_SURFACE_MARKING": "Road surface marking",
+			"BARRIER_WORKS": "Barrier works",
+			"GEOLOGICAL_STUDIES": "Geological studies",
+			"STORAGE_OF_MATERIALS": "Storage of materials",
+			"OTHER": "Other"
+		},
+		"RestrictionType": {
+			"GROSS_VEHICLE_WEIGHT_LIMIT": "Gross vehicle weight limit",
+			"WEIGHT_LIMIT": "Weight limit",
+			"SEMI_TRAILER_WEIGHT_LIMIT": "Articulated lorry weight limit",
+			"AXLE_LOAD_LIMIT": "Axle load limit",
+			"UNDERCARRIAGE_LOAD_LIMIT": "Undercarriage load limit",
+			"HEIGHT_LIMIT": "Height limit",
+			"WIDTH_LIMIT": "Width limit"
+		},
+		"RoadStatus": {
+			"FROST": "frost",
+			"ICE": "ice",
+			"DRY": "dry",
+			"SNOWY": "snow",
+			"SLUSH": "slush",
+			"WET": "wet",
+			"NB_FROST": "NB! frost",
+			"NB_ICE": "NB! ice",
+			"NB_SNOW": "NB! snow",
+			"NB_WET": "NB! wet",
+			"NB_MOIST": "NB! moist",
+			"NB_MOIST_AND_CHEMICAL": "NB! moist, salted",
+			"MOIST": "moist",
+			"WET_AND_CHEMICAL": "wet, salted",
+			"MOIST_AND_CHEMICAL": "moist, salted"
+		},
+		"PrecipitationType": {
+			"NO_PRECIPITATION": "no precipitation",
+			"RAIN": "rain",
+			"SNOW": "snow",
+			"SLEET": "sleet",
+			"BLIZZARD": "blizzard",
+			"HAIL": "hail",
+			"TYPE_UNKNOWN": "type unknown"
+		},
+		"HOSISWorkType": {
+			"T1001_UNMARKED_OBJECT": "Unmarked vehicle / object",
+			"T1003_TRAFFIC_RESTRICTION": "Traffic obstruction",
+			"T1005_TREE": "Tree on road",
+			"T1007_ROADKILL": "Roadkill",
+			"T1014_FLOOD": "Flooding",
+			"T1016_ROADKILL_LARGE": "Large roadkill"
+		},
+		"RoadType": {
+			"MAIN_ROAD": "Main road",
+			"BASIC_ROAD": "Basic road",
+			"SECONDARY_ROAD": "Secondary road",
+			"CONNECTING_ROAD": "Connecting road",
+			"LOCAL_ROAD": "Local road"
+		},
+		"BikewayType": {
+			"1": "bikeway",
+			"2": "sidewalk",
+			"3": "shared-use bikeway"
+		},
+		"Position": {
+			"VASAKUL": "left",
+			"PAREMAL": "right"
+		},
+		"Direction": {
+			"1": "forwards",
+			"2": "backwards",
+			"3": "both directions"
+		},
+		"ServiceLevelsWinter": {
+			"1": "Winter condition level 1 (low) - de-icing is conducted, but roads might not be free of snow and ice. Snow control is conducted within at most 24 hours after a snowfall or blizzard. De-icing is conducted within at most 12 hours after ice has formed.",
+			"11": "Winter condition level 1 (low), hazardous section - de-icing is conducted, but roads might not be free of snow and ice. Snow control is conducted within at most 24 hours after a snowfall or blizzard. De-icing is conducted within at most 12 hours after ice has formed.",
+			"2": "Winter condition level 2 (medium) - de-icing is conducted, but roads might not be free of snow and ice. Snow control is conducted within at most 12 hours after a snowfall or blizzard. De-icing is conducted within at most 8 hours after ice has formed.",
+			"3": "Winter condition level 3 (high) - the surface of the road or at least the tire tracks are free of snow and ice. Snow control is conducted within at most 5 hours after a snowfall or blizzard. De-icing is conducted within at most 4 hours after ice has formed. Preventive de-icing is conducted if it is likely, based on weather forecast or other data, that the coefficient of friction will fall below the required level.",
+			"31": "Winter condition level 3+ (high) - the road surface or at least the tire tracks are free of snow and ice. Snow control is conducted within at most 5 hours after a snowfall or blizzard. De-icing is conducted within at most 2 hours after ice has formed. Preventive de-icing is conducted if it is likely, based on weather forecast or other data, that the coefficient of friction will fall below the required level.",
+			"4": "Winter condition level 4 (motorway) - the road surface is free of snow and ice. Snow control is conducted within at most 2 hours after a snowfall or blizzard. De-icing is conducted within at most 2 hours after ice has formed. Preventive de-icing is conducted if it is likely, based on weather forecast or other data, that the coefficient of friction will fall below the required level."
+		},
+		"ServiceLevelsSummer": {
+			"11": "Paved road condition level 1",
+			"12": "Paved road condition level 2",
+			"13": "Paved road condition level 3",
+			"14": "Paved road condition level 4",
+			"21": "Gravel road condition level 1",
+			"22": "Gravel road condition level 2",
+			"23": "Gravel road condition level 3",
+			"24": "Gravel road condition level 4"
+		},
+		"WazeType": {
+			"JAM_LIGHT_TRAFFIC": "light traffic",
+			"JAM_MODERATE_TRAFFIC": "moderate traffic",
+			"JAM_HEAVY_TRAFFIC": "heavy traffic",
+			"JAM_STAND_STILL_TRAFFIC": "standstill traffic",
+			"HAZARD_ON_ROAD_OBJECT": "object on road",
+			"HAZARD_ON_ROAD_POT_HOLE": "pothole",
+			"HAZARD_WEATHER_FOG": "fog",
+			"HAZARD_WEATHER_HEAVY_SNOW": "heavy snow",
+			"HAZARD_WEATHER_FREEZING_RAIN": "freezing rain",
+			"HAZARD_ON_ROAD_OIL": "oil on road",
+			"HAZARD_ON_ROAD_CAR_STOPPED": "car stopped on road"
+		},
+		"DatexService": {
+			"RESTRICTIONS": "Traffic restrictions",
+			"SAFETY": "Road safety data",
+			"CAMERA_LOCATIONS": "Locations of road cameras",
+			"CAMERA_IMAGES": "Road camera shots",
+			"MEASUREMENT_SITES": "Locations of measurement points",
+			"TRAFFIC": "Traffic load",
+			"WEATHER": "Weather conditions",
+			"PARKING_SITES": "Truck Parking",
+			"VMS_STATIC_DATA": "Variable message sign (VMS) locations",
+			"VMS_OPERATIVE_DATA": "Variable message signs (VMS)"
+		},
+		"Source": {
+			"S1_EMERGENCY_RESPONCE_CENTRE": "112",
+			"S2_ENVIRONMENTAL_INSPECTORATE": "Estonian Environmental Inspectorate",
+			"S3_MAINTENANCE_PROVICER": "Road maintenance provider",
+			"S4_ROAD_USER": "Road user"
+		},
+		"Equipment": {
+			"toilet": "WC",
+			"shower": "shower",
+			"internetWireless": "Wi-Fi",
+			"iceFreeScaffold": "ice-free scaffolding",
+			"none": "none",
+			"unknown": "unknown",
+			"other": "other"
+		},
+		"Facilities": {
+			"hotel": "hotel",
+			"motel": "motel",
+			"shop": "shop",
+			"restaurant": "restaurant",
+			"petrolStation": "petrol station",
+			"unknown": "unknown",
+			"other": "other"
+		},
+		"EsriMapError": {
+			"webgl:required": "Your device does not support WebGL."
+		}
+	},
+	"map_info_window": {
+		"common":{
+			"Road": "Road",
+			"Location": "Location (km)",
+			"Validity_period": "Validity period",
+			"Cause": "Cause",
+			"Extra_info": "Additional information",
+			"Diagrams": "Diagrams",
+			"Measurement_time": "Measurement time",
+			"Validity_starts_in": "The restriction will take effect in {{days}} days."
+		},
+		"road_restriction": {
+			"Restriction": "Restriction",
+			"Contact": "Contact"
+		},
+		"restrictions_tallinn": {
+			"Address": "Address",
+			"Roadworks_name": "Roadworks name",
+			"Proceeding_url": "Reference to a more detailed description",
+			"Work_type": "Work type",
+			"Work_description": "Work description"
+		},
+		"detours": {
+			"Detour_description": "Detour description",
+			"Detour_duration": "Detour duration",
+			"Related_restriction_link": "Link to related restriction",
+			"Related_restriction_link_text": "View related restriction"
+		},
+		"restriction_limits": {
+			"Restriction": "Restriction",
+			"Height_restriction": "Height restriction",
+			"Width_restriction": "Width restriction",
+			"Permit": "Permits for driving on the restricted road can be requested at the Transport Administration <a target='_blank' href='{{url}}'>website</a>"
+		},
+		"road_weather_station": {
+			"Weather_station_name": "Weather station name",
+			"Road_status": "Road status",
+			"Road_temperature": "Road temperature",
+			"Air_temperature": "Air temperature",
+			"Precipitation_type": "Precipitation type",
+			"Precipitation_intensity": "Precipitation intensity",
+			"Wind_dir_speed": "Wind direction and speed",
+			"Air_humidity": "Humidity",
+			"Visibility": "Visibility",
+      "Grip_factor": "Grip factor"
+		},
+		"road_cameras": {
+			"Road_camera_name": "Road camera",
+			"Image_time": "Time",
+			"Closest_weather_station": "Nearest road weather station data",
+			"Weather_time": "Weather data time"
+		},
+		"ice_roads": {
+			"Road_name": "Road name",
+			"Allowed_weight": "Allowed weight",
+			"Road_length": "Road length",
+			"Contact": "Contact",
+			"Currently_open": "Currently open",
+			"Closed_at": " until ",
+			"Currently_closed": "Currently closed",
+			"Opened_at": ", opens at ",
+			"Temporarily_closed": "Temporarily closed",
+			"Modified_at": "Data last changed"
+		},
+		"opinfo": {
+			"Location": "Location",
+			"RoadNr": "Road no.",
+			"Km": "km",
+			"Situation": "Situation",
+			"Report_time": "Report time",
+			"Accident": "Traffic accident",
+			"Source": "Source",
+			"Importance": {
+				"M": "Traffic accident",
+				"H": "Major traffic accident"
+			}
+		},
+		"traffic_detectors": {
+			"Road": "Road",
+			"Traffic_counter_name": "Traffic counter",
+			"Forwards": "Forwards",
+			"Backwards": "Backwards",
+			"Total_flow": "Traffic flow",
+			"Average_speed": "Average speed",
+			"Heavy_traffic": "Heavy traffic percentage"
+		},
+		"altered_speed_limit": {
+			"Speed_limit": "Speed limit",
+			"Effective_date": "Implementation date"
+		},
+		"waze": {
+			"Type": "Alert",
+			"Published_at": "Reported at"
+		},
+		"roads" : {
+			"Road_type": "Type"
+		},
+		"tr_bikeways": {
+			"Road_type": "Type",
+			"Position": "Position"
+		},
+		"service_levels": {
+			"Description": "Description"
+		},
+		"maintenance_contractors": {
+			"Road_maintenance_provider": "Road maintenance contractor"
+		},
+		"speed_cameras": {
+			"Location": "Location",
+			"Speed_camera_name": "Speed camera",
+			"Speed_limit": "Speed limit",
+			"Measurement_direction": "Measurement direction"
+		},
+		"bridges": {
+			"Bridge_name": "Bridge name",
+			"Construction_year": "Construction year",
+			"Nominal_load": "Nominal load",
+			"Number_of_spans": "Number of spans",
+			"Span_lengths": "Span lengths"
+		},
+		"percostations": {
+			"Percostation_name": "Measurement point",
+			"Frost_limit": "Frost limit",
+			"Temperature_20cm": "Temperature 20 cm deep",
+			"Temperature_50cm": "Temperature 50 cm deep"
+		},
+		"parking_data": {
+			"Site_name": "Parking",
+			"Number_of_spaces": "Spaces (trucks)",
+			"Equipment_and_facilities": "Services",
+			"Contact_email": "E-mail",
+			"Contact_phone": "Phone",
+			"Road_info": "Highway",
+			"Has_parking_fee": "Parking is not free"
+		},
+		"vms_traffic_signs": {
+			"Speed_limit": "Speed limit",
+			"Speed_limit_changed_at": "Speed limit last changed",
+			"Warning_changed_at": "Warning last changed",
+			"Data_retrieved_at": "Last checked"
+		}
+	},
+	"map_layer_sections": {
+		"predefined": "Pre-selections",
+		"layers": "Map layers"
+	},
+	"map_layer_groups": {
+		"restrictions_traffic": "Traffic restrictions",
+		"restrictions_size": "Weight and size restrictions",
+		"road_conditions": "Road conditions",
+		"traffic_info": "Traffic information",
+		"road_register": "Road register",
+		"truck_roads": "Transportation routes",
+    "restrictions_driving": "Driving prohibitions"
+	},
+	"map_layers": {
+		"restrictions_traffic": "Traffic restrictions",
+		"restrictions_tallinn": "Traffic restrictions in Tallinn",
+		"detours": "Detours",
+    "emergency_events": "Emergency closures",
+		"restrictions_mass": "Weight restrictions",
+		"restrictions_height": "Height restrictions",
+		"restrictions_width": "Width restriction < 4m",
+		"road_weather_stations": "Road weather stations",
+		"road_cameras": "Road cameras",
+		"ice_roads": "Ice roads",
+		"operative_info": "Operational information",
+		"traffic_detectors": "Traffic volume",
+		"restrictions_increased_speed": "Increased speed limits",
+		"waze": "Waze incidents",
+		"roads": "State roads",
+		"bikeways": "Bicycle paths and walkways",
+		"kilometer_points": "Kilometer points",
+		"service_levels_summer": "Service levels",
+		"service_levels_winter": "Service levels",
+		"maintenance_contractors": "Maintenance contractors",
+		"bridges": "Bridges",
+		"speed_cameras": "Speed cameras",
+		"truck_roads": "48/52 t transportation routes",
+		"truck_roads_60t": "60 t transportation routes",
+		"truck_roads_80t": "80 t transportation routes",
+		"truck_roads_25m": "25,25 m transportation routes",
+		"truck_roads_winter": "Winter transportation routes",
+		"percostations": "Road structure temperatures",
+		"bridges_weak": "Bridges unsuitable for overweight vehicles",
+		"parking_data": "Truck parking",
+		"vms_traffic_signs": "Variable message signs",
+    "restrictions_driving_all_vehicles": "All vehicles prohibited",
+    "restrictions_driving_all_motor_vehicles": "Motor vehicles prohibited",
+    "restrictions_driving_tractor": "Tractors prohibited",
+    "restrictions_driving_moped":  "Mopeds and moped cars prohibited",
+    "restrictions_driving_dangerous_goods": "Hazardous goods prohibited",
+    "road_surfaces":"Secondary road surfaces"
+	},
+	"map_layers_predefined": {
+		"restrictions_traffic": "Traffic restrictions",
+		"restrictions_size": "Mass and size restrictions",
+		"road_conditions": "Road conditions"
+	},
+	"map_layers_legend": {
+		"restrictions_traffic": {
+			"0": "Full road closure",
+			"1": "Road works",
+			"2": "Surfacing",
+			"3": "Events and other restrictions",
+			"4": "Marking works or surveying",
+			"5": "Only restrictions on state roads are displayed"
+		},
+		"restrictions_tallinn": {
+			"0": "Traffic restrictions in Tallinn",
+			"1": "Restrictions are available in more detail at the <a target='_blank' href='https://opinfo.tallinn.ee/kaart?m=108'>operational information website of Tallinn</a>"
+		},
+		"detours": {
+			"0": "Detours"
+		},
+    "emergency_events": {
+      "0": "Emergency closure"
+    },
+		"restrictions_mass": {
+			"0": "Mass restrictions",
+			"1": "All restrictions on state roads and certain restrictions on municipal roads are displayed"
+		},
+		"restrictions_height": {
+			"0": "Height restrictions",
+			"1": "Only restrictions on state roads are displayed"
+		},
+		"restrictions_width": {
+			"0": "Width restrictions",
+			"1": "Only restrictions on state roads are displayed"
+		},
+		"road_weather_stations": {
+			"0": "Very difficult road conditions",
+			"1": "Difficult road conditions",
+			"2": "Wet road surface",
+			"3": "Partial data or older than one hour",
+			"4": "Data older than 2 hours",
+			"5": "Good road conditions",
+			"6": "Icon on the road weather information system displays road surface temperature"
+		},
+		"road_cameras": {
+			"0": "Road camera",
+			"1": "Road camera (picture outdated)"
+		},
+		"ice_roads": {
+			"0": "Currently open ice roads",
+			"1": "Currently closed ice roads",
+			"2": "Temporarily closed ice road",
+			"3": "Information about ice roads is updated every morning"
+		},
+		"operative_info": {
+			"0": "Traffic obstructions",
+			"1": "Traffic accidents",
+			"2": "Significant traffic obstructions",
+			"3": "Operational information layer displays notifications received from the Emergency Centre and road users in regard to hindrances, accidents, etc. on roads."
+		},
+		"traffic_detectors": {
+			"0": "Smooth traffic",
+			"1": "Slow traffic",
+			"2": "Very slow traffic",
+			"3": "No data",
+			"4": "Traffic volume layer displays the measuring results of the last 15 minutes."
+		},
+		"restrictions_increased_speed": {
+			"0": "Sections with increased speed limit"
+		},
+		"waze": {
+			"0": "Traffic jam",
+			"1": "Hazard on road",
+			"2": "Weather hazard",
+			"3": "Data provided by Waze App. Learn more at <a target='_blank' href='https://www.waze.com/'>Waze.com</a>."
+		},
+		"roads": {
+			"0": "Main roads",
+			"1": "Basic roads",
+			"2": "Paved secondary roads",
+			"3": "Unpaved secondary roads",
+			"4": "Connecting roads",
+			"5": "Numbered roads maintained by the local government"
+		},
+		"bikeways": {
+			"0": "Bicycle paths and walkways"
+		},
+		"kilometer_points": {
+			"0": "Kilometer points",
+			"1": "Kilometre marks appear only when zoomed in"
+		},
+		"service_levels_summer": {
+			"0": "Paved road condition level 1",
+			"1": "Paved road condition level 2",
+			"2": "Paved road condition level 3",
+			"3": "Paved road condition level 4",
+			"4": "Gravel road condition level 1",
+			"5": "Gravel road condition level 2",
+			"6": "Gravel road condition level 3",
+			"7": "Gravel road condition level 4"
+		},
+		"service_levels_winter": {
+			"0": "Condition level 1 - hazardous section (low)",
+			"1": "Condition level 1 (low)",
+			"2": "Condition level 2 (medium)",
+			"3": "Condition level 3 (high)",
+			"4": "Condition level 3+ (high)",
+			"5": "Additional information can be found on the <a target='_blank' href='https://www.mnt.ee/eng/roads/road-maintenance/road-maintenance-winter'>Transport Administration website</a>"
+		},
+		"maintenance_contractors": {
+			"0": "Road maintenance providers for state roads",
+			"1": "Different maintenance regions are marked with different colours."
+		},
+		"bridges": {
+			"0": "Bridges and tunnels on state roads"
+		},
+		"speed_cameras": {
+			"0": "Speed cameras"
+		},
+		"truck_roads": {
+			"0": "48/52 t transportation routes",
+			"1": "Road network authorised for use by heavy vehicles of up to 52 t on the basis of a long-term special permit."
+		},
+		"truck_roads_60t": {
+			"0": "60 t transportation routes"
+		},
+		"truck_roads_80t": {
+			"0": "80 t transportation routes"
+		},
+		"truck_roads_25m": {
+			"0": "25,25 m transportation routes"
+		},
+		"truck_roads_winter": {
+			"0": "Winter transportation routes",
+			"1": "Road network authorised for use by heavy vehicles of up to 52 t for wintertime transport of roundwood (temperature of the road construction is < -1°C at the depth of 20 cm and <-0,5°C at the depth of 50 cm)."
+		},
+		"percostations": {
+			"0": "Measuring points of road construction temperatures"
+		},
+		"bridges_weak": {
+			"0": "Bridges unsuitable for overweight vehicles"
+		},
+		"parking_data": {
+			"0": "Truck parking"
+		},
+		"vms_traffic_signs": {
+			"0": "Warning, speed limit and direction",
+			"1": "No recent data"
+		},
+    "restrictions_driving_all_vehicles": {
+      "0": "Traffic sign 311a"
+    },
+    "restrictions_driving_all_motor_vehicles": {
+      "0": "Traffic sign 312"
+    },
+    "restrictions_driving_tractor": {
+      "0": "Traffic sign 316"
+    },
+    "restrictions_driving_moped": {
+      "0": "Traffic sign 322"
+    },
+    "restrictions_driving_dangerous_goods": {
+      "0": "Traffic sign 319"
+    },
+    "road_surfaces": {
+      "0": "Paved roads",
+      "1": "Unpaved roads"
+    }
+	},
+	"terms": {
+		"title": "Terms of Use of the Smart Road DATEX II data gateway of Estonian Transport Administration",
+		"1.": "Definitions used",
+		"1.1": "“Service” – the Smart Road DATEX II data gateway provided by Estonian Transport Administration to the public with the purpose of transmitting information about traffic restrictions and conditions.",
+		"1.2": "“Administrator” – Estonian Transport Administration.",
+		"1.3": "“User” – a person using the Service.",
+		"list": {
+			"2": {
+				"title": "General provisions",
+				"2.1": "The Service is allowed to be used only if the Terms of Use have been accepted. Upon using the Service, the User exclusively agrees with all Terms of Use.",
+				"2.2": "The processing of data available through the Service (including viewing, modifying, deleting, downloading) in any manner or for any purpose is considered as the use of the Service.",
+				"2.3": "The Smart Road DATEX II data gateway is available at ",
+				"2.4": "Registration is required to access the Service, and after successful registration, the User will receive a unique API key, which should be used to access the DATEX II services. The API key will only become valid once the Administrator has reviewed the User’s registration. A corresponding email is sent to confirm this to the email address indicated in the registration form.",
+				"2.5": "The registration form requires the following information: name of the establishment (compulsory), registry code of the establishment (optional), given name (compulsory), surname (compulsory), email address (compulsory), purpose of registration (compulsory), and comments (optional).",
+				"2.6": "Upon using the Service, it is prohibited to engage in any activities that interfere with or prevent the provision of the Services to the Administrator’s customers, or may do so."
+			},
+			"3": {
+				"title": "User’s rights and obligations",
+				"3.1": "The User has the right to use the Service in accordance with the Terms of Use of the Service.",
+				"3.2": "Upon using the Service, the User is obligated to comply with all applicable laws, legislation regulating the protection of intellectual property, and good practice.",
+				"3.3": "The User is obligated to keep the identifiers required for logging into the Service a secret. Any potential damage arising from the use of the Service by means of the User’s identifiers that have ended up in the possession of a Third Party due to the User’s own act/omission is the liability of the User.",
+				"3.4": "It is compulsory to refer to or make hyperlinks for the Service and the Administrator, but these should not give false, misleading or disparaging information about the Service and the Administrator, or distort the transmission of the Service."
+			},
+			"4": {
+				"title": "Administrator’s rights and liability",
+				"4.1": "The Administrator has the right to restrict the User’s access to the Service if the User violates these Terms of Use, or if the Administrator has a reasonable suspicion that the Terms of Use have been violated, or if the User uses the Service in a malicious, unreasonable or unintended manner.",
+				"4.2": "The Administrator has the right to temporarily interrupt access to the Service if this is required for technical modifications, updates, maintenance or cybercrime control.",
+				"4.3": "The Administrator is not liable for any damage, including loss of income, arising from the restriction or interruption of access to the Service, or upgrades thereof, under the these Terms of Use.",
+				"4.4": "The Administrator has the right to unilaterally modify the Terms of Use and other instructions available through the Service. The modified Terms of Use will be published on the website of the Smart Road DATEX II data gateway, and these will become valid from the moment these are published on the website. No User is individually notified of the modification of the Terms of Use.",
+				"4.5": "The Administrator is not liable for the accuracy, timeliness, and availability of information distributed through the data gateway."
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+GET https://api-cdn.mypurecloud.com.au/webdeployments/v1/deployments/8a8ad8a8-ec56-4909-9c62-318ec9162c43/en-us.json
+content-type: application/json
+
+{"language":"en-us","messenger":{"home":{"headerTitle":"Need help to find information on our website?","headerSubTitle":"Call 138 138 and our team will support you to activate our co-browse service "}}}

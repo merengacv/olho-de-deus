@@ -1,0 +1,2119 @@
+GET https://www.trafficwatchni.com/twni/
+content-type: text/html;charset=utf-8
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <head>
+
+        <title>TrafficWatchNI - Home</title>
+
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10">
+        <script src="/twni/javascript/js-cookie/js.cookie-[CHAVE].js"></script>
+
+        <!-- Google Analytics now using Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-069FVZSKG2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'G-069FVZSKG2');
+		</script>       
+        <!-- End Google Analytics -->
+
+        <link href="/twni/css/fontawesome-all.min-[CHAVE].css" rel="stylesheet"/>
+        <link href="/twni/javascript/bootstrap/bootstrap.min-[CHAVE].css" rel="stylesheet" />
+
+        <script src="/twni/javascript/jquery/jquery-3.7.1.min-[CHAVE].js"></script>
+        <script src="/twni/javascript/bootstrap/popper.min-[CHAVE].js"></script>
+        <script src="/twni/javascript/bootstrap/bootstrap.min-[CHAVE].js"></script>
+        <script src="/twni/javascript/twni/cookie_header-[CHAVE].js"></script>
+        <link href="/twni/css/twni-[CHAVE].css" rel="stylesheet" />
+        <meta name="_csrf" content="DGWeBYQ4qgR5apNCX6SeMgoZ-mn8CY1922vbSQzeEPoJ_1AGOgP8NrMNnGJUDPIka4mqBT0h11GdPLRQ7gm4cT_odZs8mTY1"/>
+		<meta name="_csrf_header" content="X-CSRF-TOKEN"/>
+		<!--Check if the requestURI is 'emailsubscription'-->
+		<script>
+		
+			var requestURI = "\/twni\/";
+			var fullURL = "https:\/\/www.trafficwatchni.com\/twni\/";
+
+		    if(requestURI.endsWith("/emailsubscription") || requestURI.endsWith("/emailsubscription/")){
+		    	var recaptchaSiteKey = "6LdKq5gpAAAAAIVj7i4ttbruBRo-q1r_feBgKWW1";
+		    	script = document.createElement('script');
+		    	script.src = 'https://www.google.com/recaptcha/api.js?render=' + recaptchaSiteKey;
+		    	document.head.appendChild(script);
+		    }
+
+		</script>
+    </head>
+    <head>
+<link href="/twni/css/twni-map-[CHAVE].css" rel="stylesheet" />
+<link href="/twni/javascript/bootstrap-select/bootstrap-multiselect.css" />
+<script type="text/javascript" src="/twni/javascript/bootstrap-multiselect/bootstrap-multiselect-[CHAVE].js"></script>
+<script type="text/javascript" src="/twni/javascript/twni/template-[CHAVE].js"></script>
+<script type="text/javascript" src="/twni/javascript/twni/map-[CHAVE].js"></script>
+<script type="text/javascript" src="/twni/javascript/vendor/googlemaps/markerclusterer.min-[CHAVE].js"></script>
+</head>
+    <script src="/twni/javascript/twni/index-[CHAVE].js"></script>
+</head>
+<body>
+    <header>
+        <div>
+	<div id="cookie-header" class="cookie-header p-3 d-none"  >
+		<div class="h3">Cookies on the TrafficwatchNI website</div>
+		<p>
+			This website places small amounts of information known as cookies on
+			your device.
+		</p>
+
+		<a href="/twni/cookies">
+			<button id="btn-cookie-learn" class="btn btn-primary-cookies m-1">Learn More</button>
+		</a>
+
+		<button id="btn-cookie-accept" class="btn btn-info-cookies m-1">Accept</button>
+
+		<button id="btn-cookie-deny" class="btn btn-info-cookies m-1 ">Deny</button>
+	</div>
+
+	<div id="cookie-alternate-header" class="cookie-header p-3 d-none"  >
+		<div class="h3">Cookies on the TrafficwatchNI website</div>
+		<p>
+			This website places small amounts of information known as cookies on
+			your device.
+		</p>
+
+		<button id="btn-cookie-give-consent" class="btn btn-info-cookies m-1 d-none">Give Consent</button>
+
+		<button id="btn-cookie-remove-consent" class="btn btn-info-cookies-improved m-1 d-none">Remove Consent</button>
+
+	</div>
+
+	<!-- Empty Bootstrap Modal used to grey-out background when user has not accepted cookies -->
+	<div class="modal" id="cookieModal" data-bs-backdrop="static" data-bs-keyboard="false" data-bs-focus="false" style="height: 0; width: 0">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			</div>
+		</div>
+	</div>
+
+</div>
+
+        <nav class="navbar navbar-expand-xl navbar-light bg-light" role="navigation">
+
+            <a accesskey="1" class="navbar-brand" href="/twni/" aria-label="Traffic Watch Northern Ireland logo">
+                <img src="/twni/images/common/logo-twni.png" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item active"><a id="navigation_homeLink"
+                        class="nav-link d-flex flex-xl-column align-items-center" href="/twni/index"> <i class="fas fa-home px-2 px-xl-0"
+                            aria-hidden="true"></i> <span>Home</span></a></li>
+
+                    <li class="nav-item"><a id="navigation_trafficNewsLink"
+                        class="nav-link d-flex flex-xl-column align-items-center" href="/twni/traffic-news"> <i class="fas fa-road px-2 px-xl-0"
+                            aria-hidden="true"></i> <span>Traffic News</span>
+                    </a></li>
+
+                    
+
+                    <li class="nav-item"><a class="nav-link d-flex flex-xl-column align-items-center"
+                        href="/twni/strangford-lough-ferry"><i class="fas fa-ship px-2 px-xl-0" aria-hidden="true"></i><span>Strangford Lough Ferry</span></a></li>
+
+                    <li class="nav-item"><a
+                        class="nav-link d-flex flex-xl-column align-items-center" href="/twni/roadworks"><i class="twni-icon twni-roadwork px-2 px-xl-0"
+                            aria-hidden="true"></i><span>Roadworks</span></a></li>
+
+                    <li class="nav-item"><a class="nav-link d-flex flex-xl-column align-items-center"
+                        href="/twni/cameras"> <i class="fas fa-camera px-2 px-xl-0" aria-hidden="true"></i> <span>Cameras</span></a></li>
+
+                    <li class="nav-item"><a
+                        class="nav-link d-flex flex-xl-column align-items-center" href="/twni/journeytime"><i class="fas fa-stopwatch px-2 px-xl-0"
+                            aria-hidden="true"></i><span>Journey Times</span></a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-xl-column align-items-center" href="https://www.nidirect.gov.uk/information-and-services/travel-transport-and-roads/problems-roads-and-streets" target="_blank">
+                            <i class="fas fa-wrench px-2 px-xl-0" aria-hidden="true"></i><span>Report a Fault</span>
+                        </a>
+                    </li>
+
+                    <!--<li class="nav-item" th:classappend="${page == 'Weather'} ? 'active' : ''">
+                        <a class="nav-link d-flex flex-xl-column align-items-center" th:href="@{/weather}">
+                            <i class="fas fa-cloud px-2 px-xl-0" aria-hidden="true"></i><span>Weather Stations</span>
+                        </a>
+                    </li>-->
+
+                    <li class="nav-item dropdown"><a
+                        class="nav-link d-flex flex-xl-column align-items-center" id="navbarDropdown" data-bs-toggle="dropdown"><i
+                            class="fas fa-question-circle px-2 px-xl-0" aria-hidden="true"></i><span class="dropdown-toggle" aria-haspopup="true">About</span></a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" aria-expanded="false">
+                            <a class="dropdown-item" href="/twni/about-twni">About Traffic Watch NI</a> <a class="dropdown-item"
+                                href="/twni/traffic-info-and-control-centre">Traffic Information and Control Centre</a> <a class="dropdown-item"
+                                href="/twni/intelligent-transport-systems-its">Intelligent Transport Systems (ITS)</a> <a class="dropdown-item"
+                                href="/twni/managing-the-network">Managing the Network</a> <a class="dropdown-item"
+                                href="/twni/traffic-and-travel-information">Traffic and Travel Information</a> <a class="dropdown-item"
+                                href="/twni/liaison-with-others">Liaison with Others</a>
+                        </div></li>
+                </ul>
+
+                <div class="navbar-right">
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+	                        <a href="https://www.infrastructure-ni.gov.uk/"><img class="dfi-logo"
+	                        src="/twni/images/common/logo-infrastructure-ni-[CHAVE].png" alt="Department for Infrastructure" /></a>
+                        </div>
+                    </div>
+                    <div class="row mt-3 navbar-social-media">
+                        <div class="col-sm-3 col-xl-6 navbar-social-media-icon"></div>
+						<div class="col-sm-2 navbar-social-media-icon">
+						<a href="/twni/emailsubscription"
+							title="Subscribe to email alerts"
+							aria-label="Subscribe to email alerts"><i
+							class="fas fa-2x fa-envelope" aria-hidden="true"></i></a></div>
+                        <div class="col-sm-2 navbar-social-media-icon">
+							<a
+							href="/twni/rss-faqs" title="RSS feeds" aria-label="RSS feeds"><i
+							class="fa fa-2x fa-rss ps-1" aria-hidden="true"></i></a>
+						</div>
+                        <div class="col-sm-2 navbar-social-media-icon" style="display: flex; justify-content: center; align-items: center;">
+                            <a href="https://twitter.com/TrafficWatchNI" target="_blank"
+                                title="Traffic Watch Northern Ireland on X"
+                                aria-label="Traffic Watch Northern Ireland on X" class="twitter-social-media-link">
+                                    <img src="/twni/images/common/twitter-logo-black.png" alt="Twitter Logo" class="twitter-social-media-icon" />
+                            </a>
+                        </div> 
+						<div class="col-sm-3 d-xl-none navbar-social-media-icon"></div>
+					</div>
+					</div>
+                </div>
+        </nav>
+
+        
+    </header>
+    <div id="content" name="content" class="container-fluid" role="main">
+        <div id="scrollableDiv">
+            <ul class="nav nav-tabs" role="tablist">
+
+                <li class="nav-item d-lg-none" role="tab"><a id="tab-traffic-news" class="nav-link active" href="#traffic-news" data-bs-toggle="tab" role="tab">Traffic News</a></li>
+
+                <li class="nav-item d-lg-none" role="tab"><a id="tab-traffic-map" class="nav-link" href="#traffic-map" data-bs-toggle="tab" role="tab">Map</a></li>
+
+            </ul>
+            <div id="index-tabs" class="tab-content d-lg-flex">
+
+                <h1 class="visually-hidden">Map</h1>
+                <div id="traffic-news" class="tab-pane fade show active col-lg-4 h-100 pe-0">
+                    <div style="overflow-y: scroll;" class="w-100 h-100 pb-3 pe-3" tabindex="0">
+                        
+                        
+                        
+                        
+                        <div id="incidents"></div>
+
+                        <div class="d-flex align-items-start mt-3">
+                            <h2>Traffic News</h2>
+                            <label class="custom-switch ms-auto" data-bs-toggle="expand" data-bs-target="#news">
+                                <input type="checkbox" />
+                                <span class="custom-switch-slider"></span> <span class="visually-hidden">Toggle all traffic news</span>
+                            </label>
+                        </div>
+                        <div id="news"><div>
+        <div class="card">
+            <div id="card-19621354" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621354">
+                    <span class="me-2">
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"></span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">General Traffic News</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621354" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">14/10/2026 03:03:11</span>
+                        </div>
+                        <div class="underline-content"><p>Currently no unusual delays or incidents to report.</p></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                
+                                
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621354" data-a2a-title="trafficwatchNI - General Traffic News">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621355" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621355">
+                    <span class="me-2">
+
+        
+
+        
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"><strong class="twni-icon-content text-body"><span
+                class="d-inline-block" style="font-size: 140%; line-height: 0; padding-top: 45%">!</span></strong>
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Belfast Gt Victoria St Road Closures Oct 2026</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621355" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">14/10/2026 03:03:11</span>
+                        </div>
+                        <div class="underline-content"><p>As part of ongoing public realm improvements for Belfast Grand Central Station, we will have overnight road closures in place on Great Victoria Street week commencing Monday 12<sup>th</sup> October, details below:</p><br /><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><ul><li>The <strong>southbound closure</strong> of Great Victoria Street between Howard Street and Bruce Street <strong>from 7pm on Monday 12</strong><sup><strong>th</strong></sup><strong> October to 6am on Tuesday 13</strong><sup><strong>th</strong></sup><strong> October.</strong> Diversionary routes will be in place (see the attached traffic management plans). The northbound lanes will remain operational.</li></ul><br /><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><ul><li>The <strong>northbound closure</strong> of Great Victoria Street between Bruce Street and Howard Street <strong>each night</strong> from <strong>Tuesday 13</strong><sup><strong>th</strong></sup><strong> October up to and including Friday 16</strong><sup><strong>th</strong></sup><strong> October</strong> from <strong>7pm to 6am the following morning. </strong>Diversionary routes will be in place. (see the attached traffic management plans). The lanes will be reopened each day (6am to 7pm)<strong>. </strong>The southbound lanes will remain operational throughout.</li></ul><p><strong> </strong></p><br /></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                
+                                
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621355" data-a2a-title="trafficwatchNI - Belfast Gt Victoria St Road Closures Oct 2026">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621363" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621363">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"><strong class="twni-icon-content text-body"><i
+                class="twni-icon twni-roadwork" aria-hidden="true"></i></strong>
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Sandy Row Overnight Works 21-23 Oct</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621363" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">07/10/2026 17:34:57</span>
+                        </div>
+                        <div class="underline-content"><p>As part of ongoing public realm improvements for Belfast Grand Central Station, we will have<strong> overnight road closures</strong> in place at the junction of Sandy Row/Hope Street/Boyne Bridge Place and Linfield Road each night of <strong>Wednesday, Thursday and Friday (21/22/23 October 2026)</strong> between <strong>7pm and 6am</strong> to complete manhole and gully works.</p><p><br /></p><p>Wednesday 21<sup>st</sup> October – No access to or from Sandy Row through the junction with Hope Street/Linfield Road and Boyne Bridge Place. No northbound access to Boyne Bridge Place. There will be southbound access from Boyne Bridge Place heading east onto Hope Street <strong>only</strong>.</p><p><br /></p><p>Thursday 22<sup>nd</sup> and Friday 23<sup>rd</sup> October – complete closure of the junction to and from Boyne Bridge Place, Hope Street, Sandy Row and Linfield Road.</p><p><br /></p><p></p><ul><li>Works to take place between 7pm and 6am on Wednesday/Thursday and Friday nights</li><li>Local residents’ access will be maintained at all times,</li><li>The roads will reopen at 6am each day </li></ul></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                
+                                
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621363" data-a2a-title="trafficwatchNI - Sandy Row Overnight Works 21-23 Oct">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621284" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621284">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-no-entry text-danger" style="font-size: 2rem"></span>
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Co Armagh - Market St Keady - Ongoing Closure</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621284" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">24/09/2026 18:03:23</span>
+                        </div>
+                        <div class="underline-content"><p><span style="color:rgb( 33 , 33 , 33 )">Market Street Keady is closed due to a dangerous structure. Local diversions are in operation. </span></p></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                
+                                
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621284" data-a2a-title="trafficwatchNI - Co Armagh - Market St Keady - Ongoing Closure">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621285" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621285">
+                    <span class="me-2">
+
+        
+
+        
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"><strong class="twni-icon-content text-body"><span
+                class="d-inline-block" style="font-size: 140%; line-height: 0; padding-top: 45%">!</span></strong>
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Dungiven - A6 Glenshane Road - Temporary Speed Limit</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621285" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">07/10/2026 17:35:23</span>
+                        </div>
+                        <div class="underline-content"><p>There will be a <strong>40 miles per hour speed limit,</strong> commencing on <strong>Monday 5</strong><sup><strong>th</strong></sup><strong> October 2026 at 0001hrs until Sunday 6</strong><sup><strong>th</strong></sup><strong> December at 2300hrs ,</strong> on the <strong>A6 Glenshane Road, Dungiven, from its junction with Corrick Road for a distance of 2 kilometres in an Easterly direction.</strong></p><br /><p>Being satisfied that traffic should be restricted due to the ongoing underground service works, to upgrade Water Quality infrastructure, between the locations. Traffic signs warning that the use of the road is subject to the above speed limit restrictions and to indicate the nature and extent of the restrictions will be erected on the road.</p><br /><br /><p> </p><br /><br /></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                
+                                
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621285" data-a2a-title="trafficwatchNI - Dungiven - A6 Glenshane Road - Temporary Speed Limit">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621262" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621262">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-no-entry text-danger" style="font-size: 2rem"></span>
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Craigavon - Closure of Maple Path &amp; Parkmore Footbridges</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621262" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">24/09/2026 18:03:25</span>
+                        </div>
+                        <div class="underline-content"><p><strong><u>Closure of Maple Path and Parkmore Footbridges, Craigavon</u></strong></p><br /><p>The Department for Infrastructure have announced that the Maple Path and Parkmore footbridges in Craigavon will be closed from Thursday 4 June 2026.</p><br /><p>Detailed engineering inspections identified structural concerns, and it has been concluded that the closure of these footbridges is necessary while a permanent solution is developed.</p><br /><p>Alternative local walking routes are available and will be signposted where appropriate. While these routes may increase journey times for some users, they will provide access around the affected areas. </p><br /><p>The Department recognises the importance of both footbridges to local residents and apologises for any inconvenience caused. However, as the Department’s infrastructure assets age there will always be an eventual need to replace structures that present safety issues or have come to the end of their natural lifespan.  </p><br /><p>Further information on future proposals for the bridges will be provided as work progresses.</p><br /><p>The Department would like to thank the public for their patience and cooperation.</p></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                
+                                
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621262" data-a2a-title="trafficwatchNI - Craigavon - Closure of Maple Path &amp; Parkmore Footbridges">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621213" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621213">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-no-entry text-danger" style="font-size: 2rem"></span>
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Dromore - Kinallen -Skeagh Road - Closure</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621213" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">24/09/2026 18:03:27</span>
+                        </div>
+                        <div class="underline-content"><p>Temporary Continuous Road Closure to part of <strong>C309 Skeagh Road, Kinallen</strong> from its junction with <strong>C309 Black Bog Road</strong> to its junction with <strong>U4040 Mayfield Avenue.</strong></p><p> </p><p>This closure is required in the interests of public safety due to the <strong>partial collapse of a bridge</strong> on this stretch of road.</p><p> </p><p>A local diversion is in operation via <strong>C309 Skeagh Road, C310 Diamond Road and C328 Banbridge Road. </strong></p><p> </p><p>Please ensure to allow additional time for your journey.</p></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                
+                                
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621213" data-a2a-title="trafficwatchNI - Dromore - Kinallen -Skeagh Road - Closure">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div></div>
+
+                        
+                        <div id="events"></div>
+
+                        <div class="d-flex align-items-start mt-3">
+                            <h2>Upcoming Roadworks</h2>
+                            <label class="custom-switch ms-auto" data-bs-toggle="expand" data-bs-target="#roadwork-news">
+                                <input type="checkbox" />
+                                <span class="custom-switch-slider"></span> <span class="visually-hidden">Toggle all roadwork news</span>
+                            </label>
+                        </div>
+                        <div id="roadwork-news"><div>
+        <div class="card">
+            <div id="card-19621360" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621360">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"><strong class="twni-icon-content text-body"><i
+                class="twni-icon twni-roadwork" aria-hidden="true"></i></strong>
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">A57 Ballyrobin Road - 28 Sept - 5 Weeks - Resurfacing</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621360" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">09/10/2026 21:11:53</span>
+                        </div>
+                        <div class="underline-content"><p>A carriageway resurfacing scheme on A57 Ballyrobin Road will commence on Monday 28th September 2026. The works are expected to last for approximately 5 weeks, the scheme will extend from Killead Roundabout and Airport Roundabout.</p><p> </p><p>To facilitate the scheme, it will be necessary to implement off peak lane closures and overnight full closures.</p><p> </p><p></p><ul><li><strong><s>Monday 28th. September to Friday 02nd. October</s></strong><s> </s><strong><s>2026</s></strong><s>: daily lane closure from 09:30 hrs to 16:30 hrs , with traffic controlled via temporary traffic signals. ( priority will be given to airport bound traffic)</s></li><li><strong><s>Monday 05th. October to Friday 09th. October 2026</s></strong><s>: Full road closure overnight between 7pm and 6am (Airport Roundabout to Killead Roundabout).</s></li><li><strong>Monday 12th. October to Friday 16th. October 2026</strong>: Full road closure overnight between 7pm and 6am (Airport Roundabout to Killead Roundabout).</li><li><strong>Monday 19th. October to Friday 23rd. October 2026</strong>: Full road closure overnight between 7pm and 6am (Airport Roundabout to Killead Roundabout) .</li><li><strong>Monday 26th. October to Friday 30th. October</strong> <strong>2026</strong>: daily lane closure from 09:30 hrs to 16:30 hrs, with traffic controlled via temporary traffic signals. ( priority will be given to airport bound traffic)</li></ul><p> </p><p>Access to the airport car parks / terminal building will always be available from the Antrim town direction (A57 Dublin Road / Antrim Road / Airport Road) throughout the entire works. During the overnight road closures, between Monday 05th. October and Friday 23rd. October 2026, traffic approaching the airport from Killead Roundabout will be diverted via A26 Oldstone Road / A6 Belfast Road / A6 Belmont Road / A57 Dublin Road.</p><p> </p><p>A second diversion for HGV Traffic will be signed via A57 Ballyrobin Road / A6 Antrim &amp; Belfast Road / A6 Belmont Road / A57 Dublin Road to avoid low bridge on Oldstone Road.</p><p> </p><p><strong>Road users are asked to drive with care when travelling in the vicinity of the road works.</strong></p></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                <button type="button"
+                                        class="btn btn-secondary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;" data-layer="ROAD_WORKS" data-id="19639770" title="View location on roadworks map">
+                                    <span class="visually-hidden">View location on roadworks map</span>
+                                    <span class="fas fa-map-marker-alt fa-fw" aria-hidden="true"></span>
+                                </button>
+                                
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621360" data-a2a-title="trafficwatchNI - A57 Ballyrobin Road - 28 Sept - 5 Weeks - Resurfacing">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621369" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621369">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"><strong class="twni-icon-content text-body"><i
+                class="twni-icon twni-roadwork" aria-hidden="true"></i></strong>
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Old Warrenpoint Rd, Newry - 12/10- 08/11</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621369" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">08/10/2026 15:47:48</span>
+                        </div>
+                        <div class="underline-content"><p>The preparatory works for the Old Warrenpoint resurfacing scheme from Chapel Hill Road to Greenan Road junction Newry, are now nearing completion, with resurfacing commencing on Monday 12 October , to last approximatley four weeks.</p><br /><p><span style="color:rgb( 34 , 34 , 34 )">To facilitate these works, a temporary one-way traffic system will be in operation. During this period, north bound traffic will be permitted to travel from the Greenan Road junction along the Old Warrenpoint Road towards Greenbank Roundabout. Traffic travelling southbound should use the A2 Warrenpoint dual carriageway and turn left back into the Old Warrenpoint Road at Forest Hills. </span></p><p><span style="color:rgb( 34 , 34 , 34 )">The one-way system will be in operation from 8:00am on Monday 12th October to 18:00pm Sunday 08th November 2026 and will remain in place continuously between these dates. </span></p></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                <button type="button"
+                                        class="btn btn-secondary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;" data-layer="ROAD_WORKS" data-id="19640685" title="View location on roadworks map">
+                                    <span class="visually-hidden">View location on roadworks map</span>
+                                    <span class="fas fa-map-marker-alt fa-fw" aria-hidden="true"></span>
+                                </button>
+                                <a href="https://experience.arcgis.com/experience/[CHAVE]#widget_28=filters:%5B%7B%22name%22%3A%22Temporary%20Traffic%20Restriction%22%2C%22clauses%22%3A%5B%7B%22index%22%3A1%2C%22values%22%3A81323%2C%22label%22%3A%2281323%22%7D%5D%7D%5D&amp;zoom_to_selection=true"
+                                   class="btn btn-secondary"
+                                   style="min-width: 2.5rem; min-height: 2.5rem;"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   title="Open in traffic restrictions map viewer">
+                                    <span class="visually-hidden">Open in traffic restrictions map viewer</span>
+                                    <span class="fas fa-globe fa-fw" aria-hidden="true"></span>
+                                </a>
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621369" data-a2a-title="trafficwatchNI - Old Warrenpoint Rd, Newry - 12/10- 08/11">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621357" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621357">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"><strong class="twni-icon-content text-body"><i
+                class="twni-icon twni-roadwork" aria-hidden="true"></i></strong>
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Tates Avenue Resurfacing 21 Sept - 16 Oct</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621357" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">04/10/2026 19:23:09</span>
+                        </div>
+                        <div class="underline-content"><p><strong>A carriageway resurfacing scheme on Tates Avenue, Belfast will commence on Monday 21 September 2026.</strong></p><p><strong> </strong></p><p><strong>The carriageway resurfacing scheme will extend from the Lisburn Road junction to Boucher Road junction.</strong></p><p><strong> </strong></p><p><strong>To facilitate the scheme, it will be necessary to implement off peak lane closures and weekend road closures.</strong></p><p><strong> </strong></p><p><strong>Lane closures</strong></p><p><strong> </strong></p><p><strong>From 21 September 2026 to 16 October 2026, daily lane closures will be in place between 09:30 and 16:00.</strong></p><p><strong> </strong></p><p><strong>Weekend road closures</strong></p><p><strong> </strong></p><p><strong><s>From 8.00pm on Friday 02 October 2026 until 6.00 am on Monday 05 October 2026.</s></strong></p><p><strong> </strong></p><p><strong>From 6.00am on Saturday 17 October 2026 until 6.00 am on Monday 19 October 2026.</strong></p><p><strong> </strong></p><p><strong>During periods of closure a diversion route will operate via A0001 LISBURN ROAD, A0055 STOCKMANS LANE, U0307 BOUCHER ROAD. Road users are asked to comply with all temporary traffic restrictions and to drive with care when travelling in the vicinity of the road works.</strong></p><p><br /></p><p><strong>&#xfeff;If you normally park on Tates Avenue, please move your vehicle before the resurfacing works commence. Any vehicles left within the works area may delay the programme and could result in sections of the road being inaccessible while works are underway.</strong></p></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                <button type="button"
+                                        class="btn btn-secondary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;" data-layer="ROAD_WORKS" data-id="19639374" title="View location on roadworks map">
+                                    <span class="visually-hidden">View location on roadworks map</span>
+                                    <span class="fas fa-map-marker-alt fa-fw" aria-hidden="true"></span>
+                                </button>
+                                <a href="https://experience.arcgis.com/experience/[CHAVE]#widget_28=filters:%5B%7B%22name%22%3A%22Temporary%20Traffic%20Restriction%22%2C%22clauses%22%3A%5B%7B%22index%22%3A1%2C%22values%22%3A78539%2C%22label%22%3A%2278539%22%7D%5D%7D%5D&amp;zoom_to_selection=true"
+                                   class="btn btn-secondary"
+                                   style="min-width: 2.5rem; min-height: 2.5rem;"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   title="Open in traffic restrictions map viewer">
+                                    <span class="visually-hidden">Open in traffic restrictions map viewer</span>
+                                    <span class="fas fa-globe fa-fw" aria-hidden="true"></span>
+                                </a>
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621357" data-a2a-title="trafficwatchNI - Tates Avenue Resurfacing 21 Sept - 16 Oct">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621358" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621358">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"><strong class="twni-icon-content text-body"><i
+                class="twni-icon twni-roadwork" aria-hidden="true"></i></strong>
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Road Improvement Scheme York Street 18 Sept - 16 Oct</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621358" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">04/10/2026 19:22:45</span>
+                        </div>
+                        <div class="underline-content"><p><strong>Road improvement scheme for the A2 York Street, Belfast.</strong></p><p><strong> </strong></p><p>A carriageway resurfacing scheme on the A2 York Street, Belfast will commence on Friday 18 September 2026.</p><p><br /></p><p>The carriageway resurfacing scheme will extend for a distance of 800 metres from the Brougham Street junction to just beyond the junction of the Limestone Road.</p><p><strong> </strong></p><p>To facilitate the scheme, it will be necessary to implement road closures over four consecutive weekends. </p><p><br /></p><p></p><ul><li><s>From 9.00pm on Friday 2 October 2026 until 6.00pm on Sunday 4 October 2026.</s></li></ul><p><br /></p><p></p><ul><li>From 6.00am on Saturday 10 October 2026 until 6.00pm on Sunday 11 October 2026.</li></ul><p><br /></p><p>In addition to these weekend closures, lane closures will be in place on York Street throughout the duration of the works, commencing on Monday 21 September 2026.</p><p><br /></p><p>During periods of closure a diversion route will operate via Brougham Street and North Queen Street. Road users are asked to comply with all temporary traffic restrictions and to drive with care when travelling in the vicinity of the road works.</p><p><br /></p><p>The Department has programmed the work operations and traffic management arrangements to minimise inconvenience however, whilst steps have been taken to accommodate local access, road users should expect some delays and are advised to allow additional time when travelling in the vicinity of the works. Road users are asked to comply with all temporary traffic restrictions.  </p><p><br /></p><p>Subject to favourable weather conditions, the works are anticipated to be completed by Friday 16 October 2026. The Department will however keep the public informed of any change. </p></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                <button type="button"
+                                        class="btn btn-secondary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;" data-layer="ROAD_WORKS" data-id="19637561" title="View location on roadworks map">
+                                    <span class="visually-hidden">View location on roadworks map</span>
+                                    <span class="fas fa-map-marker-alt fa-fw" aria-hidden="true"></span>
+                                </button>
+                                <a href="https://experience.arcgis.com/experience/[CHAVE]#widget_28=filters:%5B%7B%22name%22%3A%22Temporary%20Traffic%20Restriction%22%2C%22clauses%22%3A%5B%7B%22index%22%3A1%2C%22values%22%3A77401%2C%22label%22%3A%2277401%22%7D%5D%7D%5D&amp;zoom_to_selection=true"
+                                   class="btn btn-secondary"
+                                   style="min-width: 2.5rem; min-height: 2.5rem;"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   title="Open in traffic restrictions map viewer">
+                                    <span class="visually-hidden">Open in traffic restrictions map viewer</span>
+                                    <span class="fas fa-globe fa-fw" aria-hidden="true"></span>
+                                </a>
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621358" data-a2a-title="trafficwatchNI - Road Improvement Scheme York Street 18 Sept - 16 Oct">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card-19621356" class="card-header">
+                <a class="align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#article19621356">
+                    <span class="me-2">
+
+        
+
+        
+
+        
+
+        <span class="twni-icon twni-triangle text-danger" style="font-size: 2rem"><strong class="twni-icon-content text-body"><i
+                class="twni-icon twni-roadwork" aria-hidden="true"></i></strong>
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+    </span>
+                    <span class="fw-bold w-100">Belfast Gt Victoria St Road closures Oct 2026</span>
+                    <i class="fas fa-2x article-link"></i>
+                </a>
+            </div>
+
+            <div id="article19621356" class="collapse">
+                <div class="card-body">
+                    <div>
+                        <div class="mb-2 badge bg-secondary font-size-100pc d-flex flex-wrap">
+	                        <span class="pe-2 py2-px">Last updated:</span>
+	                        <span class="py2-px">02/10/2026 13:31:15</span>
+                        </div>
+                        <div class="underline-content"><p>As part of ongoing public realm improvements for Belfast Grand Central Station, we will have overnight road closures in place on Great Victoria Street week commencing Monday 12th October, details below:</p><br /><p></p><p></p><ul><li>The <strong>southbound closure</strong> of Great Victoria Street between Howard Street and Bruce Street <strong>from 7pm on Monday 12th October to 6am on Tuesday 13th October.</strong> Diversionary routes will be in place (see the attached traffic management plans). The northbound lanes will remain operational.</li></ul><br /><p></p><p></p><ul><li>The <strong>northbound closure</strong> of Great Victoria Street between Bruce Street and Howard Street <strong>each night</strong> from <strong>Tuesday 13th October up to and including Friday 16th October</strong> from <strong>7pm to 6am the following morning. </strong>Diversionary routes will be in place. (see the attached traffic management plans). The lanes will be reopened each day (6am to 7pm)<strong>. </strong>The southbound lanes will remain operational throughout.</li></ul><br /></div>
+                    </div>
+                    <div class="mt-3 row">
+                        <div class="ms-auto me-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-end align-items-end align-items-md-center gap-2 tooltip-anchor">
+                                
+                                
+                                
+                                <button type="button"
+                                        class="btn btn-secondary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;" data-layer="ROAD_WORKS" data-id="19640457" title="View location on roadworks map">
+                                    <span class="visually-hidden">View location on roadworks map</span>
+                                    <span class="fas fa-map-marker-alt fa-fw" aria-hidden="true"></span>
+                                </button>
+                                <a href="https://experience.arcgis.com/experience/[CHAVE]#widget_28=filters:%5B%7B%22name%22%3A%22Temporary%20Traffic%20Restriction%22%2C%22clauses%22%3A%5B%7B%22index%22%3A1%2C%22values%22%3A78001%2C%22label%22%3A%2278001%22%7D%5D%7D%5D&amp;zoom_to_selection=true"
+                                   class="btn btn-secondary"
+                                   style="min-width: 2.5rem; min-height: 2.5rem;"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   title="Open in traffic restrictions map viewer">
+                                    <span class="visually-hidden">Open in traffic restrictions map viewer</span>
+                                    <span class="fas fa-globe fa-fw" aria-hidden="true"></span>
+                                </a>
+                                <div class="navbar-social-media-icon">
+                                    <button type="button"
+                                        title="Share this item"
+                                        class="btn btn-primary"
+                                        style="min-width: 2.5rem; min-height: 2.5rem;"
+                                        data-bs-toggle="dropdown" aria-haspopup="true">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        <span class="fas fa-share-alt fa-fw" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="dropdown-menu a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="/twni/traffic-news#card-19621356" data-a2a-title="trafficwatchNI - Belfast Gt Victoria St Road closures Oct 2026">
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_facebook">Facebook</a>
+                                        <a  class="ms-2 mb-2 dropdown-item a2a_button_twitter">Twitter</a>
+                                    <a class="ms-2 mb-2 dropdown-item copy-link media-copy-button-style">
+                                        <span class="fa fa-copy"></span>Copy Link</a>
+                                        <a  class="ms-2 mb-auto dropdown-item a2a_button_email">Email</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div></div>
+
+                    </div>
+                </div>
+                <div id="traffic-map" class="tab-pane d-lg-flex w-100 h-100">
+
+        <div id="map" class="map d-flex w-100 h-100" role="application" aria-hidden="true" data-context="/twni/" data-lat="54.6" data-lng="-6.8" data-zoom="8"></div>
+
+		<div><div>
+        <div style="display: none;" id="mapKey" data-roadworks-filter-enabled="true">
+            <div class="d-flex m-2 pe-1 flex-column flex-xl-row gm-controls-mt-fix">
+                <div class="d-flex justify-content-end mb-2">
+                    <label class="d-flex align-items-center chk-autorefresh">
+                        <input id="mapAutoRefreshCheckbox" type="checkbox" class="form-check-input me-1" checked="checked" />
+                        <span>Automatic map refresh</span>
+                    </label>
+                    <button id="mapRefreshButton" type="button" class="btn btn-sm btn-primary btn-refresh">Refresh</button>
+                </div>
+                <div class="d-flex justify-content-end mt-md-0 ms-md-2 ">
+                    <div class="me-2">
+                        <select name="layerSelector" class="d-none" multiple="multiple" aria-label="Layer selector">
+                            <option class="message_signs" value="MESSAGE_SIGNS">Message Signs</option>
+                            <option class="cctv_cameras" value="CCTV_CAMERAS">CCTV Cameras</option>
+                            <option class="road_works" value="ROAD_WORKS" selected="selected">Roadworks</option>
+                            <option class="incidents" value="INCIDENTS" selected="selected">Incidents</option>
+                            <option class="events" value="EVENTS" selected="selected">Events</option>
+                            <option class="traffic" value="TRAFFIC" selected="selected">Congestion</option>
+                            <option class="journey_times" value="JOURNEY_TIMES">Journey Times</option>
+                            <option class="current_speeds" value="CURRENT_SPEEDS">Current Speeds</option>
+                            <option class="low_bridges" value="LOW_BRIDGES">Low Bridges</option>
+                            <option class="weight_restrictions" value="WEIGHT_RESTRICTIONS">Weight Restrictions</option>
+                            <option class="weather" value="WEATHER">Weather stations</option>
+                        </select>
+                        <div id="roadworksFilterTemplate" class="d-none">
+                            <div class="roadworks-inline-filter" data-roadworks-filter-block="true">
+                                <div class="roadworks-inline-filter-options mt-1" data-roadworks-filter-options="true">
+                                    <label class="d-flex align-items-center mb-1">
+                                        <input class="me-1" type="radio" name="roadworksEndDateFilter" value="TODAY" />
+                                        <span>Today</span>
+                                    </label>
+                                    <label class="d-flex align-items-center mb-1">
+                                        <input class="me-1" type="radio" name="roadworksEndDateFilter" value="ONE_WEEK" checked="checked" />
+                                        <span>1 week</span>
+                                    </label>
+                                    <label class="d-flex align-items-center mb-0">
+                                        <input class="me-1" type="radio" name="roadworksEndDateFilter" value="ONE_MONTH" />
+                                        <span>1 month</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <select name="areaSelector" class="d-none" aria-label="Area selector" data-default-area-id="1">
+                            <option value="1"
+                                data-lat="54.5972324" data-lng="-5.9315735" data-zoom="12.92">Greater Belfast</option>
+                            <option value="2"
+                                data-lat="54.9578196" data-lng="-6.2429902" data-zoom="10.18">North East</option>
+                            <option value="3"
+                                data-lat="54.3459613" data-lng="-5.9891638" data-zoom="10.18">South East</option>
+                            <option value="4"
+                                data-lat="54.8389687" data-lng="-6.9754609" data-zoom="10.18">North West</option>
+                            <option value="5"
+                                data-lat="54.4472895" data-lng="-7.0105131" data-zoom="10.18">South West</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></div>
+        <div><div style="display: none;" id="mapHelp" aria-hidden="true">
+    <a href="/twni/map-help" target="_blank" title="Map Help" aria-label="Map help" tabindex="-1">
+        <i class="fas fa-question-circle fa-4x map-help"></i>
+    </a>
+</div></div>
+
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=[CHAVE]&amp;callback=initMap&amp;loading=async&amp;libraries=marker"
+            async defer>
+        </script>
+
+		<script type="text/javascript">
+		    window.addEventListener('load', function() {
+		        // Wait for Google Maps and other elements to load completely
+		        setTimeout(function() {
+		            // Define a list of selectors to target focusable elements
+					const focusableSelectors = [
+						'button',
+						'input',
+						'a',
+						'div[aria-label="Map"]',
+						'div[role="button"][tabindex="0"]',
+					];
+		
+		            // Iterate over each selector and apply the desired action
+		            focusableSelectors.forEach(selector => {
+		                const elements = document.querySelectorAll(selector);
+		                elements.forEach(element => {
+
+		                    // Make the element non-focusable
+		                    element.setAttribute('tabindex', '-1');
+		
+		                });
+		            });
+		        }, 1000); 
+		    });
+		</script>
+
+    </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 text-center pt-3 d-flex align-items-left justify-content-left">
+            <p id="indexDfiDisclaimer" class="m-0">The information on this website is provided by DfI (Department for Infrastructure). DfI is the sole roads authority responsible
+                for all public roads, footways, bridges and street lights in Northern Ireland.</p>
+        </div>
+        
+        <div id="floating-button-footer" class="floating-button-footer">
+            <div id="floating-button-footer-middle" class="floating-button-footer-middle"></div>
+        </div>
+        
+        <button class="floating-button" 
+            id="floatingFavoritesButton" 
+            onclick="toggleExpansion()" 
+            title="Your Camera Previews">
+            <span class="button-text">Favourites</span>
+            <span class="button-number" id="preview-drawer-floating-button-id">0</span>
+            <i class="fa fa-sharp fa-solid fa-chevron-up" id="preview-drawer-floating-button-icon"></i>
+        </button>
+        <div id="expandableDiv" class="mt-auto">
+            <div title="Open Camera Previews">
+	<script src="/twni/javascript/twni/preview_drawer-[CHAVE].js"></script>
+
+        <style>
+        
+			#previewCameraContainer {
+			    width: 100%;
+			    max-height: 70vh;
+			    min-height: 10vh;
+			    background-color: var(--bs-light);
+			    transition: transform 0.5s ease-in-out; /* Smooth transition for showing/hiding */
+			    position: relative; /* Ensure it affects the flow of the document */
+			    overflow: hidden;
+			
+			    /* New styles */
+			    border-radius: 5px; /* Adjust the radius to your preference */
+			    border: 1px solid  rgba(127,33,49,0.4); /* Red outline with 2px thickness */
+			}
+
+            
+			#previewCameraContainer.visible {
+			    max-height: 70vh; /* Fully expanded when visible */
+			}
+			            
+			#previewCameraContainer.hidden {
+				max-height: 1vh; /* Collapsed when hidden */
+			}
+
+            #previewCameraContainer.disabled {
+                display:none;
+            }
+
+            #cameraPreviewSpacer {
+                width: 1px;
+                height:6vh;
+                visibility:hidden;
+            }
+
+            #previewCameraContent {
+                width:100%;
+                height:auto;
+                max-height:70vh;
+                overflow-x:auto;
+                overflow-y: hidden;
+                grid-auto-flow: column;
+                display:grid;
+                padding: 1rem 1rem 1rem 1rem;
+                grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+                justify-content:space-between;
+                align-content:space-between;
+                gap:2rem;
+            }
+
+            #previewCameraContainer.hidden #previewCameraContent {
+                height:0;
+                display:none;
+            }
+
+            .preview-image {
+                width:100%;
+                height:85%;
+                cursor:pointer;
+            }
+
+            #previewCameraToggleButtonIcon {
+                font-size:5vh;
+                -ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+                transform:rotate(90deg)
+            }
+
+            .preview-item {
+                width:20rem;
+                height:12rem;
+                display:inline-block;
+            }
+
+            .preview-description {
+                display:inline-block;
+                height:15%;
+                width:90%;
+                line-height:2.2rem;
+                font-size: clamp(1rem, 1.2rem - 0.5vw, 1.5rem); /* Dynamically adjust font size */
+                vertical-align:middle;
+                margin:0;
+                text-align:center;
+                overflow:ellipsis;
+            }
+
+            .preview-remove {
+                display:inline-block;
+                float:right;
+                height:15%;
+                width:10%;
+                border:none;
+                background-color:var(--bs-light);
+                font-weight:bold;
+                color:#7F2131;
+            }
+
+            #previewCameraCarousel.hidden {
+                display:none;
+            }
+
+            #previewCameraCarousel {
+                width:100vw;
+                height:100vh;
+                background-color:rgb(0,0,0);
+                background-color:rgba(0,0,0,0.7);
+                z-index:1;
+                position:fixed;
+                left:0;
+                top:0;
+                overflow-x:hidden;
+            }
+
+            .previewCameraCarouselButton {
+                position:absolute;
+                color:white;
+                background-color:transparent;
+                border:none;
+                font-weight:bold;
+                z-index:2;
+            }
+
+            #previewCameraCarouselCloseButton {
+                top:0.5rem;
+                right:1rem;
+                height:5rem;
+                width:5rem;
+                font-size:3.5rem;
+                line-height:100%;
+            }
+
+            #previewCameraCarouselPrevButton {
+                left:10vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            #previewCameraCarouselNextButton {
+                right:10vw;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            #previewCameraCarouselCurrentImage {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width:auto;
+                height:auto;
+                max-height:50vh;
+                max-width:70vw;
+            }
+
+            #previewCameraCarouselTitle {
+                transform: translate(-50%, -50%);
+                left: 50%;
+                bottom: 10%;
+                background-color: rgba(0,0,0,0.5);
+            }
+
+            @media only screen and (max-width: 600px) {
+
+	            .preview-item {
+	                margin-left:auto;
+	                margin-right:auto;
+	            }
+	
+	            #previewCameraCarouselCurrentImage {
+	                max-height:90vh;
+	                max-width:100vw;
+	                min-width:80vw;
+	            }
+	
+	            #previewCameraCarouselTitle {
+	                font-size:1.1rem;
+	            }
+
+            }
+
+        </style>
+
+        <script>
+        	
+        	
+        
+            let isPreviewOpen = false;
+            const PREVIEW_REFRESH_INTERVAL_SECONDS = 1;
+            const KEEP_OPEN_SECONDS = 3600;
+
+            function togglePreviewCamera() {
+                let previewContainer = document.getElementById("previewCameraContainer");
+                let button = document.querySelector('.floating-button');
+
+                if (previewContainer.classList.contains("visible")) {
+                    // Hide the preview container and show the button
+                    previewContainer.classList.remove("visible");
+                    previewContainer.classList.add("hidden");
+                    button.classList.remove('open');
+                    button.classList.remove('hidden');
+                } else {
+                    // Show the preview container and hide the button
+                    previewContainer.classList.remove("hidden");
+                    previewContainer.classList.add("visible");
+                    button.classList.add('open');
+                    setTimeout(() => {
+                        button.classList.add('hidden');
+                    }, 300); // Adjust the timeout to match the transition duration
+                    //isPreviewOpen = true;
+                }
+
+                // Update aria properties based on expansion state
+                previewContainer.setAttribute("aria-expanded", previewContainer.classList.contains("visible") ? "true" : "false");
+                updateCameraPreviews();
+            }
+
+			
+            function showPreviewCamera( isExpanded ) {
+                let previewContainer = document.getElementById("previewCameraContainer");
+                let button = document.querySelector('.floating-button');
+                if (previewContainer.classList.contains("hidden")) {
+                    // Ensure the preview container is always visible
+                    previewContainer.classList.remove("hidden");
+                    previewContainer.classList.add("visible");
+                }
+                
+                isPreviewOpen = isExpanded;
+
+                // Update aria properties to reflect the container is expanded
+                previewContainer.setAttribute("aria-expanded", "true");
+                updateCameraPreviews();
+            }
+
+            function removeFromPreview(id) {
+                let cameraPreviewList = JSON.parse(Cookies.get('cameraPreviewList') ?? null) ?? [];
+
+                cameraPreviewList = cameraPreviewList.filter(camera => camera.id!==id);
+                Cookies.set('cameraPreviewList', JSON.stringify(cameraPreviewList), { expires: 7300 });
+                updateCameraPreviews();
+            }
+
+            function closeCarousel() {
+                let carouselContainer = document.getElementById("previewCameraCarousel");
+                carouselContainer.classList.add("hidden");
+            }
+            
+            function rotateImage(element, isHover) {
+                // Find the button within the imgrotate div
+                const button = element.querySelector('.cameraPreviewAdd');
+
+                if (button) {
+                    const img = button.querySelector('img');
+                    if (img) {
+                        if (isHover) {
+                            changeImage(img, '/twni/images/pages/wired-outline-49-plus-circle-rotate.gif');
+                        } else {
+                            changeImage(img, '/twni/images/pages/wired-outline-49-plus-circle-static.png');
+                        }
+                    } else {
+                        console.log('No image found inside the button.');
+                    }
+                } else {
+                    console.log('No button found inside the imgrotate div.');
+                }
+            }
+            
+            function changeImage(imgElement, newSrc) {
+			    imgElement.src = newSrc;
+			}
+
+            // Every x seconds (PREVIEW_REFRESH_INTERVAL_SECONDS), update the preview cameras including enlarged carousel versions) using a cache breaker
+            function refreshPreviews() {
+
+                // check if the preview drawer is open, no need to refresh if it is now
+                if (isPreviewOpen === true) {
+                    // Loop through all of the elements representing a preview
+                    let cameraPreviews = [...document.getElementsByClassName("preview-image"), document.getElementById("previewCameraCarouselCurrentImage")];
+
+                    for (let i=0;i<cameraPreviews.length; i++) {
+                        let previewImage = cameraPreviews[i];
+                        // Remove existing cache breakers from the url
+                        let previewImageSrc = previewImage.src.split("#")[0].split("?")[0];
+                        if (previewImageSrc) {
+                            // amend the image src using a timestamp at the end (cache breaker), this should force a refresh
+                            previewImageSrc = `${previewImageSrc}?${Date.now()}`;
+                            previewImage.src = previewImageSrc;
+                        }
+                    }
+
+                    // Auto-close the drawer if the limit exceeded
+                    let carouselContainer = document.getElementById("previewCameraContainer");
+                    let opened = carouselContainer.getAttribute("date-opened");
+                    if (Date.now() - opened > (KEEP_OPEN_SECONDS * 1000)) {
+                        //togglePreviewCamera();
+                    }
+                    
+                     
+                }
+               
+               	setTimeout(refreshPreviews, PREVIEW_REFRESH_INTERVAL_SECONDS*1000);
+
+            }
+
+            function openCarousel(id) {
+                let cameraPreviewList = JSON.parse(Cookies.get('cameraPreviewList') ?? null) ?? [];
+
+                let carouselCurrentImage = document.getElementById("previewCameraCarouselCurrentImage");
+                let carouselContainer = document.getElementById("previewCameraCarousel");
+                let carouselTitle = document.getElementById("previewCameraCarouselTitle");
+                let newCarouselImageSrc;
+                let newCarouselTitle;
+
+                // Get the image url for the id given
+                cameraPreviewList.forEach(camera => {
+                    if (camera.id === id) {
+                        newCarouselImageSrc = camera.imageRoot + '/' + camera.staticFile + '?cache=' + camera.cameraCache;
+                        newCarouselTitle = camera.location;
+                    }
+                });
+
+                // If the passed id isn't a preview image, do nothing and keep the carousel closed
+                if (typeof(newCarouselImageSrc) === 'undefined') {
+                    return;
+                }
+
+                carouselCurrentImage.dataset.id = id;
+                carouselCurrentImage.src = newCarouselImageSrc;
+                carouselTitle.innerHTML = newCarouselTitle;
+                carouselContainer.classList.remove("hidden");
+            }
+
+            function carouselNext() {
+                let cameraPreviewList = JSON.parse(Cookies.get('cameraPreviewList') ?? null) ?? [];
+
+                let carouselCurrentImage = document.getElementById("previewCameraCarouselCurrentImage");
+                let carouselTitle = document.getElementById("previewCameraCarouselTitle");
+                let newCarouselImageSrc;
+
+                // Get the index of the current camera being displayed
+                let currentDisplayedId = carouselCurrentImage.dataset.id;
+                let currentDisplayedIndex = -1;
+                for (let i=0; i<cameraPreviewList.length; i++) {
+                    if (cameraPreviewList[i].id == currentDisplayedId) {
+                        currentDisplayedIndex = i;
+                        break;
+                    }
+                }
+
+                let newDisplayedIndex = currentDisplayedIndex+1;
+                // Move to the next image, wrapping around to 0 if out of bounds
+                if (newDisplayedIndex>=cameraPreviewList.length) {
+                    newDisplayedIndex = 0;
+                }
+
+                let newPreviewCamera = cameraPreviewList[newDisplayedIndex];
+                let newPreviewCameraSrc = newPreviewCamera.imageRoot + '/' + newPreviewCamera.staticFile + '?cache=' + newPreviewCamera.cameraCache
+                carouselCurrentImage.dataset.id = newPreviewCamera.id;
+                carouselTitle.innerHTML = newPreviewCamera.location;
+                carouselCurrentImage.src = newPreviewCameraSrc;
+
+            }
+
+            function carouselPrevious() {
+                let cameraPreviewList = JSON.parse(Cookies.get('cameraPreviewList') ?? null) ?? [];
+
+                let carouselCurrentImage = document.getElementById("previewCameraCarouselCurrentImage");
+                let carouselTitle = document.getElementById("previewCameraCarouselTitle");
+                let newCarouselImageSrc;
+
+                // Get the index of the current camera being displayed
+                let currentDisplayedId = carouselCurrentImage.dataset.id;
+                let currentDisplayedIndex = -1;
+                for (let i=0; i<cameraPreviewList.length; i++) {
+                    if (cameraPreviewList[i].id == currentDisplayedId) {
+                        currentDisplayedIndex = i;
+                        break;
+                    }
+                }
+
+                let newDisplayedIndex = currentDisplayedIndex-1;
+                // Move to the previous image, wrapping around to maximum if out of bounds
+                if (newDisplayedIndex<0) {
+                    newDisplayedIndex = cameraPreviewList.length-1;
+                }
+
+                let newPreviewCamera = cameraPreviewList[newDisplayedIndex];
+                let newPreviewCameraSrc = newPreviewCamera.imageRoot + '/' + newPreviewCamera.staticFile + '?cache=' + newPreviewCamera.cameraCache
+                carouselCurrentImage.dataset.id = newPreviewCamera.id;
+                carouselTitle.innerHTML = newPreviewCamera.location;
+                carouselCurrentImage.src = newPreviewCameraSrc;
+            }
+
+			
+            refreshPreviews();
+            
+
+			
+			
+            /*
+            // Run functions on load
+			window.onload = () => {
+                // Check if cookies are disabled to hide preview drawer
+                if (Cookies.get('cookieConsent') !== "true") {
+                    let previewDrawer = document.getElementById("previewCameraContainer");
+                    previewDrawer.classList.add("disabled");
+                } else {
+                    // Run the refresh function once to start its looping
+                    refreshPreviews();
+                }
+            }
+			*/
+        </script>
+
+        <script src="/twni/javascript/twni/preview_drawer-[CHAVE].js"></script>
+        <script src="/twni/javascript/twni/message-[CHAVE].js"></script>
+        
+        <meta http-equiv="Cache-control" content="public">
+        <meta http-equiv="Cache-control" content="private">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="Cache-control" content="no-store">
+
+        <div id="previewCameraContainer" class="hidden" role="complementary">
+            <div id="previewCameraCarousel" class="hidden">
+                <button id="previewCameraCarouselCloseButton" class="previewCameraCarouselButton" onclick="closeCarousel()" title="Close Preview Screen">X</button>
+                <button id="previewCameraCarouselPrevButton" class="previewCameraCarouselButton" onclick="carouselPrevious()" title="Next Preview Item">Previous</button>
+                <button id="previewCameraCarouselNextButton" class="previewCameraCarouselButton" onclick="carouselNext()" title="Next Preview Item">Next</button>
+                <h2 id="previewCameraCarouselTitle" class="previewCameraCarouselButton">Currently Previewed Camera</h2>
+                <img id="previewCameraCarouselCurrentImage" alt="Image displaying the current view of the camera being previewed." />
+            </div>
+            <div id="previewCameraContent">
+            </div>
+        </div>
+
+        <!--Spacer exists so bottom of the screen is still visible-->
+        <div id="cameraPreviewSpacer"></div>
+
+    </div>
+        </div>		
+    </div>
+   
+    <script type="text/javascript" src="/twni/javascript/twni/social-[CHAVE].js"></script>
+    <script defer src="https://static.addtoany.com/menu/page.js?v=29092022"></script>
+    <script src="/twni/javascript/clipboard/clipboard.min-[CHAVE].js"></script>
+    <script type="text/javascript" src="/twni/javascript/twni/traffic_news-[CHAVE].js"></script>
+    <footer role="contentinfo" class="contentinfo" id="contentinfo">
+        <div class="bg-light">
+            <ul class="list-inline footer-nav">
+                <li class="list-inline-item">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="/twni/crown-copyright">&copy; Crown copyright</a></li>
+                        <li class="list-inline-item"><a accesskey="8" href="/twni/terms-and-conditions">Terms and conditions</a></li>
+                        <li class="list-inline-item"><a href="/twni/privacy-statement">Privacy</a></li>
+                        <li class="list-inline-item"><a href="/twni/cookies">Cookies</a></li>
+                        <li class="list-inline-item"><a href="/twni/contacts">Contacts</a></li>
+                        <li class="list-inline-item"><a accesskey="3" href="/twni/site-map">Site map</a></li>
+                        <li class="list-inline-item"><a href="/twni/links">Links</a></li>
+                        <li class="list-inline-item"><a accesskey="0" href="/twni/accessibility">Accessibility</a></li>
+                        <li class="list-inline-item"><a href="https://www.nidirect.gov.uk" target="_blank">NI Direct</a></li>
+                    </ul>
+                </li>
+                <li class="list-inline-item footer-image-links">
+                    <a href="/twni/liaison-with-others">
+                        <img id="arcAtlantiqueLogo" class="arc-atlantique-logo m-auto" src="/twni/images/common/logo-arc-atlantique.png" alt="Arc Atlantique and Connecting Europe logo"/>
+                        <img id="connectingEuropeLogo" class="eu-logo m-auto" src="/twni/images/common/logo-cef-horizontal.png" alt=""/>
+                    </a>
+                </li>                
+            </ul>
+        <a id="skip_navigation" href="#content" accesskey="S" title="Skip Navigation"></a>
+        </div>
+    </footer>
+	<script src="/twni/javascript/twni/camera_preview-[CHAVE].js"></script>
+    <div>
+        <div id="messageModal" class="modal">
+            <div class="modal-content">
+                <h2 id="modalMessage">Message placeholder</h2>
+                <button class="close-btn" id="closeModalBtn">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="/twni/javascript/twni/floating_button-[CHAVE].js"></script>
+</body>
+</html>

@@ -1,0 +1,553 @@
+{
+ "id": "mk-roads",
+ "url": "https://roads.org.mk/",
+ "requests": [
+  {
+   "u": "https://roads.org.mk/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google.com/recaptcha/api.js?render=6LcGsBQkAAAAABk6nuVTeE_7oU0G4E8tlEY9G8-G&ver=3.0",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_b2b463a5bdb73833be2a6afbc1843ddd.css?ver=6.1.7",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_cd67903ebd52e129241c908bcaa3fb73.css?ver=3.2.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_15365ec01334432ff74ab1f313b962f5.css?ver=3.4.13",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/pojo-accessibility/modules/legacy/assets/css/style.min.css?ver=1.0.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_e0c7f0fdbc2eef226cccbd885e6a5765.css?ver=1.4",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_bf6d56a3a3306ef8fd04c050476e1b3b.css?ver=3.7.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/lib/animate/animate.min.css?ver=3.7.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.17.3",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_8ac987410a934dbac52de9eeed6872f1.css?ver=3.7.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_eeb7fff53c14a497b220735ce2450f83.css?ver=1791199090",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.17.1",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_641f07eec6fa899b773b8b3916a7e287.css?ver=2.1.25.3",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?ver=4.1.4",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.17.3",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_e97239a6ec26e890146a46c6dfa70473.css?ver=1791199094",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_46d80149917d7a9b17e5e0a885446025.css?ver=1791199093",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.17.3",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_371dfa7acb1dd03f61c90c2cd8290191.css?ver=1.4",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_f5e12d8ca859ef2de5b0150866ac33b0.css?ver=1791199093",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/css/frontend.min.css?ver=[CHAVE]",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_e36bf85e007928020f5263c1812416c2.css?ver=1.4",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_52372ad5fef5c3967d1cbbe7fd0466df.css?ver=1791199094",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/css/autoptimize_single_bb7b10e2b8771ccfacd42e1fe0095d8d.css?ver=1791199094",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://roads.org.mk/22086b9d-d2c2-46f6-ba1b-0e34cddccbe3",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-R9DN6P6241",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtktOA7U0o-VsaLz/recaptcha__pt_br.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-R9DN6P6241&gtm=45je6ac1v9119705433za208zd9119705433xf1&_p=1791944095565&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&are=1&cid=1072600085.1791944096&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.17.0&uaw=0&ul=pt-br&_s",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcGsBQkAAAAABk6nuVTeE_7oU0G4E8tlEY9G8-G&co=aHR0cHM6Ly9yb2Fkcy5vcmcubWs6NDQz&hl=pt-BR&v=nY0xPItgwtktOA7U0o-VsaLz&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CAB5am5W&cb=auvx89o6rg1v",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtktOA7U0o-VsaLz/recaptcha__pt_br.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtktOA7U0o-VsaLz/styles__ltr.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-includes/js/wp-emoji-release.min.js?ver=[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/cache/autoptimize/js/autoptimize_ee36543122a26a47f58161fecb9931e7.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google.com/recaptcha/api2/webworker.js?hl=pt-BR&v=nY0xPItgwtktOA7U0o-VsaLz",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtktOA7U0o-VsaLz/recaptcha__pt_br.js",
+   "t": "other",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/themes/jupiterx/lib/assets/fonts/jupiterx.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/01/jpdp_emblem-web.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/circle_arrow_down.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/Kocani-Ponikva.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/01.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/03/proekti.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/02.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/03/etc.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google.com/recaptcha/api2/reload?k=6LcGsBQkAAAAABk6nuVTeE_7oU0G4E8tlEY9G8-G",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json; charset=utf-8",
+   "m": "POST",
+   "post": "\n\u0018nY0xPItgwtktOA7U0o-VsaLz\u0012�\u000e03AFcWeA5EzrPvXR-G6T04vEBEasTMuRNGfiEvW_tXeae17UNIvqofKmKjQbvhb1tQoa3Gqks8hbCVjdA7oGcbZvJ3ahepxtxHH3hylBU2mC3EizGmrcqyLXuRV0MfnJeOBDVLNroaicfOeqWd6tMeQT1JYaas4yUZgOWwVPG4lPtkaTbipI0vSWeBUU1CEuWxagZu3xbD7aFNMgmxLOqZvczHiWln-LyEzC_rVBTauqZKKBH9DWFZRgEqJb5sRUKEOzoUlmr5EKQ1qVmswCV0IXBH6jip6HKKFt0qhDQAI0dQXa8rJaaoWnkdGFQ_rfLtfoevDW0w74BYElu7ZFEY9rhOnb02XERGu-u7dx9BiCWoQLLH3d3l2mv8V2XIyHgSj2TNLpw1QEB-LjvBWc4H22ZzjdpMXRb0Q9AvBNdJ9R0A4MXdZhKaP4zVDDGUa2kS2U4WXxnU-Nq7bCtqgR5UfpheLDx91V3cf3BtNjUnuM6OhA-3DYK4GWV1-v3X4xrpU7mk6MxFIUQhoV8-RjcccdmeXiLM6d1IKVYidvD4asRtbTt9TqvxpSbd5"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/07.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/05.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/08.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/09.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/03/06.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google.com/recaptcha/api2/clr?k=6LcGsBQkAAAAABk6nuVTeE_7oU0G4E8tlEY9G8-G",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/binary",
+   "m": "POST",
+   "post": "\n(6LcGsBQkAAAAABk6nuVTeE_7oU0G4E8tlEY9G8-G\u0012�\u000e03AFcWeA5EzrPvXR-G6T04vEBEasTMuRNGfiEvW_tXeae17UNIvqofKmKjQbvhb1tQoa3Gqks8hbCVjdA7oGcbZvJ3ahepxtxHH3hylBU2mC3EizGmrcqyLXuRV0MfnJeOBDVLNroaicfOeqWd6tMeQT1JYaas4yUZgOWwVPG4lPtkaTbipI0vSWeBUU1CEuWxagZu3xbD7aFNMgmxLOqZvczHiWln-LyEzC_rVBTauqZKKBH9DWFZRgEqJb5sRUKEOzoUlmr5EKQ1qVmswCV0IXBH6jip6HKKFt0qhDQAI0dQXa8rJaaoWnkdGFQ_rfLtfoevDW0w74BYElu7ZFEY9rhOnb02XERGu-u7dx9BiCWoQLLH3d3l2mv8V2XIyHgSj2TNLpw1QEB-LjvBWc4H22ZzjdpMXRb0Q9AvBNdJ9R0A4MXdZhKaP4zVDDGUa2kS2U4WXxnU-Nq7bCtqgR5UfpheLDx91V3cf3BtNjUnuM6OhA-3DYK4GWV1-v3X4xrpU7mk6MxFIUQhoV8-RjcccdmeXiLM6d1IKVYidvD4a"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "mk-roads-1.txt",
+   "u": "https://roads.org.mk/",
+   "bytes": 153219,
+   "type": "document"
+  },
+  {
+   "file": "mk-roads-2.txt",
+   "u": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcGsBQkAAAAABk6nuVTeE_7oU0G4E8tlEY9G8-G&co=aHR0cHM6Ly9yb2Fkcy5vcmcubWs6NDQz&hl=pt-BR&v=nY0xPItgwtktOA7U0o-VsaLz&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CAB5am5W&cb=auvx89o6rg1v",
+   "bytes": 55098,
+   "type": "document"
+  },
+  {
+   "file": "mk-roads-3.txt",
+   "u": "https://www.google.com/recaptcha/api2/reload?k=6LcGsBQkAAAAABk6nuVTeE_7oU0G4E8tlEY9G8-G",
+   "bytes": 2897,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://roads.org.mk/wp-content/uploads/2023/01/jpdp_emblem-web.svg",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20347%20346%22%3E%3C%2Fsvg%3E",
+   "https://roads.org.mk/wp-content/uploads/2023/02/circle_arrow_down.svg",
+   "https://roads.org.mk/wp-content/uploads/2023/02/circle_arrow_down.svg",
+   "https://roads.org.mk/wp-content/uploads/2023/02/circle_arrow_down.svg"
+  ],
+  "iframe": [
+   "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcGsBQkAAAAABk6nuVTeE_7oU0G4E8tlEY9G8-G&co=aHR0cHM6Ly9yb2Fkcy5vcmcubWs6NDQz&hl=pt-BR&v=nY0xPItgwtktOA7U0o-VsaLz&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CAB5am5W&cb=auvx89o6rg1v"
+  ],
+  "video": [],
+  "links": [
+   {
+    "h": "https://roads.org.mk/patna-mreza/video-kameri/",
+    "t": "Видео камери"
+   },
+   {
+    "h": "https://roads.org.mk/patna-mreza/video-kameri/",
+    "t": "Видео камери"
+   },
+   {
+    "h": "https://roads.org.mk/patna-mreza/video-kameri/",
+    "t": "Видео камери"
+   },
+   {
+    "h": "https://roads.org.mk/patna-mreza/video-kameri/",
+    "t": "Видео камери"
+   },
+   {
+    "h": "https://roads.org.mk/patna-mreza/video-kameri/",
+    "t": "Видео камери"
+   },
+   {
+    "h": "https://roads.org.mk/patna-mreza/video-kameri/",
+    "t": "Видео камери"
+   },
+   {
+    "h": "https://roads.org.mk/patna-mreza/video-kameri/",
+    "t": ""
+   }
+  ],
+  "text": "Open toolbar\n\nПристапност\n\nЗголемете го текстот\nНамалете го текстот\nЦрно-бело\nВисок контраст\nНегативен контраст\nСветла позадина\nПодвлечете ги линковите\n Reset\nМапа на сајтот\nSkip to content\nРЕПУБЛИКА СЕВЕРНА МАКЕДОНИЈА\n|\nЈАВНО ПРЕТПРИЈАТИЕ ЗА ДРЖАВНИ ПАТИШТА\n \nмакедонски\nshqip\nenglish\nЗА НАС\nРЕГУЛАТИВА\nПАТНА МРЕЖА\nПАТАРИНА\nПАТНА ТАКСА\nПРОЕКТИ\nОДНОСИ СО ЈАВНОСТА\nКОНТАКТ\n \nПОСЛЕДНИ НОВОСТИ\nЈАВЕН ОГЛАС бр.1/2026 за вработување на работници во Проектна единица за спроведување на проектот за изградба на инфраструктурниот Коридор 8 ( делница Тетово – Гостивар – Букојчани и проектот за автопатот Требеништа – Струга – Ќафасан) и Коридорот 10д (делница на автопатот Прилеп – Битола) во Република Северна Македонија\n05.10.2026\nМапа на сајтот\nБарања и Одговори\nПолитика на приватност\nКонтакт\n \n© 2023, Јавно претпријатие за државни патишта. Сите права задржани.\nКористиме колачиња (cookies) кои не содржат лични податоци, за да го подобриме Вашето корисничко искуство, да ги извршиме Вашите нагодувања, да анализираме интернет сообраќај и подобро да ја заштитиме нашата интернет страна. Продолжете со користење и прифатете ги сите доколку се согласувате со начинот на употреба на колачиња.\nПрифатете"
+ },
+ "errors": [],
+ "title": "Јавно претпријатие за државни патишта – © 2023",
+ "mediaRequests": [
+  {
+   "u": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/02/Kocani-Ponikva.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/03/proekti.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://roads.org.mk/wp-content/uploads/2023/03/etc.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ]
+}

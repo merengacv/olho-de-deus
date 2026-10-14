@@ -1,0 +1,1231 @@
+{
+ "id": "fr-sytadin",
+ "url": "https://www.sytadin.fr/",
+ "requests": [
+  {
+   "u": "https://www.sytadin.fr/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/css/sytadin2.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/css/sytadin-gp.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/css/jquery-ui.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/jquery.cookie.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/variablesSytadin-gp.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/sytadin_titre6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/jquery.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/black_arrow_left.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/sytadin.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/jquery.tablesorter.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://platform.twitter.com/widgets.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/black_arrow_right.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/images/twitter.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/banniere_chantiers_mini.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/fleche_horizon_in.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/main_bottom_right.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/cartesTempsReel-gp.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/toolsBarTpsReel.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/main_bottom_left.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/images/SytadinTwitterLogo4_48x48.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/174x90_230310_AD_DIRIF.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/led_number_2.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/red_arrow_left.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/OpenLayers.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/carto/dynamique/cartoTempsReel.json?_=1791943818783",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/red_arrow_right.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/led_number_Km.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/bouton_aide.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_onglets_left.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/bouton_plein_ecran.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/fleche_right_in.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/fleche_left_in.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/images/Securite_Agents3.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/css/print.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/bouton_imprim.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/black_background_title.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/main_bottom_background.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_onglets_right.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/menu_bottom.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/block_menu_left_2.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/block_menu_left_1.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/block_menu_right_1.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/block_menu_left_3.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/block_menu_right_2.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/block_menu_right_4.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/block_menu_right_3.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/red_background_title.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_onglets_background.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://platform.twitter.com/widgets/widget_iframe.[CHAVE].html?origin=https%3A%2F%2Fwww.sytadin.fr",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/theme/default/style.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/west-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/zoom-minus-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/north-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/east-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/zoom-plus-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_outils_home.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_outils_hidepole.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/zoombar.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_outils_displayevt.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/south-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_outils_load.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_outils_displayfond.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/slider.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_outils_favoris.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_outils_displaytravaux.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/raster_outils_hideetiquettes.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://syndication.twitter.com/settings?session_id=[CHAVE]",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://platform.twitter.com/js/button.[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/carto/dynamique/14040937/evenements/sectoriel.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/carto/dynamique/14040937/evenements/troncon.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://platform.twitter.com/widgets/follow_button.[CHAVE].fr.html",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/carto/dynamique/14040937/evenements/general.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://syndication.twitter.com/i/jot/embeds?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fwww.sytadin.fr%2F%22%2C%22widget_frame%22%3Afalse%2C%22language%22%3A%22fr%22%2C%22message%22%3A%22m%3Awithcount%3A%22%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1791943819249%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%226a3ad42b224df%3A1778106238597%22%2C%22format_version%22%3A1%2C%",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/travaux.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/incident.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "fr-sytadin-1.txt",
+   "u": "https://www.sytadin.fr/",
+   "bytes": 19193,
+   "type": "document"
+  },
+  {
+   "file": "fr-sytadin-2.txt",
+   "u": "https://www.sytadin.fr/carto/dynamique/cartoTempsReel.json?_=1791943818783",
+   "bytes": 95,
+   "type": "xhr"
+  },
+  {
+   "file": "fr-sytadin-3.txt",
+   "u": "https://platform.twitter.com/widgets/widget_iframe.[CHAVE].html?origin=https%3A%2F%2Fwww.sytadin.fr",
+   "bytes": 327156,
+   "type": "document"
+  },
+  {
+   "file": "fr-sytadin-4.txt",
+   "u": "https://syndication.twitter.com/settings?session_id=[CHAVE]",
+   "bytes": 869,
+   "type": "fetch"
+  },
+  {
+   "file": "fr-sytadin-5.txt",
+   "u": "https://www.sytadin.fr/carto/dynamique/14040937/evenements/sectoriel.json",
+   "bytes": 4667,
+   "type": "xhr"
+  },
+  {
+   "file": "fr-sytadin-6.txt",
+   "u": "https://www.sytadin.fr/carto/dynamique/14040937/evenements/troncon.json",
+   "bytes": 14213,
+   "type": "xhr"
+  },
+  {
+   "file": "fr-sytadin-7.txt",
+   "u": "https://platform.twitter.com/widgets/follow_button.[CHAVE].fr.html",
+   "bytes": 38651,
+   "type": "document"
+  },
+  {
+   "file": "fr-sytadin-8.txt",
+   "u": "https://www.sytadin.fr/carto/dynamique/14040937/evenements/general.json",
+   "bytes": 4667,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "/resources/images/sytadin_titre6.png",
+   "/resources/images/black_arrow_left.gif",
+   "/resources/images/black_arrow_right.gif",
+   "/images/twitter.png",
+   "/resources/images/main_bottom_left.gif",
+   "/resources/images/main_bottom_right.gif",
+   "/resources/images/fleche_horizon_in.png",
+   "/images/SytadinTwitterLogo4_48x48.png",
+   "/resources/images/banniere_chantiers_mini.gif",
+   "/resources/images/led_number_2.gif",
+   "/resources/images/led_number_Km.gif",
+   "/resources/images/174x90_230310_AD_DIRIF.gif",
+   "/resources/images/fleche_left_in.png",
+   "/resources/images/fleche_right_in.png",
+   "/resources/images/red_arrow_left.gif",
+   "/resources/images/red_arrow_right.gif",
+   "/resources/images/raster_onglets_left.gif",
+   "/resources/images/raster_onglets_right.gif",
+   "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/3.png",
+   "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/2.png",
+   "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/3.png",
+   "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/3.png",
+   "https://www4.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/2.png",
+   "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/4.png",
+   "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/2.png",
+   "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/4.png",
+   "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/4.png",
+   "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/3.png",
+   "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/2.png",
+   "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/4.png",
+   "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/3.png",
+   "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/2.png",
+   "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/3.png",
+   "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/3.png",
+   "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/2.png",
+   "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/4.png",
+   "https://www3.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/2.png",
+   "https://www1.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/4.png",
+   "https://www1.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/4.png",
+   "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/3.png",
+   "https://www2.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/2.png",
+   "https://www3.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/4.png",
+   "/resources/js/img/north-mini.png",
+   "/resources/js/img/west-mini.png",
+   "/resources/js/img/east-mini.png",
+   "/resources/js/img/south-mini.png",
+   "/resources/js/img/zoom-plus-mini.png",
+   "/resources/js/img/slider.png",
+   "/resources/js/img/zoom-minus-mini.png",
+   "/resources/images/raster_outils_home.gif",
+   "/resources/images/raster_outils_load.gif",
+   "/resources/images/raster_outils_favoris.gif",
+   "/resources/images/raster_outils_hidepole.gif",
+   "/resources/images/raster_outils_displayevt.gif",
+   "/resources/images/raster_outils_displaytravaux.gif",
+   "/resources/images/raster_outils_hideetiquettes.gif",
+   "/resources/images/raster_outils_displayfond.gif",
+   "/resources/images/bouton_plein_ecran.gif",
+   "/resources/images/bouton_imprim.gif",
+   "/resources/images/bouton_aide.gif",
+   "/resources/images/main_bottom_left.gif",
+   "/resources/images/main_bottom_right.gif",
+   "https://www.sytadin.fr/images/Securite_Agents3.gif"
+  ],
+  "iframe": [
+   "https://platform.twitter.com/widgets/follow_button.[CHAVE].fr.html#dnt=false&id=twitter-widget-0&lang=fr&screen_name=Sytadin&show_count=false&show_screen_name=true&size=m&time=1791943819248",
+   "https://platform.twitter.com/widgets/widget_iframe.[CHAVE].html?origin=https%3A%2F%2Fwww.sytadin.fr"
+  ],
+  "video": [],
+  "links": [
+   {
+    "h": "https://www.ecologie.gouv.fr/actualites/lancement-campagne-nationale-securite-intervenants-route",
+    "t": ""
+   }
+  ],
+  "text": "4 Alerte(s) Réseau :\n12/10/26 à 09:43 :  INFO/Fermeture de la Francilienne (N104) entre Combs-la-Ville (A5b) et Tigery (A5a) du 20 au 23/10/26\n06/10/26 à 14:17 :  INFO/Fermeture de l'A14 entre Nanterre (A86) et Pont de Neuilly du 18 au 30/10/26\n02/10/26 à 17:12 :  INFO/N2 vers la province (Dammartin-en-Goële) : Fermeture de la sortie n°8 vers la D401 du 05/10 au 27/11/26\n22/07/26 à 09:28 :  INFO/Travaux de confortement du tunnel de Saint-Cloud (A13) du 16/11/26 à fin août 2027\nSe déplacer maintenant\nCarte temps réel\nCalculer son temps de parcours\nTemps de parcours par secteur\nPrévoir ses déplacements\nPartir au meilleur moment\nFermetures nocturnes de la semaine\nCalendrier des chantiers\nPlus sur le trafic\nActuellement:\nde bouchon\nCumul de bouchon\nHistorique en vidéos\nTableau de bord de la circulation\nMon sytadin\nMon compte\nPour votre sécurité\nVigilance METEO FRANCE\nSécurité routière\nQualité de l'air Idf\nVigilance atmosphérique France\nSytadin pratique\nFAQ\nInfo éditeur\nSytadin sur smartphone\nPlan du site\nPlus sur Sytadin\nQui sommes-nous ?\nActualités\nCarte temps réel\nLes vitesses Les bouchons\n10 km\nDRIEAT - Direction des routes île-de-France (DiRIF) - www.sytadin.fr\nEtat des bouchons le mercredi 14 octobre 2026 à 02:08\n  \n© 2014 - Toute reproduction interdite sans l'accord écrit préalable de la Direction des routes Île-de-France (DiRIF).\nVersion 2.8.0\nEn poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies conformément à notre politique de données personnelles.\nX"
+ },
+ "errors": [],
+ "title": "Sytadin : l'état du trafic en Île-de-France en temps réel",
+ "mediaRequests": [
+  {
+   "u": "https://www.sytadin.fr/resources/images/sytadin_titre6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/images/twitter.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/fleche_horizon_in.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/images/SytadinTwitterLogo4_48x48.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/fleche_right_in.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/fleche_left_in.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/west-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/zoom-minus-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/north-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/east-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/zoom-plus-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/zoombar.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/south-mini.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/js/img/slider.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/4/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www2.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/4/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www4.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/travaux.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.sytadin.fr/resources/images/incident.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/2/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/3/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/1/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www1.sytadin.fr/carto/statique/tms/1.0.0/fond/0/3/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/statique/tms/1.0.0/fond/0/1/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www3.sytadin.fr/carto/dynamique/14040937/tms/1.0.0/bouchons/0/2/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ]
+}

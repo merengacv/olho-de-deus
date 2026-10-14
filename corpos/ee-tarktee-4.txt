@@ -1,0 +1,932 @@
+GET https://tarktee.ee/assets/i18n/et.json
+content-type: application/json
+
+{
+	"Change_language": "Vaheta keelt",
+	"Close": "Sulge",
+	"Intro_text": "Transpordiameti liiklusinfo rakendus Tark Tee annab infot liikluspiirangute, teetööde ja teeolude kohta. Tark Tee aitab planeerida ohutut ja turvalist teekonda. Teavet riigiteede kohta vahendab ka Maanteeinfokeskuse lühinumber <b>1247</b>.</br> TRANSPORDIAMET KUJUNDAB TURVALIST JA TOIMIVAT LIIKLUSKESKKONDA.",
+	"Email": "E-posti aadress",
+	"form_email_invalid": "E-posti aadress pole korrektne",
+	"form_required": "Väli on kohustuslik",
+	"form_maxlength": "Sisestatud väärtus on liiga pikk",
+	"form_at_least_one_required": "Vähemalt üks väli peab olema täidetud",
+	"TechnicalException": "Tekkis tehniline viga",
+	"Yes": "Jah",
+	"No": "Ei",
+	"And": "ja",
+	"Search": "Otsing",
+	"Save": "Salvesta",
+	"Saved": "Salvestatud",
+	"Date_info": "Kuvatakse valitud kuupäeval tänase teadmise kohaselt kehtiv info. Info võib enne kuupäeva saabumist muutuda.",
+	"datex": {
+		"accept": "Olen kasutustingimused läbi lugenud ja nõustun nendega: ",
+		"accept_link": "kasutustingimused",
+		"back": "Tagasi",
+		"companyCode": "Asutuse registrikood",
+		"companyName": "Asutuse nimi",
+		"description": "Kirjeldus",
+		"data_missing": "Andmed pole veel saadaval",
+		"example": "Näidissõnum",
+		"firstName": "Eesnimi",
+		"form": "Registreerumisvorm",
+		"guide": "Transpordiameti DATEX II teenuste kasutamise juhend",
+		"notes": "Märkused",
+		"purpose": "Registreerumise eesmärk",
+		"register": "Registreeru",
+		"schema": "Schema",
+		"service": "DATEX II teenus",
+		"service_cameras_desc": "Teekaamerate pildid",
+		"service_camera_locations_desc": "Teekaamerate asukohad",
+		"service_measurement_desc": "Teeilmajaamade ja liiklusloendurite asukohad",
+		"service_restrictions_desc": "Liikluspiirangute andmed",
+		"service_safety_desc": "Olulised liiklusohutusega seotud andmed",
+		"service_traffic_desc": "Liiklusloendurite mõõtmistulemused",
+		"service_weather_desc": "Teeilmajaamade mõõtmistulemused",
+		"service_parking_sites_desc": "Veokiparklad",
+		"vms_sites_desc": "Elektrooniliste liiklusmärkide (VMS) asukohad",
+		"vms_desc": "Elektroonilised liiklusmärgid (VMS)",
+		"vms_info": "Tark Tee vahendab VMS märkide juhtimissüsteemi pakutavat teenust.",
+		"surname": "Perekonnanimi",
+		"text_form_info": "Registreerumine Transpordiameti DATEX II andmevärava kliendiks annab ligipääsu Transpordiameti DATEX teenustele.",
+		"text_form_info2": "Andmevärava kasutamine ei nõua sisselogimist. Pärast registreerumist saadetakse Teile unikaalne API-võti, mida tuleb kasutada DATEX II teenuste poole pöördumisel. NB! Võti muutub kehtivaks alles siis, kui Transpordiameti töötaja on Teie registreerumise üle vaadanud. Selle kohta saadetakse vastavasisuline kiri.",
+		"text_page_link": "kodulehelt",
+		"text_use": "Transpordiameti DATEX II teenuste kaudu jagatavate andmete kasutamiseks on vaja registreeruda. Registreerumine annab ligipääsu kõigile teenustele. Küsimuste korral pöörduge Transpordiameti liiklusjuhtimiskeskuse poole tmc@transpordiamet.ee.",
+		"title_form": "Transpordiameti DATEX II andmevärava registreerumisvorm",
+		"title_main": "Targa Tee DATEX II andmevärav",
+		"title_use": "DATEX teenuste kasutamine",
+		"title_what_is_datex": "Mis on DATEX II?",
+		"text_what_is_datex_1": "DATEX II (Data Exchange) on Euroopa Liidu poolt kehtestatud avatud ühtne andmestandard liiklusandmete ja liiklusohutusega seotud teabe edastamiseks.",
+		"text_what_is_datex_2": "Standardi eesmärk on tagada, et erinevad liiklusandmete tarbijad ja tootjad (riigid, liiklusoperaatorid ja teenuste pakkujad) saavad andmeid üheselt ning standardiseeritud vormingus vahetada.",
+		"text_what_is_datex_3": "Täpse ülevaate standardist leiab DATEX II ",
+		"title_versions": "Teenuste versioonid",
+		"text_versions_intro": "Tark Tee toetab kaht DATEX II versiooni:",
+		"text_versions_36": "üldised teenused ja spetsialiseeritud SRTI teenused, mis võimaldavad reaalajas juurdepääsu ohutusega seotud andmetele (libe tee, loomad, õnnetused, teetööd, ilmaolud jne).",
+		"text_versions_23": "üldised- ja pärand-teenused (ilmaandmed, liiklusandmed, kaamerad).",
+		"title_services_36": "DATEX II 3.6 teenused",
+		"title_services_23": "DATEX II 2.3 teenused",
+		"title_raw_data": "Toorandmed",
+		"teenus": "Teenus",
+		"formaat": "Formaat",
+		"raw_weather_metadata_desc": "Ilmajaamade metaandmed (GeoJSON)",
+		"raw_weather_data_desc": "Ilmajaamade mõõtmistulemused",
+		"raw_road_camera_metadata_desc": "Teekaamerate metaandmed (GeoJSON)",
+		"raw_road_camera_images_desc": "Teekaamerate pildid",
+		"title_related_materials": "Seotud materjalid",
+		"srti_temporary_slippery_road_desc": "Ajutiselt libe tee",
+		"srti_animal_obstacle_desc": "Loomad, inimesed, takistused, praht teel",
+		"srti_unprotected_accident_desc": "Kaitsmata õnnetusala",
+		"srti_short_term_road_works_desc": "Lühiajalised teetööd",
+		"srti_reduced_visibility_desc": "Piiratud nähtavus",
+		"srti_wrong_way_driver_desc": "Vastassuunavööndis liikuv sõiduk",
+		"srti_unmanaged_blockage_desc": "Märgistamata takistus teel",
+		"srti_exceptional_weather_desc": "Erandlikud ilmastikuolud",
+		"request_example": "Päringu näide",
+		"Client_registration_success": "Klient registreeritud. E-kiri saadetud."
+	},
+	"map": {
+		"Baselayer_text": "Kaart",
+		"Choose_basemap": "Vali aluskaart",
+		"Graylayer_text": "Hallkaart",
+		"Hybridlayer_text": "Hübriidkaart",
+		"Open_tarktee": "Ava Tark Tee",
+		"Ortolayer_text": "Ortofoto",
+		"Search": "Otsi aadressi või teed",
+		"Restriction_not_found": "Viidatavat piirangut ei leitud. Piirang on kustutatud või aegunud.",
+		"Object_not_found": "Viidatavat objekti ei leitud. Objekt on kustutatud või aegunud."
+	},
+	"notices": {
+		"Earlier_press_releases": "Varasemad",
+		"Future_annotations": "Eelteated",
+		"Todays_and_prior_notices": "Tänased ja eelteated",
+		"Todays_press_releases": "Tänased",
+		"Traffic_info": "Liiklusteated",
+		"No_messages": "Pole ühtegi liiklusteadet",
+		"Button_text": "Teated"
+	},
+	"notifications": {
+		"Subscribe": "Telli teavitus",
+		"Area": "Teavituse piirkond",
+		"Type": "Teavituse tüüp",
+		"Register": "Registreeri",
+		"Cancel": "Tühista",
+		"RegistrationAlreadyExists": "Selliste parameetritega on juba teavitused tellitud",
+		"EmailSent": "E-kiri saadetud",
+		"Activated": "Registreerumine oli edukas. Igal hommikul saadetakse teile teavitused lisandunud liikluspiirangute kohta.",
+		"Unsubscribed": "Teavituste tellimusest loobutud",
+		"AlreadyActivated": "Teavitused on juba varasemast aktiveeritud",
+		"TokenNotFound": "Teavituse tellimuse link on vigane või on tellimusest juba loobutud",
+		"RestrictionExpired": "Piirangut ei leitud või see on kehtivuse kaotanud",
+		"UnsubscribeConfirmation": "Kas soovite loobuda liikluspiirangute teavitustest?",
+		"UnsubscribeSuccess": "Loobusite edukalt liikluspiirangute teavitustest",
+		"InvalidEmail": "E-kirja aadress pole korrektne",
+		"Road_number": "Tee number",
+		"Road_number_help": "Sisesta teenumbrid komadega eraldatult (nt \"15,22,11254\"). Teede numbrid leiad vajadusel taustakaardilt.",
+		"Area_or_road_required": "Piirkond või tee number peab olema täidetud",
+		"Too_many_road_numbers": "Lubatud on sisestada kuni 10 tee numbrit",
+		"Or": "või",
+		"Button_text": "Telli",
+		"Truck_traffic_warning": "Teekonna planeerija ei arvesta kohalike omavalitsuse teede liikluspiirangutega",
+		"Restrictions_mass_warning": "Seoses tehnilise tõrkega ei ole hetkel uued massipiirangud kaardil kuvatud. Infot, kas konkreetsel teel on kehtestatud massipiirang, saab helistades liiklusjuhtimiskeskuse numbril 6120100."
+	},
+	"feedback": {
+		"Feedback": "Tagasiside",
+		"Question": "Kui tõenäoliselt Te soovitaksite TarkTee.ee veebilehte oma sõbrale või kolleegile tuginedes viimasele kogemusele?",
+		"Min": "ei ole üldse tõenäoline",
+		"Max": "väga tõenäoline",
+		"Comment": "Palun põhjendage, miks Te andsite just sellise hinnangu",
+		"GiveFeedback": "Annan tagasisidet"
+	},
+	"route": {
+		"Add_route_start": "Lisa lähtepunkt",
+		"Add_route_end": "Lisa sihtpunkt",
+		"Add_route_point": "Lisa teekonna punkt",
+		"Date": "Teekonna alustamise aeg",
+		"Height": "Kõrgus",
+		"Width": "Laius",
+		"Car": "Sõiduauto",
+		"Truck": "Veoauto",
+		"Route_length": "Teekonna pikkus",
+		"Route_time": "Läbimise aeg",
+		"Not_found": "Teekonna leidmine ebaõnnestus",
+		"Not_found_hardtop": "Teekonna leidmine kõvakattega teedel ebaõnnestus",
+		"Not_found_point": "Teekonna punkti {{value}} läbimine ei ole võimalik.",
+		"Not_found_points": "Teekonna punktide {{value}} läbimine ei ole võimalik.",
+		"Calculate_route_no_result_for_parameter_set": "Nende kahe koha vahel ei õnnestunud teekonda arvutada, palun täpsustage lähte- või sihtkohta",
+		"Data_not_found": "Andmeid ei leitud",
+		"Fastest": "Kiireim teekond",
+		"Only_hardtop_roads": "Ainult kõvakattega teed",
+		"Please_wait_while_server_is_looking_for_data": "Palun oodake, andmeid otsitakse serverist. Aega võib kuluda kuni 1 minut.",
+		"Remove": "Eemalda",
+		"Route_calculating": "Laadimine, palun oota",
+		"Shortest_distance": "Lühim teekond",
+    "Use_current_location": "Kasuta praegust asukohta"
+	},
+	"share": {
+		"Code": "Kood",
+		"Code_placeholder": "HTML-kood",
+		"Copy": "Kopeeri",
+		"Link": "Link",
+		"Link_placeholder": "Link kaardile viitamiseks",
+		"Share": "Jaga",
+		"Button_text": "Jaga",
+		"Share_object_button_text": "Jaga"
+	},
+	"language": {
+		"Button_text": "&nbsp;"
+	},
+	"table": {
+		"Traffic_restrictions_table": "Liikluspiirangud",
+		"Mass_restrictions_table": "Massi- ja gabariidipiirangud",
+		"Increased_maximum_speeds_table": "Suurendatud piirkiirused",
+		"Contact": "Kontakt",
+		"County": "Maakond",
+		"Description": "Kirjeldus",
+		"Direction": "Kehtivuse suund",
+		"End_km": "Lõpp km",
+		"From": "Alates",
+		"Highway": "Maantee",
+		"Info": "Lisainfo",
+		"Restriction": "Piirang",
+		"Restriction_effect": "Piirangu mõju",
+		"Restriction_specification": "Piirangu täpsustus",
+		"Restriction_type": "Piirangu tüüp",
+		"Restriction_value": "Piirangu väärtus",
+		"Road_name": "Tee nimi",
+		"Road_nr": "Tee nr",
+		"Start_km": "Algus km",
+		"To": "Kuni",
+		"Detour": "Ümbersõit"
+	},
+	"useful": {
+		"Bicicle_roads": "Jalgrattateed",
+		"Border_points": "Piiripunktid",
+		"Ferries": "Parvlaevad",
+		"Important_information_for_driving_in_Estonia": "Tähtis informatsioon Eestis liiklemiseks",
+		"Peatus_ee_application": "Peatus.ee rakendus",
+		"Road_camera_pictures": "Teekaamerate pildid",
+		"Road_weather_stations_application": "Teeilmajaamade rakendus",
+		"Tow_truck_info": "Puksiiriinfo",
+		"Useful_links": "Kasulikud lingid"
+	},
+	"info": {
+		"Info": "Info",
+		"Info_text_1": "Transpordiameti liiklusinfo rakendus Tark Tee annab teekasutajatele infot liikluspiirangute, teetööde ja teeolude kohta. Tark Tee aitab planeerida ohutumat ja efektiivsemat teekonda.",
+		"Info_text_2": "Teavet riigiteede kohta vahendab ka riigiinfo telefon lühinumbril <b>1247</b>.",
+		"Info_text_3": "Targa Tee portaali haldab Transpordiameti <a href='https://www.transpordiamet.ee/maanteed-veeteed-ohuruum/liikluskorraldus/liiklusjuhtimiskeskus'>liiklusjuhtimiskeskus</a>.",
+		"Info_text_4": "Liikluspiirangute info edastamiseks saavad Transpordiameti partnerid kasutada <a href='https://tarktee-sm.mnt.ee/ttsm/login'>Sisestusmoodulit</a>.",
+		"Give_feedback": "Siit saab anda tagasisidet!",
+		"Datagate": "Andmevärav",
+		"Datex_info": "Transpordiamet edastab liikluspiirangute, teetööde ja liiklusohtudega seotud andmeid operatiivselt läbi DATEX II andmevärava vabaks kasutamiseks. DATEX II on üleeuroopaline standard liiklusandmete edastamiseks, täpsemat infot teenuse kohta leiab andmevärava lehelt. Küsimuste korral pöörduge Transpordiameti liiklusjuhtimiskeskuse poole tmc@transpordiamet.ee",
+		"Datex2_datagate": "Datex II andmevärav",
+		"Do_not_show": "Ära enam näita",
+		"Button_text": "Info"
+	},
+	"common": {
+		"Search": "Otsing",
+		"Actions": "Tegevused",
+		"Edit": "Muuda",
+		"Delete": "Kustuta",
+		"Cancel": "Tühista",
+		"Save": "Salvesta"
+	},
+	"srti": {
+		"Rule_name": "Reegli nimi",
+		"Event_type": "Sündmuse tüüp",
+		"Data_source": "Andmeallikas",
+		"Enabled": "Aktiivne",
+		"Enable": "Aktiveeri",
+		"Disable": "Deaktiveeri",
+		"Priority": "Prioriteet",
+		"Reliability": "Usaldusväärsus",
+		"Edit_params": "Muuda parameetreid",
+		"Parameters": "Parameetrid",
+		"Max_age_hours": "Max vanus (tundi)",
+		"Max_duration_hours": "Max kehtivus (tundi)",
+		"Hours": "tundi",
+		"No_rules": "SRTI reeglid pole seadistatud",
+		"Conditions": "Tingimused",
+		"Rule_A_WRS": "Reegel A – WRS kood (DRS511)",
+		"Rule_A_description": "WRS 3-kohaline kood RWS200 juhendi järgi. Iga positsiooni jaoks saab määrata lubatud numbrid.",
+		"Rule_B_Grip": "Reegel B – DSC211 haardekoefitsient",
+		"Rule_B_description": "DSC211 anduri haardekoefitsiendi väärtus (0.0-1.0). Vali võrdlusoperaator ja läviväärtus.",
+		"Valid_first_position": "Esimene positsioon",
+		"Valid_second_position": "Keskmine positsioon",
+		"Valid_third_position": "Viimane positsioon",
+		"Position_hint": "Lubatud numbrid",
+		"Valid_WRS_codes": "Lubatud WRS koodid",
+		"WRS_codes_hint": "Komadega eraldatud koodid, nt: 206,207,216,217",
+		"Grip_comparison_operator": "Võrdlusoperaator",
+		"Grip_threshold": "Haardekoefitsiendi lävi",
+		"Grip_coefficient_hint": "Väärtus 0-1, nt 0.4",
+		"Less_than": "Väiksem kui",
+		"Less_than_equal": "Väiksem või võrdne",
+		"Greater_than": "Suurem kui",
+		"Greater_than_equal": "Suurem või võrdne",
+		"Equal": "Võrdne",
+		"Precipitation_types": "Sademete tüübid",
+		"Status_filter": "Staatuse filter",
+		"Status_confirmed": "Kinnitatud",
+		"Status_unconfirmed": "Kinnitamata",
+		"Status_all": "Kõik",
+		"Exclude_resource_status": "Välista ressursi staatus",
+		"Resource_finished": "Lõpetatud",
+		"Resource_active": "Aktiivne",
+		"Resource_none": "Ei välista",
+		"Require_active": "Nõua aktiivset staatust",
+		"Require_abnormality_flag": "Nõua ebanormaalsuse lippu",
+		"Waze_subtypes": "Waze alatüübid",
+		"Require_confirmation": "Nõua kinnitust",
+		"Hosis_status_filter": "HOSIS staatused",
+		"Hosis_status_hint": "Vali aktiivsed staatused (S ja E on aktiivsed)",
+		"Event_type_filter": "Sündmuse tüübi filter",
+		"Event_type_filter_hint": "Komadega eraldatud sündmuste tüübid, nt: accident,collision",
+		"Allowed_causes": "Lubatud piirangu põhjused",
+		"Allowed_causes_hint": "Komadega eraldatud TTSM põhjuse koodid, nt: PAVING,ROAD_SURFACE_MARKING,GEOLOGICAL_STUDIES",
+		"Visibility_rule_description": "TAP ilmajaamade (PWD12/PWD22) nähtavusandmetest sündmuste genereerimine.",
+		"Visibility_comparison_operator": "Võrdlusoperaator",
+		"Visibility_threshold": "Nähtavuse lävi (m)",
+		"Visibility_threshold_hint": "Nähtavuse läviväärtus meetrites, nt: 600",
+		"Exceptional_weather_description": "TAP ilmajaamade andmetest erandlike ilmaolude (lumesadu, tuul, jäätav vihm) sündmuste genereerimine.",
+		"Snow_intensity_threshold": "Lumesaju lävi (mm/h)",
+		"Snow_intensity_hint": "Lumesaju intensiivsus mm/h, nt: 1.0",
+		"Wind_speed_threshold": "Tuule kiiruse lävi (m/s)",
+		"Wind_speed_hint": "Tuule puhangute kiirus m/s, nt: 20",
+		"Freezing_rain_threshold": "Jäätava vihma lävi (mm/h)",
+		"Freezing_rain_hint": "Jäätava vihma intensiivsus mm/h, nt: 0.5"
+	},
+	"admin": {
+		"Traffic_info": "Liiklusteated",
+		"Map_layers": "Kaardikihid",
+    "Map_layers_presets": "Eelvalikud",
+		"Datex2": "DATEX II",
+		"datex": {
+			"Clients": "DATEX II kliendid",
+			"Services_stat": "Teenuste statistika",
+			"Clients_stat": "Klientide statistika",
+			"SRTI_params": "SRTI parameetrid",
+			"Client_name": "Kliendi nimi",
+			"Register_code": "Registrikood",
+			"Representative": "Esindaja nimi",
+			"Status": "Staatus",
+			"Last_change_date": "Viimase muutmise aeg",
+			"Activated": "Aktiveeritud",
+			"Deactivated": "Deaktiveeritud",
+			"Representative_first_name": "Esindaja eesnimi",
+			"Representative_surname": "Esindaja perenimi",
+			"Key_status": "Võtme staatus",
+			"API_key": "API-võti",
+			"Record_create_date": "Kirje loomise aeg",
+			"Record_update_date": "Kirje viimase muutmise aeg",
+			"Last_updater": "Viimane muutja",
+			"Activate_API_key": "Aktiveeri API-võti",
+			"Deactivate_API_key": "Deaktiveeri API-võti",
+			"Generate_API_key": "Genereeri uus API-võti",
+			"Confirm_user": "Kinnita kasutaja",
+			"Delete_user": "Kustuta kasutaja",
+			"Delete_user_confirm": "Oled sa kindel, et soovid kasutajat kustutada?",
+			"Client": "Klient",
+			"Service": "Teenus",
+			"Last_12_months": "Viimased 12 kuud",
+			"Whole_time": "Terve kasutusperiood",
+			"Last_request_date": "Viimase päringu aeg"
+		},
+		"feedback": {
+			"score": "Hinne",
+			"userComment": "Kommentaar",
+			"time": "Aeg",
+			"activity": "Kasutaja algatatud",
+			"sessionId": "Identifikaator",
+			"Initiated_by_user": {
+				"true": "Jah",
+				"false": "Ei"
+			}
+		}
+	},
+	"cookie_law": {
+		"Text": "Sellel veebilehel kasutatakse küpsiseid. Kasutamist jätkates nõustute küpsiste ja veebilehe üldtingimustega.",
+		"Accept": "Nõustun",
+		"More_info": "Rohkem infot",
+		"More_info_link": "https://transpordiamet.ee/eraelulise-teabe-kaitse"
+	},
+	"rest_error": {
+		"InvalidEmail": "E-posti aadress pole korrektne"
+	},
+	"enum": {
+		"NotificationType": {
+			"TRAFFIC": "Liikluspiirangud",
+			"WEIGHT_AND_SIZE": "Massi- ja gabariidipiirangud",
+			"ALL": "Kõik"
+		},
+		"RestrictionEffect": {
+			"COMPLETE_CLOSURE": "Täielik sulgemine",
+			"ONE_WAY_CLOSED": "Sõidusuund suletud",
+			"LANE_CLOSED": "Sõidurada suletud",
+			"SPEED_LIMITED": "Kiiruse piirang",
+			"OTHER": "Muu"
+		},
+		"RestrictionCause": {
+			"EVENT": "Üritus",
+			"PAVING": "Pindamine",
+			"BRIDGE_OVERPASS_CONSTRUCTION": "Silla/viadukti remont",
+			"UTILITY_COMS_CONSTRUCTION": "Trasside/kommunikatsioonide ehitus",
+			"SIDEWALK_CONSTRUCTION": "Kergliiklustee ehitus",
+			"CONSTRUCTION": "Teeremont",
+			"GRAVEL_ROAD_REPAIRS": "Kruusatee remont",
+			"CULVERT_REPAIRS": "Truubiremont",
+			"ROAD_SURFACE_MARKING": "Teekatte märgistööd",
+			"BARRIER_WORKS": "Piirdetööd",
+			"GEOLOGICAL_STUDIES": "Geoloogiline uuring",
+			"STORAGE_OF_MATERIALS": "Materjalide ladustamine",
+			"OTHER": "Muu"
+		},
+		"RestrictionType": {
+			"GROSS_VEHICLE_WEIGHT_LIMIT": "Registrimass",
+			"WEIGHT_LIMIT": "Tegelik mass",
+			"SEMI_TRAILER_WEIGHT_LIMIT": "Autorongi või masinrongi mass",
+			"AXLE_LOAD_LIMIT": "Teljekoormus",
+			"UNDERCARRIAGE_LOAD_LIMIT": "Telikukoormus",
+			"HEIGHT_LIMIT": "Kõrguspiirang",
+			"WIDTH_LIMIT": "Laiuspiirang"
+		},
+		"RoadStatus": {
+			"FROST": "härmatis",
+			"ICE": "jäine",
+			"DRY": "kuiv",
+			"SNOWY": "lumine",
+			"SLUSH": "lörts",
+			"WET": "märg",
+			"NB_FROST": "NB! härmatis",
+			"NB_ICE": "NB! jäine",
+			"NB_SNOW": "NB! lumine",
+			"NB_WET": "NB! märg",
+			"NB_MOIST": "NB! niiske",
+			"NB_MOIST_AND_CHEMICAL": "NB! soolaniiske",
+			"MOIST": "niiske",
+			"WET_AND_CHEMICAL": "soolamärg",
+			"MOIST_AND_CHEMICAL": "soolaniiske"
+		},
+		"PrecipitationType": {
+			"NO_PRECIPITATION": "ei saja",
+			"RAIN": "vihm",
+			"SNOW": "lumi",
+			"SLEET": "lörts",
+			"BLIZZARD": "lumetuisk",
+			"HAIL": "rahe",
+			"TYPE_UNKNOWN": "tüüp ebaselge"
+		},
+		"HOSISWorkType": {
+			"T1001_UNMARKED_OBJECT": "Tähistamata sõiduk/ objekt",
+			"T1003_TRAFFIC_RESTRICTION": "Liiklustakistus",
+			"T1005_TREE": "Puu teel",
+			"T1007_ROADKILL": "Korjus",
+			"T1014_FLOOD": "Üleujutus",
+			"T1016_ROADKILL_LARGE": "Suur korjus"
+		},
+		"RoadType": {
+			"MAIN_ROAD": "Põhimaantee",
+			"BASIC_ROAD": "Tugimaantee",
+			"SECONDARY_ROAD": "Kõrvalmaantee",
+			"CONNECTING_ROAD": "Ühendustee",
+			"LOCAL_ROAD": "KOV tee"
+		},
+		"BikewayType": {
+			"1": "jalgrattatee",
+			"2": "kõnnitee",
+			"3": "jalgratta- ja kõnnitee"
+		},
+		"Position": {
+			"VASAKUL": "vasakul",
+			"PAREMAL": "paremal"
+		},
+		"Direction": {
+			"1": "pärisuund",
+			"2": "vastassuund",
+			"3": "mõlemas suunas"
+		},
+		"ServiceLevelsWinter": {
+			"1": "Talvine seisunditase 1 (madal) – tehakse libedusetõrjet, kuid teed ei pruugi olla lume- ja jäävabad. Lumetõrjet tehakse hiljemalt 24 h jooksul pärast lumesaju või tuisu lõppu. Libedusetõrjet tehakse hiljemalt 12 h jooksul pärast libeduse tekkimist.",
+			"11": "Talvine seisunditase 1 (madal), puistatav lõik – tehakse libedusetõrjet, kuid teed ei pruugi olla lume- ja jäävabad. Lumetõrjet tehakse hiljemalt 24 h jooksul pärast lumesaju või tuisu lõppu. Libedusetõrjet tehakse hiljemalt 12 h jooksul pärast libeduse tekkimist.",
+			"2": "Talvine seisunditase 2 (keskmine) – tehakse libedusetõrjet, kuid teed ei pruugi olla lume- ja jäävabad. Lumetõrjet tehakse hiljemalt 12 h jooksul pärast lumesaju või tuisu lõppu. Libedusetõrjet tehakse hiljemalt 8 h jooksul pärast libeduse tekkimist.",
+			"3": "Talvine seisunditase 3 (kõrge) – teepind on lume- ja jäävaba või vähemalt sõidujäljed on lume- ja jäävabad. Lumetõrjet tehakse hiljemalt 5 h jooksul pärast lumesaju või tuisu lõppu. Libedusetõrjet tehakse hiljemalt 4 h jooksul pärast libeduse tekkimist. Tehakse ennetavat libedusetõrjet, kui ilmaprognooside või muude andmete alusel on tõenäoline haardeteguri vähenemine alla nõutava.",
+			"31": "Talvine seisunditase 3+ (kõrge) – teepind on lume- ja jäävaba või vähemalt sõidujäljed on lume- ja jäävabad. Lumetõrjet tehakse hiljemalt 5 h jooksul pärast lumesaju või tuisu lõppu. Libedusetõrjet tehakse hiljemalt 2 h jooksul pärast libeduse tekkimist. Tehakse ennetavat libedusetõrjet, kui ilmaprognooside või muude andmete alusel on tõenäoline haardeteguri vähenemine alla nõutava.",
+			"4": "Talvine seisunditase 4 (kiirtee) – teepind on lume- ja jäävaba. Lumetõrjet tehakse hiljemalt 2 h jooksul pärast lumesaju või tuisu lõppu. Libedusetõrjet tehakse hiljemalt 2 h jooksul pärast libeduse tekkimist. Tehakse ennetavat libedusetõrjet, kui ilmaprognooside või muude andmete alusel on tõenäoline haardeteguri vähenemine alla nõutava."
+		},
+		"ServiceLevelsSummer": {
+			"11": "Kattega tee seisunditase 1",
+			"12": "Kattega tee seisunditase 2",
+			"13": "Kattega tee seisunditase 3",
+			"14": "Kattega tee seisunditase 4",
+			"21": "Kruusatee seisunditase 1",
+			"22": "Kruusatee seisunditase 2",
+			"23": "Kruusatee seisunditase 3",
+			"24": "Kruusatee seisunditase 4"
+		},
+		"WazeType": {
+			"JAM_LIGHT_TRAFFIC": "liiklusvoog kergelt häiritud",
+			"JAM_MODERATE_TRAFFIC": "liiklusvoog häiritud",
+			"JAM_HEAVY_TRAFFIC": "liiklusvoog oluliselt häiritud",
+			"JAM_STAND_STILL_TRAFFIC": "ummik",
+			"HAZARD_ON_ROAD_OBJECT": "takistus teel",
+			"HAZARD_ON_ROAD_POT_HOLE": "löökauk",
+			"HAZARD_WEATHER_FOG": "udu",
+			"HAZARD_WEATHER_HEAVY_SNOW": "tihe lumesadu",
+			"HAZARD_WEATHER_FREEZING_RAIN": "jäävihm",
+			"HAZARD_ON_ROAD_OIL": "õli teel",
+			"HAZARD_ON_ROAD_CAR_STOPPED": "sõiduk teel"
+		},
+		"DatexService": {
+			"RESTRICTIONS": "Liikluspiirangud",
+			"SAFETY": "Liiklusohutuse andmed",
+			"CAMERA_LOCATIONS": "Teekaamerate asukohad",
+			"CAMERA_IMAGES": "Teekaamera ülesvõtted",
+			"MEASUREMENT_SITES": "Mõõtmispunktide asukohad",
+			"TRAFFIC": "Liikluskoormus",
+			"WEATHER": "Ilmastikutingimused",
+			"PARKING_SITES": "Veokiparklad",
+			"VMS_STATIC_DATA": "Elektrooniliste liiklusmärkide (VMS) asukohad",
+			"VMS_OPERATIVE_DATA": "Elektroonilised liiklusmärgid (VMS)"
+		},
+		"Source": {
+			"S1_EMERGENCY_RESPONCE_CENTRE": "112",
+			"S2_ENVIRONMENTAL_INSPECTORATE": "Keskkonnainspektsioon",
+			"S3_MAINTENANCE_PROVICER": "Teehooldaja",
+			"S4_ROAD_USER": "Liikleja"
+		},
+		"Equipment": {
+			"toilet": "WC",
+			"shower": "dušš",
+			"internetWireless": "Wi-Fi",
+			"iceFreeScaffold": "lumetelling",
+			"none": "puuduvad",
+			"unknown": "ei ole teada",
+			"other": "muu"
+		},
+		"Facilities": {
+			"hotel": "hotell",
+			"motel": "motell",
+			"shop": "pood",
+			"restaurant": "toitlustus",
+			"petrolStation": "tankla",
+			"unknown": "ei ole teada",
+			"other": "muu"
+		},
+		"EsriMapError": {
+			"webgl:required": "Teie seade ei toeta WebGL-i."
+		}
+	},
+	"map_info_window": {
+		"common":{
+			"Road": "Tee",
+			"Location": "Asukoht (km)",
+			"Validity_period": "Kehtivusaeg",
+			"Cause": "Põhjus",
+			"Extra_info": "Lisainfo",
+			"Diagrams": "Joonised",
+			"Measurement_time": "Mõõtmise aeg",
+			"Validity_starts_in": "Piirang hakkab kehtima {{days}} päeva pärast."
+		},
+		"road_restriction": {
+			"Restriction": "Piirang",
+			"Contact": "Kontakt"
+		},
+		"restrictions_tallinn": {
+			"Address": "Aadress",
+			"Roadworks_name": "Töö nimetus",
+			"Proceeding_url": "Viide täpsemale kirjeldusele",
+			"Work_type": "Töö liik",
+			"Work_description": "Töö kirjeldus"
+		},
+		"detours": {
+			"Detour_description": "Ümbersõidu kirjeldus",
+			"Detour_duration": "Ümbersõidu kestus",
+			"Related_restriction_link": "Link seotud piirangule",
+			"Related_restriction_link_text": "Vaata seotud piirangut"
+		},
+		"restriction_limits": {
+			"Restriction": "Piirang",
+			"Height_restriction": "Kõrgusgabariidi piirang",
+			"Width_restriction": "Laiusgabariidi piirang",
+			"Permit": "Piirangu alas liiklemiseks saab luba taotleda Transpordiameti <a target='_blank' href='{{url}}'>e-teeninduses</a>"
+		},
+		"road_weather_station": {
+			"Weather_station_name": "Ilmajaam",
+			"Road_status": "Teeseis",
+			"Road_temperature": "Teetemperatuur",
+			"Air_temperature": "Õhutemperatuur",
+			"Precipitation_type": "Saju tüüp",
+			"Precipitation_intensity": "Saju intensiivsus",
+			"Wind_dir_speed": "Tuule suund ja kiirus",
+			"Air_humidity": "Õhuniiskus",
+			"Visibility": "Nähtavus",
+      "Grip_factor": "Haardetegur"
+		},
+		"road_cameras": {
+			"Road_camera_name": "Teekaamera",
+			"Image_time": "Kaamerapildi aeg",
+			"Closest_weather_station": "Lähima ilmajaama andmed",
+			"Weather_time": "Ilmaandmete mõõtmise aeg"
+		},
+		"ice_roads": {
+			"Road_name": "Tee nimi",
+			"Allowed_weight": "Lubatud mass",
+			"Road_length": "Tee pikkus",
+			"Contact": "Kontakt",
+			"Currently_open": "Hetkel avatud",
+			"Closed_at": " kuni kell ",
+			"Currently_closed": "Hetkel suletud",
+			"Opened_at": ", avatakse kell ",
+			"Temporarily_closed": "Ajutiselt suletud",
+			"Modified_at": "Infot muudeti viimati"
+		},
+		"opinfo": {
+			"Location": "Asukoht",
+			"RoadNr": "Tee nr.",
+			"Km": "km",
+			"Situation": "Sündmus",
+			"Report_time": "Teate aeg",
+			"Accident": "Liiklusõnnetus",
+			"Source": "Allikas",
+			"Importance": {
+				"M": "Liiklusõnnetus",
+				"H": "Raske liiklusõnnetus"
+			}
+		},
+		"traffic_detectors": {
+			"Road": "Tee",
+			"Traffic_counter_name": "Loenduspunkt",
+			"Forwards": "Pärisuunas",
+			"Backwards": "Vastassuunas",
+			"Total_flow": "Liiklussagedus",
+			"Average_speed": "Keskmine kiirus",
+			"Heavy_traffic": "Raskeliikluse osakaal"
+		},
+		"altered_speed_limit": {
+			"Speed_limit": "Piirkiirus",
+			"Effective_date": "Kehtestamise kuupäev"
+		},
+		"waze": {
+			"Type": "Hoiatus",
+			"Published_at": "Teavitamise aeg"
+		},
+		"roads" : {
+			"Road_type": "Tüüp"
+		},
+		"tr_bikeways": {
+			"Road_type": "Tüüp",
+			"Position": "Asetus"
+		},
+		"service_levels": {
+			"Description": "Kirjeldus"
+		},
+		"maintenance_contractors": {
+			"Road_maintenance_provider": "Hoolde teostaja"
+		},
+		"speed_cameras": {
+			"Location": "Asukoht",
+			"Speed_camera_name": "Kiiruskaamera",
+			"Speed_limit": "Piirkiirus",
+			"Measurement_direction": "Mõõtmissuund"
+		},
+		"bridges": {
+			"Bridge_name": "Silla nimi",
+			"Construction_year": "Ehitamisaasta",
+			"Nominal_load": "Kandevõime",
+			"Number_of_spans": "Avade arv",
+			"Span_lengths": "Avade arvutuslikud pikkused"
+		},
+		"percostations": {
+			"Percostation_name": "Mõõtepunkt",
+			"Frost_limit": "Külmumispiir",
+			"Temperature_20cm": "Temperatuur 20 cm sügavusel",
+			"Temperature_50cm": "Temperatuur 50 cm sügavusel"
+		},
+		"parking_data": {
+			"Site_name": "Parkla",
+			"Number_of_spaces": "Parkimiskohti (veoautod)",
+			"Equipment_and_facilities": "Teenused",
+			"Contact_email": "E-mail",
+			"Contact_phone": "Telefon",
+			"Road_info": "Maantee",
+			"Has_parking_fee": "Parkimine on tasuline"
+		},
+		"vms_traffic_signs": {
+			"Speed_limit": "Piirkiirus",
+			"Speed_limit_changed_at": "Piirkiirus muutus viimati",
+			"Warning_changed_at": "Hoiatus muutus viimati",
+			"Data_retrieved_at": "Viimane andmete värskendamine"
+		}
+	},
+  "map_layers_management":{
+    "title": "Kaardikihtide ja gruppide haldamine",
+    "save": "Salvesta",
+    "active": "Nähtav",
+    "order": "Järjekord",
+    "layerName": "Kaardikihi nimi",
+    "ownerGroup": "Kuulub gruppi",
+    "refreshInterval": "Värskendamise intervall(min)"
+  },
+  "map_layers_predet_management":{
+    "title": "Eelvalikute haldamine",
+    "save": "Salvesta",
+    "isDisplayed": "Aktiivne",
+    "active": "Vaikevalik",
+    "order": "Järjekord",
+    "groupName": "Gruppi nimi",
+    "layer": "Kaardikihi nimi"
+  },
+	"map_layer_sections": {
+		"predefined": "Eelvalikud",
+		"layers": "Kaardikihid"
+	},
+	"map_layer_groups": {
+		"restrictions_traffic": "Liikluspiirangud",
+		"restrictions_size": "Massi- ja gabariidipiirangud",
+		"road_conditions": "Teeolud",
+		"traffic_info": "Liiklusinfo",
+		"road_register": "Teeregister",
+		"truck_roads": "Veoteed",
+        "restrictions_driving": "Sõidukeelud"
+	},
+	"map_layers": {
+		"restrictions_traffic": "Liikluspiirangud",
+		"restrictions_tallinn": "Liikluspiirangud Tallinnas",
+		"detours": "Ümbersõidud",
+        "emergency_events": "Erakorralised sulgemised",
+		"restrictions_mass": "Massipiirangud",
+		"restrictions_height": "Kõrguspiirangud",
+		"restrictions_width": "Laiuspiirang < 4 m",
+		"road_weather_stations": "Teeilmajaamad",
+		"road_cameras": "Teekaamerad",
+		"ice_roads": "Jääteed",
+		"operative_info": "Operatiivinfo",
+		"traffic_detectors": "Liiklussagedus",
+		"restrictions_increased_speed": "Suurendatud piirkiirused",
+		"waze": "Hoiatused Waze'ist",
+		"roads": "Riigiteed",
+		"bikeways": "Jalgratta- ja kõnniteed",
+		"kilometer_points": "Kilomeetripunktid",
+		"service_levels_summer": "Seisunditasemed",
+		"service_levels_winter": "Seisunditasemed",
+		"maintenance_contractors": "Teehoolde teostajad",
+		"bridges": "Sillad",
+		"speed_cameras": "Kiiruskaamerad",
+		"truck_roads": "48/52 t veoteed",
+		"truck_roads_60t": "60 t veoteed",
+		"truck_roads_80t": "80 t veoteed",
+		"truck_roads_25m": "25,25 m veoteed",
+		"truck_roads_winter": "Talvised veoteed",
+		"percostations": "Teekonstruktsiooni temperatuurid",
+		"bridges_weak": "Raskeveostele sobimatud sillad",
+		"parking_data": "Veokiparklad",
+		"vms_traffic_signs": "Elektroonilised liiklusmärgid",
+    "restrictions_driving_all_vehicles": "Kõigi sõidukite sõidu keeld",
+    "restrictions_driving_all_motor_vehicles": "Kõigi mootorsõidukite sõidu keeld",
+    "restrictions_driving_tractor": "Traktori ja liikurmasina sõidu keeld",
+    "restrictions_driving_moped":  "Mopeedi ja mopeedauto sõidu keeld",
+    "restrictions_driving_dangerous_goods": "Ohtlikku veost vedava sõiduki, autorongi ja masinrongi sõidu keeld",
+    "road_surfaces":"Kõrvalmaanteede katted"
+	},
+	"map_layers_predefined": {
+		"restrictions_traffic": "Liikluspiirangud",
+		"restrictions_size": "Massi- ja gabariidipiirangud",
+		"road_conditions": "Teeolud"
+	},
+	"map_layers_legend": {
+		"restrictions_traffic": {
+			"0": "tee täielik sulgemine",
+			"1": "teetööd",
+			"2": "pindamised",
+			"3": "üritused ja muud piirangud",
+			"4": "märgistustööd või uuringud",
+			"5": "Kuvatakse ainult riigiteede piiranguid"
+		},
+		"restrictions_tallinn": {
+			"0": "Tallinna linna liikluspiirangud",
+			"1": "Täpsemal kujul on piirangud leitavad <a target='_blank' href='https://opinfo.tallinn.ee/kaart?m=108'>Tallinna operatiivinfo lehelt</a>"
+		},
+		"detours": {
+			"0": "ümbersõidud"
+		},
+    "emergency_events": {
+      "0": "Erakorraline sulgemine"
+    },
+		"restrictions_mass": {
+			"0": "massipiirangud",
+			"1": "Kuvatakse kõik riigiteede piirangud ning osade omavalitsuste teedel paiknevad piirangud"
+		},
+		"restrictions_height": {
+			"0": "kõrgusgabariidi piirangud",
+			"1": "Kuvatakse ainult riigiteede piiranguid"
+		},
+		"restrictions_width": {
+			"0": "laiusgabariidi piirangud",
+			"1": "Kuvatakse ainult riigiteede piiranguid"
+		},
+		"road_weather_stations": {
+			"0": "suur libeduse oht",
+			"1": "libeduse oht",
+			"2": "märg teekate",
+			"3": "andmed osalised või vanemad kui 1 tund",
+			"4": "andmed vanemad kui 2 tundi",
+			"5": "head teeolud",
+			"6": "Teeilmajaamade ikoonil kuvatakse teepinna temperatuuri"
+		},
+		"road_cameras": {
+			"0": "teekaamera",
+			"1": "teekaamera (pilt vananenud)"
+		},
+		"ice_roads": {
+			"0": "hetkel avatud jäätee",
+			"1": "hetkel suletud jäätee",
+			"2": "ajutiselt suletud jäätee",
+			"3": "Jääteede infot uuendatakse igal varahommikul"
+		},
+		"operative_info": {
+			"0": "liiklustakistused ja -ohud",
+			"1": "liiklusõnnetused",
+			"2": "olulised liiklustakistused ja -ohud",
+			"3": "Operatiivinfo kihil kuvatakse häirekeskuselt ja liiklejatelt saabunud teateid maanteedel olevate takistuste, avariide jm kohta."
+		},
+		"traffic_detectors": {
+			"0": "sujuv liiklus",
+			"1": "aeglane liiklus",
+			"2": "väga aeglane liiklus",
+			"3": "andmed puuduvad",
+			"4": "Liiklussageduse kihil näidatakse viimase 15 minuti mõõtmistulemusi."
+		},
+		"restrictions_increased_speed": {
+			"0": "suurendatud piirkiirusega lõigud"
+		},
+		"waze": {
+			"0": "liiklusvoog häiritud",
+			"1": "takistus teel",
+			"2": "keerulised teeolud",
+			"3": "Andmed pärinevad rakendusest <a target='_blank' href='https://www.waze.com/'>Waze</a>."
+		},
+		"roads": {
+			"0": "põhimaanteed",
+			"1": "tugimaanteed",
+			"2": "püsikattega kõrvalmaantee",
+			"3": "kruuskattega kõrvalmaantee",
+			"4": "rambid ja ühendusteed",
+			"5": "kohaliku omavalitsuse halduses olevad riigitee numeratsiooniga teelõigud"
+		},
+		"bikeways": {
+			"0": "jalgratta- ja kõnniteed"
+		},
+		"kilometer_points": {
+			"0": "kilomeetripunktid",
+			"1": "Kilomeetripunktid tulevad nähavale ainult suurema suumi korral"
+		},
+		"service_levels_summer": {
+			"0": "kattega tee seisunditase 1",
+			"1": "kattega tee seisunditase 2",
+			"2": "kattega tee seisunditase 3",
+			"3": "kattega tee seisunditase 4",
+			"4": "kruusatee seisunditase 1",
+			"5": "kruusatee seisunditase 2",
+			"6": "kruusatee seisunditase 3",
+			"7": "kruusatee seisunditase 4"
+		},
+		"service_levels_winter": {
+			"0": "seisunditase 1 - puistatav lõik (madal)",
+			"1": "seisunditase 1 (madal)",
+			"2": "seisunditase 2 (keskmine)",
+			"3": "seisunditase 3 (kõrge)",
+			"4": "seisunditase 3+ (kõrge)",
+			"5": "Lisainfo <a target='_blank' href='https://transpordiamet.ee/maanteed-veeteed-ohuruum/teehoole/talvine-teehoole'>Transpordiameti kodulehel</a>"
+		},
+		"maintenance_contractors": {
+			"0": "riigiteede teehooldajad",
+			"1": "Eri hooldepiirkonnad on tähistatud eri värvidega."
+		},
+		"bridges": {
+			"0": "riigiteede sillad ja tunnelid"
+		},
+		"speed_cameras": {
+			"0": "kiiruskaamerad"
+		},
+		"truck_roads": {
+			"0": "48/52 t veoteed",
+			"1": "Pikaajalise eriloa alusel kuni 52 t raskeveokitele kasutamiseks lubatud teedevõrk."
+		},
+		"truck_roads_60t": {
+			"0": "60t veoteed"
+		},
+		"truck_roads_80t": {
+			"0": "80t veoteed"
+		},
+		"truck_roads_25m": {
+			"0": "25,25 m veoteed"
+		},
+		"truck_roads_winter": {
+			"0": "talvised veoteed",
+			"1": "Eriloa alusel kuni 52 t raskeveokitele talviseks ümarpuidu veoks lubatud teedevõrk (teekonstruktsiooni temperatuur on 20 cm sügavusel < -1 °C ja 50 cm sügavusel <-0,5 °C)."
+		},
+		"percostations": {
+			"0": "teekonstruktsiooni temperatuuride mõõtmispunktid"
+		},
+		"bridges_weak": {
+			"0": "raskeveostele sobimatud sillad"
+		},
+		"parking_data": {
+			"0": "Veokiparklad"
+		},
+		"vms_traffic_signs": {
+			"0": "Hoiatus, kiirusepiirang ja kehtivuse suund",
+			"1": "Värsked andmed puuduvad"
+		},
+    "restrictions_driving_all_vehicles": {
+      "0": "Liiklusmärk 311a"
+    },
+    "restrictions_driving_all_motor_vehicles": {
+      "0": "Liiklusmärk 312"
+    },
+    "restrictions_driving_tractor": {
+      "0": "Liiklusmärk 316"
+    },
+    "restrictions_driving_moped": {
+      "0": "Liiklusmärk 322"
+    },
+    "restrictions_driving_dangerous_goods": {
+      "0": "Liiklusmärk 319"
+    },
+    "road_surfaces": {
+      "0": "püsikattega",
+      "1": "kruuskattega"
+    }
+	},
+	"terms": {
+		"title": "Transpordiameti Tark Tee DATEX II andmevärava kasutustingimused",
+		"1.": "Kasutatavad mõisted",
+		"1.1": "Teenus – Transpordiameti poolt avalikkusele pakutav Tark Tee DATEX II andmevärav, mille kaudu pakutakse liikluspiirangute ja teeoludega seonduvat infot.",
+		"1.2": "Haldaja – Transpordiamet.",
+		"1.3": "Kasutaja – Teenust kasutav isik.",
+		"list": {
+			"2": {
+				"title": "Üldsätted",
+				"2.1": "Teenuse kasutamine on lubatud vaid kõikide kasutustingimustega nõustumise korral. Kasutades Teenust, nõustub Kasutaja kõikide kasutustingimustega eranditult.",
+				"2.2": "Teenuse kasutamiseks loetakse Teenuse kaudu kättesaadavate andmete töötlemist (seal hulgas vaatamist, muutmist, kustutamist, alla laadimist) mistahes viisil või eesmärgil.",
+				"2.3": "Targa Tee DATEX II andmevärav on leitav aadressil ",
+				"2.4": "Teenusele ligipääsuks on vajalik registreeruda ja pärast edukat registreerumist saadetakse Kasutajale unikaalne API-võti, mida tuleb kasutada DATEX II teenuste poole pöördumisel. API-võti muutub kehtivaks alles siis, kui Haldaja on Kasutaja registreerumise üle vaadanud. Selle kohta saadetakse vastavasisuline e-kiri registreerumisvormil sisestatud e-posti aadressile.",
+				"2.5": "Registreerumisvormil küsitakse järgmisi andmeid: asutuse nimi (kohustuslik), asutuse registrikood (valikuline), eesnimi (kohustuslik), perekonnanimi (kohustuslik), e-posti aadress (kohustuslik), registreerimise eesmärk (kohustuslik) ja märkused (valikuline)",
+				"2.6": "Teenuse kasutamisel on keelatud tegevused, mis häirivad või takistavad Teenuste osutamist Haldaja klientidele või võivad seda teha."
+			},
+			"3": {
+				"title": "Kasutaja õigused ja kohustused",
+				"3.1": "Kasutajal on õigus kasutada Teenust kooskõlas Teenuse kasutustingimustega.",
+				"3.2": "Kasutajal on kohustus järgida Teenuse kasutamisel kõiki kohaldatavaid seadusi, intellektuaalse omandi kaitset reguleerivaid õigusakte ning head tava.",
+				"3.3": "Kasutaja kohustub saladuses hoidma Teenuse sisselogimiseks vajalikke identifitseerimistunnuseid. Kasutaja enda tegevuse/tegevusetuse tõttu kolmanda isiku valdusesse sattunud Kasutaja identifitseerimistunnuste abil Teenuse kasutamisest tekkiva võimaliku kahju eest vastutab Kasutaja.",
+				"3.4": "Teenusele ja Haldajale on kohustuslik viidata või teha hüperlinke, kuid need ei tohi anda Teenuse ega Haldaja kohta valet, eksitavat või halvustavat informatsiooni ega edastada Teenust moonutatult."
+			},
+			"4": {
+				"title": "Haldaja õigused ja vastutus",
+				"4.1": "Haldajal on õigus piirata Kasutaja juurdepääsu Teenusele, kui Kasutaja rikub käesolevaid kasutustingimusi või kui Haldajal tekib põhjendatud kahtlus kasutustingimuste rikkumise kohta või kui Kasutaja kasutab Teenust pahatahtlikult, ebamõistlikult või mittesihtotstarbeliselt.",
+				"4.2": "Haldajal on õigus ajutiselt katkestada juurdepääs Teenusele, kui see on vajalik tehniliste muudatuste, uuenduste, hooldetööde eesmärgil või küberründe tõrjeks.",
+				"4.3": "Haldaja ei vastuta Teenuse kasutamisest või käesolevate Kasutustingimuste alusel Teenusele juurdepääsu piiramisest või katkestamisest või uuendustest tekkinud kahju, sealhulgas saamata jäänud tulu eest.",
+				"4.4": "Haldajal on õigus muuta ühepoolselt kasutustingimusi ja muid Teenuse kaudu kättesaadavaid juhendeid. Muudetud kasutustingimused avaldatakse Targa Tee DATEX II andmevärava veebilehel ja need muutuvad kehtivaks veebilehel avaldamisest alates. Iga Kasutajat eraldi kasutamistingimuste muutmisest ei teavitata.",
+				"4.5": "Haldaja ei vastuta andmevärava kaudu jagatava info täpsuse, ajakohasuse ja kättesaadavuse eest."
+			}
+		}
+	}
+}

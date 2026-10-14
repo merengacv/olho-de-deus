@@ -1,0 +1,2744 @@
+{
+ "id": "de-nrw",
+ "url": "https://www.verkehr.nrw/",
+ "requests": [
+  {
+   "u": "https://www.verkehr.nrw/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/dynamic-data-mapping-form-renderer/css/main.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/css/clay.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/dynamic-data-mapping-web/css/main.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/dynamic-data-mapping-form-builder/css/main.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/frontend-js-web/loader/config.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/js_loader_config?t=1791806834321",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/frontend-css-web/main.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1557361611547",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=css&languageId=de_DE&b=7102&t=1557361605911&/o/product-navigation-simulation-theme-contributor/css/simulation_panel.css&/o/product-navigation-product-menu-theme-contributor/product_navigation_product_menu.css&/o/product-navigation-control-menu-theme-contributor/product_navigation_control_menu.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/css/main.css?browserId=other&themeId=maptheme_WAR_maptheme&minifierType=css&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=&themeId=maptheme_WAR_maptheme&languageId=de_DE&b=7102&com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fsearch%2Fbar%2Fcss%2Fmain.css&com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&de_strassennrw_vipnrw_gas_portlet_GasPricesPortlet:%2Fcss%2Fmain.css&d",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/jquery/datepicker-de.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/images/logo-verkehr-nrw.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/vipnrw-error-message-handler.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/theme-helper.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/vrrDataParser.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/clipboard.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/vipnrw-traffic-object-converter.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/jsrender.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/jstorage.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/jquery/catcomplete.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/jquery/jquery.jfontsize-2.0.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/js_bundle_config?t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/frontend-js-web/loader/loader.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/mapRoutesHandler.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1557361605911&/o/product-navigation-control-menu-theme-contributor/product_navigation_control_menu.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/vipnrw.cookie.handler.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/vipnrw-global-utils.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/sidebar.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/portal-properties.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/123.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/event-key/event-key.js&/o/frontend-js-web/aui/event-mouseenter/event-mouseenter.js&/o/frontend-js-web/aui/event-mousewheel/event-mousewheel.js&/o/frontend-js-web/aui/event-outside/event-outside.js&/o/frontend-js-web/aui/event-resize/event-resize.js&/o/frontend-js-web/aui/eve",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/123_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/yui-throttle/yui-throttle.js&/o/frontend-js-web/aui/aui-base-core/aui-base-core.js&/o/frontend-js-web/aui/aui-base-lang/aui-base-lang.js&/o/frontend-js-web/aui/aui-classnamemanager/aui-classnamemanager.js&/o/frontend-js-web/aui/aui-component/aui-component.js&/o/frontend-js-w",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=&themeId=maptheme_WAR_maptheme&languageId=de_DE&b=7102&de_strassennrw_vipnrw_contact_portlet_ContactPortlet:%2Fjs%2FliferayEventListener.js&de_strassennrw_vipnrw_gas_portlet_GasPricesPortlet:%2Fjs%2Fmain.js&de_strassennrw_vipnrw_gas_portlet_GasPricesPortlet:%2Fjs%2FliferayEventListener.js&de_strassennrw_vipnrw_journal_content_viewer_portle",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/101.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/jquery/jquery.js&/o/frontend-js-web/clay/popper.js&/o/frontend-js-web/clay/bootstrap.js&/o/frontend-js-web/aui/aui/aui.js&/o/frontend-js-web/aui/aui-base-html5-shiv/aui-base-html5-shiv.js&/o/frontend-js-web/liferay/browser_selectors.js&/o/frontend-js-web/liferay/modules.js&/o/fr",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/jquery/jquery-ui.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/geolocation_marker_heading.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=&themeId=maptheme_WAR_maptheme&languageId=de_DE&b=7102&de_strassennrw_vipnrw_contact_portlet_ContactPortlet:%2Fcss%2Fmain.css&t=1791799680000",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/roadwork_mark.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/warnkegel_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/448_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/js/main.js?browserId=other&minifierType=js&languageId=de_DE&b=7102&t=1791806877748",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/253.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/253_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/262-2.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/448.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/262.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/250_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/262-2_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/250.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/webcam.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/warnkegel.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/229.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/314-50-1.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/224-50.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/detour.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/262_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.routing/js/images/logo_radroutenplaner.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/316_P+M_31.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/314-50.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/frontend-js-web/liferay/available_languages.jsp?browserId=other&themeId=maptheme_WAR_maptheme&colorSchemeId=01&minifierType=js&languageId=de_DE&b=7102&t=1791806803158",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/liferay/language.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_contact_portlet_ContactPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=captcha-request&p_p_cacheability=cacheLevelPage&t=1791943766557",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/fonts/vipnrw.ttf?wzyq4r",
+   "t": "font",
+   "s": 200,
+   "ct": "font/ttf",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/userbehavior/add",
+   "t": "xhr",
+   "s": 204,
+   "ct": "",
+   "m": "POST",
+   "post": "{\"action\":\"VISIT_WEBSITE\",\"info\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36, 1366x900\",\"token\":\"yd0Yw6_S-2nFJbALwOTmavTmLramK3Av__cgMi3blPwV/BsLaXgUm5pskAZtXF80xiqJREUrx9sGfW9y5K/RwA=\"}"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/widget-base/assets/skins/sam/widget-base.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/fonts/fontawesome-webfont.woff2?v=4.7.0",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/escape/escape-min.js&/o/frontend-js-web/aui/base-core/base-core-min.js&/o/frontend-js-web/aui/base-observable/base-observable-min.js&/o/frontend-js-web/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/o/frontend-js-web/aui/aui-widget-toggle/aui-widget-toggle-min.js&/o/fron",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/fonts/almo.ttf?yzru6w",
+   "t": "font",
+   "s": 200,
+   "ct": "font/ttf",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo?browserId=other&minifierType=&themeId=maptheme_WAR_maptheme&languageId=de_DE&b=7102&de_strassennrw_vipnrw_journal_content_viewer_portlet_JournalContentViewerPortlet:%2Fjs%2FliferayEventListener.js&de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet:%2Fjs%2Fvipnrw-paginator.js&de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet:%2Fjs%2Fmain.js&de_strass",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/event-touch/event-touch-min.js&/o/frontend-js-web/aui/event-move/event-move-min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg",
+   "t": "xhr",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/js_resolve_modules?modules=metal-dom%2Fsrc%2Fall%2Fdom%2Cmetal-uri%2Fsrc%2FUri%2Cclay-tooltip%2Fsrc%2FClayTooltip",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/124.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/314-50-2.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/467.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/124_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/charging_station_strong.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/gas_station.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/467_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/101_sw.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/charging_station.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/event-carnival.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/fallback.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/re.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/none.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "POST",
+   "post": "action=getArticlePreview"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/s-bahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/stadtbahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/niederflurstrab.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/fussweg.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/ersatzverkehr.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/r-bahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/regionalexpress.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/schwebebahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/skytrain.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/stra%C3%9Fenbahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/taxibus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-transport-product.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sprinterbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/regionalzug.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/abellio-zug.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/schnellbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/via_pin2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/stadtbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/niederflurbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sb.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/regionalbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/regiobus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/u-bahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_map_portlet_MapPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage",
+   "t": "xhr",
+   "s": 200,
+   "ct": "text/html;charset=utf-8",
+   "m": "POST",
+   "post": "action=clearRouteSession"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/widget-stack/assets/skins/sam/widget-stack.css&/o/frontend-js-web/aui/aui-tooltip-base/assets/skins/sam/aui-tooltip-base.css&/o/frontend-js-web/aui/aui-alert/assets/skins/sam/aui-alert.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/js/resolved-module/frontend-js-metal-web$metal@2.16.7/lib/coreNamed.js&/o/js/resolved-module/frontend-js-metal-web$metal@2.16.7/lib/core.js&/o/js/resolved-module/frontend-js-metal-web$metal@2.16.7/lib/array/array.js&/o/js/resolved-module/frontend-js-metal-web$metal@2.16.7/lib/async/async.js&/o/j",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/js/resolved-module/frontend-js-metal-web$metal-position@2.1.2/lib/all/position.js&/o/js/resolved-module/frontend-taglib-clay$clay-tooltip@2.10.0/lib/ClayTooltip.soy.js&/o/js/resolved-module/frontend-taglib-clay$clay-tooltip@2.10.0/lib/ClayTooltip.js&/o/js/resolved-module/frontend-taglib-clay@1.4",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://sevas.nrw.de/vz/262.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6559204.9430316165%2C896574.8990698332%2C6715747.976937867&CALLID=23",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6559204.9430316165%2C896574.8990698332%2C6715747.976937867&CALLID=14",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6559204.9430316165%2C896574.8990698332%2C6715747.976937867&CALLID=5",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/aui-aria/aui-aria-min.js&/o/frontend-js-web/aui/transition/transition-min.js&/o/frontend-js-web/aui/aui-widget-transition/aui-widget-transition-min.js&/o/frontend-js-web/aui/aui-widget-trigger/aui-widget-trigger-min.js&/o/frontend-js-web/aui/widget-position/widget-position-mi",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/js/resolved-module/frontend-js-metal-web@2.0.6/bridge/metal-dom/src/all/dom.js&/o/js/resolved-module/frontend-js-metal-web$metal-uri@2.4.0/lib/parseFromAnchor.js&/o/js/resolved-module/frontend-js-metal-web$metal-uri@2.4.0/lib/parse.js&/o/js/resolved-module/frontend-js-metal-web$metal-structs@1.0",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/frontend-js-web/aui/querystring-stringify/querystring-stringify-min.js&/o/frontend-js-web/aui/aui-io-request/aui-io-request-min.js&/o/frontend-js-web/aui/cookie/cookie-min.js&/o/frontend-js-web/aui/aui-alert/aui-alert-min.js&/o/frontend-js-web/liferay/node.js&/o/frontend-js-web/liferay/portlet_b",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/combo/?browserId=other&minifierType=&languageId=de_DE&b=7102&t=1557361610505&/o/js/resolved-module/frontend-js-metal-web$metal-incremental-dom@2.16.7/lib/html/HTML2IncDom.js&/o/js/resolved-module/frontend-js-metal-web$incremental-dom@0.5.1/dist/incremental-dom-cjs.js&/o/js/resolved-module/frontend-js-metal-web$incremental-dom-string@0.0.3/lib/incremental-dom-string.js&/o/js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_portlet_news_portlet_NewsPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "POST",
+   "post": "action=getArticlePreview"
+  },
+  {
+   "u": "https://www.verkehr.nrw/geoserver/vipnrw/wms?format_options=callback:loadWFSFeatures&service=WFS&version=2.0.0&request=GetFeature&timeout=10000&typename=vipnrw%3Atraffic_obstructions_interstate_feature&srsname=EPSG%3A900913&outputFormat=text%2Fjavascript&propertyName=identifier%2Cdisplay_type%2Cpoint%2Cstart_timestamp%2Cend_timestamp%2Cfuture%2Curban%2Cinfo%2Cdx%2Cdy&filter=%3CFilter%3E%3CAnd%3E%3",
+   "t": "xhr",
+   "s": 200,
+   "ct": "text/javascript;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://sevas.nrw.de/vz/262-3,5.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://sevas.nrw.de/vz/262-44,0.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6559204.9430316165%2C1053117.9329760831%2C6715747.976937867&CALLID=26",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6715747.976937867%2C896574.8990698332%2C6872291.010844117&CALLID=24",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6559204.9430316165%2C1053117.9329760831%2C6715747.976937867&CALLID=8",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6715747.976937867%2C896574.8990698332%2C6872291.010844117&CALLID=15",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6559204.9430316165%2C1053117.9329760831%2C6715747.976937867&CALLID=17",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6715747.976937867%2C896574.8990698332%2C6872291.010844117&CALLID=6",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6715747.976937867%2C1053117.9329760831%2C6872291.010844117&CALLID=9",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6715747.976937867%2C1053117.9329760831%2C6872291.010844117&CALLID=18",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6715747.976937867%2C1053117.9329760831%2C6872291.010844117&CALLID=27",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6402661.909125366%2C896574.8990698332%2C6559204.9430316165&CALLID=4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6559204.9430316165%2C740031.8651635833%2C6715747.976937867&CALLID=11",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6559204.9430316165%2C740031.8651635833%2C6715747.976937867&CALLID=2",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6402661.909125366%2C896574.8990698332%2C6559204.9430316165&CALLID=22",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6559204.9430316165%2C740031.8651635833%2C6715747.976937867&CALLID=20",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=740031.8651635832%2C6402661.909125366%2C896574.8990698332%2C6559204.9430316165&CALLID=13",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6715747.976937867%2C740031.8651635833%2C6872291.010844117&CALLID=3",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6715747.976937867%2C740031.8651635833%2C6872291.010844117&CALLID=12",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6402661.909125366%2C1053117.9329760831%2C6559204.9430316165&CALLID=25",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6715747.976937867%2C740031.8651635833%2C6872291.010844117&CALLID=21",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6402661.909125366%2C1053117.9329760831%2C6559204.9430316165&CALLID=16",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=896574.8990698332%2C6402661.909125366%2C1053117.9329760831%2C6559204.9430316165&CALLID=7",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=RoadworkLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6402661.909125366%2C740031.8651635833%2C6559204.9430316165&CALLID=19",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=LOS&WIDTH=512&HEIGHT=512&STYLES=&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6402661.909125366%2C740031.8651635833%2C6559204.9430316165&CALLID=1",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://geotiles.verkehr.nrw/geowebcache/service/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=TrafficmessageLines&WIDTH=512&HEIGHT=512&SRS=EPSG%3A900913&BBOX=583488.8312573333%2C6402661.909125366%2C740031.8651635833%2C6559204.9430316165&CALLID=10",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "de-nrw-1.txt",
+   "u": "https://www.verkehr.nrw/",
+   "bytes": 206107,
+   "type": "document"
+  },
+  {
+   "file": "de-nrw-2.txt",
+   "u": "https://www.verkehr.nrw/o/js_resolve_modules?modules=metal-dom%2Fsrc%2Fall%2Fdom%2Cmetal-uri%2Fsrc%2FUri%2Cclay-tooltip%2Fsrc%2FClayTooltip",
+   "bytes": 32908,
+   "type": "fetch"
+  },
+  {
+   "file": "de-nrw-3.txt",
+   "u": "https://www.verkehr.nrw/o/map-theme/images/lexicon/icons.svg",
+   "bytes": 248566,
+   "type": "xhr"
+  },
+  {
+   "file": "de-nrw-4.txt",
+   "u": "https://www.verkehr.nrw/geoserver/vipnrw/wms?format_options=callback:loadWFSFeatures&service=WFS&version=2.0.0&request=GetFeature&timeout=10000&typename=vipnrw%3Atraffic_obstructions_interstate_feature&srsname=EPSG%3A900913&outputFormat=text%2Fjavascript&propertyName=identifier%2Cdisplay_type%2Cpoin",
+   "bytes": 93728,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://www.verkehr.nrw/o/map-theme/images/logo-verkehr-nrw.png",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/roadwork_mark.png",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/250.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/250_sw.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/448.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/448_sw.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/253.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/253_sw.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/262-2.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/262-2_sw.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/262.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/262_sw.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/warnkegel.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/warnkegel_sw.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/123.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/123_sw.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/101.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/detour.png",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/webcam.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/316_P+M_31.png",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/314-50.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/314-50-1.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/224-50.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/229.svg",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/geolocation_marker_heading.png",
+   "https://www.verkehr.nrw/web/vipnrw/karte?p_p_id=de_strassennrw_vipnrw_contact_portlet_ContactPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=captcha-request&p_p_cacheability=cacheLevelPage&t=1791943766557",
+   "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.routing/js/images/logo_radroutenplaner.png"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [
+   {
+    "h": "https://www.verkehr.nrw/#_de_strassennrw_vipnrw_map_details_portlet_MapDetailsPortlet_webcams",
+    "t": "Webcams"
+   },
+   {
+    "h": "https://www.verkehr.nrw/#_de_strassennrw_vipnrw_road_details_portlet_RoadDetailsPortlet_webcams-tab",
+    "t": "Webcams"
+   }
+  ],
+  "text": "Route\nAktuelles\nBenzin-Preisvergleich\n20 km\n1 : 1M\n© OpenStreetMap Mitwirkende   und weitere (s.FAQ) | b-116"
+ },
+ "errors": [],
+ "title": "Karte - VERKEHR.NRW",
+ "mediaRequests": [
+  {
+   "u": "https://www.verkehr.nrw/o/map-theme/images/logo-verkehr-nrw.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/geolocation_marker_heading.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/roadwork_mark.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/svg/webcam.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/detour.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.routing/js/images/logo_radroutenplaner.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/wfs/316_P+M_31.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/re.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/none.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/foot-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/train-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/s-bahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/stadtbahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-train.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/niederflurstrab.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sub-bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/fussweg.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/ersatzverkehr.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/r-bahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/regionalexpress.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/schwebebahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-sub.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/skytrain.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/stra%C3%9Fenbahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/taxibus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-transport-product.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sprinterbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/regionalzug.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/abellio-zug.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-unknown.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/schnellbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/via_pin2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/stadtbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/niederflurbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/unknown-foot.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/sb.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/bike.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/regionalbus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/regiobus.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.verkehr.nrw/o/de.strassennrw.vipnrw.map/images/pt/u-bahn.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/267/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/266/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/267/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/266/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/265/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/265/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/268/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/171.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/170.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/169.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/268/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/264/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/269/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/172.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles_foreground/9/264/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tiles.verkehr.nrw/osm_tiles/9/269/168.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+GET https://storage.googleapis.com/trafikkort-data/geojson/25832/current-queue.point.json?cachekey=1791943733151
+content-type: application/json
+
+{"layerId":"layer_id_19I1", "layerName":"25832/current-queue.point", "type":"FeatureCollection", "features":[]}

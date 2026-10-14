@@ -1,0 +1,4 @@
+GET https://www.traffic.gov.scot/tsis/telem
+content-type: application/json
+
+{"status":"ok","flags":{"weather":1}}

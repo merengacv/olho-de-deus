@@ -1,0 +1,11 @@
+{
+ "id": "bg-api",
+ "url": "https://www.api.bg/",
+ "requests": [],
+ "bodies": [],
+ "dom": {},
+ "errors": [
+  "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.api.bg/\", waiting until \"domcontentloaded\"\n"
+ ],
+ "mediaRequests": []
+}

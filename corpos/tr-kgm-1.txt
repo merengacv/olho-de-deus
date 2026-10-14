@@ -1,0 +1,1148 @@
+GET https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Root/default.aspx
+content-type: text/html; charset=utf-8
+
+
+<!DOCTYPE html><html lang="tr" xmlns="http://www.w3.org/1999/xhtml"><html dir="ltr" lang="tr-TR"><head>
+	     <style type="text/css">
+	       body #s4-ribbonrow {
+	         display: none;
+	       }
+	       body #suiteBar {
+			 display: none;
+		   }
+	      </style>
+	      <script type="text/javascript">
+	      	function ProcessImn(){}
+	      	function ProcessImnMarkers(){}
+	      </script>
+	     
+<!-- Meta Tags -->
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><meta name="description" content="Karayolları Genel Müdürlüğü resmi web sitesidir." /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="keywords" content="kgm, karayolları genel müdürlüğü" /><meta name="progid" content="SharePoint.WebPartPage.Document" /><meta name="author" content="Karayolları Genel Müdürlüğü Bilgi İşlem Dairesi" /><meta name="msapplication-TileImage" content="/_layouts/15/images/SharePointMetroAppTile.png" /><meta name="msapplication-TileColor" content="#0072C6" /><title>
+	Karayolları Genel Müdürlüğü - Ana Sayfa 
+</title><link rel="shortcut icon" href="/SiteAssets/images/favicon.png" type="image/vnd.microsoft.icon" id="favicon" /><link id="CssLink-[CHAVE]" rel="stylesheet" type="text/css" href="/_layouts/15/1055/styles/Themable/corev15.css?rev=FgJyTN31sd6Xe62NO21uIw%3D%3DTAG0"/>
+<link id="CssLink-[CHAVE]" rel="stylesheet" type="text/css" href="/_layouts/15/1055/styles/Themable/search.css?rev=z0tcf4YfvPw0HGu2ShpJKw%3D%3DTAG0"/>
+<style id="SPThemeHideForms" type="text/css">body {opacity:0 !important}</style><script type="text/javascript">// <![CDATA[ 
+
+var g_SPOffSwitches={};
+// ]]>
+</script>
+<script type="text/javascript" src="/_layouts/15/1055/initstrings.js?rev=iSTwf9G8fi4YKhCImqSCgg%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/init.js?rev=Plos7zwPHGtwWvEqSWyT5w%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/theming.js?rev=SuLUbbwTXcxFWOWLFUsOkw%3D%3DTAG0"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=SjVBhewCWQA9JBaGASAoOvBaOApIQcKIP0GKhD1itzLmTFkSfKYu8iF5KsCF6oAAgZDnXqhHaxWETFfPADTSolN6zp7pzBTgoKyeA119Hka2AnTKqJmL88_N_sKPPd5yOwSP9Qro9nH3ATZ_BmT8EtStgAiYiCCcu4dOFhiHXh4Y1SP8uSdwiMcqDCDDk4Et0&amp;t=ffffffffbec1863d"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=aDCkTveg0%2BSs%2F77Ss94mWg%3D%3DTAG0"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=pMI3cFQDuILaVtBOqeb2Q0T_RtzkkTZxqYbWdjQQDhGGXBOyGpp48MTGfRoDYYwOWl78N86wW7OShrVvQZmXxYj8pyy3BU7mdFdzsa3vzw48n4e9jdyy4Zu-z9eqLeSibYC525MmrxThcjZzygwAOK5d6jwICBCSzrALJrbTHTje5OUbpTfqXKqo5m_U4cnv0&amp;t=ffffffffbec1863d"></script>
+<script type="text/javascript">RegisterSod("require.js", "\u002f_layouts\u002f15\u002frequire.js?rev=bv3fWJhk0uFGpVwBxnZKNQ\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("strings.js", "\u002f_layouts\u002f15\u002f1055\u002fstrings.js?rev=gOxTk1fZIr\u00252BYfWmYwo49bw\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002f15\u002f1055\u002fsp.res.js?rev=uzcDxLVOPWjJ0kTqMiNoWw\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.runtime.js", "\u002f_layouts\u002f15\u002fsp.runtime.js?rev=dunC\u00252Bpyl0\u00252BXHuJVCV1OpTA\u00253D\u00253DTAG0");RegisterSodDep("sp.runtime.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.js", "\u002f_layouts\u002f15\u002fsp.js?rev=hLLegBCWbpS8XHsB\u00252BkXj8g\u00253D\u00253DTAG0");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.init.js", "\u002f_layouts\u002f15\u002fsp.init.js?rev=FhG\u00252BW\u00252B2wWefBxnoUsiQjzg\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002f15\u002fsp.ui.dialog.js?rev=hZN9hS\u00252BXv8qRFJuwcB4\u00252B8Q\u00253D\u00253DTAG0");RegisterSodDep("sp.ui.dialog.js", "sp.init.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=sQisu2piu7UPnTMQgSHRLw\u00253D\u00253DTAG0");RegisterSodDep("core.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=BICjD3sI7HEVFjOZjHhOHw\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=Y3KC0EMqbJmS4e\u00252F6hxRjEg\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("callout.js", "\u002f_layouts\u002f15\u002fcallout.js?rev=uNG\u00252FIM1rx9UcJP18nJynmQ\u00253D\u00253DTAG0");RegisterSodDep("callout.js", "strings.js");RegisterSodDep("callout.js", "mQuery.js");RegisterSodDep("callout.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002f15\u002fsp.core.js?rev=AudoFXxn2m9rXjB5\u00252FruvVw\u00253D\u00253DTAG0");RegisterSodDep("sp.core.js", "strings.js");RegisterSodDep("sp.core.js", "sp.init.js");RegisterSodDep("sp.core.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("clienttemplates.js", "\u002f_layouts\u002f15\u002fclienttemplates.js?rev=0jzClrDjhseLjbrEvhhZKQ\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sharing.js", "\u002f_layouts\u002f15\u002fsharing.js?rev=N4kmPx\u00252BTc9fK7N0DRnEjJg\u00253D\u00253DTAG0");RegisterSodDep("sharing.js", "strings.js");RegisterSodDep("sharing.js", "mQuery.js");RegisterSodDep("sharing.js", "clienttemplates.js");RegisterSodDep("sharing.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("suitelinks.js", "\u002f_layouts\u002f15\u002fsuitelinks.js?rev=vSsVOfkVdBYU9jv\u00252FL97kSQ\u00253D\u00253DTAG0");RegisterSodDep("suitelinks.js", "strings.js");RegisterSodDep("suitelinks.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("cui.js", "\u002f_layouts\u002f15\u002fcui.js?rev=cWaWbyyhC2wSqLz70Lp5Ug\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("inplview", "\u002f_layouts\u002f15\u002finplview.js?rev=KijAlAe1UdUPwyiX1NIpOg\u00253D\u00253DTAG0");RegisterSodDep("inplview", "strings.js");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "clienttemplates.js");RegisterSodDep("inplview", "sp.js");</script>
+<script type="text/javascript">RegisterSod("ribbon", "\u002f_layouts\u002f15\u002fsp.ribbon.js?rev=cJIs\u00252Ffizsvjzs6Osbh9xgg\u00253D\u00253DTAG0");RegisterSodDep("ribbon", "strings.js");RegisterSodDep("ribbon", "core.js");RegisterSodDep("ribbon", "sp.core.js");RegisterSodDep("ribbon", "sp.js");RegisterSodDep("ribbon", "cui.js");RegisterSodDep("ribbon", "sp.res.resx");RegisterSodDep("ribbon", "sp.runtime.js");RegisterSodDep("ribbon", "inplview");</script>
+<script type="text/javascript">RegisterSod("sp.ui.policy.resources.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=tr\u00252Dtr\u0026name=SP\u00252EUI\u00252EPolicy\u00252EResources\u0026rev=gFEdNDeyIiUaB\u00252BJrbHdK9A\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("mdn.js", "\u002f_layouts\u002f15\u002fmdn.js?rev=n0g\u00252FdHfO24JOLH\u00252FiRZEgQA\u00253D\u00253DTAG0");RegisterSodDep("mdn.js", "sp.init.js");RegisterSodDep("mdn.js", "core.js");RegisterSodDep("mdn.js", "sp.runtime.js");RegisterSodDep("mdn.js", "sp.js");RegisterSodDep("mdn.js", "cui.js");RegisterSodDep("mdn.js", "ribbon");RegisterSodDep("mdn.js", "sp.ui.policy.resources.resx");</script>
+<script type="text/javascript">RegisterSod("userprofile", "\u002f_layouts\u002f15\u002fsp.userprofiles.js?rev=J0M1pzLkfDXcJflabMvTYA\u00253D\u00253DTAG0");RegisterSodDep("userprofile", "sp.runtime.js");</script>
+<script type="text/javascript">RegisterSod("followingcommon.js", "\u002f_layouts\u002f15\u002ffollowingcommon.js?rev=XYlkkFi7WKY6\u00252F8JcEbQbQw\u00253D\u00253DTAG0");RegisterSodDep("followingcommon.js", "strings.js");RegisterSodDep("followingcommon.js", "sp.js");RegisterSodDep("followingcommon.js", "userprofile");RegisterSodDep("followingcommon.js", "core.js");RegisterSodDep("followingcommon.js", "mQuery.js");</script>
+<script type="text/javascript">RegisterSod("profilebrowserscriptres.resx", "\u002f_layouts\u002f15\u002f1055\u002fprofilebrowserscriptres.js?rev=gKOqOF4sJazOiuxO8wWpQA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.ui.mysitecommon.js", "\u002f_layouts\u002f15\u002fsp.ui.mysitecommon.js?rev=\u00252B90SM96NemSb\u00252FL0XNCUVtA\u00253D\u00253DTAG0");RegisterSodDep("sp.ui.mysitecommon.js", "sp.init.js");RegisterSodDep("sp.ui.mysitecommon.js", "sp.runtime.js");RegisterSodDep("sp.ui.mysitecommon.js", "userprofile");RegisterSodDep("sp.ui.mysitecommon.js", "profilebrowserscriptres.resx");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f15\u002fie55up.js?rev=Ew951\u00252BYVX2LSWgsYUcRPzA\u00253D\u00253DTAG0");RegisterSodDep("browserScript", "strings.js");</script>
+<script type="text/javascript">RegisterSod("offline.js", "\u002f_layouts\u002f15\u002foffline.js?rev=2tZGA4wOkjCIK1Plvvlzvw\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("WPAdderClass", "\u002f_layouts\u002f15\u002fwpadder.js?rev=yZ5H\u00252F3CshNgWikmDoek\u00252BBg\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("dragdrop.js", "\u002f_layouts\u002f15\u002fdragdrop.js?rev=AYzLU64yiwYyZJhgXP8sFA\u00253D\u00253DTAG0");RegisterSodDep("dragdrop.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("quicklaunch.js", "\u002f_layouts\u002f15\u002fquicklaunch.js?rev=o495lvFLQrP4p0T2l3Fz9w\u00253D\u00253DTAG0");RegisterSodDep("quicklaunch.js", "strings.js");RegisterSodDep("quicklaunch.js", "dragdrop.js");</script>
+<script type="text/javascript">RegisterSod("search.js", "\u002f_layouts\u002f15\u002fsearch.js?rev=UfuJoD3t0\u00252BRVP0jzSKcH4g\u00253D\u00253DTAG0");</script>
+<link type="text/xml" rel="alternate" href="/_vti_bin/spsdisco.aspx" />
+		
+		<link rel="canonical" href="https://www.kgm.gov.tr:443/Sayfalar/KGM/SiteTr/Root/default.aspx" />
+		
+	
+
+	<!-- Favicon and Touch İkonları -->
+<link href="/SiteAssets/images/favicon.png" rel="shortcut icon" type="image/png" /><link href="/SiteAssets/images/apple-touch-icon.png" rel="apple-touch-icon" /><link href="/SiteAssets/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" /><link href="/SiteAssets/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" /><link href="/SiteAssets/images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
+
+
+<!-- Stylesheet -->
+<link href="/SiteAssets/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="/SiteAssets/css/css-plugin-collections.css" rel="stylesheet" />
+<!-- CSS | Custom Margin Padding Collection -->
+<link href="/SiteAssets/css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css" />
+<!-- CSS | Main style file -->
+<link href="/SiteAssets/css/main-style.css" rel="stylesheet" type="text/css" /><link href="/SiteAssets/css/sp_fixes.css" rel="stylesheet" type="text/css" />
+<!-- CSS | Responsive media queries -->
+<link href="/SiteAssets/css/responsive.css" rel="stylesheet" type="text/css" /><link href="/SiteAssets/css/projectstyle.css" rel="stylesheet" type="text/css" /><link href="/SiteAssets/css/magnific-popup.css" rel="stylesheet" type="text/css" /><link href="/SiteAssets/css/jquery-ui-1.11.0/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+<link href="/SiteAssets/jCrumb.css" type="text/css" rel="stylesheet" /><link href="/SiteAssets/IhaleIlan.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="/SiteAssets/fontawesome/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" /><link href="/SiteAssets/fontawesome/css/brands.css" rel="stylesheet" /><link href="/SiteAssets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+
+ 
+  <!--  <script type="text/javascript" src="/SiteAssets/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/SiteAssets/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="/SiteAssets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/SiteAssets/js/liteaccordion.jquery.js"></script>
+    <script type="text/javascript" src="/SiteAssets/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="/SiteAssets/js/MyriadProBoldCondensed.font.js"></script>
+    <script type="text/javascript" src="/SiteAssets/js/MyriadProCondensed.font.js"></script>
+    
+    
+    <script type="text/javascript" src="/SiteAssets/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="/SiteAssets/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="/SiteAssets/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    
+    	
+	 <script type="text/javascript" src="/SiteAssets/js/coin-slider.js"></script>
+	<link rel="stylesheet" type="text/css" href="/SiteAssets/js/coin-slider-styles.css" media="screen" /> -->
+
+    <style type="text/css">
+    .displayNone{
+	display:none !important
+}
+#s4-bodyContainer{
+	padding-bottom:0px;
+}
+.ms-webpartzone-cell{
+	margin-bottom:0px;
+}
+#contentRow{
+	padding-top:0px;
+}
+#suiteBarLeft{
+	background-color:black;
+}
+.ms-sbLastcell{
+	background-color:transparent
+}
+div.rss{
+	 margin-top:0px; height:25px;
+}
+    </style>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P1MD63L4M4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P1MD63L4M4');
+</script>
+	   	  
+	
+	<meta name="msvalidate.01" content="560E9F6BC86B6FE43BEEA850D1A59415" /><meta name="google-site-verification" content="Q4ACBAxb5I-foe7gjYnUAzKgIAF4AKM1fNbA6PUpQWk" /><style type="text/css">
+	.s4-skipribbonshortcut { display:none; }
+
+</style></head>
+<body>
+  <div id="imgPrefetch" style="display:none">
+<img src="/SiteAssets/images/favicon.png?rev=43" />
+<img src="/_layouts/images/titlegraphic.gif?rev=43" />
+<img src="/_layouts/15/images/spcommon.png?rev=43" />
+</div>
+
+  <noscript><div class='noindex'>Bu siteye sunucudaki güvenli bir tarayıcıdan erişmeye çalışıyor olabilirsiniz. Lütfen betikleri etkinleştirin ve bu sayfayı yeniden yükleyin.</div></noscript>
+  
+  <form method="post" action="./default.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="_wpcmWpid" id="_wpcmWpid" value="" />
+<input type="hidden" name="wpcmVal" id="wpcmVal" value="" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x640BE6BC9FA3BF29382E5B4070CD594B3FCBFB1AFA574F4071EAC9F11F72FCB5A5BAF8817B42E6EBEC5D07EE87A95471AB459A45AEF2B1E7C1CE92BBE3EC9EB2,14 Oct 2026 02:12:43 -0000" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="_maintainWorkspaceScrollPosition" id="_maintainWorkspaceScrollPosition" value="0" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTIwOTE2NjI5Ng9kFgJmD2QWAgIBD2QWBGYPZBYEAgwPZBYCZg9kFgJmDxYCHhNQcmV2aW91c0NvbnRyb2xNb2RlCymIAU1pY3Jvc29mdC5TaGFyZVBvaW50LldlYkNvbnRyb2xzLlNQQ29udHJvbE1vZGUsIE1pY3Jvc29mdC5TaGFyZVBvaW50LCBWZXJzaW9uPTE2LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTcxZTliY2UxMTFlOTQyOWMBZAIYD2QWAgIDD2QWAmYPZBYCZg88KwAGAGQCCA9kFhQCAQ9kFgICAQ9kFgYFJmdfZDVkZDFiM2JfYjEwOV80NWNiX2FiODVfMzE3YjQ3ZDk2M2YzD2QWAmYPZBYCAgEPFgIeBFRleHQFpiU8bGk+PGEgIGhyZWY9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvU2F5ZmFsYXIvS0dNL1NpdGVUci9EdXl1cnVsYXIvRHV5dXJ1RGV0YXkuYXNweD9QYXJhbWV0ZXI9MjExNycgPjxwaWN0dXJlPjxzb3VyY2Ugc3Jjc2V0PSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy85MDUvd2ViLmpwZycgbWVkaWE9JyhtaW4gLSB3aWR0aDo3NjhweCknPjxzb3VyY2Ugc3Jjc2V0PSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy85MDUvbW9iaWwuanBnJyBtZWRpYT0nKG1heC13aWR0aDo3NjdweCknPjxpbWcgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy85MDUvd2ViLmpwZycgdGl0bGU9J0tBUkFZT0xMQVJJIE3DnE5GRVLEsFQgQsOWTEdFIE3DnETDnFJMRVLEsCBUT1BMQU5USVNJIFPEsFZBU+KAmVRBIFlBUElMREknIGFsdD0nS0FSQVlPTExBUkkgTcOcTkZFUsSwVCBCw5ZMR0UgTcOcRMOcUkxFUsSwIFRPUExBTlRJU0kgU8SwVkFT4oCZVEEgWUFQSUxESScgLz48L3BpY3R1cmU+PC9hPjwvbGk+PGxpPjxhICBocmVmPSdodHRwczovL3d3dy5rZ20uZ292LnRyL1NheWZhbGFyL0tHTS9TaXRlVHIvRHV5dXJ1bGFyL0R1eXVydURldGF5LmFzcHg/UGFyYW1ldGVyPTIxMTInID48cGljdHVyZT48c291cmNlIHNyY3NldD0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9MaXN0cy9TbGlkZXIvQXR0YWNobWVudHMvOTA0L3dlYi5qcGVnJyBtZWRpYT0nKG1pbiAtIHdpZHRoOjc2OHB4KSc+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzkwNC9tb2JpbC5qcGVnJyBtZWRpYT0nKG1heC13aWR0aDo3NjdweCknPjxpbWcgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy85MDQvd2ViLmpwZWcnIHRpdGxlPSfFnkFOTElVUkZB4oCZREEgxLBLxLAgw5ZORU1MxLAgS0FSQVlPTFUgUFJPSkVTxLAgSMSwWk1FVEUgQcOHSUxESScgYWx0PSfFnkFOTElVUkZB4oCZREEgxLBLxLAgw5ZORU1MxLAgS0FSQVlPTFUgUFJPSkVTxLAgSMSwWk1FVEUgQcOHSUxESScgLz48L3BpY3R1cmU+PC9hPjwvbGk+PGxpPjxhICBocmVmPSdodHRwczovL3d3dy5rZ20uZ292LnRyL1NheWZhbGFyL0tHTS9TaXRlVHIvRHV5dXJ1bGFyL0R1eXVydURldGF5LmFzcHg/UGFyYW1ldGVyPTIxMDgnID48cGljdHVyZT48c291cmNlIHNyY3NldD0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9MaXN0cy9TbGlkZXIvQXR0YWNobWVudHMvOTAzL3dlYi5qcGVnJyBtZWRpYT0nKG1pbiAtIHdpZHRoOjc2OHB4KSc+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzkwMy9tb2JpbC5qcGVnJyBtZWRpYT0nKG1heC13aWR0aDo3NjdweCknPjxpbWcgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy85MDMvd2ViLmpwZWcnIHRpdGxlPSdTxLDEsFJULVBFUlZBUsSwIFlPTFVOREEgw4dBTEnFnk1BTEFSIEhJWkxBIFPDnFLDnFlPUicgYWx0PSdTxLDEsFJULVBFUlZBUsSwIFlPTFVOREEgw4dBTEnFnk1BTEFSIEhJWkxBIFPDnFLDnFlPUicgLz48L3BpY3R1cmU+PC9hPjwvbGk+PGxpPjxhICBocmVmPSdodHRwczovL3d3dy5rZ20uZ292LnRyL1NheWZhbGFyL0tHTS9TaXRlVHIvRHV5dXJ1bGFyL0R1eXVydURldGF5LmFzcHg/UGFyYW1ldGVyPTIxMDcnID48cGljdHVyZT48c291cmNlIHNyY3NldD0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9MaXN0cy9TbGlkZXIvQXR0YWNobWVudHMvOTAxL3dlYi5qcGVnJyBtZWRpYT0nKG1pbiAtIHdpZHRoOjc2OHB4KSc+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzkwMS9tb2JpbC5qcGVnJyBtZWRpYT0nKG1heC13aWR0aDo3NjdweCknPjxpbWcgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy85MDEvd2ViLmpwZWcnIHRpdGxlPSdLR00gSEVZRVTEsCBKQVBPTllBYERBIFRFTUFTTEFSSU5JIFPDnFJEw5xSRMOcJyBhbHQ9J0tHTSBIRVlFVMSwIEpBUE9OWUFgREEgVEVNQVNMQVJJTkkgU8OcUkTDnFJEw5wnIC8+PC9waWN0dXJlPjwvYT48L2xpPjxsaT48YSAgaHJlZj0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9TYXlmYWxhci9LR00vU2l0ZVRyL0R1eXVydWxhci9EdXl1cnVEZXRheS5hc3B4P1BhcmFtZXRlcj0yMTA2JyA+PHBpY3R1cmU+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzkwMi9XZWIuanBnJyBtZWRpYT0nKG1pbiAtIHdpZHRoOjc2OHB4KSc+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzkwMi9Nb2JpbC5qcGcnIG1lZGlhPScobWF4LXdpZHRoOjc2N3B4KSc+PGltZyBzcmM9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzkwMi9XZWIuanBnJyB0aXRsZT0nVkFOYERBIEtBUkFZT0xMQVJJIFlFUkxFxZ5LRVPEsE5FIEXEnsSwVMSwTSBZVVZBU0knIGFsdD0nVkFOYERBIEtBUkFZT0xMQVJJIFlFUkxFxZ5LRVPEsE5FIEXEnsSwVMSwTSBZVVZBU0knIC8+PC9waWN0dXJlPjwvYT48L2xpPjxsaT48YSAgaHJlZj0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9TYXlmYWxhci9LR00vU2l0ZVRyL0R1eXVydWxhci9EdXl1cnVEZXRheS5hc3B4P1BhcmFtZXRlcj0yMTA0JyA+PHBpY3R1cmU+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzg5OS93ZWIuanBlZycgbWVkaWE9JyhtaW4gLSB3aWR0aDo3NjhweCknPjxzb3VyY2Ugc3Jjc2V0PSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy84OTkvbW9iaWwuanBlZycgbWVkaWE9JyhtYXgtd2lkdGg6NzY3cHgpJz48aW1nIHNyYz0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9MaXN0cy9TbGlkZXIvQXR0YWNobWVudHMvODk5L3dlYi5qcGVnJyB0aXRsZT0nS0dNIEhFWUVUxLAgSkFQT05ZQeKAmURBIFRFS07EsEsgxLBOQ0VMRU1FTEVSREUgQlVMVU5EVScgYWx0PSdLR00gSEVZRVTEsCBKQVBPTllB4oCZREEgVEVLTsSwSyDEsE5DRUxFTUVMRVJERSBCVUxVTkRVJyAvPjwvcGljdHVyZT48L2E+PC9saT48bGk+PGEgIGhyZWY9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvU2F5ZmFsYXIvS0dNL1NpdGVUci9EdXl1cnVsYXIvRHV5dXJ1RGV0YXkuYXNweD9QYXJhbWV0ZXI9MjEwMycgPjxwaWN0dXJlPjxzb3VyY2Ugc3Jjc2V0PSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy84OTgvd2ViLmpwZycgbWVkaWE9JyhtaW4gLSB3aWR0aDo3NjhweCknPjxzb3VyY2Ugc3Jjc2V0PSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy84OTgvbW9iaWwuanBnJyBtZWRpYT0nKG1heC13aWR0aDo3NjdweCknPjxpbWcgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy84OTgvd2ViLmpwZycgdGl0bGU9J0tHTSwgS8OcUkVTRUwgQUxUWUFQSSDEsMWeIELEsFJMxLDEnsSwIEtPTkZFUkFOU0kgR0lDQyAyMDI24oCZWUEgS0FUSUxESScgYWx0PSdLR00sIEvDnFJFU0VMIEFMVFlBUEkgxLDFniBCxLBSTMSwxJ7EsCBLT05GRVJBTlNJIEdJQ0MgMjAyNuKAmVlBIEtBVElMREknIC8+PC9waWN0dXJlPjwvYT48L2xpPjxsaT48YSAgaHJlZj0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9TYXlmYWxhci9LR00vU2l0ZVRyL0R1eXVydWxhci9EdXl1cnVEZXRheS5hc3B4P1BhcmFtZXRlcj0yMTAyJyA+PHBpY3R1cmU+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzg5Ny93ZWIuanBlZycgbWVkaWE9JyhtaW4gLSB3aWR0aDo3NjhweCknPjxzb3VyY2Ugc3Jjc2V0PSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL1NsaWRlci9BdHRhY2htZW50cy84OTcvbW9iaWwuanBlZycgbWVkaWE9JyhtYXgtd2lkdGg6NzY3cHgpJz48aW1nIHNyYz0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9MaXN0cy9TbGlkZXIvQXR0YWNobWVudHMvODk3L3dlYi5qcGVnJyB0aXRsZT0nU0FNU1VOIMWeRUjEsFIgSEFTVEFORVPEsCBWRSBCQcSeTEFOVEkgWU9MVSBIxLBaTUVURSBBw4dJTERJJyBhbHQ9J1NBTVNVTiDFnkVIxLBSIEhBU1RBTkVTxLAgVkUgQkHEnkxBTlRJIFlPTFUgSMSwWk1FVEUgQcOHSUxESScgLz48L3BpY3R1cmU+PC9hPjwvbGk+PGxpPjxhIHRhcmdldD0nX2JsYW5rJyBocmVmPSdodHRwczovL2tnbWFua2V0LmtnbS5nb3YudHIvJyA+PHBpY3R1cmU+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzc0Ni93ZWIuanBnJyBtZWRpYT0nKG1pbiAtIHdpZHRoOjc2OHB4KSc+PHNvdXJjZSBzcmNzZXQ9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzc0Ni9tb2JpbC5qcGcnIG1lZGlhPScobWF4LXdpZHRoOjc2N3B4KSc+PGltZyBzcmM9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvU2xpZGVyL0F0dGFjaG1lbnRzLzc0Ni93ZWIuanBnJyB0aXRsZT0nJyBhbHQ9JycgLz48L3BpY3R1cmU+PC9hPjwvbGk+ZAUmZ18yY2U1Yzk2ZV9jMTI4XzRkZmFfYTlhOV8wZjYxZDk3MWVlNDkPZBYCZg9kFgJmDxYCHwFlZAUmZ18xNzdkZWViOF9lOTRkXzRmNDZfYjY3MV9iMzZmYWY3YmNjYzgPZBYCZg9kFgJmDxYCHwEFnQ88ZGl2IGNsYXNzPSdjb2wteHMtMTIgY29sLXNtLTEyIGNvbC1tZC0zIGhvdC1wcm9qZWN0cG9zdC1yaWdodCAnPjxkaXYgY2xhc3M9J2tnbXR2LWl0ZW0nPuKAi+KAizxhIGhyZWY9J2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZkZOVU04R1ZLODQnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nS2dtdHYnIHRpdGxlPScnPjxpbWcgIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzE1MHB4JyAgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL0tnbVlvdVR1YmUvQXR0YWNobWVudHMvNzkvS2dtJTIwMjAyNlRhbsSxdMSxbSUyMEZpbG1pLmpwZycgYWx0PScnLz48ZGl2IGNsYXNzPSdrZ210di1pY29uJz48aSBjbGFzcz0nZmFzIGZhLXZpZGVvJyBzaXplPSc3eCcgPiBWaWRlbyDEsHpsZTwvaT48L2Rpdj48L2E+PC9kaXY+PGg2PkthcmF5b2xsYXLEsSBHZW5lbCBNw7xkw7xybMO8xJ/DvCBUYW7EsXTEsW0gRmlsbWkgMjAyNjwvaDY+PC9kaXY+PGRpdiBjbGFzcz0nY29sLXhzLTEyIGNvbC1zbS0xMiBjb2wtbWQtMyBob3QtcHJvamVjdHBvc3QtcmlnaHQgJz48ZGl2IGNsYXNzPSdrZ210di1pdGVtJz7igIvigIs8YSBocmVmPSdodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWdJVFE4Q2cwR0FNJnQ9MnMnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nS2dtdHYnIHRpdGxlPScnPjxpbWcgIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzE1MHB4JyAgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL0tnbVlvdVR1YmUvQXR0YWNobWVudHMvNzcvdGFuxLF0xLFtJTIwZmlsbWklMjAxLmpwZycgYWx0PScnLz48ZGl2IGNsYXNzPSdrZ210di1pY29uJz48aSBjbGFzcz0nZmFzIGZhLXZpZGVvJyBzaXplPSc3eCcgPiBWaWRlbyDEsHpsZTwvaT48L2Rpdj48L2E+PC9kaXY+PGg2PkthcmF5b2xsYXLEsSBHZW5lbCBNw7xkw7xybMO8xJ/DvCAyMDI1IFRhbsSxdMSxbSBGaWxtaTwvaDY+PC9kaXY+PGRpdiBjbGFzcz0nY29sLXhzLTEyIGNvbC1zbS0xMiBjb2wtbWQtMyBob3QtcHJvamVjdHBvc3QtcmlnaHQgJz48ZGl2IGNsYXNzPSdrZ210di1pdGVtJz7igIvigIs8YSBocmVmPSdodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PS10cllUYkJ4aS1rJnQ9MnMnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nS2dtdHYnIHRpdGxlPScnPjxpbWcgIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzE1MHB4JyAgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL0tnbVlvdVR1YmUvQXR0YWNobWVudHMvNzYvNzUlMjB5YcWfxLFuZGEuanBnJyBhbHQ9JycvPjxkaXYgY2xhc3M9J2tnbXR2LWljb24nPjxpIGNsYXNzPSdmYXMgZmEtdmlkZW8nIHNpemU9Jzd4JyA+IFZpZGVvIMSwemxlPC9pPjwvZGl2PjwvYT48L2Rpdj48aDY+S2FyYXlvbGxhcsSxIEdlbmVsIE3DvGTDvHJsw7zEn8O8IDc1LiBZxLFsIEZpbG1pPC9oNj48L2Rpdj48ZGl2IGNsYXNzPSdjb2wteHMtMTIgY29sLXNtLTEyIGNvbC1tZC0zIGhvdC1wcm9qZWN0cG9zdC1yaWdodCAnPjxkaXYgY2xhc3M9J2tnbXR2LWl0ZW0nPuKAi+KAizxhIGhyZWY9J2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZWkxLXhHRThadkknIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nS2dtdHYnIHRpdGxlPScnPjxpbWcgIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzE1MHB4JyAgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL0tnbVlvdVR1YmUvQXR0YWNobWVudHMvNzUvYWxwLWvEsXLFn2FubGEtMWLDtmzDvG0uanBnJyBhbHQ9JycvPjxkaXYgY2xhc3M9J2tnbXR2LWljb24nPjxpIGNsYXNzPSdmYXMgZmEtdmlkZW8nIHNpemU9Jzd4JyA+IFZpZGVvIMSwemxlPC9pPjwvZGl2PjwvYT48L2Rpdj48aDY+S3V6ZXkgS8SxYnLEsXMgVMO8cmsgQ3VtaHVyaXlldGkgfCAxNy4gQsO2bMO8bSAtIEFscCBLxLFyxZ9hbidsYSBCaXIgWW9sY3VsdWsgSGlrYXllc2k8L2g2PjwvZGl2PmQCFQ9kFgICAQ9kFgJmDw8WAh4HVmlzaWJsZWhkZAIXD2QWAgIDDxYCHwJoFgJmD2QWBAICD2QWBAIBDxYCHwJoZAIDDxYCHwJoZAIDDw8WAh4JQWNjZXNzS2V5BQEvZGQCGQ9kFgICAw9kFgICAQ9kFgQCAw9kFgJmDw8WBB4EXyFTQgICHghDc3NDbGFzcwUXbXMtcHJvbW90ZWRBY3Rpb25CdXR0b25kZAIFDw8WBh8FBRdtcy1wcm9tb3RlZEFjdGlvbkJ1dHRvbh8EAgIfAmhkZAIfD2QWAgIBDw8WBB4LTmF2aWdhdGVVcmwFAS8eB1Rvb2xUaXAFIUthcmF5b2xsYXLEsSBHZW5lbCBNw7xkw7xybMO8xJ/DvGRkAiUPZBYCAgEPZBYCAgEPPCsABQEADxYCHhVQYXJlbnRMZXZlbHNEaXNwbGF5ZWRmZGQCKQ9kFgICAQ9kFgICDQ8PFgIfAmhkFgICAQ9kFgJmD2QWAgIDD2QWAgIFD2QWAgIBDzwrAAkBAA8WBB4NUGF0aFNlcGFyYXRvcgQIHg1OZXZlckV4cGFuZGVkZ2RkAi0PZBYCAgIPZBYCAgUPZBYCZg8PZBYGHgVjbGFzcwUYbXMtc2J0YWJsZSBtcy1zYnRhYmxlLWV4HgtjZWxscGFkZGluZwUBMB4LY2VsbHNwYWNpbmcFATBkAi8PZBYCZg9kFgJmDxYCHwEF6w8gPGRpdiBjbGFzcz0nY2xpZW50cy1sb2dvIGNhcm91c2VsJz48ZGl2IGNsYXNzPSdpdGVtJz4gPGEgaHJlZj0nL1NheWZhbGFyL0tHTS9TaXRlVHIvS3Jlcy9LcmVzVGFuaXRpbS5hc3B4JyB0YXJnZXQ9J19ibGFuaycgdGl0bGU9J0thcmF5b2xsYXLEsSBHZW5lbCBNw7xkw7xybMO8xJ/DvCBLcmXFn2knPjxpbWcgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL0Rpc0JhZ2xhbnRpbGFyL0F0dGFjaG1lbnRzLzEva2dtLWtyZXNfcmVzaXplZC5qcGcnIGFsdD0nS2FyYXlvbGxhcsSxIEdlbmVsIE3DvGTDvHJsw7zEn8O8IEtyZcWfaSc+PC9hPiA8L2Rpdj48ZGl2IGNsYXNzPSdpdGVtJz4gPGEgaHJlZj0nL1NheWZhbGFyL0tHTS9TaXRlVHIvUm9vdC9FbmdlbGxpLmFzcHgnIHRhcmdldD0nX2JsYW5rJyB0aXRsZT0nR8O2cm1lIEVuZ2VsbGkgS3VsbGFuxLFjxLFsYXIgacOnaW4gRXJpxZ9pbGViaWxpcmxpayc+PGltZyBzcmM9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvRGlzQmFnbGFudGlsYXIvQXR0YWNobWVudHMvMi9nb3JtZS1lbmdlbGxpbGVyLWVyaXNpbV9yZXNpemVkLmpwZycgYWx0PSdHw7ZybWUgRW5nZWxsaSBLdWxsYW7EsWPEsWxhciBpw6dpbiBFcmnFn2lsZWJpbGlybGlrJz48L2E+IDwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPiA8YSBocmVmPSdodHRwczovL3d3dy5tZ20uZ292LnRyLy90YWhtaW4vaWwtdmUtaWxjZWxlci5hc3B4Iy8nIHRhcmdldD0nX2JsYW5rJyB0aXRsZT0nQW5rYXJhIMSww6dpbiBEZXRheWzEsSBIYXZhIER1cnVtdSc+PGltZyBzcmM9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvRGlzQmFnbGFudGlsYXIvQXR0YWNobWVudHMvMTAvbWdtLWxvZ28ucG5nJyBhbHQ9J0Fua2FyYSDEsMOnaW4gRGV0YXlsxLEgSGF2YSBEdXJ1bXUnPjwvYT4gPC9kaXY+PGRpdiBjbGFzcz0naXRlbSc+IDxhIGhyZWY9J2h0dHBzOi8vd3d3Lnl0bWsub3JnLnRyJyB0YXJnZXQ9J19ibGFuaycgdGl0bGU9J1lvbGxhciBUw7xyayBNaWxsaSBLb21pdGVzaSc+PGltZyBzcmM9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvRGlzQmFnbGFudGlsYXIvQXR0YWNobWVudHMvOS95dG1rLmpwZycgYWx0PSdZb2xsYXIgVMO8cmsgTWlsbGkgS29taXRlc2knPjwvYT4gPC9kaXY+PGRpdiBjbGFzcz0naXRlbSc+IDxhIGhyZWY9J2h0dHBzOi8vdHJhZmlrLmdvdi50ci9zcG90LWZpbG1sZXInIHRhcmdldD0nX2JsYW5rJyB0aXRsZT0nRW1uaXlldCBHZW5lbCBNw7xkw7xybMO8xJ/DvCBLYW11IFNwb3QgRmlsbWknPjxpbWcgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL0Rpc0JhZ2xhbnRpbGFyL0F0dGFjaG1lbnRzLzM0L2VnbV90cmFmaWtiYXNrYW5saWdpX2xvZ28ucG5nJyBhbHQ9J0Vtbml5ZXQgR2VuZWwgTcO8ZMO8cmzDvMSfw7wgS2FtdSBTcG90IEZpbG1pJz48L2E+IDwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPiA8YSBocmVmPSdodHRwczovL3d3dy5vZ20uZ292LnRyL3R1bGlwJyB0YXJnZXQ9J19ibGFuaycgdGl0bGU9J1RVTMSwUCBQcm9qZXNpLcWeaWtheWV0IE1la2FuaXptYXPEsSc+PGltZyBzcmM9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvTGlzdHMvRGlzQmFnbGFudGlsYXIvQXR0YWNobWVudHMvMjgvdHVsaXAuanBnJyBhbHQ9J1RVTMSwUCBQcm9qZXNpLcWeaWtheWV0IE1la2FuaXptYXPEsSc+PC9hPiA8L2Rpdj48ZGl2IGNsYXNzPSdpdGVtJz4gPGEgaHJlZj0naHR0cHM6Ly9rYXJpeWVya2FwaXNpLmdvdi50ci8nIHRhcmdldD0nX2JsYW5rJyB0aXRsZT0nVWx1xLFzYWwgU3RhaiBQcm9ncmFtxLEga2Fwc2FtxLFuZGEgMjAyNSB5xLFsxLEgYmHFn3Z1cnVsYXLEsSBiYcWfbGFkxLEnPjxpbWcgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0xpc3RzL0Rpc0JhZ2xhbnRpbGFyL0F0dGFjaG1lbnRzLzM2L3N0YWpmb290ZXIuanBnJyBhbHQ9J1VsdcSxc2FsIFN0YWogUHJvZ3JhbcSxIGthcHNhbcSxbmRhIDIwMjUgecSxbMSxIGJhxZ92dXJ1bGFyxLEgYmHFn2xhZMSxJz48L2E+IDwvZGl2PjwvZGl2PmQCMQ9kFgJmD2QWAmYPFgIfAQW4HTxkaXYgY2xhc3M9J2NvbC1tZC00IHAtMCBwYi01IHByLTUnPjxkaXYgY2xhc3M9J21hc29ucnktaXRlbSc+PGRpdiBjbGFzcz0nYm94LWhvdmVyLWVmZmVjdCBlZmZlY3QxMSc+IDxkaXYgY2xhc3M9J3RodW1iJz48aW1nIGNsYXNzPSdpbWctcmVzcG9uc2l2ZScgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0thcmF5b2xsYXJpbmRhbkZvdG9ncmFmbGFyL190LzEwQl9qcGcuanBnJyBhbHQ9J8WeZWhpcmxlcmFyYXPEsSBZb2xsYXLEsW3EsXogMS5Gb3RvxJ9yYWYgWWFyxLHFn21hc8SxIC0gKEfDtmtoYW4gS0lSQ0EgLSBBUlRWxLBOKSAtIDEwLkLDtmxnZSc+PC9kaXY+PGRpdiBjbGFzcz0nb3ZlcmxheSB3aGl0ZSc+PGRpdiBjbGFzcz0nZGV0YWlscyc+IDxkaXYgY2xhc3M9J2ljb25zJz48aSBjbGFzcz0nZmEgZmEtY2FtZXJhIHRleHQtYmxhY2snPjwvaT48L2Rpdj48L2Rpdj48YSBocmVmPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0thcmF5b2xsYXJpbmRhbkZvdG9ncmFmbGFyLzEwQi5qcGcnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nZ2FsbGVyeScgdGl0bGU9J8WeZWhpcmxlcmFyYXPEsSBZb2xsYXLEsW3EsXogMS5Gb3RvxJ9yYWYgWWFyxLHFn21hc8SxIC0gKEfDtmtoYW4gS0lSQ0EgLSBBUlRWxLBOKSAtIDEwLkLDtmxnZScgPkLDvHnDvGx0PC9hPjwvZGl2PjwvZGl2PjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J2NvbC1tZC00IHAtMCBwYi01IHByLTUnPjxkaXYgY2xhc3M9J21hc29ucnktaXRlbSc+PGRpdiBjbGFzcz0nYm94LWhvdmVyLWVmZmVjdCBlZmZlY3QxMSc+IDxkaXYgY2xhc3M9J3RodW1iJz48aW1nIGNsYXNzPSdpbWctcmVzcG9uc2l2ZScgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0thcmF5b2xsYXJpbmRhbkZvdG9ncmFmbGFyL190LzExQl9qcGcuanBnJyBhbHQ9J1JlxZ9hZGl5ZSAtIFZBTiAtIDExLkLDtmxnZSc+PC9kaXY+PGRpdiBjbGFzcz0nb3ZlcmxheSB3aGl0ZSc+PGRpdiBjbGFzcz0nZGV0YWlscyc+IDxkaXYgY2xhc3M9J2ljb25zJz48aSBjbGFzcz0nZmEgZmEtY2FtZXJhIHRleHQtYmxhY2snPjwvaT48L2Rpdj48L2Rpdj48YSBocmVmPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0thcmF5b2xsYXJpbmRhbkZvdG9ncmFmbGFyLzExQi5qcGcnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nZ2FsbGVyeScgdGl0bGU9J1JlxZ9hZGl5ZSAtIFZBTiAtIDExLkLDtmxnZScgPkLDvHnDvGx0PC9hPjwvZGl2PjwvZGl2PjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J2NvbC1tZC00IHAtMCBwYi01IHByLTUnPjxkaXYgY2xhc3M9J21hc29ucnktaXRlbSc+PGRpdiBjbGFzcz0nYm94LWhvdmVyLWVmZmVjdCBlZmZlY3QxMSc+IDxkaXYgY2xhc3M9J3RodW1iJz48aW1nIGNsYXNzPSdpbWctcmVzcG9uc2l2ZScgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0thcmF5b2xsYXJpbmRhbkZvdG9ncmFmbGFyL190LzEyQl9qcGcuanBnJyBhbHQ9J8WeZWhpcmxlcmFyYXPEsSBZb2xsYXLEsW3EsXogMS5Gb3RvxJ9yYWYgWWFyxLHFn21hc8SxIC0gKEfDvGxlciBUT1BSQUsgLSBFUlpVUlVNKSAtIDEyLkLDtmxnZSc+PC9kaXY+PGRpdiBjbGFzcz0nb3ZlcmxheSB3aGl0ZSc+PGRpdiBjbGFzcz0nZGV0YWlscyc+IDxkaXYgY2xhc3M9J2ljb25zJz48aSBjbGFzcz0nZmEgZmEtY2FtZXJhIHRleHQtYmxhY2snPjwvaT48L2Rpdj48L2Rpdj48YSBocmVmPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0thcmF5b2xsYXJpbmRhbkZvdG9ncmFmbGFyLzEyQi5qcGcnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nZ2FsbGVyeScgdGl0bGU9J8WeZWhpcmxlcmFyYXPEsSBZb2xsYXLEsW3EsXogMS5Gb3RvxJ9yYWYgWWFyxLHFn21hc8SxIC0gKEfDvGxlciBUT1BSQUsgLSBFUlpVUlVNKSAtIDEyLkLDtmxnZScgPkLDvHnDvGx0PC9hPjwvZGl2PjwvZGl2PjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9J2NvbC1tZC00IHAtMCBwYi01IHByLTUnPjxkaXYgY2xhc3M9J21hc29ucnktaXRlbSc+PGRpdiBjbGFzcz0nYm94LWhvdmVyLWVmZmVjdCBlZmZlY3QxMSc+IDxkaXYgY2xhc3M9J3RodW1iJz48aW1nIGNsYXNzPSdpbWctcmVzcG9uc2l2ZScgc3JjPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0thcmF5b2xsYXJpbmRhbkZvdG9ncmFmbGFyL190LzdCX2pwZy5qcGcnIGFsdD0nR2VyemUgWW9sdSAtIFPEsE5PUCAtIDcuQsO2bGdlJz48L2Rpdj48ZGl2IGNsYXNzPSdvdmVybGF5IHdoaXRlJz48ZGl2IGNsYXNzPSdkZXRhaWxzJz4gPGRpdiBjbGFzcz0naWNvbnMnPjxpIGNsYXNzPSdmYSBmYS1jYW1lcmEgdGV4dC1ibGFjayc+PC9pPjwvZGl2PjwvZGl2PjxhIGhyZWY9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvS2FyYXlvbGxhcmluZGFuRm90b2dyYWZsYXIvN0IuanBnJyBkYXRhLWxpZ2h0Ym94LWdhbGxlcnk9J2dhbGxlcnknIHRpdGxlPSdHZXJ6ZSBZb2x1IC0gU8SwTk9QIC0gNy5Cw7ZsZ2UnID5Cw7x5w7xsdDwvYT48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSdjb2wtbWQtNCBwLTAgcGItNSBwci01Jz48ZGl2IGNsYXNzPSdtYXNvbnJ5LWl0ZW0nPjxkaXYgY2xhc3M9J2JveC1ob3Zlci1lZmZlY3QgZWZmZWN0MTEnPiA8ZGl2IGNsYXNzPSd0aHVtYic+PGltZyBjbGFzcz0naW1nLXJlc3BvbnNpdmUnIHNyYz0naHR0cHM6Ly93d3cua2dtLmdvdi50ci9LYXJheW9sbGFyaW5kYW5Gb3RvZ3JhZmxhci9fdC85Ql9qcGcuanBnJyBhbHQ9J05pc3NpYmkgS8O2cHLDvHPDvCAtIEFkxLF5YW1hbiAtIMWeYW5sxLF1cmZhIFlvbHUgLSA5LkLDtmxnZSc+PC9kaXY+PGRpdiBjbGFzcz0nb3ZlcmxheSB3aGl0ZSc+PGRpdiBjbGFzcz0nZGV0YWlscyc+IDxkaXYgY2xhc3M9J2ljb25zJz48aSBjbGFzcz0nZmEgZmEtY2FtZXJhIHRleHQtYmxhY2snPjwvaT48L2Rpdj48L2Rpdj48YSBocmVmPSdodHRwczovL3d3dy5rZ20uZ292LnRyL0thcmF5b2xsYXJpbmRhbkZvdG9ncmFmbGFyLzlCLmpwZycgZGF0YS1saWdodGJveC1nYWxsZXJ5PSdnYWxsZXJ5JyB0aXRsZT0nTmlzc2liaSBLw7ZwcsO8c8O8IC0gQWTEsXlhbWFuIC0gxZ5hbmzEsXVyZmEgWW9sdSAtIDkuQsO2bGdlJyA+QsO8ecO8bHQ8L2E+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0nY29sLW1kLTQgcC0wIHBiLTUgcHItNSc+PGRpdiBjbGFzcz0nbWFzb25yeS1pdGVtJz48ZGl2IGNsYXNzPSdib3gtaG92ZXItZWZmZWN0IGVmZmVjdDExJz4gPGRpdiBjbGFzcz0ndGh1bWInPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvS2FyYXlvbGxhcmluZGFuRm90b2dyYWZsYXIvX3QvS8O2bcO8cmhhbiUyMEvDtnByw7xzw7xfNDY2eDM4NC5qcGdfanBnLmpwZycgYWx0PSdLw7Ztw7xyaGFuIEvDtnByw7xzw7wgLSBNYWxhdHlhIC0gRWxhesSxxJ8gWW9sdSAtIDguQsO2bGdlJz48L2Rpdj48ZGl2IGNsYXNzPSdvdmVybGF5IHdoaXRlJz48ZGl2IGNsYXNzPSdkZXRhaWxzJz4gPGRpdiBjbGFzcz0naWNvbnMnPjxpIGNsYXNzPSdmYSBmYS1jYW1lcmEgdGV4dC1ibGFjayc+PC9pPjwvZGl2PjwvZGl2PjxhIGhyZWY9J2h0dHBzOi8vd3d3LmtnbS5nb3YudHIvS2FyYXlvbGxhcmluZGFuRm90b2dyYWZsYXIvS8O2bcO8cmhhbiBLw7ZwcsO8c8O8XzQ2NngzODQuanBnLmpwZycgZGF0YS1saWdodGJveC1nYWxsZXJ5PSdnYWxsZXJ5JyB0aXRsZT0nS8O2bcO8cmhhbiBLw7ZwcsO8c8O8IC0gTWFsYXR5YSAtIEVsYXrEscSfIFlvbHUgLSA4LkLDtmxnZScgPkLDvHnDvGx0PC9hPjwvZGl2PjwvZGl2PjwvZGl2PjwvZGl2PmQYAQUsY3RsMDAkUGxhY2VIb2xkZXJUb3BOYXZCYXIkVG9wTmF2aWdhdGlvbk1lbnUPD2QFIUthcmF5b2xsYXLEsSBHZW5lbCBNw7xkw7xybMO8xJ/DvGQLn+avopNhO+V6kWoxMT4jFJQrK955lmRVR+6kTkxaLA==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=PbnKjHzi_i35Mfts4rRkC4mpldCPNOEwRr6Wy01Az8hHpc-9muOlNSZUcdE70FTHT7zEIuLUTI4XRcOB4OFNcM_59FpfpBaizzoJpo-1b2g1&amp;t=639190941332169432" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+
+var g_correlationId = 'bca544a2-7ebe-50b0-d86e-760ff4579c1b';
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaRUMEnabled = false;
+var g_wsaLCID = 1055;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'STS#0';
+var _spPageContextInfo={"webServerRelativeUrl":"/","webAbsoluteUrl":"https://www.kgm.gov.tr","viewId":"","listId":"{254d3e86-c255-4bbf-a6bb-f4af37182bce}","listPermsMask":{"High":0,"Low":196673},"listUrl":"/Sayfalar","listTitle":"Sayfalar","listBaseTemplate":850,"viewOnlyExperienceEnabled":false,"blockDownloadsExperienceEnabled":false,"idleSessionSignOutEnabled":false,"cdnPrefix":"","siteAbsoluteUrl":"https://www.kgm.gov.tr","siteId":"{8f3d6db9-2a12-40cf-8dbb-f707004bc081}","showNGSCDialogForSyncOnTS":false,"supportPoundStorePath":true,"supportPercentStorePath":true,"siteSubscriptionId":null,"CustomMarkupInCalculatedFieldDisabled":true,"AllowCustomMarkupInCalculatedField":false,"isSPO":false,"farmLabel":null,"serverRequestPath":"/Sayfalar/KGM/SiteTr/Root/default.aspx","layoutsUrl":"_layouts/15","webId":"{dbffc35a-f909-4072-be56-4391540883fe}","webTitle":"Karayolları Genel Müdürlüğü","webTemplate":"1","webTemplateConfiguration":"STS#0","webDescription":"","tenantAppVersion":"0","isAppWeb":false,"webLogoUrl":"/_layouts/images/titlegraphic.gif","webLanguage":1055,"currentLanguage":1055,"currentUICultureName":"tr-TR","currentCultureName":"tr-TR","currentCultureLCID":1055,"env":null,"nid":0,"fid":0,"serverTime":"2026-10-14T02:12:43.6700849Z","siteClientTag":"15508$$16.0.10417.20175","crossDomainPhotosEnabled":false,"openInClient":false,"Has2019Era":true,"webUIVersion":15,"webPermMasks":{"High":0,"Low":196673},"pageListId":"{254d3e86-c255-4bbf-a6bb-f4af37182bce}","pageItemId":219,"pagePermsMask":{"High":0,"Low":196673},"pagePersonalizationScope":1,"userEmail":"","userId":0,"userLoginName":null,"userDisplayName":null,"isAnonymousUser":true,"isAnonymousGuestUser":false,"isEmailAuthenticationGuestUser":false,"isExternalGuestUser":false,"systemUserKey":null,"alertsEnabled":true,"siteServerRelativeUrl":"/","allowSilverlightPrompt":"True","themeCacheToken":"/::7:","themedCssFolderUrl":null,"themedImageFileNames":null,"modernThemingEnabled":true,"isSiteAdmin":false,"ExpFeatures":[480216468,1884350801,1158731092,62197791,538521105,335811073,4194306,34614301,268500996,-1946025984,28445328,-2147475455,134291456,65536,288,950272,1282,808326148,134217873,0,0,-1073217536,545285252,18350656,-467402752,6291457,-2147483644,1074794496,-1728053184,1845537108,622628,4102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"killSwitches":{},"InternalValidAuthorities":["www.kgm.gov.tr","stage.kgm.gov.tr","my.kgm.gov.tr"],"CorrelationId":"bca544a2-7ebe-50b0-d86e-760ff4579c1b","hasManageWebPermissions":false,"isNoScriptEnabled":false,"groupId":null,"groupHasHomepage":true,"groupHasQuickLaunchConversationsLink":false,"departmentId":null,"hubSiteId":null,"hasPendingWebTemplateExtension":false,"isHubSite":false,"isWebWelcomePage":false,"siteClassification":"","hideSyncButtonOnODB":false,"showNGSCDialogForSyncOnODB":false,"sitePagesEnabled":false,"sitePagesFeatureVersion":0,"DesignPackageId":"00000000-0000-0000-0000-000000000000","groupType":null,"groupColor":"#757575","siteColor":"#757575","headerEmphasis":0,"navigationInfo":null,"guestsEnabled":false,"MenuData":{"SignInUrl":"/_layouts/15/Authenticate.aspx?Source=%2FSayfalar%2FKGM%2FSiteTr%2FRoot%2Fdefault%2Easpx"},"RecycleBinItemCount":-1,"PublishingFeatureOn":true,"PreviewFeaturesEnabled":false,"disableAppViews":false,"disableFlows":false,"serverRedirectedUrl":null,"formDigestValue":"0x640BE6BC9FA3BF29382E5B4070CD594B3FCBFB1AFA574F4071EAC9F11F72FCB5A5BAF8817B42E6EBEC5D07EE87A95471AB459A45AEF2B1E7C1CE92BBE3EC9EB2,14 Oct 2026 02:12:43 -0000","maximumFileSize":10240,"formDigestTimeoutSeconds":1800,"canUserCreateMicrosoftForm":false,"canUserCreateVisioDrawing":true,"readOnlyState":null,"isTenantDevSite":false,"preferUserTimeZone":false,"userTimeZoneData":null,"userTime24":false,"userFirstDayOfWeek":null,"webTimeZoneData":null,"webTime24":false,"webFirstDayOfWeek":null,"isSelfServiceSiteCreationEnabled":null,"alternateWebAppHost":"","aadTenantId":"","aadUserId":"","aadInstanceUrl":"","msGraphEndpointUrl":"https://","allowInfectedDownload":true};_spPageContextInfo.updateFormDigestPageLoaded=new Date();_spPageContextInfo.clientServerTimeDelta=new Date(_spPageContextInfo.serverTime)-new Date();if(typeof(define)=='function'){define('SPPageContextInfo',[],function(){return _spPageContextInfo;});}function CallServer_31298064(arg, context) {WebForm_DoCallback('ctl00$ctl25',arg,SP.UI.MyLinksRibbon.MyLinksRibbonPageComponent.ribbonActionCallback,context,null,false); }function _myLinksRibbonLoad2()
+{
+    var fnd = function () {
+        try {
+            mylinks_init.MyLinksInit('CallServer_31298064'); 
+        } 
+        catch (Ex)
+        { }
+    };
+    RegisterSod('mylinks_init', '/_layouts/15/sp.ui.mylinksribbon.js?rev=0StMaEfxj2Emiye6tWPA%2BA%3D%3DTAG0');
+    LoadSodByKey('mylinks_init', fnd);
+}
+
+function _myLinksRibbonLoad1()
+{
+    ExecuteOrDelayUntilScriptLoaded(_myLinksRibbonLoad2, 'SP.Ribbon.js');
+}
+
+_spBodyOnLoadFunctionNames.push('_myLinksRibbonLoad1');
+var L_Menu_BaseUrl="";
+var L_Menu_LCID="1055";
+var L_Menu_SiteTheme="null";
+document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};var dlc_fvsi = {"DefaultViews":[],"ViewUrls":[],"WebUrl":"\/"};
+function _spNavigateHierarchy(nodeDiv, dataSourceId, dataPath, url, listInContext, type) {
+
+    CoreInvoke('ProcessDefaultNavigateHierarchy', nodeDiv, dataSourceId, dataPath, url, listInContext, type, document.forms.aspnetForm, "", "\u002fSayfalar\u002fKGM\u002fSiteTr\u002fRoot\u002fdefault.aspx");
+
+}
+Flighting.ExpFeatures = [480216468,1884350801,1158731092,62197791,538521105,335811073,4194306,34614301,268500996,-1946025984,28445328,-2147475455,134291456,65536,288,950272,1282,808326148,134217873,0,0,-1073217536,545285252,18350656,-467402752,6291457,-2147483644,1074794496,-1728053184,1845537108,622628,4102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; (function()
+{
+    if(typeof(window.SP) == "undefined") window.SP = {};
+    if(typeof(window.SP.YammerSwitch) == "undefined") window.SP.YammerSwitch = {};
+
+    var ysObj = window.SP.YammerSwitch;
+    ysObj.IsEnabled = false;
+    ysObj.TargetYammerHostName = "www.yammer.com";
+} )(); var _spWebPartComponents = new Object();
+                var g_syncButtonUsePopup = true;
+                //]]>
+</script>
+
+<script src="/_layouts/15/blank.js?rev=aDCkTveg0%2BSs%2F77Ss94mWg%3D%3DTAG0" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+window.SPThemeUtils && SPThemeUtils.RegisterCssReferences([{"Url":"\u002f_layouts\u002f15\u002f1055\u002fstyles\u002fThemable\u002fcorev15.css?rev=FgJyTN31sd6Xe62NO21uIw\u00253D\u00253DTAG0","OriginalUrl":"\u002f_layouts\u002f15\u002f1055\u002fstyles\u002fThemable\u002fcorev15.css?rev=FgJyTN31sd6Xe62NO21uIw\u00253D\u00253DTAG0","Id":"CssLink-[CHAVE]","ConditionalExpression":"","After":"","RevealToNonIE":"false"},{"Url":"\u002f_layouts\u002f15\u002f1055\u002fstyles\u002fThemable\u002fsearch.css?rev=z0tcf4YfvPw0HGu2ShpJKw\u00253D\u00253DTAG0","OriginalUrl":"\u002f_layouts\u002f15\u002f1055\u002fstyles\u002fThemable\u002fsearch.css?rev=z0tcf4YfvPw0HGu2ShpJKw\u00253D\u00253DTAG0","Id":"CssLink-[CHAVE]","ConditionalExpression":"","After":"","RevealToNonIE":"false"}]);
+(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+            SP.SOD.executeFunc('core.js', 'FollowingDocument', function() { FollowingDocument(); });
+        });
+    })();(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+            SP.SOD.executeFunc('core.js', 'FollowingCallout', function() { FollowingCallout(); });
+        });
+    })();if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();function WebForm_OnSubmit() {
+UpdateFormDigest('\u002f', 1440000);
+                    var workspaceElem = GetCachedElement("s4-workspace");
+                    if (workspaceElem != null)
+                    {
+                        var scrollElem = GetCachedElement("_maintainWorkspaceScrollPosition");
+                        if (scrollElem != null)
+                        {
+                            scrollElem.value = workspaceElem.scrollTop;
+                        }
+                    };
+                if (typeof(_spFormOnSubmitWrapper) != 'undefined') {return _spFormOnSubmitWrapper();} else {return true;};
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="29E588E3" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAMgEcZI0u5q3Ox1CByWD7fLMTZk9qLGncDjImqxppn1Mzp97slc35CocI/4WPofv/IY6UNlO2+L4wzloSOaMDpa1uNyQWCP/XMbvBLIPMFKwA==" />
+</div>
+	<script type="text/javascript"> var submitHook = function () { return false; }; theForm._spOldSubmit = theForm.submit; theForm.submit = function () { if (!submitHook()) { this._spOldSubmit(); } }; </script>
+	<span id="DeltaSPWebPartManager">
+		
+	</span>
+	<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', 'aspnetForm', ['fctl00$WebPartAdderUpdatePanel',''], [], ['ctl00$WebPartAdder',''], 90, 'ctl00');
+//]]>
+</script>
+
+	<span id="DeltaDelegateControls">
+		
+		
+	</span>
+<div id="TurnOnAccessibility" style="display:none" class="s4-notdlg noindex">
+	<a id="linkTurnOnAcc" href="#" class="ms-accessible ms-acc-button" onclick="SetIsAccessibilityFeatureEnabled(true);UpdateAccessibilityUI();document.getElementById('linkTurnOffAcc').focus();return false;">
+	Daha yüksek erişilebilirlik modunu aç</a>
+</div>
+<div id="TurnOffAccessibility" style="display:none" class="s4-notdlg noindex">
+	<a id="linkTurnOffAcc" href="#" class="ms-accessible ms-acc-button" onclick="SetIsAccessibilityFeatureEnabled(false);UpdateAccessibilityUI();document.getElementById('linkTurnOnAcc').focus();return false;">
+	Daha yüksek erişilebilirlik modunu kapat</a>
+</div>
+<div class="s4-notdlg s4-skipribbonshortcut noindex">
+	<a href="javascript:;" onclick="document.getElementById(&#39;startNavigation&#39;).focus();" class="ms-accessible ms-acc-button" accesskey="Y">
+	Şerit Komutlarını Atla</a>
+</div>
+<div class="s4-notdlg noindex">
+	<a href="javascript:;" onclick="document.getElementById(&#39;mainContent&#39;).focus();" class="ms-accessible ms-acc-button">
+	Ana içeriğe atla</a>
+</div>
+<div id="TurnOffAnimation" style="display:none;" class="s4-notdlg noindex">
+	<a id="linkTurnOffAnimation" href="#" class="ms-accessible ms-acc-button" onclick="ToggleAnimationStatus();return false;">
+	Animasyonları Kapat</a>
+</div>
+<div id="TurnOnAnimation" style="display:none;" class="s4-notdlg noindex">
+	<a id="linkTurnOnAnimation" href="#" class="ms-accessible ms-acc-button" onclick="ToggleAnimationStatus();return false;">
+	Animasyonları Aç</a>
+</div>
+<a id="HiddenAnchor" href="javascript:;" style="display:none;"></a>
+<div id="suiteBar" class="ms-dialogHidden noindex">
+	<div id="suiteBarLeft">
+		<div class="ms-table ms-fullWidth displayNone">
+			<div class="ms-tableRow">
+				<div class="ms-tableCell ms-verticalAlignMiddle">
+					<div class="ms-core-brandingText">SharePoint</div>
+
+				</div>
+				<div id="DeltaSuiteLinks" class="ms-core-deltaSuiteLinks">
+	
+						<div id="suiteLinksBox">
+							
+						</div>
+				
+</div>
+			</div>
+		</div>
+	</div>
+	<div id="suiteBarRight">
+		<div id="DeltaSuiteBarRight" class="ms-core-deltaSuiteBarRight">
+	
+				<div id="welcomeMenuBox">
+  
+<a id="ctl00_IdWelcome_ExplicitLogin" class="ms-signInLink" href="https://www.kgm.gov.tr/_layouts/15/Authenticate.aspx?Source=%2FSayfalar%2FKGM%2FSiteTr%2FRoot%2Fdefault%2Easpx" style="display:inline-block;">Oturum Aç</a>
+
+				</div>
+				<div id="suiteBarButtons">
+					   <span class="ms-siteactions-root" id="siteactiontd">
+					   </span>
+<span id="ms-help">
+	<a onmouseover="this.firstChild.firstChild.firstChild.style.left=&#39;-1px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-1px&#39;;" onmouseout="this.firstChild.firstChild.firstChild.style.left=&#39;-19px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-1px&#39;;" id="ctl00_TopHelpLink" accesskey="6" title="Yardım" onclick="TopHelpButtonClick(&#39;HelpHome&#39;,event);return false" href="../../../../_catalogs/masterpage/KGM_MasterPages/#" style="display:inline-block;height:30px;width:30px;"><span style="display:inline-block;overflow:hidden;height:16px;width:16px;padding-left:7px;padding-top:7px;padding-right:7px;padding-bottom:7px;"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust"><img src="/_layouts/15/1055/images/spintl.png?rev=43#ThemeKey=spintl" alt="Yardım" style="border:0;position:absolute;left:-19px;top:-1px;" /></span></span></a>
+</span>
+				</div>
+		
+</div>
+	</div>
+</div>
+		<div id="ms-hcTest"></div>
+		<div id="s4-ribbonrow">
+		<div id="globalNavBox" class="noindex">
+<div id="ribbonBox">
+	<div id="s4-ribboncont">
+		<div id="DeltaSPRibbon">
+	
+			
+
+			<div class='ms-cui-ribbonTopBars'><div class='ms-cui-topBar1'></div><div class='ms-cui-topBar2'><div id='RibbonContainer-TabRowLeft' class='ms-cui-TabRowLeft ms-core-defaultFont ms-dialogHidden'>
+				</div><div id='RibbonContainer-TabRowRight' class='ms-cui-TabRowRight s4-trc-container s4-notdlg ms-core-defaultFont'>
+		
+		
+		
+		
+		
+		
+					
+					<a onmouseover="this.firstChild.firstChild.style.left=&#39;-217px&#39;; this.firstChild.firstChild.style.top=&#39;-192px&#39;;" onmouseout="this.firstChild.firstChild.style.left=&#39;-218px&#39;; this.firstChild.firstChild.style.top=&#39;-48px&#39;;" onclick="SP.SOD.executeFunc(&#39;followingcommon.js&#39;, &#39;FollowSite&#39;, function() { FollowSite(); }); return false;" id="site_follow_button" title="Bu siteyi takip edin ve siteler sayfanızdan kolayca erişin." class="ms-promotedActionButton" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$site_follow_button&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="display:inline-block;"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust ms-promotedActionButton-icon"><img src="/_layouts/15/images/spcommon.png?rev=43#ThemeKey=spcommon" alt="Takip Et" style="position:absolute;left:-218px;top:-48px;" /></span><span class="ms-promotedActionButton-text">Takip Et</span></a>
+					
+					
+<span id="fullscreenmodebox" class="ms-qatbutton">
+	<span id="fullscreenmode">
+		<a onmouseover="this.firstChild.firstChild.firstChild.style.left=&#39;-125px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-178px&#39;;" onmouseout="this.firstChild.firstChild.firstChild.style.left=&#39;-143px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-178px&#39;;" id="ctl00_fullscreenmodeBtn" title="İçeriğe Odaklan" onclick="SetFullScreenMode(true);PreventDefaultNavigation();return false;" href="../../../../_catalogs/masterpage/KGM_MasterPages/#" style="display:inline-block;height:30px;width:30px;"><span style="display:inline-block;overflow:hidden;height:16px;width:16px;padding-left:7px;padding-top:7px;padding-right:7px;padding-bottom:7px;"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust"><img src="/_layouts/15/images/spcommon.png?rev=23#ThemeKey=spcommon" alt="İçeriğe Odaklan" style="border:0;position:absolute;left:-143px;top:-178px;" /></span></span></a>
+	</span>
+	<span id="exitfullscreenmode" style="display: none;">
+		<a onmouseover="this.firstChild.firstChild.firstChild.style.left=&#39;-179px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-96px&#39;;" onmouseout="this.firstChild.firstChild.firstChild.style.left=&#39;-107px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-178px&#39;;" id="ctl00_exitfullscreenmodeBtn" title="İçeriğe Odaklan" onclick="SetFullScreenMode(false);PreventDefaultNavigation();return false;" href="../../../../_catalogs/masterpage/KGM_MasterPages/#" style="display:inline-block;height:30px;width:30px;"><span style="display:inline-block;overflow:hidden;height:16px;width:16px;padding-left:7px;padding-top:7px;padding-right:7px;padding-bottom:7px;"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust"><img src="/_layouts/15/images/spcommon.png?rev=23#ThemeKey=spcommon" alt="İçeriğe Odaklan" style="border:0;position:absolute;left:-107px;top:-178px;" /></span></span></a>
+	</span>
+</span>
+
+
+				</div></div></div>
+		
+</div>
+	</div>
+	<span id="DeltaSPNavigation">
+		
+			<span id="ctl00_SPNavigation_ctl00_publishingRibbon"></span>
+
+		
+	</span>
+</div>
+<div id="DeltaWebPartAdderUpdatePanelContainer" class="ms-core-webpartadder">
+	
+  <div id="WebPartAdderUpdatePanelContainer">
+	<div id="ctl00_WebPartAdderUpdatePanel">
+		
+		<span id="ctl00_WebPartAdder"></span>
+		
+	</div>
+  </div>
+
+</div>
+		</div>
+		</div>
+		<div id="s4-workspace" class="ms-core-overlay">
+		<div id="s4-bodyContainer">
+		<div id="s4-titlerow" 
+			class="ms-dialogHidden s4-titlerowhidetitle displayNone">
+		<div id="titleAreaBox"
+			class="ms-noList ms-table ms-core-tableNoSpace">
+		<div id="titleAreaRow"
+			class="ms-tableRow">
+<div id="siteIcon" class="ms-tableCell ms-verticalAlignTop">
+	<div id="DeltaSiteLogo">
+	
+		<a id="ctl00_onetidProjectPropertyTitleGraphic" title="Karayolları Genel Müdürlüğü" class="ms-siteicon-a" href="/"><img id="ctl00_onetidHeadbnnr2" class="ms-siteicon-img" name="onetidHeadbnnr0" src="/_layouts/images/titlegraphic.gif" alt="Karayolları Genel Müdürlüğü" /></a>
+	
+</div>
+</div>
+			<div class="ms-breadcrumb-box ms-tableCell ms-verticalAlignTop">
+				<div
+					class="ms-breadcrumb-top">
+<div class="ms-breadcrumb-dropdownBox" style="display:none;">
+<span id="DeltaBreadcrumbDropdown">
+	
+</span>
+</div>
+<div id="DeltaTopNavigation" class="ms-displayInline ms-core-navigation" role="navigation">
+	
+	
+	
+		<div id="zz1_TopNavigationMenu" class=" noindex ms-core-listMenu-horizontalBox">
+		<ul id="zz2_RootAspMenu" class="root ms-core-listMenu-root static">
+			<li class="static selected"><a class="static selected menu-item ms-core-listMenu-item ms-displayInline ms-core-listMenu-selected ms-navedit-linkNode" href="/Sayfalar/KGM/SiteTr/Root/default.aspx" accesskey="1"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Karayolları Genel Müdürlüğü</span><span class="ms-hidden">Şu anda seçili</span></span></a></li>
+		</ul>
+	</div>
+	
+
+</div>
+				</div>
+<h1 id="pageTitle" class="ms-core-pageTitle">
+  <span id="DeltaPlaceHolderPageTitleInTitleArea">
+	
+		<span><a href="#ctl00_PlaceHolderPageTitleInTitleArea_ctl00_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=17fufNlkho1FP6YGzTccgTgH2aXt0GdIzGNR7rpdYPKHck9wf9wxPeEXsQF8LhVtmWstRitbRDptGSHSZeIChHdG8w2UCpPeT8GK1MT3FmE1&amp;t=639190941332169432" width="0" height="0" style="border-width:0px;" /></a><span><a title="default" href="/Sayfalar/KGM/SiteTr/Root/default.aspx">default</a></span><a id="ctl00_PlaceHolderPageTitleInTitleArea_ctl00_SkipLink"></a></span>
+	
+  </span>
+  <div id="DeltaPlaceHolderPageDescription" class="ms-displayInlineBlock ms-normalWrap">
+	
+	<a href="javascript:;" id="ms-pageDescriptionDiv" style="display:none;">
+	  <span id="ms-pageDescriptionImage">&#160;</span>
+	</a>
+	<span class="ms-accessible" id="ms-pageDescription">
+	  
+	</span>
+	<script type="text/javascript">// <![CDATA[ 
+
+_spBodyOnLoadFunctionNames.push("setupPageDescriptionCallout"); // ]]>
+</script>
+  
+</div>
+</h1>
+			</div>
+			<div class="ms-tableCell ms-verticalAlignTop">
+ 
+			</div>
+		</div>
+		</div>
+		</div>
+		<div id="contentRow">
+<div id="sideNavBox"
+	 class="ms-dialogHidden ms-forceWrap ms-noList displayNone">
+  <div id="DeltaPlaceHolderLeftNavBar" class="ms-core-navigation" role="navigation">
+	
+	
+				<a id="startNavigation" name="startNavigation" tabIndex="-1"></a>
+				
+				
+				
+				
+				
+				<div class="ms-core-sideNavBox-removeLeftMargin">
+				
+					
+				
+					<div class="ms-core-listMenu-verticalBox">
+						
+					</div>
+				
+				</div>
+	
+  
+</div>
+</div>
+<div id="contentBox2"
+ aria-live="polite" aria-relevant="all">
+  <div id="notificationArea" class="ms-notif-box"></div>
+	<div id="DeltaPageStatusBar">
+	
+		<div id="pageStatusBar"></div>
+	
+</div>
+	
+	
+	<div id="wrapper">  
+<div class="line"></div> 
+  <!-- Header -->
+  <header class="header">
+    <div class="header-middle sm-text-center">
+      <div class="container pt-15 pb-15 pt-sm-0">
+        <div class="row">
+          <div class="col-lg-6 col-md-4 col-sm-2 pt-30 col-xs-4 pt-sm-25">
+            <a class="header-logo" href="/"><img width="396" alt="Karayolları Genel Müdürlüğü Logosu" src="/SiteAssets/images/kgm_logo.png"></a>
+             <a class="header-logo-sm pull-left" href="/"><img width="72" alt="" src="/SiteAssets/images/apple-touch-icon-144x144.png"></a>
+          </div>
+                
+          <div class="col-lg-6 col-md-8 col-sm-10 col-xs-8 pt-sm-40">
+           <div class="col-md-3">
+           
+          </div>
+           <div class="col-md-3 text-right pr-0 hidden-sm hidden-xs"><a href="/Sayfalar/KGM/SiteTr/Root/GormeEngelli.aspx"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADiElEQVRoge3Z24tWVRjH8Y8mgZpQ2ozTmJ00i4gORAcyyiioC+ki6D+I6FKkE0QQBCFJXQRedFOEdIAg0oguO2iDlYVNWiqYWBESHrKG6mKa6eLZi73mnRln7/3O27wT7w/2zdprPev57mcdnrU2PfXUU119jWEMzLUj7eobjON78xymH/sFzCEMzq077akH063qwXSruh5mQY26A/gIV+Mg7sbx7H0/NuBmXIM1WIFlRT9/4ASOiKX9C3yMX9siaKiBwom0z9yEx8UmOlaU13nG8FVhY3U7jtWJSFIemVYdxm4BdkhEbKR4t6RouxbXYz2uy3z4B+/j5cJ+R3WPGC55ZMbxAi5vYG8Qj2KviZHaJYbprOsq8bXGRQrTZ/IwazeduQWv428l0NtmaWFZhCdbjOeOd2I1uxivYLSwO4JncW5Tg1fgS6Xzb+JGZRSGdSYySTeIuZL6H8KldY1sxKnMyE+Zg7nj34qoTAWzRkzc7wpbR8XHuKOGHwvEHPq9sH0KD1ZpeA6eUy6l28WXHy8cqgpzDH+ZOBzzZ5sYtlV1GT7J2m/FwukqL8aOrPIzRXlfQ5iZnm01QAjwrcqP/B6WtlY6H5+2dJTmQCdh1teEgYeU0f688B2xL+wrXvyIOzOnzwazcgqY/TVhtjcAUfh4urCxFxfAh5lzKU3InZ4O5sAswBxpCALX4ufCzm54J3NsVVaxXZiVFWBOtAGyHHtykKXKFeEo1s0STCo/G8xwQ4hVYk6muXlhenGeyG/SWn3/fwTzUgOI2/GLcpNc0VphsXKYjeIJZWZaBSYNp6owf6qfaD6sTJd2iox6Si3EFuVavRMX1YTprwhzTPV0ZjneKNqN4UUVN9QHcLJoeBqPTOF0nle1lif4PKk8KJLKuonmfSJFSovDxioAuS7BZ8qhsKMoqxKZtDkyMQppM62SaPbj1az/XSIzbqRF2IQzynG9BVd2EGaJmJ+/ZX0+rV5uNq0G8Zby65zBayLUM8Gk8iowT4njcernA3GcmHXdZXJONlNuVgcmPUM6dNRt1Qa8qzzFpecwnhdnhnvFBpsg1+E2bM7aHTD5cHbcHPwFWI3HxEmyyXXQqDh80eZJs8l10HTqE0PvVnFVtFakDsvE/jQiLuN+EJEYEsP0ZGZjpkvAeaWuv56tox5Mt6oH0636X8Hk+8y+OfalbQ0IiD1z7UhPPc03/Qs/HfI5uQ1jaAAAAABJRU5ErkJggg==" alt="Görme Engelli İçerik"></a> </div>
+           <div class="col-md-3 text-right pr-0 hidden-sm hidden-xs"><a href="https://www.uab.gov.tr" target="_blank"><img src="/SiteAssets/images/uab_logo_yeni_0602.png" alt="Ulaştırma Denizcilik ve Haberleşme Bakanlığı Logosu"/></a> </div>
+           <div class="col-md-3 text-right pr-0 hidden-sm hidden-xs"><img src="/SiteAssets/images/ataturk.png" alt="Mustafa Kemal Atatürk"/> </div>
+           <div class="header-nav">
+      <div class="header-nav-wrapper">
+          <nav id="menuzord" class="menuzord orange">
+            <ul class="menuzord-menu text-left">
+              <li class="active"><a tabindex="-1" href="/">ANA SAYFA</a>
+              </li>
+              <li><a tabindex="-1" href="/Sayfalar/KGM/SiteTr/Kurumsal/Tarihce.aspx">KURUMSAL</a>
+			  <ul class="dropdown">
+                  <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/Tarihce.aspx">Tarihçe</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/Gorevleri.aspx">Görevleri</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/GenelMudur1.aspx">Yönetim</a>
+                    <ul class="dropdown">
+                      <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/GenelMudur1.aspx">Genel Müdürümüz</a></li>
+                      <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/GenelMudYard.aspx">Genel Müdür Yardımcılarımız</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/InsanKaynaklari.aspx">Personel</a>
+                    <ul class="dropdown">
+                      <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/InsanKaynaklari.aspx">Personel Bilgileri</a></li>
+                      <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/TeskilatSemasi.aspx">Organizasyon Şeması</a></li>
+                    </ul>
+                  </li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/MerkezTeskilat.aspx">Merkez Teşkilatı</a>
+                            <!--<ul class="dropdown">
+                                <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarOzelKalemBirimi/Gorevleri.aspx">Özel Kalem Birimi</a></li>
+                                <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarBasinVeHalklaIliskilerBirimi/Gorevleri.aspx">Basın ve Halkla İlişkiler Birimi</a></li>
+                                <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/Baskanliklar.aspx">Başkanlıklar</a></li>
+                                <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarTeftisKurulu/Gorevleri.aspx">Teftiş Kurulu Başkanlığı</a></li>
+                                <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarHukukMusavirligi/Gorevleri.aspx">Hukuk Müşavirliği</a></li>
+                                <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarIcDenetim/Gorevleri.aspx">İç Denetim Birimi Başkanlığı</a></li>
+                            </ul>-->
+                  </li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Bolgeler/Bolgeler.aspx">Bölgeler</a>
+                      <!--<ul class="dropdown">
+                         <li><a href="/Sayfalar/KGM/SiteTr/Bolgeler/Bolgeler.aspx">Bölgeler</a></li>
+                         <li><a href="/Sayfalar/KGM/SiteTr/Bolgeler/KamuOzel/KamuOzel.aspx">Kamu Özel Sektör Ortaklığı Bölge Müdürlüğü</a></li>
+                         <li><a href="/Sayfalar/KGM/SiteTr/Bolgeler/IkmalMd/IkmalMd.aspx">İkmal Müdürlüğü</a></li>
+                         <li><a href="/Sayfalar/KGM/SiteTr/Bolgeler/AtolyeMd/AtolyeMd.aspx">Atölye Müdürlüğü</a></li>
+                      </ul>-->
+                  </li>
+				   <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/KanunMevzuat.aspx">Kanun ve Yönetmelikler</a></li>
+                   <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/Butce.aspx">Bütçe Ödenekleri</a></li>
+				   <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/YolAgi.aspx">Yol Ağı Bilgileri</a></li>
+				   <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/KamuIcKontrolStandartlari.aspx">Kamu İç Kontrol Standartları</a></li>
+
+				
+				    <li><a href="#">Stratejik Planlama</a>
+                    <ul class="dropdown">
+                      <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/MerkezBirimler/Kurumsal/StratejikPlan/strateji(2024-2028).pdf">2024-2028 Stratejik Plan</a></li>
+                      <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/PerformansProgrami.aspx">Yıllar İtibariyle Performans Programı</a></li>
+					  <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/FaaliyetRaporu.aspx">Yıllar İtibariyle Faaliyet Raporu</a></li>
+					  <!-- <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/Kurumsal/GlobalProjeler/2020global.pdf">2020 Yılı Global Projeler Detayı</a></li>-->
+					  <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/MerkezBirimler/Kurumsal/MaliDurum/malidurum.pdf">Kurumsal Mali Durum ve Beklentiler Raporu</a></li>
+                    </ul>
+                  </li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/GlobalProjeler.aspx">Uluslararası Karayolu Güzergahları</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/EtikKurulu.aspx">Etik Komisyonu</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Root/KamuHizmetStandartlari.aspx">Kamu Hizmet Standartları</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Root/Sozluk2.aspx">Karayolları Sözlüğü</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Etkinlikler/Faaliyetler.aspx">Faaliyetler</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Yayinlar/Yayinlar.aspx">Yayınlar</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/BilGuvPolitika.aspx">Bilgi Güvenliği Politikası</a></li>
+                   <li><a href="/SiteCollectionDocuments/KGMdocuments/MerkezBirimler/Kurumsal/KVKKAydinlatmaMetni.pdf">KVKK Aydınlatma Metni</a></li>
+
+                   <li><a href="/SiteCollectionDocuments/KGMdocuments/MerkezBirimler/Kurumsal/EnerjiPolitikasi.pdf">Enerji Politikası</a></li>
+
+                 		
+                </ul>
+			  </li>
+              <li><a tabindex="-1" href="/Sayfalar/KGM/SiteTr/Otoyollar/Otoyollar.aspx">OTOYOLLAR</a>
+                <ul class="dropdown">
+                          <li><a href="/Sayfalar/KGM/SiteTr/Otoyollar/Otoyollar.aspx">Otoyollar Haritası</a></li>
+						  <li><a target="_blank" href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=16136&MevzuatTur=7&MevzuatTertip=5">Karayollarında Geçiş Ücretlerinin Belirlenmesi ve Uygulanmasına Dair Yönetmelik</a></li>
+                        <!--  <li><a href="/Sayfalar/KGM/SiteTr/Otoyollar/OGS.aspx">OGS</a></li> -->
+                          <li><a href="/Sayfalar/KGM/SiteTr/Otoyollar/HGS.aspx">HGS</a></li>
+                          <li><a href="/Sayfalar/KGM/SiteTr/Otoyollar/YabanciPlakaliAraclar.aspx" target="_blank">Yabancı Plakalı Araçlar</a></li>                            
+                          <li><a href="/Sayfalar/KGM/SiteTr/Otoyollar/UcretlerAna.aspx">Otoyol ve Köprü Geçiş Ücretleri</a></li>               
+                          <li><a href="/Sayfalar/KGM/SiteTr/Otoyollar/KisitlamalarKanunlar.aspx">Kısıtlamalar ve Yasaklamalar</a></li>
+                          <li><a target="_blank" href="https://webihlaltakip.kgm.gov.tr/WebIhlalSorgulama/Sayfalar/Sorgulama.aspx?lang=tr">İhlalli Geçiş Sorgulama ve Ödeme</a></li>						  
+						  <li><a target="_blank" href="https://uygulama.kgm.gov.tr/ihlal/Sayfalar/otoyolAnket.aspx">Otoyol Hizmet Tesisleri Kullanıcı Dilek ve Şikayet Bildirim Formu</a></li>
+                </ul>
+              </li>
+              <li><a tabindex="-1" href="/Sayfalar/KGM/SiteTr/Trafik/KaraNoktalar.aspx">TRAFİK</a>
+                <ul class="dropdown">
+                  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/KaraNoktalar.aspx">Trafik Kaza Kara Noktaları</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/TrafikKazalariOzeti.aspx">Trafik Kazalarına Ait Özet Bilgiler</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/TrafikveUlasimBilgileri.aspx">Trafik ve Ulaşım Bilgileri</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/TrafikHacimHaritasi.aspx">Trafik Hacim Haritaları</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/TehlikeUyariIsaretleri.aspx">Trafik İşaretleri</a></li>
+                  <li><a target="_blank" href="/Sayfalar/KGM/SiteTr/Trafik/TrafikModernDonelKavsak.aspx">Modern Dönel Kavşak Kullanımı</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/TrafikKacisRampalari.aspx">Kaçış Rampaları</a></li>
+				  <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/Trafik/IsaretlerElKitabi/KarayoluTrafikIsaretlemeStandartlari1.pdf">Karayolu Trafik İşaretleme Standartları 1</a></li>
+				  <li><a  href="/Sayfalar/KGM/SiteTr/Trafik/TrafikIsaret2025.aspx">Trafik İşaretleme Standartlarında Yapılan Değişiklikler İle Standart Kapsamına Alınan ve Kodu Değişen Trafik İşaret Levhaları</a></li>
+				   <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/Trafik/IsaretlerElKitabi/KarayoluTrafikIsaretlemeStandartlari2.pdf">Karayolu Trafik İşaretleme Standartları 2</a></li>
+				  <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/Trafik/erismekontrollukarayollarindatrafikisaretlemestandartlari.pdf">Erişme Kontrollü Karayollarında Trafik İşaretleme Standartları</a></li>
+				  <li><a target="_blank" href="https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Trafik/SarsmaBandi.aspx">Sarsma Bandı Uygulaması</a></li>
+				  <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/Trafik/IsaretlerElKitabi/2023YolyapimBakimveOnarimlardaTrfIsrStandratlari.pdf">Yol Yapım Bakım ve Onarımlarında Trafik İşaretleme Standartları</a></li>
+				<!--  <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/Trafik/2015Sehiriciyapimbakimonarimlardaisaretleme.pdf">Şehiriçi Yolların Yapım Bakım ve Onarımlarında Trafik İşaretleme Standartları</a></li> -->
+				 <li><a href="/Sayfalar/KGM/SiteTr/Trafik/KanunYonetmelikler.aspx">Kanun ve Yönetmelikler</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/Genelgeler.aspx">Genelgeler</a></li>
+				  <!-- <li><a href="/Sayfalar/KGM/SiteTr/Trafik/DurmaIntikal.aspx">Durma ve İntikal Süreleri</a></li> -->
+				  <li><a target="_blank" href="/SiteCollectionDocuments/KGMdocuments/Trafik/UzmanRaporlari/KITGIUzmanRaporlari.pdf">Karayolu İyileştirme ve Trafik Güvenliği Projesi Uzman Raporları</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/HizSinirlari.aspx">Hız Sınırları</a></li>
+                  <li><a href="https://ozelyuk.kgm.gov.tr/OzelYukWEB/Sayfalar/Genel/GirisEdevlet.aspx">Özel Yük Taşıma İzin Belgesi</a></li>                                            
+				  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/HarcTutarlari.aspx">Harç Tutarları</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Trafik/TrafikGuvenligiEylemPlani.aspx">Trafik Güvenliği Eylem Planı Görselleri </a></li>
+
+                </ul>
+              </li>
+              <li><a tabindex="-1" href="/Sayfalar/KGM/SiteTr/Istatistikler/DevletveIlYolEnvanteri.aspx">İSTATİSTİKLER</a>
+			    <ul class="dropdown">
+                  <li><a href="/Sayfalar/KGM/SiteTr/Istatistikler/DevletveIlYolEnvanteri.aspx">Devlet ve İl Yolları Envanteri</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Istatistikler/OtoyolEnvanterBilgisi.aspx">Otoyol Envanter Bilgisi</a></li>
+                  <li><a href="/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx">Köprü ve Tünel Bilgileri</a></li>
+                                                 
+                  <li><a href="/Sayfalar/KGM/SiteTr/Istatistikler/ButceOdenekHarcamaGelir.aspx">Bütçe Ödenekleri-Harcamaları ve Gelirleri</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Istatistikler/YapimBakimIsletmeMaliyet.aspx">Bakım-İşletme Maliyet Bilgileri</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Istatistikler/TrafikveUlasim.aspx">Trafik ve Ulaşım Bilgileri</a></li>
+				  <li><a href="/SiteCollectionDocuments/KGMdocuments/Istatistikler/SeyirveTasimalar/SeyirVeTasimalar.pdf" target="_blank">Karayolları Üzerindeki Yolcu ve Yük Taşımaları</a></li>
+				  <li><a target="_blank" href="https://www.tuik.gov.tr/Kurumsal/Veri_Takvimi" target="_blank">Ulusal Veri Yayınlama Takvimi</a></li>
+				  <li><a href="/Sayfalar/KGM/SiteTr/Istatistikler/SendikaBilgileri1.aspx">Karayolları Genel Müdürlüğü Memur Sendika Bilgileri</a></li>
+                </ul>
+              </li>
+              <li><a tabindex="-1" href="/Sayfalar/KGM/SiteTr/Root/Iletisim.aspx">İLETİŞİM</a></li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Start main-content -->
+  <div class="main-content">
+  <!-- İçerik -->
+       <section>
+      <div class="container pb-0 pt-10 mb-40">
+              <div id="DeltaPlaceHolderMain">
+	
+		<a id="mainContent" name="mainContent" tabindex="-1"></a>
+		
+
+
+
+
+<!-- İçerik -->
+ 
+       
+          
+          <div class="row">
+          
+            <div class="ms-webpart-zone ms-fullWidth">
+		<div id="MSOZoneCell_WebPartctl00_ctl67_g_d5dd1b3b_b109_45cb_ab85_317b47d963f3" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical-inline-table ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="d5dd1b3b-b109-45cb-ab85-317b47d963f3" HasPers="false" id="WebPartctl00_ctl67_g_d5dd1b3b_b109_45cb_ab85_317b47d963f3" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl67_g_d5dd1b3b_b109_45cb_ab85_317b47d963f3">
+					
+
+<div class="col-xs-12 col-sm-12 col-md-12 mb-10 sliderd" id="sliderd">
+    <ul class="bxsliderd">
+        <li><a  href='https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2117' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/905/web.jpg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/905/mobil.jpg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/905/web.jpg' title='KARAYOLLARI MÜNFERİT BÖLGE MÜDÜRLERİ TOPLANTISI SİVAS’TA YAPILDI' alt='KARAYOLLARI MÜNFERİT BÖLGE MÜDÜRLERİ TOPLANTISI SİVAS’TA YAPILDI' /></picture></a></li><li><a  href='https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2112' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/904/web.jpeg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/904/mobil.jpeg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/904/web.jpeg' title='ŞANLIURFA’DA İKİ ÖNEMLİ KARAYOLU PROJESİ HİZMETE AÇILDI' alt='ŞANLIURFA’DA İKİ ÖNEMLİ KARAYOLU PROJESİ HİZMETE AÇILDI' /></picture></a></li><li><a  href='https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2108' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/903/web.jpeg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/903/mobil.jpeg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/903/web.jpeg' title='SİİRT-PERVARİ YOLUNDA ÇALIŞMALAR HIZLA SÜRÜYOR' alt='SİİRT-PERVARİ YOLUNDA ÇALIŞMALAR HIZLA SÜRÜYOR' /></picture></a></li><li><a  href='https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2107' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/901/web.jpeg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/901/mobil.jpeg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/901/web.jpeg' title='KGM HEYETİ JAPONYA`DA TEMASLARINI SÜRDÜRDÜ' alt='KGM HEYETİ JAPONYA`DA TEMASLARINI SÜRDÜRDÜ' /></picture></a></li><li><a  href='https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2106' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/902/Web.jpg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/902/Mobil.jpg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/902/Web.jpg' title='VAN`DA KARAYOLLARI YERLEŞKESİNE EĞİTİM YUVASI' alt='VAN`DA KARAYOLLARI YERLEŞKESİNE EĞİTİM YUVASI' /></picture></a></li><li><a  href='https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2104' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/899/web.jpeg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/899/mobil.jpeg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/899/web.jpeg' title='KGM HEYETİ JAPONYA’DA TEKNİK İNCELEMELERDE BULUNDU' alt='KGM HEYETİ JAPONYA’DA TEKNİK İNCELEMELERDE BULUNDU' /></picture></a></li><li><a  href='https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2103' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/898/web.jpg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/898/mobil.jpg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/898/web.jpg' title='KGM, KÜRESEL ALTYAPI İŞ BİRLİĞİ KONFERANSI GICC 2026’YA KATILDI' alt='KGM, KÜRESEL ALTYAPI İŞ BİRLİĞİ KONFERANSI GICC 2026’YA KATILDI' /></picture></a></li><li><a  href='https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2102' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/897/web.jpeg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/897/mobil.jpeg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/897/web.jpeg' title='SAMSUN ŞEHİR HASTANESİ VE BAĞLANTI YOLU HİZMETE AÇILDI' alt='SAMSUN ŞEHİR HASTANESİ VE BAĞLANTI YOLU HİZMETE AÇILDI' /></picture></a></li><li><a target='_blank' href='https://kgmanket.kgm.gov.tr/' ><picture><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/746/web.jpg' media='(min - width:768px)'><source srcset='https://www.kgm.gov.tr/Lists/Slider/Attachments/746/mobil.jpg' media='(max-width:767px)'><img src='https://www.kgm.gov.tr/Lists/Slider/Attachments/746/web.jpg' title='' alt='' /></picture></a></li>
+     </ul>
+</div>
+
+				</div><div class="ms-clear"></div></div>
+			</div>
+		</div>
+	</div>
+          
+            <!--<div class="col-xs-12 col-sm-12 col-md-12 mb-10 sliderd" id="sliderd">
+	              <ul class="bxsliderd">
+	              				<li>
+                                 <a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=598">
+                                    <img src="/SiteAssets/images/duyurular/0001.png" title="1915 ÇANAKKALE KÖPRÜSÜ'NÜN ASYA KULE KESONLARI BATIRILDI" alt="1915 ÇANAKKALE KÖPRÜSÜ'NÜN ASYA KULE KESONLARI BATIRILDI" />
+                                 </a>
+                                </li>
+	              				<!--<li>
+                                 <a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=597">
+                                    <img src="/SiteAssets/images/duyurular/001.png" title="GAMBİYA HEYETİ GENEL MÜDÜRLÜĞÜMÜZÜ ZİYARET ETMİŞTİR" alt="GAMBİYA HEYETİ GENEL MÜDÜRLÜĞÜMÜZÜ ZİYARET ETMİŞTİR" />
+                                 </a>
+                              </li>
+	              				<li>
+                                 <a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=595">
+                                    <img src="/SiteAssets/images/duyurular/01.png" title="KARAYOLLARI VE HARİTA GENEL MÜDÜRLÜĞÜ ARASINDA PROTOKOL" alt="KARAYOLLARI VE HARİTA GENEL MÜDÜRLÜĞÜ ARASINDA PROTOKOL" />
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=594">
+                                    <img src="/SiteAssets/images/duyurular/02.png" title="BAKAN TURHAN BAKANLIK YÖNETİCİLERİ İLE İFTARDA BULUŞTU" alt="BAKAN TURHAN BAKANLIK YÖNETİCİLERİ İLE İFTARDA BULUŞTU" />
+                                 </a>
+                              </li>
+                              <li>
+                                    <a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=593">
+                                 <img src="/SiteAssets/images/duyurular/03.png" title="BAKAN TURHAN İFTARDA KARAYOLLARI AİLESİ İLE BİR ARAYA GELDİ" alt="BAKAN TURHAN İFTARDA KARAYOLLARI AİLESİ İLE BİR ARAYA GELDİ" />
+                                    </a>
+                              </li>
+                              <li>
+                                 <a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=590">
+                                    <img src="/SiteAssets/images/duyurular/04.png" title="18. TOPLU İŞ SÖZLEŞMESİ GÖRÜŞMELERİ BAŞLADI" alt="18. TOPLU İŞ SÖZLEŞMESİ GÖRÜŞMELERİ BAŞLADI" />
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=589">
+                                    <img src="/SiteAssets/images/duyurular/05.png" title="YOLLAR TÜRK MİLLİ KOMİTESİ'NİN 29. OLAĞAN GENEL KURULU YAPILDI" alt="YOLLAR TÜRK MİLLİ KOMİTESİ'NİN 29. OLAĞAN GENEL KURULU YAPILDI" />
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=588">
+                                    <img src="/SiteAssets/images/duyurular/06.png" title="KARAYOLLARI VAKFI'NIN 32. OLAĞAN GENEL KURULU YAPILDI" alt="KARAYOLLARI VAKFI'NIN 32. OLAĞAN GENEL KURULU YAPILDI" />
+                                 </a>
+                              </li>     
+	              <!-- <li><a href="/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=533"><img src="/SiteAssets/images/duyurular/ucretsiz.jpg" title="" alt="" /></a></li>                    
+	              <!--<li><a href="http://uygulama2.kgm.gov.tr/Anket/"><img src="/SiteAssets/images/duyurular/trafikguvenligi.jpg" title="" alt="" /></a></li>                          
+			 	</ul>
+            </div>-->
+           </div>
+            <div class="row">
+            	<div class="col-sm-12 col-md-8">
+            		<div class="col-xs-12 col-sm-6 col-md-6 pt-0 p-5 mb-0">
+                              <h4 class="text-uppercase mt-0 mb-0">BAKANIMIZ</h4>
+                              <div class="line-bottom mb-10"></div>
+                              <div class="yonetim media p-5 mt-0 mb-0">
+                                    <div class="card">
+                                          <a href="/Sayfalar/KGM/SiteTr/Root/UlastirmaBakaniOzgecmis2.aspx" class="">
+											<img class="card-img-top" src="/SiteAssets/images/abdulkadiruraloglu2.jpg" alt="Abdulkadir URALOĞLU">
+										  </a>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="card-body sm-text-center">
+                                            <h5 class="card-title mb-0">
+											ABDULKADİR URALOĞLU</h5>
+                                            <p class="m-0">Ulaştırma ve Altyapı 
+											Bakanı</p>
+                                             <p class="m-0">
+                                                <a href="/Sayfalar/KGM/SiteTr/Root/UlastirmaBakaniOzgecmis2.aspx" class="">
+												Özgeçmiş</a>
+                                             </p>
+                                          </div>
+                                        </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-6 col-md-6 pt-0 p-5 mb-0">
+                              <h4 class="text-uppercase mt-0 mb-0">GENEL 
+								MÜDÜRÜMÜZ</h4>
+                              <div class="line-bottom mb-10"></div>
+                              <div class="yonetim media p-5 mt-0 mb-0">
+                                    <div class="card">
+                                          <a href="/Sayfalar/KGM/SiteTr/Kurumsal/GenelMudur1.aspx" class="">
+											<img class="card-img-top" src="/SiteAssets/images/ahmetgulsen1.jpg" alt="Ahmet GÜLŞEN">
+										  </a>
+                                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="card-body sm-text-center">
+                                            <h5 class="card-title mb-0">
+											AHMET GÜLŞEN</h5>
+                                            <p class="m-0">Karayolları Genel 
+											Müdürü</p>
+                                             <p class="m-0">
+                                                <a href="/Sayfalar/KGM/SiteTr/Kurumsal/GenelMudur1.aspx" class="">
+												Özgeçmiş</a>
+                                             </p>
+                                          </div>
+                                        </div>
+                              </div>
+                           </div>  
+                           <div class="clearfix mb-15"></div> 
+                           <div class="col-md-3 col-sm-3 col-xs-6 pl-0 pt-5">
+				    			<a href="tel:123"><img src="/SiteAssets/images/udh_cagrimerkezi_n.png" alt="Ulaştırma ve Altyapı Bakanlığı Çağrı Merkezi"></a>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-6 pl-0 pt-5">
+				    			<a href="tel:159"><img src="/SiteAssets/images/yol_danisma_n.png" alt="Yol Danışma - Alo 159"></a>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-6 pl-0 pt-5">
+				    			<a href="tel:08504606060"><img src="/SiteAssets/images/ogs_hgs_danisma_n.png" alt="HGS Danışma Hattı"></a>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-6 pl-0 pt-5">
+				    			<a href="tel:03124499199"><img src="/SiteAssets/images/kgm_yol_danisma_n.png" alt="Yol Danışma"></a>
+							</div>
+							<div class="clearfix"></div>
+							<div class="col-md-12 pl-0 pr-0 pt-0 sidebar">
+					             <h4 class="text-uppercase mb-0 mt-20">HIZLI 
+									MENÜ</h4>
+					            <div class="line-bottom mb-10"></div>
+					            <div class="col-md-4 col-sm-4 col-xs-12 sidebar-widget pl-0 pl-sm-5">
+					           <ul id="hizli-menu-renk" class="list angle-double-right">
+					           
+					           	      <li><a href="https://kgmanket.kgm.gov.tr" target="_blank">
+										Ayın Konusu Anketi</a></li>
+					                <!--  <li><a href="http://yol.kgm.gov.tr/karmucadelesi" target="_blank">
+										Kapalı Yollar (Kar-Tipi)</a></li> -->
+								      <li><a href="/Sayfalar/KGM/SiteTr/YolDanisma/CalismaYapilanYollar.aspx">
+										Yol Durumu</a></li>       	
+									  <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarTasinmazlar/Calismalar.aspx">
+										Kamulaştırmada İşlem Adımları</a></li> 
+					               <!--<li><a href="/Sayfalar/KGM/SiteTr/Root/ozelyuk.aspx">
+										Özel Yük Taşıma/Özel İzin Belgesi</a></li>-->
+									  <li><a href="https://ozelyuk.kgm.gov.tr/OzelYukWEB/Sayfalar/Genel/GirisEdevlet.aspx">
+										Özel Yük Taşıma/Özel İzin Belgesi</a></li>
+									  <li><a href="/Sayfalar/KGM/SiteTr/Otoyollar/Otoyollar.aspx">
+										Otoyollar - HGS</a></li>	
+									  <li><a target="_blank" href="https://webihlaltakip.kgm.gov.tr/WebIhlalSorgulama/Sayfalar/Sorgulama.aspx?lang=tr">
+										İhlalli Geçiş Sorgulama ve Ödeme</a></li>
+								      <!--<li><a href="/Sayfalar/KGM/SiteTr/YolDanisma/GuzergahAnaliziLanding.aspx">
+										Güzergah Analizi</a></li>	
+									  <!--<li><a href="/Sayfalar/KGM/SiteTr/Root/Uzakliklar.aspx">
+										Mesafeler ve Haritalar</a></li>	 
+									  <li><a href="/Sayfalar/KGM/SiteTr/Projeler/Projeler-BolunmusYol.aspx">
+										Önemli ve Global Projeler</a></li>-->      
+									  <li><a href="/Sayfalar/KGM/SiteTr/Projeler/Projeler-BolunmusYol.aspx">
+										Önemli ve Global Projeler</a></li>	
+									   <li><a target="_blank" href="https://argebd.kgm.gov.tr/Account/LoginExt">
+										Betonarme Duvar Hesap Yazılımı 
+								         </a></li>
+								       <li><a href="/Sayfalar/KGM/SiteTr/Root/SSS.aspx">
+										Sıkça Sorulan Sorular</a></li>
+					       
+       
+					             </ul>
+					                 </div>
+					            <div class="col-md-4 col-sm-4 col-xs-12 sidebar-widget pl-sm-5">
+					            <ul id="hizli-menu-renk" class="list angle-double-right">
+									  <!--<li><a href="http://yol.kgm.gov.tr/karmucadelesi"> </li>-->	  
+									  			  
+									  <li><a href="https://vatandas.kgm.gov.tr/Auction" target="_blank">
+										İhale İlanları</a></li>
+										<li><a target="_blank" href="https://argeweb.kgm.gov.tr/ArgeWeb">
+										Deney Başvurusu/Teknik Yayınlar
+								         </a></li>													  
+									  <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarTeknikArastirma/ARGELaboratuvarHizmetleri.aspx">
+										Ar-Ge ve Laboratuvar Hizmetleri</a></li>
+									<!--  <li><a href="https://argeweb.kgm.gov.tr/ArgeWeb" target="_blank" >
+										Deney Başvuruları/TeknikYayınlar</a></li>-->
+								      <li><a href="/Sayfalar/KGM/SiteTr/Trafik/TehlikeUyariIsaretleri.aspx">
+										Yeni Standart Trafik İşaretleri</a></li>
+									  <!--<li><a href="/Sayfalar/KGM/SiteTr/Trafik/TrafikModernDonelKavsak.aspx" target="_blank">
+										Modern Dönel Kavşak</a></li>-->
+									  <li><a href="/Sayfalar/KGM/SiteTr/Iller/IllerEski.aspx">
+										İl Yatırımları</a></li>
+									  <li><a href="/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarStratejiGelistirme/ABCalismalari.aspx">
+										Avrupa Birliği(AB) Çalışmaları</a></li>
+									  <li><a href="/Sayfalar/KGM/SiteTr/Root/BilgiEdinme.aspx">
+										Bilgi Edinme</a></li>
+									  <!--<li><a href="/Sayfalar/KGM/SiteTr/Root/SikayetGeriBildirim.aspx">
+										Şikayet Bildirimi</a></li>		-->
+									  <li><a href="/SiteCollectionDocuments/KGMdocuments/MerkezBirimler/ProgramIzlemeDairesiBaskanligi/2026YiliBirimFiyatListesi.pdf" target="_blank" >
+										KGM 2026 Birim Fiyat Listesi</a></li>
+										<li><a href="https://www.mgm.gov.tr/tahmin/khts.aspx" target="_blank">
+										Meteoroloji Genel Müdürlüğü Karayolları 
+										Hava Tahmin Sistemi </a></li>
+										
+																				  
+							    </ul>
+									</div>
+					            <div class="col-md-4 col-sm-4 col-xs-12 sidebar-widget pl-sm-5">
+					            <ul id="hizli-menu-renk" class="list angle-double-right">
+					                   
+									  <li><a href="/Sayfalar/KGM/SiteTr/Root/BasindaKGM.aspx">
+										Basında KGM </a></li>
+									  <li><a href="http://www.turkiye.gov.tr/kgm-ebys" target="_blank">
+										Elektronik Belge Sorgulama</a></li>
+								   	  <li><a href="/Sayfalar/KGM/SiteTr/Root/KamuHizmetStandartlari.aspx">
+										Kamu Hizmet Standartları</a></li>
+									  <li><a href="/Sayfalar/KGM/SiteTr/TemelMaliTablolar/TemelMaliTablolar.aspx">
+										Temel Mali Tablolar</a></li>
+									  <li><a href="/Sayfalar/KGM/SiteTr/Yayinlar/Anket.aspx" >
+										Anket Sonuçları</a></li>
+									  <li><a href="http://www.ytmk.org.tr/" target="_blank" >
+										Yollar Türk Milli Komitesi</a></li>
+									  <li><a href="/Sayfalar/KGM/SiteTr/Root/GüvenliInternetKullanımı.aspx" target="_blank" >
+										Güvenli İnternet Kullanımı</a></li>
+									  <li><a href="https://www.btkakademi.gov.tr/portal/catalog?categoryId=2002" target="_blank" >
+										BTK Akademi &quot;Karayolu Mühendisliği 
+										Eğitimi&quot;</a></li>
+										<!--<li><a href="/Sayfalar/KGM/SiteTr/Kurumsal/KamuIcKontrolStandartlari.aspx" target="_blank" >
+										Kamu İç Kontrol Standartları</a></li>-->
+										
+
+										
+
+								      <!--  <li><a href="/Sayfalar/KGM/SiteTr/Galeri/Galeri.aspx" >
+										Galeri</a></li>-->								  
+									  <!--<li><a href="/Sayfalar/KGM/SiteTr/Root/Iletisim.aspx">
+									    İletişim</a></li>-->		
+					                </ul>
+					            </div>
+					         </div>
+							<div class="clearfix"></div>   
+            	</div>
+            	
+            	<div class="col-sm-12 col-md-4">
+					<div class="sidebar mt-sm-30"> 
+			            <h4 class="text-uppercase mt-0 mb-0 inline">HIZLI ERİŞİM</h4>
+			            <div class="language pull-right pt-5">
+			            <span class="pr-15"><a href="/Sayfalar/KGM/SiteEng/Root/MainPageEnglish.aspx">
+						English</a> </span> 
+			              <a href="/Sayfalar/KGM/SiteTr/Root/rss.aspx"><img src="/SiteAssets/images/rss_icon.png" alt="RSS"/></a> 
+			         	</div>
+            			<div class="line-bottom mb-10"></div>
+             			<div class="sidebar-widget mb-20">
+                			<div class="search-form">
+                    			<div class="input-group">
+                      				<div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+		<div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ1" width="100%" class="" OnlyForMePart="true" allowMinimize="false" allowRemove="false" allowDelete="false" style="" ><div id="SRSB"> <div id="ctl00_PlaceHolderMainBase_g_fc6dcc1f_65f5_435c_bbf9_b14aec079c9a">
+			<table class="ms-sbtable ms-sbtable-ex" cellpadding="0" cellspacing="0">
+				<tr class="ms-sbrow">
+					<td class="ms-sbcell"><input name="ctl00$PlaceHolderMainBase$g_fc6dcc1f_65f5_435c_bbf9_b14aec079c9a$S4C87BAB9_InputKeywords" type="text" maxlength="200" id="ctl00_PlaceHolderMainBase_g_fc6dcc1f_65f5_435c_bbf9_b14aec079c9a_S4C87BAB9_InputKeywords" accesskey="S" title="Ara..." class="ms-sbplain" alt="Ara..." onkeypress="javascript: return S4C87BAB9_OSBEK(event);" style="width:170px;" /></td><td class="ms-sbgo ms-sbcell"><a id="ctl00_PlaceHolderMainBase_g_fc6dcc1f_65f5_435c_bbf9_b14aec079c9a_S4C87BAB9_go" title="Ara" href="javascript:S4C87BAB9_Submit()"><img title="Ara" onmouseover="this.src=&#39;\u002fSiteAssets\u002fimages\u002fsearch_button.png&#39;" onmouseout="this.src=&#39;\u002fSiteAssets\u002fimages\u002fsearch_button.png&#39;" class="srch-gosearchimg" alt="Ara" src="/SiteAssets/images/search_button.png" /></a></td><td class="ms-sbLastcell"></td>
+				</tr>
+			</table>
+		</div></div><div class="ms-clear"></div></div>
+	</div>					
+									</div>
+								</div>
+              				</div>
+				            <div class="sidebar-widget blink anketbg mb-0">
+								<a class="kirmizi mediabtn" href="https://yol.kgm.gov.tr/kapaliyollar"><i class="fa fa-warning"></i>
+								KAPALI YOLLAR</a> 					                 
+				            </div>
+						   <div class="sidebar-widget ozelyukbg mb-0 mt-5">
+								<a class="turuncu mediabtn" href="https://ozelyuk.kgm.gov.tr/OzelYukWEB/Sayfalar/Genel/GirisEdevlet.aspx"target="_blank" ><i class="fa fa-truck"></i>
+								ÖZEL YÜK TAŞIMA / ÖZEL İZİN BELGESİ</a> 	               
+			              </div>
+			              <div class="sidebar-widget ozelyukbg mb-0 mt-5">
+								<a class="turuncu mediabtn" href="https://argeweb.kgm.gov.tr/ArgeWeb" target="_blank"><i class="fa fa-flask"></i>
+								DENEY BAŞVURUSU / TEKNİK YAYINLAR</a> 	               
+			              </div>
+			           <!--   <div class="sidebar-widget pr-5 pt-5 pull-left widget">
+			                <a class="gri widgetbtn" href="https://yol.kgm.gov.tr/karmucadelesi" ><i class="fa fa-warning text-danger" style="color:red"></i><span class="text-danger" style="color:red">
+								KARLA MÜCADELE</span>
+								</a> 					                 
+			              </div> -->
+			               <div class="sidebar-widget pr-5 pt-5 pull-left widget">
+			                <a class="gri widgetbtn" href="/Sayfalar/KGM/SiteTr/Root/Uzakliklar.aspx" ><i class="fa fa-map-marker" ></i><span>
+								MESAFELER &amp; HARİTA</span>
+								</a> 					                 
+			              </div>                     
+                       <!--  <div class="sidebar-widget pr-5 pt-5 pull-left widget">
+                             <a class="gri widgetbtn" href="/Sayfalar/KGM/SiteTr/YolDanisma/CalismaYapilanYollar.aspx"><i class="fa fa-warning"></i>
+		                		YOL DURUMU</a> 					                 
+                         </div> -->             
+                         <div class="sidebar-widget pt-5 pull-left widget">
+				              <a class="gri widgetbtn" href="/Sayfalar/KGM/SiteTr/YolDanisma/GuzergahAnaliziLanding.aspx"><i class="fa fa-map-signs"></i>
+				              GÜZERGAH ANALİZİ</a> 					                 
+                         </div>
+              
+              
+              <!--İki satır olan menüler için aktif edilecek-->
+                          
+            <!--  <div class="sidebar-widget pr-5 pt-5 pull-left widget">
+                <a class="kirmizi widgetbtn" href="/Sayfalar/KGM/SiteTr/YolDanisma/CalismaYapilanYollar.aspx"  style="line-height:1.1"><i class="fa fa-warning"></i>
+				YOL DURUMU</a> 					                 
+              </div>
+              <div class="sidebar-widget pt-5 pull-left widget">
+				<a class="darkgrey widgetbtn" href="/Sayfalar/KGM/SiteTr/YolDanisma/GuzergahAnaliziLanding.aspx" style="line-height:1.1"><i class="fa fa-map-signs"></i>
+				GÜZERGAH ANALİZİ</a> 					                 
+              </div> -->
+              
+              
+                <div class="sidebar-widget pr-5 pt-5 pull-left widget">
+                <a class="gri widgetbtn" href="/Sayfalar/KGM/SiteTr/Root/SikayetGeriBildirim.aspx"><i class="fa fa-pen"></i>
+				ŞİKAYET BİLDİRİMİ</a> 					                 
+              </div>
+              <div class="sidebar-widget pt-5 pull-left widget">
+				<a class="gri widgetbtn" target="_blank" href="https://webihlaltakip.kgm.gov.tr/WebIhlalSorgulama/Sayfalar/Sorgulama.aspx?lang=tr"><i class="fa fa-road"></i>
+				<span >İHLALLİ GEÇİŞ</span></a> 					                 
+              </div>
+                <div class="sidebar-widget pr-5 pt-5 pull-left widget">
+				<a class="gri widgetbtn" href="https://vatandas.kgm.gov.tr/Auction" target="_blank"><i class="fa fa-bell"></i>
+				İHALE İLANLARI</a> 					                 
+              </div>
+              <div class="sidebar-widget pt-5 pull-left widget">
+				<a class="gri widgetbtn" href="https://kgmanket.kgm.gov.tr/"><i class="fa fa-poll"></i>
+				KULLANICI ANKETİ</a> 					                 
+              </div>
+              <div class="sidebar-widget pr-5 pt-5 pull-left widget">
+				<a class="turuncu mediabtn" href="/Sayfalar/KGM/SiteTr/Galeri/Galeri.aspx"><i class="fa fa-camera"></i>
+				GALERİ</a> 					                 
+              </div>
+              <div class="sidebar-widget pt-5 pull-left widget">
+				<a class="turuncu mediabtn" href="/Sayfalar/KGM/SiteTr/Galeri/Video/Video-Galerisi.aspx" style="height:34px;"><i class="fa fa-video-camera"></i>
+				<div style="font-size:12px; margin-top:2px;">KAMU SPOTU-VİDEOLAR</div></a> 					                 
+              </div>
+              
+             <div class="clearfix"></div>
+             <div class="col-md-12 p-0 mt-10">
+	            <h4 class="text-uppercase mt-10 mb-0">DUYURULAR</h4>
+	            <div class="line-bottom mb-10"></div>
+	            <div id="sliderhaber">
+	               <div class="ms-webpart-zone ms-fullWidth">
+		<div id="MSOZoneCell_WebPartctl00_ctl67_g_74b8c441_f9ac_45bd_af17_908d7210cf86" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical-inline-table ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="74b8c441-f9ac-45bd-af17-908d7210cf86" HasPers="false" id="WebPartctl00_ctl67_g_74b8c441_f9ac_45bd_af17_908d7210cf86" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl67_g_74b8c441_f9ac_45bd_af17_908d7210cf86">
+					<div class='bxslider bx-nav-top'><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>13</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2120'> 2828 Sayılı Kanun Kapsamında 07/10/2026 Tarihli Yerleştirmelere İlişkin Duyuru! </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>12</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2119'> Erzurum İlindeki İş Yerlerimize 1 Engelli İşçi Alınacaktır </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>12</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2118'> Ağrı İlindeki İş Yerlerimize 1 Eski Hükümlü İşçi Alınacaktır </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>9</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2117'> Karayolları Münferit Bölge Müdürleri Toplantısı Sivas’ta Yapıldı </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>8</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2116'> Karayolları Genel Müdürlüğü 50 İşçi Alımına İlişkin Noter Kurası Duyurusu </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>8</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2115'> Elazığ İli Eski Hükümlü İşçi Sözlü Sınava Katılmaya Hak Kazananlar </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>6</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2114'> 2026 Yılı Ekim Ayı Rayiç Fiyatları </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>6</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2113'> Sivas İli Engelli İşçi Sözlü Sınava Katılmaya Hak Kazananlar </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>3</li><li class='text-black font-14 text-center'>Ekim</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2112'> Şanlıurfa’da İki Önemli Karayolu Projesi Hizmete Açıldı </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>24</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2109'> 3713 Sayılı Kanun Kapsamında 19.09.2026 Tarihli Yerleştirme Sonuçlarına İlişkin Duyuru </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>23</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2108'> Siirt-Pervari Yolunda Çalışmalar Hızla Sürüyor </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>21</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2105'> Karayolları Genel Müdürlüğüne Bağlı İşyerlerine 50 İşçi Personel Alımı Hk. </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>18</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2107'> KGM Heyeti Japonya'da Temaslarını Sürdürdü </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>18</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2106'> Van’da Karayolları Yerleşkesine Eğitim Yuvası </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>17</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2104'> KGM Heyeti Japonya’da Teknik İncelemelerde Bulundu </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>16</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2103'> KGM, Küresel Altyapı İş Birliği Konferansı GICC 2026’ya Katıldı </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>13</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2102'> Samsun Şehir Hastanesi ve Bağlantı Yolu Hizmete Açıldı </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>10</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2101'> Açıktan Personel Alımı Sınav Sonuçlarına İlişkin Duyuru ! </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>4</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2100'> Tarihi Gediz Köprüsü Restore Edilerek Yeniden Hizmete Sunuldu </a></h6></div></div></div></div><div class='duyurular media p-5 mt-0 mb-5'><div class='event media'><div class='media-left'><div class='duyurular-date pull-left'><ul> <li class='font-28 text-orange font-weight-700 text-center'>4</li><li class='text-black font-14 text-center'>Eylül</li></ul></div></div><div class='media-body'><div class='event-content pull-left'><h6 class='media-heading pl-sm-20'><a href='/Sayfalar/KGM/SiteTr/Duyurular/DuyuruDetay.aspx?Parameter=2099'> 2026 Yılı Eylül Ayı Rayiç Fiyatları </a></h6></div></div></div></div></div>
+				</div><div class="ms-clear"></div></div>
+			</div>
+		</div>
+	</div>
+				</div>
+	                        <div class="language pt-0">
+	           <a class="btn btn-block btn-default border-orange-1px p-5" href="/Sayfalar/KGM/SiteTr/Root/Duyurular.aspx">
+				Tüm Duyurular</a>
+	              </div>            	
+	            	</div>         
+	          </div>            
+          </div>
+</div>
+<!-- <menu class="ms-hide">
+		<ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/15/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute(&#39;helpLink&#39;), MenuWebPart.getAttribute(&#39;helpMode&#39;))" text="Yardım" type="option" style="display:none">
+
+		</ie:menuitem>
+	</menu> -->
+
+<a href=""><h4 class="text-uppercase mt-10 mb-0">PROJELER</h4></a>
+	            <div class="line-bottom mb-10"></div>
+				<div class=" projectsection">
+    <div class="container">
+        <div class="row col-xs-12 col-sm-12 col-md-12">
+            <div id="hot-post" class='hot-projectpost'>
+            
+            	<div  class='col-md-6 hot-projectpost-right'>
+                    <div class='projectpost projectpost-thumb'>
+                        <a class='projectpost-img project-homepage-first-img' href='/Sayfalar/KGM/SiteTr/Projeler/MegaProjeler.aspx'><img src='/SiteCollectionImages/KGMimages/Projeler/megaprojekapak.jpg' alt=' Mega Projeler ' style='height: 370px; width: 800px;'  ></a>
+                        <div class='projectpost-body'>
+                        <ul class='projectpost-meta'>
+                        <li><a href='/Sayfalar/KGM/SiteTr/Projeler/MegaProjeler.aspx' style="font-size:large">
+						Mega Projeler</a></li>
+                        </ul></div >
+                    </div>
+                </div>
+                
+                <div  class='col-md-3 hot-projectpost-right'>
+                    <div class='projectpost projectpost-thumb'>
+                        <a class='projectpost-img project-homepage-small-img' href='/Sayfalar/KGM/SiteTr/Projeler/KopruProjeleri.aspx'><img src='/SiteCollectionImages/KGMimages/Projeler/k%C3%B6pr%C3%BCprojekapak.png' alt=' Köprüler ' style='height: 180px; width: 100%;'  ></a>
+                        <div class='projectpost-body'>
+                        <ul class='projectpost-meta'>
+                        <li><a href='/Sayfalar/KGM/SiteTr/Projeler/KopruProjeleri.aspx' style="font-size:large">
+						Köprüler</a></li>
+                        </ul></div>
+                    </div>
+
+
+                    <div class='projectpost projectpost-thumb'>
+                        <a class='projectpost-img project-homepage-small-img' href='/Sayfalar/KGM/SiteTr/Projeler/TunelProjeleri.aspx'><img src='/SiteCollectionImages/KGMimages/Projeler/tunelprojekapak.jpg' alt=' Tüneller ' style='height: 180px; width: 100%;'  ></a>
+                        <div class='projectpost-body'>
+                        <ul class='projectpost-meta'>
+                        <li><a href='/Sayfalar/KGM/SiteTr/Projeler/TunelProjeleri.aspx' style="font-size:large">
+						Tüneller</a></li>
+                        </ul></div>                    
+                    </div>
+                </div>
+                
+                
+                <div class='col-md-3 hot-projectpost-right'>
+                <div class='projectpost projectpost-thumb'>
+                    <a class='projectpost-img project-homepage-small-img' href='/Sayfalar/KGM/SiteTr/Projeler/OtoyolProjeleri.aspx'><img src='/SiteCollectionImages/KGMimages/Projeler/otoyolprojekapak.jpg' alt=' Otoyollar ' style='height: 180px; width: 100%;'  ></a>
+                        <div class='projectpost-body'>
+                        <ul class='projectpost-meta'>
+                        <li><a href='/Sayfalar/KGM/SiteTr/Projeler/OtoyolProjeleri.aspx' style="font-size:large">
+						Otoyollar</a></li>
+                        </ul></div>
+                </div>
+
+                <div class='projectpost projectpost-thumb'>
+                    <a class='projectpost-img project-homepage-small-img' href='/Sayfalar/KGM/SiteTr/Projeler/BolunmusYolProjeleri.aspx'><img src='/SiteCollectionImages/KGMimages/Projeler/bolunmusyolprojekapak.JPG' alt=' Bolunmus Yollar ' style='height: 180px; width: 100%;'  ></a>
+                        <div class='projectpost-body'>
+                        <ul class='projectpost-meta'>
+                        <li><a href='/Sayfalar/KGM/SiteTr/Projeler/BolunmusYolProjeleri.aspx' style="font-size:large">
+						Bölünmüş Yollar</a></li>
+                        </ul></div>
+                </div>
+            </div>
+            
+            
+            </div>
+            </div>
+            </div>
+            </div>
+<br>
+            <a  target="_blank"  href="https://www.youtube.com/channel/UCnlvPYQCJHREoMZmg0mKZTQ/featured"><h4 class=" mt-10 mb-0">
+KGM YouTube</h4></a>
+<div class="line-bottom mb-10"></div>
+<div class=" projectsection">
+    <div class="container">
+<div class="row col-xs-12 col-sm-12 col-md-12">
+            <div id="hot-post" class='hot-projectpost'>
+<div class="ms-webpart-zone ms-fullWidth">
+		<div id="MSOZoneCell_WebPartctl00_ctl67_g_2ce5c96e_c128_4dfa_a9a9_0f61d971ee49" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical-inline-table ms-webpart-cell-vertical ms-fullWidth ">
+			<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+				<div WebPartID="2ce5c96e-c128-4dfa-a9a9-0f61d971ee49" HasPers="false" id="WebPartctl00_ctl67_g_2ce5c96e_c128_4dfa_a9a9_0f61d971ee49" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl67_g_2ce5c96e_c128_4dfa_a9a9_0f61d971ee49">
+					
+
+				</div><div class="ms-clear"></div></div>
+			</div><div class="ms-PartSpacingVertical"></div>
+		</div><div id="MSOZoneCell_WebPartctl00_ctl67_g_177deeb8_e94d_4f46_b671_b36faf7bccc8" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertic

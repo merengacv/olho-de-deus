@@ -1,0 +1,1114 @@
+{
+ "id": "uk-scotland",
+ "url": "https://trafficscotland.org/",
+ "requests": [
+  {
+   "u": "https://trafficscotland.org/",
+   "t": "document",
+   "s": 301,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/logo-white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/css/flatpickr.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/car.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/js/markercluster.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/css/stylenc.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/api/js?v=weekly&key=[CHAVE]&callback=initMap&libraries=places,geometry",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/route-32px.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/js/script.live.js?v=1.49",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/js/tsmap.live.js?v=2.01",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/js/flatpickr.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/closex-16px-black.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/route-32px-white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/layers-21px.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/prompt.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-campaign.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/closex.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-calendar.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/fonts/montserrat-bold.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/core/assets/vendor/jquery/jquery.min.js?v=3.7.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/udcookie.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/directions.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/map.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.zZZZhVqDDCw.L.W.O/am=QADA/d=0/rs=AN8SPfrXQhGDrY9gDk7kioTTjkwh79jveg/m=el_main_css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/openhand_8_8.cur",
+   "t": "image",
+   "s": 200,
+   "ct": "image/bmp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/infowindow.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/marker.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/sites/default/files/2026-06/TRISS%20support.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/sites/default/files/2024-11/Traffic%20Scotland%20Gritter%20Tracker.JPG",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/sites/default/files/2026-08/Image%20%2820%29.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/fonts/montserrat-regular.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/log.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.pt_BR.l6xwVzLBoBo.O/am=QADA/d=1/ed=1/rs=AN8SPfqgTcBq_qwoTiWqt0MfVPLViWSn_g/m=el_main",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/onion.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Google+Sans+Text:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=pt",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400,500,700&lang=pt",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/images/branding/product/2x/translate_24dp.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json+protobuf; charset=utf-8",
+   "m": "POST",
+   "post": "[[[49.531714141033675,-26.88864481941828],[64.15536307791028,17.92576321294552]],7,null,\"pt-BR\",0,\"m@799000000\",0,0,null,null,null,1,\"https://www.traffic.gov.scot/\",1,null,null,\"1CEAE110-77AC-4F41-BF54-5EC1FC127ACD\"]"
+  },
+  {
+   "u": "https://translate-pa.googleapis.com/v1/supportedLanguages?client=te&display_language=pt-BR&key=[CHAVE]&callback=callback",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/caret_right_white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsflow-pin.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/caret_down.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-incidents-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-cameras-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-bridges-green-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-police-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/ccdata.json?rqs=mbtbl1791943836696",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/tsis/incidents",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/tsis/telem",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i61!3i38!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i63!3i38!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i61!3i39!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i59!3i37!4i256!2m3!1e0!2sm!3i799500708!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i60!3i37!4i256!2m3!1e0!2sm!3i799565076!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i59!3i39!4i256!2m3!1e0!2sm!3i799563312!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i63!3i39!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i62!3i38!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/transparent.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i59!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i61!3i37!4i256!2m3!1e0!2sm!3i799565076!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i63!3i37!4i256!2m3!1e0!2sm!3i799565076!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i60!3i39!4i256!2m3!1e0!2sm!3i799565130!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i62!3i39!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i39!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i60!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i59!3i38!4i256!2m3!1e0!2sm!3i799500708!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i60!3i38!4i256!2m3!1e0!2sm!3i799564590!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i37!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i38!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i62!3i37!4i256!2m3!1e0!2sm!3i799565076!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i61!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i62!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i63!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i7!2i59!3i37!1m4!1m3!1i7!2i59!3i38!1m4!1m3!1i7!2i59!3i39!1m4!1m3!1i7!2i60!3i37!1m4!1m3!1i7!2i61!3i37!1m4!1m3!1i7!2i60!3i38!1m4!1m3!1i7!2i60!3i39!1m4!1m3!1i7!2i61!3i38!1m4!1m3!1i7!2i61!3i39!1m4!1m3!1i7!2i62!3i37!1m4!1m3!1i7!2i63!3i37!1m4!1m3!1i7!2i62!3i38!1m4!1m3!1i7!2i62!3i39!1m4!1m3!1i7!2i63!3i38!1m4!1m3!1i7!2i63!3i39!1m4!1m3!1i7!2i59!3i40!1m4!1m3!",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/map-marker.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/tsis/weather",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/poly.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/undo_poly.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://translate.googleapis.com/element/log?format=json&hasfast=true&authuser=0",
+   "t": "fetch",
+   "s": 200,
+   "ct": "text/plain; charset=utf-8",
+   "m": "POST",
+   "post": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�TQK\u00031\f�/y��ڦk{�Ȧ�\u000f⃯m\u0019e�m��n�M�����d�|\u0016C\b|�#_B�X˱�4ͯ��.\tu\u000bgDk�\u000e������{�\u0001�K\u000e\u001e-<v�z4\u0019�C;\u0003\u0004���Iq�|�yd\b\u000f�ݼ\u0000�*�.\u0019 �\u0018\u0005\b\u0007N�JM\u0015+I�\u0002\u0012��\u001e��\u001c���$C�0qa&�v�?\u001f\u001c�R1~rg��\u000f\u0017\u0001G\u0007�v�\u000en�TwB���\rU!�Z\u0014�����\u001es��F��\u0001Z\u0007˔V��`���ʴ\u000e�y���n[��.\u001d�`\u001dd��~��\r۸\b)v�^u)>h��,���e�L\u0018~Lp�B��P��\t2��� /P0�A\u0010(\u0004\u0013\u0014!\u0011S���\u00182�s�i\u001dھ\t��Z�E=i�0��n\u0012ۘbh�k=�\u0003|)uhzHľ��l����d��7��Ix�\u0005R\u0019F�\r�e&�\u0004\u0000\u0000"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "uk-scotland-1.txt",
+   "u": "https://www.traffic.gov.scot/",
+   "bytes": 203240,
+   "type": "document"
+  },
+  {
+   "file": "uk-scotland-2.txt",
+   "u": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+   "bytes": 3,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-scotland-3.txt",
+   "u": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+   "bytes": 99349,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-scotland-4.txt",
+   "u": "https://www.traffic.gov.scot/ccdata.json?rqs=mbtbl1791943836696",
+   "bytes": 14852,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-scotland-5.txt",
+   "u": "https://www.traffic.gov.scot/tsis/incidents",
+   "bytes": 57207,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-scotland-6.txt",
+   "u": "https://www.traffic.gov.scot/tsis/telem",
+   "bytes": 37,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-scotland-7.txt",
+   "u": "https://www.traffic.gov.scot/tsis/weather",
+   "bytes": 8178,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-scotland-8.txt",
+   "u": "https://translate.googleapis.com/element/log?format=json&hasfast=true&authuser=0",
+   "bytes": 131,
+   "type": "fetch"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://www.traffic.gov.scot/themes/ud/img/logo-white.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather-pin-ds.png",
+   "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather-pin-ds.png",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i61!3i38!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i63!3i38!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i61!3i39!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i59!3i37!4i256!2m3!1e0!2sm!3i799500708!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i60!3i37!4i256!2m3!1e0!2sm!3i799565076!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i59!3i39!4i256!2m3!1e0!2sm!3i799563312!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i62!3i38!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i63!3i39!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i59!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i61!3i37!4i256!2m3!1e0!2sm!3i799565076!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i63!3i37!4i256!2m3!1e0!2sm!3i799565076!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i60!3i39!4i256!2m3!1e0!2sm!3i799565130!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i39!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i60!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i59!3i38!4i256!2m3!1e0!2sm!3i799500708!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i60!3i38!4i256!2m3!1e0!2sm!3i799564590!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i37!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i38!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i62!3i37!4i256!2m3!1e0!2sm!3i799565076!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i62!3i39!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i61!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i62!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i63!3i40!4i256!2m3!1e0!2sm!3i799565184!3m18!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/transparent.png",
+   "https://maps.gstatic.com/mapfiles/undo_poly.png",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0z%22/%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12.06%209.06%204-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32m4.6-2.74%201.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0z%22/%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22m12.06%209.06%204-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32m4.6-2.74%201.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0z%22/%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22m12.06%209.06%204-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32m4.6-2.74%201.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0z%22/%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12.06%209.06%204-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32m4.6-2.74%201.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0z%22/%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22m12.06%209.06%204-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32m4.6-2.74%201.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0z%22/%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22m12.06%209.06%204-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32m4.6-2.74%201.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2016h8V9H0zm10%200h8V9h-8zM0%207h8V0H0zm10-7v7h8V0z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2016h8V9H0zm10%200h8V9h-8zM0%207h8V0H0zm10-7v7h8V0z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2016h8V9H0zm10%200h8V9h-8zM0%207h8V0H0zm10-7v7h8V0z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2019.175%202.125-2.125%201.425%201.4L12%2022l-3.55-3.55%201.425-1.4zM4.825%2012l2.125%202.125-1.4%201.425L2%2012l3.55-3.55%201.4%201.425zm14.35%200L17.05%209.875l1.4-1.425L22%2012l-3.55%203.55-1.4-1.425zM12%204.825%209.875%206.95%208.45%205.55%2012%202l3.55%203.55-1.425%201.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2019.175%202.125-2.125%201.425%201.4L12%2022l-3.55-3.55%201.425-1.4zM4.825%2012l2.125%202.125-1.4%201.425L2%2012l3.55-3.55%201.4%201.425zm14.35%200L17.05%209.875l1.4-1.425L22%2012l-3.55%203.55-1.4-1.425zM12%204.825%209.875%206.95%208.45%205.55%2012%202l3.55%203.55-1.425%201.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%231a73e8%22%20d%3D%22m12%2019.175%202.125-2.125%201.425%201.4L12%2022l-3.55-3.55%201.425-1.4zM4.825%2012l2.125%202.125-1.4%201.425L2%2012l3.55-3.55%201.4%201.425zm14.35%200L17.05%209.875l1.4-1.425L22%2012l-3.55%203.55-1.4-1.425zM12%204.825%209.875%206.95%208.45%205.55%2012%202l3.55%203.55-1.425%201.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23d1d1d1%22%20d%3D%22m12%2019.175%202.125-2.125%201.425%201.4L12%2022l-3.55-3.55%201.425-1.4zM4.825%2012l2.125%202.125-1.4%201.425L2%2012l3.55-3.55%201.4%201.425zm14.35%200L17.05%209.875l1.4-1.425L22%2012l-3.55%203.55-1.4-1.425zM12%204.825%209.875%206.95%208.45%205.55%2012%202l3.55%203.55-1.425%201.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2010.8-4.6%204.6L6%2014l6-6%206%206-1.4%201.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22m12%2010.8-4.6%204.6L6%2014l6-6%206%206-1.4%201.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2010.8-4.6%204.6L6%2014l6-6%206%206-1.4%201.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23d1d1d1%22%20d%3D%22m12%2010.8-4.6%204.6L6%2014l6-6%206%206-1.4%201.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m14%2018-6-6%206-6%201.4%201.4-4.6%204.6%204.6%204.6z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22m14%2018-6-6%206-6%201.4%201.4-4.6%204.6%204.6%204.6z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m14%2018-6-6%206-6%201.4%201.4-4.6%204.6%204.6%204.6z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23d1d1d1%22%20d%3D%22m14%2018-6-6%206-6%201.4%201.4-4.6%204.6%204.6%204.6z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M12.6%2012%208%207.4%209.4%206l6%206-6%206L8%2016.6z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M12.6%2012%208%207.4%209.4%206l6%206-6%206L8%2016.6z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M12.6%2012%208%207.4%209.4%206l6%206-6%206L8%2016.6z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23d1d1d1%22%20d%3D%22M12.6%2012%208%207.4%209.4%206l6%206-6%206L8%2016.6z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2015.4-6-6L7.4%208l4.6%204.6L16.6%208%2018%209.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22m12%2015.4-6-6L7.4%208l4.6%204.6L16.6%208%2018%209.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2015.4-6-6L7.4%208l4.6%204.6L16.6%208%2018%209.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2015.4-6-6L7.4%208l4.6%204.6L16.6%208%2018%209.4z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22%23666%22%20viewBox%3D%220%20-960%20960%20960%22%3E%3Cpath%20d%3D%22M440-440H200v-80h240v-240h80v240h240v80H520v240h-80z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22%23333%22%20viewBox%3D%220%20-960%20960%20960%22%3E%3Cpath%20d%3D%22M440-440H200v-80h240v-240h80v240h240v80H520v240h-80z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22%23111%22%20viewBox%3D%220%20-960%20960%20960%22%3E%3Cpath%20d%3D%22M440-440H200v-80h240v-240h80v240h240v80H520v240h-80z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22%23d1d1d1%22%20viewBox%3D%220%20-960%20960%20960%22%3E%3Cpath%20d%3D%22M440-440H200v-80h240v-240h80v240h240v80H520v240h-80z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22%23666%22%20viewBox%3D%220%20-960%20960%20960%22%3E%3Cpath%20d%3D%22M200-440v-80h560v80z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22%23333%22%20viewBox%3D%220%20-960%20960%20960%22%3E%3Cpath%20d%3D%22M200-440v-80h560v80z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22%23111%22%20viewBox%3D%220%20-960%20960%20960%22%3E%3Cpath%20d%3D%22M200-440v-80h560v80z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22%23d1d1d1%22%20viewBox%3D%220%20-960%20960%20960%22%3E%3Cpath%20d%3D%22M200-440v-80h560v80z%22/%3E%3C/svg%3E",
+   "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2069%2029%22%3E%3Cg%20fill%3D%22%23fff%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.5%22%20opacity%3D%22.9%22%3E%3Cpath%20d%3D%22m17.4706%207.33616.5412-.54112-.5519-.53011c-1.3636-1.30974-3.2017-2.31971-5.7591-2.31971-4.6137%200-8.50262%203.75517-8.50262%208.39578%200%204.6407%203.88892%208.3958%208.50262%208.3958%202.4704%200%204.3765-.8188%205.8732-2.3679%201.5695-1.5729%202.0216-3.7363%202.0216-5.4119%200-.5232-.044-1.0254-.1295-1.4529l-.1206-.6029h-8.3947v3.5942h4.8301c-.1724.5966-.4321%201.0286-.7491%201.3461-.6288.6214-1.5823%201.3094-3.331%201.3094-2.65245%200-4.73598-2.1312-4.73598-4.8099%200-2.67861%202.08353-4.80981%204.73598-4.80981%201.4362%200%202.4752.5607%203.257%201.29229l.5298.49574.513-.51303z%22/%3E%3Cpath%20d%3D%22M24.8656%2020.7286c3.089%200%205.6036-2.4192%205.6036-5.6692%200-3.2681-2.5162-5.66931-5.6036-5.66931-3.0873%200-5.6035%202.40121-5.6035%205.66931%200%203.25%202.5145%205.6692%205.6035%205.6692Zm0-7.9004c1.014%200%201.9766.837%201.9766%202.2312%200%201.3805-.9653%202.2311-1.9766%202.2311-1.0099%200-1.9765-.8574-1.9765-2.2311%200-1.3874.9639-2.2312%201.9765-2.2312Z%22/%3E%3Cpath%20d%3D%22M35.7511%2017.2905h-.0042c-1.0099%200-1.9766-.8574-1.9766-2.2311%200-1.3874.964-2.2312%201.9766-2.2312%201.0139%200%201.9765.837%201.9765%202.2312%200%201.3845-.968%202.2367-1.9723%202.2311Zm-.0124%203.4381c3.089%200%205.6035-2.4192%205.6035-5.6692%200-3.2681-2.5162-5.66931-5.6035-5.66931-3.0874%200-5.6036%202.40121-5.6036%205.66931%200%203.2508%202.5236%205.6692%205.6036%205.6692Z%22/%3E%3Cpath%20d%3D%22M51.953%2010.4357v-.74997h-3.5531v.12253c-.55-.26178-1.2022-.42639-1.9191-.42639-2.8837%200-5.464%202.51793-5.464%205.69393%200%202.1269%201.164%203.9479%202.8033%204.9137l-.0658.0273-1.8806.7802-.6929.2874.2876.6928c.6228%201.5004%202.2776%203.3697%205.0535%203.3697%201.4105%200%202.787-.4145%203.814-1.4093%201.0332-1.0009%201.6171-2.4965%201.6171-4.4653zm-7.2194%209.9844-.0002-.0005c.5552.2005%201.1446.309%201.7474.309.6808%200%201.3058-.1467%201.841-.3891-.0876.3891-.2417.671-.4252.8682-.2812.3022-.7202.5011-1.3747.5011-.91190000000001%200-1.5201-.6476-1.7883-1.2887Zm1.9361-7.5919c.9722%200%201.878.8483%201.878%202.2558%200%201.3796-.8956%202.2147-1.878%202.2147-1.0428%200-1.993-.8738-1.993-2.2147%200-1.3754.9595-2.2558%201.993-2.2558Zm9.069-7.60739v-.75h-3.6599V20.4412h3.6599z%22/%3E%3Cpath%20d%3D%22m63.9128%2016.0614-.6183-.4122-.4179.6145c-.4562.6709-1.0102%201.0432-1.8025%201.0432-.4306%200-.7595-.0981-1.0197-.2622-.07-.0441-.1383-.0951-.2046-.1536l5.6999-2.3625.6825-.283L65.9596%2013.5589l-.219-.5514c-.4528-1.2075-1.8899-3.60918-4.9128-3.60918-2.9833%200-5.3244%202.36358-5.3244%205.66928%200%203.1475%202.3222%205.6693%205.5625%205.6693%202.6043%200%204.1111-1.5991%204.7283-2.5156l.421-.625L65.5882%2017.1783zm-2.5667-3.2103-1.9353.8015c.3795-.5743%201.0107-.8572%201.4909-.8572.1653%200%20.3136.0207.4444.0557Z%22/%3E%3C/g%3E%3Cpath%20fill%3D%22%233c4043%22%20d%3D%22M11.7008%2019.9868c-4.21304%200-7.75262-3.4328-7.75262-7.6458%200-4.21297%203.53958-7.64578%207.75262-7.64578%202.3323%200%203.9912.91159%205.2395%202.11061l-1.47%201.47003c-.8952-.83767-2.1106-1.49467-3.7695-1.49467-3.07972%200-5.48598%202.48016-5.48598%205.55981%200%203.0797%202.40626%205.5599%205.48598%205.5599%201.9956%200%203.1289-.8048%203.8598-1.5275.5995-.5996.9855-1.4537%201.1333-2.628h-4.9931v-2.0942h7.0298c.0739.3695.115.8212.115%201.3058%200%201.5685-.427%203.5067-1.8067%204.8864-1.3469%201.3961-3.0551%202.1434-5.3381%202.1434m18.0184-4.9274c0%202.8333-2.1763%204.9192-4.8536%204.9192-2.6772%200-4.8535-2.0859-4.8535-4.9192%200-2.8498%202.1763-4.9193%204.8535-4.9193%202.6773%200%204.8536%202.0695%204.8536%204.9193m-2.127%200c0-1.7739-1.2648-2.9812-2.7266-2.9812s-2.7265%201.2155-2.7265%202.9812c0%201.7492%201.2647%202.9811%202.7265%202.9811s2.7266-1.2237%202.7266-2.9811m13%200c0%202.8333-2.1763%204.9192-4.8535%204.9192-2.6691%200-4.8536-2.0859-4.8536-4.9192%200-2.8498%202.1763-4.9193%204.8536-4.9193%202.6772%200%204.8535%202.0695%204.8535%204.9193m-2.1188%200c0-1.7739-1.2647-2.9812-2.7265-2.9812s-2.7266%201.2155-2.7266%202.9812c0%201.7492%201.2648%202.9811%202.7266%202.9811%201.4618.0082%202.7265-1.2237%202.7265-2.9811m12.7296-4.6237v8.8366c0%203.6382-2.1435%205.1246-4.6811%205.1246-2.3899%200-3.8188-1.6014-4.3609-2.9072l1.8807-.7802c.3367.8048%201.158%201.7493%202.4802%201.7493%201.626%200%202.628-1.0101%202.628-2.8908v-.7063h-.074c-.4845.5995-1.4207%201.1169-2.5951%201.1169-2.4637%200-4.714-2.1434-4.714-4.9028%200-2.7758%202.2585-4.9439%204.714-4.9439%201.1744%200%202.1106.5256%202.5951%201.1004h.074v-.7966zm-1.9053%204.6483c0-1.7328-1.158-3.0058-2.628-3.0058-1.4947%200-2.743%201.2647-2.743%203.0058%200%201.7164%201.2483%202.9647%202.743%202.9647%201.47%200%202.628-1.2483%202.628-2.9647m5.691-9.86319V19.6912h-2.1599V5.22081zm8.5081%2011.46459%201.6754%201.1169c-.5421.8049-1.8478%202.1846-4.1063%202.1846-2.8004%200-4.8125-2.1599-4.8125-4.9193%200-2.9237%202.0367-4.9193%204.5744-4.9193%202.554%200%203.8023%202.0285%204.213%203.129l.2217.5584-6.5782%202.7266c.501.9855%201.2894%201.4946%202.3898%201.4946%201.1005%200%201.8643-.5502%202.4227-1.3715m-5.1656-1.7739%204.4019-1.8231c-.2464-.616-.9691-1.043-1.8314-1.043-1.1005%200-2.628.9691-2.5705%202.8661%22/%3E%3C/svg%3E",
+   "https://www.traffic.gov.scot/themes/ud/img/car.png",
+   "https://www.traffic.gov.scot/themes/ud/img/logo-white.png",
+   "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png",
+   "https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [
+   {
+    "h": "https://x.com/intent/follow?original_referer=https%3A%2F%2Ftrafficscotland.org%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Etrafficscotland&region=follow_link&screen_name=trafficscotland",
+    "t": "Follow us on X"
+   },
+   {
+    "h": "https://x.com/intent/follow?original_referer=https%3A%2F%2Ftrafficscotland.org%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Etrafficscotland&region=follow_link&screen_name=trafficscotland",
+    "t": ""
+   },
+   {
+    "h": "https://x.com/intent/follow?original_referer=https%3A%2F%2Ftrafficscotland.org%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Etrafficscotland&region=follow_link&screen_name=trafficscotland",
+    "t": "Follow us on X"
+   },
+   {
+    "h": "https://www.traffic.gov.scot/#",
+    "t": "Nationwide live traffic info"
+   }
+  ],
+  "text": "Skip to main content Site map\n\nWe're looking for your feedback. It just takes five minutes. Take the survey here. \n\nx\nHome About us Travel news Green hub Winter hub Data hub\n \n\nScotland's trunk road\ntraffic intelligence service\n\nHome\nAbout us\nTravel news\nGreen hub\nWinter hub\nData hub\nTraffic Scotland Radio\nFollow us on X\nCare Line 0800 028 1414\nAtalhos do teclado\nDados cartográficos ©2026 GeoBasis-DE/BKG (©2009), Google\nTermos\n+\n−\nPlan a Journey\nPlan a Journey\nMap Layers\n\nUse the layers below to see up to date information on Scotland’s motorway and trunk road network.\nPlain text versions.\n\nNationwide live traffic info\nTraffic Congestion\n?\nCurrent Incidents\nRoadworks\nLive Traffic Cameras\nWeather Warnings\nPolice Travel Warnings\nBridges\n?\nFuture travel\nRoad facilities\nActive Travel Networks\nWinter info\n\nBack to map\n\nWhat to do in an emergency\n\nBy understanding the steps to take and knowing what to expect, you can stay safe, get help quickly and feel more confident if the unexpected happens.\n\nLearn more\nEvents in Scotland 2026\n\nScotland is preparing for an exciting year of major events in 2026, and Traffic Scotland will be here to help everyone travel safely and confidently.\n\nAs people travel to these events, we will share real‑time updates on the trunk road network, including live journey times, planned roadworks, and incident information likely to affect your journey. Our aim is to help you plan ahead, avoid delays, and enjoy everything Scotland has to offer in 2026.\n\nEvents Across Scotland 2026\nWinter Hub 2026\n\nWinter driving is about more than keeping an eye out for snow - it's also about keeping an eye out for ice, sleet, and freezing fog. Even when the road looks clear, wintery road conditions are often unpredictable and we know how quickly the Scottish weather can change. To stay safe on the road this winter, it pays to be prepared.\n\n\n\n \n\nWinter Hub\nCall the Traffic Customer Care Line - 0800 028 1414\nTraffic Scotland Radio\nAccessibility Terms & Conditions Cookies Copyright Privacy Sitemap Contact\nSelecione o idioma\nGaélico escocês\nPowered by Tradutor\nTraffic Scotland and your data\n\nThe Traffic Scotland website uses cookies to improve the experience for our visitors. For more detailed information about the cookies we use, see our Cookies Policy.\n\nPlease Accept our recommended settings or Manage them individually.\n\nAccept Manage Cookies\nThis site uses cookies\n\nWe use necessary cookies to make our site work. We would also like to set optional analytics cookies to help us improve it. We will not set optional cookies unless you enable them or accept our recommended settings. Using this tool will remember your preferences on your device.\n\nFor more detailed information about the cookies we use, see our Cookies Policy.\n\nAccept Recommended Settings\nEssential Cookies\nCookie preference\nFurther information\ni\nMedia players (YouTube)\nFurther information\ni\nMy saved routes\nFurther information\ni\nOptional Cookies\nAnalytics\nOff\nFurther information\ni\nClose\nX"
+ },
+ "errors": [],
+ "title": "Traffic Scotland | Trunk road traffic updates & route planner",
+ "mediaRequests": [
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/logo-white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/car.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/route-32px.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/closex-16px-black.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/route-32px-white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/layers-21px.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/prompt.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-campaign.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/closex.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-calendar.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/sites/default/files/2026-06/TRISS%20support.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/sites/default/files/2024-11/Traffic%20Scotland%20Gritter%20Tracker.JPG",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/sites/default/files/2026-08/Image%20%2820%29.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.gstatic.com/images/branding/product/2x/translate_24dp.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/caret_right_white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsflow-pin.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/caret_down.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-incidents-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-cameras-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-bridges-green-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-police-pin-ds.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/transparent.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-roadworks.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-road-closed-pin.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/undo_poly.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.traffic.gov.scot/themes/ud/img/tsis-inc-weather.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ]
+}

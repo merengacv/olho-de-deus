@@ -1,0 +1,2611 @@
+GET https://www.putevi-srbije.rs/
+content-type: text/html; charset=utf-8
+
+
+<!doctype html>
+<html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#" lang="sr-rs" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="canonical" href="https://www.putevi-srbije.rs/">
+        <base href="https://www.putevi-srbije.rs/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Путеви Србије, управљање државним путевима, наплата путарине" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:url" content="https://www.putevi-srbije.rs/" />
+	<meta name="twitter:title" content="Насловна" />
+	<meta name="twitter:description" content="&amp;#039;Путеви Србије&amp;#039; д.о.о. основано је сходно Закону о јавним путевима и обавља стручне послове који се односе на трајно, непрекидно и квалитетно одржавање и заштиту, експлоатацију, изградњу, реконструкцију, организацију и контролу наплате путарине, развој и управљање државним путевима првог и другог реда у Републици Србији." />
+	<meta name="description" content="'Путеви Србије' д.о.о. основано је сходно Закону о јавним путевима и обавља стручне послове који се односе на трајно, непрекидно и квалитетно одржавање и заштиту, експлоатацију, изградњу, реконструкцију, организацију и контролу наплате путарине, развој и управљање државним путевима првог и другог реда у Републици Србији." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Насловна</title>
+	<link href="https://www.putevi-srbije.rs/index.php/sr/" rel="alternate" hreflang="sr-YU" />
+	<link href="https://www.putevi-srbije.rs/index.php" rel="alternate" hreflang="sr-RS" />
+	<link href="https://www.putevi-srbije.rs/index.php/en/" rel="alternate" hreflang="en-GB" />
+	<link href="/images/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://www.putevi-srbije.rs/index.php/component/search/?id=45327&amp;Itemid=104&amp;format=opensearch" rel="search" title="Претрага ”Путеви Србије” д.о.о." type="application/opensearchdescription+xml" />
+	<link href="/media/com_rstbox/css/engagebox.css?[CHAVE]" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/rokbox/assets/styles/rokbox.css" rel="stylesheet" type="text/css" />
+	<link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap&amp;subset=cyrillic-ext" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helixultimate/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helixultimate/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helixultimate/css/fa-v4-shims.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helixultimate/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helixultimate/css/presets/default.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helixultimate/css/custom.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_roksprocket/layouts/strips/themes/default/strips.css" rel="stylesheet" type="text/css" />
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_minitekwall/assets/css/masonry.css?v=3.7.0" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_rapi_contentmarquee/includes/css/rapi_contentmarquee.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_djimageslider/themes/default/css/djimageslider.css" rel="stylesheet" type="text/css" />
+	<link href="/media/mod_languages/css/template.css?[CHAVE]" rel="stylesheet" type="text/css" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+.eb-2 {
+                --animation_duration: 500ms;
+
+            }
+        .eboxHereToHelp .eb-h3 {
+    margin-bottom: 8px;
+}
+.eboxHereToHelp .socials {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding:0;
+    margin: 10px 0 0 0;
+}
+.eboxHereToHelp .socials i {
+    min-width: 22px;
+}
+.eboxHereToHelp .socials li {
+    width: 50%;
+    margin-bottom: 7px;
+}
+.eboxHereToHelp .phones_list span {
+    min-width: 82px;
+    display: inline-block;
+}
+.eboxHereToHelp hr {
+    margin: 18px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+}
+		.eb-2 .eb-close:hover {
+			color: rgba(26, 25, 25, 1) !important;
+		}	
+	.eb-5 {
+                --animation_duration: 500ms;
+
+            }
+        .eboxHereToHelp hr {
+    opacity: .07;
+}
+.eboxHereToHelp .eb-payment i {
+    font-size:30px;
+    margin:3px 15px 0 0;
+}
+.eboxHereToHelp .eb-payment {
+    display: flex;
+    align-items: flex-start;
+}
+.eboxHereToHelp .eb-h4 {
+    margin-bottom: 10px;
+    color: rgba(255,255,255,.5);
+}
+		.eb-5 .eb-close:hover {
+			color: rgba(8, 36, 194, 1) !important;
+		}	
+	@media (min-width: 980px) {
+  .container {max-width: 960px}
+ .sp-megamenu-parent {margin-right: -20px;}
+}
+ @media (max-width: 991px) {
+  #sp-search {position: absolute;top:0;right:0;width:15vw !important}
+  #sp-lang {position: absolute;top:0;left:0;width:85vw !important}
+  .sp-module-content .mod-languages ul.lang-inline {width: 90px!important; margin-left:290px;margin-top:6px}
+ #sp-search .search {position: absolute;top:0;right:0}
+ #sp-search input.form-control {margin-top: 40px; margin-right: 20px;}
+   #sp-search .search::before {right: 40px}
+}
+@media (min-width: 1200px) {
+  .container {max-width: 1140px}
+}
+@media (min-width: 1280px) {
+  .container {max-width: 1240px}
+}
+#sp-linkovi-ispred-footera .container{background-color:rgba(8,44,78,.65)!important;padding-top:4em;padding-bottom:2em}
+#sp-position1, #sp-mainbody-bottom {margin-top:26px;background-position:0px 0px;border:0}
+#sp-position1 {background:#DC3545 !important}
+#sp-mainbody-bottom {margin-top:26px; background:#003F72!important}
+#sp-mainbody-bottom .sp-module div.sp-module-content::after, #sp-mainbody-bottom .sp-module div.sp-module-content::before {
+  content: url("https://www.putevi-srbije.rs/images/naslovna/video-klipovi-plavo.png");position: absolute;
+}
+#sp-position1 .sp-module div.sp-module-content::after, #sp-position1 .sp-module div.sp-module-content::before {
+  content: url("https://www.putevi-srbije.rs/images/naslovna/video-klipovi-crveno.png");position: absolute;
+}
+#sp-position1 .sp-module div.sp-module-content::after, #sp-mainbody-bottom .sp-module div.sp-module-content::after {top:0; left:0}
+#sp-position1 .sp-module div.sp-module-content::before, #sp-mainbody-bottom .sp-module div.sp-module-content::before {bottom:0;left:0}
+
+#sp-mainbody-bottom .sp-module {padding-bottom:40px}
+#sp-after-main-body  #sp-position1 .sp-module h3.sp-module-title, #sp-mainbody-bottom .sp-module h3.sp-module-title {color:#003f72;font-weight:500;margin-top: -80px;margin-left:0!important}
+#sp-mainbody-bottom .sp-module h3.sp-module-title {margin-top: -50px;}
+#sp-position1 .sp-module div.sp-module-content, #sp-mainbody-bottom .sp-module .sp-module-content {color:#fff;margin-top:55px}
+#sp-bottom3 .footer-meni div.banner-right {width: 80%; margin-left: 9%; margin-right: 9%; border-radius: 0;}
+
+@media (max-width: 991px) {
+  #sp-position1 {margin-top:85px}
+}
+@media (max-width: 576px) {
+#sp-bottom3 .customclear div{float:none; padding-left: calc(10vw - 15px);padding-right: calc(10vw - 15px)}
+}
+@media (max-width: 481px) {
+#sp-bottom3 .footer-meni div.banner-right {width:90%; margin-left:4%; margin-right:4%;}
+}
+
+#sp-mainbody-bottom .mnwall-hover-box-content h3.mnwall-title a, #sp-mainbody-bottom .mnwall-hover-box-content h3.mnwall-title span {
+  font-size: 15px;
+  line-height: 14px;font-weight:500}
+  
+.sprocket-strips-content {background-color:rgba(255,255,255,0.005)}
+.sprocket-strips-content:hover {background-color: rgba(255,255,255,0.001)}
+h4.sprocket-strips-title a {display:none}
+.sprocket-strips-content:hover .sprocket-strips-title {/*margin-top:3rem;*/margin-top:0;-webkit-transition:top .2s ease-in;transition:top .2s ease-in}
+.sprocket-strips-content:hover h4.sprocket-strips-title a {display:block;padding-top:3rem;line-height:7; text-shadow:none;color:#1e1e1e;opacity:0}
+
+.flip-box{min-height:336px;height: auto; width:49%;margin-right:1%;float:left;position:relative;display: flex; perspective:1000px;transform-style:preserve-3d;margin-bottom:20px}
+@media (max-device-width:1024px){.flip-box{cursor:pointer}}
+.flip-box-front{background-color:inherit;opacity: 1}
+.flip-box-back{background-color:#003f72;opacity: 0}
+.flip-box-layer{position:absolute;width:100%;height:100%;transition:all .6s ease-in-out}
+.flip-box-layer-overlay{display:flex;width:100%;height:100%;flex-direction:column;justify-content:center;align-items:stretch;text-align:center;padding:20px;color:#fff}
+.flip-box-front .flip-box-layer-overlay {padding:0}
+.flip-box-layer-title{font-size:20px;line-height:1.25;font-weight:600;opacity: 0}
+.flip-box-layer-description{font-size:14px;opacity: 0}
+.flip-box-layer-description:not(:last-child),.flip-box-layer-title:not(:last-child){margin:0 0 20px;padding:0}
+.flip-box-button.button{cursor:pointer;align-self:center;margin-left:auto;margin-right:auto;border:2px solid #da251c;background:#da251c;color:#fff;padding: 12px 24px;opacity: 0}
+.flip-box-button.button:hover{background:transparent;text-decoration:none}
+.flip-box-image{margin:0 0 20px;display:flex;width:100%}
+.flip-box-3d .flip-box-layer-inner{transform:translateZ(90px) scale(.91)}
+.flip-box-3d .flip-box-layer-overlay{transform-style:preserve-3d;transform:translateZ(.1px)}
+.flip-box-effect-flip .flip-box{perspective:1000px;transform-style:preserve-3d}
+.flip-box-effect-flip .flip-box-layer{transform-style:preserve-3d;backface-visibility:hidden}
+.flip-box-effect-flip .flip-box-front{transform:none;z-index:1}
+.flip-box-effect-flip .flip-box:hover .flip-box-back{transform:none}
+.flip-box-effect-flip.flip-box-direction-right .flip-box-back{transform:rotateX(0) rotateY(-180deg)}
+.flip-box-effect-flip.flip-box-direction-left .flip-box-back,.flip-box-effect-flip.flip-box-direction-right .flip-box:hover .flip-box-front{transform:rotateX(0) rotateY(180deg)}
+.flip-box-effect-flip.flip-box-direction-left .flip-box:hover .flip-box-front{transform:rotateX(0) rotateY(-180deg)}
+.flip-box-effect-flip.flip-box-direction-up .flip-box-back{transform:rotateX(-180deg) rotateY(0)}
+.flip-box-effect-flip.flip-box-direction-down .flip-box-back,.flip-box-effect-flip.flip-box-direction-up .flip-box:hover .flip-box-front{transform:rotateX(180deg) rotateY(0)}.flip-box-effect-flip.flip-box-direction-down .flip-box:hover .flip-box-front{transform:rotateX(-180deg) rotateY(0)}
+.widget-flip-box.flip-box-flipped .flip-box-front{display:none}
+.widget-flip-box.flip-box-flipped .flip-box-back {transform:none;opacity:1}
+.flip-box:hover .flip-box-back{opacity:1}
+.flip-box:hover .flip-box-button.button, .flip-box:hover .flip-box-layer-title, .flip-box:hover .flip-box-layer-description{opacity:1;transition:all 1.2s ease-in-out}
+.flip-box:hover .flip-box-front{opacity:0}
+@media only screen and (max-width:767.98px) {
+  .flip-box {width:100%;float:none}
+ .flip-box-layer-title{font-size:18px;line-height:1}
+ .flip-box-layer-overlay{padding:20px 10px}
+}
+@media only screen and (min-width:767.98px) and (max-width:990px) {
+  .flip-box {min-height: 410px}
+}
+@media only screen and (max-width:400px) {
+  .flip-box {min-height: 410px}
+}
+@media only screen and (max-width:330px) {
+  .flip-box {min-height: 425px}
+}
+
+#sp-korporativne-vesti .container, #sp-after-main-body .container{width:100vw!important;margin-left:0;margin-right:0}
+#sp-korporativne-vesti .container .container-inner, #sp-after-main-body .container .container-inner{width:100vw!important;margin-left:0;margin-right:0;padding-right:30px}
+
+.jmm-social.override ul.jmm-list > li.jmm-item > .jmm-img img {width: 18px; margin-top:-2px}
+ 
+.sprocket-strips-content {min-height:180px}
+.mnwall-columns .mnwall-item-img {max-height: 180px}
+
+@media (min-width: 1280px) {#sp-korporativne-vesti .sp-module h3.sp-module-title, #sp-after-main-body .sp-module h3.sp-module-title{margin-left: calc((100vw - 1200px) / 2) !important}
+ .jmm-social.override.header {left: calc((100vw - 1230px) / 2) !important}
+.sprocket-strips-content {min-height:232px}
+.mnwall-columns .mnwall-item-img {max-height: 232px}
+}
+
+@media (min-width: 1440px) {#sp-korporativne-vesti .sp-module h3.sp-module-title, #sp-after-main-body .sp-module h3.sp-module-title{margin-left: calc((100vw - 1400px) / 2) !important}
+ .jmm-social.override.header {left: calc((100vw - 1430px) / 2) !important}
+.sprocket-strips-content {min-height:258px}
+.mnwall-columns .mnwall-item-img {max-height: 258px}
+}
+
+@media (min-width: 1680px) {#sp-korporativne-vesti .sp-module h3.sp-module-title, #sp-after-main-body .sp-module h3.sp-module-title{margin-left: calc((100vw - 1600px) / 2) !important}
+  .jmm-social.override.header {left: calc((100vw - 1630px) / 2) !important}
+}
+h3.sp-module-title a.module-title-link {color:#003f72;font-weight:600;text-transform: uppercase;font-size:16px}
+h3.sp-module-title a.module-title-link:hover {color:#dc3545}
+
+h3.mnwall-title a, h3.mnwall-title span {font-weight:500}
+#sp-top2 .kvesti h3.sp-module-title  {
+  margin-left:auto!important; margin-right:auto; width:220px;text-align:center;margin-bottom:2.5rem!important}
+#sp-top1 {padding-top:45px}
+
+#sp-position1 .sprocket-strips-container > li {margin:0px 0%}
+
+/*.slide {position:absolute;top:126px;left:0;width:100%;height:100vw; z-index:100000}*/
+.slide img {/*position:absolute; top:50%; left:50%; transform: translate (-50%, -50%); */ width:120%; 
+animation: scale 3s linear infinite}
+@keyframes scale {
+  100% {width:100%}
+}
+.slide1 {animation: slide1 12s linear infinite}
+.slide2 {animation: slide2 12s linear infinite}
+.slide3 {animation: slide3 12s linear infinite}
+.slide4 {animation: slide4 12s linear infinite}
+@keyframes slide1 {
+  0% {visibility:visible}
+  33% {visibility:hidden}
+  66% {visibility:hidden}
+  100% {visibility:hidden}
+}
+@keyframes slide2 {
+  0% {visibility:hiden}
+  33% {visibility:visible}
+  66% {visibility:hidden}
+  100% {visibility:hidden}
+}
+@keyframes slide3 {
+  0% {visibility:hiden}
+  33% {visibility:hidden}
+  66% {visibility:visible}
+  100% {visibility:hidden}
+}
+@keyframes slide4 {
+  0% {visibility:hiden}
+  33% {visibility:hidden}
+  66% {visibility:hidden}
+  100% {visibility:visible}
+}
+
+.slajder {
+ height:55vh; width:100%;
+background-image: url('/images/headers/koridor10-juzni-krak.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+ animation: animacija 8s cubic-bezier(0.25,0.1,0.25,1) infinite;
+}
+@keyframes animacija {
+  0% {background-image: url('/images/headers/koridor10-juzni-krak.jpg');transform: scale(1.2);transition: opacity 2.6s ease}
+ /*25% {background-image: url('/images/headers/kampanja-bezbedno-kroz-tunel.jpg');animation:zoom 3s linear infinite}
+  50% {background-image: url('/images/headers/kampanja-u-tunelu-nismo-sami-baner.jpg');animation:zoom 3s linear infinite}*/
+  50% {background-image: url('/images/headers/obilaznica-oko-beograda.jpg');animation:zoom 2s linear infinite}
+  100% {background-image: url('/images/headers/tunel-bancarevo-e80.jpg');animation:zoom 2s linear infinite}
+}
+@-webkit-keyframes animacija {
+  0% {background-image: url('/images/headers/koridor10-juzni-krak.jpg');transform: scale(1.2);transition: opacity 2.6s ease}
+ /* 25% {background-image: url('/images/headers/kampanja-bezbedno-kroz-tunel.jpg');animation:zoom 3s linear infinite}
+  50% {background-image: url('/images/headers/kampanja-u-tunelu-nismo-sami-baner.jpg');animation:zoom 3s linear infinite} */
+  50% {background-image: url('/images/headers/obilaznica-oko-beograda.jpg');animation:zoom 2s linear infinite}
+  100% {background-image: url('/images/headers/tunel-bancarevo-e80.jpg');animation:zoom 2s linear infinite}
+}
+@media only screen and (max-width: 767px) {
+ .slajder {height:50vh} 
+  @keyframes animacija {
+  0% {background-image: url('/images/headers/koridor10-juzni-krak.jpg');transform: scale(1.2);transition: opacity 2.6s ease}
+ /* 25% {background-image: url('/images/headers/kampanja-bezbedno-kroz-tunel-mob.jpg');animation:zoom 3s linear infinite}
+  50% {background-image: url('/images/headers/kampanja-u-tunelu-nismo-sami-mob.jpg');animation:zoom 3s linear infinite} */
+  50% {background-image: url('/images/headers/obilaznica-oko-beograda.jpg');animation:zoom 2s linear infinite}
+  100% {background-image: url('/images/headers/tunel-bancarevo-e80.jpg');animation:zoom 2s linear infinite}
+}
+@-webkit-keyframes animacija {
+  0% {background-image: url('/images/headers/koridor10-juzni-krak.jpg');transform: scale(1.2);transition: opacity 2.6s ease}
+ /* 25% {background-image: url('/images/headers/kampanja-bezbedno-kroz-tunel-mob.jpg');animation:zoom 3s linear infinite}
+  50% {background-image: url('/images/headers/kampanja-u-tunelu-nismo-sami-mob.jpg');animation:zoom 3s linear infinite} */
+  50% {background-image: url('/images/headers/obilaznica-oko-beograda.jpg');animation:zoom 2s linear infinite}
+  100% {background-image: url('/images/headers/tunel-bancarevo-e80.jpg');animation:zoom 2s linear infinite}
+}
+}
+@media only screen and (max-width: 480px) {
+ .slajder {height:45vh} 
+}
+@keyframes zoom {
+ 0% {transform: scale(1.4);}
+  25% {transform: scale(1);}
+  75% {transform: scale(1);}
+  100% {transform: scale(1.4);}
+ }
+@-webkit-keyframes zoom {
+ 0% {transform: scale(1.4);}
+  25% {transform: scale(1);}
+  75% {transform: scale(1);}
+  100% {transform: scale(1.4);}
+ }
+
+.blog-wrap:hover i, .blog-wrap:hover a {
+	-webkit-animation: icon-scale 2.5s infinite;
+		animation: icon-scale 2.5s infinite;}
+.blog-wrap:hover h5 a, .blog-wrap:hover p a {text-transform: uppercase}
+.blog-wrap:hover h5 a:hover, .blog-wrap:hover p a:hover {color:#da251c}
+
+@keyframes icon-scale {
+  0% {-webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    25% {-webkit-transform: scale(0.85);
+              transform: scale(0.85);
+    }
+    50% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    75% {
+      -webkit-transform: scale(0.85);
+              transform: scale(0.85);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+ }
+@-webkit-keyframes icon-scale {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    25% {
+      -webkit-transform: scale(0.85);
+              transform: scale(0.85);
+    }
+    50% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    75% {
+      -webkit-transform: scale(0.85);
+              transform: scale(0.85);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+@media only screen and (max-width: 480px) {
+  #sp-info {padding-top: 1.2em !important}
+ #sp-lang.col-3 {max-width:90vw !important;width:90vw !important}
+ .jmm-social.override.header {left: 0;transform: translateX(0) translateY(0) rotate(0deg);}
+ #easy-social-icons .jssocialicons-icons li a, .jmm-social.override ul.jmm-list > li.jmm-item {transform: rotate(0deg)}
+ .sp-module-content .mod-languages ul.lang-inline {margin-left:135px}
+ #sp-search .search::before {right: 20px}
+
+}
+@media only screen and (max-width: 360px) {
+  .jmm-social.override.header {width:220px !important;left:-12px}
+ .jmm-social.override.header ul.jmm-list > li {margin-right:5px}
+}
+@media (min-width: 100px) {
+  .col-sm-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none }
+}
+@media (min-width: 481px) {
+.portfolio-wrap-2.dva:nth-child(1) p, .portfolio-wrap-2.dva:nth-child(3) p {margin-left:-12px !important; margin-right:-12px !important}
+}
+#sp-korporativne-vesti .sp-module.apel-pr {margin: 0 -15px 1em -15px !important;}
+.rapi-marquee.apel-pr {border: 2px solid #003f72;border-left:0;border-right:0; border-radius:0}
+.rapi-marquee.apel-pr .js-marquee-wrapper {display: flex !important;
+    width: max-content !important;
+    animation: rapi-no-pause 22s linear infinite !important;
+}
+@keyframes rapi-no-pause {
+    0% { transform: translateX(5%); }
+    100% { transform: translateX(-50%); }
+}
+.js-marquee-wrapper > * {
+    display: inline-block !important;
+    white-space: nowrap !important;
+}
+
+.rapi-marquee.apel-pr .js-marquee::before { display:none;
+/*  content: "";
+  background-image: url('/images/divider.png');
+  background-size:24px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 0;margin-right: 30px;
+  border: 0;  */
+}body{font-family: 'Montserrat', sans-serif;font-size: 14px;font-weight: 500;font-style: normal;}
+h1{font-family: 'Montserrat', sans-serif;font-weight: 700;}
+h2{font-family: 'Montserrat', sans-serif;font-weight: 700;}
+h3{font-family: 'Montserrat', sans-serif;font-weight: 600;}
+h4{font-family: 'Montserrat', sans-serif;font-weight: 600;}
+h5{font-family: 'Montserrat', sans-serif;font-weight: 600;}
+h6{font-family: 'Montserrat', sans-serif;font-weight: 500;}
+.sp-megamenu-parent > li > a, .sp-megamenu-parent > li > span, .sp-megamenu-parent .sp-dropdown li.sp-menu-item > a{font-family: 'Montserrat', sans-serif;font-size: 15px;font-weight: 500;font-style: normal;}
+.logo-image {height:52px;}.logo-image-phone {height:52px;}#sp-top-bar{ background-color:#003f72; }#sp-header{ background-color:#ffffff; }#sp-top1{ background-color:#003f72; }#sp-info{ background-color:#f0eff3;color:#4e4e4e;padding:1.2em 0px 1.2em 0px; }#sp-info a{color:#02a9e0;}#sp-info a:hover{color:#04c5e3;}#sp-korporativne-vesti{ background-color:#ffffff;padding:0 0 16px 0;margin:0 0 0 0; }#sp-main-body{ background-color:#f5f7f8;padding:1em 0 2.5em 0; }#sp-after-main-body{ background-color:#ffffff;color:#04c5e3;padding:4rem 0 0rem 0;margin:0 0 0 0; }#sp-section-13{ background-color:#f3f3f3;padding:3.5em 0 2.5em 0; }#sp-linkovi-ispred-footera{ background-image:url("/images/video-pozadina2.jpg");background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:50% 50%;background-color:#ffffff;color:#ffffff;padding:0 0 0 0;margin:0 0 0 0; }#sp-linkovi-ispred-footera a{color:#ffffff;}#sp-footer{ background-color:#003f72;color:#e8e8e8; }@media only screen and (min-width:1139px)
+		{
+				#mnwall_iso_container_4 .mnwall-big {
+					height: 220px;
+				}
+				#mnwall_iso_container_4 .mnwall-horizontal {
+					height: 110px;
+				}
+				#mnwall_iso_container_4 .mnwall-vertical {
+					height: 220px;
+				}
+				#mnwall_iso_container_4 .mnwall-small {
+					height: 110px;
+				}
+			
+		}@media only screen and (min-width:939px) and (max-width:1138px)
+			{
+				#mnwall_iso_container_4 .mnwall-big {
+					height: 220px;
+				}
+				#mnwall_iso_container_4 .mnwall-horizontal {
+					height: 110px;
+				}
+				#mnwall_iso_container_4 .mnwall-vertical {
+					height: 220px;
+				}
+				#mnwall_iso_container_4 .mnwall-small {
+					height: 110px;
+				}
+
+				#mnwall_iso_container_4 .mnwall-big .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_4 .mnwall-big .mnwall-item-inner .mnwall-title span {
+					font-size: 24px;
+					line-height: 28px;
+				}
+				#mnwall_iso_container_4 .mnwall-horizontal .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_4 .mnwall-horizontal .mnwall-item-inner .mnwall-title span,
+				#mnwall_iso_container_4 .mnwall-vertical .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_4 .mnwall-vertical .mnwall-item-inner .mnwall-title span,
+				#mnwall_iso_container_4 .mnwall-small .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_4 .mnwall-small .mnwall-item-inner .mnwall-title span {
+					font-size: 18px;
+					line-height: 20px;
+				}
+			}@media only screen and (min-width:719px) and (max-width:938px)
+			{ 
+					#mnwall_iso_container_4 .mnwall-item {
+						height: auto !important;
+					}
+					#mnwall_iso_container_4 .mnwall-item-inner {
+						position: static;
+						width: 100% !important;
+					}
+					.mnwall-masonry #mnwall_iso_container_4 .mnwall-item-outer-cont .mnwall-photo-link {
+						z-index: 1;
+						width: 100%;
+						position: relative;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						overflow: hidden;
+						height: 220px !important;
+					}
+				#mnwall_iso_container_4 .mnwall-item {
+					width: 50.00% !important;
+				}
+				#mnwall_iso_container_4 .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_4 .mnwall-item-inner .mnwall-title span {
+					font-size: 18px !important;
+					line-height: 24px;
+				}
+			}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-title {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-desc {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-date {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-item-category {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-item-author {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-hits {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-count {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-readmore {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+			{ 
+					#mnwall_iso_container_4 .mnwall-item {
+						height: auto !important;
+					}
+					#mnwall_iso_container_4 .mnwall-item-inner {
+						position: static;
+						width: 100% !important;
+					}
+					.mnwall-masonry #mnwall_iso_container_4 .mnwall-item-outer-cont .mnwall-photo-link {
+						z-index: 1;
+						width: 100%;
+						position: relative;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						overflow: hidden;
+						height: 220px !important;
+					}
+				#mnwall_iso_container_4 .mnwall-item {
+					width: 50.00% !important;
+				}
+				#mnwall_iso_container_4 .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_4 .mnwall-item-inner .mnwall-title span {
+					font-size: 18px;
+					line-height: 24px;
+				}
+			}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-title {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-desc {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-date {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-item-category {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-item-author {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-hits {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-count {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-readmore {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+			{ 
+					#mnwall_iso_container_4 .mnwall-item {
+						height: auto !important;
+					}
+					#mnwall_iso_container_4 .mnwall-item-inner {
+						position: static;
+						width: 100% !important;
+					}
+					.mnwall-masonry #mnwall_iso_container_4 .mnwall-item-outer-cont .mnwall-photo-link {
+						z-index: 1;
+						width: 100%;
+						position: relative;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						overflow: hidden;
+						height: 220px !important;
+					}
+				#mnwall_iso_container_4 .mnwall-item {
+					width: 100.00% !important;
+				}
+				#mnwall_iso_container_4 .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_4 .mnwall-item-inner .mnwall-title span {
+					font-size: 18px;
+					line-height: 24px;
+				}
+			}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-title {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-desc {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-date {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-item-category {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-item-author {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-hits {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-count {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_4 .mnwall-detail-box .mnwall-readmore {
+						display: none !important;
+					}
+				}@media only screen and (min-width:1139px)
+		{
+				#mnwall_iso_container_3 .mnwall-big {
+					height: 480px;
+				}
+				#mnwall_iso_container_3 .mnwall-horizontal {
+					height: 240px;
+				}
+				#mnwall_iso_container_3 .mnwall-vertical {
+					height: 480px;
+				}
+				#mnwall_iso_container_3 .mnwall-small {
+					height: 240px;
+				}
+			
+					.mnwall-columns #mnwall_iso_container_3 .mnwall-photo-link {
+						height: 240px !important;
+					}
+				
+		}@media only screen and (min-width:939px) and (max-width:1138px)
+			{
+				#mnwall_iso_container_3 .mnwall-big {
+					height: 480px;
+				}
+				#mnwall_iso_container_3 .mnwall-horizontal {
+					height: 240px;
+				}
+				#mnwall_iso_container_3 .mnwall-vertical {
+					height: 480px;
+				}
+				#mnwall_iso_container_3 .mnwall-small {
+					height: 240px;
+				}
+
+				#mnwall_iso_container_3 .mnwall-big .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_3 .mnwall-big .mnwall-item-inner .mnwall-title span {
+					font-size: 24px;
+					line-height: 28px;
+				}
+				#mnwall_iso_container_3 .mnwall-horizontal .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_3 .mnwall-horizontal .mnwall-item-inner .mnwall-title span,
+				#mnwall_iso_container_3 .mnwall-vertical .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_3 .mnwall-vertical .mnwall-item-inner .mnwall-title span,
+				#mnwall_iso_container_3 .mnwall-small .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_3 .mnwall-small .mnwall-item-inner .mnwall-title span {
+					font-size: 18px;
+					line-height: 20px;
+				}
+						.mnwall-columns #mnwall_iso_container_3 .mnwall-photo-link {
+							height: 240px !important;
+						}
+			}@media only screen and (min-width:719px) and (max-width:938px)
+			{ 
+					#mnwall_iso_container_3 .mnwall-item {
+						height: auto !important;
+					}
+					#mnwall_iso_container_3 .mnwall-item-inner {
+						position: static;
+						width: 100% !important;
+					}
+					.mnwall-masonry #mnwall_iso_container_3 .mnwall-item-outer-cont .mnwall-photo-link {
+						z-index: 1;
+						width: 100%;
+						position: relative;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						overflow: hidden;
+						height: 240px !important;
+					}
+					.mnwall-columns #mnwall_iso_container_3 .mnwall-photo-link {
+						height: 240px !important;
+					}
+					
+				#mnwall_iso_container_3 .mnwall-item {
+					width: 50.00% !important;
+				}
+				#mnwall_iso_container_3 .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_3 .mnwall-item-inner .mnwall-title span {
+					font-size: 18px !important;
+					line-height: 24px;
+				}
+			}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box {
+						display: block !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-title {
+						display: block !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-desc {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-date {
+						display: block !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-item-category {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-item-author {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-hits {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-count {
+						display: none !important;
+					}
+				}@media only screen and (min-width:719px) and (max-width:938px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-readmore {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+			{ 
+					#mnwall_iso_container_3 .mnwall-item {
+						height: auto !important;
+					}
+					#mnwall_iso_container_3 .mnwall-item-inner {
+						position: static;
+						width: 100% !important;
+					}
+					.mnwall-masonry #mnwall_iso_container_3 .mnwall-item-outer-cont .mnwall-photo-link {
+						z-index: 1;
+						width: 100%;
+						position: relative;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						overflow: hidden;
+						height: 240px !important;
+					}
+					.mnwall-columns #mnwall_iso_container_3 .mnwall-photo-link {
+						height: 240px !important;
+					}
+					
+				#mnwall_iso_container_3 .mnwall-item {
+					width: 50.00% !important;
+				}
+				#mnwall_iso_container_3 .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_3 .mnwall-item-inner .mnwall-title span {
+					font-size: 18px;
+					line-height: 24px;
+				}
+			}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box {
+						display: block !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-title {
+						display: block !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-desc {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-date {
+						display: block !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-item-category {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-item-author {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-hits {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-count {
+						display: none !important;
+					}
+				}@media only screen and (min-width:479px) and (max-width:718px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-readmore {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+			{ 
+					#mnwall_iso_container_3 .mnwall-item {
+						height: auto !important;
+					}
+					#mnwall_iso_container_3 .mnwall-item-inner {
+						position: static;
+						width: 100% !important;
+					}
+					.mnwall-masonry #mnwall_iso_container_3 .mnwall-item-outer-cont .mnwall-photo-link {
+						z-index: 1;
+						width: 100%;
+						position: relative;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						overflow: hidden;
+						height: 240px !important;
+					}
+					.mnwall-columns #mnwall_iso_container_3 .mnwall-photo-link {
+						height: 240px !important;
+					}
+					
+				#mnwall_iso_container_3 .mnwall-item {
+					width: 100.00% !important;
+				}
+				#mnwall_iso_container_3 .mnwall-item-inner .mnwall-title a,
+				#mnwall_iso_container_3 .mnwall-item-inner .mnwall-title span {
+					font-size: 18px;
+					line-height: 24px;
+				}
+			}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box {
+						display: block !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-title {
+						display: block !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-desc {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-date {
+						display: block !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-item-category {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-item-author {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-hits {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-count {
+						display: none !important;
+					}
+				}@media only screen and (max-width:478px)
+				{
+					#mnwall_iso_container_3 .mnwall-detail-box .mnwall-readmore {
+						display: none !important;
+					}
+				}.jmm-img img {width: 18px; margin-top:-2px}.jmm-img img {width: 18px; margin-top:-2px}.jmm-img img {width: 18px; margin-top:-2px}.jmm-img img {width: 18px; margin-top:-2px}.jmm-img img {width: 18px; margin-top:-2px}.jmm-img img {width: 18px; margin-top:-2px}.jmm-img img {width: 18px; margin-top:-2px}
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"[CHAVE]","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/jui/js/jquery.min.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/vendor/velocity.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/vendor/velocity.ui.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/animations.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/engagebox.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/gatracker.js?[CHAVE]" type="text/javascript"></script>
+	<script src="/plugins/system/rokbox/assets/js/rokbox.js" type="text/javascript"></script>
+	<script src="/templates/shaper_helixultimate/js/popper.min.js" type="text/javascript"></script>
+	<script src="/templates/shaper_helixultimate/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/templates/shaper_helixultimate/js/main.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/assets/js/mootools-mobile.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/assets/js/rokmediaqueries.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/assets/js/roksprocket.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/assets/js/moofx.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/assets/js/roksprocket.request.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/layouts/strips/assets/js/strips.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/layouts/strips/assets/js/strips-speeds.js" type="text/javascript"></script>
+	<script src="https://www.putevi-srbije.rs/modules/mod_rapi_contentmarquee/includes/js/jquery.marquee.js" type="text/javascript"></script>
+	<script src="/media/djextensions/jquery-easing/jquery.easing.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_djimageslider/assets/js/slider.js?v=4.2" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				
+			});if (typeof RokBoxSettings == 'undefined') RokBoxSettings = {pc: '100'};jQuery(window).on('load', function() {
+    var $ = jQuery;
+    var $wrapper = $('.js-marquee-wrapper');
+
+    if ($wrapper.length) {
+        var content = $wrapper.html();
+        $wrapper.append(content);
+        $wrapper.attr('style', function(i, style) {
+            return '';
+        });
+        $wrapper.css('animation-play-state', 'running');
+    }
+});template="shaper_helixultimate";if (typeof RokSprocket == 'undefined') RokSprocket = {};
+Object.merge(RokSprocket, {
+	SiteURL: 'https://www.putevi-srbije.rs/',
+	CurrentURL: 'https://www.putevi-srbije.rs/',
+	AjaxURL: 'https://www.putevi-srbije.rs/index.php?option=com_roksprocket&amp;task=ajax&amp;format=raw&amp;ItemId=104'
+});
+do_nothing( function(){
+		RokSprocket.instances.strips = new RokSprocket.Strips();
+});
+do_nothing( function(){
+	RokSprocket.instances.strips.attach(581, '{"animation":"slide","autoplay":"1","delay":"5"}');
+});
+do_nothing( function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-strips="581"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+function do_nothing() { return; }
+	</script>
+	<link href="https://www.putevi-srbije.rs/index.php" rel="alternate" hreflang="x-default" />
+	<meta property="og:title" content="Насловна"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://www.putevi-srbije.rs/"/>
+	<meta property="og:site_name" content="”Путеви Србије” д.о.о."/>
+	<meta property="og:description" content="&#039;Путеви Србије&#039; д.о.о. основано је сходно Закону о јавним путевима и обавља стручне послове који се односе на трајно, непрекидно и квалитетно одржавање и заштиту, експлоатацију, изградњу, реконструкцију, организацију и контролу наплате путарине, развој и управљање државним путевима првог и другог реда у Републици Србији."/>
+	<meta property="og:locale" content="sr_RS"/>
+	<meta property="og:locale:alternate" content="en_US"/>
+	<meta property="og:locale:alternate" content="sr_YU"/>
+	<script src="/components/com_minitekwall/assets/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+	<script src="/components/com_minitekwall/assets/js/isotope.pkgd.min.js" type="text/javascript"></script>
+	<script src="/components/com_minitekwall/assets/js/packery-mode.pkgd.min.js" type="text/javascript"></script>
+	<script src="/components/com_minitekwall/assets/js/spin.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+			;(function($) {
+				$(function() {
+		
+			// Global variables
+			var token = '[CHAVE]=1';
+			var site_path = 'https://www.putevi-srbije.rs/';
+			var itemid = '104';
+			var closeFilters = 0;
+			var _container = $('#mnwall_container_4');
+			var gridType = parseInt('98o', 10);
+			var layoutMode = 'packery';
+			var hoverBox = '1';
+			var db_position_columns = 'below';
+			var equalHeight = '1';
+			var sortBy = _container.attr('data-order');
+			var sortDirection = _container.attr('data-direction');
+			sortDirection = (sortDirection == null) ? '' : sortDirection = sortDirection.toLowerCase();
+			var sortAscending = sortDirection == 'asc' ? true : false;
+
+			if (sortBy == 'RAND()' || sortBy == 'rand' || sortBy == 'random')
+			{
+				sortBy = ['index'];
+				sortAscending = true;
+			}
+			else
+			{
+				sortBy = [sortBy, 'id', 'title'];
+			}	
+		
+			// Create spinner
+			var loader_opts = {
+				lines: 9,
+				length: 4,
+				width: 3,
+				radius: 3,
+				corners: 1,
+				rotate: 0,
+				direction: 1,
+				color: '#000',
+				speed: 1,
+				trail: 52,
+				shadow: false,
+				hwaccel: false,
+				className: 'spinner',
+				zIndex: 2e9,
+				top: '50%',
+				left: '50%'
+			};
+
+			$('#mnwall_loader_4').append(new Spinner(loader_opts).spin().el).show();
+
+			var transitionDuration = 400;
+			var transitionStagger = 0;
+
+			// Initialize wall
+			var _wall = $('#mnwall_iso_container_4').imagesLoaded(function()
+			{
+				// Instantiate isotope
+				_wall.isotope({
+					// General
+					itemSelector: '.mnwall-item',
+					layoutMode: layoutMode,
+					// Vertical list
+					vertical: {
+						horizontalAlignment: 0
+					},
+					initLayout: false,
+					stagger: transitionStagger,
+					transitionDuration: transitionDuration,
+					
+			hiddenStyle: {
+				opacity: 0, 
+			},
+			visibleStyle: {
+				opacity: 1, 
+			}
+		
+				});
+			});
+
+			// Initiate layout
+			$('.mnwall_container').show();
+
+			_wall.isotope({
+				getSortData: {
+					ordering: '[data-ordering] parseInt',
+					fordering: '[data-fordering] parseInt',
+					hits: '[data-hits] parseInt',
+					title: '[data-title]',
+					id: '[data-id] parseInt',
+					alias: '[data-alias]',
+					date: '[data-date]',
+					modified: '[data-modified]',
+					start: '[data-start]',
+					finish: '[data-finish]',
+					category: '[data-category]',
+					author: '[data-author]',
+					index: '[data-index] parseInt',
+				},
+				sortBy: sortBy,
+				sortAscending: sortAscending
+			});
+
+			_wall.one('arrangeComplete', function() 
+			{
+				fixEqualHeights('all');
+				_container.css('opacity', 1);
+				$('#mnwall_loader_4').hide();
+			});
+
+			// Handle resize
+			var _temp;
+
+			$(window).resize(function()
+			{
+				fixEqualHeights('all');
+				clearTimeout(_temp);
+				_temp = setTimeout(doneBrowserResizing, 500);
+			});
+
+			function doneBrowserResizing()
+			{
+  				_wall.isotope();
+			}
+
+			function fixEqualHeights(items)
+			{
+				if (gridType == '98' && layoutMode == 'fitRows' && db_position_columns == 'below' && equalHeight > 0)
+				{
+					var max_height = 0;
+
+					if (items == 'all')
+					{
+						_container.find('.mnwall-item-inner').each(function(index, item) 
+						{
+							var _this_item_inner = $(this);
+							_this_item_inner.css('height', 'auto');
+
+							if (_this_item_inner.outerHeight() > max_height)
+							{
+								max_height = _this_item_inner.outerHeight();
+							}
+						});
+					}
+					else
+					{
+						$(items).each(function(index, item) 
+						{
+							var _this_item_inner = $(this).find('.mnwall-item-inner');
+							_this_item_inner.css('height', 'auto');
+
+							if (_this_item_inner.outerHeight() > max_height)
+							{
+								max_height = _this_item_inner.outerHeight();
+							}
+						});
+					}
+
+					_container.find('.mnwall-item-inner').css('height', max_height + 'px');
+					setTimeout(function(){ _wall.isotope(); }, 1);
+				}
+			}
+		
+			// Hover effects
+			var hoverBoxEffect = '8';
+
+			// Hover box trigger
+			if (hoverBox == '1') 
+			{
+				var triggerHoverBox = function triggerHoverBox()
+				{
+					if (gridType == 99 || gridType == 98) 
+					{
+						// Hover effects
+						_container.find('.mnwall-item-inner-cont')
+						.mouseenter(function(e) 
+						{
+							if (hoverBoxEffect == 'no') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('hoverShow');
+							}
+							else if (hoverBoxEffect == '1') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('hoverFadeIn');
+							}
+							else if (hoverBoxEffect == '2') 
+							{
+								$(this).closest('.mnwall-item').find('.mnwall-cover').stop().addClass('perspective');
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-img-div').stop().addClass('flip flipY hoverFlipY');
+							}
+							else if (hoverBoxEffect == '3') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-cover').stop().addClass('perspective');
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-img-div').stop().addClass('flip flipX hoverFlipX');
+							}
+							else if (hoverBoxEffect == '4') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('slideInRight');
+							}
+							else if (hoverBoxEffect == '5') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('slideInLeft');
+							}
+							else if (hoverBoxEffect == '6') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('slideInTop');
+							}
+							else if (hoverBoxEffect == '7') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('slideInBottom');
+							}
+							else if (hoverBoxEffect == '8') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('mnwzoomIn');
+							}
+						}).mouseleave(function (e) 
+						{
+							if (hoverBoxEffect == 'no') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('hoverShow');
+							}
+							else if (hoverBoxEffect == '1') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('hoverFadeIn');
+							}
+							else if (hoverBoxEffect == '2') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-img-div').stop().removeClass('hoverFlipY');
+							}
+							else if (hoverBoxEffect == '3') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-img-div').stop().removeClass('hoverFlipX');
+							}
+							else if (hoverBoxEffect == '4') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('slideInRight');
+							}
+							else if (hoverBoxEffect == '5') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('slideInLeft');
+							}
+							else if (hoverBoxEffect == '6') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('slideInTop');
+							}
+							else if (hoverBoxEffect == '7') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('slideInBottom');
+							}
+							else if (hoverBoxEffect == '8') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('mnwzoomIn');
+							}
+						});
+					}
+
+					if (gridType != 98 && gridType != 99) 
+					{
+						// Hover effects
+						_container.find('.mnwall-item')
+						.mouseenter(function(e) 
+						{
+							if (hoverBoxEffect == 'no') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('hoverShow');
+							}
+							else if (hoverBoxEffect == '1') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('hoverFadeIn');
+							}
+							else if (hoverBoxEffect == '2') 
+							{
+								$(this).stop().addClass('perspective');
+								$(this).find('.mnwall-item-outer-cont').stop().addClass('flip flipY hoverFlipY');
+							}
+							else if (hoverBoxEffect == '3') 
+							{
+								$(this).stop().addClass('perspective');
+								$(this).find('.mnwall-item-outer-cont').stop().addClass('flip flipX hoverFlipX');
+							}
+							else if (hoverBoxEffect == '4') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated slideInRight');
+							}
+							else if (hoverBoxEffect == '5') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated slideInLeft');
+							}
+							else if (hoverBoxEffect == '6') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated slideInTop');
+							}
+							else if (hoverBoxEffect == '7') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated slideInBottom');
+							}
+							else if (hoverBoxEffect == '8') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated mnwzoomIn');
+							}
+
+						}).mouseleave(function (e) 
+						{
+							if (hoverBoxEffect == 'no') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('hoverShow');
+							}
+							else if (hoverBoxEffect == '1') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('hoverFadeIn');
+							}
+							else if (hoverBoxEffect == '2') 
+							{
+								$(this).find('.mnwall-item-outer-cont').stop().removeClass('hoverFlipY');
+							}
+							else if (hoverBoxEffect == '3') 
+							{
+								$(this).find('.mnwall-item-outer-cont').stop().removeClass('hoverFlipX');
+							}
+							else if (hoverBoxEffect == '4') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('slideInRight');
+							}
+							else if (hoverBoxEffect == '5') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('slideInLeft');
+							}
+							else if (hoverBoxEffect == '6') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('slideInTop');
+							}
+							else if (hoverBoxEffect == '7') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('slideInBottom');
+							}
+							else if (hoverBoxEffect == '8') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('mnwzoomIn');
+							}
+						});
+					}
+				}
+
+				triggerHoverBox();
+			}
+		
+			// Filters
+			var filters = {};
+
+			$('#mnwall_iso_filters_4').on('click', '.mnwall-filter', function(event)
+			{
+				event.preventDefault();
+
+				// Show filter name in dropdown
+				if ($(this).parents('.mnwall_iso_dropdown').length)
+				{
+					var data_filter_attr = $(this).attr('data-filter');
+
+					if (typeof data_filter_attr !== typeof undefined && data_filter_attr !== false) 
+					{
+						if (data_filter_attr.length)
+						{
+							var filter_text = $(this).text();
+						}
+						else
+						{
+							var filter_text = $(this).closest('.mnwall_iso_dropdown').find('.dropdown-label span').attr('data-label');
+						}
+
+						$(this).closest('.mnwall_iso_dropdown').find('.dropdown-label span span').text(filter_text);
+					}
+				}
+
+				var $this = $(this);
+
+				// get group key
+				var $buttonGroup = $this.parents('.button-group');
+				var filterGroup = $buttonGroup.attr('data-filter-group');
+
+				// set filter for group
+				filters[ filterGroup ] = $this.attr('data-filter');
+
+				// combine filters
+				var filterValue = '';
+
+				for (var prop in filters) 
+				{
+					filterValue += filters[ prop ];
+				}
+
+				// set filter for Isotope
+				_wall.isotope({
+					filter: filterValue
+				});
+			});
+
+			// Change active class on filter buttons
+			var active_Filters = function active_Filters() 
+			{
+				var $activeFilters = _container.find('.button-group').each(function(i, buttonGroup) 
+				{
+					var $buttonGroup = $(buttonGroup);
+
+					$buttonGroup.on('click', 'a', function(event) 
+					{
+						event.preventDefault();
+						$buttonGroup.find('.mnw_filter_active').removeClass('mnw_filter_active');
+						$(this).addClass('mnw_filter_active');
+					});
+				});
+			};
+
+			active_Filters();
+
+			// Dropdown filter list
+			var dropdown_Filters = function dropdown_Filters() 
+			{
+				var $dropdownFilters = _container.find('.mnwall_iso_filters .mnwall_iso_dropdown').each(function(i, dropdownGroup) 
+				{
+					var $dropdownGroup = $(dropdownGroup);
+
+					$dropdownGroup.on('click', '.dropdown-label', function(event) 
+					{
+						event.preventDefault();
+
+						if ($(this).closest('.mnwall_iso_dropdown').hasClass('expanded'))
+						{
+							var filter_open = true;
+						}
+						else
+						{
+							var filter_open = false;
+						}
+
+						$('.mnwall_iso_dropdown').removeClass('expanded');
+
+						if (!filter_open)
+						{
+							$(this).closest('.mnwall_iso_dropdown').addClass('expanded');
+						}
+					});
+				});
+
+				$(document).mouseup(function (e)
+				{
+					_target = e.target;
+					var $dropdowncontainer = _container.find('.mnwall_iso_dropdown');
+					var $filtercontainer = _container.find('.button-group');
+					var $sortingcontainer = _container.find('.sorting-group');
+
+					if (closeFilters === 0)
+					{
+						// Close dropdown when click outside
+						if ($filtercontainer.has(e.target).length === 0
+							&& $sortingcontainer.has(e.target).length === 0
+							&& _target.closest('div')
+							&& !_target.closest('div').classList.contains('dropdown-label')
+							&& $dropdowncontainer.has(e.target).length === 0)
+						{
+							$dropdowncontainer.removeClass('expanded');
+						}
+					}
+					else
+					{
+						// Close dropdown when click inside
+						if (($filtercontainer.has(e.target).length === 0
+							&& $sortingcontainer.has(e.target).length === 0
+							&& _target.closest('div')
+							&& !_target.closest('div').classList.contains('dropdown-label')
+							&& $dropdowncontainer.has(e.target).length === 0)
+							|| _target.classList.contains('mnwall-filter'))
+						{
+							$dropdowncontainer.removeClass('expanded');
+						}
+					}
+				});
+			};
+
+			dropdown_Filters();
+
+			// Bind sort button click
+			_container.find('.sorting-group-filters').on('click', '.mnwall-filter', function(event) 
+			{
+				event.preventDefault();
+
+				// Show sorting name in dropdown
+				if ($(this).closest('.mnwall_iso_dropdown'))
+				{
+					var sorting_text = $(this).text();
+					$(this).closest('.mnwall_iso_dropdown').find('.dropdown-label span span').text(sorting_text);
+				}
+
+				var sortValue = $(this).attr('data-sort-value');
+
+				// Add second ordering: id
+				sortValue = [sortValue, 'id'];
+
+				// set filter for Isotope
+				_wall.isotope({
+					sortBy: sortValue
+				});
+			});
+
+			// Change active class on sorting filters
+			_container.find('.sorting-group-filters').each(function(i, sortingGroup) 
+			{
+				var $sortingGroup = $(sortingGroup);
+
+				$sortingGroup.on('click', '.mnwall-filter', function() 
+				{
+					$sortingGroup.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$(this).addClass('mnw_filter_active');
+				});
+			});
+
+			// Bind sorting direction button click
+			_container.find('.sorting-group-direction').on('click', '.mnwall-filter', function(event) 
+			{
+				event.preventDefault();
+
+				// Show sorting name in dropdown
+				if ($(this).closest('.mnwall_iso_dropdown'))
+				{
+					var sorting_text = $(this).text();
+					$(this).closest('.mnwall_iso_dropdown').find('.dropdown-label span span').text(sorting_text);
+				}
+				
+				var sortDirection = $(this).attr('data-sort-value');
+
+				if (sortDirection == 'asc') 
+				{
+					sort_Direction = true;
+				} 
+				else 
+				{
+					sort_Direction = false;
+				}
+
+				// set direction
+				_wall.isotope({
+					sortAscending: sort_Direction
+				});
+			});
+
+			// Change active class on sorting direction
+			_container.find('.sorting-group-direction').each(function(i, sortingDirection) 
+			{
+				var $sortingDirection = $(sortingDirection);
+
+				$sortingDirection.on('click', '.mnwall-filter', function() 
+				{
+					$sortingDirection.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$(this).addClass('mnw_filter_active');
+				});
+			});
+
+			// Dropdown sorting list
+			var dropdown_Sortings = function dropdown_Sortings() 
+			{
+				var $dropdownSortings = _container.find('.mnwall_iso_sortings .mnwall_iso_dropdown').each(function(i, dropdownSorting) 
+				{
+					var $dropdownSorting = $(dropdownSorting);
+
+					$dropdownSorting.on('click', '.dropdown-label', function(event) 
+					{
+						event.preventDefault();
+
+						if ($(this).closest('.mnwall_iso_dropdown').hasClass('expanded'))
+						{
+							var sorting_open = true;
+						}
+						else
+						{
+							var sorting_open = false;
+						}
+
+						$('.mnwall_iso_dropdown').removeClass('expanded');
+
+						if (!sorting_open)
+						{
+							$(this).closest('.mnwall_iso_dropdown').addClass('expanded');
+						}
+					});
+				});
+			};
+
+			dropdown_Sortings();
+
+			// Reset Filters and sortings
+			function reset_filters()
+			{
+				var $resetFilters = _container.find('.button-group').each(function(i, buttonGroup) 
+				{
+					var $buttonGroup = $(buttonGroup);
+					$buttonGroup.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$buttonGroup.find('li:first-child a').addClass('mnw_filter_active');
+
+					// Reset filters
+					var filterGroup = $buttonGroup.attr('data-filter-group');
+					filters[ filterGroup ] = '';
+				});
+
+				// Reset dropdown filters text
+				_container.find('.mnwall_iso_dropdown').each(function(i, dropdownGroup) 
+				{
+					var filter_text = $(dropdownGroup).find('.dropdown-label span').attr('data-label');
+					$(dropdownGroup).find('.dropdown-label span span').text(filter_text);
+				});
+
+				// Get first item in sortBy array
+				var $resetSortings = _container.find('.sorting-group-filters').each(function(i, sortingGroup) 
+				{
+					var $sortingGroup = $(sortingGroup);
+					$sortingGroup.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$sortingGroup.find('li a[data-sort-value="'+sortBy[0]+'"]').addClass('mnw_filter_active');
+				});
+
+				var $resetSortingDirection = _container.find('.sorting-group-direction').each(function(i, sortingGroupDirection) 
+				{
+					var $sortingGroupDirection = $(sortingGroupDirection);
+					$sortingGroupDirection.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$sortingGroupDirection.find('li a[data-sort-value="'+sortDirection+'"]').addClass('mnw_filter_active');
+				});
+
+				// set filter for Isotope
+				_wall.isotope({
+					filter: '',
+					sortBy: sortBy,
+					sortAscending: sortAscending
+				});
+			}
+
+			$('#mnwall_reset_4, #mnwall_container_4 .mnwall-reset-btn').on('click', '', function(event)
+			{
+				event.preventDefault();
+
+				reset_filters();
+			});
+		
+				})
+			})(jQuery);	
+		</script>
+	<script type="text/javascript">
+			;(function($) {
+				$(function() {
+		
+			// Global variables
+			var token = '[CHAVE]=1';
+			var site_path = 'https://www.putevi-srbije.rs/';
+			var itemid = '104';
+			var closeFilters = 0;
+			var _container = $('#mnwall_container_3');
+			var gridType = parseInt('98o', 10);
+			var layoutMode = 'fitRows';
+			var hoverBox = '1';
+			var db_position_columns = 'below';
+			var equalHeight = '0';
+			var sortBy = _container.attr('data-order');
+			var sortDirection = _container.attr('data-direction');
+			sortDirection = (sortDirection == null) ? '' : sortDirection = sortDirection.toLowerCase();
+			var sortAscending = sortDirection == 'asc' ? true : false;
+
+			if (sortBy == 'RAND()' || sortBy == 'rand' || sortBy == 'random')
+			{
+				sortBy = ['index'];
+				sortAscending = true;
+			}
+			else
+			{
+				sortBy = [sortBy, 'id', 'title'];
+			}	
+		
+			// Create spinner
+			var loader_opts = {
+				lines: 9,
+				length: 4,
+				width: 3,
+				radius: 3,
+				corners: 1,
+				rotate: 0,
+				direction: 1,
+				color: '#000',
+				speed: 1,
+				trail: 52,
+				shadow: false,
+				hwaccel: false,
+				className: 'spinner',
+				zIndex: 2e9,
+				top: '50%',
+				left: '50%'
+			};
+
+			$('#mnwall_loader_3').append(new Spinner(loader_opts).spin().el).show();
+
+			var transitionDuration = 400;
+			var transitionStagger = 0;
+
+			// Initialize wall
+			var _wall = $('#mnwall_iso_container_3').imagesLoaded(function()
+			{
+				// Instantiate isotope
+				_wall.isotope({
+					// General
+					itemSelector: '.mnwall-item',
+					layoutMode: layoutMode,
+					// Vertical list
+					vertical: {
+						horizontalAlignment: 0
+					},
+					initLayout: false,
+					stagger: transitionStagger,
+					transitionDuration: transitionDuration,
+					
+			hiddenStyle: {
+				opacity: 0, transform: 'scale(0.001)'
+			},
+			visibleStyle: {
+				opacity: 1, transform: 'scale(1)'
+			}
+		
+				});
+			});
+
+			// Initiate layout
+			$('.mnwall_container').show();
+
+			_wall.isotope({
+				getSortData: {
+					ordering: '[data-ordering] parseInt',
+					fordering: '[data-fordering] parseInt',
+					hits: '[data-hits] parseInt',
+					title: '[data-title]',
+					id: '[data-id] parseInt',
+					alias: '[data-alias]',
+					date: '[data-date]',
+					modified: '[data-modified]',
+					start: '[data-start]',
+					finish: '[data-finish]',
+					category: '[data-category]',
+					author: '[data-author]',
+					index: '[data-index] parseInt',
+				},
+				sortBy: sortBy,
+				sortAscending: sortAscending
+			});
+
+			_wall.one('arrangeComplete', function() 
+			{
+				fixEqualHeights('all');
+				_container.css('opacity', 1);
+				$('#mnwall_loader_3').hide();
+			});
+
+			// Handle resize
+			var _temp;
+
+			$(window).resize(function()
+			{
+				fixEqualHeights('all');
+				clearTimeout(_temp);
+				_temp = setTimeout(doneBrowserResizing, 500);
+			});
+
+			function doneBrowserResizing()
+			{
+  				_wall.isotope();
+			}
+
+			function fixEqualHeights(items)
+			{
+				if (gridType == '98' && layoutMode == 'fitRows' && db_position_columns == 'below' && equalHeight > 0)
+				{
+					var max_height = 0;
+
+					if (items == 'all')
+					{
+						_container.find('.mnwall-item-inner').each(function(index, item) 
+						{
+							var _this_item_inner = $(this);
+							_this_item_inner.css('height', 'auto');
+
+							if (_this_item_inner.outerHeight() > max_height)
+							{
+								max_height = _this_item_inner.outerHeight();
+							}
+						});
+					}
+					else
+					{
+						$(items).each(function(index, item) 
+						{
+							var _this_item_inner = $(this).find('.mnwall-item-inner');
+							_this_item_inner.css('height', 'auto');
+
+							if (_this_item_inner.outerHeight() > max_height)
+							{
+								max_height = _this_item_inner.outerHeight();
+							}
+						});
+					}
+
+					_container.find('.mnwall-item-inner').css('height', max_height + 'px');
+					setTimeout(function(){ _wall.isotope(); }, 1);
+				}
+			}
+		
+			// Hover effects
+			var hoverBoxEffect = '8';
+
+			// Hover box trigger
+			if (hoverBox == '1') 
+			{
+				var triggerHoverBox = function triggerHoverBox()
+				{
+					if (gridType == 99 || gridType == 98) 
+					{
+						// Hover effects
+						_container.find('.mnwall-item-inner-cont')
+						.mouseenter(function(e) 
+						{
+							if (hoverBoxEffect == 'no') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('hoverShow');
+							}
+							else if (hoverBoxEffect == '1') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('hoverFadeIn');
+							}
+							else if (hoverBoxEffect == '2') 
+							{
+								$(this).closest('.mnwall-item').find('.mnwall-cover').stop().addClass('perspective');
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-img-div').stop().addClass('flip flipY hoverFlipY');
+							}
+							else if (hoverBoxEffect == '3') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-cover').stop().addClass('perspective');
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-img-div').stop().addClass('flip flipX hoverFlipX');
+							}
+							else if (hoverBoxEffect == '4') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('slideInRight');
+							}
+							else if (hoverBoxEffect == '5') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('slideInLeft');
+							}
+							else if (hoverBoxEffect == '6') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('slideInTop');
+							}
+							else if (hoverBoxEffect == '7') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('slideInBottom');
+							}
+							else if (hoverBoxEffect == '8') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().addClass('mnwzoomIn');
+							}
+						}).mouseleave(function (e) 
+						{
+							if (hoverBoxEffect == 'no') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('hoverShow');
+							}
+							else if (hoverBoxEffect == '1') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('hoverFadeIn');
+							}
+							else if (hoverBoxEffect == '2') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-img-div').stop().removeClass('hoverFlipY');
+							}
+							else if (hoverBoxEffect == '3') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-img-div').stop().removeClass('hoverFlipX');
+							}
+							else if (hoverBoxEffect == '4') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('slideInRight');
+							}
+							else if (hoverBoxEffect == '5') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('slideInLeft');
+							}
+							else if (hoverBoxEffect == '6') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('slideInTop');
+							}
+							else if (hoverBoxEffect == '7') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('slideInBottom');
+							}
+							else if (hoverBoxEffect == '8') 
+							{
+								$(this).closest('.mnwall-item-outer-cont').find('.mnwall-hover-box').stop().removeClass('mnwzoomIn');
+							}
+						});
+					}
+
+					if (gridType != 98 && gridType != 99) 
+					{
+						// Hover effects
+						_container.find('.mnwall-item')
+						.mouseenter(function(e) 
+						{
+							if (hoverBoxEffect == 'no') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('hoverShow');
+							}
+							else if (hoverBoxEffect == '1') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('hoverFadeIn');
+							}
+							else if (hoverBoxEffect == '2') 
+							{
+								$(this).stop().addClass('perspective');
+								$(this).find('.mnwall-item-outer-cont').stop().addClass('flip flipY hoverFlipY');
+							}
+							else if (hoverBoxEffect == '3') 
+							{
+								$(this).stop().addClass('perspective');
+								$(this).find('.mnwall-item-outer-cont').stop().addClass('flip flipX hoverFlipX');
+							}
+							else if (hoverBoxEffect == '4') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated slideInRight');
+							}
+							else if (hoverBoxEffect == '5') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated slideInLeft');
+							}
+							else if (hoverBoxEffect == '6') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated slideInTop');
+							}
+							else if (hoverBoxEffect == '7') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated slideInBottom');
+							}
+							else if (hoverBoxEffect == '8') 
+							{
+								$(this).find('.mnwall-hover-box').stop().addClass('animated mnwzoomIn');
+							}
+
+						}).mouseleave(function (e) 
+						{
+							if (hoverBoxEffect == 'no') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('hoverShow');
+							}
+							else if (hoverBoxEffect == '1') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('hoverFadeIn');
+							}
+							else if (hoverBoxEffect == '2') 
+							{
+								$(this).find('.mnwall-item-outer-cont').stop().removeClass('hoverFlipY');
+							}
+							else if (hoverBoxEffect == '3') 
+							{
+								$(this).find('.mnwall-item-outer-cont').stop().removeClass('hoverFlipX');
+							}
+							else if (hoverBoxEffect == '4') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('slideInRight');
+							}
+							else if (hoverBoxEffect == '5') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('slideInLeft');
+							}
+							else if (hoverBoxEffect == '6') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('slideInTop');
+							}
+							else if (hoverBoxEffect == '7') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('slideInBottom');
+							}
+							else if (hoverBoxEffect == '8') 
+							{
+								$(this).find('.mnwall-hover-box').stop().removeClass('mnwzoomIn');
+							}
+						});
+					}
+				}
+
+				triggerHoverBox();
+			}
+		
+			// Filters
+			var filters = {};
+
+			$('#mnwall_iso_filters_3').on('click', '.mnwall-filter', function(event)
+			{
+				event.preventDefault();
+
+				// Show filter name in dropdown
+				if ($(this).parents('.mnwall_iso_dropdown').length)
+				{
+					var data_filter_attr = $(this).attr('data-filter');
+
+					if (typeof data_filter_attr !== typeof undefined && data_filter_attr !== false) 
+					{
+						if (data_filter_attr.length)
+						{
+							var filter_text = $(this).text();
+						}
+						else
+						{
+							var filter_text = $(this).closest('.mnwall_iso_dropdown').find('.dropdown-label span').attr('data-label');
+						}
+
+						$(this).closest('.mnwall_iso_dropdown').find('.dropdown-label span span').text(filter_text);
+					}
+				}
+
+				var $this = $(this);
+
+				// get group key
+				var $buttonGroup = $this.parents('.button-group');
+				var filterGroup = $buttonGroup.attr('data-filter-group');
+
+				// set filter for group
+				filters[ filterGroup ] = $this.attr('data-filter');
+
+				// combine filters
+				var filterValue = '';
+
+				for (var prop in filters) 
+				{
+					filterValue += filters[ prop ];
+				}
+
+				// set filter for Isotope
+				_wall.isotope({
+					filter: filterValue
+				});
+			});
+
+			// Change active class on filter buttons
+			var active_Filters = function active_Filters() 
+			{
+				var $activeFilters = _container.find('.button-group').each(function(i, buttonGroup) 
+				{
+					var $buttonGroup = $(buttonGroup);
+
+					$buttonGroup.on('click', 'a', function(event) 
+					{
+						event.preventDefault();
+						$buttonGroup.find('.mnw_filter_active').removeClass('mnw_filter_active');
+						$(this).addClass('mnw_filter_active');
+					});
+				});
+			};
+
+			active_Filters();
+
+			// Dropdown filter list
+			var dropdown_Filters = function dropdown_Filters() 
+			{
+				var $dropdownFilters = _container.find('.mnwall_iso_filters .mnwall_iso_dropdown').each(function(i, dropdownGroup) 
+				{
+					var $dropdownGroup = $(dropdownGroup);
+
+					$dropdownGroup.on('click', '.dropdown-label', function(event) 
+					{
+						event.preventDefault();
+
+						if ($(this).closest('.mnwall_iso_dropdown').hasClass('expanded'))
+						{
+							var filter_open = true;
+						}
+						else
+						{
+							var filter_open = false;
+						}
+
+						$('.mnwall_iso_dropdown').removeClass('expanded');
+
+						if (!filter_open)
+						{
+							$(this).closest('.mnwall_iso_dropdown').addClass('expanded');
+						}
+					});
+				});
+
+				$(document).mouseup(function (e)
+				{
+					_target = e.target;
+					var $dropdowncontainer = _container.find('.mnwall_iso_dropdown');
+					var $filtercontainer = _container.find('.button-group');
+					var $sortingcontainer = _container.find('.sorting-group');
+
+					if (closeFilters === 0)
+					{
+						// Close dropdown when click outside
+						if ($filtercontainer.has(e.target).length === 0
+							&& $sortingcontainer.has(e.target).length === 0
+							&& _target.closest('div')
+							&& !_target.closest('div').classList.contains('dropdown-label')
+							&& $dropdowncontainer.has(e.target).length === 0)
+						{
+							$dropdowncontainer.removeClass('expanded');
+						}
+					}
+					else
+					{
+						// Close dropdown when click inside
+						if (($filtercontainer.has(e.target).length === 0
+							&& $sortingcontainer.has(e.target).length === 0
+							&& _target.closest('div')
+							&& !_target.closest('div').classList.contains('dropdown-label')
+							&& $dropdowncontainer.has(e.target).length === 0)
+							|| _target.classList.contains('mnwall-filter'))
+						{
+							$dropdowncontainer.removeClass('expanded');
+						}
+					}
+				});
+			};
+
+			dropdown_Filters();
+
+			// Bind sort button click
+			_container.find('.sorting-group-filters').on('click', '.mnwall-filter', function(event) 
+			{
+				event.preventDefault();
+
+				// Show sorting name in dropdown
+				if ($(this).closest('.mnwall_iso_dropdown'))
+				{
+					var sorting_text = $(this).text();
+					$(this).closest('.mnwall_iso_dropdown').find('.dropdown-label span span').text(sorting_text);
+				}
+
+				var sortValue = $(this).attr('data-sort-value');
+
+				// Add second ordering: id
+				sortValue = [sortValue, 'id'];
+
+				// set filter for Isotope
+				_wall.isotope({
+					sortBy: sortValue
+				});
+			});
+
+			// Change active class on sorting filters
+			_container.find('.sorting-group-filters').each(function(i, sortingGroup) 
+			{
+				var $sortingGroup = $(sortingGroup);
+
+				$sortingGroup.on('click', '.mnwall-filter', function() 
+				{
+					$sortingGroup.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$(this).addClass('mnw_filter_active');
+				});
+			});
+
+			// Bind sorting direction button click
+			_container.find('.sorting-group-direction').on('click', '.mnwall-filter', function(event) 
+			{
+				event.preventDefault();
+
+				// Show sorting name in dropdown
+				if ($(this).closest('.mnwall_iso_dropdown'))
+				{
+					var sorting_text = $(this).text();
+					$(this).closest('.mnwall_iso_dropdown').find('.dropdown-label span span').text(sorting_text);
+				}
+				
+				var sortDirection = $(this).attr('data-sort-value');
+
+				if (sortDirection == 'asc') 
+				{
+					sort_Direction = true;
+				} 
+				else 
+				{
+					sort_Direction = false;
+				}
+
+				// set direction
+				_wall.isotope({
+					sortAscending: sort_Direction
+				});
+			});
+
+			// Change active class on sorting direction
+			_container.find('.sorting-group-direction').each(function(i, sortingDirection) 
+			{
+				var $sortingDirection = $(sortingDirection);
+
+				$sortingDirection.on('click', '.mnwall-filter', function() 
+				{
+					$sortingDirection.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$(this).addClass('mnw_filter_active');
+				});
+			});
+
+			// Dropdown sorting list
+			var dropdown_Sortings = function dropdown_Sortings() 
+			{
+				var $dropdownSortings = _container.find('.mnwall_iso_sortings .mnwall_iso_dropdown').each(function(i, dropdownSorting) 
+				{
+					var $dropdownSorting = $(dropdownSorting);
+
+					$dropdownSorting.on('click', '.dropdown-label', function(event) 
+					{
+						event.preventDefault();
+
+						if ($(this).closest('.mnwall_iso_dropdown').hasClass('expanded'))
+						{
+							var sorting_open = true;
+						}
+						else
+						{
+							var sorting_open = false;
+						}
+
+						$('.mnwall_iso_dropdown').removeClass('expanded');
+
+						if (!sorting_open)
+						{
+							$(this).closest('.mnwall_iso_dropdown').addClass('expanded');
+						}
+					});
+				});
+			};
+
+			dropdown_Sortings();
+
+			// Reset Filters and sortings
+			function reset_filters()
+			{
+				var $resetFilters = _container.find('.button-group').each(function(i, buttonGroup) 
+				{
+					var $buttonGroup = $(buttonGroup);
+					$buttonGroup.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$buttonGroup.find('li:first-child a').addClass('mnw_filter_active');
+
+					// Reset filters
+					var filterGroup = $buttonGroup.attr('data-filter-group');
+					filters[ filterGroup ] = '';
+				});
+
+				// Reset dropdown filters text
+				_container.find('.mnwall_iso_dropdown').each(function(i, dropdownGroup) 
+				{
+					var filter_text = $(dropdownGroup).find('.dropdown-label span').attr('data-label');
+					$(dropdownGroup).find('.dropdown-label span span').text(filter_text);
+				});
+
+				// Get first item in sortBy array
+				var $resetSortings = _container.find('.sorting-group-filters').each(function(i, sortingGroup) 
+				{
+					var $sortingGroup = $(sortingGroup);
+					$sortingGroup.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$sortingGroup.find('li a[data-sort-value="'+sortBy[0]+'"]').addClass('mnw_filter_active');
+				});
+
+				var $resetSortingDirection = _container.find('.sorting-group-direction').each(function(i, sortingGroupDirection) 
+				{
+					var $sortingGroupDirection = $(sortingGroupDirection);
+					$sortingGroupDirection.find('.mnw_filter_active').removeClass('mnw_filter_active');
+					$sortingGroupDirection.find('li a[data-sort-value="'+sortDirection+'"]').addClass('mnw_filter_active');
+				});
+
+				// set filter for Isotope
+				_wall.isotope({
+					filter: '',
+					sortBy: sortBy,
+					sortAscending: sortAscending
+				});
+			}
+
+			$('#mnwall_reset_3, #mnwall_container_3 .mnwall-reset-btn').on('click', '', function(event)
+			{
+				event.preventDefault();
+
+				reset_filters();
+			});
+		
+				})
+			})(jQuery);	
+		</script>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5152763-1"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-5152763-1');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q72JLZK1P3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q72JLZK1P3');
+</script>
+    </head>
+    <body class="site helix-ultimate com-content view-article layout-default task-none itemid-104 sr-rs ltr layout-fluid offcanvas-init offcanvs-position-right">
+    
+    <div class="body-wrapper">
+        <div class="body-innerwrapper">
+                        <section id="sp-top-bar"><div class="row"><div id="sp-search" class="col-3 col-sm-3 col-md-3 col-lg-10 "><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class="search">
+	<form action="/index.php" method="post">
+		<input name="searchword" id="mod-search-searchword150" class="form-control" type="search" placeholder="тражи...">		<input type="hidden" name="task" value="search">
+		<input type="hidden" name="option" value="com_search">
+		<input type="hidden" name="Itemid" value="104">
+	</form>
+</div>
+</div></div></div></div><div id="sp-lang" class="col-3 col-sm-3 col-md-3 col-lg-2 "><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class="mod-languages">
+
+	<ul class="lang-inline">
+						<li dir="ltr">
+			<a href="/index.php/sr/">
+												<img src="/media/mod_languages/images/sr_yu.gif" alt="Latinica" title="Latinica" />										</a>
+			</li>
+											<li dir="ltr">
+			<a href="/index.php/en/">
+												<img src="/media/mod_languages/images/en.gif" alt="English" title="English" />										</a>
+			</li>
+				</ul>
+
+</div>
+</div></div><div class="sp-module  header"><div class="sp-module-content">
+<div id="jmm-social-562" class="jmm-social override  header">
+	<div class="jmm-social-in view-1">
+				<ul class="jmm-list items-7"><li class="jmm-item item-1 youtube"><a class="jmm-link" href="https://www.youtube.com/channel/UC1GJ8jwBh0Tr4hE0B-YMZHA" target="_blank" aria-label="YouTube" title="YouTube"><span class="jmm-ico fab fa-youtube" aria-hidden="true"></span></a></li><li class="jmm-item item-2 facebook"><a class="jmm-link" href="https://www.facebook.com/profile.php?id=61558483555288" target="_blank" aria-label="Facebook" title="Facebook"><span class="jmm-ico fab fa-facebook" aria-hidden="true"></span></a></li><li class="jmm-item item-3 instagram"><a class="jmm-link" href="https://www.instagram.com/putevisrbije_official?igsh=Y2RiZXh5azh4dzdt" target="_blank" aria-label="Instagram" title="Instagram"><span class="jmm-ico fab fa-instagram" aria-hidden="true"></span></a></li><li class="jmm-item item-4 twitter"><a class="jmm-link" href="https://x.com/putevisrbije" target="_blank" aria-label="Twitter" title="Twitter"><span class="jmm-img"><img src="/images/infocentar/tweet-X-white.png" alt="Twitter"></span></a></li><li class="jmm-item item-5 linkedin"><a class="jmm-link" href="https://www.linkedin.com/company/jp-putevi-srbije-pe-roads-of-serbia" target="_blank" aria-label="LinkedIn" title="LinkedIn"><span class="jmm-ico fab fa-linkedin" aria-hidden="true"></span></a></li><li class="jmm-item item-6 appstore"><a class="jmm-link" href="https://apps.apple.com/hr/app/putevi-srbije/id1265709081" target="_blank" aria-label="AppStore" title="AppStore"><span class="jmm-ico fab fa-apple" aria-hidden="true"></span></a></li><li class="jmm-item item-7 googleplay"><a class="jmm-link" href="https://play.google.com/store/apps/details?id=com.putevi.srbije&hl=sr" target="_blank" aria-label="Google Play" title="Google Play"><span class="jmm-ico fab fa-android" aria-hidden="true"></span></a></li></ul>	</div>
+</div>
+</div></div></div></div></div></section><header id="sp-header"><div class="container"><div class="container-inner"><div class="row"><div id="sp-logo" class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 "><div class="sp-column "><div class="logo"><a href="/"><img class="logo-image" src="/images/Putevi-Srbije-logo.png" alt="”Путеви Србије” д.о.о."></a></div></div></div><div id="sp-menu" class="col-3 col-sm-3 col-md-3 col-lg-9 "><div class="sp-column "><nav class="sp-megamenu-wrapper" role="navigation"><a id="offcanvas-toggler" aria-label="Navigation" class="offcanvas-toggler-right d-block d-lg-none" href="#"><i class="fa fa-bars" aria-hidden="true" title="Navigation"></i></a><ul class="sp-megamenu-parent menu-animation-fade-up d-none d-lg-block"><li class="sp-menu-item current-item active"><a  href="/index.php" ><span class="fa fa-home"></span></a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/о-нама" >О нама</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/images/pdf/organi_upravljanja/2018-03-16-Eticki-kodeksc-JPPS.pdf" target="_blank" >Етички кодекс</a></li><li class="sp-menu-item"><a  href="/index.php/о-нама/интегрисани-менаџмент-системи" >Интегрисани менаџмент системи</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/организација" >Организација</a><div class="sp-dropdown sp-dropdown-main sp-dropdown-mega sp-menu-full container" style=""><div class="sp-dropdown-inner"><div class="row"><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-123 menu_item item-header"><a  href="/index.php/организација/органи-јавног-предузећа" >Органи Друштва</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/органи-јавног-предузећа/скупштина" >Скупштина</a></li><li class="sp-menu-item"><a  href="/index.php/организација/органи-јавног-предузећа/надзорни-одбор" >Надзорни одбор</a></li><li class="sp-menu-item"><a  href="/index.php/организација/органи-јавног-предузећа/директор" >Директор</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-279 menu_item item-header"><a  href="/index.php/организација/сектор-за-стратегију-пројектовање-и-развој" >Сектор за стратегију, пројектовање и развој</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-стратегију-пројектовање-и-развој/одељење-за-техничку-припрему" >Одељење техничке припреме</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-стратегију-пројектовање-и-развој/одељење-за-стратешко-планирање,-студије-и-развој" >Одељење за стратешко планирање, студије и развој</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-стратегију-пројектовање-и-развој/одељење-за-пројектну-документацију" >Одељење за пројектну документацију</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-стратегију-пројектовање-и-развој/одељење-за-безбедност-саобраћаја" >Одељење за безбедност саобраћаја</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-стратегију-пројектовање-и-развој/одељење-за-заштиту-животне-средине" >Одељење за заштиту животне средине</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-стратегију-пројектовање-и-развој/одељење-за-енергетски-менаџмент" >Одељење за енергетски менаџмент</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-стратегију-пројектовање-и-развој/одељење-за-планску-документацију-2" >Одељење за планску документацију</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-306 menu_item item-header"><a  href="/index.php/организација/сектор-за-инвестиције" >Сектор за инвестиције</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-инвестиције/одељење-за-припрему" >Одељење за техничку припрему</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-инвестиције/одељење-за-надзор" >Одељење за оперативно управљање и надзор на пројектима</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-инвестиције/одељење-за-реализацију-и-управљање" >Одељење за праћење реализације и планско-аналитичке послове</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-инвестиције/одељење-за-анализу-и-решавање-одштетних-захтева" >Одељење за анализу и решавање одштетних захтева</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-инвестиције/одељење-за-финансијско-управљање-пројектима" >Одељење за финансијско управљање пројектима</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-инвестиције/одељење-за-екологију-и-друштвено-окужење" >Одељење за екологију и друштвено окружење</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-176 menu_item item-header"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда" >Сектор за одржавање државних путева I и II реда</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-техничких-послова" >Одељење за техничке послове</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-одржавања-и-заштите-путних-објеката" >Одељење за путне објекте</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-одржавања-и-заштите-путних-објеката-2" >Одељење за електроенергетске инсталације и техничку инфраструктуру</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-одржавања-и-заштите-аутопутева-2" >Одељење за заштиту путева</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-одржавања-и-заштите-аутопутева" >Одељење за аутопутеве и мотопутеве</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-београд" >Одељење Београд</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-нови-сад" >Одељење Нови Сад</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-ниш" >Одељење Ниш</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/odeljenje-užice-3" >Одељење Ужице</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-одржавање-јавних-путева-i-и-ii-реда/одељење-косовска-митровица" >Одељење Косовска Митровица</a></li><li class="sp-menu-item"></li><li class="sp-menu-item"></li></ul></li></ul></div></div><div class="row"><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-301 menu_item item-header"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају" >Сектор за управљачко информационе системе у саобраћају</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/одељење-за-итс" >Одељење за развој и имплементацију ИТС-а</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/национални-центар-за-надзор-и-управљање-саобраћајем" >Национални центар за надзор и управљање саобраћајем</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/национални-центар-за-надзор-и-управљање-саобраћајем/одељење-регионални-центар-београд" >Одељење регионални центар Београд</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/национални-центар-за-надзор-и-управљање-саобраћајем/одељење-регионални-центар-чачак" >Одељење регионални центар Чачак</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/национални-центар-за-надзор-и-управљање-саобраћајем/одељење-регионални-центар-ниш" >Одељење регионални центар Ниш</a></li><li class="sp-menu-item"><a  href="#" >Одељење регионални центар Нови Сад</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/одељење-базе-података" >Одељење базе података и геоинформационих система</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/одељење-обраде-података" >Одељење обраде података - АОП</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/одељење-за-одржавање-управљачко-информационих-система" >Одељење за одржавање управљачко информационих система</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/информативни-центар-2" >Информативни центар</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/одељење-квалитета" >Одељење контроле и обезбеђења квалитета</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/одељење-за-интегрисане-менаџмент-системе-и-системе-за-подршку-пословања-предузећа" >Одељење за интегрисане менаџмент системе и системе за подршку пословања предузећа</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/одељење-за-безбедност-и-здравље,-заштиту-од-пожара-и-спасавање-на-раду" >Одељење за безбедност и здравље, заштиту од пожара и ванредне ситуације</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-234 menu_item item-header"><a  href="/index.php/организација/сектор-наплате-путарине" >Сектор за наплату путарине</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/сектор-наплате-путарине/одељење-надзора-наплате-путарине" >Одељење за надзор наплате путарине</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-наплате-путарине/одељење-за-оперативну-наплату-путарине" >Одељење за оперативну наплату путарине</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-наплате-путарине/одељење-за-електронску-наплату-путарине" >Одељење за електронску наплату путарине</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-наплате-путарине/одељење-заједничких-послова-сектора" >Одељење за заједничке послове сектора</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-259 menu_item item-header"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове" >Сектор за правне, кадровске и опште послове</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове/одељење-за-парнични-и-прекршајни-поступак" >Одељење за парнични и прекршајни поступак</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове/одељење-за-имовинско-правне-послове" >Одељење за имовинско-правне послове</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове/одељење-за-радне-односе-и-кадровске-послове" >Одељење за радне односе и кадровске послове</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове/одељење-за-јавне-набавке-и-уговоре" >Одељење за јавне набавке и уговоре</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове/одељење-за-опште-послове" >Одељење за опште послове</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове/одељење-за-геодезију" >Одељење за геодезију</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове/одељење-за-ванпарнични-поступак" >Одељење за ванпарнични поступак</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-правне,-кадровске-и-опште-послове/одељење-за-нормативне-и-статусне-послове" >Одељење за нормативне и статусне послове</a></li><li class="sp-menu-item"><a  href="#" >Одељење за укњижбу непокретности</a></li></ul></li></ul></div><div class="col-sm-3"><ul class="sp-mega-group"><li class="item-238 menu_item item-header"><a  href="/index.php/организација/сектор-за-економско-финансијске-и-комерцијалне-послове" >Сектор за економско финансијске и комерцијалне послове</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-економско-финансијске-и-комерцијалне-послове/одељење-рачуноводствених-послова" >Одељење рачуноводствених послова</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-економско-финансијске-и-комерцијалне-послове/одељење-обрачуна-зарада" >Одељење обрачуна зарада</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-економско-финансијске-и-комерцијалне-послове/одељење-финансијских-послова" >Одељење финансијских послова</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-економско-финансијске-и-комерцијалне-послове/одељење-за-план,-развој,-инвестиционе-послове-и-ино-кредите" >Одељење за план, развој, инвестиционе послове и ино кредите</a></li><li class="sp-menu-item"><a  href="/index.php/организација/сектор-за-економско-финансијске-и-комерцијалне-послове/одељење-за-комерцијалне-послове" >Одељење за комерцијалне послове</a></li></ul></li></ul></div></div></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/набавке" >Набавке</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/набавке/радови-набавке" >Радови</a></li><li class="sp-menu-item"><a  href="/index.php/набавке/услуге" >Услуге</a></li><li class="sp-menu-item"><a  href="/index.php/набавке/добра" >Добра</a></li><li class="sp-menu-item"><a  href="/index.php/набавке/записници-о-отварању-понуда" >Записници о отварању понуда</a></li><li class="sp-menu-item"><a  href="/index.php/набавке/план-јавних-набавки" >План јавних набавки</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/галерија" >Галерија</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item sp-has-child"><a  href="/index.php/галерија/фото-галерија" >Фото галерија</a><div class="sp-dropdown sp-dropdown-sub sp-menu-left" style="width: 240px;left: -240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/завршени-пројекти-пуштање-у-саобраћај" >Завршени пројекти</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/обиласци" >Обиласци радова</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/важни-пројекти" >Важни пројекти</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/радови-изградња-рехабилитација" >Радови, изградња, рехабилитација</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/обновљени-објекти-мостови" >Обновљени путни објекти</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/наплатне-станице" >Наплатне станице</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/опен-балкан" >TOLL FOR ALL</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/рехабилитоване-деонице-у-оквиру-ррсп-пројекта" >Пројекат рехабилитације путева и унапређења безбедности саобраћаја</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/3-секунде-цео-живот" >Едукативне кампање</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/промоције-енп" >Сајмови и промоције </a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/конгреси-конференције-презентације" >Конгреси/конференције</a></li><li class="sp-menu-item"><a  href="/index.php/галерија/фото-галерија/остало" >Остало</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/галерија/видео-галерија" >Видео галерија</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/огласи" >Јавни позиви и огласи</a></li><li class="sp-menu-item"><a  href="/index.php/press-cir" >Прес</a></li><li class="sp-menu-item"><a  href="/index.php/контакт-јппс" >Контакт</a></li></ul></nav></div></div></div></div></div></header><section id="sp-top1"><div class="row"><div id="sp-top1" class="col-lg-12 "><div class="sp-column "><div class="sp-module  slajder"><div class="sp-module-content">
+
+<div style="border: 0px !important;">
+    <div id="djslider-loader511" class="djslider-loader djslider-loader-default" data-animation='{"auto":"1","looponce":"0","transition":"swing","css3transition":"ease-in-out","duration":"4000","delay":5000}' data-djslider='{"id":"511","slider_type":"2","slide_size":"1920","visible_slides":1,"direction":"left","show_buttons":"0","show_arrows":"0","preload":"600","css3":"1"}' tabindex="0">
+        <div id="djslider511" class="djslider djslider-default img-vcenter" style="height: 700px; width: 1920px;">
+            <div id="slider-container511" class="slider-container" >
+                <ul id="slider511" class="djslider-in">
+                                            <li style="margin: 0 0px 0px 0 !important; height: 700px; width: 1920px;">
+                                                                                            <img class="dj-image" src="/images/headers/u-tunelu-nismo-sami.jpg" alt="U tunelu nismo sami"  style="width: 100%; height: auto;"/>
+                                                                                        
+                        </li>
+                                            <li style="margin: 0 0px 0px 0 !important; height: 700px; width: 1920px;">
+                                                                                            <img class="dj-image" src="/images/headers/autoput-milos-veliki-lajkovac.jpg" alt="Autoput Miloš Veliki - Lajkovac"  style="width: 100%; height: auto;"/>
+                                                                                        
+                        </li>
+                                            <li style="margin: 0 0px 0px 0 !important; height: 700px; width: 1920px;">
+                                                                                            <img class="dj-image" src="/images/headers/tunel-bancarevo-e80.jpg" alt="Tunel Bančarevo - E80"  style="width: 100%; height: auto;"/>
+                                                                                        
+                        </li>
+                                            <li style="margin: 0 0px 0px 0 !important; height: 700px; width: 1920px;">
+                                                                                            <img class="dj-image" src="/images/headers/bezbedno-kroz-tunel.jpg" alt="Bezbedno kroz tunel"  style="width: 100%; height: auto;"/>
+                                                                                        
+                        </li>
+                                    </ul>
+            </div>
+                                </div>
+    </div>
+</div>
+<div class="djslider-end" style="clear: both" tabindex="0"></div></div></div></div></div></div></section><section id="sp-info"><div class="container"><div class="container-inner"><div class="row"><div id="sp-header-bottom" class="col-lg-12 "><div class="sp-column "><div class="sp-module  info-centar"><div class="sp-module-content">
+
+<div class="custom info-centar"  >
+	<div class="portfolio-wrap-2 dva zimska">
+	<div class="portfolio-wrap-2-text gore">
+		<img src="/images/putarine/t4a.jpg" alt=" ">
+	</div>
+	<div class="section border-4 text-center">
+                 <h6><a href="https://toll4all.com/" target="_blank">Toll For All </a></h6>
+		<p class="mb-0 text-center" style="line-height:1.4; margin-top:-10px"><a hreflang="sr" href="/index.php/vesti-korporativne-2/01-04-26-pocela-naplata-putarine-za-vozila-iv-kategorije-na-obilaznici-oko-beograda-3">Наплата путарине -  ОБИЛАЗНИЦА око Београда</a><br>
+<a href="https://toll4all.com/obo/tag-registracija" target="_blank" rel="noopener noreferrer">Регистрација ТАГ уређаја</a><br>
+		<a href="https://toll4all.com/rs#uputstvo" target="_blank" rel="noopener noreferrer">Преконфигурација ТАГ уређаја</a><br> <br>&nbsp;</p>
+	</div> 
+</div>
+
+<!-- div class="portfolio-wrap-2 dva zimska">
+	<div class="portfolio-wrap-2-text gore">
+		<img src="/images/naslovna/zimska-sluzba-naslovna.jpg" alt=" ">
+	</div>
+	<div class="section border-4 text-center">
+                 <h6><a hreflang="sr" href="/index.php/зимска-служба-2025-26">Зимскa службa 2025/26.</a></h6>
+		<p class="mb-0 text-center" style="line-height:1.75; margin-top:-12px"> <a href="/index.php/извештај-зимске-службе" rel="noopener noreferrer" id="servisne">Детаљан извештај зимске службе</a><br>
+		<a href="/images/pdf/zimska_sluzba/Plan-Zimske-sluzbe-2025-2026.pdf" target="_blank" rel="noopener noreferrer">План Зимске службе</a><br>
+		<a href="/images/pdf/zimska_sluzba/JPPS-prioriteti-odrzavanja-mreze-drzavnih-puteva-po-PZP-2025-2026.pdf" target="_blank" rel="noopener noreferrer">Мапа зимског одржавања путева</a> <br><a href="tel:+381 64 86 17 117" rel="noopener noreferrer">+381 64 86 17 117</a><br><a href="mailto:zimskasluzba@putevi-srbije.rs" class="mail">zimskasluzba@putevi-srbije.rs</a></p>
+	</div> 
+</div -->
+
+
+<div class="portfolio-wrap-2 dva">
+	<div class="portfolio-wrap-2-text gore">
+	     <img src="/images/naslovna/info-centar.jpg" alt="">
+	</div>
+	<div class="section border-4 text-center">
+               <h6><a href="/index.php/организација/сектор-за-управљачко-информационе-системе-у-саобраћају/информативни-центар-2">ИНФОРМАТИВНИ ЦЕНТАР</a></h6>
+              Бесплатни број телефона: <strong><br><a href="tel:0800100104"><span style="font-size:1.1rem; color:#414241">0800-100-104</span></a></strong><br>
+              <a href="mailto:info.centar@putevi-srbije.rs" class="mail">info.centar@putevi-srbije.rs</a>
+        </div>
+</div>
+
+
+<div class="portfolio-wrap-2 dva"  style="padding-right:0">
+	<div class="portfolio-wrap-2-text gore">
+		<img src="/images/infocentar/stanje-na-putevima.png" alt=" ">
+	</div>
+	<div class="section border-4 text-center">
+                 <h6><a href="/index.php/стање-на-државним-путевима">Стање на државним путевима</a></h6>
+<p class="mb-0 mt-0 text-center" style="line-height:1; font-size:18px"> 
+<a class="jmm-link" href="https://www.facebook.com/putevisrbijeinfocentar" target="_blank" aria-label="Facebook" title="Facebook"><span class="jmm-ico fab fa-facebook" aria-hidden="true"></span></a> &nbsp; 
+<a class="jmm-link" href="https://www.instagram.com/putevi_srbije_info_centar/" target="_blank" aria-label="Instagram" title="Instagram"><span class="jmm-ico fab fa-instagram" aria-hidden="true"></span></a> &nbsp; <a class="jmm-link" href="https://x.com/putevisrbije" target="_blank" aria-label="X" title="X"><span class="jmm-img"><img src="/images/infocentar/tweet-X-blue.png" style="width:16px; margin-top:-4px" alt="X"></span></a></p>
+
+		<p class="mb-0 text-center" style="line-height:1.5"> <a href="/index.php/сервисне-информације" rel="noopener noreferrer" id="servisne">Сервисне информације</a><br>
+		<!-- a href="/index.php/стање-на-државним-путевима" rel="noopener noreferrer">Мапа стања на државним путевима</a> <br -->
+                <a href="/index.php/задржавање-на-наплатним-станицама">Задржавање на наплатним станицама</a></p>
+	</div> 
+</div>
+
+
+<div class="portfolio-wrap-2 dva">
+	<div class="portfolio-wrap-2-text gore">
+	     <img src="/images/naslovna/korisnicki-centar-naslovna.jpg" alt="">
+	</div>
+	<div class="section border-4 text-center">
+               <h6><a hreflang="sr" href="/index.php/путарине?view=article&id=3630&catid=61">КОРИСНИЧКИ ЦЕНТАР</a></h6>
+              Сектора за наплату путарине <strong><br><a href="tel:0800100104"><span style="font-size:1.1rem; color:#414241">0800-111-004</span></a></strong><br>
+              <a href="mailto:korisnickicentar@putevi-srbije.rs" class="mail">korisnickicentar@putevi-srbije.rs</a>
+        </div>
+</div>
+
+
+<!-- div class="portfolio-wrap-2 dva">
+	<div class="portfolio-wrap-2-text gore">
+		<img src="/images/naslovna/naplatna-stanica.jpg" alt=" ">
+	</div>
+	<div class="section border-4 text-center">
+                 <h6><a href="/index.php/путарине">Путарина</a></h6>
+		<p class="mb-0 text-center" style="line-height:1.75"><a href="/index.php/категоризација-возила-ценовник-путарине">Категоризација возила<br>
+Ценовник путарине</a></p>
+	</div> 
+</div -->
+
+<!-- div class="portfolio-wrap-2 dva">
+   <div class="section border-4 text-center" style="padding-bottom:6px">
+              <h6 style="margin-top: -8px"><a href="/index.php/задржавање-на-наплатним-станицама">Zadržavanje vozila na naplatnim stanicama </a></h6> 
+
+	
+
+    <p>Nema zadržavanja na naplatnim stanicama.</p>
+	<div class="system-pagebreak" title="Улаз у систем за наплату путарине"  alt="Улаз у систем за наплату путарине" /></div>
+    
+
+</div>
+     <div class="portfolio-wrap-2-text gore">
+	 <img src="/images/naslovna/naplatna-stanica.jpg" alt="">
+     </div>
+</div -->
+</div>
+</div></div></div></div></div></div></div></section><section id="sp-korporativne-vesti"><div class="container"><div class="container-inner"><div class="row"><div id="sp-top2" class="col-lg-12 "><div class="sp-column "><div class="sp-module  apel-pr"><div class="sp-module-content">    <div id="rapi-marquee604" class="rapi-marquee apel-pr">
+                <ul class="rapi-contentmarquee marquee604 ">
+
+                            
+                    <li itemscope itemtype="https://schema.org/Article" >
+                        <a href="/index.php/saopštenja-i-apeli-cir/od-1-jula-2026-g-počela-primena-kaznene-politike-za-sve-vlasnike-korisnike-vozila-4-kategorije-koji-putarinu-ne-plaćaju-elektronski-upotrebom-tag-uređaja-3" itemprop="url">
+                            <span itemprop="name">
+                                ПУТЕВИ СРБИЈЕ: ОД 1. ЈУЛА 2026.Г. ПОЧЕЛА ПРИМЕНА КАЗНЕНЕ ПОЛИТИКЕ ЗА СВЕ ВЛАСНИКЕ / КОРИСНИКЕ ВОЗИЛА 4.КАТЕГОРИЈЕ КОЈИ ПУТАРИНУ НЕ ПЛАЋАЈУ ЕЛЕКТРОНСКИ - УПОТРЕБОМ ТАГ УРЕЂАЈА                                                            </span>
+                        </a>
+
+                        <img class="divider" src="/images/divider.png" alt="divider">                    </li>
+
+                                            
+                    <li itemscope itemtype="https://schema.org/Article" >
+                        <a href="/index.php/saopštenja-i-apeli-cir/06-02-26-obavezni-tag-uredjaji-za-kamione-od-1-aprila-2026-g-6" itemprop="url">
+                            <span itemprop="name">
+                                <a class="module-title-link" href="/index.php/vesti-korporativne-2/06-02-26-obavezni-tag-uredjaji-za-kamione-od-1-aprila-2026-g-3" title="ПОЧЕЛА НАПЛАТА ПУТАРИНЕ ЗА ВОЗИЛА IV КАТЕГОРИЈЕ НА ОБИЛАЗНИЦИ ОКО БЕОГРАДА">ПОЧЕЛА НАПЛАТА ПУТАРИНЕ ЗА ВОЗИЛА IV КАТЕГОРИЈЕ НА ОБИЛАЗНИЦИ ОКО БЕОГРАДА</a>                                                            </span>
+                        </a>
+
+                        <img class="divider" src="/images/divider.png" alt="divider">                    </li>
+
+                                            
+                    <li itemscope itemtype="https://schema.org/Article" >
+                        <a href="/index.php/saopštenja-i-apeli-cir/02-03-26-putevi-srbije-ne-otvarajte-sms-poruke-o-nenaplaćenoj-putarini-ili-prekoračenju-brzine-k-1" itemprop="url">
+                            <span itemprop="name">
+                                ПУТЕВИ СРБИЈЕ: НЕ ОТВАРАЈТЕ СМС ПОРУКЕ О НЕНАПЛАЋЕНОЈ ПУТАРИНИ ИЛИ ПРЕКОРАЧЕЊУ БРЗИНЕ                                                            </span>
+                        </a>
+
+                        <img class="divider" src="/images/divider.png" alt="divider">                    </li>
+
+                            
+
+        </ul>
+                <script>
+                jQuery('.marquee604').marquee({
+                            direction: 'left',
+                            duration: 13500,
+                            gap: 0,
+                            pauseOnHover: true,
+                                    });
+                            </script>
+    </div>
+<style>
+	#rapi-marquee604 {
+		background-color: #fdbe0f!important;
+		height: 44px!important;
+	}
+	
+	.marquee604 li a {
+		color: #003f72!important;
+	}
+
+    #rapi-marquee604 .heading {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    #rapi-marquee604 li a {
+        font-size: 15px;
+    }
+
+    #rapi-marquee604 li a {
+        font-weight: 700;
+    }
+
+    #rapi-marquee604 li a span.marquee_date {
+        font-size: 12px;
+    }
+
+    #rapi-marquee604 li a span.marquee_date {
+        font-weight: 400;
+    }
+
+    #rapi-marquee604 li a span.marquee_date {
+        color: #7a7a7a;
+    }
+
+        #rapi-marquee604 .js-marquee-wrapper {
+        height: 100%;
+    }
+
+    #rapi-marquee604 .js-marquee {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    	
+			.marquee604 li {
+			padding: 0 30px 0 0;
+		}
+	
+		.marquee604 .divider {
+			margin: 0 0 0 30px;
+		}
+	</style>
+
+</div></div><div class="sp-module  kvesti"><h3 class="sp-module-title"> <a class="module-title-link" href="/index.php/корпоративневести" title="Корпоративне вести">Корпоративне вести</a> </h3><div class="sp-module-content"><div class="mnwall_loader mas_loader" id="mnwall_loader_3"> </div>
+<div id="mnwall_container_3" class="mnwall_container mnwall-columns  " data-order="date" data-direction="DESC"><div id="mnwall_iso_container_3" class="mnwall_iso_container" style="margin: -5px;"><div class="mnwall-item  cat-Korporativne-vesti-novo   date-2026-10 mnwzoomIn" style="padding:5px; width: 25.0000%;" data-id="69113" data-title="ДЕОНИЦa СРЕМСКА РАЧА - КУЗМИН, НОВИ СНИМЦИ ИЗГРАДЊЕ" data-category="korporativne-vesti-novo" data-author="dimitrije pavković" data-date="2026-10-12 10:30:22" data-hits="157" data-ordering="0" data-fordering="15" data-alias="12-10-26-deonica-sremska-raca-kuzmin-novi-snimci-izgradnje-3" data-modified="2026-10-12 10:32:24" data-start="2026-10-12 10:32:32" data-finish="0000-00-00 00:00:00" data-index="1"><div class="mnwall-item-outer-cont content-below" style=""><div class="mnwall-item-inner-cont" style=""><div class="mnwall-cover mnwzoomIn">
+							<div class="mnwall-img-div" style=""><div class="mnwall-item-img"><a href="/index.php/vesti-korporativne-2/12-10-26-deonica-sremska-raca-kuzmin-novi-snimci-izgradnje-3" class="mnwall-photo-link">
+											<img src="/images/korpo-2026/10-OKTOBAR/kuzmin-okt-2026/korpo-kuzmin-10.jpg" alt="ДЕОНИЦA СРЕМСКА РАЧА - КУЗМИН, НОВИ СНИМЦИ ИЗГРАДЊЕ" />
+										</a></div><div class="mnwall-hover-box" style="
+			transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+			-webkit-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+			-o-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+			-ms-transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+			 background-color: rgba(1,61,115,0.80);"><div class="mnwall-hover-box-content light-text"><h3 class="mnwall-title"><a href="/index.php/vesti-korporativne-2/12-10-26-deonica-sremska-raca-kuzmin-novi-snimci-izgradnje-3">ДЕОНИЦA СРЕМСКА РАЧА - КУЗМИН, НОВИ СНИ

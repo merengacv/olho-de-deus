@@ -1,0 +1,4 @@
+GET https://js.arcgis.com/4.17/esri/widgets/Expand/t9n/Expand_et.json
+content-type: application/json
+
+{"widgetLabel":"Laienda"}

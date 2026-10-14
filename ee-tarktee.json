@@ -1,0 +1,2201 @@
+{
+ "id": "ee-tarktee",
+ "url": "https://tarktee.ee/",
+ "requests": [
+  {
+   "u": "https://tarktee.ee/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/polyfills-JB6TYOAT.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/styles-QAAPOIHY.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/main-4TTP6MX5.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-29E2L1ZJTG",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/config",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-29E2L1ZJTG&gtm=45je6ac1v9124910631za208zd9124910631xf1&_p=1791943870290&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=617190930.1791943870&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.17.0&uaw=0&ul=pt-br&_s=1&tag_exp=115",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/css/main.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/",
+   "t": "script",
+   "s": 301,
+   "ct": "",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/i18n/en.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/i18n/et.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/svg/ruler.svg",
+   "t": "xhr",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/dojo/dojo.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Home.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Track.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Expand.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/tasks/Locator.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/WebTileLayer.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/GraphicsLayer.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/MapImageLayer.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/support/TileInfo.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/ScaleBar.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/BasemapGallery.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/geometry/projection.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/MapView.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Search.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Home/HomeViewModel.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Expand/ExpandViewModel.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/tasks/support/AddressCandidate.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Track/TrackViewModel.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/support/LOD.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/geometry/support/aaBoundingRect.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/ScaleBar/ScaleBarViewModel.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/geometry/support/GeographicTransformation.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/BasemapGallery/BasemapGalleryViewModel.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/geometry/pe.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/svg/road-variant.svg",
+   "t": "xhr",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/support/WMTSLayerInfo.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayersPredefined",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/support/GeolocationPositioning.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/geometry/support/geodesicUtils.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/BasemapGallery/support/basemapCompatibilityUtils.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/BasemapGallery/support/BasemapGalleryItem.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/BasemapGallery/support/PortalBasemapsSource.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/BasemapGallery/support/LocalBasemapsSource.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/layers.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/@dojo/framework/shim/object.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/support/layerUtils.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/terrain/terrainUtils.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/terrain/TilingScheme.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/support/spatialReferenceSupport.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/TileLayer.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/ElevationLayer.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/engine/vectorTiles/VectorTile.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/terrain/RasterTile.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/support/StreamDataLoader.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/terrain/terrainUtilsPlanar.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/terrain/terrainUtilsSpherical.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/terrain/TileTexture.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/support/projectionUtils.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/VectorTileLayer.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/layers/support/LercDecoder.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/engine/vectorTiles/RenderBucket.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/engine/webgl/TiledDisplayObject.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/support/StreamDataLoaderTask.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/support/AsyncWorkerQueue.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/webgl-engine/lib/Util.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/webgl/rasterUtils.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/engine/vectorTiles/decluttering/config.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/core/libs/gl-matrix-2/mat4.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/webgl-engine/lib/BufferVectorMath.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/terrain/TerrainConst.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayerGroups",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/3d/support/WorkerHandle.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/engine/vectorTiles/decluttering/util.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/core/libs/gl-matrix-2/vec4f64.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/core/libs/gl-matrix-2/math/mat4.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/news/today/count",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/core/libs/gl-matrix-2/vec4.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/webgl.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/engine/DisplayObject.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/uued/en.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/news/recent",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayersPredefined",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/core/libs/gl-matrix-2/factories/vec4f64.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/engine/vectorTiles/decluttering/core.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/core/libs/gl-matrix-2/math/vec4.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/media/tarktee_bg_winter-Y2AFCCVG.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/8e1d65a7-c11a-490b-a92c-994c4e750892",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/layers.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/8e1d65a7-c11a-490b-a92c-994c4e750892",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/8e1d65a7-c11a-490b-a92c-994c4e750892",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/news/today/count",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/mapViewDeps.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/identity/IdentityManager.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/portal/support/geometryServiceUtils.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/media/tarktee_logo_winter-TDUXVSPQ.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/uued/et.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/uued/ru.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/route/move.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/dojo/dojo-lite.js",
+   "t": "other",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/layers/TileLayerView2D.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/dojo/dojo-lite.js",
+   "t": "other",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/dojo/dojo-lite.js",
+   "t": "other",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/views/2d/layers/GraphicsLayerView2D.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Attribution/t9n/Attribution_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/t9n/common_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Home/t9n/Home_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Zoom/t9n/Zoom_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Track/t9n/Track_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/ScaleBar/t9n/ScaleBar_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Popup/t9n/Popup_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Expand/t9n/Expand_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/tasks/GeometryService.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/BasemapGallery/t9n/BasemapGallery_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Search/t9n/Search_et.json",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/43.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/themes/base/fonts/fonts/77caabd3-1877-4634-85c8-8e398a093b99.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "binary/octet-stream",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_a.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/themes/base/icons/fonts/CalciteWebCoreIcons.ttf?avpuei",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-sfnt",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_c.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_b.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.arcgis.com/sharing/rest/portals/self?f=json&culture=et",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayersPredefined",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayerGroups",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/pohikaart.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/hybriidkaart.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ortofoto.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/hallkaart.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/route/0.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/route/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer/project?f=json&outSR=3301&inSR=102100&geometries=%7B%22geometryType%22%3A%22esriGeometryEnvelope%22%2C%22geometries%22%3A%5B%7B%22spatialReference%22%3A%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D%2C%22xmin%22%3A-20037508.342787%2C%22ymin%22%3A-20037508.34278%2C%22xmax%22%3A20037508.34278%2C%22ymax%22%3A20037508.3",
+   "t": "fetch",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/themes/base/fonts/fonts/e78b17bb-11fb-4860-8d66-4ee0d0c1e117.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "binary/octet-stream",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.arcgis.com/4.17/esri/themes/base/fonts/fonts/77156710-6a58-4606-b189-b4185e75967b.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "binary/octet-stream",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/waze/MapServer/0?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/detours/MapServer/1?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/operative_info/MapServer/1?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/10.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/emergency_events/MapServer/1?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/10_b.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/10_ac.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_traffic.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/restrictions_traffic/MapServer/1?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/waze/MapServer/0/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_road.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_hazard.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/operative_info/MapServer/1/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=(created_at%20%3E=%20%272026-10-13%2021:11:11%27)",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/emergency_events/MapServer/1/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/detours/MapServer/1/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=(date_from%20is%20null%20or%20date_from%20%3C%20%272026-10-22%27)%20and%20(date_to%20is%20null%20or%20date_to%20%3E=%20%272026-10-14%2005:11:10%27)",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_road.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/ef1c79d5-360a-4a17-acc1-338b04631363",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/restrictions_traffic/MapServer/1/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=(date_from%20is%20null%20or%20date_from%20%3C%20%272026-10-22%27)%20and%20(date_to%20is%20null%20or%20date_to%20%3E=%20%272026-10-14%2005:11:10%27)",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/operative_info/MapServer/0?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/emergency_events/MapServer/0?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/restrictions_traffic/MapServer/0?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/operative_info/MapServer/0/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/emergency_events/MapServer/0/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/detours/MapServer/0?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=1=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/detours/MapServer/0/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=(date_from%20is%20null%20or%20date_from%20%3C%20%272026-10-22%27)%20and%20(date_to%20is%20null%20or%20date_to%20%3E=%20%272026-10-14%2005:11:10%27)",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/tarktee/rest/services/tram/restrictions_traffic/MapServer/0/query?f=json&spatialRel=esriSpatialRelIntersects&returnGeometry=true&outFields=*&outSpatialReference=3301&where=(date_from%20is%20null%20or%20date_from%20%3C%20%272026-10-22%27)%20and%20(date_to%20is%20null%20or%20date_to%20%3E=%20%272026-10-14%2005:11:10%27)",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/3.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/3_x.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_c.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_a.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_c_x.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_a_x.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_x.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/645681b9-22b7-4503-ac7e-0f0eb10ead75",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/1a7779a2-ebff-417a-ac5c-2a2c991435d7",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/7c3878ef-929d-42ef-a9a4-f596f5460772",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/5bae0377-69a5-4f2f-81d9-d58c1105f010",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/c99d90d2-fb99-4ee5-a0a4-5b27c351825c",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/44e47edd-66c2-46ab-91c2-9f52d3864aeb",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/e06e6f36-9201-43ae-b518-8c89d13e0a50",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://tarktee.ee/15ab6715-c04e-404e-b871-bacb75fe3543",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "ee-tarktee-1.txt",
+   "u": "https://tarktee.ee/",
+   "bytes": 66252,
+   "type": "document"
+  },
+  {
+   "file": "ee-tarktee-2.txt",
+   "u": "https://tarktee.ee/api/v1/config",
+   "bytes": 671,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-3.txt",
+   "u": "https://tarktee.ee/assets/i18n/en.json",
+   "bytes": 40211,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-4.txt",
+   "u": "https://tarktee.ee/assets/i18n/et.json",
+   "bytes": 39366,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-5.txt",
+   "u": "https://tarktee.ee/assets/svg/ruler.svg",
+   "bytes": 603,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-6.txt",
+   "u": "https://tarktee.ee/assets/svg/road-variant.svg",
+   "bytes": 499,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-7.txt",
+   "u": "https://tarktee.ee/api/v1/mapLayersPredefined",
+   "bytes": 318,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-8.txt",
+   "u": "https://tarktee.ee/assets/layers.json",
+   "bytes": 14093,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-9.txt",
+   "u": "https://tarktee.ee/api/v1/mapLayerGroups",
+   "bytes": 3303,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-10.txt",
+   "u": "https://tarktee.ee/api/v1/news/today/count",
+   "bytes": 1,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-11.txt",
+   "u": "https://tarktee.ee/api/v1/news/recent",
+   "bytes": 2,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-12.txt",
+   "u": "https://tarktee.ee/api/v1/mapLayersPredefined",
+   "bytes": 318,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-13.txt",
+   "u": "https://tarktee.ee/assets/layers.json",
+   "bytes": 14093,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-14.txt",
+   "u": "https://tarktee.ee/api/v1/news/today/count",
+   "bytes": 1,
+   "type": "xhr"
+  },
+  {
+   "file": "ee-tarktee-15.txt",
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Attribution/t9n/Attribution_et.json",
+   "bytes": 28,
+   "type": "fetch"
+  },
+  {
+   "file": "ee-tarktee-16.txt",
+   "u": "https://js.arcgis.com/4.17/esri/t9n/common_et.json",
+   "bytes": 1816,
+   "type": "fetch"
+  },
+  {
+   "file": "ee-tarktee-17.txt",
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Home/t9n/Home_et.json",
+   "bytes": 70,
+   "type": "fetch"
+  },
+  {
+   "file": "ee-tarktee-18.txt",
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Zoom/t9n/Zoom_et.json",
+   "bytes": 63,
+   "type": "fetch"
+  },
+  {
+   "file": "ee-tarktee-19.txt",
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Track/t9n/Track_et.json",
+   "bytes": 117,
+   "type": "fetch"
+  },
+  {
+   "file": "ee-tarktee-20.txt",
+   "u": "https://js.arcgis.com/4.17/esri/widgets/ScaleBar/t9n/ScaleBar_et.json",
+   "bytes": 98,
+   "type": "fetch"
+  },
+  {
+   "file": "ee-tarktee-21.txt",
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Popup/t9n/Popup_et.json",
+   "bytes": 235,
+   "type": "fetch"
+  },
+  {
+   "file": "ee-tarktee-22.txt",
+   "u": "https://js.arcgis.com/4.17/esri/widgets/Expand/t9n/Expand_et.json",
+   "bytes": 25,
+   "type": "fetch"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://tarktee.ee/assets/img/uued/et.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/1_a.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/1.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/1_b.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/1_c.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/1_c.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/3.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/43.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/10.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/10_b.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/10_ac.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_traffic.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_road.png",
+   "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_hazard.png",
+   "https://tarktee.ee/assets/img/pohikaart.png",
+   "https://tarktee.ee/assets/img/ortofoto.png",
+   "https://tarktee.ee/assets/img/hybriidkaart.png",
+   "https://tarktee.ee/assets/img/hallkaart.png"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [],
+  "text": "menu\nnotification_important\nTeated\nshare\nJaga\nmail_outline\nTelli\ninfo\nInfo\n \nlayers\ndirections\ngrid_on\nEelvalikud\nTeeolud\nLiikluspiirangud\nMassi- ja gabariidipiirangud\nKaardikihid\nLiikluspiirangud\nLiikluspiirangud\ninfo\ntee täielik sulgemine\nteetööd\npindamised\nüritused ja muud piirangud\nmärgistustööd või uuringud\nKuvatakse ainult riigiteede piiranguid\nLiikluspiirangud Tallinnas\ninfo\nÜmbersõidud\ninfo\nümbersõidud\nErakorralised sulgemised\ninfo\nErakorraline sulgemine\nMassi- ja gabariidipiirangud\nMassipiirangud\ninfo\nKõrguspiirangud\ninfo\nLaiuspiirang < 4 m\ninfo\nTeeolud\nTeeilmajaamad\ninfo\nTeekaamerad\ninfo\nJääteed\ninfo\nLiiklusinfo\nOperatiivinfo\ninfo\nliiklustakistused ja -ohud\nolulised liiklustakistused ja -ohud\nliiklusõnnetused\nOperatiivinfo kihil kuvatakse häirekeskuselt ja liiklejatelt saabunud teateid maanteedel olevate takistuste, avariide jm kohta.\nLiiklussagedus\ninfo\nSuurendatud piirkiirused\ninfo\nHoiatused Waze'ist\ninfo\nliiklusvoog häiritud\ntakistus teel\nkeerulised teeolud\nAndmed pärinevad rakendusest Waze.\nElektroonilised liiklusmärgid\ninfo\nTeeregister\nRiigiteed\ninfo\nKilomeetripunktid\ninfo\nSeisunditasemed\ninfo\nTeehoolde teostajad\ninfo\nSillad\ninfo\nKiiruskaamerad\ninfo\nSõidukeelud\nKõigi sõidukite sõidu keeld\ninfo\nKõigi mootorsõidukite sõidu keeld\ninfo\nTraktori ja liikurmasina sõidu keeld\ninfo\nMopeedi ja mopeedauto sõidu keeld\ninfo\nOhtlikku veost vedava sõiduki, autorongi ja masinrongi sõidu keeld\ninfo\nVeoteed\n48/52 t veoteed\ninfo\n25,25 m veoteed\ninfo\nRaskeveostele sobimatud sillad\ninfo\nVeokiparklad\ninfo\nSuurenda\nVähenda\nKodu\nAlusta minu asukoha jälgimist\nVali aluskaart\n0\n60 km\nAluskaart: Maa-amet\nPowered by Esri"
+ },
+ "errors": [],
+ "title": "Tark Tee",
+ "mediaRequests": [
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayersPredefined",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayerGroups",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/uued/en.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayersPredefined",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/media/tarktee_bg_winter-Y2AFCCVG.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/media/tarktee_logo_winter-TDUXVSPQ.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/uued/et.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/uued/ru.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/route/move.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/43.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_a.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_c.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_b.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayersPredefined",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/api/v1/mapLayerGroups",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/pohikaart.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/hybriidkaart.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ortofoto.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/hallkaart.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/route/0.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/route/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/10.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/10_b.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/10_ac.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_traffic.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_road.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_hazard.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/waze_road.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/3.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/3/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/4/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/4.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/3.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/5/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/3_x.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_c.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_a.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_c_x.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_a_x.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/assets/img/ikoonid_kaardil/1_x.png",
+   "t": "fetch",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/5.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/6.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/6/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/2/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://tarktee.ee/mapproxy/wmts/Maa-ameti_kaart/tiles/3/1/1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ]
+}

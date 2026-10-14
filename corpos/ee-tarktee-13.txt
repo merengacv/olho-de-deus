@@ -1,0 +1,671 @@
+GET https://tarktee.ee/assets/layers.json
+content-type: application/json
+
+[
+    {
+        "name": "restrictions_traffic",
+        "index": [
+            0,
+            1
+        ],
+        "lineIndex": 1,
+        "hasFuture": true,
+        "includeFutureEvents": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#ed1c24",
+                "icon": "1_a.png"
+            },
+            {
+                "text": "1",
+                "color": "#880015",
+                "icon": "1.png"
+            },
+            {
+                "text": "2",
+                "color": "#880015",
+                "icon": "1_b.png"
+            },
+            {
+                "text": "3",
+                "color": "#880015",
+                "icon": "1_c.png"
+            },
+            {
+                "text": "4",
+                "color": "#d0ac9b",
+                "icon": "1_c.png"
+            },
+            {
+                "text": "5"
+            }
+        ]
+    },
+    {
+        "name": "restrictions_tallinn",
+        "index": 0,
+        "hasFuture": true,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "2.png"
+            },
+            {
+                "text": "1"
+            }
+        ]
+    },
+    {
+        "name": "detours",
+        "index": [
+            0,
+            1
+        ],
+        "lineIndex": 1,
+        "hasFuture": true,
+        "includeFutureEvents": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#3f48cc",
+                "icon": "3.png"
+            }
+        ]
+    },
+  {
+        "name": "emergency_events",
+        "index": [
+            0,
+            1
+        ],
+        "lineIndex": 1,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#FF0022",
+                "icon": "43.png"
+            }
+        ]
+    },
+    {
+        "name": "restrictions_mass",
+        "index": [
+            0,
+            1
+        ],
+        "lineIndex": 1,
+        "hasFuture": true,
+        "includeFutureEvents": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#ff7f27",
+                "icon": "4.png"
+            },
+            {
+                "text": "1"
+            }
+        ]
+    },
+    {
+        "name": "restrictions_height",
+        "index": [
+            0,
+            1
+        ],
+        "lineIndex": 1,
+        "hasFuture": true,
+        "includeFutureEvents": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#a80000",
+                "icon": "5.png"
+            },
+            {
+                "text": "1"
+            }
+        ]
+    },
+    {
+        "name": "restrictions_width",
+        "index": [
+            0,
+            1
+        ],
+        "lineIndex": 1,
+        "hasFuture": true,
+        "includeFutureEvents": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#a80084",
+                "icon": "6.png"
+            },
+            {
+                "text": "1"
+            }
+        ]
+    },
+    {
+        "name": "road_weather_stations",
+        "index": 0,
+        "hasFuture": false,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "7_a.png"
+            },
+            {
+                "text": "1",
+                "icon": "7_b.png"
+            },
+            {
+                "text": "2",
+                "icon": "7_c.png"
+            },
+            {
+                "text": "3",
+                "icon": "7_d.png"
+            },
+            {
+                "text": "4",
+                "icon": "7_e.png"
+            },
+            {
+                "text": "5",
+                "icon": "7_f.png"
+            },
+            {
+                "text": "6"
+            }
+        ]
+    },
+    {
+        "name": "road_cameras",
+        "index": 0,
+        "hasFuture": false,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "8.png"
+            },
+            {
+                "text": "1",
+                "icon": "8_a.png"
+            }
+        ]
+    },
+    {
+        "name": "ice_roads",
+        "index": 0,
+        "lineIndex": 0,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#00c5ff"
+            },
+            {
+                "text": "1",
+                "color": "#ffaa00"
+            },
+            {
+                "text": "2",
+                "color": "#ff0000"
+            },
+            {
+                "text": "3"
+            }
+        ]
+    },
+    {
+        "name": "operative_info",
+        "index": [0, 1],
+        "hasFuture": false,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "10.png"
+            },
+            {
+                "text": "2",
+                "icon": "10_b.png"
+            },
+            {
+                "text": "1",
+                "icon": "10_ac.png"
+            },
+            {
+                "text": "3"
+            }
+        ]
+    },
+    {
+        "name": "traffic_detectors",
+        "index": 0,
+        "hasFuture": false,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "11.png"
+            },
+            {
+                "text": "1",
+                "icon": "11_a.png"
+            },
+            {
+                "text": "2",
+                "icon": "11_c.png"
+            },
+            {
+                "text": "3",
+                "icon": "11_b.png"
+            },
+            {
+                "text": "4"
+            }
+        ]
+    },
+    {
+        "name": "restrictions_increased_speed",
+        "index": [
+            0,
+            1
+        ],
+        "lineIndex": 1,
+        "hasFuture": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#22b14c",
+                "icon": "12.png"
+            }
+        ]
+    },
+    {
+        "name": "waze",
+        "index": 0,
+        "hasFuture": false,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "waze_traffic.png"
+            },
+            {
+                "text": "1",
+                "icon": "waze_road.png"
+            },
+            {
+                "text": "2",
+                "icon": "waze_hazard.png"
+            },
+            {
+                "text": "3"
+            }
+        ]
+    },
+    {
+        "name": "roads",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#f40009"
+            },
+            {
+                "text": "1",
+                "color": "#dce91b"
+            },
+            {
+                "text": "2",
+                "color": "#A87000"
+            },
+            {
+                "text": "3",
+                "color": "#FFD37F"
+            },
+            {
+                "text": "4",
+                "color": "#690001"
+            },
+            {
+                "text": "5",
+                "color": "#818181"
+            }
+        ],
+        "child": "road_surfaces"
+    },
+    {
+        "name": "bikeways",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#3aa80a"
+            }
+        ]
+    },
+    {
+        "name": "kilometer_points",
+        "index": 0,
+        "isMapImage": true,
+        "popupEnabled": false,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "15.png"
+            },
+            {
+                "text": "1"
+            }
+        ]
+    },
+    {
+        "name": "service_levels_summer",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#000000"
+            },
+            {
+                "text": "1",
+                "color": "#2d2d2d"
+            },
+            {
+                "text": "2",
+                "color": "#4b4b4b"
+            },
+            {
+                "text": "3",
+                "color": "#616161"
+            },
+            {
+                "text": "4",
+                "color": "#6a1802"
+            },
+            {
+                "text": "5",
+                "color": "#9d3404"
+            },
+            {
+                "text": "6",
+                "color": "#9d6d07"
+            },
+            {
+                "text": "7",
+                "color": "#db980f"
+            }
+        ]
+    },
+    {
+        "name": "service_levels_winter",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#a00082"
+            },
+            {
+                "text": "1",
+                "color": "#c194d2"
+            },
+            {
+                "text": "2",
+                "color": "#82a7fd"
+            },
+            {
+                "text": "3",
+                "color": "#4146e0"
+            },
+            {
+                "text": "4",
+                "color": "#000000"
+            },
+            {
+                "text": "5"
+            }
+        ]
+    },
+    {
+        "name": "maintenance_contractors",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "18.png"
+            },
+            {
+                "text": "1"
+            }
+        ]
+    },
+    {
+        "name": "bridges",
+        "index": 0,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "19.png"
+            }
+        ]
+    },
+    {
+        "name": "speed_cameras",
+        "index": 0,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "20.png"
+            }
+        ]
+    },
+    {
+        "name": "truck_roads",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#c965f1"
+            },
+            {
+                "text": "1"
+            }
+        ]
+    },
+    {
+        "name": "truck_roads_60t",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#f57ad6"
+            }
+        ]
+    },
+    {
+        "name": "truck_roads_80t",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#f57a7a"
+            }
+        ]
+    },
+    {
+        "name": "truck_roads_25m",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#7a7af5"
+            }
+        ]
+    },
+    {
+        "name": "truck_roads_winter",
+        "index": 0,
+        "isMapImage": true,
+        "legend": [
+            {
+                "text": "0",
+                "color": "#33e7a5"
+            },
+            {
+                "text": "1"
+            }
+        ]
+    },
+    {
+        "name": "percostations",
+        "index": 0,
+        "hasFuture": false,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "23.png"
+            }
+        ]
+    },
+    {
+        "name": "bridges_weak",
+        "index": 0,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "24.png"
+            }
+        ]
+    },
+    {
+        "name": "parking_data",
+        "index": 0,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "26.png"
+            }
+        ]
+    },
+    {
+        "name": "vms_traffic_signs",
+        "index": 0,
+        "zoomLevelScale": 120000,
+        "legend": [
+            {
+                "text": "0",
+                "icon": "vms_legend.png"
+            },
+            {
+                "text": "1",
+                "icon": "vms_legend_x.png"
+            }
+        ]
+    },
+  {
+    "name": "restrictions_driving_all_vehicles",
+    "index": [
+      0,
+      1
+    ],
+    "lineIndex": 1,
+    "includeFutureEvents": true,
+    "legend": [
+      {
+        "text": "0",
+        "color": "#4CE600",
+        "icon": "37.png"
+      }
+    ]
+  },
+  {
+    "name": "restrictions_driving_all_motor_vehicles",
+    "index": [
+      0,
+      1
+    ],
+    "lineIndex": 1,
+    "includeFutureEvents": true,
+    "legend": [
+      {
+        "text": "0",
+        "color": "#002673",
+        "icon": "38.png"
+      }
+    ]
+  },
+  {
+    "name": "restrictions_driving_tractor",
+    "index": [
+      0,
+      1
+    ],
+    "lineIndex": 1,
+    "includeFutureEvents": true,
+    "legend": [
+      {
+        "text": "0",
+        "color": "#734C00",
+        "icon": "39.png"
+      }
+    ]
+  },
+  {
+    "name": "restrictions_driving_moped",
+    "index": [
+      0,
+      1
+    ],
+    "lineIndex": 1,
+    "includeFutureEvents": true,
+    "legend": [
+      {
+        "text": "0",
+        "color": "#00B5FF",
+        "icon": "40.png"
+      }
+    ]
+  },
+  {
+    "name": "restrictions_driving_dangerous_goods",
+    "index": [
+      0,
+      1
+    ],
+    "lineIndex": 1,
+    "includeFutureEvents": true,
+    "legend": [
+      {
+        "text": "0",
+        "color": "#FF5500",
+        "icon": "41.png"
+      }
+    ]
+  },
+  {
+    "name": "road_surfaces",
+    "index": 0,
+    "isMapImage": true,
+    "legend": [
+      {
+        "text": "0",
+        "color": "#A87000"
+      },
+      {
+        "text": "1",
+        "color": "#FFD37F"
+      }
+    ]
+  }
+]

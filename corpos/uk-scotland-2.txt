@@ -1,0 +1,4 @@
+GET https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true
+content-type: application/json; charset=utf-8
+
+{}

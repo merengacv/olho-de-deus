@@ -1,0 +1,1219 @@
+GET https://www.infraestruturasdeportugal.pt/
+content-type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html lang="pt-pt" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>
+</noscript><meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/ip_corporativo_theme/favicon.ico" type="image/png" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.icon_color = "seashell,ff8004";</script>
+
+    <title>Início | Infraestruturas de Portugal</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_fmrjGLpdPZblrEt4jSt1eavL1DuDn3x5LFXNQJlUQ3Y.css?delta=0&amp;language=pt-pt&amp;theme=ip_corporativo_theme&amp;include=eJx1kVGOwyAMRC9Ew5GQA07LBhiEnaS5_dJulfQjKyHzYAaPJSgEBZXd0geGqaGoGcnPTtFXtV_sokcxfuYQFc2R92ghotiD_t5zCadrBFS0UXVKo9hXMR6YI4v97D_SBtE98aG4wBk28ERLUjMlfkqKgZuNvfu9kfYsE6vrsRWv49oHfHBme8Rdy2erf_Q-Pm0syHxtuCeMlG4euaJwUbm2YUvXgmRqmrksYk78ur35RRTZiEY_74VWe5CRXZRz_xFhs0bexL7rkBGWxL_3rLh6" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ZEGmNJSy1lh7xUqVwsR_4HWd-zoDHzQlZC2UbqQT9Mc.css?delta=1&amp;language=pt-pt&amp;theme=ip_corporativo_theme&amp;include=eJx1kVGOwyAMRC9Ew5GQA07LBhiEnaS5_dJulfQjKyHzYAaPJSgEBZXd0geGqaGoGcnPTtFXtV_sokcxfuYQFc2R92ghotiD_t5zCadrBFS0UXVKo9hXMR6YI4v97D_SBtE98aG4wBk28ERLUjMlfkqKgZuNvfu9kfYsE6vrsRWv49oHfHBme8Rdy2erf_Q-Pm0syHxtuCeMlG4euaJwUbm2YUvXgmRqmrksYk78ur35RRTZiEY_74VWe5CRXZRz_xFhs0bexL7rkBGWxL_3rLh6" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"pt-pt\/","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"pt-pt"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx9UdGOhCAM_CFWPolUqG4VKKHVPf_-2L2N-qCXkDJhJjNtgRCUIW8WvqAbKmc1IILqKE_olaudpKNievCzU26n2BN25DnfkpMYP2OgZuPAe66BONsd_eVhDoeqZ1bRCsUp9GLfxXjmmVDs956kdqJbxJ1xARPbgAMsUc0Q8UciBayWmvtYQVuWGVoUvFA4oT3hTtbxP66TJyVDxbWeC7-91jbbE5ty7_WaPvq44Y-ga8EYuYf48JwKZ8wq1zJ-xWuitq2s6CiNLlDCLG0NNx6SoGqTLGIOeHp9-EWUkxElP28ZVrsjI5sopvbvgmYlfIn91C5xWCL-Akw79Oc","theme":"ip_corporativo_theme","theme_token":"5D_HGCWLyzbGjV1ZXmpkoXum2nyB71w5U0D31Sc4rZ4"},"ajaxTrustedUrl":{"\/pt-pt\/search\/node-ip":true},"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_prevent_on_mobile":true,"back_to_top_prevent_in_admin":false,"back_to_top_button_type":"image","back_to_top_button_text":"Back to top"},"stickynav":{"selector":".header","offsets":{"selector":"","custom_offset":null}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":1,"animateAccordionOpenAndClose":1,"openTabsWithHash":1,"allowHtmlInTitles":0}},"cookies":{"cookiesjsr":{"config":{"cookie":{"name":"cookiesjsr","expires":31536000000,"domain":"","sameSite":"Lax","secure":false},"library":{"libBasePath":"\/libraries\/cookiesjsr\/dist","libPath":"\/libraries\/cookiesjsr\/dist\/cookiesjsr.min.js","scrollLimit":250},"callback":{"method":"post","url":"\/pt-pt\/cookies\/consent\/callback.json","headers":[]},"interface":{"openSettingsHash":"#editCookieSettings","showDenyAll":true,"denyAllOnLayerClose":false,"settingsAsLink":false,"availableLangs":["en","pt-pt","fr","es"],"defaultLang":"pt-pt","groupConsent":false,"cookieDocs":false}},"services":{"functional":{"id":"functional","services":[{"key":"functional","type":"functional","name":"Required functional","info":{"value":"","format":"full_html"},"uri":"","needConsent":false}],"weight":1},"tracking":{"id":"tracking","services":[{"key":"cookies_de_marketing","type":"tracking","name":"Cookies Anal\u00edticos","info":{"value":"","format":"full_html"},"uri":"","needConsent":true}],"weight":10},"dynatrace":{"id":"dynatrace","services":[{"key":"dynatrace","type":"dynatrace","name":"Dynatrace","info":{"value":"","format":"full_html"},"uri":"","needConsent":false}],"weight":50}},"translation":{"_core":{"default_config_hash":"X8VxTkyAAEb9q-EhYz30-BkJ9Ftv5-u1H7BXLXHQe1o"},"langcode":"pt-pt","bannerText":"O Grupo IP recolhe e utiliza cookies pr\u00f3prios para melhoria da sua experi\u00eancia de navega\u00e7\u00e3o como utilizador e suporte \u00e0 atividade de comunica\u00e7\u00e3o do Grupo IP. \r\nPara mais informa\u00e7\u00f5es sobre a forma como o Grupo IP recolhe e utiliza cookies, consulte a Pol\u00edtica de Cookies. Pode aceitar todos os cookies clicando no bot\u00e3o \u201cAceitar Cookies\u201d. Para rejeitar ou configurar as suas prefer\u00eancias clique em \u201cConfigurar\r\nCookies\u201d. ","privacyPolicy":"Pol\u00edtica de Cookies","privacyUri":"\/pt-pt\/politica-de-cookies-ip","imprint":"","imprintUri":"","cookieDocs":"Pol\u00edtica de Privacidade","cookieDocsUri":"\/pt-pt\/politica-de-privacidade-ip","officialWebsite":"Consultar Pol\u00edtica de Cookies","denyAll":"Rejeitar Cookies","alwaysActive":"Obrigat\u00f3rios","settings":"Configurar Cookies","acceptAll":"Aceitar Cookies","requiredCookies":"Cookies Estritamente Necess\u00e1rios","cookieSettings":"Configurar Cookies","close":"Fechar","readMore":"Saber mais","allowed":"Aceitar Cookies","denied":"Recusar Cookies","settingsAllServices":"Configura\u00e7\u00e3o Cookies","saveSettings":"Guardar","default_langcode":"en","disclaimerText":"All cookie information is subject to change by the service providers. We update this information regularly.","disclaimerTextPosition":"above","processorDetailsLabel":"Processor Company Details","processorLabel":"Company","processorWebsiteUrlLabel":"Company Website","processorPrivacyPolicyUrlLabel":"Company Privacy Policy","processorCookiePolicyUrlLabel":"Company Cookie Policy","processorContactLabel":"Data Protection Contact Details","placeholderAcceptAllText":"Accept All Cookies","allowAll":"Aceitar Cookies","credit":"","functional":{"title":"Functional","details":"S\u00e3o cookies de car\u00e1ter t\u00e9cnico que permitem o funcionamento do website, possibilitando ao utilizador navegar no website e garantir a presta\u00e7\u00e3o de servi\u00e7os que o utilizador\/visitante espera receber, ativando fun\u00e7\u00f5es b\u00e1sicas como a navega\u00e7\u00e3o nas p\u00e1ginas e o acesso a \u00e1reas seguras das mesmas, para melhor gest\u00e3o e opera\u00e7\u00e3o do website. Para estes cookies n\u00e3o \u00e9 recolhido o consentimento pois o website n\u00e3o pode funcionar corretamente sem os mesmos."},"tracking":{"title":"Cookies Anal\u00edticos","details":"S\u00e3o cookies que permitem efetuar um acompanhamento e an\u00e1lises do comportamento dos utilizadores, atrav\u00e9s da recolha e an\u00e1lise de dados estat\u00edsticos que podem conter ou n\u00e3o dados pessoais. A informa\u00e7\u00e3o recolhida por estes cookies, suportam a melhoria cont\u00ednua e funcionamento do website. A t\u00edtulo exemplificativo, com estes dados conseguimos verificar se o utilizador acede via desktop ou mobile, permitindo adaptar os conte\u00fados e funcionalidades em fun\u00e7\u00e3o do referido canal.\r\n\r\nO Grupo IP utiliza cookies pr\u00f3prios para este efeito, isto \u00e9, os cookies s\u00e3o alojados nos nossos servidores internos n\u00e3o havendo qualquer partilha com entidades terceiras. A utiliza\u00e7\u00e3o dos presentes cookies n\u00e3o prossegue qualquer finalidade comercial ou de personaliza\u00e7\u00e3o, tendo apenas por objetivo a an\u00e1lise estat\u00edstica e de suporte \u00e0 atividade de comunica\u00e7\u00e3o do Grupo IP no \u00e2mbito das suas atribui\u00e7\u00f5es."},"dynatrace":{"title":"Dynatrace","details":""}}},"cookiesTexts":{"_core":{"default_config_hash":"X8VxTkyAAEb9q-EhYz30-BkJ9Ftv5-u1H7BXLXHQe1o"},"langcode":"pt-pt","bannerText":"O Grupo IP recolhe e utiliza cookies pr\u00f3prios para melhoria da sua experi\u00eancia de navega\u00e7\u00e3o como utilizador e suporte \u00e0 atividade de comunica\u00e7\u00e3o do Grupo IP. \r\nPara mais informa\u00e7\u00f5es sobre a forma como o Grupo IP recolhe e utiliza cookies, consulte a Pol\u00edtica de Cookies. Pode aceitar todos os cookies clicando no bot\u00e3o \u201cAceitar Cookies\u201d. Para rejeitar ou configurar as suas prefer\u00eancias clique em \u201cConfigurar\r\nCookies\u201d. ","privacyPolicy":"Pol\u00edtica de Cookies","privacyUri":"\/node\/4357","imprint":"","imprintUri":"","cookieDocs":"Pol\u00edtica de Privacidade","cookieDocsUri":"\/node\/4355","officialWebsite":"Consultar Pol\u00edtica de Cookies","denyAll":"Rejeitar Cookies","alwaysActive":"Obrigat\u00f3rios","settings":"Configurar Cookies","acceptAll":"Aceitar Cookies","requiredCookies":"Cookies Estritamente Necess\u00e1rios","cookieSettings":"Configurar Cookies","close":"Fechar","readMore":"Saber mais","allowed":"Aceitar Cookies","denied":"Recusar Cookies","settingsAllServices":"Configura\u00e7\u00e3o Cookies","saveSettings":"Guardar","default_langcode":"en","disclaimerText":"All cookie information is subject to change by the service providers. We update this information regularly.","disclaimerTextPosition":"above","processorDetailsLabel":"Processor Company Details","processorLabel":"Company","processorWebsiteUrlLabel":"Company Website","processorPrivacyPolicyUrlLabel":"Company Privacy Policy","processorCookiePolicyUrlLabel":"Company Cookie Policy","processorContactLabel":"Data Protection Contact Details","placeholderAcceptAllText":"Accept All Cookies","allowAll":"Aceitar Cookies","credit":""},"services":{"cookies_de_marketing":{"uuid":"f7a80349-6409-432b-a5c9-b7ffa2f0a331","langcode":"pt-pt","status":true,"dependencies":[],"id":"cookies_de_marketing","label":"Cookies Anal\u00edticos","group":"tracking","info":{"value":"","format":"full_html"},"consentRequired":true,"purpose":"","processor":"","processorContact":"","processorUrl":"","processorPrivacyPolicyUrl":"","processorCookiePolicyUrl":"","placeholderMainText":"This content is blocked because cookies anal\u00edticos cookies have not been accepted.","placeholderAcceptText":"Only accept cookies anal\u00edticos cookies"},"demo":{"uuid":"7b00e456-9fc3-4e5d-b542-9524df321bd1","langcode":"pt-pt","status":false,"dependencies":[],"_core":{"default_config_hash":"mgaNDI9mILiM44d3NmwgIbV0zgqK1xWEoeMt22R74dg"},"id":"demo","label":"Demo third-party service","group":"tracking","info":{"value":"","format":"full_html"},"consentRequired":true,"purpose":"","processor":"","processorContact":"","processorUrl":"","processorPrivacyPolicyUrl":"","processorCookiePolicyUrl":"","placeholderMainText":"This content is blocked because cookies have not been accepted.","placeholderAcceptText":"Only accept third-party services cookies"},"dynatrace":{"uuid":"32cbb465-9014-4d87-834e-d8f29ac4111b","langcode":"pt-pt","status":true,"dependencies":[],"id":"dynatrace","label":"Dynatrace","group":"dynatrace","info":{"value":"","format":"full_html"},"consentRequired":false,"purpose":"","processor":"","processorContact":"","processorUrl":"","processorPrivacyPolicyUrl":"","processorCookiePolicyUrl":"","placeholderMainText":"This content is blocked because dynatrace cookies have not been accepted.","placeholderAcceptText":"Only accept dynatrace cookies"},"facebook":{"uuid":"e7fab9c2-d3ba-4bc2-9ee5-3b4b381cc548","langcode":"pt-pt","status":false,"dependencies":[],"id":"facebook","label":"Facebook","group":"social","info":null,"consentRequired":true,"purpose":"","processor":"","processorContact":"","processorUrl":"","processorPrivacyPolicyUrl":"","processorCookiePolicyUrl":"","placeholderMainText":"This content is blocked because facebook cookies have not been accepted.","placeholderAcceptText":"Only accept facebook cookies"},"functional":{"uuid":"dc435bcc-8f06-4a3f-b243-acc75a60b5ea","langcode":"pt-pt","status":true,"dependencies":[],"id":"functional","label":"Required functional","group":"functional","info":{"value":"","format":"full_html"},"consentRequired":false,"purpose":"","processor":"","processorContact":"","processorUrl":"","processorPrivacyPolicyUrl":"","processorCookiePolicyUrl":"","placeholderMainText":"This content is blocked because required functional cookies have not been accepted.","placeholderAcceptText":"Only accept required functional cookies"},"video":{"uuid":"3c6ecbcb-8cff-4940-a53f-191aac4e9333","langcode":"pt-pt","status":false,"dependencies":{"enforced":{"module":["cookies_video"]}},"_core":{"default_config_hash":"sSU9xaVzp6lMB3DXSy0j-GJMPQx67_xI3_AQuJRaLa0"},"id":"video","label":"Videos suportados pelo Youtube","group":"video","info":{"value":"","format":"full_html"},"consentRequired":true,"purpose":"","processor":"","processorContact":"","processorUrl":"","processorPrivacyPolicyUrl":"","processorCookiePolicyUrl":"","placeholderMainText":"This content is blocked because videos suportados pelo youtube cookies have not been accepted.","placeholderAcceptText":"Only accept videos suportados pelo youtube cookies"}},"groups":{"dynatrace":{"uuid":"9fc7c33d-f58d-480c-a3d3-b6ef6c9ccd93","langcode":"pt-pt","status":true,"dependencies":[],"id":"dynatrace","label":"Dynatrace","weight":50,"title":"Dynatrace","details":""},"facebook":{"uuid":"30e8c5e8-5f27-4c7c-9666-49d5eaee9fc9","langcode":"pt-pt","status":true,"dependencies":[],"id":"facebook","label":"Facebook","weight":50,"title":"Facebook","details":"Os cookies s\u00e3o pequenas por\u00e7\u00f5es de texto utilizadas para armazenar informa\u00e7\u00f5es em browsers. Os cookies s\u00e3o utilizados para armazenar e receber identificadores e outras informa\u00e7\u00f5es em computadores, telem\u00f3veis e outros dispositivos. S\u00e3o tamb\u00e9m utilizadas para fins semelhantes outras tecnologias, incluindo dados que armazenamos no teu browser ou dispositivo, identificadores associados ao teu dispositivo e outros tipos de software. Nesta pol\u00edtica, referimo-nos a todas estas tecnologias como \u0022cookies\u0022. "},"functional":{"uuid":"6c2c9f1a-e621-4737-aec0-65d416f3b550","langcode":"pt-pt","status":true,"dependencies":[],"id":"functional","label":"Functional","weight":1,"title":"Functional","details":"S\u00e3o cookies de car\u00e1ter t\u00e9cnico que permitem o funcionamento do website, possibilitando ao utilizador navegar no website e garantir a presta\u00e7\u00e3o de servi\u00e7os que o utilizador\/visitante espera receber, ativando fun\u00e7\u00f5es b\u00e1sicas como a navega\u00e7\u00e3o nas p\u00e1ginas e o acesso a \u00e1reas seguras das mesmas, para melhor gest\u00e3o e opera\u00e7\u00e3o do website. Para estes cookies n\u00e3o \u00e9 recolhido o consentimento pois o website n\u00e3o pode funcionar corretamente sem os mesmos."},"performance":{"uuid":"a00c8e7d-9044-42fa-96a4-6a606cc061f5","langcode":"pt-pt","status":true,"dependencies":[],"_core":{"default_config_hash":"Jv3uIJviBj7D282Qu1ZpEQwuOEb3lCcDvx-XVHeOJpw"},"id":"performance","label":"Desempenho","weight":30,"title":"Cookies de Performance","details":"Performance cookies collect aggregated information about how our website is used. The purpose of this is to improve its attractiveness, content and functionality. These cookies help us to determine whether, how often and for how long particular sub-pages of our website are accessed and which content users are particularly interested in. Search terms, country, region and (where applicable) the city from which the website is accessed are also recorded, as is the proportion of mobile devices that are used to access the website. We use this information to compile statistical reports that help us tailor the content of our website to your needs and optimize our offer."},"social":{"uuid":"fcbc9aa7-78ba-440c-a1bf-b1bb31565475","langcode":"pt-pt","status":true,"dependencies":[],"_core":{"default_config_hash":"vog2tbqqQHjVkue0anA0RwlzvOTPNTvP7_JjJxRMVAQ"},"id":"social","label":"Cookies de Marketing (Social)","weight":20,"title":"Cookies de Marketing (Social)","details":"S\u00e3o cookies que nos permitem conhecer os h\u00e1bitos de navega\u00e7\u00e3o do utilizador e mostrar publicidade relacionada com o seu perfil, isto \u00e9, permitem recordar informa\u00e7\u00f5es, para que os utilizadores possam aceder em determinadas condi\u00e7\u00f5es que distinguem a sua experi\u00eancia de navega\u00e7\u00e3o da de outros utilizadores, dando oportunidade ao Grupo IP de gerir eficazmente e adequar o conte\u00fado ao utilizador. Com a agrega\u00e7\u00e3o destes dados, torna-se poss\u00edvel, tamb\u00e9m, identificar conte\u00fados publicit\u00e1rios que, na visita a outros websites, lhe possam ser apresentados alinhados com os seus reais interesses."},"tracking":{"uuid":"ad92621a-20d2-4a59-b8dd-8812f37d4b22","langcode":"pt-pt","status":true,"dependencies":[],"_core":{"default_config_hash":"_gYDe3qoEc6L5uYR6zhu5V-3ARLlyis9gl1diq7Tnf4"},"id":"tracking","label":"Tracking","weight":10,"title":"Cookies Anal\u00edticos","details":"S\u00e3o cookies que permitem efetuar um acompanhamento e an\u00e1lises do comportamento dos utilizadores, atrav\u00e9s da recolha e an\u00e1lise de dados estat\u00edsticos que podem conter ou n\u00e3o dados pessoais. A informa\u00e7\u00e3o recolhida por estes cookies, suportam a melhoria cont\u00ednua e funcionamento do website. A t\u00edtulo exemplificativo, com estes dados conseguimos verificar se o utilizador acede via desktop ou mobile, permitindo adaptar os conte\u00fados e funcionalidades em fun\u00e7\u00e3o do referido canal.\r\n\r\nO Grupo IP utiliza cookies pr\u00f3prios para este efeito, isto \u00e9, os cookies s\u00e3o alojados nos nossos servidores internos n\u00e3o havendo qualquer partilha com entidades terceiras. A utiliza\u00e7\u00e3o dos presentes cookies n\u00e3o prossegue qualquer finalidade comercial ou de personaliza\u00e7\u00e3o, tendo apenas por objetivo a an\u00e1lise estat\u00edstica e de suporte \u00e0 atividade de comunica\u00e7\u00e3o do Grupo IP no \u00e2mbito das suas atribui\u00e7\u00f5es."},"video":{"uuid":"56f97a84-de77-4ec2-baa7-cf0b4dbd7138","langcode":"pt-pt","status":true,"dependencies":[],"_core":{"default_config_hash":"w1WnCmP2Xfgx24xbx5u9T27XLF_ZFw5R0MlO-eDDPpQ"},"id":"video","label":"video","weight":40,"title":"Cookies V\u00eddeo","details":"S\u00e3o considerados cookies de marketing que permitem carregar e visualizar v\u00eddeos provenientes do YouTube. Note-se que pela n\u00e3o aceita\u00e7\u00e3o destes cookies, poder\u00e1 n\u00e3o ser poss\u00edvel a visualiza\u00e7\u00e3o dos v\u00eddeos disponibilizados diretamente no website.\u201d"}}},"flexslider":{"optionsets":{"carousel_noticias_infraestruturas":{"animation":"slide","animationSpeed":500,"direction":"horizontal","slideshow":true,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":9000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":250,"itemMargin":30,"minItems":1,"maxItems":3,"move":0,"directionNav":true,"controlNav":true,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"\u003Ci class=\u0022fas fa-arrow-left\u0022\u003E\u003C\/i\u003E","nextText":"\u003Ci class=\u0022fas fa-arrow-right\u0022\u003E\u003C\/i\u003E","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":true,"pauseOnHover":false,"controlsContainer":"","manualControls":""},"slider_ip":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":true,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":15000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":true,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":false,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"\u003Ci class=\u0022fas fa-arrow-left\u0022\u003E\u003C\/i\u003E","nextText":"\u003Ci class=\u0022fas fa-arrow-right\u0022\u003E\u003C\/i\u003E","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":true,"pauseOnHover":false,"controlsContainer":"","manualControls":""}},"instances":{"flexslider-2":"carousel_noticias_infraestruturas","flexslider-1":"slider_ip"}},"user":{"uid":0,"permissionsHash":"[CHAVE]"}}</script>
+<script src="/sites/default/files/js/js_rJyD-ImRGUxQIJho7dn8sOagRS5sFi_e2zcJXU06G0Y.js?scope=header&amp;delta=0&amp;language=pt-pt&amp;theme=ip_corporativo_theme&amp;include=eJx9j-GOhCAMhF-IlUciFapbBUpodW_f_rq5i_rDu4SQSWfyZQZSUob69vArhqlzVQciqIHqglG5-0UGam6EuAZle81fdFjExRUTWTJAjNwTcfWH-kFiTWdqZFbRDi0ojOI_n4vMK6GEhIV9wgm2rG7K-CWZEnZPxpg7qBHdZEB4oXBBf9GD7PN_3iBPKo5asGaNP6zdFjzRkkeje_vsce_PmUfIj8ilccWqch_jV743uo3eMVCZQ6KCVWzlHwwp0NUim7hTXq6PuIlycaIU13eF3R_qG9Xaxbk"></script>
+<script src="/modules/contrib/cookies/js/cookiesjsr.conf.js?v=10.6.12" defer></script>
+<script src="/libraries/cookiesjsr/dist/cookiesjsr-preloader.min.js?v=10.6.12" defer></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/v4-shims.js" defer crossorigin="anonymous"></script>
+
+	
+  </head>
+  <body class="path-frontpage">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<!-- Start: Header -->
+<div class="header">
+    <div class="container">
+        <div class="menu-search">
+                  <div class="region region-search">
+    <div class="search-block-form settings-tray-editable block block-search" data-drupal-selector="search-block-form" id="block-ip-corporativo-theme-search" role="search" data-drupal-settingstray="editable">
+	<div class="container">
+	  <div class="close-search">
+		<span class="close-search-button"></span>
+	  </div>
+	  
+	  		<p class="visually-hidden">Pesquisar...</p>
+	  	  
+	  		<form action="/pt-pt/search/node-ip" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Pesquisar...</label>
+        <input title="Introduza os termos pelos quais pretende pesquisar." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Pesquisar..." class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+	  	 </div>
+</div>
+
+  </div>
+
+                </div>
+        <div class="menu-main">
+            <div class="menu-header">
+								<a class="menu-main-logo-img" aria-label="logo" href="/"></a>
+				                            </div>
+
+                        <div class="menu-main-options">
+			                  <div class="region region-top-menu">
+    <div id="block-ipcorporativoselecaosite" class="settings-tray-editable block block-block-content block-block-contentc89274c5-df2d-4694-86d2-37b75ca50cd7" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="d-flex switch-sites-bar">
+<div id="switch-sites-bar-option"><a href="https://servicos.infraestruturasdeportugal.pt">Serviços</a></div>
+
+<div id="switch-sites-bar-selected">Corporativo</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+<div id="block-ipglobalmenupesquisa" class="settings-tray-editable block block-block-content block-block-contentcc970ac3-c867-4cfe-89a0-66aee3e742d1" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="global-search-button" id="main-content"><svg fill="none" height="15px" viewbox="0 0 15 15" width="15px" xmlns="http://www.w3.org/2000/svg"> <path d="M6.875 11.875C9.63642 11.875 11.875 9.63642 11.875 6.875C11.875 4.11358 9.63642 1.875 6.875 1.875C4.11358 1.875 1.875 4.11358 1.875 6.875C1.875 9.63642 4.11358 11.875 6.875 11.875Z" stroke="#323232" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path> <path d="M13.125 13.125L10.4062 10.4062" stroke="#323232" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path> </svg></div>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                                                  <div class="region region-primary-menu">
+    <div id="block-smartmenusblock-5" class="settings-tray-editable block block-smartmenus block-smart-menus-block" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      <div class="smartmenus-block">
+  
+
+<nav class="main-nav smartmenus-nav" role="navigation">
+  <input id="main-menu-state" class="sm-menu-state" type="checkbox" />
+<label class="sm-menu-btn" for="main-menu-state">
+  Toggle main menu visibility
+  <span class="sm-menu-btn-icon"></span>
+</label>
+
+         
+            <ul id="sm-main-menu"  class="sm-simple sm-horizontal sm sm-ip-corporativo-menu" data-drupal-selector="smartmenu">                           <li class="sm-item item-expanded first">
+        <a href="/pt-pt/sobre-nos/quem-somos" class="sm-link" data-drupal-link-system-path="node/4224">A IP</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/quem-somos" class="sm-link" data-drupal-link-system-path="node/4224">Quem Somos</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sobre-nos/governo-da-sociedade" class="sm-link" data-drupal-link-system-path="node/4262">Governo da Sociedade</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/governo-da-sociedade/dados-da-sociedade" class="sm-link" data-drupal-link-system-path="node/4264">Dados da Sociedade</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/governo-da-sociedade/enquadramento-legal" class="sm-link" data-drupal-link-system-path="node/4270">Enquadramento Legal</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/governo-da-sociedade/outras-divulgacoes" class="sm-link" data-drupal-link-system-path="node/4291">Outras Divulgações</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sobre-nos/compromissos" class="sm-link" data-drupal-link-system-path="node/4429">Compromissos</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/compromissos/compromissos-de-gestao" class="sm-link" data-drupal-link-system-path="node/4235">Gestão</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/compromisso/seguranca" class="sm-link" data-drupal-link-system-path="node/4236">Segurança</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/transparencia-administrativa" class="sm-link" data-drupal-link-system-path="node/7369">Transparência administrativa</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/etica" class="sm-link" data-drupal-link-system-path="node/4237">Ética</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/compromissos/responsabilidade-social" class="sm-link" data-drupal-link-system-path="node/4238">Responsabilidade Social</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/compromissos/envolvimento-internacional-do-grupo-ip" class="sm-link" data-drupal-link-system-path="node/4239">Internacional</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sobre-nos/informacoes-de-gestao/plano-de-atividades-e-orcamentos" class="sm-link" data-drupal-link-system-path="node/4743">Informação de Gestão</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/informacoes-de-gestao/plano-de-atividades-e-orcamentos" class="sm-link" data-drupal-link-system-path="node/4743">Plano de Atividades e Orçamento</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/informacoes-de-gestao/execucao-orcamental" class="sm-link" data-drupal-link-system-path="node/4744">Execução Orçamental</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/informacoes-de-gestao/relatorio-e-contas" class="sm-link" data-drupal-link-system-path="node/4745">Relatório e Contas</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/informacoes-de-gestao/relatorios-de-sustentabilidade" class="sm-link" data-drupal-link-system-path="node/6800">Reporte de Sustentabilidade</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/informacoes-de-gestao/informacao-para-o-mercado" class="sm-link" data-drupal-link-system-path="node/4746">Informação para o Mercado</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sobre-nos/certificacoes-e-reconhecimento/certificacoes" class="sm-link" data-drupal-link-system-path="node/5014">Certificações e Reconhecimentos</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/certificacoes-e-reconhecimento/certificacoes" class="sm-link" data-drupal-link-system-path="node/5014">Certificações</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/certificacoes-e-reconhecimentos/premios-e-reconhecimentos" class="sm-link" data-drupal-link-system-path="node/4233">Reconhecimentos</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/acreditacoes" class="sm-link" data-drupal-link-system-path="node/5555">Acreditações</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sobre-nos/historico" class="sm-link" data-drupal-link-system-path="node/4271">Histórico</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item item-expanded">
+        <a href="/pt-pt/sobre-nos/historico/estradas-de-portugal" class="sm-link" data-drupal-link-system-path="node/4240">Estradas de Portugal</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/historico/estradas-de-portugal/documentacao" class="sm-link" data-drupal-link-system-path="node/4274">Documentação</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sobre-nos/historico/refer" class="sm-link" data-drupal-link-system-path="node/4272">REFER</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sobre-nos/historico/refer/documentacao" class="sm-link" data-drupal-link-system-path="node/4276">Documentação</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/en/infraestruturas?id=rede-ferroviaria" class="sm-link" data-drupal-link-query="{&quot;id&quot;:&quot;rede-ferroviaria&quot;}">Infraestruturas</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item item-expanded">
+        <a href="/pt-pt/infraestruturas/rede-ferroviaria" class="sm-link" data-drupal-link-system-path="node/4323">Rede Ferroviária</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/rede-ferroviaria/estado-da-infraestrutura" class="sm-link" data-drupal-link-system-path="node/4301">Estado da Infraestrutura</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/operacao" class="sm-link" data-drupal-link-system-path="node/4302">Operação</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/inspecao-diagnostico-ferroviario" title="Inspecao e Diagnostico" class="sm-link" data-drupal-link-system-path="node/4735">Inspeção e Diagnóstico</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/manutencao" class="sm-link" title="Sobre Manutenção" data-drupal-link-system-path="node/4303">Manutenção</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/seguranca-ip-ferroviaria" class="sm-link" data-drupal-link-system-path="node/4304">Segurança</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/legislacao-europeia-e-nacional-aplicavel-ao-transporte-ferroviario" class="sm-link" data-drupal-link-system-path="node/4307">Legislação</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/contrato-programa" class="sm-link" data-drupal-link-system-path="node/4308">Contrato Programa</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/terminologia" class="sm-link" data-drupal-link-system-path="node/4309">Terminologia</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/rede-rodoviaria-ip" class="sm-link" data-drupal-link-system-path="node/4284">Rede Rodoviária</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/estado-da-infraestrutura" class="sm-link" data-drupal-link-system-path="node/5261">Estado da Infraestrutura</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/subconcessoes" class="sm-link" data-drupal-link-system-path="node/4282">Subconcessões</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/rede-rodoviaria/centro-de-controlo-de-trafego" class="sm-link" data-drupal-link-system-path="node/4283">Centro de Controlo de Tráfego</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/inspecao-diagnostico-rodoviario" class="sm-link" data-drupal-link-system-path="node/4739">Inspeção e Diagnóstico</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/conservacao" class="sm-link" data-drupal-link-system-path="node/4285">Conservação</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/seguranca-ip" class="sm-link" data-drupal-link-system-path="node/4286">Segurança</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sinistralidade-rodoviaria" class="sm-link" data-drupal-link-system-path="node/4287">Sinistralidade Rodoviária</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/prn" class="sm-link" data-drupal-link-system-path="node/4295">Legislação</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/contrato-de-concessao" class="sm-link" data-drupal-link-system-path="node/4296">Contrato de Concessão</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/estatuto-estradas-rede-rodoviaria-nacional" class="sm-link" data-drupal-link-system-path="node/4297">Estatuto Estradas Rede Rodoviária Nacional</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/rede-telecomunicacoes" class="sm-link" data-drupal-link-system-path="node/4298">Rede Telecomunicações</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/patrimonio" class="sm-link" data-drupal-link-system-path="node/4299">Património</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/infraestruturas/investimentos/principais-investimentos-em-curso" class="sm-link" data-drupal-link-system-path="node/4316">Investimentos</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/principais-investimentos-em-curso" class="sm-link" data-drupal-link-system-path="node/4316">Principais Investimentos</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/rede-de-alta-velocidade" class="sm-link" data-drupal-link-system-path="node/6693">Rede de Alta Velocidade</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/rede-de-alta-velocidade/impacte-ambiental" title="Impacte Ambiental da LAV" class="sm-link" data-drupal-link-system-path="node/6694">Impacte Ambiental</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/rede-de-alta-velocidade/medidas-preventivas" class="sm-link" data-drupal-link-system-path="node/6696">Medidas Preventivas</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/rede-de-alta-velocidade/concursos" class="sm-link" data-drupal-link-system-path="node/6697">Concursos</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/rede-de-alta-velocidade/questoes-frequentes" title="Questões frequentes" class="sm-link" data-drupal-link-system-path="node/6894">FAQ</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/rede-de-alta-velocidade/fale-connosco" class="sm-link" data-drupal-link-system-path="node/6698">Fale connosco</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/infraestruturas/investimentos/programas" class="sm-link" data-drupal-link-system-path="node/4313">Programas</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/programas/planos-estrategicos/ferrovia2020" class="sm-link" data-drupal-link-system-path="node/4825">Ferrovia 2020</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/programas/planos-estrategicos/pni2030" class="sm-link" data-drupal-link-system-path="node/4827">PNI 2030</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/programas/planos-estrategicos/pvae" class="sm-link" data-drupal-link-system-path="node/4826">PVAE</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/programas/planos-estrategicos/peti3" class="sm-link" data-drupal-link-system-path="node/4829">PETI 3+</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/programas/planos-estrategicos/plano-de-recuperacao-e-resiliencia" class="sm-link" data-drupal-link-system-path="node/5253">Plano de Recuperação e Resiliência</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/infraestruturas/investimentos/financiamento-comunitario" class="sm-link" data-drupal-link-system-path="node/4317">Financiamento</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/financiamento-comunitario/povt-2007-2013" class="sm-link" data-drupal-link-system-path="node/4318">POVT 2007-2013</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/financiamento-comunitario/rte-t-2007-2013" class="sm-link" data-drupal-link-system-path="node/4665">RTE-T 2007-2013</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/financiamento-comunitario/cef-geral-2014-2020" class="sm-link" data-drupal-link-system-path="node/4666">CEF GERAL 2014-2020</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/financiamento-comunitario/cef-coesao-2014-2020" class="sm-link" data-drupal-link-system-path="node/4723">CEF COESÃO 2014-2020</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/financiamento-comunitario/compete-2020" class="sm-link" data-drupal-link-system-path="node/4726">Compete 2020</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/infraestruturas/investimentos/financiamento-comunitario/poseur" class="sm-link" data-drupal-link-system-path="node/4727">POSEUR</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/cef-digital-2021-2027" class="sm-link" data-drupal-link-system-path="node/7013">CEF Digital 2021-2027</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/cef-transportes-2021-2027" class="sm-link" data-drupal-link-system-path="node/8384">CEF Transportes 2021-2027</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/pacs-2021-2027" title="Programa Ação Climática e Sustentabilidade (PACS) 2021-2027" class="sm-link" data-drupal-link-system-path="node/7549">PACS 2021-2027</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/norte2030" title="Instrumento de financiamento - NORTE2030" class="sm-link" data-drupal-link-system-path="node/7590">NORTE2030</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/centro2030" title="Instrumento de financiamento - CENTRO2030" class="sm-link" data-drupal-link-system-path="node/7666">CENTRO2030</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="https://www.infraestruturasdeportugal.pt/pt-pt/mobilidade-segura" title="Mobilidade Segura" class="sm-link" data-drupal-link-system-path="node/6861">Mobilidade Segura</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="https://www.infraestruturasdeportugal.pt/pt-pt/mobilidade-segura" title="Mobilidade Segura" class="sm-link" data-drupal-link-system-path="node/6861">Mobilidade Segura</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/mobilidade-segura/ferrovia" title="Segurança Ferroviária" class="sm-link" data-drupal-link-system-path="node/6864">Ferrovia</a>
+              </li>
+                      <li class="sm-item">
+        <a href="https://www.infraestruturasdeportugal.pt/pt-pt/mobilidade-segura/rodovia" title="Segurança Rodoviária" class="sm-link" data-drupal-link-system-path="node/6862">Rodovia</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sustentabilidade-ip" class="sm-link" data-drupal-link-system-path="node/4201">Sustentabilidade</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip" class="sm-link" data-drupal-link-system-path="node/4201">Sustentabilidade</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sustentabilidade-ip/transicao-energetica-ip" class="sm-link" data-drupal-link-system-path="node/4674">Transição Energética</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/transicao-energetica-ip/descarbonizacao-de-infraestruturas-ip" class="sm-link" data-drupal-link-system-path="node/4202">Descarbonização de Infraestruturas</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/transicao-energetica-ip/mobilidade-ativa-ip" class="sm-link" data-drupal-link-system-path="node/4203">Mobilidade Ativa</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sustentabilidade-ip/transicao-energetica-ip/eficiencia-energetica-e-energias-renovaveis-ip" class="sm-link" data-drupal-link-system-path="node/4204">Eficiência Energética e Energias Renováveis</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/transicao-energetica-ip/eficiencia-energetica-e-energias-renovaveis-ip/programa-see" class="sm-link" data-drupal-link-system-path="node/6098">Programa SEE</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/transicao-energetica-ip/eficiencia-energetica-e-energias-renovaveis-ip/programa-repower" class="sm-link" data-drupal-link-system-path="node/6099">Programa RePowerIP</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/alteracoes-climaticas-ip" class="sm-link" data-drupal-link-system-path="node/4205">Alterações Climáticas</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip" class="sm-link" data-drupal-link-system-path="node/4813">Ambiente</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip/gestao-ambiental-em-projeto-e-obra-ip" class="sm-link" data-drupal-link-system-path="node/4207">Gestão Ambiental em Projeto e Obra</a>
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip/ruido-ip" class="sm-link" data-drupal-link-system-path="node/4208">Ruido</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip/ruido-ip/planos-de-acao-de-ruido" class="sm-link" data-drupal-link-system-path="node/4778">Planos de Ação de Ruído</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip/biodiversidade-ip" class="sm-link" data-drupal-link-system-path="node/4209">Biodiversidade</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip/biodiversidade-ip/acoes-de-conservacao-da-natureza-ip" class="sm-link" data-drupal-link-system-path="node/4717">Ações de Conservação da Natureza</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip/biodiversidade-ip/projetos-e-estudos-de-conservacao-ip" class="sm-link" data-drupal-link-system-path="node/4721">Projetos e Estudos de Conservação</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip/paisagem-e-arborizacao-ip" class="sm-link" data-drupal-link-system-path="node/4210">Paisagem e Arborização</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/ambiente-ip/patrimonio-cultural-ip" class="sm-link" data-drupal-link-system-path="node/4211">Património Cultural</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sustentabilidade-ip/economia-circular-ip" class="sm-link" data-drupal-link-system-path="node/4804">Economia Circular</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/economia-circular-ip/eco-concecao-ip" class="sm-link" data-drupal-link-system-path="node/4212">Eco-conceção</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/economia-circular-ip/valorizacao-de-materiais-e-residuos-ip" class="sm-link" data-drupal-link-system-path="node/4213">Valorização de Materiais e Resíduos</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/economia-circular-ip/gestao-de-residuos-ip" class="sm-link" data-drupal-link-system-path="node/4214">Gestão de Resíduos</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/sustentabilidade-ip/responsabilidade-social-ip" class="sm-link" data-drupal-link-system-path="node/4263">Responsabilidade Social</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/responsabilidade-social-ip/politica-de-responsabilidade-social-ip" class="sm-link" data-drupal-link-system-path="node/4215">Política de Responsabilidade Social</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/responsabilidade-social-ip/entidades-de-que-ip-e-membro-ip" class="sm-link" data-drupal-link-system-path="node/4216">Entidades de que a IP é Membro</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/sustentabilidade-ip/responsabilidade-social-ip/voluntariado-ip" class="sm-link" data-drupal-link-system-path="node/4217">Voluntariado</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/inovacao-ip" class="sm-link" data-drupal-link-system-path="node/4219">Inovação</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/inovacao-ip" class="sm-link" data-drupal-link-system-path="node/4219">Inovação</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/estrategia-de-inovacao-2035" title="Estratégia de Inovação 2035" class="sm-link" data-drupal-link-system-path="node/8324">Estratégia de Inovação 2035</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/inovacao-ip/macrotendencias-ip" class="sm-link" data-drupal-link-system-path="node/4220">Macrotendências</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/inovacao-ip/desafios-idi-ip" class="sm-link" data-drupal-link-system-path="node/4221">Desafios de Inovação</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/inovacao-ip/projetos-idi-ip" class="sm-link" data-drupal-link-system-path="node/4222">Projetos IDI</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/inovacao-ip/videos" class="sm-link" data-drupal-link-system-path="node/5868">Vídeos</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/carreiras" class="sm-link" data-drupal-link-system-path="node/4364">Carreiras</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/carreiras/processo-de-recrutamento" class="sm-link" data-drupal-link-system-path="node/7595">Processo de Recrutamento</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/carreiras/beneficios" class="sm-link" data-drupal-link-system-path="node/7596">Benefícios</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/carreiras/inicio-de-carreira" class="sm-link" data-drupal-link-system-path="node/7597">Início de Carreira</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded">
+        <a href="/pt-pt/media/noticias" class="sm-link" data-drupal-link-system-path="node/4629">Media</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/media/noticias" class="sm-link" data-drupal-link-system-path="node/4629">Notícias</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/media/agenda" class="sm-link" data-drupal-link-system-path="node/4634">Agenda</a>
+              </li>
+                      <li class="sm-item">
+        <a href="/pt-pt/media/imprensa" class="sm-link" data-drupal-link-system-path="node/4637">Imprensa</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="sm-item item-expanded last">
+        <a href="/pt-pt/ip-o-grupo" target="_blank" class="sm-link" data-drupal-link-system-path="node/4261">Grupo</a>
+                         
+            <ul class="sm-submenu">
+                          <li class="sm-item">
+        <a href="/pt-pt/ip-o-grupo" class="sm-link" data-drupal-link-system-path="node/4261">Grupo IP</a>
+              </li>
+                      <li class="sm-item">
+        <a href="https://www.ipengenharia.pt/" class="sm-link" target="_blank">IP Engenharia</a>
+              </li>
+                      <li class="sm-item">
+        <a href="https://www.ippatrimonio.pt/" class="sm-link" target="_blank">IP Património</a>
+              </li>
+                      <li class="sm-item">
+        <a href="https://www.iptelecom.pt/" class="sm-link" target="_blank">IP Telecom</a>
+              </li>
+                      <li class="sm-item">
+        <a href="https://www.pttolls.com/" target="_blank" class="sm-link">PT Tolls</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+   </nav>
+
+
+</div>
+
+
+    </div>
+  </div>
+
+  </div>
+
+                            </div>
+                    </div>
+    </div>
+</div>
+<!-- End: Header -->
+
+
+<!-- Start: Slides -->
+<!-- End: Slides -->
+
+<!--Start: Secção Breadcrumb -->
+<!--End: Secção Breadcrumb -->
+
+<!--Start: Breadcrumb -->
+<!--End: Breadcrumb -->
+
+
+
+<!--Start: Top Message -->
+  <div class="top-message mt-0">
+    <div class="">
+        <div class="region region-top-message">
+    <div id="block-videoblock" class="settings-tray-editable block block-block-content block-block-content644f9588-4721-47c4-ad04-84ca62c77606" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="vid-bg">
+<video autoplay="" loop="" muted="" playsinline="" src="/sites/default/files/Slider_IPC_v4.mp4">&nbsp;</video>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+    </div>
+  </div>
+<!--End: Top Message -->
+
+
+<!-- Start: Top widget -->
+<!--End: Top widget -->
+
+    
+<!--Start: Highlighted -->
+  <div class="highlighted">
+    <div class="container">
+        <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+    </div>
+  </div>
+<!--End: Highlighted -->
+
+
+<!--Start: Title -->
+<!--End: Title -->
+
+<!--<div id="main-content" class="main-content">-->
+<div class="main-content">
+<span hidden="" id="h-name">Infraestruturas de Portugal</span>
+<h1 aria-labelledby="h-name" style="line-height:0;">&nbsp;</h1>
+  <div class="container">
+    <div class="">
+
+      <div class="row layout">
+        <!--- Start: Left SideBar -->
+                <!-- End Left SideBar -->
+
+        <!--- Start Content -->
+                  <div class=col-md-12>
+            <div class="content_layout">
+
+              
+              
+                <div class="region region-content">
+    <div id="block-ip-corporativo-theme-content" class="block block-system block-system-main-block">
+  
+      
+      <div class="content">
+      <div class="views-element-container"><div class="js-view-dom-id-[CHAVE]">
+  
+  
+  
+
+  
+  
+  
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div>
+  </div>
+<div id="block-texttop" class="settings-tray-editable block block-block-content block-block-contentacf166f2-dbdb-4d8a-a6a5-e83a02d88a98" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="mobile-side-display mb-120"><aside class="vertical_el hide-on-mobile"><p class="vertical_text hide-on-mobile">Serviços</p></aside><div class="row"><div class="col-12 col-lg-10 m-md-auto"><h2 class="mb-40">Trânsito, alertas, horários dos comboios e outras informações.</h2><p><a class="button-ip button-ip-primary" href="https://servicos.infraestruturasdeportugal.pt/" target="_blank" title="Serviços">Saber mais</a></p></div></div></div></div>
+      
+    </div>
+  </div>
+<div class="views-element-container settings-tray-editable block block-views block-views-blockslideshow-ip-infraestruturas-index-block-2" id="block-views-block-slideshow-ip-infraestruturas-index-block-2" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      <div><div class="slideshow-homepage-custom js-view-dom-id-[CHAVE]">
+  
+  
+  
+
+  
+  
+  
+
+  
+<div>
+    
+<div id="flexslider-1" class="flexslider optionset-slider-ip">
+ 
+<ul class="slides">
+    
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="https://shorturl.at/Fy51A" title="" target="_blank">  <img loading="lazy" src="/sites/default/files/2026-08/60anos_pt25abril_1500x550.png" width="1500" height="550" alt="A Ponte 25 de Abril está de parabéns: 60 anos a ligar destinos" typeof="Image" />
+
+</a>
+    <a href="https://shorturl.at/Fy51A " class="slideshow-homepage-custom-item-caption" title="Grupo IP - " target="_blank">
+        <h5>A Ponte 25 de Abril está de parabéns: 60 anos a ligar destinos</h5> 
+        <p></p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="https://shorturl.at/kBq5P" title="" target="_blank">  <img loading="lazy" src="/sites/default/files/2026-08/Banner%20para%20site%20-%20Intemp%C3%A9ries.png" width="1500" height="550" alt="Recuperação Intempéries 2026" typeof="Image" />
+
+</a>
+    <a href="https://shorturl.at/kBq5P " class="slideshow-homepage-custom-item-caption" title="Grupo IP - " target="_blank">
+        <h5>Recuperação Intempéries 2026</h5> 
+        <p></p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="https://shorturl.at/5GcKp" title="" target="_blank">  <img loading="lazy" src="/sites/default/files/2026-06/Mapa%20dos%20investimentos%20-%20Banner%20Site.png" width="1500" height="550" alt="Conheça o mapa dos investimentos em curso da Infraestruturas de Portugal" typeof="Image" />
+
+</a>
+    <a href="https://shorturl.at/5GcKp " class="slideshow-homepage-custom-item-caption" title="Grupo IP - " target="_blank">
+        <h5>Conheça o mapa dos investimentos em curso da Infraestruturas de Portugal</h5> 
+        <p></p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="https://tr.ee/hFQSAS" title="" target="_blank">  <img loading="lazy" src="/sites/default/files/2026-09/Regime%20de%20circula%C3%A7%C3%A3o%20na%20VCI%20e%20isen%C3%A7%C3%A3o%20de%20pagamento%20das%20taxas%20de%20portagem%20na%20CREP%20-%20Banner%20HP.png" width="1500" height="550" alt="Regime de circulação na VCI e isenção de pagamento das taxas de portagem na CREP" typeof="Image" />
+
+</a>
+    <a href="https://tr.ee/hFQSAS " class="slideshow-homepage-custom-item-caption" title="Grupo IP - " target="_blank">
+        <h5>Regime de circulação na VCI e isenção de pagamento das taxas de portagem na CREP</h5> 
+        <p></p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="https://bit.ly/4lToY1J" title="" target="_blank">  <img loading="lazy" src="/sites/default/files/2024-12/20241204_LAV-SaibaMais_1500x550a.jpg" width="1500" height="550" alt="Rede ferroviária de Alta Velocidade: imagem de calltoaction para site" typeof="Image" />
+
+</a>
+    <a href="https://bit.ly/4lToY1J " class="slideshow-homepage-custom-item-caption" title="Grupo IP - " target="_blank">
+        <h5>Rede ferroviária de alta velocidade em Portugal. Saiba mais.</h5> 
+        <p></p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="/pt-pt/inovacao-ip" title="Inovação tecnológica e gestão das redes em segurança" target="_blank">  <img loading="lazy" src="/sites/default/files/2021-05/OqueFazemos4_0.jpg" width="1500" height="550" alt="O Que fazemos: Inovação tecnológica e gestão das redes em segurança" typeof="Image" />
+
+</a>
+    <a href="/pt-pt/inovacao-ip " class="slideshow-homepage-custom-item-caption" title="Grupo IP - Inovação tecnológica e gestão das redes em segurança" target="_blank">
+        <h5>O que fazemos?</h5> 
+        <p>Inovação tecnológica e gestão das redes em segurança</p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="/pt-pt/infraestruturas/investimentos/principais-investimentos-em-curso" title="Modernização, construção e investimento" target="_blank">  <img loading="lazy" src="/sites/default/files/2021-05/OqueFazemos3.jpg" width="1500" height="550" alt="O Que fazemos: Modernização, construção e investimento" typeof="Image" />
+
+</a>
+    <a href="/pt-pt/infraestruturas/investimentos/principais-investimentos-em-curso " class="slideshow-homepage-custom-item-caption" title="Grupo IP - Modernização, construção e investimento" target="_blank">
+        <h5>O que fazemos?</h5> 
+        <p>Modernização, construção e investimento</p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="/pt-pt/infraestruturas/rede-ferroviaria" title="Conservação e manutenção das infraestruturas" target="_blank">  <img loading="lazy" src="/sites/default/files/2021-12/OqueFazemos2_0.jpg" width="1868" height="683" alt="O Que fazemos: Conservação e manutenção das infraestruturas" typeof="Image" />
+
+</a>
+    <a href="/pt-pt/infraestruturas/rede-ferroviaria " class="slideshow-homepage-custom-item-caption" title="Grupo IP - Conservação e manutenção das infraestruturas" target="_blank">
+        <h5>O que fazemos?</h5> 
+        <p>Conservação e manutenção das infraestruturas</p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="slideshow-homepage-custom-item">
+<div class="content">
+   <a href="/pt-pt/infraestruturas/rede-ferroviaria" title="Gestão da rede rodoviária e ferroviária, incluindo o comando e controlo da circulação ferroviária" target="_blank">  <img loading="lazy" src="/sites/default/files/2021-05/OqueFazemos1.jpg" width="1500" height="550" alt="Gestão da rede rodoviária e ferroviária, incluindo o comando e controlo da circulação ferroviária" typeof="Image" />
+
+</a>
+    <a href="/pt-pt/infraestruturas/rede-ferroviaria " class="slideshow-homepage-custom-item-caption" title="Grupo IP - Gestão da rede rodoviária e ferroviária, incluindo o comando e controlo da circulação ferroviária" target="_blank">
+        <h5>O que fazemos?</h5> 
+        <p>Gestão da rede rodoviária e ferroviária, incluindo o comando e controlo da circulação ferroviária</p>
+      </a>
+</div>
+</div></div></div>
+    </li>
+</ul>
+</div>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div>
+  </div>
+<div id="block-bigtext" class="settings-tray-editable block block-block-content block-block-contentfb9434de-c873-482d-83b6-86b9cddea1f3" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+    </div>
+  </div>
+<div class="views-element-container settings-tray-editable block block-views block-views-blockbloco-de-noticias-infraestruturas-block-1" id="block-views-block-bloco-de-noticias-infraestruturas-block-1" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      <div><div class="ip-corporativo-homepage-noticias js-view-dom-id-[CHAVE]">
+  
+  
+  
+
+      <header>
+      <h3 class="text-align-left"><strong>Notícias</strong></h3>
+    </header>
+  
+  
+  
+
+  
+<div>
+    
+<div id="flexslider-2" class="flexslider optionset-carousel-noticias-infraestruturas">
+ 
+<ul class="slides">
+    
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="media-page-result-item media-page-news">
+    <div class="field-content media-page-result-item-image"><a href="/pt-pt/intemperies-2026-finalizada-mais-uma-intervencao-na-en8-em-alcobaca ">  <img loading="lazy" src="/sites/default/files/styles/img_view_home_350_x_167/public/2026-10/WhatsApp%20Image%202026-10-09%20at%2010.11.39%20%282%29_0.png?itok=zFjpMkYw" width="350" height="167" alt="Plataforma rodoviária" title="Plataforma rodoviária" typeof="Image" class="image-style-img-view-home-350-x-167" />
+
+
+</a></div>
+    <div class="media-page-result-item-date">Ter, 13/10/2026</div>
+    <div class="media-page-result-item-title"><a href="/pt-pt/intemperies-2026-finalizada-mais-uma-intervencao-na-en8-em-alcobaca ">Intempéries 2026: finalizada mais uma intervenção na EN8 em Alcobaça</a></div>
+    <div class="media-page-result-item-link">
+        <a class="hvr-underline-from-left knowMoreLink" href="/pt-pt/intemperies-2026-finalizada-mais-uma-intervencao-na-en8-em-alcobaca ">Saber mais</a>
+    </div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="media-page-result-item media-page-news">
+    <div class="field-content media-page-result-item-image"><a href="/pt-pt/arrancam-obras-do-primeiro-troco-da-linha-de-alta-velocidade-entre-porto-campanha-e-oia ">  <img loading="lazy" src="/sites/default/files/styles/img_view_home_350_x_167/public/2026-10/Arrancam%20as%20obras%20do%20primeiro%20tro%C3%A7o%20da%20Linha%20de%20Alta%20Velocidade%20entre%20Porto%20%28Campanh%C3%A3%29%20e%20Oi%C3%A3%20%284%29.png?itok=dppMtPyS" width="350" height="167" alt="Arrancam as obras do primeiro troço da Linha de Alta Velocidade entre Porto (Campanhã) e Oiã" title="Arrancam as obras do primeiro troço da Linha de Alta Velocidade entre Porto (Campanhã) e Oiã" typeof="Image" class="image-style-img-view-home-350-x-167" />
+
+
+</a></div>
+    <div class="media-page-result-item-date">Seg, 12/10/2026</div>
+    <div class="media-page-result-item-title"><a href="/pt-pt/arrancam-obras-do-primeiro-troco-da-linha-de-alta-velocidade-entre-porto-campanha-e-oia ">Arrancam as obras do primeiro troço da Linha de Alta Velocidade entre Porto (Campanhã) e Oiã</a></div>
+    <div class="media-page-result-item-link">
+        <a class="hvr-underline-from-left knowMoreLink" href="/pt-pt/arrancam-obras-do-primeiro-troco-da-linha-de-alta-velocidade-entre-porto-campanha-e-oia ">Saber mais</a>
+    </div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="media-page-result-item media-page-news">
+    <div class="field-content media-page-result-item-image"><a href="/pt-pt/intemperies-2026-avanca-reposicao-e-estabilizacao-da-plataforma-da-en243 ">  <img loading="lazy" src="/sites/default/files/styles/img_view_home_350_x_167/public/2026-10/Foto%201.png?itok=OtFw218U" width="350" height="167" alt="1ª zona de intervenção" title="1ª zona de intervenção" typeof="Image" class="image-style-img-view-home-350-x-167" />
+
+
+</a></div>
+    <div class="media-page-result-item-date">Qua, 07/10/2026</div>
+    <div class="media-page-result-item-title"><a href="/pt-pt/intemperies-2026-avanca-reposicao-e-estabilizacao-da-plataforma-da-en243 ">Intempéries 2026: avança a reposição e estabilização da plataforma da EN243 </a></div>
+    <div class="media-page-result-item-link">
+        <a class="hvr-underline-from-left knowMoreLink" href="/pt-pt/intemperies-2026-avanca-reposicao-e-estabilizacao-da-plataforma-da-en243 ">Saber mais</a>
+    </div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="media-page-result-item media-page-news">
+    <div class="field-content media-page-result-item-image"><a href="/pt-pt/seguranca-da-ponte-25-de-abril-nas-aguas-do-tejo ">  <img loading="lazy" src="/sites/default/files/styles/img_view_home_350_x_167/public/2026-10/_67A9711_1.png?itok=P1MMAhvw" width="350" height="167" alt="Equipamento técnico para as inspeções subaquáticas aos pilares da Ponte 25 de Abril" title="Equipamento técnico para as inspeções subaquáticas aos pilares da Ponte 25 de Abril" typeof="Image" class="image-style-img-view-home-350-x-167" />
+
+
+</a></div>
+    <div class="media-page-result-item-date">Ter, 06/10/2026</div>
+    <div class="media-page-result-item-title"><a href="/pt-pt/seguranca-da-ponte-25-de-abril-nas-aguas-do-tejo ">A segurança da Ponte 25 de Abril nas águas do Tejo</a></div>
+    <div class="media-page-result-item-link">
+        <a class="hvr-underline-from-left knowMoreLink" href="/pt-pt/seguranca-da-ponte-25-de-abril-nas-aguas-do-tejo ">Saber mais</a>
+    </div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="media-page-result-item media-page-news">
+    <div class="field-content media-page-result-item-image"><a href="/pt-pt/estacao-de-porto-sao-bento-celebra-110-anos-no-coracao-da-cidade ">  <img loading="lazy" src="/sites/default/files/styles/img_view_home_350_x_167/public/2026-10/SaoBentoStation_739A0135%20%28Large%29.JPG?itok=aTewnYR4" width="350" height="167" alt="Estação de Porto-São Bento " title="Estação de Porto-São Bento " typeof="Image" class="image-style-img-view-home-350-x-167" />
+
+
+</a></div>
+    <div class="media-page-result-item-date">Seg, 05/10/2026</div>
+    <div class="media-page-result-item-title"><a href="/pt-pt/estacao-de-porto-sao-bento-celebra-110-anos-no-coracao-da-cidade ">Estação de Porto-São Bento celebra 110 anos no coração da cidade</a></div>
+    <div class="media-page-result-item-link">
+        <a class="hvr-underline-from-left knowMoreLink" href="/pt-pt/estacao-de-porto-sao-bento-celebra-110-anos-no-coracao-da-cidade ">Saber mais</a>
+    </div>
+</div></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-nothing"><div class="field-content"><div class="media-page-result-item media-page-news">
+    <div class="field-content media-page-result-item-image"><a href="/pt-pt/intemperies-2026-en248-com-trabalhos-de-recuperacao ">  <img loading="lazy" src="/sites/default/files/styles/img_view_home_350_x_167/public/2026-10/EN248.png?itok=MUz_xEK9" width="350" height="167" alt="Deslizamento de troço na EN248" title="Deslizamento de troço na EN248" typeof="Image" class="image-style-img-view-home-350-x-167" />
+
+
+</a></div>
+    <div class="media-page-result-item-date">Qui, 01/10/2026</div>
+    <div class="media-page-result-item-title"><a href="/pt-pt/intemperies-2026-en248-com-trabalhos-de-recuperacao ">Intempéries 2026: EN248 com trabalhos de recuperação</a></div>
+    <div class="media-page-result-item-link">
+        <a class="hvr-underline-from-left knowMoreLink" href="/pt-pt/intemperies-2026-en248-com-trabalhos-de-recuperacao ">Saber mais</a>
+    </div>
+</div></div></div>
+    </li>
+</ul>
+</div>
+
+</div>
+
+    
+
+  
+  
+
+      <footer>
+      <div class="text-align-center mt-40"><a class="btn btn-primary" href="/media/noticias" target="_self"><span class="text">Ver todas as Notícias</span></a></div>
+    </footer>
+  
+  
+</div>
+</div>
+
+    </div>
+  </div>
+<div id="block-numbers" class="settings-tray-editable block block-block-content block-block-content4fee2311-8221-4d6c-b163-90b12bd8981d" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="grandes-numeros"><div class="grandes-numeros-titulo"><h3><strong>Grandes Números</strong></h3><img src="/sites/default/files/inline-images/Group%203234.png" data-entity-uuid="26bc7ea0-86c7-4b1a-a7cd-5451bcf226e0" data-entity-type="file" alt="Ferrovia" width="140" height="140" loading="lazy"></div><div class="bs_grid ck-widget" contenteditable="false"><div class="row row-1 ck-widget" data-row-none="undefined" data-row-sm="undefined" data-row-md="undefined" data-row-lg="undefined" data-row-xl="undefined" data-row-xxl="undefined" contenteditable="false"><div class="col-md-6 col-lg-4"><div class="content"><h5>VIA-FÉRREA</h5><div class="grandes-numeros-item" style="color:#6E2873;"><span class="counter animated fadeInDownBig">2525</span></div><p>km de extensão</p></div></div><div class="col-md-6 col-lg-4"><div class="content"><h5>VIA ELETRIFICADA</h5><div class="grandes-numeros-item" style="color:#6E2873;"><span class="counter animated fadeInDownBig">1792</span></div><p>km de extensão</p></div></div><div class="col-md-6 col-lg-4"><div class="content"><h5>CIRCULAÇÃO FERROVIÁRIA</h5><div class="grandes-numeros-item" style="color:#6E2873;"><span class="counter animated fadeInDownBig">36,009,212</span></div><p>Comboios.km/ano</p></div></div><div class="col-md-6 col-lg-4"><div class="content"><h5>ESTAÇÕES E APEADEIROS</h5><div class="grandes-numeros-item" style="color:#6E2873;"><span class="counter animated fadeInDownBig">546</span></div><p>Em exploração / ao serviço</p></div></div><div class="col-md-6 col-lg-4"><div class="content"><h5>OBRAS DE ARTE</h5><div class="grandes-numeros-item" style="color:#6E2873;"><span class="counter animated fadeInDownBig">2144</span></div><p>Pontes e túneis</p></div></div><div class="col-md-6 col-lg-4"><div class="content"><p>&nbsp;</p></div></div></div></div><div class="grandes-numeros-titulo"><img src="/sites/default/files/inline-images/Group%203236.png" data-entity-uuid="4ab47b80-035f-44b5-b935-1067a1bf794c" data-entity-type="file" alt="Rodovia" width="140" height="140" loading="lazy"></div><div class="bs_grid ck-widget" contenteditable="false"><div class="row row-1 ck-widget" data-row-none="undefined" data-row-sm="undefined" data-row-md="undefined" data-row-lg="undefined" data-row-xl="undefined" data-row-xxl="undefined" contenteditable="false"><div class="col-md-6 col-lg-4"><div class="content"><h5>REDE DE JURISDIÇÃO DIRETA</h5><div class="grandes-numeros-item" style="color:#6F7305;"><span class="counter animated fadeInDownBig">13,781</span></div><p>km de extensão</p></div></div><div class="col-md-6 col-lg-4"><div class="content"><h5>REDE SUBCONCESSIONADA</h5><div class="grandes-numeros-item" style="color:#6F7305;"><span class="counter animated fadeInDownBig">1019</span></div><p>km de extensão</p></div></div><div class="col-md-6 col-lg-4"><div class="content"><h5>OBRAS DE ARTE</h5><div class="grandes-numeros-item" style="color:#6F7305;"><span class="counter animated fadeInDownBig">5904</span></div><p>Pontes, túneis e viadutos</p></div></div><div class="col-md-6 col-lg-4"><div class="content"><h5>CIRCULAÇÃO RODOVIÁRIA</h5><div class="grandes-numeros-item" style="color:#6F7305;"><span class="counter animated fadeInDownBig">25,915,375,769</span></div><p>Veículos.km/ano</p></div></div></div></div></div><script src="/themes/ip_common/js/jquery-3.5.1.min.js"></script><script src="/themes/ip_common/js/waypoints.min.js"></script><script src="/themes/ip_common/js/jquery-migrate-3.0.0.min.js"></script><script src="/themes/ip_common/js/jquery.counterup.min.js"></script><script id="rendered-js">
+    $(".counter").counterUp({
+        delay: 10,
+        time: 3000
+    });
+
+    $(".counter").addClass("animated fadeInDownBig");
+    $("h3").addClass("animated fadeIn");
+</script></div>
+      
+    </div>
+  </div>
+<div id="block-bloc4images" class="settings-tray-editable block block-block-content block-block-contenteb4d26e5-01df-4d62-aee2-3cdf26f9291c" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="mobile-wraper pb-80 pt-80 bg-light-gray"><div class="p-50 pb-0 pl-0 pt-0"><h3 class="fw-700">Investimentos</h3><h5 class="mt-10">Aposta na modernização, desenvolvimento e reforço da qualidade das infraestruturas.</h5></div><div class="bs_grid ck-widget" contenteditable="false"><div class="row row-1 ml-0 mr-0 p-0 ck-widget" data-row-none="undefined" data-row-sm="undefined" data-row-md="undefined" data-row-lg="undefined" data-row-xl="undefined" data-row-xxl="undefined" contenteditable="false"><div class="col-md-6 m-0 p-0"><div class="content position-relative zoomip"><p class="m-0"><img src="/sites/default/files/inline-images/DJI_0006-3%20585.jpg" data-entity-uuid="8a7160bf-5f66-4a1a-a5fa-5d8dbd6aa6db" data-entity-type="file" alt="EN326 – Feira (A32/IC2) / Escariz" width="585" height="300" loading="lazy"></p><div class="oportunity_div"><div class="oportunity_divContent"><h5><a style="color:#ffffff;cursor:default;font-family:Cairo;font-size:25px;font-style:normal;line-height:30px;pointer-events:none;text-decoration:none;" href="#">Ligação rodoviária do Parque de Negócios de Escariz à A32</a></h5><p><a class="hvr-underline-from-left-br knowMoreLink-pic" href="/pt-pt/abertura-ao-trafego-da-nova-ligacao-rodoviaria-do-parque-de-negocios-de-escariz-a32-no-concelho-de">Saber mais</a></p></div></div></div></div><div class="col-md-6 m-0 p-0"><div class="content position-relative violet zoomip"><p class="m-0"><img class="d-block w-100" src="/sites/default/files/inline-images/ip_homepage_investimentos_bg_1.png" alt="Variante à EN210 
+            Ligação a Mondim de Basto" data-holder-rendered="true" width="585" height="300" loading="lazy"></p><div class="oportunity_div"><div class="oportunity_divContent"><h5>IP3<br>Requalificação em Curso</h5><p><a class="hvr-underline-from-left-br knowMoreLink" href="https://www.infraestruturasdeportugal.pt/pt-pt/principais-investimentos/ip3-duplicacao-e-requalificacao-do-troco-entre-santa-comba-dao-e-viseu" target="_blank" title="Ficha de investimentos">Saber mais</a></p></div></div></div></div><div class="col-md-6 m-0 p-0"><div class="content position-relative violet zoomip"><p class="m-0"><img class="d-block w-100" src="/sites/default/files/inline-images/ip_homepage_investimentos_bg_2.png" alt="Variante à EN210 
+            Ligação a Mondim de Basto" data-holder-rendered="true" width="585" height="300" loading="lazy"></p><div class="oportunity_div"><div class="oportunity_divContent"><h5>Sistema de Mobilidade do Mondego – Linha do Hospital</h5><p><a class="hvr-underline-from-left-br knowMoreLink" href="/pt-pt/principais-investimentos/adaptacao-uma-solucao-brt-metrobus-linha-do-hospital-aeminium-hospital" title="Sistema de Mobilidade do Mondego – Linha do Hospital">Saber mais</a></p></div></div></div></div><div class="col-md-6 m-0 p-0"><div class="content position-relative zoomip"><p class="m-0"><img src="/sites/default/files/inline-images/Mask%20Group_0.jpg" data-entity-uuid="38fbce24-e82b-4c25-a795-ee92dd360ec1" data-entity-type="file" alt="Investimentos2" width="585" height="300" loading="lazy"></p><div class="oportunity_div"><div class="oportunity_divContent"><h5><a style="color:#ffffff;cursor:default;font-family:Cairo;font-size:25px;font-style:normal;line-height:30px;pointer-events:none;text-decoration:none;" href="#">Ponte Internacional Sobre o Rio Guadiana</a></h5><p><a class="hvr-underline-from-left-br knowMoreLink-pic" href="/pt-pt/principais-investimentos/ponte-internacional-sobre-o-rio-guadiana" title="Ponte Rio Guadiana">Saber mais</a></p></div></div></div></div></div></div></div></div>
+      
+    </div>
+  </div>
+<div id="block-bloc4imagesecondpart" class="settings-tray-editable block block-block-content block-block-contentd0f6dd28-407b-4187-acbb-c9c1599ac742" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="mt-80 pb-60 homepage-opportunities">
+<h3 class="fw-700 mobile-wrapper">Junte-se à nossa equipa</h3>
+
+<div class="row m-0">
+<div class="col-md-6 p-0">
+<div class="col1-content">
+<p>Desenvolvemos atividades de engenharia desafiantes, com a possibilidade de participação em projetos e empreendimentos de relevo no panorama nacional.</p>
+<a class="button-ip button-ip-primary-outline" href="/pt-pt/carreiras">Ver Oportunidades</a>
+
+<div><img alt="Oportunidades" data-entity-type="file" data-entity-uuid="d3df32fd-287a-47f4-b5e8-05a956084130" src="/sites/default/files/inline-images/JFnov029%20-%20Copy.JPG" width="406" height="270" loading="lazy"></div>
+</div>
+</div>
+
+<div class="col-md-6 p-0 col2">
+<div class="col2-content"><img alt="Oportunidades" data-entity-type="file" data-entity-uuid="e5502322-4285-4a96-aa36-9a71c07f3f60" src="/sites/default/files/inline-images/01_Oportunidades.jpg" width="555" height="370" loading="lazy">
+<div class="col2-content-vector"><img alt="Vector" class="col2-content-vector-1" src="/sites/default/files/inline-images/01.svg"> <img alt="Vector" class="col2-content-vector-2" src="/sites/default/files/inline-images/Vector2.svg"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+<div id="block-ipcontactos" class="settings-tray-editable block block-block-content block-block-content09e242e4-9f6e-4352-a01a-05ab4251f40e" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="display: none;">&nbsp;</div>
+
+<div class="bs-grid pt-100 pb-100 contact-div bg-light-gray">
+<aside class="vertical_elContacts hide-on-mobile">
+<p class="vertical_text hide-on-mobile" style="color:#777b00;"><a href="/pt-pt/contactos">Contactos</a></p>
+</aside>
+
+<div class="bs_grid mobile-side-display contact-div-text">
+<h5 class="contact-div-row1"><a href="/pt-pt/contactos">Pretende obter informação sobre a nossa atividade?</a></h5>
+
+<h5 class="contact-div-row2"><a href="/pt-pt/contactos">Fale Connosco!</a></h5>
+
+<div class="contact-div-arrow"><a href="/pt-pt/contactos"><img alt="Contacte-nos" src="/sites/default/files/inline-images/contactenosIP.png"> </a></div>
+</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+<div id="block-cookiesui-4" class="settings-tray-editable block block-cookies block-cookies-ui-block" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+        
+<div id="cookiesjsr"></div>
+
+    </div>
+  </div>
+
+  </div>
+
+              
+            </div>              
+          </div>
+                <!-- End: Content -->
+
+        <!-- Start: Right SideBar -->
+                <!-- End: Right SideBar -->
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End: Main content -->
+
+
+<!-- Start: Features -->
+<!--End: Features -->
+
+
+<!-- Start: Updates widgets -->
+<!--End: Updates widgets -->
+
+
+<!-- Start: Middle widgets -->
+<!--End: Middle widgets -->
+
+<!-- Start: Clients -->
+<!--End: Clients -->
+
+<!-- Start: Bottom widgets -->
+<!--End: Bottom widgets -->
+
+<!-- Start: Footer widgets -->
+  <div class="footer" id="footer">
+    <div class="container">
+      	  
+	  <div class="row">
+                      </div>
+	  
+      <div class="row">
+                  <div class = col-md-12>
+              <div class="region region-footer-first">
+    <div id="block-footerlink" class="settings-tray-editable block block-block-content block-block-content2b2f1aa9-7cad-43ab-b248-68480cc3139e" data-drupal-settingstray="editable">
+  
+      
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="bs_grid ck-widget" contenteditable="false"><div class="row row-1 pt-50 ck-widget" data-row-none="undefined" data-row-sm="undefined" data-row-md="undefined" data-row-lg="undefined" data-row-xl="undefined" data-row-xxl="undefined" contenteditable="false"><div class="col-md-3"><div class="content logoFooter"><p class="m-0"><a class="colorbox cboxElement" href="/"><img src="/sites/default/files/inline-images/Logo-IPC_branco.png" data-entity-uuid="4524fd09-79db-45b9-b625-f024c6f62d5f" data-entity-type="file" alt="IP Corporativo" width="201" height="48" loading="lazy"></a></p></div></div><div class="col-md-3 AgendaFooterDiv"><div class="content agendaFooter"><p>&nbsp;</p></div></div><div class="col-md-3 AgendaFooterDiv"><div class="content agendaFooter"><p><a class="button-ip button-ip-agenda" href="/media/agenda" target="_blank">Ver Agenda</a></p></div></div><div class="col-md-3 newsLetterFooterDiv"><div class="content newsLetterFooter"><p><a class="button-ip button-ip-newsletter" href="/newsletter" target="_blank">Subscrever newsletter</a></p></div></div></div><div class="row m-0 pt-40 justify-content-between ck-widget" data-row-none="undefined" data-row-sm="undefined" data-row-md="undefined" data-row-lg="undefined" data-row-xl="undefined" data-row-xxl="undefined" contenteditable="false"><div class="col-footer aboutUs"><div class="content"><p><span class="menuNivel1 fw-700">Sobre Nós</span><br><a class="menuNivel2" href="/pt-pt/sobre-nos/quem-somos">Quem Somos</a><br><a class="menuNivel2" href="/pt-pt/sobre-nos/governo-da-sociedade">Governo da Sociedade</a><br><a class="menuNivel2" href="/pt-pt/sobre-nos/compromissos">Compromissos</a><br><a class="menuNivel2" href="/pt-pt/sobre-nos/informacoes-de-gestao/plano-de-atividades-e-orcamentos">Informação de Gestão</a><br><a class="menuNivel2" href="/pt-pt/sobre-nos/certificacoes-e-reconhecimentos/premios-e-reconhecimentos">Certificações e Reconhecimentos</a><br><a class="menuNivel2" href="/pt-pt/sobre-nos/acreditacoes">Acreditações</a><br><a class="menuNivel2" href="/pt-pt/sobre-nos/historico/estradas-de-portugal">Histórico</a></p></div></div><div class="col-footer othersCol"><div class="content"><p><span class="menuNivel1 fw-700">Infraestruturas</span><br><a class="menuNivel2" href="/pt-pt/infraestruturas/rede-ferroviaria">Rede Ferroviária</a><br><a class="menuNivel2" href="/pt-pt/rede-rodoviaria-ip">Rede Rodoviária</a><br><a class="menuNivel2" href="/pt-pt/rede-telecomunicacoes">Rede de Telecomunicações</a><br><a class="menuNivel2" href="/pt-pt/patrimonio">Património</a><br><a class="menuNivel2" href="/pt-pt/infraestruturas/investimentos/principais-investimentos-em-curso">Investimentos</a></p></div></div><div class="col-footer othersCol"><div class="content"><p><span class="menuNivel1 fw-700">Sustentabilidade</span><br><a class="menuNivel2" href="/pt-pt/sustentabilidade-ip">Sustentabilidade</a><br><a class="menuNivel2" href="/pt-pt/sustentabilidade-ip/transicao-energetica-ip">Transição Energética</a><br><a class="menuNivel2" href="/pt-pt/sustentabilidade-ip/alteracoes-climaticas-ip">Alterações Climáticas</a><br><a class="menuNivel2" href="/pt-pt/sustentabilidade-ip/ambiente-ip">Ambiente</a><br><a class="menuNivel2" href="/pt-pt/sustentabilidade-ip/economia-circular-ip">Economia Circular</a><br><a class="menuNivel2" href="/pt-pt/sustentabilidade-ip/responsabilidade-social-ip">Responsabilidade Social</a></p></div></div><div class="col-footer othersCol"><div class="content"><p><span class="menuNivel1 fw-700">Inovação</span><br><a class="menuNivel2" href="/pt-pt/inovacao-ip">Inovação</a><br><a class="menuNivel2" href="/pt-pt/inovacao-ip/macrotendencias-ip">Macrotendências</a><br><a class="menuNivel2" href="/pt-pt/inovacao-ip/desafios-idi-ip">Desafios IDI</a><br><a class="menuNivel2" href="/pt-pt/inovacao-ip/projetos-idi-ip">Projetos IDI</a></p></div></div><div class="col-footer aboutUs"><div class="content"><p><a class="menuNivel1" href="/pt-pt/carreiras">Carreiras</a></p></div></div><div class="col-footer othersCol"><div class="content"><p><span class="menuNivel1 fw-700">Media</span><br><a class="menuNivel2" href="/pt-pt/media/noticias">Notícias</a><br><a class="menuNivel2" href="/pt-pt/media/imprensa">Imprensa</a></p></div></div><div class="col-footer othersCol"><div class="content"><p><span class="menuNivel1 fw-700">Grupo IP</span><br><a class="menuNivel2" href="/ip-o-grupo">O Grupo</a><br><a class="menuNivel2" href="https://www.infraestruturasdeportugal.pt/" target="_blank">Infraestruturas de Portugal</a><br><a class="menuNivel2" href="https://www.ipengenharia.pt/" target="_blank">IP Engenharia</a><br><a class="menuNivel2" href="https://www.ippatrimonio.pt/" target="_blank">IP Património</a><br><a class="menuNivel2" href="https://www.iptelecom.pt/" target="_blank">IP Telecom</a><br><a class="menuNivel2" href="https://www.portugaltolls.com/" target="_blank">Portugal Tolls</a></p><p>&nbsp;</p></div></div></div><div class="row m-0 pb-40 justify-content-between ck-widget" data-row-none="undefined" data-row-sm="undefined" data-row-md="undefined" data-row-lg="undefined" data-row-xl="undefined" data-row-xxl="undefined" contenteditable="false"><div class="col-footer marginsSocialMedia"><div class="content"><p><a href="https://www.facebook.com/Infraestruturas-de-Portugal-101430188065657/" target="_blank" aria-label="Facebook" rel="noopener noreferrer"><svg class="svg-inline--fa fa-facebook-f fa-w-10" aria-hidden="true" data-fa-i2svg data-icon="facebook-f" data-prefix="fab" focusable="false" id="footerfacebook" role="img" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" fill="currentColor" /></svg></a><!-- <i id="footerfacebook" class="fab fa-facebook-f"></i> --><a href="https://www.instagram.com/infraestruturas.portugal/" target="_blank" aria-label="Instagram" rel="noopener noreferrer"><svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-i2svg data-icon="instagram" data-prefix="fab" focusable="false" id="footerinstagram" role="img" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="currentColor" /></svg></a><!-- <i id="footerinstagram" class="fab fa-instagram"></i> --><a href="https://twitter.com/Infra_PT" target="_blank" aria-label="X" rel="noopener noreferrer"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" data-fa-i2svg data-icon="twitter" data-prefix="fab" focusable="false" height="1227" id="footertwitter" role="img" viewBox="0 0 1200 1227" width="1200"><path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="currentColor" /></svg></a><!-- <i id="footertwitter" class="fab fa-twitter"></i> --><a href="https://www.linkedin.com/company/infraestruturas-de-portugal-sa" target="_blank" aria-label="Linkedin" rel="noopener noreferrer"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true" data-fa-i2svg data-icon="linkedin-in" data-prefix="fab" focusable="false" id="footerlinkedin" role="img" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" fill="currentColor" /></svg></a><!-- <i id="footerlinkedin" class="fab fa-linkedin-in"></i> --><a href="https://www.youtube.com/channel/UCmXWe-dB2rR24sBmRy_3CAw" target="_blank" aria-label="Youtube" rel="noopener noreferrer"><svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" data-fa-i2svg data-icon="youtube" data-prefix="fab" focusable="false" id="footeryoutube" role="img" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" fill="currentColor" /></svg></a><!-- <i id="footeryoutube" class="fab fa-youtube"></i> --></p></div></div></div><div class="row m-0 justify-content-between menuBottom ck-widget" data-row-none="undefined" data-row-sm="undefined" data-row-md="undefined" data-row-lg="undefined" data-row-xl="undefined" data-row-xxl="undefined" contenteditable="false"><div class="col-footer aboutUs"><div class="content"><p><a href="/pt-pt/politica-de-protecao-de-dados-ip">Política de Proteção de Dados</a></p></div></div><div class="col-footer"><div class="content"><p><a href="/pt-pt/politica-de-privacidade-ip">Política de Privacidade</a></p></div></div><div class="col-footer"><div class="content"><p><a href="/pt-pt/termos-de-utilizacao-ip">Termos de Utilização</a></p></div></div><div class="col-footer"><div class="content"><p><a href="/pt-pt/politica-de-cookies-ip">Cookies</a></p></div></div><div class="col-footer"><div class="content"><p><a href="/pt-pt/ficha-tecnica-ip">Ficha Técnica</a></p></div></div><div class="col-footer"><div class="content"><p><a href="/pt-pt/contactos">Contactos</a></p></div></div></div><div class="row m-0 justify-content-end menuBottom ck-widget" data-row-none="undefined" data-row-sm="undefined" data-row-md="undefined" data-row-lg="undefined" data-row-xl="undefined" data-row-xxl="undefined" contenteditable="false"><div class="col-footer mt-50"><div class="content copyright"><p class="mb-0">COPYRIGHT © INFRAESTRUTURAS DE PORTUGAL 2026</p></div></div></div></div><div style="left:879px;position:absolute;top:59px;" id="gtx-trans"><div class="gtx-trans-icon">&nbsp;</div></div><!-- Connected Sites --><script>
+if(window._mtmReady){ 
+ console.error('Connected sites script already loaded. You might have it dupplicated.'); 
+} else { 
+window._mtmReady=true; 
+var _mtm = window._mtm = window._mtm || [];
+_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.async=true; g.src='https://egoi.site/1476421_infraestruturasdeportugal.pt.js'; 
+s.parentNode.insertBefore(g,s);
+}
+</script><!-- End Connected Sites --></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+                        		                		      </div>
+	  
+	  <div class="row">
+              </div>
+	  
+      <div class="row">
+                        		      </div>
+	  
+	  
+    </div>
+  </div>
+<!--End: Footer widgets -->
+
+
+
+
+
+
+
+  </div>
+
+    
+    <script src="/sites/default/files/js/js_g2j1Fn7VybDJoBvP18Zz3mO7ncsn__i3qrkUE_B4BM8.js?scope=footer&amp;delta=0&amp;language=pt-pt&amp;theme=ip_corporativo_theme&amp;include=eJx9j-GOhCAMhF-IlUciFapbBUpodW_f_rq5i_rDu4SQSWfyZQZSUob69vArhqlzVQciqIHqglG5-0UGam6EuAZle81fdFjExRUTWTJAjNwTcfWH-kFiTWdqZFbRDi0ojOI_n4vMK6GEhIV9wgm2rG7K-CWZEnZPxpg7qBHdZEB4oXBBf9GD7PN_3iBPKo5asGaNP6zdFjzRkkeje_vsce_PmUfIj8ilccWqch_jV743uo3eMVCZQ6KCVWzlHwwp0NUim7hTXq6PuIlycaIU13eF3R_qG9Xaxbk"></script>
+<script src="https://static.addtoany.com/menu/page.js" defer></script>
+<script src="/sites/default/files/js/js_2uFGpxMna-q89DlEtYaG267ICeEUyM6gr2k2H4QBRrg.js?scope=footer&amp;delta=2&amp;language=pt-pt&amp;theme=ip_corporativo_theme&amp;include=eJx9j-GOhCAMhF-IlUciFapbBUpodW_f_rq5i_rDu4SQSWfyZQZSUob69vArhqlzVQciqIHqglG5-0UGam6EuAZle81fdFjExRUTWTJAjNwTcfWH-kFiTWdqZFbRDi0ojOI_n4vMK6GEhIV9wgm2rG7K-CWZEnZPxpg7qBHdZEB4oXBBf9GD7PN_3iBPKo5asGaNP6zdFjzRkkeje_vsce_PmUfIj8ilccWqch_jV743uo3eMVCZQ6KCVWzlHwwp0NUim7hTXq6PuIlycaIU13eF3R_qG9Xaxbk"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tmu8o4"></script>
+<script src="/sites/default/files/js/js_6pZND3OvrS-4ZGvLelfQFtsBc7o5wr-hAGkyebnsEA0.js?scope=footer&amp;delta=4&amp;language=pt-pt&amp;theme=ip_corporativo_theme&amp;include=eJx9j-GOhCAMhF-IlUciFapbBUpodW_f_rq5i_rDu4SQSWfyZQZSUob69vArhqlzVQciqIHqglG5-0UGam6EuAZle81fdFjExRUTWTJAjNwTcfWH-kFiTWdqZFbRDi0ojOI_n4vMK6GEhIV9wgm2rG7K-CWZEnZPxpg7qBHdZEB4oXBBf9GD7PN_3iBPKo5asGaNP6zdFjzRkkeje_vsce_PmUfIj8ilccWqch_jV743uo3eMVCZQ6KCVWzlHwwp0NUim7hTXq6PuIlycaIU13eF3R_qG9Xaxbk"></script>
+
+  </body>
+</html>

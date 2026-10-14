@@ -1,0 +1,856 @@
+{
+ "id": "lv-lvceli",
+ "url": "https://www.lvceli.lv/",
+ "requests": [
+  {
+   "u": "https://www.lvceli.lv/",
+   "t": "document",
+   "s": 301,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/cache/autoptimize/css/autoptimize_47b741fba76a3ee318f2f8a6c45dda91.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/cache/autoptimize/css/autoptimize_b6fd9ec333120ec9786fbfb172de1531.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/resources/bx/jquery.bxslider.min.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/resources/bootstrap/bootstrap.min.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/font-awesome.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/main.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/resources/jquery/jquery-3.5.1.min.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/contacts.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/archive.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/building_permits.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=[CHAVE]",
+   "t": "fetch",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=[CHAVE]",
+   "t": "fetch",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/traffic_intensity.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/custom_advanced_cookie.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=[CHAVE]",
+   "t": "fetch",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/front_maps.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/front_alerts.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/front_discussions.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/front_banner.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/map_bg_2.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Cancel.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/arrow-right--medium.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://lvceli.lv/ce78d387-4947-4b61-9604-dde03241d2dc",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2024/02/LVC_simbols_dzeltens2-1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2025/04/LVC_simbols_dzeltens2-2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/client-locale-loader.js?ver=1.16.19",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Your_Europe_logo.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://connect.facebook.net/en_US/fbevents.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/cache/autoptimize/css/autoptimize_47b741fba76a3ee318f2f8a6c45dda91.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/cache/autoptimize/css/autoptimize_b6fd9ec333120ec9786fbfb172de1531.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/client-locale-loader.js?ver=1.16.19",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/resources/jquery/jquery-3.5.1.min.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/resources/bx/jquery.bxslider.min.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/resources/bootstrap/bootstrap.min.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/font-awesome.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/main.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/contacts.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/archive.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/building_permits.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/traffic_intensity.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/custom_advanced_cookie.js?ver=1.0.1",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/front_maps.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/front_alerts.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/front_discussions.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/js/front_banner.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2025/04/LVC_simbols_dzeltens2-2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Cancel.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/arrow-right--medium.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2024/02/LVC_simbols_dzeltens2-1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/fonts/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Your_Europe_logo.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/map_bg_2.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2025/06/1RK7000-scaled.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=[CHAVE]",
+   "t": "fetch",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=[CHAVE]",
+   "t": "fetch",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=[CHAVE]",
+   "t": "fetch",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://connect.facebook.net/en_US/fbevents.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/fonts/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/logo.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/magnifying-glass.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2026/09/0RK_1129.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2026/10/DJI_20250517081229_0742_D_RK2026-scaled.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/accessibility.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/baltic_roads.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/baltic_roads.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/GDD_Logo_RGB.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/GDD_Logo_RGB.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/TDD_Buvnieciba_zelts.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/TDD_Buvnieciba_zelts.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/arrow-right--extra-small.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2026/02/1RK3004-343x228.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/arrow-right-small.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2020/09/Annotation-2020-05-06-161259@2x-360x228.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2023/09/Celu_muzejs_ML_attels-304x228.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/line.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/fb.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/tw-x.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/ig.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/linkedin-favicon.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "lv-lvceli-1.txt",
+   "u": "https://lvceli.lv/",
+   "bytes": 63578,
+   "type": "document"
+  },
+  {
+   "file": "lv-lvceli-2.txt",
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=[CHAVE]",
+   "bytes": 60312,
+   "type": "fetch"
+  },
+  {
+   "file": "lv-lvceli-3.txt",
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=[CHAVE]",
+   "bytes": 2956,
+   "type": "fetch"
+  },
+  {
+   "file": "lv-lvceli-4.txt",
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=[CHAVE]",
+   "bytes": 26682,
+   "type": "fetch"
+  },
+  {
+   "file": "lv-lvceli-5.txt",
+   "u": "https://lvceli.lv/",
+   "bytes": 63578,
+   "type": "document"
+  },
+  {
+   "file": "lv-lvceli-6.txt",
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=[CHAVE]",
+   "bytes": 60312,
+   "type": "fetch"
+  },
+  {
+   "file": "lv-lvceli-7.txt",
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=[CHAVE]",
+   "bytes": 26682,
+   "type": "fetch"
+  },
+  {
+   "file": "lv-lvceli-8.txt",
+   "u": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=[CHAVE]",
+   "bytes": 2956,
+   "type": "fetch"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/map_bg_2.jpg",
+   "https://lvceli.lv/wp-content/uploads/2025/04/LVC_simbols_dzeltens2-2.png",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Cancel.svg",
+   "https://lvceli.lv/wp-content/uploads/2025/04/LVC_simbols_dzeltens2-2.png",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Cancel.svg",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/arrow-right--medium.svg",
+   "https://lvceli.lv/wp-content/uploads/2024/02/LVC_simbols_dzeltens2-1.png",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/arrow-right--medium.svg",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Your_Europe_logo.jpg",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/baltic_roads.png",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/GDD_Logo_RGB.png",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/TDD_Buvnieciba_zelts.png",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Your_Europe_logo.jpg",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/baltic_roads.png",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/GDD_Logo_RGB.png",
+   "https://lvceli.lv/wp-content/themes/hello-lvc/assets/TDD_Buvnieciba_zelts.png"
+  ],
+  "iframe": [
+   "https://lvceli.lv/#"
+  ],
+  "video": [],
+  "links": [],
+  "text": "Aktuāli\nCeļu tīkls\nPar LVC\nPakalpojumi\nBUJ\nKontakti\nDiennakts informācijas tālrunis\n+371 80005555\nEN\ndraw\nParādīt karti\n\nSIA \"EIROPAS DZELZCEĻA LĪNIJAS\" izmantošanai nodotie valsts autoceļu posmi \"Rail Baltica\" projekta vajadzībām\n\nIzsludināts Bauskas apvedceļa PPP projekta iepirkums\n\nFotoreportāža: Inciemā un Ozolainē gar valsts autoceļiem sakoptas alejas\n12.10.2026.\nSATIKSMES IEROBEŽOJUMI\nIkšķilē uz Daugavpils šosejas jārēķinās ar palēninātu satiksmi\n12.10.2026.\nBŪVDARBI\nStarp Siguldu un Līgatni jārēķinās ar palēninātu satiksmi\n09.10.2026.\nVisi raksti\n\nValsts autoceļu funkcijas un autoceļi, kas to ir zaudējuši un nododami pašvaldībām\nKonferences\nAutoceļu avīze\nCeļu muzejs un ekskursijas\nVisas saites\nŠī vietne izmanto tikai funkcionāli nepieciešamās un personalizētās sīkdatnes tehniskās darbības nodrošināšanai. Tā kā tās ir nepieciešamas vietnes funkcionalitātei, sīkdatnes tiek iestatītas automātiski.\nUzzināt vairāk šeit.\nEsmu iepazinies\nAKTUĀLI\nSatiksmes ierobežojumi\nBraukšanas apstākļi\nBūvdarbi\nIepirkumi\nCEĻU TĪKLS\nBūvniecība un uzturēšana\nProjekti\nTehniskie noteikumi\nCeļu kartes\nStatistikas dati\nNacionālās piekļuves punkts\nPAR LVC\nPar uzņēmumu\nDarbības rādītāji\nVakances\nIepirkumi\nPAKALPOJUMI\nSaskaņojumi un atļaujas\nAutoceļu kompetences centrs\nNODERĪGI\nBiežāk uzdotie jautājumi\nAutoceļu avīze\nVelosatiksmes attīstības plāns\nPiekļūstamības paziņojums\nPrivātuma politika\nSEKO LVC\nKONTAKTI\n\nAdrese\n\nEmīlijas Benjamiņas iela 3, Rīga\n\nLV-1050, Latvija\n\nTālrunis\n\n+371 67028169\n\nDarba laiks\n\nNo 8:00 līdz 17:00\n\nPiektdienās līdz 15:45\n\nE-pasts\n\nlvceli@lvceli.lv\n\nE-adrese\n\n_default@40003344207\n\nMedijiem\n\nkomunikacija@lvceli.lv\n\nanna.kononova@lvceli.lv\n\nDiennakts informācijas tālrunis\n\n+371 80005555"
+ },
+ "errors": [],
+ "title": "Sākumlapa - Latvijas Valsts ceļi",
+ "mediaRequests": [
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/map_bg_2.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2024/02/LVC_simbols_dzeltens2-1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2025/04/LVC_simbols_dzeltens2-2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Your_Europe_logo.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2025/04/LVC_simbols_dzeltens2-2.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2024/02/LVC_simbols_dzeltens2-1.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/Your_Europe_logo.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/map_bg_2.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2025/06/1RK7000-scaled.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2026/09/0RK_1129.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2026/10/DJI_20250517081229_0742_D_RK2026-scaled.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/baltic_roads.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/baltic_roads.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/GDD_Logo_RGB.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/GDD_Logo_RGB.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/TDD_Buvnieciba_zelts.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/themes/hello-lvc/assets/TDD_Buvnieciba_zelts.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2026/02/1RK3004-343x228.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2020/09/Annotation-2020-05-06-161259@2x-360x228.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://lvceli.lv/wp-content/uploads/2023/09/Celu_muzejs_ML_attels-304x228.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+GET https://js.arcgis.com/4.17/esri/widgets/Track/t9n/Track_et.json
+content-type: application/json
+
+{"widgetLabel":"Rada","startTracking":"Alusta minu asukoha jälgimist","stopTracking":"Lõpeta minu asukoha jälgimine"}

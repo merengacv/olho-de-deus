@@ -1,0 +1,1066 @@
+{
+ "id": "uk-ni",
+ "url": "https://www.trafficwatchni.com/",
+ "requests": [
+  {
+   "u": "https://www.trafficwatchni.com/",
+   "t": "document",
+   "s": 302,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni",
+   "t": "document",
+   "s": 302,
+   "ct": "",
+   "m": "GET"
+  },
+  {
+   "u": "http://www.trafficwatchni.com/twni/",
+   "t": "document",
+   "s": 307,
+   "ct": "",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-069FVZSKG2",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/css/fontawesome-all.min-[CHAVE].css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/bootstrap/bootstrap.min-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/js-cookie/js.cookie-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/css/twni-[CHAVE].css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/cookie_header-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/bootstrap/bootstrap.min-[CHAVE].css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/jquery/jquery-3.7.1.min-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-069FVZSKG2&gtm=45je6ac1v9123104607za208zd9123104607xf1&_p=1791943852821&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1521654709.1791943853&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.17.0&uaw=0&ul=pt-br&_s=1&tag_exp=11",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/css/twni-map-[CHAVE].css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/bootstrap/popper.min-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/template-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/logo-twni.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/map-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/bootstrap-multiselect/bootstrap-multiselect-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/index-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/logo-infrastructure-ni-[CHAVE].png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/vendor/googlemaps/markerclusterer.min-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/css/twni-icons-[CHAVE].css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/css/twni-pages-[CHAVE].css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/css/twni-colors-[CHAVE].css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/twitter-logo-black.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/preview_drawer-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/css/twni-signs-[CHAVE].css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/message-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/social-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/api/js?key=[CHAVE]&callback=initMap&loading=async&libraries=marker",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://static.addtoany.com/menu/page.js?v=29092022",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/util.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/logo-arc-atlantique.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/clipboard/clipboard.min-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/traffic_news-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/marker.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/preview_drawer-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/logo-cef-horizontal.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/floating_button-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/camera_preview-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/common.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/main.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://static.addtoany.com/menu/sm.25.html",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/webfonts/twni-icons-[CHAVE].ttf",
+   "t": "font",
+   "s": 200,
+   "ct": "font/ttf",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/webfonts/fa-solid-900-[CHAVE].woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://static.addtoany.com/menu/modules/core.iho16r34.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/layers.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/map.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://static.addtoany.com/menu/locale/pt-BR.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/webfonts/fa-regular-400-[CHAVE].woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://static.addtoany.com/menu/svg/icons/email.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/log.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://static.addtoany.com/menu/svg/icons/twitter.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://static.addtoany.com/menu/svg/icons/facebook.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/openhand_8_8.cur",
+   "t": "image",
+   "s": 200,
+   "ct": "image/bmp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/api/mapsjs/mapConfigs:batchGet?language=pt-BR&region=US&alt=protojson&major_version=66&minor_version=8b&map_ids=f89d6ce180e729d237b62778&map_type=1",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json+protobuf; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/infowindow.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/onion.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/map/mapData",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "POST",
+   "post": "selectedTypes=ROAD_WORKS%2CINCIDENTS%2CEVENTS%2CTRAFFIC&roadworksEndDateFilter=ONE_WEEK"
+  },
+  {
+   "u": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json+protobuf; charset=utf-8",
+   "m": "POST",
+   "post": "[[[54.51666749429726,-6.160938420481898],[54.67450971829307,-5.702686802429525]],13,null,\"pt-BR\",0,\"m@799000000\",0,0,null,null,null,1,\"https://www.trafficwatchni.com/twni/\",1,null,\"f89d6ce180e729d237b62778\",\"F5A0F876-04DA-443B-B236-F1F995F8F60E\"]"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/overlay.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/map/roadwork-high.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3962!3i2608!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3962!3i2606!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3962!3i2607!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3960!3i2606!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3961!3i2605!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3960!3i2607!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3961!3i2608!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3959!3i2605!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3959!3i2606!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3959!3i2608!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3962!3i2605!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3960!3i2608!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3959!3i2607!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3961!3i2607!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3961!3i2606!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3960!3i2605!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i13!2i3959!3i2605!1m4!1m3!1i13!2i3959!3i2606!1m4!1m3!1i13!2i3959!3i2607!1m4!1m3!1i13!2i3960!3i2605!1m4!1m3!1i13!2i3961!3i2605!1m4!1m3!1i13!2i3960!3i2606!1m4!1m3!1i13!2i3960!3i2607!1m4!1m3!1i13!2i3961!3i2606!1m4!1m3!1i13!2i3961!3i2607!1m4!1m3!1i13!2i3962!3i2605!1m4!1m3!1i13!2i3962!3i2606!1m4!1m3!1i13!2i3962!3i2607!2m3!1e0!2sm!3i799565184!2m6!1e2!2str",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i13!2i3959!3i2608!1m4!1m3!1i13!2i3960!3i2608!1m4!1m3!1i13!2i3961!3i2608!1m4!1m3!1i13!2i3962!3i2608!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e3!12m2!5b1!6b1!23i46991212!23i47054750&callback=_xdc_._isrbfd&key=[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.googleapis.com/maps-api-v3/api/js/66/8b/intl/pt_br/controls.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/transparent.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Google+Sans+Text:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=pt",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400,500,700&lang=pt",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "uk-ni-1.txt",
+   "u": "https://www.trafficwatchni.com/twni/",
+   "bytes": 105267,
+   "type": "document"
+  },
+  {
+   "file": "uk-ni-2.txt",
+   "u": "https://static.addtoany.com/menu/sm.25.html",
+   "bytes": 716,
+   "type": "document"
+  },
+  {
+   "file": "uk-ni-3.txt",
+   "u": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+   "bytes": 3,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-ni-4.txt",
+   "u": "https://maps.googleapis.com/maps/api/mapsjs/mapConfigs:batchGet?language=pt-BR&region=US&alt=protojson&major_version=66&minor_version=8b&map_ids=f89d6ce180e729d237b62778&map_type=1",
+   "bytes": 12117,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-ni-5.txt",
+   "u": "https://www.trafficwatchni.com/twni/map/mapData",
+   "bytes": 997911,
+   "type": "xhr"
+  },
+  {
+   "file": "uk-ni-6.txt",
+   "u": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+   "bytes": 55675,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://www.trafficwatchni.com/twni/images/common/logo-twni.png",
+   "https://www.trafficwatchni.com/twni/images/common/logo-infrastructure-ni-[CHAVE].png",
+   "https://www.trafficwatchni.com/twni/images/common/twitter-logo-black.png",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3962!3i2608!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3962!3i2606!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3962!3i2607!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3960!3i2606!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3961!3i2605!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3960!3i2607!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3961!3i2608!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3959!3i2605!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3959!3i2606!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3959!3i2608!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3962!3i2605!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3960!3i2608!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3959!3i2607!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3961!3i2606!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3961!3i2607!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i3960!3i2605!4i256!2m3!1e0!2sm!3i799565184!2m6!1e2!2straffic!4m2!1st!2s2986573!5i1!3m13!2spt-BR!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750&key=[CHAVE]&token=[CHAVE]",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-high.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjU8L3RleHQ+PC9zdmc+",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjQ8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjQ8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjU8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjU8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjQ8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjc8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-high.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjI8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI0NiIgdmlld0JveD0iMCAwIDQ2IDQ2Ij48Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSIyMCIgZmlsbD0iIzhBOEU5MSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiIC8+PHRleHQgeD0iMjMiIHk9IjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNGRkZGRkYiPjM8L3RleHQ+PC9zdmc+",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png"
+  ],
+  "iframe": [
+   "https://static.addtoany.com/menu/sm.25.html#type=core&event=load"
+  ],
+  "video": [],
+  "links": [
+   {
+    "h": "https://www.trafficwatchni.com/twni/cameras",
+    "t": "Cameras"
+   }
+  ],
+  "text": "Cookies on the TrafficwatchNI website\n\nThis website places small amounts of information known as cookies on your device.\n\nLearn More Accept Deny\nHome\nTraffic News\nStrangford Lough Ferry\nRoadworks\nCameras\nJourney Times\nReport a Fault\nAbout\nMap\nTraffic News\nToggle all traffic news\nGeneral Traffic News\n!\nBelfast Gt Victoria St Road Closures Oct 2026\nSandy Row Overnight Works 21-23 Oct\nCo Armagh - Market St Keady - Ongoing Closure\n!\nDungiven - A6 Glenshane Road - Temporary Speed Limit\nCraigavon - Closure of Maple Path & Parkmore Footbridges\nDromore - Kinallen -Skeagh Road - Closure\nUpcoming Roadworks\nToggle all roadwork news\nA57 Ballyrobin Road - 28 Sept - 5 Weeks - Resurfacing\nOld Warrenpoint Rd, Newry - 12/10- 08/11\nTates Avenue Resurfacing 21 Sept - 16 Oct\nRoad Improvement Scheme York Street 18 Sept - 16 Oct\nBelfast Gt Victoria St Road closures Oct 2026\nMapa\nSatélite\nAutomatic map refresh\nRefresh\nLayer selection\nGreater Belfast\nAtalhos do teclado\nDados cartográficos ©2026 Google\nTermos\nInformar erro no mapa\n\nThe information on this website is provided by DfI (Department for Infrastructure). DfI is the sole roads authority responsible for all public roads, footways, bridges and street lights in Northern Ireland.\n\nFavourites\n0\n© Crown copyright Terms and conditions Privacy Cookies Contacts Site map Links Accessibility NI Direct"
+ },
+ "errors": [],
+ "title": "TrafficWatchNI - Home",
+ "mediaRequests": [
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/logo-twni.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/logo-infrastructure-ni-[CHAVE].png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/twitter-logo-black.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/logo-arc-atlantique.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/common/logo-cef-horizontal.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/javascript/twni/camera_preview-[CHAVE].js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/map/roadwork-low.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/map/roadwork-medium.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.trafficwatchni.com/twni/images/map/roadwork-high.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://maps.gstatic.com/mapfiles/transparent.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ]
+}

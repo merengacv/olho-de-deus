@@ -1,0 +1,830 @@
+GET https://lvceli.lv/
+content-type: text/html; charset=utf-8
+
+    <script type="text/javascript">
+        let language = 'lv';
+    </script>
+    <!DOCTYPE html>
+<html lang="lv" class="c1 s-100">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" href="https://lvceli.lv/" hreflang="lv" />
+<link rel="alternate" href="https://lvceli.lv/en/sakumlapa-english/" hreflang="en" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.0 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<link media="all" href="https://lvceli.lv/wp-content/cache/autoptimize/css/autoptimize_47b741fba76a3ee318f2f8a6c45dda91.css" rel="stylesheet"><link media="screen" href="https://lvceli.lv/wp-content/cache/autoptimize/css/autoptimize_b6fd9ec333120ec9786fbfb172de1531.css" rel="stylesheet"><title>Sākumlapa - Latvijas Valsts ceļi</title>
+	<link rel="canonical" href="https://lvceli.lv/" />
+	<meta property="og:locale" content="lv_LV" />
+	<meta property="og:locale:alternate" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Latvijas valsts ceļi" />
+	<meta property="og:url" content="https://lvceli.lv/" />
+	<meta property="og:site_name" content="Latvijas Valsts ceļi" />
+	<meta property="article:publisher" content="https://www.facebook.com/LVCELI/" />
+	<meta property="article:modified_time" content="2026-04-07T07:47:40+00:00" />
+	<meta property="og:image" content="https://lvceli.lv/wp-content/uploads/2026/04/DJI_0231-scaled.jpg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1438" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Latvijas valsts ceļi" />
+	<meta name="twitter:image" content="https://lvceli.lv/wp-content/uploads/2025/03/6_Junijs.jpg" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/lvceli.lv\/","url":"https:\/\/lvceli.lv\/","name":"Sākumlapa - Latvijas Valsts ceļi","isPartOf":{"@id":"https:\/\/lvceli.lv\/#website"},"about":{"@id":"https:\/\/lvceli.lv\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/lvceli.lv\/#primaryimage"},"image":{"@id":"https:\/\/lvceli.lv\/#primaryimage"},"thumbnailUrl":"https:\/\/lvceli.lv\/wp-content\/uploads\/2026\/04\/DJI_0231-scaled.jpg","datePublished":"2020-06-04T15:19:11+00:00","dateModified":"2026-04-07T07:47:40+00:00","breadcrumb":{"@id":"https:\/\/lvceli.lv\/#breadcrumb"},"inLanguage":"lv-LV","potentialAction":[{"@type":"ReadAction","target":["https:\/\/lvceli.lv\/"]}]},{"@type":"ImageObject","inLanguage":"lv-LV","@id":"https:\/\/lvceli.lv\/#primaryimage","url":"https:\/\/lvceli.lv\/wp-content\/uploads\/2026\/04\/DJI_0231-scaled.jpg","contentUrl":"https:\/\/lvceli.lv\/wp-content\/uploads\/2026\/04\/DJI_0231-scaled.jpg","width":2560,"height":1438},{"@type":"BreadcrumbList","@id":"https:\/\/lvceli.lv\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Sākums"}]},{"@type":"WebSite","@id":"https:\/\/lvceli.lv\/#website","url":"https:\/\/lvceli.lv\/","name":"Latvijas Valsts ceļi","description":"Latvijas Valsts ceļi","publisher":{"@id":"https:\/\/lvceli.lv\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/lvceli.lv\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"lv-LV"},{"@type":"Organization","@id":"https:\/\/lvceli.lv\/#organization","name":"Latvijas valts ceļi","url":"https:\/\/lvceli.lv\/","logo":{"@type":"ImageObject","inLanguage":"lv-LV","@id":"https:\/\/lvceli.lv\/#\/schema\/logo\/image\/","url":"https:\/\/lvceli.lv\/wp-content\/uploads\/2026\/04\/DJI_0231-1-scaled.jpg","contentUrl":"https:\/\/lvceli.lv\/wp-content\/uploads\/2026\/04\/DJI_0231-1-scaled.jpg","width":2560,"height":1438,"caption":"Latvijas valts ceļi"},"image":{"@id":"https:\/\/lvceli.lv\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/LVCELI\/"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Latvijas Valsts ceļi&raquo; Plūsma" href="https://lvceli.lv/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Komentāru plūsma" href="https://lvceli.lv/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://lvceli.lv/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flvceli.lv%2F&#038;lang=lv" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://lvceli.lv/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flvceli.lv%2F&#038;format=xml&#038;lang=lv" />
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="jquery-core-js" src="https://lvceli.lv/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://lvceli.lv/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="3d-flip-book-client-locale-loader-js-extra">
+var FB3D_CLIENT_LOCALE = {"ajaxurl":"https://lvceli.lv/wp-admin/admin-ajax.php","dictionary":{"Table of contents":"Table of contents","Close":"Close","Bookmarks":"Bookmarks","Thumbnails":"Thumbnails","Search":"Search","Share":"Share","Facebook":"Facebook","Twitter":"Twitter","Email":"Email","Play":"Play","Previous page":"Previous page","Next page":"Next page","Zoom in":"Zoom in","Zoom out":"Zoom out","Fit view":"Fit view","Auto play":"Auto play","Full screen":"Full screen","More":"More","Smart pan":"Smart pan","Single page":"Single page","Sounds":"Sounds","Stats":"Stats","Print":"Print","Download":"Download","Goto first page":"Goto first page","Goto last page":"Goto last page"},"images":"https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/images/","jsData":{"urls":[],"posts":{"ids_mis":[],"ids":[]},"pages":[],"firstPages":[],"bookCtrlProps":[],"bookTemplates":[]},"key":"3d-flip-book","pdfJS":{"pdfJsLib":"https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/pdf.min.js?ver=4.3.136","pdfJsWorker":"https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/pdf.worker.js?ver=4.3.136","stablePdfJsLib":"https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/stable/pdf.min.js?ver=2.5.207","stablePdfJsWorker":"https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/stable/pdf.worker.js?ver=2.5.207","pdfJsCMapUrl":"https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/cmaps/"},"cacheurl":"https://lvceli.lv/wp-content/uploads/3d-flip-book/cache/","pluginsurl":"https://lvceli.lv/wp-content/plugins/","pluginurl":"https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/","thumbnailSize":{"width":"150","height":"150"},"version":"1.16.19"};
+//# sourceURL=3d-flip-book-client-locale-loader-js-extra
+</script>
+<script async data-wp-strategy="async" id="3d-flip-book-client-locale-loader-js" src="https://lvceli.lv/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/client-locale-loader.js?ver=1.16.19"></script>
+<script id="jQuery-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/resources/jquery/jquery-3.5.1.min.js?ver=7.1.2"></script>
+<script id="bx_js-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/resources/bx/jquery.bxslider.min.js?ver=7.1.2"></script>
+<script id="bootstrap_js-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/resources/bootstrap/bootstrap.min.js?ver=7.1.2"></script>
+<script id="fa5-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/font-awesome.js?ver=7.1.2"></script>
+<script id="main-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/main.js?ver=1.0.1"></script>
+<script id="contacts-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/contacts.js?ver=1.0.1"></script>
+<script id="archive-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/archive.js?ver=1.0.1"></script>
+<script id="building_permits-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/building_permits.js?ver=1.0.1"></script>
+<script id="traffic_intensity-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/traffic_intensity.js?ver=1.0.1"></script>
+<script id="custom_advanced_cookie_js-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/custom_advanced_cookie.js?ver=1.0.1"></script>
+<script id="front_maps-script-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/front_maps.js?ver=7.1.2"></script>
+<script id="front_alerts-script-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/front_alerts.js?ver=7.1.2"></script>
+<script id="front_discussions-script-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/front_discussions.js?ver=7.1.2"></script>
+<script id="front_banner-script-js" src="https://lvceli.lv/wp-content/themes/hello-lvc/js/front_banner.js?ver=7.1.2"></script>
+<link rel="https://api.w.org/" href="https://lvceli.lv/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://lvceli.lv/wp-json/wp/v2/pages/7" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lvceli.lv/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://lvceli.lv/' />
+<link rel="icon" href="https://lvceli.lv/wp-content/uploads/2020/09/cropped-lvcLogo-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://lvceli.lv/wp-content/uploads/2020/09/cropped-lvcLogo-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://lvceli.lv/wp-content/uploads/2020/09/cropped-lvcLogo-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://lvceli.lv/wp-content/uploads/2020/09/cropped-lvcLogo-1-270x270.png" />
+
+</head>
+<body class="home wp-singular page-template page-template-templates page-template-home_page page-template-templateshome_page-php page page-id-7 wp-custom-logo wp-theme-hello-elementor wp-child-theme-hello-lvc">
+
+<header id="header" role="banner"> 
+    <div class="site-header container">
+        <div class="site-branding row" style="width: 100px;">
+            <a href="https://lvceli.lv" aria-label="Sākumlapa" class="custom-logo-link" rel="home" aria-current="page">
+                                    <div class="custom-logo"></div>
+                            </a>
+        </div>
+
+        <nav class="site-navigation" role="navigation">
+            <div class="menu-header_menu_lv-container"><ul id="menu-header_menu_lv" class="menu"><li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="https://lvceli.lv/raksti/">Aktuāli</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://lvceli.lv/celu-tikls/">Ceļu tīkls</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://lvceli.lv/par-lvc/">Par LVC</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://lvceli.lv/pakalpojumi/">Pakalpojumi</a></li>
+<li id="menu-item-34174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34174"><a href="https://lvceli.lv/buj/">BUJ</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://lvceli.lv/kontakti/">Kontakti</a></li>
+</ul></div>        </nav>
+
+        <button aria-label="Meklēt" class="site-search">
+            <div class="search-icon"></div>
+            <div class="search-dropdown">
+                <form method="get" action="/" class="search-form-container row">
+                    <div class="row">
+                        <input type="text" name="s" class="building_permits-form-input" placeholder="Meklēt ...">
+                        <input type="submit" id="search--submit--desktop" class="search--submit-button--desktop" value="Meklēt">
+                    </div>
+                </form>
+            </div>
+        </button>
+
+        <div class="site-phone">
+            <div class="phone-info">Diennakts informācijas tālrunis</div>
+            <div class="phone-number">+371 80005555</div>
+            <div class="contact-button">
+                <input type="button" value="Sazinies ar mums">
+            </div>
+        </div>
+
+        <div class="custom-lang">
+            <ul>
+            	<li class="lang-item lang-item-6 lang-item-en lang-item-first"><a lang="en-GB" hreflang="en-GB" href="https://lvceli.lv/en/sakumlapa-english/">en</a></li>
+            </ul>
+        </div>
+
+        <div id="colors" tabindex="0" onkeydown="if(event.key==='Enter') this.click()" class="logo-drop">
+            <div id="accessibility-toggle" class="hover-grow-button"></div>
+            <div class="access-container accessibility-settings accessibility-dropdown">
+
+                <div class="access-container-overlay">
+                    <div class="padding-wrap">
+
+                        <div class="row visual-tools">
+                            <div class="col-12">
+                                <p>Piekļūstamības saturs</p>
+                                                                    <a class="easy-read-btn col-6" href="https://lvceli.lv/viegli-lasit">Viegli lasīt</a>
+                                                            </div>
+                            <div class="col-12">
+                                <p>Fonta izmērs</p>
+
+                                <div class="font-size-block">
+                                    <div class="block-btns row">
+                                        <div class="col-4">
+                                            <button class="block-btn  " data-size="font-size-1-00x" aria-label="Fonta izmērs 100%">100%</button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="block-btn  " data-size="font-size-1-25x" aria-label="Fonta izmērs 150%">150%</button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="block-btn  " data-size="font-size-1-50x" aria-label="Fonta izmērs 200%">200%</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p>Kontrasts</p>
+
+                                <div class="contrast-block">
+                                    <div class="block-btns row">
+                                        <div class="col-4">
+                                            <button class="block-btn active" id="contrast-1" data-contrast="contrast-1" aria-label="Noklusējuma lapas kontrasts">
+                                                <span class="fal icon-eye"></span>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="block-btn" id="contrast-2" data-contrast="contrast-2" aria-label="Lapas kontrasts ir balts uz melna">
+                                                <span class="fal icon-eye"></span>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="block-btn" id="contrast-3" data-contrast="contrast-3" aria-label="Lapas kontrasts ir melns uz dzeltena">
+                                                <span class="fal icon-eye"></span>
+                                            </button>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="block-btn" id="contrast-4" data-contrast="contrast-4" aria-label="Lapas kontrasts ir dzeltens uz melna">
+                                                <span class="fal icon-eye"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row accessibility-footer-btns">
+                            <div class="reset-link-block col-12">
+                            <a class="btn-secondary" aria-label="Atiestatīt atlasītos lapas iestatījumus" href="#">                                                                           Atiestatīt
+                               </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        <p class="m-0 ms-2 d-lg-none accessibility-toggle"></p>
+    </div>
+</header>
+
+<div class="header-contact-form">
+    <div class="header-contact-form-wrapper">
+        <div class="header-overlay"></div>
+        <div class="header-contact-form--title row" style="margin-bottom:0">
+            <div class="d-flex w-100 flex-row" style="justify-content: flex-end;">
+<!--                <h3></h3>-->
+                <div id="header-contact-form--close"></div>
+            </div>
+        </div>
+        <div class="contacts--wrapper">
+            <form class="header-contact-form--form row">
+                <div style="display: flex;flex-direction: column">
+                    <div class="contactFormRadio">
+                        <input type="radio" id="radiojautajums" name="radio1" value="jautajums" checked>
+                        <label style="margin-bottom: 0" for="radiojautajums"><h3 class="contacts-radio">Sazinies ar VSIA "Latvijas Valsts ceļi"</h3></label>
+                    </div>
+                    <div class="contactFormRadio">
+                        <input type="radio" id="radiopazinojums" name="radio1" value="pazinojums">
+                        <label style="margin-bottom: 0" for="radiopazinojums"><h3 class="contacts-radio">Ziņot par satiksmes drošības apdraudējumu</h3></label>
+                    </div>
+                </div>
+
+                <input type="text" id="contacts--name" placeholder="Vārds, Uzvārds">
+                <input type="email" id="contacts--email" placeholder="E-pasts *">
+                <textarea placeholder="Jautājums" id="contacts--q"></textarea>
+                <input type="hidden" name="chbx" id="contacts--chbx" value="">
+                <input type="hidden" name="radioslct" id="contacts--radio" value="">
+                <div id="files"></div>
+            </form>
+            <div class="header-contact-form--controls">
+                <div class="row cmt-minus">
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+                        <input type="button" id="file_upload" value="Augšupielādēt">
+                        <span>
+                            <input type="file" id="file"/>
+                            Pievienot attēlu <span class="file-alert">(jpeg, png, pdf, docx)</span><br>
+                            <span class="file-alert">Maksimālais faila izmērs 25 MB.</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-9" style="display: flex;align-items: center">
+                                <input id="contacts-check2" type="checkbox">
+                                <div>
+                                    <span class="check-alert2">Vēlos saņemt atbildi uz manis norādīto e-pasta adresi.</span>
+                                </div>
+                            </div>
+                        <div class="col-3" style="display: flex;justify-content: flex-end">
+                            <input type="button" class="contacts-form-send" style="margin-right: 0" value="Nosūtīt">
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="contacts--loading">
+                    <div class="contacts--bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header id="header-mobile">
+    <div class="site-header container">
+        <div class="first-block">
+            <div class="site-search">
+                <a href="#"></a>
+            </div>
+                <div id="colors" tabindex="0" onkeydown="if(event.key==='Enter') this.click()" class="logo-drop">
+                    <div id="accessibility-toggle" class="hover-grow-button"></div>
+                    <div class="access-container accessibility-settings accessibility-dropdown">
+
+                        <div class="access-container-overlay">
+                            <div class="padding-wrap">
+
+                                <div class="row visual-tools">
+                                    <div class="col-12">
+                                        <p>Piekļūstamības saturs</p>
+                                                                                    <a class="easy-read-btn col-6" href="https://lvceli.lv/viegli-lasit">Viegli lasīt</a>
+                                                                            </div>
+                                    <div class="col-12">
+                                        <p>Fonta izmērs</p>
+
+                                        <div class="font-size-block">
+                                            <div class="block-btns row">
+                                                <div class="col-4">
+                                                    <button class="block-btn  " data-size="font-size-1-00x" aria-label="Fonta izmērs 100%">100%</button>
+                                                </div>
+                                                <div class="col-4">
+                                                    <button class="block-btn  " data-size="font-size-1-25x" aria-label="Fonta izmērs 150%">150%</button>
+                                                </div>
+                                                <div class="col-4">
+                                                    <button class="block-btn  " data-size="font-size-1-50x" aria-label="Fonta izmērs 200%">200%</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Kontrasts</p>
+
+                                        <div class="contrast-block">
+                                            <div class="block-btns row">
+                                                <div class="col-4">
+                                                    <button class="block-btn active" id="contrast-1" data-contrast="contrast-1" aria-label="Noklusējuma lapas kontrasts">
+                                                        <span class="fal icon-eye"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="col-4">
+                                                    <button class="block-btn" id="contrast-2" data-contrast="contrast-2" aria-label="Lapas kontrasts ir balts uz melna">
+                                                        <span class="fal icon-eye"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="col-4">
+                                                    <button class="block-btn" id="contrast-3" data-contrast="contrast-3" aria-label="Lapas kontrasts ir melns uz dzeltena">
+                                                        <span class="fal icon-eye"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="col-4">
+                                                    <button class="block-btn" id="contrast-4" data-contrast="contrast-4" aria-label="Lapas kontrasts ir dzeltens uz melna">
+                                                        <span class="fal icon-eye"></span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row accessibility-footer-btns">
+                                    <div class="reset-link-block col-12">
+                                        <a class="btn-secondary" aria-label="Atiestatīt atlasītos lapas iestatījumus" href="#">                                                                                    Atiestatīt
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                <p class="m-0 ms-2 d-lg-none accessibility-toggle"></p>
+            </div>
+        </div>
+
+        <nav class="mobile-site-navigation-search">
+            <div class="mobile-site-phone">
+                <div>
+                    <div class="phone-info">Diennakts informācijas tālrunis</div>
+                    <div class="phone-number">+371 80005555</div>
+                </div>
+                <div class="contact-button">
+                    <input type="button" value="Sazinies ar mums">
+                </div>
+            </div>
+            <div class="site-search-form">
+                
+<form class="search-form" action="https://lvceli.lv/" method="get">
+    <input type="text" name="s" id="search" value="" />
+    <button type="submit" class="custom-search"><i class="fas fa-search"></i></button>
+</form>            </div>
+        </nav>
+
+        <div class="site-branding row" style="width: 100px;">
+        <a href="https://lvceli.lv" aria-label="Sākumlapa" class="custom-logo-link" rel="home" aria-current="page">
+                                    <div class="custom-logo"></div>
+                            </a>
+        </div>
+
+        <nav class="mobile-site-navigation" role="navigation">
+            <div class="mobile-site-phone">
+                <div>
+                    <div class="phone-info">Diennakts informācijas tālrunis</div>
+                    <div class="phone-number">+371 80005555</div>
+                </div>
+                <div class="contact-button">
+                    <input type="button" value="Sazinies ar mums">
+                </div>
+            </div>
+            <div class="menu-header_menu_lv-container"><ul id="menu-header_menu_lv-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="https://lvceli.lv/raksti/">Aktuāli</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://lvceli.lv/celu-tikls/">Ceļu tīkls</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://lvceli.lv/par-lvc/">Par LVC</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://lvceli.lv/pakalpojumi/">Pakalpojumi</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34174"><a href="https://lvceli.lv/buj/">BUJ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://lvceli.lv/kontakti/">Kontakti</a></li>
+</ul></div>            <div class="mobile-site-navigation--language">
+                <div class="custom-mobile-lang">
+                                        <div class="mobile-site-current-language">
+                        <span>Latviski</span>
+                    </div>
+                                            <nav class="mobile-site-navigation-languages">
+                                                            <a href="https://lvceli.lv/en/sakumlapa-english/"><span class="mobile-site-navigation-languages-lang">English</span></a>
+                                                    </nav>
+                                    </div>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <a href="#"></a>
+        </div>
+    </div>
+</header>
+
+<div class="container breadcrumb-wrapper">
+    <div class="breadcrumb-fadeout"></div>
+</div>
+
+<div class="mobile-menu--effect"></div>
+
+    <div style="position: absolute">draw</div>
+    <main class="custom-home-page">
+                 <div class="container-fluid embed-map">
+                <div class="custom-map--elements">
+              <div class="fake-maps">             <div class="custom-map-list">
+            <div class="custom-map-list--title" tabindex="0" onkeydown="if(event.key==='Enter') this.click()">Kartes</div>
+                <ul>
+                            <a tabindex="0" href="https://map.transportdata.gov.lv/public?mode=summer#6.79/56.918/24.542">
+                    <li>Būvdarbi un satiksmes ierobežojumi</li>
+                </a>
+                                <a tabindex="0" href="https://map.transportdata.gov.lv/public?mode=winter#6.79/56.918/24.542">
+                    <li>Braukšanas apstākļi</li>
+                </a>
+                                <a tabindex="0" href="https://map.transportdata.gov.lv/?lang=lv&c=2675992%2C7743769&z=8&layers=base-5%2CMasas+un+gabar%C4%ABtu+ierobe%C5%BEojumi-data-17%5B0%5D%2CPast%C4%81v%C4%ABgie+ierobe%C5%BEojumi-64%5B1%5D%2C%C4%AAstermi%C5%86a+ierobe%C5%BEojumi-65%5B1%5D%2CVirtu%C4%81lie+ierobe%C5%BEojumi-67%5B1%5D%2CKravas+automobi%C4%BCiem+braukt+aizliegts-84%5B1%5D%2CBraukt+aizliegts-83%5B1%5D&baseOpacity=undefined&showAttributionBtn=true&showBaseOpacity=true&showLegendBtn=true&showObjectOpacity=true&showPanBtn=false&showLayerSets=false&min=true">
+                    <li>Masas un gabarītu ierobežojumi</li>
+                </a>
+                                <a tabindex="0" href="https://experience.arcgis.com/experience/[CHAVE]">
+                    <li>Valsts ceļu tīkls</li>
+                </a>
+                                <a tabindex="0" href="https://experience.arcgis.com/experience/[CHAVE]">
+                    <li>Reģionālās nodaļas</li>
+                </a>
+                                <a tabindex="0" href="https://map.transportdata.gov.lv/?lang=lv&c=2675992%2C7743769&z=8&layers=base-5%2CAktu%C4%81lie+satiksmes+notikumi-data-5%5B0%5D%2CStatiski+%C5%A1%C4%B7%C4%93r%C5%A1%C4%BCi-50%5B1%5D%2CKust%C4%ABgi+objekti-6%5B1%5D%2CSatiksmes+negad%C4%ABjumi-11%5B1%5D%2C%C4%AAstermi%C5%86a+ce%C4%BCa+darbi-12%5B1%5D%2CSatiksmes+intensit%C4%81te-51%5B1%5D&min=true">
+                    <li>Satiksmes intensitāte</li>
+                </a>
+                                </ul>
+            </div>
+                        <div class="custom-map-preview--small" >
+                <img fetchpriority="high" alt="Kartes attēls" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/map_bg_2.jpg">
+                <div class="custom-map-preview--loading"></div>
+                <iframe src="#" hidden></iframe>
+            </div>
+             </div>             <div class="custom-map--button" tabindex="0" onkeydown="if(event.key==='Enter') this.querySelector('button').click()">
+                <button type="button">Parādīt karti</button>
+                <div class="custom-sub">
+                    <div class="custom-sub--left"></div>
+                    <div class="custom-sub--right"></div>
+                </div>
+            </div>
+                            </div>
+                            <div class="custom-map--loading">
+                <div class="custom-map--bar"></div>
+            </div>
+                        </div>
+            <li id="block-5" class="widget widget_block widget_text">
+<p class="wp-block-paragraph"></p>
+</li>
+                        <div class="container custom-alert">
+                            <li id="media_image-alert-3" class="widget widget_media_image">
+                                <img width="1" height="1" src="https://lvceli.lv/wp-content/uploads/2025/04/LVC_simbols_dzeltens2-2.png" class="image wp-image-70  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;">
+                            </li>
+                            <li id="text-alert-3" class="widget widget_text">
+                                <div class="textwidget">
+                                    <p><a href="https://lvceli.lv/aktuali/rail-baltica-buvdarbu-materialu-piegadem-atseviski-valsts-celi-tiks-nodoti-izmantosanai-edzl/">SIA "EIROPAS DZELZCEĻA LĪNIJAS" izmantošanai nodotie valsts autoceļu posmi "Rail Baltica" projekta vajadzībām</p>
+                                </div>
+                            </li>
+                            <div class="custom-alert--close-alert-3">
+                                <a href="#"><img src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/Cancel.svg"></a>
+                            </div>
+                        </div>
+                                            <div class="container custom-alert">
+                            <li id="media_image-alert-4" class="widget widget_media_image">
+                                <img width="1" height="1" src="https://lvceli.lv/wp-content/uploads/2025/04/LVC_simbols_dzeltens2-2.png" class="image wp-image-70  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;">
+                            </li>
+                            <li id="text-alert-4" class="widget widget_text">
+                                <div class="textwidget">
+                                    <p><a href="https://lvceli.lv/celu-tikls/projekti/ppp/bauskas-apvedcels/">Izsludināts Bauskas apvedceļa PPP projekta iepirkums</p>
+                                </div>
+                            </li>
+                            <div class="custom-alert--close-alert-4">
+                                <a href="#"><img src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/Cancel.svg"></a>
+                            </div>
+                        </div>
+                     <div class="container custom-posts">  <div class="custom-posts--featured">                     <div class="custom-posts--featured-post">
+                        <div class="custom-posts--featured-post-block">
+                            <div class="img-wrapper">
+                                <a aria-label="Fotoreportāža: Inciemā un Ozolainē gar valsts autoceļiem sakoptas alejas" href="https://lvceli.lv/aktualitates/fotoreportaza-inciema-un-ozolaine-gar-valsts-autoceliem-sakoptas-alejas/">
+                                    <div class="home-featured-img-big"  style="background-image: url('https://lvceli.lv/wp-content/uploads/2026/10/DJI_20250517081229_0742_D_RK2026-scaled.jpg');">
+                                    </div>
+                                </a>
+                                                            </div>
+                            <a href="https://lvceli.lv/aktualitates/fotoreportaza-inciema-un-ozolaine-gar-valsts-autoceliem-sakoptas-alejas/"><ul><li class="custom-posts--title">Fotoreportāža: Inciemā un Ozolainē gar valsts autoceļiem sakoptas alejas</li></ul></a>
+                            <a href="https://lvceli.lv/aktualitates/fotoreportaza-inciema-un-ozolaine-gar-valsts-autoceliem-sakoptas-alejas/"><span class="custom-posts--date">12.10.2026.</span></a>
+
+                        </div>
+
+                    </div>
+                    <!--<div class="custom-posts--featured-post">
+                        <div class="custom-posts--featured-post-block">
+
+                            <div class="featured-post-block--background" style="background: url('                            </div>
+
+                        </div>
+                    </div>-->
+                 </div>                 <div class="custom-posts--all">
+                    <ul>
+                                <li class="row custom-posts--single">
+                        <a aria-label="Ikšķilē uz Daugavpils šosejas jārēķinās ar palēninātu satiksmi" href="https://lvceli.lv/aktualitates/ikskile-uz-daugavpils-sosejas-jarekinas-ar-paleninatu-satiksmi/">
+                            <div class="home-featured-img-small"  style="background-image: url('https://lvceli.lv/wp-content/uploads/2025/06/1RK7000-scaled.jpg');">
+                            </div>
+                        </a>
+                                                    <div class="custom-post-tag">
+                                <a href="https://lvceli.lv/tag/satiksmes-ierobezojumi/">
+                                    Satiksmes ierobežojumi                                </a>
+                            </div>
+                                                <div class="custom-posts--single-info ">
+                            <ul>
+                                <li>
+                                                                        <a aria-label="Ikšķilē uz Daugavpils šosejas jārēķinās ar palēninātu satiksmi" href="https://lvceli.lv/aktualitates/ikskile-uz-daugavpils-sosejas-jarekinas-ar-paleninatu-satiksmi/">
+                                        Ikšķilē uz Daugavpils šosejas jārēķinās ar palēninātu satiksmi                                    </a>
+                                </li>
+                            </ul>
+                            <a aria-label="Ikšķilē uz Daugavpils šosejas jārēķinās ar palēninātu satiksmi" href="https://lvceli.lv/aktualitates/ikskile-uz-daugavpils-sosejas-jarekinas-ar-paleninatu-satiksmi/">
+                                <span>12.10.2026.</span>
+                            </a>
+                        </div>
+                    </li>
+                                    <li class="row custom-posts--single">
+                        <a aria-label="Starp Siguldu un Līgatni jārēķinās ar palēninātu satiksmi" href="https://lvceli.lv/aktualitates/autovaditaju-ieveribai-starp-siguldu-un-ligatni-jarekinas-ar-paleninatu-satiksmi/">
+                            <div class="home-featured-img-small"  style="background-image: url('https://lvceli.lv/wp-content/uploads/2026/09/0RK_1129.jpg');">
+                            </div>
+                        </a>
+                                                    <div class="custom-post-tag">
+                                <a href="https://lvceli.lv/tag/buvdarbi/">
+                                    Būvdarbi                                </a>
+                            </div>
+                                                <div class="custom-posts--single-info ">
+                            <ul>
+                                <li>
+                                                                        <a aria-label="Starp Siguldu un Līgatni jārēķinās ar palēninātu satiksmi" href="https://lvceli.lv/aktualitates/autovaditaju-ieveribai-starp-siguldu-un-ligatni-jarekinas-ar-paleninatu-satiksmi/">
+                                        Starp Siguldu un Līgatni jārēķinās ar palēninātu satiksmi                                    </a>
+                                </li>
+                            </ul>
+                            <a aria-label="Starp Siguldu un Līgatni jārēķinās ar palēninātu satiksmi" href="https://lvceli.lv/aktualitates/autovaditaju-ieveribai-starp-siguldu-un-ligatni-jarekinas-ar-paleninatu-satiksmi/">
+                                <span>09.10.2026.</span>
+                            </a>
+                        </div>
+                    </li>
+                                    </ul>
+                </div>
+             </div>             <div class="container custom-posts--archive">
+                <div class="row custom-post--archive-wrapper">
+                    <a href="/raksti/"><span class="custom-text--with-arrow">Visi raksti</span></a>
+                </div>
+            </div>
+            
+<p class="wp-block-paragraph"></p>
+
+<p class="wp-block-paragraph"></p>
+
+<p class="wp-block-paragraph"></p>
+
+                <div class="container custom-discussions">
+                    <div class="row">
+                                                <div class="parent-page">
+                            <a href="https://lvceli.lv/buj/valsts-autocelu-funkcijas-un-pasvaldibam-nododamie-celi/" target="_blank">
+                                <div class="custom-discussions--wrapper mobile d-md-none" style="
+                                        background-image:
+                                            linear-gradient(
+                                                180deg,
+                                                rgba(255,255,255,.7) 0%,
+                                                rgba(255,255,255,.7) 100%),
+                                            url(https://lvceli.lv/wp-content/uploads/2024/02/LVC_simbols_dzeltens2-1.png);">
+                                    <span class="custom-discussions--single-title">Valsts autoceļu funkcijas un autoceļi, kas to ir zaudējuši un nododami pašvaldībām</span>
+                                    <img src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/arrow-right--medium.svg">
+                                </div>
+                                <div class="custom-discussions--wrapper desktop d-none d-md-flex">
+                                    <img style="width: 243px; height: 141px;" src="https://lvceli.lv/wp-content/uploads/2024/02/LVC_simbols_dzeltens2-1.png"/>
+                                    <li class="custom-discussions--single-title">Valsts autoceļu funkcijas un autoceļi, kas to ir zaudējuši un nododami pašvaldībām</li>
+                                    <img src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/arrow-right--medium.svg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <div class="container custom-link-blocks">
+                    <h3 class="custom-discussions--title hide-desktop">Noderīgas saites</h3>
+                 <div class="custom-link-blocks--posts">                         <a href="https://lvceli.lv/saites/konferences/" style="width: 100%;">
+                            <ul class="custom-link-blocks--posts-wrapper" style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.4)), url('https://lvceli.lv/wp-content/uploads/2026/02/1RK3004-343x228.jpg'); background-repeat: no-repeat; background-size: cover">
+                                <li class="custom-link-blocks--posts-title">Konferences</li>
+                            </ul>
+                        </a>
+                                                <a href="https://lvceli.lv/avize" style="width: 100%;">
+                            <ul class="custom-link-blocks--posts-wrapper" style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.4)), url('https://lvceli.lv/wp-content/uploads/2020/09/Annotation-2020-05-06-161259@2x-360x228.png'); background-repeat: no-repeat; background-size: cover">
+                                <li class="custom-link-blocks--posts-title">Autoceļu avīze</li>
+                            </ul>
+                        </a>
+                                                <a href="https://lvceli.lv/saites/latvijas-celu-muzejs/" style="width: 100%;">
+                            <ul class="custom-link-blocks--posts-wrapper" style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.4)), url('https://lvceli.lv/wp-content/uploads/2023/09/Celu_muzejs_ML_attels-304x228.jpg'); background-repeat: no-repeat; background-size: cover">
+                                <li class="custom-link-blocks--posts-title">Ceļu muzejs un ekskursijas</li>
+                            </ul>
+                        </a>
+                         </div>  </div>                 <div class="container custom-link-blocks--archive">
+                    <div class="row custom-link-blocks--archive-wrapper">
+                        <a href="https://lvceli.lv/?page_id=89"><span class="custom-text--with-arrow">Visas saites</span></a>
+                    </div>
+                </div>
+                        </main>
+
+    <div id="main-cookie-notice" class="col-12 custom-advanced-cookie-container">
+        <div class="container">
+            <div class="row">
+                <div class="custom-advanced-cookie-text col-xl-10 col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                    Šī vietne izmanto tikai funkcionāli nepieciešamās un personalizētās sīkdatnes tehniskās darbības nodrošināšanai. Tā kā tās ir nepieciešamas vietnes funkcionalitātei, sīkdatnes tiek iestatītas automātiski.                    <div style="padding-top: 25px; ">
+                        <a href="/privatuma-politika/sikdatnu-deklaracija/" style="color: #F7B513">
+                            Uzzināt vairāk šeit.                        </a>
+                    </div>
+                </div>
+                <div class="cookie-button-container col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12" style="padding-left: 0">
+                    <div class="accept-all cookie-btn" style="margin-bottom: 25px">
+                        Esmu iepazinies                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id={}&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+<div>
+    </div>
+<footer id="site-footer" class="site-footer container-fluid" role="contentinfo">
+    <div class="row container footer-wrapper">
+        <div class="footer-links row">            
+                        <nav class="footer-actual" role="navigation">
+                <h3 class="footer-links--title">Aktuāli</h3>
+                <div class="menu-aktuali_lv-container"><ul id="menu-aktuali_lv" class="menu"><li id="menu-item-35847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35847"><a href="https://lvceli.lv/tag/satiksmes-ierobezojumi/">Satiksmes ierobežojumi</a></li>
+<li id="menu-item-35848" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35848"><a href="https://lvceli.lv/tag/brauksanas-apstakli/">Braukšanas apstākļi</a></li>
+<li id="menu-item-35849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35849"><a href="https://lvceli.lv/tag/buvdarbi/">Būvdarbi</a></li>
+<li id="menu-item-35850" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35850"><a href="https://lvceli.lv/par-lvc/iepirkumi/iepirkumi/">Iepirkumi</a></li>
+</ul></div>            </nav>
+                        <nav class="footer-offers" role="navigation">
+                <h3 class="footer-links--title">Ceļu tīkls</h3>
+                <div class="menu-celu_tikls_lv-container"><ul id="menu-celu_tikls_lv" class="menu"><li id="menu-item-35851" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35851"><a href="https://lvceli.lv/celu-tikls/buvnieciba-un-uzturesana/">Būvniecība un uzturēšana</a></li>
+<li id="menu-item-35853" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35853"><a href="https://lvceli.lv/celu-tikls/projekti/">Projekti</a></li>
+<li id="menu-item-35854" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35854"><a href="https://lvceli.lv/celu-tikls/tehniskie-noteikumi-metodiskie-noradijumi/">Tehniskie noteikumi</a></li>
+<li id="menu-item-35855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35855"><a href="https://lvceli.lv/celu-tikls/celu-kartes/">Ceļu kartes</a></li>
+<li id="menu-item-35856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35856"><a href="https://lvceli.lv/celu-tikls/statistikas-dati/">Statistikas dati</a></li>
+<li id="menu-item-55257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55257"><a target="_blank" href="https://www.transportdata.gov.lv/lv">Nacionālās piekļuves punkts</a></li>
+</ul></div>            </nav>
+            <nav class="footer-questions" role="navigation">
+                <h3 class="footer-links--title">Par LVC</h3>
+                <div class="menu-parlvc_lv-container"><ul id="menu-parlvc_lv" class="menu"><li id="menu-item-35857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35857"><a href="https://lvceli.lv/par-lvc/par-lvc/">Par uzņēmumu</a></li>
+<li id="menu-item-35858" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35858"><a href="https://lvceli.lv/par-lvc/darbibas-raditaji/">Darbības rādītāji</a></li>
+<li id="menu-item-35860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35860"><a href="https://lvceli.lv/par-lvc/vakances/">Vakances</a></li>
+<li id="menu-item-35861" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35861"><a href="https://lvceli.lv/par-lvc/iepirkumi/">Iepirkumi</a></li>
+</ul></div>            </nav>
+                        <nav class="footer-about" role="navigation">
+                <h3 class="footer-links--title">Pakalpojumi</h3>
+                <div class="menu-pakalpojumi_lv-container"><ul id="menu-pakalpojumi_lv" class="menu"><li id="menu-item-35863" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35863"><a href="https://lvceli.lv/pakalpojumi/saskanojumi-un-atlaujas/">Saskaņojumi un atļaujas</a></li>
+<li id="menu-item-35862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35862"><a href="https://lvceli.lv/pakalpojumi/autocelu-kompetences-centrs/">Autoceļu kompetences centrs</a></li>
+</ul></div>            </nav>
+                                    <nav class="footer-helpful" role="navigation">
+                <h3 class="footer-links--title">Noderīgi</h3>
+                <div class="menu-noderigi_lv-container"><ul id="menu-noderigi_lv" class="menu"><li id="menu-item-35846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35846"><a href="https://lvceli.lv/buj/">Biežāk uzdotie jautājumi</a></li>
+<li id="menu-item-38627" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38627"><a href="https://lvceli.lv/avize">Autoceļu avīze</a></li>
+<li id="menu-item-38634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38634"><a href="http://veloplans.lv/">Velosatiksmes attīstības plāns</a></li>
+<li id="menu-item-38678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38678"><a target="_blank" href="https://lvceli.lv/wp-content/uploads/2022/04/vsia_latvijas-valsts-celi-_pieklustamibas_pazinojums_12042022.html">Piekļūstamības paziņojums</a></li>
+<li id="menu-item-35864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-35864"><a rel="privacy-policy" href="https://lvceli.lv/privatuma-politika/">Privātuma politika</a></li>
+</ul></div>            </nav>
+                        <div class="footer-follow">
+                <h3 class="footer-links--title">Seko LVC</h3>
+                <div class="footer-follow--links">
+                    <a aria-label="Facebook" target="_blank" href="https://www.facebook.com/LVCELI?fref=ts"><div class="fb"></div></a>
+                    <a aria-label="Twitter" target="_blank" href="https://twitter.com/LVceli"><div class="tw"></div></a>
+<!--                    <a aria-label="Flickr" target="_blank" href="https://www.flickr.com/photos/lvceli/"><div class="dots"></div></a>-->
+                    <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/latvijasvalstsceli/"><div class="ig"></div></a>
+                    <a aria-label="Linkedin" target="_blank" href="https://www.linkedin.com/company/latvijas-valsts-celi/"><div class="linkedin"></div></a>
+                </div>
+                <div class="d-none d-sm-block" style="margin-left: 20px">
+                    <a target="_blank" href="https://europa.eu/youreurope/"><img alt="Your Europe logo" style="width: 10rem" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/Your_Europe_logo.jpg"></a>
+                </div>
+                <div class="d-none d-sm-block" style="margin-left: 20px ">
+                    <a target="_blank" href="https://balticroads.org/">
+                        <img alt="Baltic Roads logo" style="width: 5rem" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/baltic_roads.png">
+                    </a>
+                </div>
+                <div class="d-none d-sm-block" style="margin-left: 20px ">
+                    <img alt="GDD logo" style="width: 5rem" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/GDD_Logo_RGB.png">
+                </div>
+                <div class="d-none d-sm-block" style="margin-left: 20px ">
+                    <img alt="TDD logo" style="width: 5rem" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/TDD_Buvnieciba_zelts.png">
+                </div>
+            </div>
+            <div class="d-sm-none d-flex flex-column flex-sm-row">
+                <div class="d-flex">
+                    <div class="m-2">
+                        <a target="_blank" href="https://europa.eu/youreurope/"><img alt="Your Europe logo" style="height: 75px" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/Your_Europe_logo.jpg"></a>
+                    </div>
+<!--                    <div class="m-2">-->
+<!--                        <a target="_blank" href="https://balticroads.org/">-->
+<!--                            <img alt="Baltic Roads logo" style="height: 75px" src="--><!--/assets/baltic_roads.png">-->
+<!--                        </a>-->
+<!--                    </div>-->
+                </div>
+                <div class="d-flex">
+                    <div class="m-2">
+                        <a target="_blank" href="https://balticroads.org/">
+                            <img alt="Baltic Roads logo" style="height: 75px" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/baltic_roads.png">
+                        </a>
+                    </div>
+                    <div class="m-2">
+                        <img alt="GDD logo" style="height: 75px" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/GDD_Logo_RGB.png">
+                    </div>
+                    <div class="m-2">
+                        <img alt="TDD logo" style="height: 75px" src="https://lvceli.lv/wp-content/themes/hello-lvc/assets/TDD_Buvnieciba_zelts.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-contacts">
+            <nav class="footer-about" role="navigation">
+                <h3 class="footer-links--title">Kontakti</h3>
+                <ul>
+                    <li>
+                        <div>
+                            <p class="footer-contacts--title">Adrese</p>
+                            <p class="footer-contacts--info">Emīlijas Benjamiņas iela 3, Rīga</p>
+                            <p class="footer-contacts--info">LV-1050, Latvija</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="footer-contacts--title">Tālrunis</p>
+                            <p class="footer-contacts--info">+371 67028169</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="footer-contacts--title">Darba laiks</p>
+                            <p class="footer-contacts--info">No 8:00 līdz 17:00</p>
+                            <p class="footer-contacts--info">Piektdienās līdz 15:45</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="footer-contacts--title">E-pasts</p>
+                            <p class="footer-contacts--info"><a href="mailto:lvceli@lvceli.lv">lvceli@lvceli.lv</a></p>
+                        </div>
+                        <div>
+                            <p class="footer-contacts--title">E-adrese</p>
+                            <p class="footer-contacts--info"><a target="_blank" href="https://latvija.gov.lv/KDV/Write/NewMessage?address=_default@40003344207">_default@40003344207</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="footer-contacts--title">Medijiem</p>
+                            <p class="footer-contacts--info"><a href="mailto:komunikacija@lvceli.lv">komunikacija@lvceli.lv</a></p>
+                            <p class="footer-contacts--info"><a href="mailto:anna.kononova@lvceli.lv">anna.kononova@lvceli.lv</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="footer-contacts--title">Diennakts informācijas tālrunis</p>
+                            <p class="footer-contacts--info">+371 80005555</p>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-lvc/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="pll_cookie_script-js-after">
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=lv; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+
+//# sourceURL=pll_cookie_script-js-after
+</script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://lvceli.lv/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://lvceli.lv/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+</body>
+</html>

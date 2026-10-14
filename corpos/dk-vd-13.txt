@@ -1,0 +1,4 @@
+GET https://storage.googleapis.com/trafikkort-data/geojson/25832/current-ice-snow.point.json?cachekey=1791943733151
+content-type: application/json
+
+{"layerId":"layer_id_15I4", "layerName":"25832/current-ice-snow.point", "type":"FeatureCollection", "features":[]}

@@ -1,0 +1,4 @@
+GET https://js.arcgis.com/4.17/esri/widgets/ScaleBar/t9n/ScaleBar_et.json
+content-type: application/json
+
+{"widgetLabel":"Joonmõõtkava","km":"km","mi":"mi","ft":"ft","m":"m","unknownUnit":"Tundmatu ühik"}

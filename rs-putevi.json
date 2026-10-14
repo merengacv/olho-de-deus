@@ -1,0 +1,933 @@
+{
+ "id": "rs-putevi",
+ "url": "https://www.putevi-srbije.rs/",
+ "requests": [
+  {
+   "u": "https://www.putevi-srbije.rs/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Montserrat:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic-ext",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/com_rstbox/css/engagebox.css?[CHAVE]",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/plugins/system/rokbox/assets/styles/rokbox.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/css/bootstrap.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/css/font-awesome.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/css/fa-v4-shims.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/css/template.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/css/presets/default.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/css/custom.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_roksprocket/layouts/strips/themes/default/strips.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_minitekwall/assets/css/masonry.css?v=3.7.0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/modules/mod_rapi_contentmarquee/includes/css/rapi_contentmarquee.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/modules/mod_djimageslider/themes/default/css/djimageslider.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/mod_languages/css/template.css?[CHAVE]",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/jui/js/jquery-noconflict.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/jui/js/jquery-migrate.min.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/system/js/core.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/com_rstbox/js/vendor/velocity.ui.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/jui/js/jquery.min.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/com_rstbox/js/animations.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/com_rstbox/js/engagebox.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/com_rstbox/js/gatracker.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/com_rstbox/js/vendor/velocity.js?[CHAVE]",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/js/popper.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/js/main.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_roksprocket/assets/js/mootools-mobile.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_roksprocket/assets/js/rokmediaqueries.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_roksprocket/assets/js/roksprocket.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/js/bootstrap.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_roksprocket/assets/js/moofx.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_roksprocket/assets/js/roksprocket.request.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_roksprocket/layouts/strips/assets/js/strips.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/plugins/system/rokbox/assets/js/rokbox.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_roksprocket/layouts/strips/assets/js/strips-speeds.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/modules/mod_rapi_contentmarquee/includes/js/jquery.marquee.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/djextensions/jquery-easing/jquery.easing.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/modules/mod_djimageslider/assets/js/slider.js?v=4.2",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_minitekwall/assets/js/imagesloaded.pkgd.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_minitekwall/assets/js/isotope.pkgd.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_minitekwall/assets/js/packery-mode.pkgd.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/components/com_minitekwall/assets/js/spin.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://use.fontawesome.com/releases/v5.8.1/css/all.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/mod_languages/images/sr_yu.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/media/mod_languages/images/en.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-Q72JLZK1P3",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/u-tunelu-nismo-sami.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/autoput-milos-veliki-lajkovac.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/infocentar/tweet-X-white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/Putevi-Srbije-logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-brands-400.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=UA-5152763-1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/fonts/fa-brands-400.woff",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-Q72JLZK1P3&gtm=45je6ac1v9132236014za208zd9132236014xf1&_p=1791944056993&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=231333829.1791944057&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.17.0&uaw=0&ul=pt-br&_s=1&tag_exp=100",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=UA-5152763-1&cx=c&gtm=4e6ac1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/templates/shaper_helixultimate/fonts/fa-solid-900.woff",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-QV3JJ4ZFC1&cx=c&gtm=4e6ac1",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/koridor10-juzni-krak.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/putarine/t4a.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-QV3JJ4ZFC1&gtm=45je6ac1v9119073933za20ozd9132236014xf1&_p=1791944056993&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&are=1&cid=231333829.1791944057&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.17.0&uaw=0&ul=pt-br&_s=1&tag",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/infocentar/tweet-X-blue.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/korisnicki-centar-naslovna.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/modules/mod_djimageslider/themes/default/images/loader.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/infocentar/stanje-na-putevima.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/info-centar.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/tunel-bancarevo-e80.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/bezbedno-kroz-tunel.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/divider.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kuzmin-okt-2026/korpo-kuzmin-10.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kadinjaca-pripremni-radovi/Obilazak-Kadinjaca.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/vrsac-karavan/korpo-vrsac-08-10-26.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/poledica-prirucnik/korpo-poledica.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kuzmin-okt-2026/video-korpo-kuzmin-10.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/Svilajnac-izgradnja-mosta/video-most-svilajnac.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/09-SEPTEMBAR/kg-obilazn/video-kg-sept.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/logo-rap.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/kvalitet/3-iso-45001.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/kvalitet/3-iso-9001.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/kvalitet/3-iso-50001.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/enp-blue.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/logo-t4a-plavi.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/cunj-plavi.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/video-klipovi-plavo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/video-klipovi-crveno.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/06-JUN/film-prosirenje/PROSIRENJE-NAPLATNIH-STANICA-3-DEO.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/obilaznica-oko-beograda.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/video-pozadina2.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "rs-putevi-1.txt",
+   "u": "https://www.putevi-srbije.rs/",
+   "bytes": 171191,
+   "type": "document"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://www.putevi-srbije.rs/media/mod_languages/images/sr_yu.gif",
+   "https://www.putevi-srbije.rs/media/mod_languages/images/en.gif",
+   "https://www.putevi-srbije.rs/images/infocentar/tweet-X-white.png",
+   "https://www.putevi-srbije.rs/images/Putevi-Srbije-logo.png",
+   "https://www.putevi-srbije.rs/images/headers/u-tunelu-nismo-sami.jpg",
+   "https://www.putevi-srbije.rs/images/headers/autoput-milos-veliki-lajkovac.jpg",
+   "https://www.putevi-srbije.rs/images/headers/tunel-bancarevo-e80.jpg",
+   "https://www.putevi-srbije.rs/images/headers/bezbedno-kroz-tunel.jpg",
+   "https://www.putevi-srbije.rs/images/putarine/t4a.jpg",
+   "https://www.putevi-srbije.rs/images/naslovna/info-centar.jpg",
+   "https://www.putevi-srbije.rs/images/infocentar/stanje-na-putevima.png",
+   "https://www.putevi-srbije.rs/images/infocentar/tweet-X-blue.png",
+   "https://www.putevi-srbije.rs/images/naslovna/korisnicki-centar-naslovna.jpg",
+   "https://www.putevi-srbije.rs/images/divider.png",
+   "https://www.putevi-srbije.rs/images/divider.png",
+   "https://www.putevi-srbije.rs/images/divider.png",
+   "https://www.putevi-srbije.rs/images/divider.png",
+   "https://www.putevi-srbije.rs/images/divider.png",
+   "https://www.putevi-srbije.rs/images/divider.png",
+   "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kuzmin-okt-2026/korpo-kuzmin-10.jpg",
+   "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kadinjaca-pripremni-radovi/Obilazak-Kadinjaca.jpg",
+   "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/vrsac-karavan/korpo-vrsac-08-10-26.jpg",
+   "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/poledica-prirucnik/korpo-poledica.jpg",
+   "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kuzmin-okt-2026/video-korpo-kuzmin-10.jpg",
+   "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/Svilajnac-izgradnja-mosta/video-most-svilajnac.jpg",
+   "https://www.putevi-srbije.rs/images/korpo-2026/09-SEPTEMBAR/kg-obilazn/video-kg-sept.png",
+   "https://www.putevi-srbije.rs/images/naslovna/logo-rap.png",
+   "https://www.putevi-srbije.rs/images/kvalitet/3-iso-45001.png",
+   "https://www.putevi-srbije.rs/images/kvalitet/3-iso-9001.png",
+   "https://www.putevi-srbije.rs/images/kvalitet/3-iso-50001.png"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [],
+  "text": " \nО намаОрганизацијаНабавкеГалеријаЈавни позиви и огласиПресКонтакт\nTOLL FOR ALL\n\nНаплата путарине - ОБИЛАЗНИЦА око Београда\nРегистрација ТАГ уређаја\nПреконфигурација ТАГ уређаја\n\n \n\n \nИНФОРМАТИВНИ ЦЕНТАР\nБесплатни број телефона:\n0800-100-104\ninfo.centar@putevi-srbije.rs\n \nСТАЊЕ НА ДРЖАВНИМ ПУТЕВИМА\n\n        \n\n Сервисне информације\nЗадржавање на наплатним станицама\n\n \nКОРИСНИЧКИ ЦЕНТАР\nСектора за наплату путарине\n0800-111-004\nkorisnickicentar@putevi-srbije.rs\nПУТЕВИ СРБИЈЕ: ОД 1. ЈУЛА 2026.Г. ПОЧЕЛА ПРИМЕНА КАЗНЕНЕ ПОЛИТИКЕ ЗА СВЕ ВЛАСНИКЕ / КОРИСНИКЕ ВОЗИЛА 4.КАТЕГОРИЈЕ КОЈИ ПУТАРИНУ НЕ ПЛАЋАЈУ ЕЛЕКТРОНСКИ - УПОТРЕБОМ ТАГ УРЕЂАЈА  ПОЧЕЛА НАПЛАТА ПУТАРИНЕ ЗА ВОЗИЛА IV КАТЕГОРИЈЕ НА ОБИЛАЗНИЦИ ОКО БЕОГРАДА  ПУТЕВИ СРБИЈЕ: НЕ ОТВАРАЈТЕ СМС ПОРУКЕ О НЕНАПЛАЋЕНОЈ ПУТАРИНИ ИЛИ ПРЕКОРАЧЕЊУ БРЗИНЕ \nПУТЕВИ СРБИЈЕ: ОД 1. ЈУЛА 2026.Г. ПОЧЕЛА ПРИМЕНА КАЗНЕНЕ ПОЛИТИКЕ ЗА СВЕ ВЛАСНИКЕ / КОРИСНИКЕ ВОЗИЛА 4.КАТЕГОРИЈЕ КОЈИ ПУТАРИНУ НЕ ПЛАЋАЈУ ЕЛЕКТРОНСКИ - УПОТРЕБОМ ТАГ УРЕЂАЈА  ПОЧЕЛА НАПЛАТА ПУТАРИНЕ ЗА ВОЗИЛА IV КАТЕГОРИЈЕ НА ОБИЛАЗНИЦИ ОКО БЕОГРАДА  ПУТЕВИ СРБИЈЕ: НЕ ОТВАРАЈТЕ СМС ПОРУКЕ О НЕНАПЛАЋЕНОЈ ПУТАРИНИ ИЛИ ПРЕКОРАЧЕЊУ БРЗИНЕ \nКОРПОРАТИВНЕ ВЕСТИ\n12. октобар 2026.\nДЕОНИЦA СРЕМСКА РАЧА - КУЗМИН, НОВИ СНИМЦИ ИЗГРАДЊЕ\n10. октобар 2026.\nМИНИСТАРКА СОФРОНИЈЕВИЋ ОБИШЛА ПРИПРЕМНЕ РАДОВЕ НА ИЗГРАДЊИ ТУНЕЛА КАДИЊАЧА\n08. октобар 2026.\nКАРАВАН БЕЗБЕДНОСТИ САОБРАЋАЈА У ВРШЦУ\n06. октобар 2026.\n29. СЕПТЕМБРА 2026.Г. ОДРЖАНА СТРУЧНА РАДИОНИЦА НА ТЕМУ ИЗРАДЕ ПРИРУЧНИКА ЗА ПЛАНИРАЊЕ И ПРОЈЕКТОВАЊЕ БИЦИКЛИСТИЧКЕ…\nПутарина\n\nКатегоризација возила/Ценовник путарине\n\nToll For All\n\nWEB сервис за електронску наплату путарине\n\nСИРН\n\nПројекат одрживог унапређења путне мреже\n\nМобилна апликација\n\n• iOS\n• Андроид\n\nРРСП\n\nПројекат рехабилитације путева и унапређења безбедности саобраћаја\n\nГИС портал\n\nГеоинформациони систем ”Путеви Србије” д.о.о.\n\nЕДУКАТИВНЕ КАМПАЊЕ\nВИДЕО КЛИПОВИ\nФИЛМОВИ\nУкидање печата\nконтакт центар\nПрихватање доказа о уплати\nтакси и накнада без печата\nИнформатор о раду\nИнформације од јавног значаја\nИнформације у вези са узбуњивањем\nИнформације у вези заштите података о личности\nРегулатива\nЕкспропријација\nРеферентни систем\nБројање саобраћаја\nПлан пословања\nПлан јавних набавки\nФинансијски извештај\nГодишњи извештај наплате путарине\nИПА програм прекограничне сарадње\nМеђународни пројекти\nМеђународне активности\nВажни линкови\nПубликације\nЗахвалнице\nМапа сајта\nЈавне консултације\nУслови и решења\nИздавање услова за планска и урбанистичко-техничка документа\nЈавно достављање\nПУТАРИНА\nВанредни превоз\nАнкета\n  \nМолимо да приликом коришћења информација, материјала и фотографија са интернет презентације \"Путеви Србије\" д.о.о., обавезно наведете извор (\"Путеви Србије\" д.о.о.).\n \n© 2005-2026. \"Путеви Србије\" д.о.о. All rights reserved.       \n\"ПУТЕВИ СРБИЈЕ\" д.о.о.\nБулевар краља Александра 282\nПоштански фах 17, 11050 Београд 22\nНасловна\nО нама\nОрганизација\nНабавке\nГалерија\nЈавни позиви и огласи\nПрес\nКонтакт"
+ },
+ "errors": [],
+ "title": "Насловна",
+ "mediaRequests": [
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/u-tunelu-nismo-sami.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/autoput-milos-veliki-lajkovac.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/infocentar/tweet-X-white.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/Putevi-Srbije-logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/koridor10-juzni-krak.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/putarine/t4a.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/infocentar/tweet-X-blue.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/korisnicki-centar-naslovna.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/infocentar/stanje-na-putevima.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/info-centar.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/tunel-bancarevo-e80.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/bezbedno-kroz-tunel.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/divider.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kuzmin-okt-2026/korpo-kuzmin-10.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kadinjaca-pripremni-radovi/Obilazak-Kadinjaca.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/vrsac-karavan/korpo-vrsac-08-10-26.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/poledica-prirucnik/korpo-poledica.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/kuzmin-okt-2026/video-korpo-kuzmin-10.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/10-OKTOBAR/Svilajnac-izgradnja-mosta/video-most-svilajnac.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/09-SEPTEMBAR/kg-obilazn/video-kg-sept.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/logo-rap.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/kvalitet/3-iso-45001.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/kvalitet/3-iso-9001.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/kvalitet/3-iso-50001.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/enp-blue.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/logo-t4a-plavi.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/cunj-plavi.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/video-klipovi-plavo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/naslovna/video-klipovi-crveno.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/korpo-2026/06-JUN/film-prosirenje/PROSIRENJE-NAPLATNIH-STANICA-3-DEO.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/headers/obilaznica-oko-beograda.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.putevi-srbije.rs/images/video-pozadina2.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ]
+}

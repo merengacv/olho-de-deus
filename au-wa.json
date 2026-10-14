@@ -1,0 +1,628 @@
+{
+ "id": "au-wa",
+ "url": "https://www.mainroads.wa.gov.au/",
+ "requests": [
+  {
+   "u": "https://www.mainroads.wa.gov.au/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/css/form.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/contentassets/[CHAVE]/wagov-logo.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/images/logos/mrwa-100-year-logo-white.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&display=swap",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/static/css/main.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/static/js/plugins/jquery-3.5.1.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/Util/Find/epi-util/find.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://use.fontawesome.com/releases/v5.0.13/css/all.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-DCR3EKC1Q9",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://d1igp3oop3iho5.cloudfront.net/v2/Ye_fvtcu5dzwfgp21Yedrw-au1/zaius-min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://analytics.google.com/g/collect?v=2&tid=G-DCR3EKC1Q9&gtm=45je6ac1v9138065961za208zd9138065961xf1&_p=1791944000646&_gaz=1&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&ecid=241002629&_eu=AAAAAGA&are=1&cid=479371432.1791944001&ec_mode=a&frm=0&pscdl=noapi&rcb=12&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-DCR3EKC1Q9&cid=479371432.1791944001&gtm=45je6ac1v9138065961za208zd9138065961xf1&rcb=12&aip=1&dma=0&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034",
+   "t": "ping",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://s.apac01.idio.episerver.net/ia.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://connect.facebook.net/en_US/fbevents.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://connect.facebook.net/signals/config/533589187622065?v=2.9.419&r=stable&domain=www.mainroads.wa.gov.au&hme=[CHAVE]&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/genesys-bootstrap/genesys.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://a.apac01.idio.episerver.net/ia.gif?r=&s=a2ad7160-6b5d-4691-b5ef-3aee14e521d7&x%5Bidio_visitor_id%5D%5B0%5D=9e851b4e-d275-4990-b802-a0da01701456&c=[CHAVE]&d=20&a=consume&u=https%3A%2F%2Fwww.mainroads.wa.gov.au%2F&l=1791944000832&z=0.5970665971738414",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/cxbus/cxbus.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/thirdpartyplugins.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/static/js/main.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://js-agent.newrelic.com/nr-spa-1.318.0.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/about-us/news-media/main-roads-annual-report-award-recipients.jpg?width=550&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/about-us/news-media/dont-risk-the-rails-campaign-graphic.jpeg?width=550&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/heebo/v28/NGS6v5_NC0k9P9H2TbE.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/about-us/about-us-what-we-manage-speed.jpg?width=1024&height=1024&version=0&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://use.fontawesome.com/releases/v5.0.13/webfonts/fa-solid-900.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://api-cdn.mypurecloud.com.au/webdeployments/v1/deployments/8a8ad8a8-ec56-4909-9c62-318ec9162c43/domains.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://bam.nr-data.net/1/NRJS-29f08b2561dc6ad578f?a=1431854846&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=769&ck=0&s=0&ref=https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html&ptid=6c0e11eed87500d8&af=err,spa,xhr,stn,ins&be=47&fe=615&dc=5&perf=%7B%22timing%22:%7B%22of%22:1791944001250,%22n%22:0,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22s%22:1,%22ce%22:1,%22rq%22:1,%22rp%22:47,%22",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "POST",
+   "post": "{\"ja\":{\"nrAgentProvider\":\"index-cannula-cli\",\"webdriverDetected\":true}}"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/images/watermark_alert--red.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://bam.nr-data.net/events/1/NRJS-29f08b2561dc6ad578f?a=1431854846&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=948&ck=0&s=0&ref=https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html&ptid=6c0e11eed87500d8",
+   "t": "xhr",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "POST",
+   "post": "bel.6;e,'load,ie,5;5,'pageUrl,'https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html;5,'net-etype,'4g;6,'net-dlink,10.;5,'nrAgentProvider,'index-cannula-cli;7,'webdriverDetected"
+  },
+  {
+   "u": "https://bam.nr-data.net/jserrors/1/NRJS-29f08b2561dc6ad578f?a=1431854846&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=949&ck=0&s=0&ref=https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html&ptid=6c0e11eed87500d8",
+   "t": "xhr",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "POST",
+   "post": "{\"xhr\":[{\"params\":{\"method\":\"POST\",\"hostname\":\"bam.nr-data.net\",\"port\":\"443\",\"protocol\":\"https\",\"host\":\"bam.nr-data.net:443\",\"pathname\":\"/1/NRJS-29f08b2561dc6ad578f\",\"status\":200},\"metrics\":{\"count\":1,\"txSize\":{\"t\":71},\"rxSize\":{\"t\":199},\"duration\":{\"t\":176},\"cbTime\":{\"t\":0},\"time\":{\"t\":769}}}]}"
+  },
+  {
+   "u": "https://bam.nr-data.net/events/1/NRJS-29f08b2561dc6ad578f?a=1431854846&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=950&ck=0&s=0&ref=https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html&ptid=6c0e11eed87500d8",
+   "t": "xhr",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "POST",
+   "post": "bel.7;1,2,,ie,,,'initialPageLoad,'https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html,'https://www.mainroads.wa.gov.au/,1,,,!!!!'2fc66d27-e453-425c-882f-a0733eae59d5,'1,!!;5,'nrAgentProvider,'index-cannula-cli;7,'webdriverDetected;b,!!!!1,,,,,,,1a,1,!5,,,gw,,2"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/about-us/our-organisation/100-years-at-main-roads/main-roads-100-year-logo-thumbnail.jpg?width=550&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://api.au1.odp.optimizely.com/v2/zaius.gif?resolution=1366x900&color_depth=24-bit&viewport=1366x900&source=direct&medium=none&java=0&language=pt-br&character_set=utf-8&domain_lookup_time=282&server_connect_time=47&server_response_time=1625&page_download_time=59&hostname=www.mainroads.wa.gov.au&page=%2F&title=Main%20Roads%20Western%20Australia&u=2003697377&vuid=393829a0-eec3-46d3-b445-3c4a1a6f",
+   "t": "image",
+   "s": 202,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://assets.mainroads.wa.gov.au/images/assets/Annual+Report+2026+Thumbnail/Zz02MzNhNTc3MGJjOWExMWYxOTFmMDBhZjQ5YjA5ZmFjOA==?width=550&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://assets.mainroads.wa.gov.au/images/assets/Website+banner+-+Bike+month/[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/images/watermark_announce--blue.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://api-cdn.mypurecloud.com.au/webdeployments/v1/deployments/8a8ad8a8-ec56-4909-9c62-318ec9162c43/config.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/journey/messenger-plugins/offersHelper.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/images/watermark_chat--green.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/genesys-bootstrap/hub.html",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/messenger-renderer.html",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/messenger.html",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/messengerrenderer.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/genesys-bootstrap/plugins/storagehub.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/main.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/cxbus/cxbus.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/cxbus/cxbus.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/cobrowse-next/sharer.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/defaultVendors.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/muiVendor.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/messengerrenderer.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/defaultVendors.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/muiVendor.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/broadcast.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/main.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/engage.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/messagingMiddleware.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/messagingMiddleware.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/i18n/pt-br.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://api-cdn.mypurecloud.com.au/webdeployments/v1/deployments/8a8ad8a8-ec56-4909-9c62-318ec9162c43/en-us.json",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/i18n/vendors/date-pt-br.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://apps.mypurecloud.com.au/messenger/i18n/vendors/date-pt-br.min.js",
+   "t": "script",
+   "s": 304,
+   "ct": "",
+   "m": "GET"
+  },
+  {
+   "u": "https://australiaeast-1.in.applicationinsights.azure.com//v2/track",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json; charset=utf-8",
+   "m": "POST",
+   "post": "[{\"time\":\"2026-10-14T02:13:20.727Z\",\"iKey\":\"cef79574-41cd-45c3-9c7e-d5f1096a768d\",\"name\":\"Microsoft.ApplicationInsights.[CHAVE].RemoteDependency\",\"tags\":{\"ai.user.id\":\"FwJnqqvCPCr2r94VQI96hA\",\"ai.session.id\":\"MviCM1Vbq54kjptoQnczOe\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/\",\"ai.operation.id\":\"[CHAVE]\",\"ai.internal.sdkVersion\":\"javascript:2.8.18\"},\"data\":{\"baseType\":\"RemoteDependencyData\",\"baseData\":{\"id\":\"|[CHAVE].a9a2fb3a206944f3.\",\"ver\":2,\"name\":\"POST https://analytics.google.com/g/co"
+  },
+  {
+   "u": "https://analytics.google.com/g/collect?v=2&tid=G-DCR3EKC1Q9&gtm=45je6ac1v9138065961za200zd9138065961xf1&_p=1791944000646&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&ecid=241002629&_eu=AEAAAGQ&ae=a&are=1&cid=479371432.1791944001&frm=0&pscdl=noapi&rcb=12&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.17.0&",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  }
+ ],
+ "bodies": [
+  {
+   "file": "au-wa-1.txt",
+   "u": "https://www.mainroads.wa.gov.au/",
+   "bytes": 98266,
+   "type": "document"
+  },
+  {
+   "file": "au-wa-2.txt",
+   "u": "https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html",
+   "bytes": 1169,
+   "type": "document"
+  },
+  {
+   "file": "au-wa-3.txt",
+   "u": "https://api-cdn.mypurecloud.com.au/webdeployments/v1/deployments/8a8ad8a8-ec56-4909-9c62-318ec9162c43/domains.json",
+   "bytes": 44,
+   "type": "xhr"
+  },
+  {
+   "file": "au-wa-4.txt",
+   "u": "https://bam.nr-data.net/1/NRJS-29f08b2561dc6ad578f?a=1431854846&sa=1&v=1.318.0&t=Unnamed%20Transaction&rst=769&ck=0&s=0&ref=https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html&ptid=6c0e11eed87500d8&af=err,spa,xhr,stn,ins&be=47&fe=615&dc=5&perf=%7B%22timing%22:%7B%22of%22:1791944001250,",
+   "bytes": 199,
+   "type": "xhr"
+  },
+  {
+   "file": "au-wa-5.txt",
+   "u": "https://api-cdn.mypurecloud.com.au/webdeployments/v1/deployments/8a8ad8a8-ec56-4909-9c62-318ec9162c43/config.json",
+   "bytes": 1305,
+   "type": "xhr"
+  },
+  {
+   "file": "au-wa-6.txt",
+   "u": "https://apps.mypurecloud.com.au/genesys-bootstrap/hub.html",
+   "bytes": 211,
+   "type": "document"
+  },
+  {
+   "file": "au-wa-7.txt",
+   "u": "https://apps.mypurecloud.com.au/messenger/messenger-renderer.html",
+   "bytes": 1290,
+   "type": "document"
+  },
+  {
+   "file": "au-wa-8.txt",
+   "u": "https://apps.mypurecloud.com.au/messenger/messenger.html",
+   "bytes": 1172,
+   "type": "document"
+  },
+  {
+   "file": "au-wa-9.txt",
+   "u": "https://apps.mypurecloud.com.au/messenger/i18n/pt-br.json",
+   "bytes": 15875,
+   "type": "xhr"
+  },
+  {
+   "file": "au-wa-10.txt",
+   "u": "https://api-cdn.mypurecloud.com.au/webdeployments/v1/deployments/8a8ad8a8-ec56-4909-9c62-318ec9162c43/en-us.json",
+   "bytes": 202,
+   "type": "xhr"
+  },
+  {
+   "file": "au-wa-11.txt",
+   "u": "https://australiaeast-1.in.applicationinsights.azure.com//v2/track",
+   "bytes": 62,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://www.mainroads.wa.gov.au/contentassets/[CHAVE]/wagov-logo.svg",
+   "https://www.mainroads.wa.gov.au/globalassets/images/logos/mrwa-100-year-logo-white.svg",
+   "https://assets.mainroads.wa.gov.au/images/assets/Website+banner+-+Bike+month/[CHAVE]",
+   "https://assets.mainroads.wa.gov.au/images/assets/Annual+Report+2026+Thumbnail/Zz02MzNhNTc3MGJjOWExMWYxOTFmMDBhZjQ5YjA5ZmFjOA==?width=550&hmac=[CHAVE]",
+   "https://www.mainroads.wa.gov.au/globalassets/about-us/news-media/dont-risk-the-rails-campaign-graphic.jpeg?width=550&hmac=[CHAVE]",
+   "https://www.mainroads.wa.gov.au/globalassets/about-us/our-organisation/100-years-at-main-roads/main-roads-100-year-logo-thumbnail.jpg?width=550&hmac=[CHAVE]",
+   "https://www.mainroads.wa.gov.au/globalassets/about-us/news-media/main-roads-annual-report-award-recipients.jpg?width=550&hmac=[CHAVE]",
+   "https://www.mainroads.wa.gov.au/globalassets/about-us/about-us-what-we-manage-speed.jpg?width=1024&hmac=[CHAVE]"
+  ],
+  "iframe": [
+   "https://apps.mypurecloud.com.au/messenger/thirdparty-plugins.html",
+   "https://apps.mypurecloud.com.au/genesys-bootstrap/hub.html",
+   "https://apps.mypurecloud.com.au/messenger/messenger.html",
+   "https://apps.mypurecloud.com.au/messenger/messenger-renderer.html"
+  ],
+  "video": [],
+  "links": [
+   {
+    "h": "https://www.mainroads.wa.gov.au/about-main-roads/news-media/our-2026-annual-report-is-live/",
+    "t": ""
+   },
+   {
+    "h": "https://www.mainroads.wa.gov.au/about-main-roads/news-media/our-2026-annual-report-is-live/",
+    "t": "Our 2026 Annual Report is live!"
+   },
+   {
+    "h": "https://www.mainroads.wa.gov.au/about-main-roads/news-media/dont-risk-the-rails-new-level-crossing-safety-campaign-launched/",
+    "t": ""
+   },
+   {
+    "h": "https://www.mainroads.wa.gov.au/about-main-roads/news-media/dont-risk-the-rails-new-level-crossing-safety-campaign-launched/",
+    "t": "Don't Risk the Rails: New level crossing safety campaign launched"
+   }
+  ],
+  "text": "Skip to main content\nAccessibility\nCareers\nMy Account\nSubscribe\nContact Us\nWA Gov Search\nSubmit\nTravel Information\nProjects\nHeavy Vehicles\nRoad Safety\nTechnical & Commercial\nCommunity, Art & Environment\nAbout Us\nContact Us\nTravel Map\nBike Month\n\nWith an extensive pedestrian and cycling path network, there are plenty of opportunities to hop on your bike this Bike Month and explore Perth and WA.\n\nLearn more\n\nRoad & Path closures\n\nOur Travel Map delivers live, up-to-date information on road closures, path closures roadworks and other issues or events that may impact your journey.\n\nTravel Map\nReport an issue\n\nHave you noticed a damaged sign or seen debris on the road? Report any issues you may notice on our freeways or paths while travelling around Western Australia.\n\nReport an issue\nContact us\n\nOur team is available 24/7 to help you with any questions you may have or information you may need regarding our road network. You can contact us on 138 138 and let us know how we can help you.\n\nContact us\nLatest News »\nOur 2026 Annual Report is live!\n\nWe’re excited to unveil our 2026 Annual Report, a comprehensive update outlining who we are, what we do, and the services and projects we’ve delivered across Western Australia this past year.\n\nDon't Risk the Rails: New level crossing safety campaign launched\n\nMain Roads are proud to support the Don't Risk the Rails campaign launch as part of National Rail Safety Week.\n\nHappy 100 Years at Main Roads\n\nThe 12th June 2026 officially marked 100 years since the first meeting of the Main Roads Board.\n\nAnnual Report goes beyond good to best\n\nOur Annual Report won three awards at the 41st W.S. Lonnie Awards.\n\nWhich roads do Main Roads manage?\nLearn more about what we're responsible for »\nWhat we manage\n\nIn addition to major roads and highways, we also manage other related areas such as traffic lights, towing, signage and more. Help be our eyes on the road, and let us know if you notice something that needs some attention.\n\nLearn more »\nAcknowledgement of Country\n\nThe Government of Western Australia acknowledges the traditional custodians throughout Western Australia and their continuing connection to the land, waters and community. We pay our respects to all members of the Aboriginal communities and their cultures; and to Elders both past and present.\n\nTell us what you think\n\nHelp us improve our website by sharing your thoughts and suggestions.\n\nProvide feedback\nTravel Information\nTravel Map\nDriving in Perth\nDriving in WA\nPaths & Cycling\nRoadworks & Road Closures\nSmart Freeways\nHeavy Vehicles\nAccess Requirements in WA\nAccreditation and Auditing\nAgricultural Vehicles\nCompliance and Enforcement\nIndustry Resources and Information\nListing your vehicles with HVS\nMOVES\nPermits, Orders and Schemes\nPilots\nTraffic Escorts\nHVS Updates\nHVS Travel Impacts\nRoad Safety\nRoad Safety Auditing and Crash Investigation\nLocal Government Support Programs\nInvestigation Tools and Road Safety Data\nRoad Safety Management at Main Roads\nRoad Safet"
+ },
+ "errors": [],
+ "title": "Main Roads Western Australia",
+ "mediaRequests": [
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/about-us/news-media/main-roads-annual-report-award-recipients.jpg?width=550&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/about-us/news-media/dont-risk-the-rails-campaign-graphic.jpeg?width=550&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/about-us/about-us-what-we-manage-speed.jpg?width=1024&height=1024&version=0&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/webp",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.mainroads.wa.gov.au/globalassets/about-us/our-organisation/100-years-at-main-roads/main-roads-100-year-logo-thumbnail.jpg?width=550&hmac=[CHAVE]",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ]
+}

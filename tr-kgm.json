@@ -1,0 +1,1303 @@
+{
+ "id": "tr-kgm",
+ "url": "https://www.kgm.gov.tr/",
+ "requests": [
+  {
+   "u": "https://www.kgm.gov.tr/",
+   "t": "document",
+   "s": 302,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Root/default.aspx",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/styles/Themable/corev15.css?rev=FgJyTN31sd6Xe62NO21uIw%3D%3DTAG0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/styles/Themable/search.css?rev=z0tcf4YfvPw0HGu2ShpJKw%3D%3DTAG0",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/bootstrap.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/css-plugin-collections.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/custom-bootstrap-margin-padding.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/main-style.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/sp_fixes.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/responsive.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/projectstyle.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/magnific-popup.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/jquery-ui-1.11.0/jquery-ui.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/jCrumb.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/IhaleIlan.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/fontawesome/css/brands.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/fontawesome/css/all.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/fontawesome/css/fontawesome.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/initstrings.js?rev=iSTwf9G8fi4YKhCImqSCgg%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/theming.js?rev=SuLUbbwTXcxFWOWLFUsOkw%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/blank.js?rev=aDCkTveg0%2BSs%2F77Ss94mWg%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/ScriptResource.axd?d=SjVBhewCWQA9JBaGASAoOvBaOApIQcKIP0GKhD1itzLmTFkSfKYu8iF5KsCF6oAAgZDnXqhHaxWETFfPADTSolN6zp7pzBTgoKyeA119Hka2AnTKqJmL88_N_sKPPd5yOwSP9Qro9nH3ATZ_BmT8EtStgAiYiCCcu4dOFhiHXh4Y1SP8uSdwiMcqDCDDk4Et0&t=ffffffffbec1863d",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/ScriptResource.axd?d=pMI3cFQDuILaVtBOqeb2Q0T_RtzkkTZxqYbWdjQQDhGGXBOyGpp48MTGfRoDYYwOWl78N86wW7OShrVvQZmXxYj8pyy3BU7mdFdzsa3vzw48n4e9jdyy4Zu-z9eqLeSibYC525MmrxThcjZzygwAOK5d6jwICBCSzrALJrbTHTje5OUbpTfqXKqo5m_U4cnv0&t=ffffffffbec1863d",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/images/titlegraphic.gif?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/favicon.png?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/images/spcommon.png?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/WebResource.axd?d=PbnKjHzi_i35Mfts4rRkC4mpldCPNOEwRr6Wy01Az8hHpc-9muOlNSZUcdE70FTHT7zEIuLUTI4XRcOB4OFNcM_59FpfpBaizzoJpo-1b2g1&t=639190941332169432",
+   "t": "script",
+   "s": 200,
+   "ct": "application/x-javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/images/spintl.png?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/js/bootstrap.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/js/jquery-2.1.4.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/js/jquery.magnific-popup.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/js/custom.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/init.js?rev=Plos7zwPHGtwWvEqSWyT5w%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,700,600,800",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/font-awesome.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/common-style.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/flaticon.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/styles/Themable/corev15.css?rev=FgJyTN31sd6Xe62NO21uIw%3D%3DTAG0",
+   "t": "xhr",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/styles/Themable/search.css?rev=z0tcf4YfvPw0HGu2ShpJKw%3D%3DTAG0",
+   "t": "xhr",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-P1MD63L4M4",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/WebResource.axd?d=17fufNlkho1FP6YGzTccgTgH2aXt0GdIzGNR7rpdYPKHck9wf9wxPeEXsQF8LhVtmWstRitbRDptGSHSZeIChHdG8w2UCpPeT8GK1MT3FmE1&t=639190941332169432",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/images/titlegraphic.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/js/consent.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://analytics.google.com/g/collect?v=2&tid=G-P1MD63L4M4&gtm=45je6ac1v9116102511za208zd9116102511xf1&_p=1791943967383&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=762326192&_eu=AAAAAGA&are=1&cid=1037402887.1791943968&ec_mode=a&frm=0&pscdl=noapi&rcb=11&sr=1366x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.1",
+   "t": "fetch",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-P1MD63L4M4&cid=1037402887.1791943968&gtm=45je6ac1v9116102511za208zd9116102511xf1&rcb=11&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034",
+   "t": "ping",
+   "s": 204,
+   "ct": "text/plain",
+   "m": "POST",
+   "post": ""
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/js/jquery-plugin-collection.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/images/spcommon.png?rev=23",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/images/bgximg.png?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/jquery-ui-1.11.0/jquery-ui.min.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/rss_icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/fontawesome/webfonts/fa-solid-900.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/903/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/kgm_yol_danisma_n.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/consent.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/ahmetgulsen1.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/fonts/fontawesome-webfont93e3.woff2?v=4.4.0",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/fontawesome/webfonts/fa-brands-400.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "application/font-woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/901/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/search_button.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/897/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/ogs_hgs_danisma_n.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/746/web.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/abdulkadiruraloglu2.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/902/Web.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/kgm_logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/ataturk.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/yol_danisma_n.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/udh_cagrimerkezi_n.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/904/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/uab_logo_yeni_0602.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/905/web.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/898/web.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/899/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/bxslider/images/bx_loader.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_api/SP.Web.GetContextWebThemeData?lcid=1055",
+   "t": "xhr",
+   "s": 200,
+   "ct": "application/json;odata=verbose;charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/apple-touch-icon-144x144.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/megaprojekapak.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/k%C3%B6pr%C3%BCprojekapak.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/tunelprojekapak.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/otoyolprojekapak.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/bolunmusyolprojekapak.JPG",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/79/Kgm%202026Tan%C4%B1t%C4%B1m%20Filmi.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/77/tan%C4%B1t%C4%B1m%20filmi%201.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/76/75%20ya%C5%9F%C4%B1nda.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/75/alp-k%C4%B1r%C5%9Fanla-1b%C3%B6l%C3%BCm.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/1/kgm-kres_resized.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/2/gorme-engelliler-erisim_resized.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/10/mgm-logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/9/ytmk.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/34/egm_trafikbaskanligi_logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/28/tulip.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/10B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/36/stajfooter.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/11B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/12B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/7B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/9B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/K%C3%B6m%C3%BCrhan%20K%C3%B6pr%C3%BCs%C3%BC_466x384.jpg_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/appstore_icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/android_icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/lightbox/prev.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/lightbox/next.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/lightbox/loading.gif",
+   "t": "image",
+   "s": 200,
+   "ct": "image/gif",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/lightbox/close.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Root/uyari.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/strings.js?rev=gOxTk1fZIr%2BYfWmYwo49bw%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/core.js?rev=sQisu2piu7UPnTMQgSHRLw%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/search.js?rev=UfuJoD3t0%2BRVP0jzSKcH4g%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/mquery.js?rev=Y3KC0EMqbJmS4e%2F6hxRjEg%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/sp.init.js?rev=FhG%2BW%2B2wWefBxnoUsiQjzg%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/sp.core.js?rev=AudoFXxn2m9rXjB5%2FruvVw%3D%3DTAG0",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "tr-kgm-1.txt",
+   "u": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Root/default.aspx",
+   "bytes": 143593,
+   "type": "document"
+  },
+  {
+   "file": "tr-kgm-2.txt",
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/styles/Themable/corev15.css?rev=FgJyTN31sd6Xe62NO21uIw%3D%3DTAG0",
+   "bytes": 340230,
+   "type": "xhr"
+  },
+  {
+   "file": "tr-kgm-3.txt",
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/styles/Themable/search.css?rev=z0tcf4YfvPw0HGu2ShpJKw%3D%3DTAG0",
+   "bytes": 52409,
+   "type": "xhr"
+  },
+  {
+   "file": "tr-kgm-4.txt",
+   "u": "https://www.kgm.gov.tr/_api/SP.Web.GetContextWebThemeData?lcid=1055",
+   "bytes": 50277,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Root/uyari.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/favicon.png?rev=43",
+   "https://www.kgm.gov.tr/_layouts/images/titlegraphic.gif?rev=43",
+   "https://www.kgm.gov.tr/_layouts/15/images/spcommon.png?rev=43",
+   "https://www.kgm.gov.tr/_layouts/15/1055/images/spintl.png?rev=43#ThemeKey=spintl",
+   "https://www.kgm.gov.tr/_layouts/15/images/spcommon.png?rev=43#ThemeKey=spcommon",
+   "https://www.kgm.gov.tr/_layouts/15/images/spcommon.png?rev=23#ThemeKey=spcommon",
+   "https://www.kgm.gov.tr/_layouts/15/images/spcommon.png?rev=23#ThemeKey=spcommon",
+   "https://www.kgm.gov.tr/_layouts/images/titlegraphic.gif",
+   "https://www.kgm.gov.tr/WebResource.axd?d=17fufNlkho1FP6YGzTccgTgH2aXt0GdIzGNR7rpdYPKHck9wf9wxPeEXsQF8LhVtmWstRitbRDptGSHSZeIChHdG8w2UCpPeT8GK1MT3FmE1&t=639190941332169432",
+   "https://www.kgm.gov.tr/SiteAssets/images/kgm_logo.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/apple-touch-icon-144x144.png",
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADiElEQVRoge3Z24tWVRjH8Y8mgZpQ2ozTmJ00i4gORAcyyiioC+ki6D+I6FKkE0QQBCFJXQRedFOEdIAg0oguO2iDlYVNWiqYWBESHrKG6mKa6eLZi73mnRln7/3O27wT7w/2zdprPev57mcdnrU2PfXUU119jWEMzLUj7eobjON78xymH/sFzCEMzq077akH063qwXSruh5mQY26A/gIV+Mg7sbx7H0/NuBmXIM1WIFlRT9/4ASOiKX9C3yMX9siaKiBwom0z9yEx8UmOlaU13nG8FVhY3U7jtWJSFIemVYdxm4BdkhEbKR4t6RouxbXYz2uy3z4B+/j5cJ+R3WPGC55ZMbxAi5vYG8Qj2KviZHaJYbprOsq8bXGRQrTZ/IwazeduQWv428l0NtmaWFZhCdbjOeOd2I1uxivYLSwO4JncW5Tg1fgS6Xzb+JGZRSGdSYySTeIuZL6H8KldY1sxKnMyE+Zg7nj34qoTAWzRkzc7wpbR8XHuKOGHwvEHPq9sH0KD1ZpeA6eUy6l28WXHy8cqgpzDH+ZOBzzZ5sYtlV1GT7J2m/FwukqL8aOrPIzRXlfQ5iZnm01QAjwrcqP/B6WtlY6H5+2dJTmQCdh1teEgYeU0f688B2xL+wrXvyIOzOnzwazcgqY/TVhtjcAUfh4urCxFxfAh5lzKU3InZ4O5sAswBxpCALX4ufCzm54J3NsVVaxXZiVFWBOtAGyHHtykKXKFeEo1s0STCo/G8xwQ4hVYk6muXlhenGeyG/SWn3/fwTzUgOI2/GLcpNc0VphsXKYjeIJZWZaBSYNp6owf6qfaD6sTJd2iox6Si3EFuVavRMX1YTprwhzTPV0ZjneKNqN4UUVN9QHcLJoeBqPTOF0nle1lif4PKk8KJLKuonmfSJFSovDxioAuS7BZ8qhsKMoqxKZtDkyMQppM62SaPbj1az/XSIzbqRF2IQzynG9BVd2EGaJmJ+/ZX0+rV5uNq0G8Zby65zBayLUM8Gk8iowT4njcernA3GcmHXdZXJONlNuVgcmPUM6dNRt1Qa8qzzFpecwnhdnhnvFBpsg1+E2bM7aHTD5cHbcHPwFWI3HxEmyyXXQqDh80eZJs8l10HTqE0PvVnFVtFakDsvE/jQiLuN+EJEYEsP0ZGZjpkvAeaWuv56tox5Mt6oH0636X8Hk+8y+OfalbQ0IiD1z7UhPPc03/Qs/HfI5uQ1jaAAAAABJRU5ErkJggg==",
+   "https://www.kgm.gov.tr/SiteAssets/images/uab_logo_yeni_0602.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/ataturk.png",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/905/web.jpg",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/904/web.jpeg",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/903/web.jpeg",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/901/web.jpeg",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/902/Web.jpg",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/899/web.jpeg",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/898/web.jpg",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/897/web.jpeg",
+   "https://www.kgm.gov.tr/Lists/Slider/Attachments/746/web.jpg",
+   "https://www.kgm.gov.tr/SiteAssets/images/abdulkadiruraloglu2.jpg",
+   "https://www.kgm.gov.tr/SiteAssets/images/ahmetgulsen1.jpg",
+   "https://www.kgm.gov.tr/SiteAssets/images/udh_cagrimerkezi_n.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/yol_danisma_n.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/ogs_hgs_danisma_n.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/kgm_yol_danisma_n.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/rss_icon.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/search_button.png",
+   "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/megaprojekapak.jpg",
+   "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/k%C3%B6pr%C3%BCprojekapak.png",
+   "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/tunelprojekapak.jpg",
+   "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/otoyolprojekapak.jpg",
+   "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/bolunmusyolprojekapak.JPG",
+   "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/79/Kgm%202026Tan%C4%B1t%C4%B1m%20Filmi.jpg",
+   "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/77/tan%C4%B1t%C4%B1m%20filmi%201.jpg",
+   "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/76/75%20ya%C5%9F%C4%B1nda.jpg",
+   "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/75/alp-k%C4%B1r%C5%9Fanla-1b%C3%B6l%C3%BCm.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/2/gorme-engelliler-erisim_resized.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/10/mgm-logo.png",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/9/ytmk.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/34/egm_trafikbaskanligi_logo.png",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/28/tulip.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/36/stajfooter.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/1/kgm-kres_resized.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/2/gorme-engelliler-erisim_resized.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/10/mgm-logo.png",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/9/ytmk.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/34/egm_trafikbaskanligi_logo.png",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/28/tulip.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/36/stajfooter.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/1/kgm-kres_resized.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/2/gorme-engelliler-erisim_resized.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/10/mgm-logo.png",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/9/ytmk.jpg",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/34/egm_trafikbaskanligi_logo.png",
+   "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/28/tulip.jpg",
+   "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/10B_jpg.jpg",
+   "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/11B_jpg.jpg",
+   "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/12B_jpg.jpg",
+   "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/7B_jpg.jpg",
+   "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/9B_jpg.jpg",
+   "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/K%C3%B6m%C3%BCrhan%20K%C3%B6pr%C3%BCs%C3%BC_466x384.jpg_jpg.jpg",
+   "https://www.kgm.gov.tr/SiteAssets/images/appstore_icon.png",
+   "https://www.kgm.gov.tr/SiteAssets/images/android_icon.png",
+   "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [
+   {
+    "h": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/ButceOdenekHarcamaGelir.aspx",
+    "t": "Bütçe Ödenekleri-Harcamaları ve Gelirleri"
+   }
+  ],
+  "text": "×\nDaha yüksek erişilebilirlik modunu aç\nAna içeriğe atla\nAnimasyonları Kapat\nANA SAYFA\nKURUMSAL\nOTOYOLLAR\nTRAFİK\nİSTATİSTİKLER\nİLETİŞİM\nSİİRT-PERVARİ YOLUNDA ÇALIŞMALAR HIZLA SÜRÜYOR\nKGM HEYETİ JAPONYA`DA TEMASLARINI SÜRDÜRDÜ\n1\n2\n3\n4\n5\n6\n7\n8\n9\nBAKANIMIZ\n                                                                                                                                                                                                                                                                  \nABDULKADİR URALOĞLU\n\nUlaştırma ve Altyapı Bakanı\n\nÖzgeçmiş\n\nGENEL MÜDÜRÜMÜZ\n                                                                                                                                                                                                                                                                \nAHMET GÜLŞEN\n\nKarayolları Genel Müdürü\n\nÖzgeçmiş\n\nHIZLI MENÜ\nAyın Konusu Anketi\nYol Durumu\nKamulaştırmada İşlem Adımları\nÖzel Yük Taşıma/Özel İzin Belgesi\nOtoyollar - HGS\nİhlalli Geçiş Sorgulama ve Ödeme\nÖnemli ve Global Projeler\nBetonarme Duvar Hesap Yazılımı\nSıkça Sorulan Sorular\nİhale İlanları\nDeney Başvurusu/Teknik Yayınlar\nAr-Ge ve Laboratuvar Hizmetleri\nYeni Standart Trafik İşaretleri\nİl Yatırımları\nAvrupa Birliği(AB) Çalışmaları\nBilgi Edinme\nKGM 2026 Birim Fiyat Listesi\nMeteoroloji Genel Müdürlüğü Karayolları Hava Tahmin Sistemi\nBasında KGM\nElektronik Belge Sorgulama\nKamu Hizmet Standartları\nTemel Mali Tablolar\nAnket Sonuçları\nYollar Türk Milli Komitesi\nGüvenli İnternet Kullanımı\nBTK Akademi \"Karayolu Mühendisliği Eğitimi\"\nHIZLI ERİŞİM\nEnglish \n\t\t\nKAPALI YOLLAR\nÖZEL YÜK TAŞIMA / ÖZEL İZİN BELGESİ\nDENEY BAŞVURUSU / TEKNİK YAYINLAR\nMESAFELER & HARİTA\nGÜZERGAH ANALİZİ\nŞİKAYET BİLDİRİMİ\nİHLALLİ GEÇİŞ\nİHALE İLANLARI\nKULLANICI ANKETİ\nGALERİ\nKAMU SPOTU-VİDEOLAR\nDUYURULAR\n13\nEkim\n\t\n2828 Sayılı Kanun Kapsamında 07/10/2026 Tarihli Yerleştirmelere İlişkin Duyuru!\n12\nEkim\n\t\nErzurum İlindeki İş Yerlerimize 1 Engelli İşçi Alınacaktır\n12\nEkim\n\t\nAğrı İlindeki İş Yerlerimize 1 Eski Hükümlü İşçi Alınacaktır\n9\nEkim\n\t\nKarayolları Münferit Bölge Müdürleri Toplantısı Sivas’ta Yapıldı\n8\nEkim\n\t\nKarayolları Genel Müdürlüğü 50 İşçi Alımına İlişkin Noter Kurası Duyurusu\n8\nEkim\n\t\nElazığ İli Eski Hükümlü İşçi Sözlü Sınava Katılmaya Hak Kazananlar\n6\nEkim\n\t\n2026 Yılı Ekim Ayı Rayiç Fiyatları\n6\nEkim\n\t\nSivas İli Engelli İşçi Sözlü Sınava Katılmaya Hak Kazananlar\n3\nEkim\n\t\nŞanlıurfa’da İki Önemli Karayolu Projesi Hizmete Açıldı\n24\nEylül\n\t\n3713 Sayılı Kanun Kapsamında 19.09.2026 Tarihli Yerleştirme Sonuçlarına İlişkin Duyuru\n23\nEylül\n\t\nSiirt-Pervari Yolunda Çalışmalar Hızla Sürüyor\n21\nEylül\n\t\nKarayolları Genel Müdürlüğüne Bağlı İşyerlerine 50 İşçi Personel Alımı Hk.\n18\nEylül\n\t\nKGM Heyeti Japonya'da Temaslarını Sürdürdü\n18\nEylül\n\t\nVan’da Karayolları Yerleşkesine Eğitim Yuvası\n17\nEylül\n\t\nKGM Heyeti Japonya’da Teknik İncelemelerde Bulundu\n16\nEylül\n\t\nKGM, Küresel Altyapı İş Birliği Konferansı GICC 2026’ya Katıldı\n13\nEylül\n\t\nSamsun Şehir Hastanesi ve"
+ },
+ "errors": [],
+ "title": "Karayolları Genel Müdürlüğü - Ana Sayfa",
+ "mediaRequests": [
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/favicon.png?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/images/spcommon.png?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/1055/images/spintl.png?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/images/spcommon.png?rev=23",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/_layouts/15/images/bgximg.png?rev=43",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/rss_icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/903/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/kgm_yol_danisma_n.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/ahmetgulsen1.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/901/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/search_button.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/897/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/ogs_hgs_danisma_n.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/746/web.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/abdulkadiruraloglu2.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/902/Web.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/kgm_logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/ataturk.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/yol_danisma_n.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/udh_cagrimerkezi_n.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/904/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/uab_logo_yeni_0602.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/905/web.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/898/web.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/Slider/Attachments/899/web.jpeg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/apple-touch-icon-144x144.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/megaprojekapak.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/k%C3%B6pr%C3%BCprojekapak.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/tunelprojekapak.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/otoyolprojekapak.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Projeler/bolunmusyolprojekapak.JPG",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/79/Kgm%202026Tan%C4%B1t%C4%B1m%20Filmi.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/77/tan%C4%B1t%C4%B1m%20filmi%201.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/76/75%20ya%C5%9F%C4%B1nda.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/KgmYouTube/Attachments/75/alp-k%C4%B1r%C5%9Fanla-1b%C3%B6l%C3%BCm.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/1/kgm-kres_resized.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/2/gorme-engelliler-erisim_resized.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/10/mgm-logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/9/ytmk.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/34/egm_trafikbaskanligi_logo.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/28/tulip.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/10B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/Lists/DisBaglantilar/Attachments/36/stajfooter.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/11B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/12B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/7B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/9B_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/KarayollarindanFotograflar/_t/K%C3%B6m%C3%BCrhan%20K%C3%B6pr%C3%BCs%C3%BC_466x384.jpg_jpg.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/appstore_icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/images/android_icon.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/lightbox/prev.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/lightbox/next.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteAssets/css/lightbox/close.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.kgm.gov.tr/SiteCollectionImages/KGMimages/Root/uyari.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  }
+ ]
+}

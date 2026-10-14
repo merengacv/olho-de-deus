@@ -1,0 +1,260 @@
+{
+ "id": "de-berlin",
+ "url": "https://viz.berlin.de/",
+ "requests": [
+  {
+   "u": "https://viz.berlin.de/",
+   "t": "document",
+   "s": 307,
+   "ct": "text/html",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/templates/styles/viz.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/bundle/fontawesome.all.min.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/bundle/berlin_organization.css",
+   "t": "stylesheet",
+   "s": 200,
+   "ct": "text/css; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/modules/PrivacyWire/js/PrivacyWire.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/images/logo_berlin_m_negativ.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/bundle/berlin_organization.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/templates/scripts/main.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/templates/img/logo_berlin_m_srgb.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/bundle/7798f5adec3dd6403fc7.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/bundle/b10ac18e9dbc648f3883.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/bundle/88b9d81d6be3703b7186.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/bundle/0d62483196704ba4c326.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/bundle/074333a7dd2f49feac2b.svg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/svg+xml",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1311/baustellen-_sperrungen_und_sonstige_stoerungen.640x480.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1892/a111_achtung_hoch_fav-bk_small.640x480.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1894/baustellen-_sperrungen_und_sonstige_stoerungen.640x480.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1309/a111_achtung_hoch_fav-bk_small.640x480.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/2076/2026_lis_akp2-1_new.640x480.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/2077/scan-fahrzeug.640x480.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1238/adobestock_221180840_frankpeters.1920x0.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz-matomo.de/matomo.js",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://www.berlin.de/i9f/r1/webfonts/fa-solid-900.woff2",
+   "t": "font",
+   "s": 200,
+   "ct": "font/woff2",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz-matomo.de/matomo.php?action_name=Verkehrsinformationszentrale&idsite=1&rec=1&r=999031&h=2&m=9&s=45&url=https%3A%2F%2Fviz.berlin.de%2F&urlref=https%3A%2F%2Fviz.berlin.de%2F&_id=&_idn=1&send_image=0&_refts=0&pv_id=YAfbr2&pf_net=0&pf_srv=405&pf_tfr=2&pf_dm1=1388&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22HeadlessChrome%22%2C%22versio",
+   "t": "ping",
+   "s": 204,
+   "ct": "",
+   "m": "POST",
+   "post": ""
+  }
+ ],
+ "bodies": [
+  {
+   "file": "de-berlin-1.txt",
+   "u": "https://viz.berlin.de/",
+   "bytes": 41255,
+   "type": "document"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://viz.berlin.de/site/templates/img/logo_berlin_m_srgb.svg",
+   "https://viz.berlin.de/site/assets/files/1238/adobestock_221180840_frankpeters.1920x0.jpg",
+   "https://viz.berlin.de/site/assets/files/1309/a111_achtung_hoch_fav-bk_small.640x480.png",
+   "https://viz.berlin.de/site/assets/files/1311/baustellen-_sperrungen_und_sonstige_stoerungen.640x480.jpg",
+   "https://viz.berlin.de/site/assets/files/1892/a111_achtung_hoch_fav-bk_small.640x480.png",
+   "https://viz.berlin.de/site/assets/files/1894/baustellen-_sperrungen_und_sonstige_stoerungen.640x480.jpg",
+   "https://viz.berlin.de/site/assets/files/2076/2026_lis_akp2-1_new.640x480.jpg",
+   "https://viz.berlin.de/site/assets/files/2077/scan-fahrzeug.640x480.jpg",
+   "https://www.berlin.de/i9f/r1/images/logo_berlin_m_negativ.svg"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [],
+  "text": "VIZ\nVerkehrsinformationszentrale\n\nÖffnen: Barrierefreiheit\nBarrierefrei\nÖffnen: Suche\nSuche\nÖffnen: Menü\nMenü\n\nBild: © Frank Peters – stock.adobe.com\n\nVerkehrs­informations­zentrale Berlin (VIZ)\n\nAktuelle Informationen für alle Verkehrsmittel\n\nVIZ Berlin\n\nVerkehrslage\n\nDie Verkehrslagekarte Berlin zeigt Ihnen wo der Verkehr störungsfrei fließt (grün) und wo Sie mit Verkehrsbehinderungen (gelb) oder Stau (rot) rechnen müssen. Mehr\nzu: Verkehrslage\n\nVIZ Berlin\n\nBaustellen, Sperrungen und sonstige Störungen\n\nStaus durch Unfälle, Baustellen, sonstige Störungen wie Demonstrationen und erhöhtes Verkehrsaufkommen sind in einer Stadt wie Berlin nicht zu vermeiden. Mehr\nzu: Baustellen, Sperrungen und sonstige Störungen\n\nAktuelle Meldungen\nVerkehrsvorschau für Mittwoch, 14.10.2026\nFernverkehr: Neuer Fahrplan 2027\nBaubeginn zur Verbesserung des Radfahrstreifens in der Friedenstraße\nRigaer Straße wird sicherer und fahrradfreundlicher\nVerlängerung des Radfahrstreifens auf der B96a Köpenicker Landstraße bis zur Trojanstraße\nBaumaßnahmen in der Dörpfeldstraße 19.10. bis 16.12.26\nGeschützte Radverkehrsanlage in der Oberlandstraße in Tempelhof\nNächtliche Wartungsarbeiten auf der A113\nVollsperrung der Galerie zum S-Bahnhof Jannowitzbrücke aufgrund von Tragwerksschäden\nBauwerksuntersuchung an der Rudolf-Wissell-Brücke\nMehr Sicherheit am Koppenplatz in Mitte\nPankow: Sperrung der Kreuzung Dietzgenstraße / Schönhauser Straße / Schillerstraße 12.-30.10.26\nBluesky Meldungen\n\nHier klicken um die Einbindung von Bluesky Widget zu aktivieren. Der Erhebung und Übermittlung der personenbezogenen Daten an den Anbieter wird zugestimmt. Es gelten die dortigen Datenschutzerklärungen.\n\nZur Datenschutzerklärung der Senatsverwaltung für Umwelt, Mobilität, Verbraucher- und Klimaschutz.\n\nErlaube Bluesky Widget\n\nVIZ Berlin\n\nLadeeinrichtungen im öffentlichen Raum Berlins\n\nStandorte, Eigenschaften, Belegungsgrad und Direktladepreise für alle Ladepunkte im öffentlichen Raum auf der E-Informationsplattform Berlin. Mehr\nzu: Ladeeinrichtungen im öffentlichen Raum Berlins\n\nVIZ Berlin\n\nParkraumkartierung\n\nIm Rahmen einer umfangreichen Datenerhebung wurden alle öffentlichen Straßenparkplätze Berlins erfasst. In dieser Karte können Sie sich einen Überblick verschaffen und mit Klick auf eine Parkfläche weitere Informationen abrufen. Mehr\nzu: Parkraumkartierung\n\nMultimodales Routing mit dem VBB\n\nHier klicken um die Einbindung von VBB Widget zu aktivieren. Der Erhebung und Übermittlung der personenbezogenen Daten an den Anbieter wird zugestimmt. Es gelten die dortigen Datenschutzerklärungen.\n\nZur Datenschutzerklärung der Senatsverwaltung für Umwelt, Mobilität, Verbraucher- und Klimaschutz.\n\nErlaube VBB Widget\nKontakt VIZ-Redaktion\n \nSenatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt\nAm Köllnischen Park 3, Berlin\nMobil: (+49) 151 72962006\nE-Mail\n\nMontag - Freitag\n06:00 bis 20:00 Uhr\n\nZum Seitenanfang\nVIZ Berlin\nImpressum\nDatenschutzerklärung\nBarrierefreiheitserklärung\nKontakt\nCookie Ein"
+ },
+ "errors": [],
+ "title": "Verkehrsinformationszentrale",
+ "mediaRequests": [
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1311/baustellen-_sperrungen_und_sonstige_stoerungen.640x480.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1892/a111_achtung_hoch_fav-bk_small.640x480.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1894/baustellen-_sperrungen_und_sonstige_stoerungen.640x480.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1309/a111_achtung_hoch_fav-bk_small.640x480.png",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/2076/2026_lis_akp2-1_new.640x480.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/2077/scan-fahrzeug.640x480.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  },
+  {
+   "u": "https://viz.berlin.de/site/assets/files/1238/adobestock_221180840_frankpeters.1920x0.jpg",
+   "t": "image",
+   "s": 200,
+   "ct": "image/jpeg",
+   "m": "GET"
+  }
+ ]
+}

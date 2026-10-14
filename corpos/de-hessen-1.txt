@@ -1,0 +1,2373 @@
+GET https://mobil.hessen.de/
+content-type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html lang="de" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.lazyload:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }</style>
+<meta name="description" content="Hessen Mobil ist der Mobilitätsdienstleister für Hessen. Wir planen, bauen und betreiben alle Bundes- und Landesstraßen in Hessen." />
+<meta name="keywords" content="Hessen Mobil, HM, Mobilitätsdienstleister für Hessen, Straßen- und Verkehrsmanagement" />
+<link rel="canonical" href="https://mobil.hessen.de/" />
+<link rel="shortlink" href="https://mobil.hessen.de/" />
+<link rel="icon" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_64/public/favicon/favicon.png?itok=UOVdsaxK" />
+<link rel="icon" sizes="16x16" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_16/public/favicon/favicon.png?itok=ci1ue9nC" />
+<link rel="icon" sizes="32x32" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_32/public/favicon/favicon.png?itok=p4eE0lIW" />
+<link rel="icon" sizes="96x96" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_96/public/favicon/favicon.png?itok=k3WzsRwf" />
+<link rel="icon" sizes="192x192" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_192/public/favicon/favicon.png?itok=pct3KOUB" />
+<link rel="apple-touch-icon" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_60/public/favicon/favicon.png?itok=pC8_MhGa" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_72/public/favicon/favicon.png?itok=v9VIwkb7" />
+<link rel="apple-touch-icon" sizes="76x76" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_76/public/favicon/favicon.png?itok=LdKUzJfo" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_114/public/favicon/favicon.png?itok=Mlh7vmCF" />
+<link rel="apple-touch-icon" sizes="120x120" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_120/public/favicon/favicon.png?itok=zp5erX8a" />
+<link rel="apple-touch-icon" sizes="144x144" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_144/public/favicon/favicon.png?itok=GlAkbp4p" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_152/public/favicon/favicon.png?itok=xfSxwwDg" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_180/public/favicon/favicon.png?itok=j7QcYcgk" />
+<link rel="apple-touch-icon-precomposed" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_57/public/favicon/favicon.png?itok=tBI-BRgW" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_72/public/favicon/favicon.png?itok=v9VIwkb7" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_76/public/favicon/favicon.png?itok=LdKUzJfo" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_114/public/favicon/favicon.png?itok=Mlh7vmCF" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_120/public/favicon/favicon.png?itok=zp5erX8a" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_144/public/favicon/favicon.png?itok=GlAkbp4p" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_152/public/favicon/favicon.png?itok=xfSxwwDg" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://mobil.hessen.de/sites/mobil.hessen.de/files/styles/icon_180/public/favicon/favicon.png?itok=j7QcYcgk" />
+<meta property="og:site_name" content="mobil.hessen.de" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "GovernmentOrganization",
+            "@id": "https://mobil.hessen.de#organization",
+            "description": "Hessen Mobil ist der Mobilitätsdienstleister für Hessen. Wir planen, bauen und betreiben alle Bundes- und Landesstraßen in Hessen.",
+            "name": "mobil.hessen.de",
+            "url": "https://mobil.hessen.de"
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://mobil.hessen.de#website",
+            "name": "mobil.hessen.de",
+            "url": "https://mobil.hessen.de",
+            "publisher": {
+                "@id": "https://mobil.hessen.de#organization"
+            }
+        },
+        {
+            "@type": "CollectionPage",
+            "@id": "https://mobil.hessen.de/startseite-mobilhessende#collectionpage",
+            "name": "Startseite mobil.hessen.de",
+            "isAccessibleForFree": "True"
+        },
+        {
+            "@type": "ItemList",
+            "@id": "https://mobil.hessen.de/startseite-mobilhessende#itemlist",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "NewsArticle",
+                        "@id": "https://mobil.hessen.de/presse/bad-camberg-bau-der-ortsumgehung-fuer-luftkurort-schreitet-voran#newsarticle",
+                        "name": "Bad Camberg: Bau der Ortsumgehung für Luftkurort schreitet voran",
+                        "url": "https://mobil.hessen.de/presse/bad-camberg-bau-der-ortsumgehung-fuer-luftkurort-schreitet-voran"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "NewsArticle",
+                        "@id": "https://mobil.hessen.de/presse/deutscher-strassen-und-verkehrskongress-2026-in-wiesbaden#newsarticle",
+                        "name": "Deutscher Straßen- und Verkehrskongress 2026 in Wiesbaden:",
+                        "url": "https://mobil.hessen.de/presse/deutscher-strassen-und-verkehrskongress-2026-in-wiesbaden"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@type": "NewsArticle",
+                        "@id": "https://mobil.hessen.de/presse/b-45-neubau-der-talbruecke-bei-bad-koenigzell-4#newsarticle",
+                        "name": "B 45: Neubau der Talbrücke bei Bad König/Zell",
+                        "url": "https://mobil.hessen.de/presse/b-45-neubau-der-talbruecke-bei-bad-koenigzell-4"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                        "@type": "NewsArticle",
+                        "@id": "https://mobil.hessen.de/presse/strahlende-sieger-nach-spektakulaerem-grossereignis#newsarticle",
+                        "name": "Strahlende Sieger nach spektakulärem Großereignis",
+                        "url": "https://mobil.hessen.de/presse/strahlende-sieger-nach-spektakulaerem-grossereignis"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "item": {
+                        "@type": "Article",
+                        "@id": "https://mobil.hessen.de/video/kaltasphalteinbau-im-duennschichtverfahren-im-einsatz-mit-guenther-boehnert#article",
+                        "name": "Kaltasphalteinbau im Dünnschichtverfahren: Im Einsatz mit Günther Böhnert",
+                        "url": "https://mobil.hessen.de/video/kaltasphalteinbau-im-duennschichtverfahren-im-einsatz-mit-guenther-boehnert"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "item": {
+                        "@type": "Article",
+                        "@id": "https://mobil.hessen.de/video/umwelt-im-fokus-beim-neubau-der-ortsumgehung-muenchhausen-wetter-lahntal#article",
+                        "name": "Umwelt im Fokus beim Neubau der Ortsumgehung Münchhausen-Wetter-Lahntal",
+                        "url": "https://mobil.hessen.de/video/umwelt-im-fokus-beim-neubau-der-ortsumgehung-muenchhausen-wetter-lahntal"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 7,
+                    "item": {
+                        "@type": "Article",
+                        "@id": "https://mobil.hessen.de/video/so-arbeitet-unsere-vmz-rheinmain-0#article",
+                        "name": "So arbeitet unsere VMZ RheinMain",
+                        "url": "https://mobil.hessen.de/video/so-arbeitet-unsere-vmz-rheinmain-0"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 8,
+                    "item": {
+                        "@type": "Article",
+                        "@id": "https://mobil.hessen.de/ueber-uns/organisation/zentrale#article",
+                        "name": "Zentrale",
+                        "url": "https://mobil.hessen.de/ueber-uns/organisation/zentrale"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 9,
+                    "item": {
+                        "@type": "Article",
+                        "@id": "https://mobil.hessen.de/ueber-uns/organisation/aussenstellen#article",
+                        "name": "Außenstellen",
+                        "url": "https://mobil.hessen.de/ueber-uns/organisation/aussenstellen"
+                    }
+                }
+            ],
+            "mainEntityOfPage": "https://mobil.hessen.de/startseite-mobilhessende#collectionpage"
+        }
+    ]
+}</script>
+<meta name="format-detection" content="telephone=no" />
+<link rel="alternate" hreflang="de" href="https://mobil.hessen.de/" />
+
+    <title>Startseite mobil.hessen.de | mobil.hessen.de</title>
+    <style type="text/css" data-include>
+      :root {
+        --hw-dark: #00225f;
+        --hw-standard: #06407e;
+        --hw-kick: #b3f2db;
+        --hw-focus: #B158ED;
+      }
+    </style>
+    <link rel="stylesheet" media="all" href="/sites/mobil.hessen.de/files/css/css_IaA2oFg6LuU266P1J7gY-UJjSFAfkxDPvNHbBSYVO-w.css?delta=0&amp;language=de&amp;theme=hw_radix_standard&amp;include=eJxVj9EOgyAMRX8I5ZOaClVZEElbpvz9wGxze7v39KRpcYqUI1Zii99oJpTgwCGrvaNxO5P1XDLGER94mvWAH_M9-YPjzHvSLjL6cIIoJo_srWiN1LkeYYG5JKdhT2Kl-bGCEgpxbhvEbJQKyHOB4LrR69DqcFXTHFwY8yqfA24ylpTLFIOs5I1UUdr6P_QCMmBgkQ" />
+<link rel="stylesheet" media="all" href="/modules/modified/ableplayer/css/ableplayer.override.min.css?tm8u36" data-include />
+<link rel="stylesheet" media="all" href="/sites/mobil.hessen.de/files/css/css_9bDv-34Th_f6BubPFhOpqcUZn-Wi7nRGEI7u86rSWy8.css?delta=2&amp;language=de&amp;theme=hw_radix_standard&amp;include=eJxVj9EOgyAMRX8I5ZOaClVZEElbpvz9wGxze7v39KRpcYqUI1Zii99oJpTgwCGrvaNxO5P1XDLGER94mvWAH_M9-YPjzHvSLjL6cIIoJo_srWiN1LkeYYG5JKdhT2Kl-bGCEgpxbhvEbJQKyHOB4LrR69DqcFXTHFwY8yqfA24ylpTLFIOs5I1UUdr6P_QCMmBgkQ" />
+<link rel="stylesheet" media="all" href="/sites/mobil.hessen.de/files/css/css_WfawbyGZ95nMwdqAmINtkvzeQsjxL2KDtOfs5SEYDTA.css?delta=3&amp;language=de&amp;theme=hw_radix_standard&amp;include=eJxVj9EOgyAMRX8I5ZOaClVZEElbpvz9wGxze7v39KRpcYqUI1Zii99oJpTgwCGrvaNxO5P1XDLGER94mvWAH_M9-YPjzHvSLjL6cIIoJo_srWiN1LkeYYG5JKdhT2Kl-bGCEgpxbhvEbJQKyHOB4LrR69DqcFXTHFwY8yqfA24ylpTLFIOs5I1UUdr6P_QCMmBgkQ" data-include />
+
+        <script src="/themes/custom/hw_radix_standard/src/js/modernizr/modernizr-custom.js?v=3.6.0"></script>
+
+
+  </head>
+  <body class="path-frontpage page-node-type-hw-dossier" tabindex="-1">
+            <div id="skip">
+      <nav class="position-fixed sprungmarken bg-gray sr-only" aria-label="Sprungmarken Navigation">
+        <ul>
+          <li class="position-absolute"><a class="sr-only sr-only-focusable d-none d-xl-inline" href="#header-banner">Direkt zum Kopf der Seite</a></li>
+          <li class="position-absolute"><a class="sr-only sr-only-focusable d-xl-none" href="#header-banner-mobile">Direkt zum Kopf der Seite</a></li>
+          <li class="position-absolute"><a class="sr-only sr-only-focusable" href="#main-content">Direkt zum Inhalt</a></li>
+          <li class="position-absolute"><a class="sr-only sr-only-focusable" href="#footer">Direkt zum Fuß der Seite</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="page-wrapper" class="page page-front clearfix" tabindex="-1">
+
+    <div class="container px-0">
+
+                      <header id="header-banner" class="d-none d-xl-block" role="banner" tabindex="-1">
+            
+      
+
+  <div class="block block--hw-radix-standard-branding header-brand position-fixed d-none d-xl-block">
+
+  
+    
+
+      
+
+    <span class="visually-hidden">&nbsp;</span>      <a class="navbar-brand nav-brand-small align-items-center d-inline-flex py-1" href="/" title="Zur Startseite">
+                                  <svg role="img" xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 60" focusable="false" aria-labelledby="logo-hessenweb-description">
+<title id="logo-hessenweb-description">Logo Hessen-Löwe - Hessisches Wappentier - Zur Startseite</title>
+  <path id="logo-hessenweb-standard" d="M1083 24.973a2.6 2.6 0 0 1-1.618 1.022c-.982.141-1.838.634-1.673 1.721 0 0-2.4-1.681-2.149-2.741s1.274-1.392 2.33-1.868a2.12 2.12 0 0 0 1.525-2.519s-.214 1.242-1.326 1.334-2.858-.712-3.806-.31a2.364 2.364 0 0 0-1.491 2.78 2.554 2.554 0 0 1-1.386-2.194c-.109-1.647.074-3.219 3.932-4.352s3.206-3.11 3.206-3.11-.148.916-2.04 1.1-2.441-.476-3.971.476l1.017-1.022s-2.326-.432-3.237.729c0 0 .765-2.343 4.261-2.889s5.28-2.47 5.6-4.426a9.791 9.791 0 0 0-.292-4.792 5.779 5.779 0 0 1-3.712 3.365 4.406 4.406 0 0 0 .105-1.973 11.662 11.662 0 0 0-1.671.729c-1.457.7-4.3 1.61-3.607 5.633 0 0-3.545 2.414-3.239 8.006s8.12 9.033 8.12 9.033 2.876 1.868 1.71 4.537-2.111 2.669-5.717 2.669a3.035 3.035 0 0 0-.642-3.922 26.861 26.861 0 0 0-4.667-3.171 26.16 26.16 0 0 1-4.661-3.219 1.17 1.17 0 0 0 .964-.9 3.2 3.2 0 0 1-.892-2.12 4.391 4.391 0 0 0 1.9.312s-.365-2.044.4-2.96a4.066 4.066 0 0 0 .988-2.049h1.929a3.644 3.644 0 0 1-.657-1.829c.071-.768.729-3.585.071-5.048 0 0 1.455-.035 1.824-.511a8.956 8.956 0 0 1-1.714-2.343c-.329-.951-.766-2.12-1.093-2.266 0 0 .947-.587 1.022-1.025 0 0-1.821-1.061-2.222-1.392s-.548-.326-.548-.326 1.056-.44 1-1a3.52 3.52 0 0 1-2.091-.569 2.235 2.235 0 0 0-.506-1.022 1.564 1.564 0 0 0-2.151-.222s-2.036-.365-2.619.366c0 0-4.262-.035-4.949 2.56 0 0-3.052.881-2.4 3.182a1.984 1.984 0 0 0 1.49 2.634 1.748 1.748 0 0 0 2.364-1.609s1.683.109 2.009 1.462c.022.088.041.176.057.261a10.033 10.033 0 0 0-4.241.507c-2.3.805-2.947.37-3.475-.159s-.526-1.369.311-2.255a1.539 1.539 0 0 0-2.153.916c-.731 1.9 1.1 2.921 2.587 2.925 1.632 0 2.473-.587 4.115-.951a7.222 7.222 0 0 1 2.877-.1 1.05 1.05 0 0 1-.982.939c-.769.074-1.684-.393-2.459.018a1.038 1.038 0 0 0 .262 1.767c.813.317 1.175-.578 1.736-.449a.823.823 0 0 1 .565 1c-.154.493-1.456 1.72-3.966-.144a3.782 3.782 0 0 0-1.421-.731v1.757a2.908 2.908 0 0 1-2.658-1.106s-1.32.347-1.33 1.417a11.816 11.816 0 0 1-4.678-2.8 26.678 26.678 0 0 1-2.872-3.584 1.649 1.649 0 0 1 .038-1.966 1.109 1.109 0 0 0-.477-1.617s-.379-1.334-1.539-1.432a2.032 2.032 0 0 0-1.773.736s1.07.581 1 1.01a1.247 1.247 0 0 1-.4.655.924.924 0 0 0-.964-.749s-1-1.381-2.258-.622a1.7 1.7 0 0 0-.692 1.462s1.2-.109 1.165.218a1.132 1.132 0 0 0-.14 1.388 2.205 2.205 0 0 0 1.014.77s-1.356-.365-1.82.44a1.845 1.845 0 0 0-1.574 2.255 3.683 3.683 0 0 0 .811 1.364s-.163-1.133.71-1.244a1.221 1.221 0 0 0 1.4.405 1.114 1.114 0 0 0 .544 1.572 1.155 1.155 0 0 1-1.131.585s.916 1.559 2 1.262a2.485 2.485 0 0 0 1.274-1.262l.274-.273s2.122 3.161 1.644 4.99c0 0 1.185.255 1.575-.511 0 0 .622 2.449-.327 3.728 0 0 1.565.55 2.074-.476 0 0 1.237 1.757-.363 2.049l.291.77a16.042 16.042 0 0 1-4.625 2.379c-2.185.546-2.16 1.045-3.024.144-.684-.715-1.057-.257-1.057-.257a1.962 1.962 0 0 0-2.694 1.279s1.2-.07 1.35.292c0 0-.136 1.043.619 1.135 0 0-1.354.12-1.164 1.374 0 0-1.941.881.253 3.048 0 0 .182-1.133.656-1.207 0 0 .447.358.765 0a1.367 1.367 0 0 0 .327 1.9s-.252 1.388 1.586 1.589a3.421 3.421 0 0 1 .31-1.48 1.163 1.163 0 0 0 .948-1.283.789.789 0 0 1 .182-.7s.254.877 1.055.659a5.121 5.121 0 0 0 .656 1.131s1.2-.467 1.164-1.5a1.249 1.249 0 0 0 .509-1.942 4.19 4.19 0 0 1 4.659.657.821.821 0 0 0 .774-.877s1.327.493 1.353 1.362c0 0 1.3-.472 1.229-1.568 0 0 2.258-.329 2.585.842a1.156 1.156 0 0 0 .728-1.17s2.147 3.182 8.664 3.767l-.6.6-.2.2s-4.894-.259-6.956.8-3.472 1.846-3.812 6.078a3.1 3.1 0 0 1-.735 2.3s.4.659.946.659a3.442 3.442 0 0 1-2.332 1.392c-1.677.294-1.964.1-2.235-.277a.917.917 0 0 0-1.3-.329 1.8 1.8 0 0 0-.766-.423 1.573 1.573 0 0 0-1.891 1.649s.947-.257 1.235 0l.147.657s-1.464-.731-2.033.405c0 0-2.953.731-.843 3.547 0 0 .33-1.17 1.075-1.075a1.083 1.083 0 0 0 1.148.27s-.819 1.189.256 1.829a2.074 2.074 0 0 0 1.126 1.61s.948-.44 1.074-1.078a1.759 1.759 0 0 0 1.547-2.067 3.232 3.232 0 0 0 .838-.257s.035.877 1.291 1.3a.866.866 0 0 1 0 1s2.019 0 1.8-1.5c0 0 .693-.292.509-1.392 0 0 2.476-.768 2.984-1.427l.474.846s1.365-.493 1.747-1.318l.184 1.533s3.2-2.174 3.022-4.5c-.161-2.083-.872-2.56-.836-3.256a2.629 2.629 0 0 1 3.132-2.047 6.4 6.4 0 0 0 1.016 4.5c1.456 1.825 2.511 2.669 2.511 3.326v1.061s1.311-.4 1.386-.694c0 0 .509 1.868 1.418 1.9a4.848 4.848 0 0 1 1.131-1.536 5.4 5.4 0 0 1-1.414 3.383c-1.227 1.054-2.011 1.409-3.25 1.151a1.371 1.371 0 0 0-1.639-.476 1.981 1.981 0 0 0-2.473.733 2.473 2.473 0 0 0 0 1.938s.691-1.022 1.128-.8c0 0 0 .731.62.805a1.338 1.338 0 0 0-.769 1.827s-1.893 1.17 0 2.889c0 0 .071-.8 1.329-1.334a1.693 1.693 0 0 0 1.618-.275l.8.807a3.021 3.021 0 0 1 .583 1.833s1.712-.7 1.673-1.9a1.507 1.507 0 0 0 .986-1.792s.948-.292.8-1.133a1.122 1.122 0 0 0 1.455.4s.982.44.964.969a1.635 1.635 0 0 0 1.036-2.137 1.219 1.219 0 0 0-.435-1.757s1.455-1.207 1.6-1.938c0 0 .573.8.938.8a1.606 1.606 0 0 0 .737-1.318 1.869 1.869 0 0 0 2.513-.7s-1.13-.511-.509-2.632c0 0 .947-2.46-.444-3.251-1.216-.7-1.819-.557-3.161-.041 0 0-2.7.923-2.548-2.925a3.677 3.677 0 0 1 2-2.819 6.789 6.789 0 0 0 5.825 0s1.821.816 2.842-.035c1.146-.958 1.6-2.047 2.272-2.357 0 0-1.364-.768-1.911-.384 0 0 1.056-1.025.692-3.841s.655-2.671 1.219-3.658a3.74 3.74 0 0 0 .005-2.59" transform="translate(-1031.253)" style="fill:#003593"/>
+</svg>
+
+                                      <p class="p-reboot align-self-center col"><span class="site-name-prefix">mobil.</span><br>hessen.de</p>
+      </a>
+  
+  
+  </div>
+
+  <div class="block block--hw-radix-standard-meta-menu">
+
+  
+    <div style="display:none"><?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="meta-navigation-icon-map" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1">
+  <defs>
+    <symbol id="icon-meta-navigationicon_barrierefreiheit" viewBox="0 0 33 32">
+      <path fill="currentColor" d="M30.298 10.902c-0.11-0.935-0.898-1.653-1.853-1.653-0.078 0-0.155 0.005-0.23 0.014l0.009-0.001-4.2 0.573-0.868 0.134-0.56 0.091c-0.441 0.090-0.954 0.15-1.479 0.165l-0.013 0c-0.276 0.018-0.598 0.028-0.923 0.028-0.892 0-1.766-0.076-2.617-0.223l0.091 0.013c-1.54-0.243-3.106-0.434-4.62-0.655l-0.946-0.126c-0.081-0.012-0.174-0.019-0.269-0.019-0.94 0-1.72 0.688-1.863 1.588l-0.001 0.011c-0.011 0.077-0.017 0.166-0.017 0.257 0 0.952 0.696 1.742 1.606 1.889l0.011 0.001 1.735 0.3 1.488 0.174 2.295 0.321v0.1c0.008 0.13 0.013 0.281 0.013 0.434s-0.005 0.304-0.014 0.455l0.001-0.021c-0.091 1.050-0.187 2.108-0.291 3.15v0.386c-0.024 0.499-0.102 0.97-0.228 1.42l0.011-0.045c-0.408 1.336-0.868 2.69-1.3 4l-0.11 0.347c-0.030 0.1-0.8 2.477-0.868 2.681-0.059 0.184-0.092 0.395-0.092 0.614 0 0.339 0.081 0.659 0.224 0.942l-0.005-0.012c0.223 0.365 0.592 0.621 1.024 0.689l0.008 0.001 0.217 0.039c0.138 0.036 0.303 0.063 0.471 0.077l0.011 0.001h0.056c0.803-0.001 1.487-0.508 1.751-1.219l0.004-0.013c0.182-0.516 0.36-1.059 0.529-1.579l0.716-2.169 0.2-0.612c0.226-0.7 0.46-1.423 0.681-2.143l1.327 4.013c0.226 0.72 0.482 1.5 0.8 2.438 0.157 0.473 0.493 0.85 0.926 1.058l0.011 0.005c0.238 0.122 0.52 0.193 0.818 0.193 0.206 0 0.404-0.034 0.588-0.097l-0.013 0.004c0.779-0.244 1.335-0.959 1.335-1.804 0-0.195-0.030-0.383-0.084-0.56l0.004 0.013c-0.078-0.221-0.169-0.477-0.243-0.742l-1.462-4.477c-0.31-0.765-0.536-1.654-0.638-2.58l-0.004-0.045c-0.065-0.829-0.121-1.432-0.169-1.844-0.035-0.295-0.061-0.56-0.082-0.846-0.022-0.2-0.039-0.434-0.065-0.664-0.039-0.573-0.039-1.15-0.039-1.583l5.54-0.785c0.963-0.119 1.701-0.932 1.701-1.917 0-0.067-0.003-0.133-0.010-0.199l0.001 0.008zM22.871 12.802c-0.438 0.012-0.789 0.37-0.789 0.811 0 0.029 0.002 0.058 0.005 0.087l-0-0.004c0 0.239 0 0.495 0.026 0.764s0.035 0.625 0.035 0.963l0.143 1.527 0.065 0.542c0.059 0.374 0.098 0.813 0.108 1.259l0 0.012c0.124 1.076 0.373 2.056 0.735 2.98l-0.028-0.080 1.466 4.416c0.035 0.121 0.074 0.243 0.113 0.364s0.082 0.243 0.117 0.364v0.030c0.021 0.073 0.034 0.157 0.034 0.244 0 0.162-0.043 0.314-0.118 0.446l0.002-0.004c-0.186 0.296-0.511 0.489-0.881 0.489-0.12 0-0.235-0.020-0.342-0.058l0.007 0.002c-0.204-0.11-0.358-0.289-0.432-0.506l-0.002-0.006c-0.165-0.486-0.325-0.98-0.482-1.458-0.108-0.33-0.213-0.655-0.321-0.976l-1.5-4.573c-0.213-0.59-0.642-0.638-0.868-0.577-0.282 0.088-0.501 0.3-0.598 0.571l-0.002 0.006c-0.187 0.551-0.364 1.1-0.547 1.653s-0.356 1.106-0.542 1.653l-0.596 1.866c-0.1 0.308-0.2 0.6-0.3 0.868s-0.234 0.664-0.334 1c-0.147 0.577-0.829 0.664-1.241 0.577-0.24-0.029-0.441-0.171-0.553-0.369l-0.002-0.004c-0.028-0.098-0.044-0.21-0.044-0.327 0-0.221 0.058-0.428 0.16-0.607l-0.003 0.006 0.243-0.6 0.586-1.835 0.174-0.521c0.408-1.249 0.833-2.547 1.232-3.835 0.131-0.459 0.222-0.994 0.255-1.545l0.001-0.021v-0.373c0.117-1.076 0.217-2.169 0.295-3.189v-1.217c0-0.007 0-0.015 0-0.023 0-0.395-0.305-0.719-0.692-0.749l-0.003-0-2.438-0.33-1.575-0.221-1.735-0.256c-0.46-0.072-0.807-0.465-0.807-0.939 0-0.040 0.003-0.080 0.007-0.12l-0 0.005c0.082-0.435 0.458-0.761 0.911-0.764h0c0.021-0.002 0.046-0.003 0.072-0.003s0.050 0.001 0.075 0.003l-0.003-0 1.4 0.187c1.367 0.187 2.776 0.382 4.147 0.655 0.785 0.139 1.69 0.218 2.613 0.218 0.373 0 0.744-0.013 1.111-0.039l-0.049 0.003c0.707-0.048 1.414-0.152 2.139-0.269l0.868-0.121 1.735-0.3 2.382-0.334c0.016-0.001 0.035-0.002 0.054-0.002 0.376 0 0.699 0.225 0.844 0.547l0.002 0.006c0.052 0.109 0.082 0.237 0.082 0.373 0 0.266-0.117 0.505-0.302 0.668l-0.001 0.001c-0.142 0.107-0.314 0.181-0.502 0.207l-0.006 0.001z"></path>
+      <path fill="currentColor" d="M6.070 14.464h6.486c1.105 0 2 0.895 2 2v6.486c0 1.105-0.895 2-2 2h-6.486c-1.105 0-2-0.895-2-2v-6.486c0-1.105 0.895-2 2-2z"></path>
+      <path fill="#fff" d="M10.916 23.228h-2.6c-0.001 0-0.003 0-0.005 0-0.114 0-0.219-0.045-0.295-0.118l0 0c-0.071-0.079-0.114-0.185-0.114-0.3s0.043-0.221 0.114-0.3l-0 0c0.068-0.045 0.152-0.072 0.243-0.072 0.020 0 0.040 0.001 0.060 0.004l-0.002-0h0.87v-3.223h-0.855c-0.118-0.001-0.224-0.050-0.3-0.128l-0-0c-0.071-0.079-0.115-0.184-0.115-0.3s0.044-0.221 0.115-0.3l-0 0c0.076-0.078 0.182-0.127 0.3-0.128h1.295c0.118 0.001 0.224 0.050 0.3 0.128l0 0c0.071 0.071 0.115 0.169 0.115 0.277 0 0.008-0 0.016-0.001 0.024l0-0.001v3.653h0.859c0.233 0.008 0.421 0.195 0.428 0.427l0 0.001c0 0.002 0 0.004 0 0.007 0 0.116-0.049 0.22-0.128 0.293l-0 0c-0.061 0.039-0.136 0.061-0.216 0.061-0.024 0-0.047-0.002-0.069-0.006l0.002 0zM9.18 16.167h0.449c0.004-0 0.010-0 0.015-0 0.111 0 0.211 0.044 0.285 0.114l-0-0c0.071 0.076 0.114 0.178 0.114 0.291 0 0.003-0 0.006-0 0.010v-0 0.356c0 0.004 0 0.010 0 0.015 0 0.228-0.185 0.413-0.413 0.413-0.002 0-0.003 0-0.005-0h-0.449c-0 0-0.001 0-0.001 0-0.122 0-0.232-0.049-0.313-0.128l0 0c-0.072-0.075-0.117-0.177-0.118-0.289v-0.367c0.001-0.118 0.050-0.224 0.128-0.3l0-0c0.072-0.070 0.171-0.114 0.279-0.114 0.009 0 0.017 0 0.026 0.001l-0.001-0z"></path>
+      <path fill="currentColor" d="M20.143 8.789c-0 0-0.001 0-0.001 0-1.653 0-2.997-1.32-3.036-2.963l-0-0.004c0-0.003-0-0.008-0-0.012 0-0.838 0.331-1.599 0.869-2.158l-0.001 0.001c0.094-0.087 0.22-0.14 0.358-0.14s0.264 0.053 0.358 0.14l-0-0c0.087 0.093 0.14 0.218 0.14 0.356s-0.053 0.263-0.14 0.356l0-0c-0.354 0.363-0.572 0.86-0.572 1.408 0 1.114 0.903 2.017 2.017 2.017s2.017-0.903 2.017-2.017c0-0.567-0.234-1.080-0.611-1.446l-0-0c-0.35-0.349-0.833-0.564-1.366-0.564-0.012 0-0.024 0-0.036 0l0.002-0c-0.013 0.001-0.029 0.002-0.044 0.002-0.271 0-0.49-0.219-0.49-0.49s0.219-0.49 0.49-0.49c0.016 0 0.031 0.001 0.046 0.002l-0.002-0c1.657 0 3 1.343 3 3s-1.343 3-3 3v0z"></path>
+    </symbol>
+    <symbol id="icon-meta-navigationicon_gebaerdensprache" viewBox="0 0 32 32">
+      <path fill="currentColor" d="M18.36 28.968c-0.001 0-0.002 0-0.002 0-0.12 0-0.236-0.014-0.348-0.040l0.010 0.002-5.611-1.342c-0.22-0.056-0.38-0.252-0.38-0.486 0-0.277 0.224-0.501 0.501-0.501 0.043 0 0.085 0.005 0.124 0.016l-0.003-0.001 5.585 1.354c0.033 0.008 0.071 0.012 0.11 0.012 0.277 0 0.502-0.225 0.502-0.502 0-0.238-0.166-0.438-0.389-0.489l-0.003-0.001-3.272-0.885c-0.216-0.059-0.372-0.253-0.372-0.483 0-0.041 0.005-0.082 0.015-0.12l-0.001 0.003c0.058-0.222 0.257-0.383 0.493-0.383 0.032 0 0.064 0.003 0.095 0.009l-0.003-0 4.736 0.9c0.019 0.002 0.041 0.003 0.063 0.003 0.318 0 0.576-0.258 0.576-0.576 0-0.283-0.204-0.519-0.474-0.567l-0.003-0.001-4.589-0.987c-0.255-0.025-0.452-0.239-0.452-0.498 0-0.276 0.224-0.5 0.5-0.5 0.036 0 0.072 0.004 0.106 0.011l-0.003-0.001 5.442 0.488c0.038 0.008 0.082 0.013 0.127 0.013 0.195 0 0.368-0.088 0.484-0.227l0.001-0.001c0.088-0.106 0.142-0.244 0.142-0.395 0-0.088-0.018-0.172-0.052-0.248l0.002 0.004c-0.092-0.21-0.29-0.358-0.525-0.377l-0.002-0-5.54-0.4c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5v0l5.015-0.229c0.005 0 0.010 0 0.015 0 0.137 0 0.262-0.054 0.354-0.142l-0 0c0.095-0.091 0.153-0.219 0.153-0.36 0-0.271-0.215-0.491-0.483-0.5l-0.001-0-8.279-0.128c-0.192-0.002-0.358-0.112-0.441-0.272l-0.001-0.003c-0.033-0.065-0.053-0.142-0.053-0.224 0-0.11 0.036-0.212 0.096-0.295l-0.001 0.001 2.3-3.2c0.1-0.128 0.377-0.5 0.109-0.784-0.093-0.102-0.227-0.166-0.376-0.166-0.13 0-0.248 0.049-0.338 0.129l0.001-0-5.354 4.787c-0.758 0.729-1.229 1.752-1.229 2.884 0 1.656 1.006 3.077 2.441 3.685l0.026 0.010c0.203 0.067 0.347 0.255 0.347 0.476 0 0.276-0.224 0.5-0.5 0.5-0.082 0-0.159-0.020-0.227-0.054l0.003 0.001c-1.819-0.775-3.071-2.548-3.071-4.613 0-1.418 0.59-2.697 1.538-3.607l0.002-0.002 5.355-4.794c0.269-0.259 0.636-0.418 1.040-0.418 0.829 0 1.502 0.672 1.502 1.502 0 0.426-0.177 0.81-0.462 1.084l-0.001 0-1.725 2.4 7.306 0.11c0.826 0.003 1.494 0.674 1.494 1.5 0 0.489-0.234 0.923-0.596 1.197l-0.004 0.003c0.667 0.21 1.142 0.823 1.142 1.547 0 0.894-0.725 1.619-1.619 1.619-0.006 0-0.012-0-0.018-0h0.001c0.246 0.276 0.396 0.641 0.396 1.041 0 0.278-0.073 0.54-0.2 0.767l0.004-0.008c-0.276 0.492-0.795 0.82-1.39 0.82-0.088 0-0.175-0.007-0.259-0.021l0.009 0.001-0.2-0.038c0.055 0.149 0.087 0.321 0.087 0.5 0 0.82-0.664 1.484-1.484 1.484-0.004 0-0.008 0-0.011-0h0.001z"></path>
+      <path fill="currentColor" d="M19.128 16.191c-0.002 0-0.004 0-0.006 0-0.276 0-0.5-0.224-0.5-0.5 0-0.175 0.090-0.328 0.225-0.418l0.002-0.001 3.429-2.251c0.126-0.091 0.206-0.236 0.206-0.401 0-0.108-0.035-0.209-0.094-0.29l0.001 0.001c-0.093-0.129-0.244-0.213-0.413-0.213-0.107 0-0.206 0.033-0.288 0.090l0.002-0.001-2.855 1.827c-0.081 0.055-0.181 0.088-0.289 0.088-0.176 0-0.331-0.088-0.424-0.222l-0.001-0.002c-0.056-0.080-0.089-0.18-0.089-0.287 0-0.175 0.088-0.329 0.223-0.421l0.002-0.001 3.851-2.892c0.078-0.097 0.126-0.222 0.126-0.357 0-0.142-0.052-0.272-0.137-0.371l0.001 0.001c-0.107-0.125-0.265-0.203-0.441-0.203-0.103 0-0.199 0.027-0.283 0.074l0.003-0.002-3.814 2.735c-0.082 0.058-0.183 0.092-0.293 0.092-0.165 0-0.312-0.078-0.406-0.2l-0.001-0.001c-0.071-0.086-0.113-0.196-0.113-0.317 0-0.146 0.062-0.277 0.162-0.369l0-0 4.006-3.687c0.14-0.115 0.228-0.287 0.228-0.481 0-0.154-0.056-0.295-0.149-0.403l0.001 0.001c-0.116-0.133-0.286-0.216-0.475-0.216-0.155 0-0.297 0.056-0.406 0.149l0.001-0.001-4 3.819c-0.094 0.102-0.228 0.166-0.378 0.166-0.131 0-0.251-0.049-0.342-0.131l0 0c-0.104-0.092-0.169-0.226-0.169-0.375 0-0.131 0.051-0.251 0.134-0.34l-0 0 3.183-3.852c0.089-0.093 0.143-0.218 0.143-0.357 0-0.006-0-0.013-0-0.019l0 0.001c-0.004-0.139-0.066-0.262-0.162-0.349l-0-0c-0.090-0.079-0.208-0.127-0.338-0.127-0.149 0-0.283 0.063-0.376 0.165l-0 0-5.622 6.024c-0.092 0.101-0.224 0.165-0.371 0.165-0.241 0-0.442-0.171-0.489-0.398l-0.001-0.003-0.846-3.837c-0.030-0.15-0.147-0.608-0.514-0.608v0c-0.002-0-0.004-0-0.006-0-0.276 0-0.5 0.224-0.5 0.5 0 0 0 0 0 0v0l-0.019 7.15c-0.017 0.271-0.234 0.486-0.505 0.5l-0.001 0c-0.001 0-0.001 0-0.002 0-0.138 0-0.264-0.056-0.354-0.147v0c-0.090-0.090-0.146-0.215-0.146-0.353 0-0.001 0-0.001 0-0.002v0l0.020-7.125c0.003-0.829 0.676-1.5 1.505-1.5 0.002 0 0.004 0 0.005 0h-0c0.789 0.019 1.431 0.623 1.51 1.393l0.001 0.007 0.634 2.892 4.977-5.342c0.278-0.301 0.675-0.489 1.116-0.489 0.391 0 0.747 0.148 1.016 0.39l-0.001-0.001c0.289 0.258 0.477 0.625 0.5 1.035l0 0.004c0.003 0.032 0.004 0.069 0.004 0.107s-0.002 0.075-0.005 0.112l0-0.005c0.235-0.137 0.518-0.218 0.82-0.218 0.042 0 0.084 0.002 0.126 0.005l-0.006-0c0.844 0.075 1.502 0.779 1.502 1.636 0 0.413-0.152 0.79-0.403 1.078l0.002-0.002c0.682 0.005 1.261 0.44 1.481 1.047l0.003 0.011c0.056 0.155 0.089 0.334 0.089 0.52 0 0.494-0.229 0.935-0.586 1.223l-0.003 0.002-0.162 0.124c0.267 0.116 0.488 0.295 0.65 0.52l0.003 0.005c0.17 0.239 0.272 0.538 0.272 0.86 0 0.51-0.255 0.96-0.645 1.23l-3.45 2.257c-0.077 0.051-0.172 0.082-0.274 0.082-0.003 0-0.006-0-0.009-0h0z"></path>
+    </symbol>
+    <symbol id="icon-meta-navigationicon_leichte_sprache" viewBox="0 0 32 32">
+      <path fill="currentColor" d="M15.58 29c-0.14-0-0.27-0.045-0.375-0.121l0.002 0.001-9.955-7.1c-0.153-0.106-0.252-0.281-0.252-0.479 0-0.003 0-0.006 0-0.010v0-13.028c0.004-0.235 0.142-0.436 0.341-0.531l0.004-0.002c0.081-0.040 0.177-0.064 0.278-0.064 0.141 0 0.271 0.046 0.376 0.123l9.581 6.842 9.583-6.843c0.104-0.074 0.234-0.118 0.373-0.118 0.101 0 0.197 0.023 0.283 0.064l-0.004-0.002c0.203 0.095 0.341 0.296 0.345 0.53v13.027c-0.019 0.332-0.294 0.595-0.629 0.595s-0.61-0.262-0.629-0.593l-0-0.002v-11.84l-8.949 6.395c-0.104 0.075-0.233 0.12-0.373 0.12s-0.27-0.045-0.375-0.121l0.002 0.001-8.949-6.395v11.539l9.322 6.657 6.6-4.691c0.095-0.058 0.21-0.093 0.333-0.093 0.202 0 0.382 0.093 0.5 0.238l0.001 0.001c0.076 0.097 0.122 0.22 0.122 0.355 0 0.179-0.082 0.339-0.21 0.445l-0.001 0.001-6.968 4.975c-0.104 0.077-0.235 0.123-0.377 0.123-0 0-0.001 0-0.001 0h0z"></path>
+      <path fill="currentColor" d="M20.558 8.852c-0.005 0-0.012 0-0.018 0-0.329 0-0.596-0.261-0.607-0.587l-0-0.001c-0.212-2.236-2.081-3.972-4.355-3.972s-4.143 1.736-4.354 3.955l-0.001 0.018c0.001 0.014 0.002 0.030 0.002 0.047 0 0.216-0.118 0.404-0.293 0.503l-0.003 0.002c-0.094 0.055-0.207 0.087-0.328 0.087s-0.233-0.032-0.331-0.089l0.003 0.002c-0.178-0.101-0.296-0.289-0.296-0.504 0-0.016 0.001-0.033 0.002-0.049l-0 0.002c0.153-2.97 2.599-5.32 5.593-5.32s5.44 2.35 5.592 5.306l0.001 0.014c-0.007 0.326-0.273 0.588-0.6 0.588-0.003 0-0.005 0-0.008-0h0z"></path>
+      <path fill="currentColor" d="M13.092 23.066c-0 0-0.001 0-0.001 0-0.139 0-0.269-0.044-0.374-0.119l0.002 0.001-4.974-3.51c-0.15-0.102-0.248-0.273-0.248-0.466 0-0.134 0.047-0.257 0.125-0.353l-0.001 0.001c0.12-0.143 0.298-0.233 0.497-0.233 0.139 0 0.268 0.044 0.374 0.119l-0.002-0.001 4.978 3.509c0.151 0.103 0.249 0.274 0.249 0.468 0 0.134-0.046 0.256-0.124 0.353l0.001-0.001c-0.116 0.143-0.292 0.233-0.489 0.233-0.005 0-0.009-0-0.014-0h0.001z"></path>
+      <path fill="currentColor" d="M13.092 19.516c-0 0-0.001 0-0.001 0-0.139 0-0.269-0.044-0.374-0.119l0.002 0.001-4.974-3.51c-0.15-0.102-0.248-0.273-0.248-0.466 0-0.134 0.047-0.257 0.125-0.353l-0.001 0.001c0.12-0.143 0.298-0.233 0.497-0.233 0.139 0 0.268 0.044 0.374 0.119l-0.002-0.001 4.978 3.509c0.151 0.103 0.249 0.274 0.249 0.468 0 0.134-0.046 0.256-0.124 0.353l0.001-0.001c-0.116 0.143-0.292 0.233-0.489 0.233-0.005 0-0.009-0-0.014-0h0.001z"></path>
+      <path fill="currentColor" d="M18.069 19.516c-0.004 0-0.008 0-0.012 0-0.196 0-0.372-0.090-0.487-0.231l-0.001-0.001c-0.077-0.096-0.123-0.218-0.123-0.352 0-0.194 0.098-0.365 0.247-0.467l0.002-0.001 4.978-3.509c0.104-0.073 0.232-0.117 0.372-0.117 0.2 0 0.378 0.090 0.497 0.232l0.001 0.001c0.077 0.095 0.124 0.218 0.124 0.352 0 0.193-0.097 0.364-0.246 0.465l-0.002 0.001-4.976 3.509c-0.104 0.074-0.233 0.118-0.372 0.118-0 0-0.001 0-0.001 0h0z"></path>
+    </symbol>
+    <symbol id="icon-meta-navigationiconicon_social_media" viewBox="0 0 32 32">
+      <path fill="currentColor" d="M19.627 16.176c0.001 0.033 0.002 0.071 0.002 0.11 0 1.816-1.454 3.293-3.261 3.329l-0.003 0c-0.056 0.004-0.122 0.006-0.189 0.006-0.881 0-1.68-0.354-2.261-0.927l0 0c-0.127-0.092-0.208-0.239-0.208-0.406s0.081-0.314 0.207-0.405l0.001-0.001c0.092-0.127 0.239-0.208 0.406-0.208s0.314 0.081 0.405 0.207l0.001 0.001c0.407 0.379 0.955 0.611 1.557 0.611s1.15-0.233 1.558-0.613l-0.001 0.001c0.379-0.407 0.611-0.955 0.611-1.557s-0.233-1.15-0.613-1.558l0.001 0.001c-0.408-0.376-0.956-0.607-1.557-0.607s-1.149 0.231-1.559 0.609l0.002-0.001c-0.39 0.379-0.637 0.904-0.65 1.487l-0 0.002c-0.013 0.292-0.239 0.528-0.526 0.555l-0.002 0c-0.292-0.013-0.528-0.239-0.555-0.526l-0-0.002c-0.001-0.025-0.001-0.054-0.001-0.083 0-1.821 1.45-3.304 3.259-3.356l0.005-0c0.041-0.002 0.088-0.003 0.136-0.003 1.787 0 3.236 1.449 3.236 3.236 0 0.034-0.001 0.068-0.002 0.102l0-0.005z"></path>
+      <path fill="currentColor" d="M26.155 17.223l-3.087 0.948c-0.021 0.127-0.059 0.24-0.111 0.345l0.003-0.007c-0.043 0.139-0.089 0.256-0.142 0.368l0.007-0.016c0 0.122-0.108 0.244-0.162 0.338l-0.149 0.325 1.5 2.856c-0.12 0.168-0.235 0.314-0.358 0.454l0.006-0.007-0.406 0.42-0.406 0.406-0.46 0.393-2.856-1.543-0.325 0.149-0.325 0.162-0.366 0.135-0.338 0.108-0.946 3.083c-0.043 0.007-0.092 0.011-0.142 0.011s-0.099-0.004-0.147-0.012l0.005 0.001h-1.733c-0.043 0.007-0.092 0.011-0.142 0.011s-0.099-0.004-0.147-0.012l0.005 0.001-0.885-3.082-0.338-0.108-0.362-0.136-0.325-0.162-0.325-0.149-2.923 1.543-0.46-0.393-0.406-0.406-0.406-0.42c-0.117-0.133-0.232-0.279-0.34-0.43l-0.012-0.017 1.5-2.816c-0.023-0.139-0.075-0.263-0.151-0.369l0.002 0.003c-0.054-0.108-0.108-0.217-0.162-0.338-0.046-0.096-0.092-0.213-0.13-0.333l-0.005-0.019c-0.024-0.127-0.061-0.241-0.112-0.347l0.004 0.009-3.086-0.947c-0.007-0.039-0.011-0.083-0.011-0.128s0.004-0.090 0.011-0.133l-0.001 0.005c0.003-0.045 0.005-0.097 0.005-0.15s-0.002-0.105-0.005-0.157l0 0.007c-0.003-0.045-0.005-0.097-0.005-0.15s0.002-0.105 0.005-0.157l-0 0.007v-0.6c-0.003-0.041-0.005-0.088-0.005-0.136s0.002-0.095 0.006-0.142l-0 0.006c0.003-0.045 0.005-0.097 0.005-0.15s-0.002-0.105-0.005-0.157l0 0.007c-0.007-0.043-0.011-0.092-0.011-0.142s0.004-0.099 0.012-0.147l-0.001 0.005 3.087-0.871c0.021-0.127 0.059-0.24 0.111-0.345l-0.003 0.007c0.041-0.122 0.081-0.244 0.135-0.366 0.058-0.133 0.112-0.239 0.171-0.343l-0.009 0.018 0.145-0.323-1.5-2.924c0.108-0.162 0.23-0.311 0.352-0.46l0.406-0.406c0.122-0.135 0.271-0.271 0.406-0.406 0.136-0.128 0.287-0.244 0.448-0.345l0.012-0.007 2.927 1.5 0.325-0.149 0.324-0.161 0.366-0.135 0.334-0.108 0.884-3.087h2.3l0.948 3.087 0.338 0.108 0.366 0.135 0.325 0.162 0.325 0.149 2.856-1.5c0.162 0.108 0.311 0.23 0.46 0.352 0.147 0.127 0.279 0.259 0.402 0.401l0.004 0.005 0.406 0.406c0.122 0.149 0.244 0.3 0.352 0.46l-1.5 2.924 0.149 0.325c0 0.095 0.108 0.217 0.162 0.325 0.046 0.099 0.092 0.22 0.13 0.345l0.005 0.021c0.041 0.122 0.081 0.23 0.108 0.338l3.087 0.948c0.007 0.043 0.011 0.092 0.011 0.142s-0.004 0.099-0.012 0.147l0.001-0.005c-0.003 0.045-0.005 0.097-0.005 0.15s0.002 0.105 0.005 0.157l-0-0.007c0.003 0.041 0.005 0.088 0.005 0.136s-0.002 0.095-0.006 0.142l0-0.006v0.6c0.003 0.045 0.005 0.097 0.005 0.15s-0.002 0.105-0.005 0.157l0-0.007c-0.003 0.045-0.005 0.097-0.005 0.15s0.002 0.105 0.005 0.157l-0-0.007c0.004 0.029 0.006 0.062 0.006 0.095s-0.002 0.066-0.006 0.099l0-0.004zM22.094 17.223l2.938-0.88v-0.515l-2.3-0.7-0.555-0.162-0.19-0.636-0.15-0.29c-0.031-0.105-0.068-0.195-0.112-0.28l0.004 0.009c-0.037-0.109-0.083-0.202-0.138-0.29l0.003 0.005c-0.052-0.085-0.102-0.183-0.144-0.286l-0.005-0.014-0.284-0.5 0.284-0.555 1.136-2.15-0.068-0.081-0.108-0.095-0.095-0.108-0.135-0.122-2.707 1.354-0.555-0.288-0.257-0.135-0.3-0.122-0.244-0.041-0.3-0.108-0.6-0.19-0.19-0.6-0.7-2.342h-0.483l-0.7 2.342-0.2 0.6-0.6 0.19-0.291 0.112-0.3 0.095c-0.114 0.029-0.214 0.071-0.305 0.125l0.005-0.003-0.257 0.149-0.5 0.284-2.7-1.356h-0.081l-0.095 0.108-0.108 0.092-0.122 0.135 1.354 2.713-0.285 0.552c-0.047 0.117-0.097 0.215-0.154 0.309l0.005-0.009c-0.052 0.082-0.098 0.175-0.132 0.274l-0.003 0.009c-0.040 0.076-0.077 0.166-0.105 0.26l-0.003 0.011-0.081 0.3-0.19 0.636-2.87 0.8v0.509l2.938 0.88 0.19 0.6 0.081 0.284c-0.002 0.012-0.002 0.027-0.002 0.041 0 0.102 0.042 0.194 0.11 0.259l0 0c0.034 0.114 0.080 0.214 0.138 0.305l-0.003-0.005 0.149 0.257 0.284 0.555-1.358 2.702v0.095c0.029 0.043 0.065 0.079 0.107 0.107l0.001 0.001 0.095 0.081 0.135 0.068 2.708-1.421 0.555 0.311 0.257 0.122c0.086 0.055 0.186 0.101 0.292 0.133l0.008 0.002 0.3 0.108 0.3 0.122 0.6 0.149 0.2 0.636 0.7 2.3h0.487l0.7-2.3 0.135-0.569 0.6-0.149 0.284-0.19 0.3-0.108c0.114-0.034 0.214-0.080 0.305-0.138l-0.005 0.003 0.257-0.122 0.555-0.311 2.708 1.421 0.081-0.068 0.095-0.081c0.043-0.029 0.079-0.065 0.107-0.107l0.001-0.001 0.068-0.149-1.137-2.1-0.284-0.6 0.284-0.555 0.149-0.257c0.052-0.082 0.098-0.175 0.132-0.274l0.003-0.009c0.038-0.075 0.074-0.165 0.104-0.257l0.004-0.014 0.081-0.311z"></path>
+    </symbol>
+  </defs>
+</svg>
+</div>
+
+      <div id="meta-nav" class="row meta-navigation" tabindex="-1">
+  <nav class="col-8 offset-4 mt-5 mb-2 d-none d-xl-block" role="navigation" aria-label="Metanavigation">
+    
+  
+
+
+
+
+  <ul class="nav meta-menu-list justify-content-lg-end">
+                  
+                
+        
+                
+        
+                
+                <li id="menu--539" class="nav-item  level-0   ">
+
+                    
+            
+                        
+                                      
+            
+                        <a href="/service/kontakt" title="zur Übersichtsseite Kontakt" class="nav-link link--internal outline-offset--nav-link" data-drupal-link-system-path="node/354">                                  <span class="link-text">    Kontakt
+  </span>
+                              </a>
+
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--4" class="nav-item  level-0   ">
+
+                    
+            
+                        
+                                      
+            
+                        <a href="/infomaterial" title="Bestellplattform" class="nav-link link--internal outline-offset--nav-link" data-drupal-link-system-path="infomaterial">                                  <span class="link-text">    Infomaterial
+  </span>
+                              </a>
+
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--7" class="nav-item  level-0   ">
+
+                    
+            
+                        
+                          
+              
+                          
+            
+                        <a href="https://www.hessen.de" title="Infoportal hessen.de" class="nav-link link--external outline-offset--nav-link" target="_blank">                  
+
+<i  class="icon icon--link-external"
+  aria-hidden="true"
+  title="hessen.de"><svg id="icon_link_extern" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <path id="Rechteck_2231" fill="none" stroke="none" d="M0 0H16V16H0z"/>
+    <g fill="none" stroke="none" id="Gruppe_3241" transform="translate(16495.592 10468.026)">
+        <g id="Gruppe_3241-2" transform="translate(0 -1)">
+            <path stroke="currentColor" stroke-width="2" id="Pfad_3389" d="M35.407-8.024v-6h6" transform="translate(-16525.998 -10448.002)"/>
+            <path stroke="currentColor" stroke-width="2" id="Linie_1323" d="M0 0L6 6" transform="translate(-16490.592 -10462)"/>
+        </g>
+    </g>
+</svg>
+
+</i>
+
+                                  <span class="link-text">    hessen.de
+  </span>
+                  <span class="sr-only">Öffnet sich in einem neuen Fenster</span>
+                              </a>
+
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--28" class="nav-item  level-0   ">
+
+                    
+            
+                        
+                                      
+            
+                        <a href="/leichte-sprache" title="Informationen in Leichter Sprache" class="nav-link link--internal menu-svg-icons-link position-relative outline-offset--nav-link" data-drupal-link-system-path="node/10">                                    <svg focusable="false" role="img" aria-labelledby="icon-meta-navigationicon_leichte_sprache"  class="link-icon menu-icon menu-icon--right ml-xl-0 d-none d-xl-inline" data-drupal-link-title="Leichte Sprache"  style="height: 32px; width: 32px;">
+      <desc id="icon-meta-navigationicon_leichte_sprache">Symbol - Leichte Sprache</desc>
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-meta-navigationicon_leichte_sprache"></use>
+    </svg>
+                              </a>
+
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--16" class="nav-item  level-0   ">
+
+                    
+            
+                        
+                                      
+            
+                        <a href="/erklaerung-zur-barrierefreiheit" title="Erklärung zur Barrierefreiheit" class="nav-link link--internal menu-svg-icons-link position-relative outline-offset--nav-link" data-drupal-link-system-path="node/16">                                    <svg focusable="false" role="img" aria-labelledby="icon-meta-navigationicon_barrierefreiheit"  class="link-icon menu-icon menu-icon--right ml-xl-0 d-none d-xl-inline" data-drupal-link-title="Barrierefreiheit"  style="height: 32px; width: 32px;">
+      <desc id="icon-meta-navigationicon_barrierefreiheit">Symbol - Barrierefreiheit</desc>
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-meta-navigationicon_barrierefreiheit"></use>
+    </svg>
+                              </a>
+
+          
+        </li>
+            </ul>
+
+  </nav>
+</div>
+
+  
+  </div>
+
+
+        </header>
+          
+    <div class="row no-gutters mr-xl-n3">
+
+                  <aside class="main-header col-12 col-lg-4" role="complementary">
+
+        
+
+
+<div class="navbar navbar-expand-xl navbar-offcanvas justify-content-between sticky-top">
+
+      <div class="container d-block px-0 ml-xxl-1 ml-xxxl-3">
+      <div class="row no-gutters">
+  
+                              
+      
+
+  <div class="block block--hw-radix-standard-branding-mobile pt-2 mr-0 col-12 col-md-7 col-xl-auto d-xl-none">
+
+  
+    
+
+      
+
+            <header id="header-banner-mobile" class="banner-mobile-small" role="banner" tabindex="-1">
+        <span class="visually-hidden">&nbsp;</span>      <a class="navbar-brand nav-brand-small align-items-center d-inline-flex hw-branding-mobile-header" href="/" title="Zur Startseite">
+                                  <svg role="img" xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 60" focusable="false" aria-labelledby="logo-hessenweb-description">
+<title id="logo-hessenweb-description">Logo Hessen-Löwe - Hessisches Wappentier - Zur Startseite</title>
+  <path id="logo-hessenweb-standard" d="M1083 24.973a2.6 2.6 0 0 1-1.618 1.022c-.982.141-1.838.634-1.673 1.721 0 0-2.4-1.681-2.149-2.741s1.274-1.392 2.33-1.868a2.12 2.12 0 0 0 1.525-2.519s-.214 1.242-1.326 1.334-2.858-.712-3.806-.31a2.364 2.364 0 0 0-1.491 2.78 2.554 2.554 0 0 1-1.386-2.194c-.109-1.647.074-3.219 3.932-4.352s3.206-3.11 3.206-3.11-.148.916-2.04 1.1-2.441-.476-3.971.476l1.017-1.022s-2.326-.432-3.237.729c0 0 .765-2.343 4.261-2.889s5.28-2.47 5.6-4.426a9.791 9.791 0 0 0-.292-4.792 5.779 5.779 0 0 1-3.712 3.365 4.406 4.406 0 0 0 .105-1.973 11.662 11.662 0 0 0-1.671.729c-1.457.7-4.3 1.61-3.607 5.633 0 0-3.545 2.414-3.239 8.006s8.12 9.033 8.12 9.033 2.876 1.868 1.71 4.537-2.111 2.669-5.717 2.669a3.035 3.035 0 0 0-.642-3.922 26.861 26.861 0 0 0-4.667-3.171 26.16 26.16 0 0 1-4.661-3.219 1.17 1.17 0 0 0 .964-.9 3.2 3.2 0 0 1-.892-2.12 4.391 4.391 0 0 0 1.9.312s-.365-2.044.4-2.96a4.066 4.066 0 0 0 .988-2.049h1.929a3.644 3.644 0 0 1-.657-1.829c.071-.768.729-3.585.071-5.048 0 0 1.455-.035 1.824-.511a8.956 8.956 0 0 1-1.714-2.343c-.329-.951-.766-2.12-1.093-2.266 0 0 .947-.587 1.022-1.025 0 0-1.821-1.061-2.222-1.392s-.548-.326-.548-.326 1.056-.44 1-1a3.52 3.52 0 0 1-2.091-.569 2.235 2.235 0 0 0-.506-1.022 1.564 1.564 0 0 0-2.151-.222s-2.036-.365-2.619.366c0 0-4.262-.035-4.949 2.56 0 0-3.052.881-2.4 3.182a1.984 1.984 0 0 0 1.49 2.634 1.748 1.748 0 0 0 2.364-1.609s1.683.109 2.009 1.462c.022.088.041.176.057.261a10.033 10.033 0 0 0-4.241.507c-2.3.805-2.947.37-3.475-.159s-.526-1.369.311-2.255a1.539 1.539 0 0 0-2.153.916c-.731 1.9 1.1 2.921 2.587 2.925 1.632 0 2.473-.587 4.115-.951a7.222 7.222 0 0 1 2.877-.1 1.05 1.05 0 0 1-.982.939c-.769.074-1.684-.393-2.459.018a1.038 1.038 0 0 0 .262 1.767c.813.317 1.175-.578 1.736-.449a.823.823 0 0 1 .565 1c-.154.493-1.456 1.72-3.966-.144a3.782 3.782 0 0 0-1.421-.731v1.757a2.908 2.908 0 0 1-2.658-1.106s-1.32.347-1.33 1.417a11.816 11.816 0 0 1-4.678-2.8 26.678 26.678 0 0 1-2.872-3.584 1.649 1.649 0 0 1 .038-1.966 1.109 1.109 0 0 0-.477-1.617s-.379-1.334-1.539-1.432a2.032 2.032 0 0 0-1.773.736s1.07.581 1 1.01a1.247 1.247 0 0 1-.4.655.924.924 0 0 0-.964-.749s-1-1.381-2.258-.622a1.7 1.7 0 0 0-.692 1.462s1.2-.109 1.165.218a1.132 1.132 0 0 0-.14 1.388 2.205 2.205 0 0 0 1.014.77s-1.356-.365-1.82.44a1.845 1.845 0 0 0-1.574 2.255 3.683 3.683 0 0 0 .811 1.364s-.163-1.133.71-1.244a1.221 1.221 0 0 0 1.4.405 1.114 1.114 0 0 0 .544 1.572 1.155 1.155 0 0 1-1.131.585s.916 1.559 2 1.262a2.485 2.485 0 0 0 1.274-1.262l.274-.273s2.122 3.161 1.644 4.99c0 0 1.185.255 1.575-.511 0 0 .622 2.449-.327 3.728 0 0 1.565.55 2.074-.476 0 0 1.237 1.757-.363 2.049l.291.77a16.042 16.042 0 0 1-4.625 2.379c-2.185.546-2.16 1.045-3.024.144-.684-.715-1.057-.257-1.057-.257a1.962 1.962 0 0 0-2.694 1.279s1.2-.07 1.35.292c0 0-.136 1.043.619 1.135 0 0-1.354.12-1.164 1.374 0 0-1.941.881.253 3.048 0 0 .182-1.133.656-1.207 0 0 .447.358.765 0a1.367 1.367 0 0 0 .327 1.9s-.252 1.388 1.586 1.589a3.421 3.421 0 0 1 .31-1.48 1.163 1.163 0 0 0 .948-1.283.789.789 0 0 1 .182-.7s.254.877 1.055.659a5.121 5.121 0 0 0 .656 1.131s1.2-.467 1.164-1.5a1.249 1.249 0 0 0 .509-1.942 4.19 4.19 0 0 1 4.659.657.821.821 0 0 0 .774-.877s1.327.493 1.353 1.362c0 0 1.3-.472 1.229-1.568 0 0 2.258-.329 2.585.842a1.156 1.156 0 0 0 .728-1.17s2.147 3.182 8.664 3.767l-.6.6-.2.2s-4.894-.259-6.956.8-3.472 1.846-3.812 6.078a3.1 3.1 0 0 1-.735 2.3s.4.659.946.659a3.442 3.442 0 0 1-2.332 1.392c-1.677.294-1.964.1-2.235-.277a.917.917 0 0 0-1.3-.329 1.8 1.8 0 0 0-.766-.423 1.573 1.573 0 0 0-1.891 1.649s.947-.257 1.235 0l.147.657s-1.464-.731-2.033.405c0 0-2.953.731-.843 3.547 0 0 .33-1.17 1.075-1.075a1.083 1.083 0 0 0 1.148.27s-.819 1.189.256 1.829a2.074 2.074 0 0 0 1.126 1.61s.948-.44 1.074-1.078a1.759 1.759 0 0 0 1.547-2.067 3.232 3.232 0 0 0 .838-.257s.035.877 1.291 1.3a.866.866 0 0 1 0 1s2.019 0 1.8-1.5c0 0 .693-.292.509-1.392 0 0 2.476-.768 2.984-1.427l.474.846s1.365-.493 1.747-1.318l.184 1.533s3.2-2.174 3.022-4.5c-.161-2.083-.872-2.56-.836-3.256a2.629 2.629 0 0 1 3.132-2.047 6.4 6.4 0 0 0 1.016 4.5c1.456 1.825 2.511 2.669 2.511 3.326v1.061s1.311-.4 1.386-.694c0 0 .509 1.868 1.418 1.9a4.848 4.848 0 0 1 1.131-1.536 5.4 5.4 0 0 1-1.414 3.383c-1.227 1.054-2.011 1.409-3.25 1.151a1.371 1.371 0 0 0-1.639-.476 1.981 1.981 0 0 0-2.473.733 2.473 2.473 0 0 0 0 1.938s.691-1.022 1.128-.8c0 0 0 .731.62.805a1.338 1.338 0 0 0-.769 1.827s-1.893 1.17 0 2.889c0 0 .071-.8 1.329-1.334a1.693 1.693 0 0 0 1.618-.275l.8.807a3.021 3.021 0 0 1 .583 1.833s1.712-.7 1.673-1.9a1.507 1.507 0 0 0 .986-1.792s.948-.292.8-1.133a1.122 1.122 0 0 0 1.455.4s.982.44.964.969a1.635 1.635 0 0 0 1.036-2.137 1.219 1.219 0 0 0-.435-1.757s1.455-1.207 1.6-1.938c0 0 .573.8.938.8a1.606 1.606 0 0 0 .737-1.318 1.869 1.869 0 0 0 2.513-.7s-1.13-.511-.509-2.632c0 0 .947-2.46-.444-3.251-1.216-.7-1.819-.557-3.161-.041 0 0-2.7.923-2.548-2.925a3.677 3.677 0 0 1 2-2.819 6.789 6.789 0 0 0 5.825 0s1.821.816 2.842-.035c1.146-.958 1.6-2.047 2.272-2.357 0 0-1.364-.768-1.911-.384 0 0 1.056-1.025.692-3.841s.655-2.671 1.219-3.658a3.74 3.74 0 0 0 .005-2.59" transform="translate(-1031.253)" style="fill:#003593"/>
+</svg>
+
+                                      <p class="p-reboot align-self-center col"><span class="site-name-prefix">mobil.</span><br>hessen.de</p>
+      </a>
+      </header>
+  
+  
+  </div>
+
+                      
+        <nav class="navbar__buttons col-12 col-md-5 col-xl-12 offset-xl-0 pt-1 pt-xl-0" role="navigation" aria-label="Hauptnavigation">
+
+      <ul class="nav flex-xl-column">
+
+        
+          <li class="nav-item level-0">
+
+            
+<button  class="navbar-toggler d-inline-flex d-xl-flex m-0_5 m-xl-0 btn btn--navbar--toggler"
+      data-drupal-link-title="Menü"
+      data-toggle="collapse"
+      aria-controls="navbar-collapse"
+      aria-expanded="false"
+      data-expanded="false"
+      aria-label="Menü"
+      id="navToggle"
+      type="button"
+        
+  >
+                  
+
+<i  class="icon icon--nav bg-offcanvas-light"
+  aria-hidden="true"
+  title="Menü"><svg role="img" data-drupal-link-title="Hauptmenü" aria-labelledby="icon-main-navigation_main_menu" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <desc id="icon-main-navigation_main_menu">Symbol - Hauptmenü</desc>
+  <g fill="none" id="icon_burger">
+    <path fill="none" id="Rechteck_1862" d="M0 0H32V32H0z" data-name="Rechteck 1862"/>
+    <path stroke="currentColor" stroke-width="2" id="Linie_235" d="M0 0L16 0" data-name="Linie 235" transform="translate(8 11)"/>
+    <path stroke="currentColor" stroke-width="2" id="Linie_236" d="M0 0L16 0" data-name="Linie 236" transform="translate(8 16)"/>
+    <path stroke="currentColor" stroke-width="2" id="Linie_237" d="M0 0L16 0" data-name="Linie 237" transform="translate(8 21)"/>
+  </g>
+</svg>
+</i>
+                <span class="d-none d-xl-block">Menü</span>
+                </button>
+
+          </li>
+
+        
+                          
+            <li class="nav-item level-0">
+
+              
+              
+<a  class="btn btn-navbar d-inline-flex m-0_5 m-xl-0 btn--navbar--search"
+        href="/suche/seite"
+        data-drupal-link-title="Suche"
+        data-expanded="false"
+        data-action="/suche"
+        data-focus-selector="search-api-fulltext-form"
+        data-focus-element="input[type=&quot;text&quot;]"
+        aria-label="Suche"
+  
+        >
+                    
+
+<i  class="icon icon--search bg-offcanvas-light"
+  aria-hidden="true"
+  title="Suche"><svg role="img" data-drupal-link-title="Suche" aria-labelledby="icon-serach-field_search_lens" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <desc id="icon-serach-field_search_lens">Symbol - Suche</desc>
+  <path fill="none" id="Rechteck_2234" d="M0 0H32V32H0z" data-name="Rechteck 2234"/>
+  <g fill="none" stroke="currentColor" stroke-width="2" id="Gruppe_3017" data-name="Gruppe 3017" transform="translate(-617 -321.512)">
+    <g id="Gruppe_1575" data-name="Gruppe 1575" transform="translate(625 329.512)">
+      <path fill="none" stroke="currentColor" id="Pfad_3373" d="M0 0v7.677" data-name="Pfad 3373" transform="rotate(-45 18.047 -7.474)"/>
+      <g id="Ellipse_550" data-name="Ellipse 550">
+        <circle stroke="none" cx="6.667" cy="6.667" r="6.667"/>
+        <circle cx="6.667" cy="6.667" r="5.667"/>
+      </g>
+    </g>
+  </g>
+</svg>
+</i>
+                  <span class="d-none d-xl-block">Suche</span>
+                </a>
+              
+            </li>
+
+                  
+                          
+            <li class="nav-item level-0">
+
+              
+              
+<a  class="btn btn-navbar d-inline-flex m-0_5 m-xl-0 btn--navbar--medienraum"
+        href="/medienraum"
+        data-drupal-link-title="Medienraum"
+        data-expanded="false"
+        data-action="/medienraum"
+        data-focus-selector="containercollection"
+        data-focus-element="a"
+        aria-label="Medienraum"
+  
+        >
+                    
+
+<i  class="icon icon--medienraum bg-offcanvas-light"
+  aria-hidden="true"
+  title="Medienraum"><svg role="img" data-drupal-link-title="Medienraum" aria-labelledby="icon-main-navigation_mediaroom" xmlns="http://www.w3.org/2000/svg" id="icon_medienraum" width="38" height="38" viewBox="0 0 38 38">
+  <desc id="icon-main-navigation_mediaroom">Symbol - Medienraum</desc>
+  <path stroke="none" fill="none"  id="Rechteck_2798" d="M0 0H38V38H0z"/>
+  <g id="Gruppe_3511" transform="translate(.675 -.567)">
+    <g id="Gruppe_3396" transform="translate(5.325 8.567)">
+      <path id="Vereinigungsmenge_32" fill="currentColor" d="M0 16.692V0h6.6l2.549 2.55H19.8v14.142z"/>
+      <path id="Icon_material-perm-media" fill="#fff" d="M8.05 17.713l3.891-6.663 3.026 5.008 2.161-3.342 3.026 5z" transform="translate(-4.174 -4.225)"/>
+    </g>
+    <path id="Vereinigungsmenge_33" fill="currentColor" d="M2.992 0H0v14.947h2.992V2.985h11.955V0z" transform="rotate(180 15.364 15.619)"/>
+  </g>
+</svg>
+</i>
+                  
+
+<i  class="icon icon--placeholder bg-offcanvas-light"
+  aria-hidden="true"
+  ></i>
+                  <span class="d-none d-xl-block">Medienraum</span>
+                </a>
+
+            </li>
+
+                  
+                                  
+            <li class="nav-item level-0">
+
+                                                        
+<a  class="btn btn-navbar d-inline-flex m-0_5 m-xl-0 btn--navbar--themen-a-z"
+        href="/Themen-A-Z"
+        data-drupal-link-title="Themen A&ndash;Z"
+        data-expanded="false"
+        data-action="/Themen-A-Z"
+        aria-label="Themen A&ndash;Z"
+  
+        >
+                    
+
+<i  class="icon icon--themen-a-z bg-offcanvas-light"
+  aria-hidden="true"
+  title="Themen A&ndash;Z"><svg role="img" data-drupal-link-title="Themen A&ndash;Z" aria-labelledby="icon-main-navigation_topics_a_z" xmlns="http://www.w3.org/2000/svg" id="icon_thema-a-z" width="38" height="38" viewBox="0 0 38 38">
+  <desc id="icon-main-navigation_topics_a_z">Symbol - Themen A&ndash;Z</desc>
+  <text fill="currentColor" font-family="Hessen Gellix Bold, Roc Grotesk" font-size="15px" font-weight="700" letter-spacing="0.005em" transform="translate(.925 24)">
+    <tspan x="0" y="0"></tspan><tspan y="0" font-size="17px">A-Z</tspan><tspan y="0"></tspan>
+  </text>
+  <path fill="none" d="M0 0H37.077V38H0z"/>
+</svg>
+</i>
+                  
+
+<i  class="icon icon--placeholder bg-offcanvas-light"
+  aria-hidden="true"
+  ></i>
+                  <span class="d-none d-xl-block">Themen A&ndash;Z</span>
+                </a>
+
+            </li>
+
+                  
+      </ul>
+
+    </nav>
+  
+                              
+  <div class="block block--fokusnavigation">
+
+  
+    
+
+      <nav class="navbar__focus col-12 pt-sm-2 px-1 px-xl-3" role="navigation" aria-label="Fokusnavigation">
+  
+  
+
+
+
+
+  <ul class="nav focus-menu-list">
+                  
+                
+        
+                
+                          
+                
+                <li id="menu--40" class="nav-item  level-0   ">
+
+                    
+            
+                        
+                                      
+            
+                        <a href="/presse" class="text-center btn btn--focus nav-link link--internal outline-offset--outside" data-drupal-link-system-path="node/34">                                  <span class="link-text">Aktuelle Meldungen</span>
+                              </a>
+
+          
+        </li>
+              
+                
+        
+                
+                          
+                
+                <li id="menu--536" class="nav-item  level-0   ">
+
+                    
+            
+                        
+                                      
+            
+                        <a href="/karriere" class="text-center btn btn--focus nav-link link--internal outline-offset--outside" data-drupal-link-system-path="node/122">                                  <span class="link-text">Karriere</span>
+                              </a>
+
+          
+        </li>
+              
+                
+        
+                
+                          
+                
+                <li id="menu--348" class="nav-item  level-0   ">
+
+                    
+            
+                        
+                                      
+            
+                        <a href="/verkehr/wirtschaftsverkehr" title="Transport von Waren" class="text-center btn btn--focus nav-link link--internal outline-offset--outside" data-drupal-link-system-path="node/12178">                                  <span class="link-text">Wirtschaftsverkehr</span>
+                              </a>
+
+          
+        </li>
+            </ul>
+
+</nav>
+
+  
+  </div>
+
+
+                      
+        <div class="navbar__services col-12 d-none d-xl-block pb-2">
+                          <div class="navbar__services--weather">
+              <div class="row">
+  <div class="col-auto">
+              <div class="hw-carousel-wrapper">
+                  <div id="weather-slider" class="carousel vertical-slide slide" data-ride="carousel" data-interval="5000" data-pause="false">
+                                      <button id="controlSliderBtn" class="position-absolute outline-offset--outside" aria-label="Automatische Bewegung stoppen" type="button">
+                <i class="position-relative d-block bi bi-pause-circle-fill" aria-hidden="true"></i>
+              </button>
+                                    <div class="carousel-inner">
+                                                                                                              <div class="carousel-item active">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png" title="Bedeckt" alt="Bedeckt" />
+                    </span>
+                    <span class="title pr-1">Kassel</span>
+                    <span class="temp">11°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png" title="Leichter Regen" alt="Leichter Regen" />
+                    </span>
+                    <span class="title pr-1">Gelnhausen</span>
+                    <span class="temp">11°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png" title="Bedeckt" alt="Bedeckt" />
+                    </span>
+                    <span class="title pr-1">Darmstadt</span>
+                    <span class="temp">13°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png" title="Leichter Regen" alt="Leichter Regen" />
+                    </span>
+                    <span class="title pr-1">Heppenheim</span>
+                    <span class="temp">13°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png" title="Leichter Regen" alt="Leichter Regen" />
+                    </span>
+                    <span class="title pr-1">Fulda</span>
+                    <span class="temp">11°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png" title="Bedeckt" alt="Bedeckt" />
+                    </span>
+                    <span class="title pr-1">Eschwege</span>
+                    <span class="temp">12°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png" title="Leichter Regen" alt="Leichter Regen" />
+                    </span>
+                    <span class="title pr-1">Bad Arolsen</span>
+                    <span class="temp">13°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png" title="Bedeckt" alt="Bedeckt" />
+                    </span>
+                    <span class="title pr-1">Marburg</span>
+                    <span class="temp">12°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png" title="Bedeckt" alt="Bedeckt" />
+                    </span>
+                    <span class="title pr-1">Schotten</span>
+                    <span class="temp">11°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png" title="Leichter Regen" alt="Leichter Regen" />
+                    </span>
+                    <span class="title pr-1">Frankfurt</span>
+                    <span class="temp">12°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/leichtregen.png" title="Leichter Regen" alt="Leichter Regen" />
+                    </span>
+                    <span class="title pr-1">Wiesbaden</span>
+                    <span class="temp">13°C</span>
+                  </p>
+                </div>
+                                                                                                              <div class="carousel-item">
+                  <p class="p-reboot pr-20">
+                    <span class="icon float-left pr-2">
+                      <img class="d-block mx-auto img-fluid" src="/sites/mobil.hessen.de/files/weathermodule_icons/bedeckt.png" title="Bedeckt" alt="Bedeckt" />
+                    </span>
+                    <span class="title pr-1">Dillenburg</span>
+                    <span class="temp">11°C</span>
+                  </p>
+                </div>
+                          </div>
+          </div>
+                <div class="d-block mt-2 w-100">
+          <a class="link-copyright outline-offset--outside" href="https://www.dwd.de/DE/wetter/wetterundklima_vorort/hessen/hessen_node.html" target="_blank">
+            <span class="link-text">&copy; Deutscher Wetterdienst</span>
+            <span class="sr-only">Öffnet sich in einem neuen Fenster</span>
+          </a>
+        </div>
+      </div>
+      </div>
+</div>
+
+            </div>
+                            <div class="navbar__services--divider"></div>
+        <div class="navbar__services--traffic">
+                                                               <a href="https://verkehrsservice.hessen.de/" class="outline-offset--outside" target="_blank">            <span class="link-text">Verkehrsservice Hessen</span>
+                          <span class="sr-only">Öffnet sich in einem neuen Fenster</span>
+                      </a>
+        </div>
+          </div>
+    
+        </div>
+    </div>
+  </div>
+
+
+<div class="navbar-collapse offcanvas-collapse bg-offcanvas-light">
+
+    <a id="navbar-collapse" tabindex="-1"></a>
+
+  <div class="container-fluid position-relative">
+
+        
+        <div class="row no-gutters offcanvas-menu">
+      <div class="col-12">
+                                  <div class="mr-auto">
+                  
+  <div role="navigation" aria-label="Hauptmenü aufgeklappt" class="block block--hw-radix-standard-main-menu">
+
+  
+    
+
+      
+  
+
+
+
+
+  <ul class="nav navbar-nav main-menu">
+                  
+                
+        
+                
+        
+                
+                <li id="menu--156" class="nav-item  level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/verkehr" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/198">              <span class="link-text">Verkehr</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 ">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--802" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/verkehr/verkehrsservice-hessen" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/9049">              <span class="link-text">Verkehrsservice Hessen</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--210" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/zustaendigkeiten-im-verkehr" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/273">              <span class="link-text">Zuständigkeiten im Verkehr</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--225" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/verkehrssicherheit" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/294">              <span class="link-text">Verkehrssicherheit</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--288" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/warum-gibt-es-baustellen" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/357">              <span class="link-text">Warum gibt es Baustellen?</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--856" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/wirtschaftsverkehr" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/12178">              <span class="link-text">Wirtschaftsverkehr</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--219" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/interaktive-verkehrsmengenkarte" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/282">              <span class="link-text">Interaktive Verkehrsmengenkarte</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--506" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/lichtsignalanlagen" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/740">              <span class="link-text">Lichtsignalanlagen</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--297" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/laermschutz" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/366">              <span class="link-text">Lärmschutz</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--294" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/tunnelleitzentrale" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/363">              <span class="link-text">Tunnelleitzentrale</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--817" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/autonomes-fahren" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/5707">              <span class="link-text">Autonomes Fahren</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--844" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/verkehr/lichtsignalanlagen-zentrale" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/10750">              <span class="link-text">Lichtsignalanlagen-Zentrale</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--874" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/ams" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/13465">              <span class="link-text">Arbeitsstellenmanagement&shy;system</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--62" class="nav-item nav-item-column-2 level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/planung-und-bau" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/68">              <span class="link-text">Planung und Bau</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 menu-column-2">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--65" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/planung-und-bau/projekte" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/71">              <span class="link-text">Projekte</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--86" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/planung-und-bau/erhaltung-und-bau-von-strassen" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/101">              <span class="link-text">Erhaltung und Bau von Straßen</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--890" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/planung-und-bau/vergabeausblick" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/15371">              <span class="link-text">Vergabeausblick</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--826" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/BIM" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/10144">              <span class="link-text">BIM - Building Information Modeling</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--609" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/planung-und-bau/wie-ein-radweg-entsteht" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/3753">              <span class="link-text">Wie ein Radweg entsteht</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--159" class="nav-item nav-item-column-2 level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/strassenbetrieb" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/201">              <span class="link-text">Straßenbetrieb</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 menu-column-2">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--887" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/strassenbetrieb/sibhessen" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/15344">              <span class="link-text">SIBHessen</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--246" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/strassenbetrieb/winterdienst" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/315">              <span class="link-text">Winterdienst</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--243" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/strassenbetrieb/gehoelzpflegearbeiten-0" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/312">              <span class="link-text">Gehölzpflegearbeiten</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--587" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/strassenbetrieb/unsere-strassenmeistereien" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/1343">              <span class="link-text">Unsere Straßenmeistereien</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--351" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/strassenbetrieb/ihre-planungsvorhaben" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/453">              <span class="link-text">Ihre Planungsvorhaben</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--871" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/strassenbetrieb/breitband-portal" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/13438">              <span class="link-text">Breitband-Portal</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--162" class="nav-item nav-item-column-2 level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/mobilitaet-und-zukunft" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/204">              <span class="link-text">Mobilität und Zukunft</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 menu-column-2">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--877" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/mobilitaet-und-zukunft/regionales-verkehrsmanagement" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/13945">              <span class="link-text">Regionales Verkehrsmanagement</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--300" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/mobilitaet-und-zukunft/radwege" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/369">              <span class="link-text">Radwege</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--894" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/mobilitaet-und-zukunft/schutzstreifen-fuer-den-radverkehr" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/15828">              <span class="link-text">Schutzstreifen für den Radverkehr</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--309" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/mobilitaet-und-zukunft/bus-und-bahn" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/378">              <span class="link-text">Bus und Bahn</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--306" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/Mobilitaet-und-Zukunft/Unbehinderte-Mobilitaet" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/375">              <span class="link-text">Unbehinderte Mobilität</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--312" class="nav-item nav-item-column-1 level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/foerderangebote" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/381">              <span class="link-text">Förderangebote</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 menu-column-1">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--530" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/foerderangebote/ihr-weg-zur-foerderung" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/947">              <span class="link-text">Ihr Weg zur Förderung</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--781" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/foerderangebote/beratung" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/8479">              <span class="link-text">Beratung</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--706" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/foerderangebote/faqs" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/7105">              <span class="link-text">FAQs</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--763" class="nav-item nav-item-column-2 level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/nachhaltigkeit-im-strassenbau" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/8380">              <span class="link-text">Nachhaltigkeit im Straßenbau</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 menu-column-2">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--766" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/nachhaltigkeit-im-strassenbau/sanfter-strassenbau" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/8383">              <span class="link-text">Sanfter Straßenbau</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--769" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/nachhaltigkeit-im-strassenbau/gefaehrdungsanalyse-klimawandel" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/8386">              <span class="link-text">Gefährdungsanalyse Klimawandel</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--688" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/nachhaltigkeit-im-strassenbau/einkauf" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/6223">              <span class="link-text">Einkauf</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--772" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/nachhaltigkeit-im-strassenbau/strasse-hat-zukunft" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/8389">              <span class="link-text">Straße hat Zukunft</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--101" class="nav-item nav-item-column-2 level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/karriere" title="Karriere" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/122">              <span class="link-text">Karriere</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 menu-column-2">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--104" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/karriere/hessen-mobil-als-arbeitgeber" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/125">              <span class="link-text">Hessen Mobil als Arbeitgeber</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--113" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/karriere/stellenangebote" title="Stellenangebote" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/134">              <span class="link-text">Stellenangebote</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--318" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/karriere/ausbildung-und-studium" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/387">              <span class="link-text">Ausbildung und Studium</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--321" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/karriere/ausbildungsstaette" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/390">              <span class="link-text">Ausbildungsstätte</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--838" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/karriere/beamtenlaufbahnausbildung" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/10408">              <span class="link-text">Beamtenlaufbahnausbildung</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--165" class="nav-item  level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/service" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/207">              <span class="link-text">Service</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 ">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--285" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/service/kontakt" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/354">              <span class="link-text">Kontakt</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--237" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/service/faq-reihe" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/306">              <span class="link-text">FAQ-Reihe</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--471" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/service/downloads-und-formulare" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/633">              <span class="link-text">Downloads und Formulare</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--459" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/service/publikationen" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/612">              <span class="link-text">Publikationen</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--345" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/service/social-media" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/441">              <span class="link-text">Social Media</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--835" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/service/unsere-themenwochen" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/10342">              <span class="link-text">Unsere Themenwochen</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--805" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/whatsapp" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/9145">              <span class="link-text">WhatsApp</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--43" class="nav-item  level-0  dropdown pt-4">
+
+                    
+            
+            
+            
+                        
+            
+                        <a href="/ueber-uns" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item dropdown-toggle mb-3 pl-0" data-toggle="dropdown" data-drupal-link-system-path="node/46">              <span class="link-text">Über uns</span>
+                          </a>
+
+                                          <div class="row no-gutters dropdown-menu">
+  <div class="col-12 col-lg-11 col-xl-10">
+    <div class="row no-gutters">
+
+            
+      
+            <ul class="nav navbar-nav-sub d-block col-12 ">
+
+                                
+        
+        
+        
+        
+                
+                <li id="menu--46" class="nav-item nav-item-sub level-1 pr-5  first ">
+
+          
+                                
+                    <a href="/ueber-uns/organisation" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/49">              <span class="link-text">Organisation</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--58" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/ueber-uns/praesident" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/64">              <span class="link-text">Präsident</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--654" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/ueber-uns/vizepraesidentin" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/4968">              <span class="link-text">Vizepräsident/in</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--61" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/ueber-uns/abteilungsleitungen" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/67">              <span class="link-text">Abteilungsleitungen</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--171" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/ueber-uns/daten-und-fakten" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/213">              <span class="link-text">Daten und Fakten</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--509" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/ueber-uns/pressestelle" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/767">              <span class="link-text">Pressestelle</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--168" class="nav-item nav-item-sub level-1 pr-5   ">
+
+          
+                                
+                    <a href="/ueber-uns/regionalbueros" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/210">              <span class="link-text">Regionalbüros</span>
+            </a>
+
+        </li>
+
+              
+        
+        
+        
+        
+                
+                <li id="menu--597" class="nav-item nav-item-sub level-1 pr-5   last">
+
+          
+                                
+                    <a href="/einblicke" class="dropdown-item link--internal overflow-hidden outline-offset--dropdown-item" data-drupal-link-system-path="node/2157">              <span class="link-text">Einblicke</span>
+            </a>
+
+        </li>
+
+      
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+                          
+          
+        </li>
+              
+                
+        
+                
+        
+                
+                <li id="menu--878" class="nav-item nav-item-column-1 level-0  level-0-link ">
+
+                    
+            
+                        
+                                      
+            
+                        <a href="/ams-infoseite" class="nav-link col-12 col-lg-8 link--internal outline-offset--dropdown-item" data-drupal-link-system-path="node/14068">                                  <span class="link-text">AMS-Infoseite</span>
+                              </a>
+
+          
+        </li>
+            </ul>
+
+
+  
+  </div>
+
+
+              </div>
+                            </div>
+    </div>
+
+        <div class="navbar__to-top-link nav-offcanvas scrollToTop">
+      <!--googleoff:index-->
+      <a href="#navbar-collapse" class="outline-offset--nav-link">
+        <span class="link-text">ZUM SEITENANFANG</span>
+      </a>
+      <!--googleon:index-->
+    </div>
+
+        <div class="navbar__close d-block">
+      
+<button  class="d-block align-items-center btn btn--navbar--close"
+      id="navToggleClose"
+      aria-label="Menü schließen"
+         title="Menü schließen" 
+  >
+            <span class="d-inline-block">schließen</span>
+          
+
+<i  class="icon icon--close bg-offcanvas-light"
+  aria-hidden="true"
+  title="Menü schließen"><svg role="img" data-drupal-link-title="Hauptmenü schließen" aria-labelledby="icon-call-to-action_icon_cross" xmlns="http://www.w3.org/2000/svg" id="icon_close" width="32" height="32" viewBox="0 0 32 32">
+  <desc id="icon-call-to-action_icon_cross">Symbol - Hauptmenü schließen</desc>
+  <path fill="none" id="Rechteck_1862" d="M0 0H32V32H0z" data-name="Rechteck 1862"/>
+  <g fill="none" stroke="currentColor" stroke-width="2" id="Gruppe_1299" data-name="Gruppe 1299" transform="translate(6548.656 15913.656)">
+    <path id="Linie_239" d="M0 0L16.97 0" data-name="Linie 239" transform="rotate(45 15928.084 -15844.686)"/>
+    <path id="Linie_240" d="M0 0L16.97 0" data-name="Linie 240" transform="rotate(135 30.427 -9303.543)"/>
+  </g>
+</svg>
+</i>
+          </button>
+    </div>
+
+  </div>
+
+</div>
+
+
+      </aside>
+
+            <div id="main" class="col-12 col-lg-5" tabindex="-1">
+                <main id="main-content" class="main pb-5" role="main" tabindex="-1">
+
+                                  <section>
+              <header class="page__header position-relative mb-3">
+                <div class="container">
+                    <div data-drupal-messages-fallback class="hidden"></div>
+
+
+                </div>
+              </header>
+            </section>
+          
+                    
+                                <div id="page-content" class="page__content" tabindex="-1">
+              <div class="container">
+                  
+  <div class="block block--hw-radix-standard-content main-content px-3 px-sm-0">
+
+  
+    
+
+      
+
+
+<article about="/startseite-mobilhessende" class="node hw-dossier hw-dossier--full">
+  
+  
+
+            
+            <div class="hw-dossier__field-dos-header">  <div class="paragraph paragraph--type--ap-start-reference paragraph--view-mode--dossier-aufmacher">
+          
+            <div class="ap-start-reference__field-one-content-paragraph">  <div class="paragraph paragraph--type--ap-start-free paragraph--view-mode--dossier-aufmacher">
+          
+<hgroup >
+    
+                  <p class="ap-start-free__field-pt-dateline topline-title topline mb-0">Hessen Mobil</p>
+      
+            <div class="ap-start-free__field-pt-front-title"><h1 class="topline-title headline m-0"> Aktuelles</h1>
+</div>
+      
+  </hgroup>
+      </div>
+</div>
+      
+      </div>
+</div>
+      
+    
+
+    
+    
+        
+          
+            <div class="hw-dossier__field-dos-multicontent">  <div class="paragraph paragraph--type--dossier-boxtype paragraph--view-mode--default">
+          
+      <div class="dossier-boxtype__field-boxtype">
+              <div class="field__item">  <div class="paragraph paragraph--type--cp-topic-reduced paragraph--view-mode--default">
+          
+            <div class="cp-topic-reduced__field-cp-topic-ref"><article class="bg-dark reduced topics mx-n3 mx-sm-0 topicelement">
+  
+<div  class="teaser media-half-size">
+    
+<div  class="row px-3 px-xxxl-25 py-1_75 py-lg-25 my-lg-25 my-md-20 my-4">
+    
+<div  class="col-12 col-md-6 d-inline-flex flex-row flex-md-column pb-3 pb-md-0">
+    
+
+            <div class="reduced__field-topicm-bgimage">  <div class="paragraph paragraph--type--entity-browser-image-single paragraph--view-mode--default">
+          
+            <div class="position-relative">
+  
+      <figure class="m-0">
+        
+            <div class="image__field-media-image">  <div class="mediabox-wrapper"><div class="mediabox image-style-16-9 lazyload">  <picture>
+                  <source media="(min-width: 1680px)" type="image/jpeg" width="928" height="522" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_lg/public/2025-03/symbolbild_baustelle_chessen_mobil.jpg?itok=eA77Q7XS 1x"/>
+              <source media="(min-width: 768px) and (max-width: 1679px)" type="image/jpeg" width="768" height="432" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2025-03/symbolbild_baustelle_chessen_mobil.jpg?itok=Qb_w1PXb 1x"/>
+              <source media="(min-width: 576px) and (max-width: 767px)" type="image/jpeg" width="768" height="432" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2025-03/symbolbild_baustelle_chessen_mobil.jpg?itok=Qb_w1PXb 1x"/>
+              <source media="(max-width: 575px)" type="image/jpeg" width="576" height="324" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_sm/public/2025-03/symbolbild_baustelle_chessen_mobil.jpg?itok=Z5zbyHQX 1x"/>
+                  
+<img loading="eager" width="480" height="270" class="mediabox-img lazyload img-fluid" data-sizes="auto" alt="Symbolbild Baustelle " title="Symbolbild Baustelle " data-src="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_xs/public/2025-03/symbolbild_baustelle_chessen_mobil.jpg?itok=lXt6uMD6" typeof="foaf:Image" />
+
+  </picture>
+</div></div>
+</div>
+      
+
+                  <figcaption class="image--field-media-copyright image__field-media-copyright">© Hessen Mobil</figcaption>
+      
+      </figure>
+  </div>
+
+
+            
+      </div>
+</div>
+      
+  </div>
+<div  class="col-12 col-md-6">
+    
+<div  class="mb-4">
+    <hgroup>
+    
+            <p class="reduced__field-topicm-line p-reboot">Hessen</p>
+      
+  
+            <h2 class="reduced__title">Baustellen im Überblick</h2>
+      </hgroup>
+  </div>
+<div  class="mb-4 cke-richtext-content">
+    
+                  <p class="reduced__field-topicm-teaser my-0">Aktuelle Baustellen in Hessen anzeigen – mit nur einem Klick nach Ihrer Region filtern!</p>
+      
+  </div>
+
+            <div class="reduced__field-topicm-download">  <div class="paragraph paragraph--type--link-single paragraph--view-mode--default">
+          
+
+            <div class="link-single__field-link-single"><a href="/presse" class="link--internal link outline-offset--outside" title="Alle aktuellen Baustellen im Überblick"><i class="icon icon--link-internal" aria-hidden="true"><svg id="icon_link_intern" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <path id="Rechteck_2450" fill="none" stroke="none"  d="M0 0H16V16H0z"/>
+    <g fill="none" stroke="none" id="Gruppe_3329" transform="rotate(135 -10407.719 -1809.48)">
+        <g id="Gruppe_3241" transform="translate(0 -1)">
+            <path stroke="currentColor" stroke-width="2" id="Pfad_3389" d="M35.407-8.024v-6h6" transform="translate(-16525.998 -10448.002)"/>
+            <path stroke="currentColor" stroke-width="2" id="Linie_1323" d="M0 0L6 6" transform="translate(-16490.592 -10462)"/>
+        </g>
+    </g>
+</svg>
+
+</i><span class='link-text'>Mehr erfahren</span></a></div>
+      
+      </div>
+</div>
+      
+  </div>
+  </div>
+  </div></article>
+</div>
+      
+      </div>
+</div>
+              <div class="field__item">  <article class="paragraph paragraph--type--cp-box-tile paragraph--view-mode--default d-block default my-lg-5 my-25">
+          
+<div class="row no-gutters">
+  <div class="col">
+    <h2  class="inpage-headline mb-3">
+                
+            <div class="cp-box-tile__field-cpbt-boxtitle">Top-Meldungen</div>
+      
+          </h2>
+  </div>
+</div>
+
+            <div class="cp-box-tile__field-cpbt-boxref">  <div class="paragraph paragraph--type--sub-cp-box-tile-manual paragraph--view-mode--default">
+          
+      <div class="sub-cp-box-tile-manual__field-sub-cpbt-itemref">
+                        <div class="row row--tile-teaser mb-0_75">
+      <div class="col-12 col-md-6">
+        <div class="field__item media-half-size">
+<article about="/presse/bad-camberg-bau-der-ortsumgehung-fuer-luftkurort-schreitet-voran" class="node hw-article hw-article--teaser-context-tile teaser teaser--tile">
+  
+  
+
+  
+                
+    
+                
+                  
+      <a class="teaser--area-link d-block tp_press outline-offset--tile-link" href="/presse/bad-camberg-bau-der-ortsumgehung-fuer-luftkurort-schreitet-voran" title="Bad Camberg: Bau der Ortsumgehung für Luftkurort schreitet voran">
+                
+  
+
+
+
+            <div class="media-teaser__tp_press hw-article__field-art-teaser">  <div class="paragraph paragraph--type--teaser-generic paragraph--view-mode--teaser-tile">
+          
+            <div class="teaser-generic__field-teaser-image">  <div class="paragraph paragraph--type--entity-browser-image-single paragraph--view-mode--header-multimedia">
+          
+            <div class="position-relative">
+  
+      <figure class="m-0">
+        
+            <div class="image__field-media-image">  <div class="mediabox-wrapper"><div class="mediabox image-style-16-9 lazyload">  <picture>
+                  <source media="(min-width: 1680px)" type="image/jpeg" width="928" height="522" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_lg/public/2026-10/ou_bad_camberg-7_0.jpg?itok=dfAwMBWo 1x"/>
+              <source media="(min-width: 768px) and (max-width: 1679px)" type="image/jpeg" width="768" height="432" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2026-10/ou_bad_camberg-7_0.jpg?itok=XfOvvgRP 1x"/>
+              <source media="(min-width: 576px) and (max-width: 767px)" type="image/jpeg" width="768" height="432" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2026-10/ou_bad_camberg-7_0.jpg?itok=XfOvvgRP 1x"/>
+              <source media="(max-width: 575px)" type="image/jpeg" width="576" height="324" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_sm/public/2026-10/ou_bad_camberg-7_0.jpg?itok=HuyV5OVn 1x"/>
+                  
+<img loading="eager" width="480" height="270" class="mediabox-img lazyload img-fluid" data-sizes="auto" alt="OU Bad Camberg 7" title="OU Bad Camberg 7" data-src="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_xs/public/2026-10/ou_bad_camberg-7_0.jpg?itok=RNenHASK" typeof="foaf:Image" />
+
+  </picture>
+</div></div>
+</div>
+      
+
+                  <figcaption class="image--field-media-copyright image__field-media-copyright">© Hessen Mobil</figcaption>
+      
+      </figure>
+  </div>
+
+
+            
+      </div>
+</div>
+      <div class="row no-gutters date-publisher"><p class="date my-0">13.10.2026</p>
+<p class="publisher my-0">Hessisches Verkehrsministerium</p>
+</div>
+<hgroup><div class="row no-gutters label-dateline"><p class="label mt-0">Pressemitteilung</p>
+
+                  <p class="teaser-generic__field-pt-dateline topline-title topline mb-0">Kreis Limburg-Weilburg</p>
+      </div>
+
+      
+            
+                    <h2 class="teaser-generic__field-pt-headline topline-title headline m-0">Bad Camberg: Bau der Ortsumgehung für Luftkurort schreitet voran</h2>
+            </hgroup>
+              <div class="teaser-generic__field-pt-teasertext teasertext">
+          <p>Fünf von zehn Brücken und die ersten drei Streckenabschnitte sind fertiggestellt</p>
+        </div>
+      
+      </div>
+</div>
+      
+      </a>
+
+    
+  </article>
+</div>
+      </div>
+                      <div class="col-12 col-md-6">
+        <div class="field__item media-half-size">
+<article about="/presse/deutscher-strassen-und-verkehrskongress-2026-in-wiesbaden" class="node hw-article hw-article--teaser-context-tile teaser teaser--tile">
+  
+  
+
+  
+                
+    
+                
+                  
+      <a class="teaser--area-link d-block tp_press outline-offset--tile-link" href="/presse/deutscher-strassen-und-verkehrskongress-2026-in-wiesbaden" title="Deutscher Straßen- und Verkehrskongress 2026 in Wiesbaden: ">
+                
+  
+
+
+
+            <div class="media-teaser__tp_press hw-article__field-art-teaser">  <div class="paragraph paragraph--type--teaser-generic paragraph--view-mode--teaser-tile">
+          
+            <div class="teaser-generic__field-teaser-image">  <div class="paragraph paragraph--type--entity-browser-image-single paragraph--view-mode--header-multimedia">
+          
+            <div class="position-relative">
+  
+      <figure class="m-0">
+        
+            <div class="image__field-media-image">  <div class="mediabox-wrapper"><div class="mediabox image-style-16-9 lazyload">  <picture>
+                  <source media="(min-width: 1680px)" type="image/jpeg" width="928" height="522" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_lg/public/2024-10/robert_schittko_copyright-103.jpg?h=443c9cea&amp;itok=476sHcha 1x"/>
+              <source media="(min-width: 768px) and (max-width: 1679px)" type="image/jpeg" width="768" height="432" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2024-10/robert_schittko_copyright-103.jpg?h=443c9cea&amp;itok=TjEigoSc 1x"/>
+              <source media="(min-width: 576px) and (max-width: 767px)" type="image/jpeg" width="768" height="432" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_md/public/2024-10/robert_schittko_copyright-103.jpg?h=443c9cea&amp;itok=TjEigoSc 1x"/>
+              <source media="(max-width: 575px)" type="image/jpeg" width="576" height="324" data-srcset="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_sm/public/2024-10/robert_schittko_copyright-103.jpg?h=443c9cea&amp;itok=S-n_n1Wz 1x"/>
+                  
+<img loading="eager" width="480" height="270" class="mediabox-img lazyload img-fluid" data-sizes="auto" alt="Gemeinschaftsstand der Bundesländer aus der Vogelperspektive" title="DSVK 2024 - 19" data-src="/sites/mobil.hessen.de/files/styles/crop_image_style_16_9_xs/public/2024-10/robert_schittko_copyright-103.jpg?h=443c9cea&amp;itok=WUFFKgf2" typeof="foaf:Image" />
+
+  </picture>
+</div></div>
+</div>
+      
+
+                  <figcaption class="image--field-media-copyright image__field-media-copyright">© Robert Schittko</figcaption>
+      
+      </figure>
+  </div>
+
+
+            
+      </div>
+</div>
+      <div class="row no-gutters date-publisher"><p class="date my-0">06.10.2026</p>
+<p class="publisher my-0">Zentrale</p>
+</div>
+<hgroup><div class="row no-gutters label-dateline"><p class="label mt-0">Pressemitteilung</p>
+
+                  <p class="teaser-generic__field-pt-dateline topline-title topline mb-0">Wiesbaden</p>
+      </div>
+
+      
+            
+                    <h2 class="teaser-generic__field-pt-headline topline-title headline m-0">Deutscher Straßen- und Verkehrskongress 2026 in Wiesbaden: </h2>
+            </hgroup>
+              <div class="teaser-generic__field-pt-teasertext teasertext">
+          <p>Hessen Mobil präsentiert innovative Verkehrslösungen und lädt zum Dialog ein</p>
+        </div>
+      
+      </div>
+</div>
+      
+      </a>
+
+    
+  </article>
+</div>
+      </div>
+      </div>
+                <div class="row row--tile-teaser__last">
+      <div class="col-12 col-md-6">
+        <div class="field__item media-half-size">
+<article about="/presse/b-45-neubau-der-talbruecke-bei-bad-koenigzell-4" class="node hw-article hw-article--teaser-context-tile teaser teaser--tile">
+  
+  
+
+  
+                
+    
+                
+                  
+      <a class="teaser--area-link d-block tp_press outline-offset--tile-link" href="/presse/b-45-neubau-der-talbruecke-bei-bad-koenigzell-4" title="B 45: Neubau der Talbrücke bei Bad König/Zell">
+                
+  
+
+
+
+            <div class="media-teaser__tp_press hw-article__field-art-teaser">  <div class="paragraph paragraph--type--teaser-generic paragraph--view-mode--teaser-tile">
+          
+            <div class="teaser-generic__field-teaser-image">  <div class="paragraph paragraph--type--entity-browser-image-single paragraph--view-mode--header-multimedia">
+          
+            <div class="position-relative">
+  
+      <figure class="m-0">
+        
+            <div class="image__field-media-image">  <div class="mediabox-wrapper"><div class="mediabox image-style-16-9 lazyload">  <picture>
+             
