@@ -1,0 +1,52 @@
+{
+ "ranAt": "2026-10-14T02:06:44.078Z",
+ "results": [
+  {
+   "id": "wy_site",
+   "url": "https://www.wyoroad.info/highway/webcameras/view?site=I80EvanstonPOE",
+   "status": 200,
+   "ms": 278,
+   "bytes": 23846,
+   "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "server": "nginx",
+    "content-encoding": "br"
+   },
+   "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html lang=\"en\">\n<head>\n     <title>WYDOT 511 Service - Web Cameras </title>\n    \n    <meta name=\"Keyword\" content=\"roads, highways, conditions, Restrictions, Distances, web cameras\"/>\n    <meta name=\"Description\"\n          content=\"WYDOT 511 Service - Web Cameras\"/>\n    <!-- header image, work for WYDOT - start -->\n    <meta property=\"og:image\" content=\"https://wyoroad.info/images/Work-for-WYDOT.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://wyoroad.info/images/Work-for-WYDOT.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"950\" />\n    <meta property=\"og:image:height\" content=\"200"
+  },
+  {
+   "id": "wy_map",
+   "url": "https://map.wyoroad.info/",
+   "status": 200,
+   "ms": 302,
+   "bytes": 399,
+   "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "283",
+    "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gisits.local *.arcgisonline.com *.arcgis.com *.wyoroad.info http://*.wyoroad.info *.noaa.gov *.agron.iastate.edu *.monsido.com *.googleusercontent.com docs.google.com; frame-ancestors *.wyoroad.info www.arcgis.com wohs.maps.arcgis.com su",
+    "cache-control": "max-age=0, no-transform",
+    "last-modified": "Mon, 14 Sep 2026 19:46:32 GMT",
+    "server": "Apache",
+    "content-encoding": "gzip"
+   },
+   "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\"/>\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\r\n    <title>WYDOT 511 Map Resources</title>\r\n  <script type=\"module\" crossorigin src=\"/assets/index-ByuPx7ti.js\"></script>\n  <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DcNl3Qlu.css\">\n</head>\r\n<body>\r\n<div id=\"app\"></div>\r\r\n</body>\r\n</html>"
+  },
+  {
+   "id": "src_ar",
+   "source": "usa:idrivear",
+   "count": 551,
+   "ms": 318,
+   "warns": [],
+   "sample": [
+    {
+     "id": "457",
+     "name": "I-30 @ Red River",
+     "lat": 33.605106,
+     "lng": -93.815969,
+     "dir": "East",
+     "page": "https://www.idrivearkansas.com/"
+    }
+   ]
+  }
+ ]
+}

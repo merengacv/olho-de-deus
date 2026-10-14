@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">
+<head>
+     <title>WYDOT 511 Service - Web Cameras </title>
+    
+    <meta name="Keyword" content="roads, highways, conditions, Restrictions, Distances, web cameras"/>
+    <meta name="Description"
+          content="WYDOT 511 Service - Web Cameras"/>
+    <!-- header image, work for WYDOT - start -->
+    <meta property="og:image" content="https://wyoroad.info/images/Work-for-WYDOT.png" />
+    <meta property="og:image:secure_url" content="https://wyoroad.info/images/Work-for-WYDOT.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="950" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:image:alt" content="Index image for WYOROAD main website" />
+    <meta property="og:image:url" content="https://wyoroad.info/images/Work-for-WYDOT.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WYDOT Travel Information Service" />
+    <meta property="og:description" content="Wyoming Department of Transportation Travel Information Service" />
+    <!--<meta property="fb:app_id" content="" />-->
+    <!-- header image, work for WYDOT - end -->    <title>WYDOT 511 Service</title>
+
+        <link href="/css/Header.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/Body.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+<center>
+        <div id="flag">
+            <!--
+            <table class="" style="width: 650px; margin-left: auto; margin-right: auto;">
+                     <tbody>
+                        <tr>
+                           <td class="hdrText" colspan="3">&nbsp;&nbsp;Wyoming State Government:&nbsp;&nbsp;&nbsp;&nbsp;
+                              <a href="https://www.wyo.gov/resources/citizen">Citizen</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <a href="https://www.wyo.gov/resources/business">Business</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <a href="https://www.wyo.gov/">Government</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <a href="https://travelwyoming.com/">Visitor</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <a href="https://wyoming.attract.neogov.com/wydot">Apply for WYDOT jobs</a>
+                           </td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <img src="/Images/HeaderImage.gif" height="60px" width="100%">
+                           </td>
+                        </tr>
+                     </tbody>
+            </table>
+            -->
+            <table class="" style="width: auto; margin-left: auto; margin-right: auto;" role="presentation">
+               <tbody>
+                  <tr>
+                     <td class="hdrText">
+                          <a href="https://wyoming.attract.neogov.com/wydot" aria-label="Work for WYDOT - Employment opportunities with the Wyoming Department of Transportation">
+                <img src="/images/Work-for-WYDOT.png" height="" width="100%" alt="Work for WYDOT - Employment opportunities with the Wyoming Department of Transportation">
+            </a>
+                      </td>
+                  </tr>
+               </tbody>
+            </table>        </div>
+
+        <!--The following section of code is for the 'breadcrumbs' at the top of the body-->
+         <div class="breadcrumbs">
+    <a href="http://www.dot.state.wy.us">WYDOT</a> &gt;
+    <a href="/Index.html">WYOROAD</a> &gt;
+    <a href="/highway/webcameras/webcameras.html" aria-label="Web Cameras - all routes">Web Cameras</a> &gt;
+    <a href="/Highway/webcameras/all?route=I80Cameras" aria-label="Interstate 80 web cameras">Interstate 80</a> &gt;Evanston POE
+    <br/>
+    <br/>
+      </div>
+
+
+<div class="page"> <!--This code provides the border around the page content as well as content formatting-->
+    <table style="width: 100%" role="presentation">
+        <tr>
+            <!--The following section of code is for the menu on the left of the screen-->
+            <td style="vertical-align: top; width: 25%">
+
+                <div id="leftmenu">
+                    <!-- The following code represents the left menu contained on most WYOROAD pages -->
+                    <title> Wydot Platform </title>
+                    <b>Conditions</b>
+                    <div style="margin-left: 10px">
+                        <ul>
+                            <li><a href="/Highway/text_road.html">WYDOT District</a></li>
+                            <li><a href="https://map.wyoroad.info">WYDOT Conditions Map</a></li>
+                            <li><a href="/pls/Browse/WRR.ConditionsQuery">Conditions By City</a></li>
+                            <li><a href="/pls/Browse/WRR.RoutesQuery">Conditions By Route</a></li>
+                            <li><a href="/Highway/conditions/VSL.html">Variable Speed Limits</a></li>
+                            <li><a href="/Highway/conditions/ChainLaw.html">Chain Law</a></li>
+                            <li><a href="/Highway/rti_other.html">Neighboring States</a></li>
+                            <li><a href="https://www.nps.gov/yell/planyourvisit/parkroads.htm">Yellowstone National Park</a></li>
+                            <li><a href="/Highway/History/HistoricalInfo.html">Historic Road Closure Data</a></li>
+                        </ul>
+                    </div>
+
+                    <ul>
+                        <li><a href="/highway/conditions/RoadClosures.html">Closures and Advisories</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="/pls/Browse/WRR.Incidents">Incidents</a></li>
+                    </ul>
+                          
+                    <ul>
+                        <li><a href="/Highway/definitions.html">Definitions</a></li>
+                    </ul>
+
+                    <b >Condition Maps</b>
+                    <div style="margin-left: 10px">
+                        <ul>
+                            <li><a href="/ext/observed_radar.html">Observed Radar</a></li>
+                            <li><a href="/ext/observed_temp.html">Observed Temperatures</a></li>
+                            <li><a href="/ext/observed_weather.html">Observed Weather</a></li>
+                        </ul>
+                    </div>
+
+                    <b>Supplemental Information</b>
+                <div style="margin-left: 10px">
+                    <ul>
+                        <li>
+                            <a href="/Highway/webcameras/webcameras.html" aria-label="View all Wyoming Highway Web Cameras" >Web Cameras</a>
+                                <ul>
+                                        <li>
+                                            <a href="/Highway/webcameras/all?route=I25Cameras">Interstate 25</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Highway/webcameras/all?route=I80Cameras">Interstate 80</a>
+                                                <ul>
+                                                        <li><a href="/highway/webcameras/view?site=I80EvanstonPOE">Evanston POE</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Evanston">Evanston</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80BearRiverDr">Bear River Dr</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80FirstDivide">First Divide</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80US189Interchange">US 189 Interchange</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80FrenchInt">French Interchange</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80ChurchButte">Church Butte</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80LittleAmerica">Little America</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80PeruHill">Peru Hill</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80GRTunnelWest">Green River Tunnel West</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80GRTunnelEast">Green River Tunnel East</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80MM92">Mile Marker 92.75</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80MM94">Mile Marker 94.2</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80RockSpringsWest">Rock Springs West</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80CollegeDrive">College Dr</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80ElkStreet">Elk Street</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80PilotButte">Pilot Butte</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80BaxterRd">Baxter Road</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80PointOfRocks">Point of Rocks</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80BlackButte">Black Butte</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80BitterCreek">Bitter Creek</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Tipton">Tipton</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Wamsutter">Wamsutter Interchange</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80ContinentalDivide">Continental Divide</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80CrestonJct">Creston Junction</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80HadsellIntchg">Hadsell</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Sinclair">Sinclair</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Walcott">Walcott Junction</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80DanaRidge">Dana Ridge</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80MM249">Mile Marker 249.1</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80HalleckRidge">Halleck Ridge</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80ElkMtn">Elk Mountain</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80CountyRd402">County Road 402</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Wagonhound">Wagonhound</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80FooteCreek">Foote Creek</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Arlington">Arlington</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80ArlingtonEast">Arlington East</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80CooperCove">Cooper Cove</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80CooperCoveEast">Cooper Cove East</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80StroussHill">Strouss Hill</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80QuealyDome">Quealy Dome</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80HerrickLn">Herrick Lane</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80LaramieWest">Laramie West</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Laramie">Laramie East</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80TelephoneCanyon">Telephone Canyon</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Summit">Summit</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80SummitEast">Summit East</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80SummitTavern">Summit Tavern</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80VedauwooWest">Vedauwoo West</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Vedauwoo">Vedauwoo</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80LoneTree">Lone Tree</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Buford">Buford</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80BufordEast">Buford East</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Remount">Remount Road</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Harriman">Harriman</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80HarrimanEast">Harriman East</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Warren">Warren Interchange</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80MM353">MP 353.0</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80Roundtop">Roundtop</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80CheyenneEast">Cheyenne East</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80CarpenterInt">Carpenter Interchange</a></li>
+                                                        <li><a href="/highway/webcameras/view?site=I80PineBluffs">Pine Bluffs</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a href="/Highway/webcameras/all?route=I90Cameras">Interstate 90</a>
+                                        </li>
+                                        <li>
+                                            <a href="/Highway/webcameras/all?route=NonInterstateCameras">Non-Interstate Routes</a>
+                                        </li>
+                                    <li><a href="/pls/Browse/WRR.Cameras">Statewide Cameras</a></li>
+                                    <li><a href="/pls/Browse/WRR.CameraCityQuery">Cameras By City</a></li>
+                                    <li><a href="/pls/Browse/WRR.CameraRoutesQuery">Cameras By Route</a></li>
+                                    <li><a href="/pls/Browse/WRR.CameraByShieldQuery">Cameras By Shield</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="/Highway/Sensors/sensors.html">Atmospheric Sensors</a></li>
+                        <li><a href="/ext/restareas.html">Rest Areas</a></li>
+                        <li><a href="/ext/snow_plow_priority_plan.html">Snow Plow Priority Plan</a></li>
+                        <li><a href="http://dayweatherpodcast.com/">Regional Weather Podcast</a></li>
+                    </ul>
+                </div>
+
+                    <b>Construction</b>
+                    <div style="margin-left: 10px">
+                        <ul>
+                            <li><a href="https://map.wyoroad.info/511-map/?layers=construction">Statewide Construction Map</a></li>
+                        </ul>
+                    </div>
+
+                    <b>Truck Driver Information</b>
+                    <div style="margin-left: 10px">
+                        <ul>
+                            <li><a href="https://map.wyoroad.info/wtimap/index.html?show=portsofentry">Ports of Entry Map</a></li>
+                            <li><a href="http://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Public%20Affairs/brochures/blow-over%20brochure.pdf">Blow-Over Hazards</a></li>
+                            <li><a href="http://www.whp.dot.state.wy.us/home/commercial-carrier.html">Commercial Carrier</a></li>
+                            <li><a href="/Highway/truck_info.html">Runaway Truck Info</a></li>
+                            <li><a href="/Highway/Restrictions.html">Size and Weight Restrictions</a></li>
+                            <!--<li><a href="/Highway/Teton.pdf">Teton Pass Information</a></li>-->
+                        </ul>
+                    </div>
+
+                    <ul>
+                        <li><a href="http://www.wygcid.org/">Governor's Council on Impaired Driving</a></li>
+                    </ul>
+                </div>
+            </td>
+
+            <!--The following code is for the page content-->
+            <td class="content">
+                    <h1> Web Cameras </h1>
+                   <span class="title">
+                      WYDOT 511 Service
+                      
+                   </span>
+                    <br/><br/>
+
+                    <!--<a href="/511/511Announcement.html"><img style="border: 0px solid; width: 87px; height: 57px;"
+                                                             src="/images/511.jpg" alt="Wyoming 511"/></a>-->
+                    <a href="/511/511Announcement.html"><img style="border: 0px solid; width: 87px;"
+                                                             src="/images/511.jpg" alt="Wyoming 511"/></a>
+                    <br/>
+                    <br/>
+
+                    Toll Free Nationwide: <br/>
+                    1-888-WYO-ROAD <br/>
+                    (1-888-996-7623) <br/>
+                    <br/>
+                <span style="margin-bottom: 3em" class="title popUp-title">I80&#x2F;US189 Evanston POE - mm 0.06<br/></span>
+
+                <div class="popUp-camera-container" style="margin-top: 2em; text-align: center; width: 100%">
+                            <div style="margin-bottom: 3em">
+                                <div class="title popUp">I 80 Evanston Port of Entry - West</div>
+                                <img src="/web-cam/cache?ref=VTJGc2RHVmtYMTkzdW4yQWRRZ1hjMkJteWpRRExEWGk0ZEN3K2NjTCsxQm5WS0dtYUt3VHFPL3VrbUxZVjhsSmFUVUQ1MWI2SDRESGZ1SGJnNEptaHFPQ09QNTJNUTVnTitmRW92cUd3SDQ9" class="photolarge" style="height:auto" alt="I 80 Evanston Port of Entry - West" />
+                            </div>
+                            <div style="margin-bottom: 3em">
+                                <div class="title popUp">I 80 Evanston Port of Entry - East</div>
+                                <img src="/web-cam/cache?ref=VTJGc2RHVmtYMS9iYlZRemtwQjNCKzFTakFrWXJUNDMxRzlsTURtRW9zREpKWDhSMk1JWHBlSEFwRjdtYzFITzRwSjBvNXhxcGVGNFViODZOTzZiWXNFalhsaGFxUFlicUJNRVdoS0RweEU9" class="photolarge" style="height:auto" alt="I 80 Evanston Port of Entry - East" />
+                            </div>
+                            <div style="margin-bottom: 3em">
+                                <div class="title popUp">I 80 Evanston Port of Entry - Road Surface</div>
+                                <img src="/web-cam/cache?ref=VTJGc2RHVmtYMTllOXoyZitUZ2V1V2VhS3cwaVpkTCtvVlZQQ0Juc3NFK2lnclp6VzdaZGNsQTlQdVY4Ykd3R3hTc2FJL1prVkhaa1A2eVpFSjh3UkRNL2dzOUEyVWwrb0diZWpySG4zTDg9" class="photolarge" style="height:auto" alt="I 80 Evanston Port of Entry - Road Surface" />
+                            </div>
+                            <div style="margin-bottom: 3em">
+                                <div class="title popUp">I 80 Evanston Port of Entry - Port</div>
+                                <img src="/web-cam/cache?ref=VTJGc2RHVmtYMS9XeFpJQW54L3VsU0huT2NPSElaUUk4b093aFlrODZ0M0lUL3JsR2lVMklCc2k0WGdZQ1FtTUZkd1RRK2FCUXJVMDQyNk9tQ0tqVVA2VGtmaHhXMHFnemdaMXhPZms4c2M9" class="photolarge" style="height:auto" alt="I 80 Evanston Port of Entry - Port" />
+                            </div>
+
+                        <p style="margin-top: 1em">
+                            The image(s) stored on the WYDOT Web server should update every few minutes or so.
+                            The image is not automatically updated to your browser. To get the latest image,
+                            reload or refresh your browser.
+                        </p>
+                </div>
+                <br/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+    <div>
+        <!--<table class="linktable" style="width: 650px">-->
+        <table class="linktable footer" style="" role="presentation">
+            <tbody>
+            <tr>
+                <td><a href="https://www.wyo.gov/resources/citizen">Citizen</a></td>
+                <td><a href="https://www.wyo.gov/resources/business">Business</a></td>
+                <td><a href="https://www.wyo.gov/">Government</a></td>
+                <td><a href="https://travelwyoming.com/">Visitor</a></td>
+                <td>
+                    <a href="#contactpopup">Contact Us</a>
+                    <div id="contactpopup" class="overlay">
+                        <div class="popup">
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">To contact WYDOT please send an email to wyoroad@wyo.gov.</div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    Copyright &copy; 2026 State of Wyoming
+                </td>
+                <td>
+                    <a href="/disclaimer.html">Disclaimer</a>
+                </td>
+                <td>
+                    <a href="https://ag.wyo.gov/privacy">Privacy Policy</a>
+                </td>
+                <td>
+                    <a href="/pls/Browse/MEDIA.Statewide">Media</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9" style="text-align: center;">
+                     v. 1.2.0.2780-20261006&nbsp;
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</center>
+</body>
+
+</html>
