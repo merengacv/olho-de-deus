@@ -81,24 +81,31 @@ export function matchCams(cams, idx) {
   return cams;
 }
 
+// pontos do OSM: cache de até 30 dias; senão o Overpass; se ele falhar, a cópia que vem no
+// repositório (collector/data/hak-osm.json, gerada com as mesmas consultas)
 async function osmPoints(cacheDir, warn) {
   const file = join(cacheDir || "collector/.cache", "hak-osm.json");
   try { if (Date.now() - (await stat(file)).mtimeMs < 30 * 86400e3) return JSON.parse(await readFile(file, "utf8")); } catch { /* consulta de novo */ }
   const els = [];
-  for (const q of Q) {
-    let ok = false;
-    for (const ep of OVERPASS) {
-      try {
-        const j = await fetchJSON(ep, { method: "POST", body: new URLSearchParams({ data: q }), headers: { "Content-Type": "application/x-www-form-urlencoded" }, timeout: 200000, retries: 0 });
-        els.push(...((j && j.elements) || []).map((e) => ({ tags: e.tags, lat: e.lat ?? (e.center && e.center.lat), lon: e.lon ?? (e.center && e.center.lon) })));
-        ok = true;
-        break;
-      } catch (e) { warn("Overpass: " + e.message); }
+  try {
+    for (const q of Q) {
+      let ok = false;
+      for (const ep of OVERPASS) {
+        try {
+          const j = await fetchJSON(ep, { method: "POST", body: new URLSearchParams({ data: q }), headers: { "Content-Type": "application/x-www-form-urlencoded" }, timeout: 120000, retries: 0 });
+          els.push(...((j && j.elements) || []).map((e) => ({ tags: e.tags, lat: e.lat ?? (e.center && e.center.lat), lon: e.lon ?? (e.center && e.center.lon) })));
+          ok = true;
+          break;
+        } catch (e) { warn("Overpass: " + e.message); }
+      }
+      if (!ok) throw new Error("Overpass fora do ar");
     }
-    if (!ok) { try { return JSON.parse(await readFile(file, "utf8")); } catch { return els; } } // cache velho é melhor que nada
+    try { await writeFile(file, JSON.stringify(els)); } catch { /* sem cache em disco */ }
+    return els;
+  } catch {
+    try { return JSON.parse(await readFile(file, "utf8")); } catch { /* sem cache velho */ }
+    return JSON.parse(await readFile(new URL("../data/hak-osm.json", import.meta.url), "utf8"));
   }
-  try { await writeFile(file, JSON.stringify(els)); } catch { /* sem cache em disco */ }
-  return els;
 }
 
 export default [{
