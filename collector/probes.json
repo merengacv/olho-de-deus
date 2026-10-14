@@ -1,7 +1,6 @@
 {
  "probes": [
-  { "id": "src_mt", "source": "usa:iteris-mt", "sample": 2 },
-  { "id": "src_sc", "source": "usa:iteris-sc", "sample": 2 },
-  { "id": "src_ks", "source": "usa:cars-ks", "sample": 2 }
+  { "id": "iteris_mt", "url": "https://mt.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson", "noOrigin": true, "save": 12000 },
+  { "id": "iteris_sc", "url": "https://sc.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson", "noOrigin": true, "save": 12000 }
  ]
 }
