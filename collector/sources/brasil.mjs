@@ -185,6 +185,19 @@ async function barueri() {
   }));
 }
 
+// Clima ao Vivo: rede privada de câmeras do tempo (torres de provedores de internet, hotéis,
+// prédios) no Brasil inteiro. A lista com coordenadas é pública; a imagem fica no site deles,
+// então aqui entra só o link para a página de cada câmera.
+async function climaAoVivo() {
+  const d = await fetchJSON("https://cmsv2.climaaovivo.com.br/api/cameras", { timeout: 60000, headers: { Referer: "https://www.climaaovivo.com.br/", Origin: "https://www.climaaovivo.com.br" } });
+  return (d && Array.isArray(d.data) ? d.data : []).filter((c) => String(c.inprivada) !== "1" && c.desurl && isFinite(c.deslatitude) && isFinite(c.deslongitude) && Math.abs(+c.deslatitude) > 0.5)
+    .map((c) => ({
+      id: String(c.idcamera), name: clean(`${c.descidade} — ${c.destitulo}`, 110), lat: +c.deslatitude, lng: +c.deslongitude,
+      where: clean(c.descidade, 60) + ", " + c.dessigla, dir: clean(c.desrosa, 24), type: "clima",
+      page: "https://www.climaaovivo.com.br/" + String(c.dessigla).toLowerCase() + "/" + encodeURIComponent(c.desurl),
+    }));
+}
+
 export default [
   {
     id: "motiva", name: "Motiva — câmeras ao vivo das rodovias", org: "Motiva (concessionárias de rodovias, antigo Grupo CCR)", country: "BR", type: "trafego",
@@ -200,6 +213,11 @@ export default [
     id: "barueri", name: "Barueri — câmeras da cidade", org: "Prefeitura de Barueri (Cidade Inteligente)", country: "BR", type: "cidade",
     home: "https://servicos.barueri.sp.gov.br/cameras/", attr: "Prefeitura de Barueri", lic: "pontos do mapa público de câmeras; imagem só na página oficial",
     run: () => barueri(),
+  },
+  {
+    id: "climaaovivo", name: "Clima ao Vivo (rede privada)", org: "Clima ao Vivo", country: "BR", type: "clima",
+    home: "https://www.climaaovivo.com.br/cidades", attr: "Clima ao Vivo", lic: "rede privada: só o link para a câmera no site deles",
+    run: () => climaAoVivo(),
   },
   {
     id: "der-sp", name: "DER-SP — câmeras das rodovias", org: "Departamento de Estradas de Rodagem do Estado de São Paulo", country: "BR", type: "trafego",

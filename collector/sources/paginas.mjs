@@ -11,7 +11,6 @@ export const PAGINAS = [
   { id: "feliz", city: "Feliz", uf: "RS", lat: -29.4527, lng: -51.3058, type: "rio", url: "https://www.feliz.rs.gov.br/site/cameras-ao-vivo", org: "Prefeitura Municipal de Feliz" },
   { id: "nova-friburgo", city: "Nova Friburgo", uf: "RJ", lat: -22.2819, lng: -42.5311, type: "cidade", url: "https://nfci.pmnf.rj.gov.br/camerasaovivo.html", org: "Prefeitura de Nova Friburgo (Cidade Inteligente)", note: "câmeras de terceiros reunidas na página da prefeitura" },
   { id: "sao-caetano", city: "São Caetano do Sul", uf: "SP", lat: -23.6229, lng: -46.5548, type: "cidade", url: "https://www.saocaetanodosul.sp.gov.br/pages/24", org: "Prefeitura de São Caetano do Sul (Defesa Civil)" },
-  { id: "rio-das-antas", city: "Rio das Antas", uf: "SC", lat: -26.8946, lng: -51.0744, type: "cidade", url: "https://riodasantas.sc.gov.br/pagina-35081/", org: "Prefeitura de Rio das Antas" },
 ];
 
 // players reconhecidos: [padrão, (achado) => { emb | hls, key }]. O site troca {host} pelo
