@@ -1,12 +1,10 @@
 {
  "probes": [
-  { "id": "ab_roads", "url": "https://verkehr.autobahn.de/o/autobahn/", "noOrigin": true, "timeout": 60000, "save": 20000 },
-  { "id": "ab_a1", "url": "https://verkehr.autobahn.de/o/autobahn/A1/services/webcam", "noOrigin": true, "timeout": 60000, "save": 60000 },
-  { "id": "ab_a9", "url": "https://verkehr.autobahn.de/o/autobahn/A9/services/webcam", "noOrigin": true, "timeout": 60000, "save": 60000 },
-  { "id": "hak_page", "url": "https://www.hak.hr/info/kamere/", "noOrigin": true, "text": true, "save": 60000 },
-  { "id": "hak_a1", "url": "https://www.hak.hr/info/kamere/manifest/A1.json", "noOrigin": true, "save": 40000 },
-  { "id": "geonet_page", "url": "https://www.geonet.org.nz/volcano/cameras", "noOrigin": true, "text": true, "save": 200000 },
-  { "id": "magma_cctv", "url": "https://magma.esdm.go.id/v1/gunung-api/cctv", "noOrigin": true, "text": true, "save": 300000, "timeout": 60000 },
-  { "id": "promet_si", "url": "https://www.promet.si/sl/kamere", "noOrigin": true, "text": true, "save": 100000 }
+  { "id": "promet_datajs", "url": "https://www.promet.si/Data/SuperFlexi/Solutions/Kamere%20(Detail)/resources/data.js", "noOrigin": true, "text": true, "save": 120000 },
+  { "id": "promet_rm2", "url": "https://www.promet.si/ClientScript/Promet/rm2.js?v=4", "noOrigin": true, "text": true, "head": 200, "grep": ["[^\"'`]{0,60}(api|kamer|camera)[^\"'`]{0,80}"], "grepMax": 60 },
+  { "id": "promet_js", "url": "https://www.promet.si/ClientScript/Promet/promet-si.js", "noOrigin": true, "text": true, "head": 200, "grep": ["[^\"'`]{0,60}(api|kamer|camera)[^\"'`]{0,80}"], "grepMax": 60 },
+  { "id": "ab_a3", "url": "https://verkehr.autobahn.de/o/autobahn/A3/services/webcam", "noOrigin": true, "timeout": 60000, "save": 30000 },
+  { "id": "ab_a8", "url": "https://verkehr.autobahn.de/o/autobahn/A8/services/webcam", "noOrigin": true, "timeout": 60000, "save": 30000 },
+  { "id": "hak_grupa", "url": "https://www.hak.hr/info/kamere/grupa/A1", "noOrigin": true, "text": true, "save": 160000 }
  ]
 }
