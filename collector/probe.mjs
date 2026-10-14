@@ -47,6 +47,8 @@ async function hit(p) {
     for (const k of KEEP_HEADERS) { const v = r.headers.get(k); if (v != null) h[k] = v.slice(0, 300); }
     const buf = Buffer.from(await r.arrayBuffer());
     const res = { id: p.id, url: scrub(p.url), status: r.status, finalUrl: r.url !== p.url ? scrub(r.url) : undefined, ms: Date.now() - t0, bytes: buf.length, headers: h };
+    // arquivo binário inteiro (zip, kmz, shp...) para estudar fora: até 40 MB
+    if (p.raw && r.ok && buf.length <= 40e6) { await writeFile(join(outDir, "samples", p.id.replace(/[^\w.-]+/g, "_") + ".bin"), buf); res.raw = true; }
     const ct = (h["content-type"] || "").toLowerCase();
     const looksText = /json|text|xml|javascript|html|geo/.test(ct) || p.text || p.json;
     if (looksText) {
