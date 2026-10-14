@@ -1,63 +1,35 @@
 {
  "probes": [
   {
-   "id": "run_santos",
-   "source": "brasil:santos",
-   "sample": 12
+   "id": "santos_img_noref",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/CAM1705/snap_c1.jpg",
+   "noOrigin": true
   },
   {
-   "id": "run_faa",
-   "source": "usa:faa-wcams",
-   "sample": 5
-  },
-  {
-   "id": "run_511nc",
-   "source": "ibi511:511-nc",
-   "sample": 3
-  },
-  {
-   "id": "run_511ny",
-   "source": "ibi511:511-ny",
-   "sample": 3
-  },
-  {
-   "id": "run_motiva",
-   "source": "brasil:motiva",
-   "sample": 3
-  },
-  {
-   "id": "br_climaaovivo_sc",
-   "url": "https://www.climaaovivo.com.br/_next/data/9CCVMfmbFIZRrpcNiDbMF/cidades/brasil/sc.json",
+   "id": "santos_img_ourref",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/CAM1705/snap_c1.jpg?_olho=1",
    "noOrigin": true,
-   "save": 200000
+   "headers": {
+    "Referer": "https://merengacv.github.io/olho-de-deus/"
+   }
   },
   {
-   "id": "br_climaaovivo_widget",
-   "url": "https://www.climaaovivo.com.br/_next/data/9CCVMfmbFIZRrpcNiDbMF/widget.json",
+   "id": "santos_img_santosref",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/CAM1705/snap_c1.jpg",
    "noOrigin": true,
-   "save": 60000
+   "headers": {
+    "Referer": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/MapaCamera/"
+   }
   },
   {
-   "id": "br_csg_cams",
-   "url": "https://www.csg.com.br/pagina/cameras",
-   "noOrigin": true,
-   "text": true,
-   "save": 300000,
-   "grep": [
-    "[^\"'<> ]*(camera|câmera|cam[0-9_-]|cctv|m3u8|ipcamlive|youtube\\.com/embed/[\\w-]+|\\.jpg)[^\"'<> ]*"
-   ],
-   "grepMax": 80
+   "id": "santos_img2",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/CAM0045/snap_c1.jpg",
+   "noOrigin": true
   },
   {
-   "id": "br_viaaraucaria_mapa",
-   "url": "https://viaaraucaria.com.br/mapa-rotas/index.php",
-   "noOrigin": true,
-   "text": true,
-   "save": 300000,
-   "grep": [
-    "[^\"'<> ]*(camera|câmera|cam[0-9_-]|cctv|m3u8|ipcamlive|youtube\\.com/embed/[\\w-]+|\\.json)[^\"'<> ]*"
-   ],
-   "grepMax": 80
+   "id": "yt_feira",
+   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=0E2p59BC_C4&format=json",
+   "noOrigin": true
   }
  ]
 }
