@@ -1,7 +1,7 @@
 {
  "probes": [
-  { "id": "src_mt", "source": "usa:iteris-mt", "sample": 2 },
-  { "id": "src_sc", "source": "usa:iteris-sc", "sample": 2 },
-  { "id": "src_sd", "source": "usa:sd511", "sample": 2 }
+  { "id": "src_geonet", "source": "asiapac:geonet-volcano", "sample": 3 },
+  { "id": "src_magma", "source": "asiapac:magma-cctv", "sample": 3 },
+  { "id": "geonet_img", "url": "https://images.geonet.org.nz/volcano/cameras/latest/ruapehunorth.jpg", "noOrigin": true }
  ]
 }
