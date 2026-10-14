@@ -1,35 +1,55 @@
 {
  "probes": [
   {
-   "id": "santos_img_noref",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/CAM1705/snap_c1.jpg",
-   "noOrigin": true
-  },
-  {
-   "id": "santos_img_ourref",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/CAM1705/snap_c1.jpg?_olho=1",
+   "id": "santos_img_lower",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1705/snap_c1.jpg",
    "noOrigin": true,
    "headers": {
     "Referer": "https://merengacv.github.io/olho-de-deus/"
    }
   },
   {
-   "id": "santos_img_santosref",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/CAM1705/snap_c1.jpg",
+   "id": "santos_img_lower2",
+   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam0045/snap_c1.jpg?123",
+   "noOrigin": true
+  },
+  {
+   "id": "barueri_check",
+   "url": "https://servicos.barueri.sp.gov.br/cameras/home/Check",
    "noOrigin": true,
-   "headers": {
-    "Referer": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/MapaCamera/"
-   }
+   "text": true
   },
   {
-   "id": "santos_img2",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/CAM0045/snap_c1.jpg",
-   "noOrigin": true
+   "id": "barueri_bundle",
+   "url": "https://servicos.barueri.sp.gov.br/cameras/bundles/script?v=hAI6fBJdT8pV8RVM9kFKHjuk4blJaA_9NziCQlZyCrQ1",
+   "noOrigin": true,
+   "text": true,
+   "save": 200000
   },
   {
-   "id": "yt_feira",
-   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=0E2p59BC_C4&format=json",
-   "noOrigin": true
+   "id": "barueri_home",
+   "url": "https://servicos.barueri.sp.gov.br/cameras",
+   "noOrigin": true,
+   "text": true,
+   "save": 100000
+  },
+  {
+   "id": "rbt_bundle",
+   "url": "https://camerasdaserra.com.br/assets/index-cXxpju3v.js",
+   "noOrigin": true,
+   "text": true,
+   "head": 100,
+   "grep": [
+    "[^\"'`]{0,80}(playlist\\.m3u8|/stream/)[^\"'`]{0,80}",
+    "dev\\.rbt\\.psi\\.br[^\"'`]{0,60}"
+   ],
+   "grepMax": 20
+  },
+  {
+   "id": "asthon_cities",
+   "url": "https://public.asthon.com.br/public/cities",
+   "noOrigin": true,
+   "save": 400000
   }
  ]
 }
