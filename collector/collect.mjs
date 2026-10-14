@@ -25,6 +25,7 @@ import global from "./sources/global.mjs";
 import portais from "./sources/portais.mjs";
 import brasil from "./sources/brasil.mjs";
 import paginas from "./sources/paginas.mjs";
+import hak from "./sources/hak.mjs";
 import { loadSeed, seedSourceName } from "./sources/seed.mjs";
 
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, x, i, arr) => (x.startsWith("--") ? a.concat([[x.slice(2), arr[i + 1] && !arr[i + 1].startsWith("--") ? arr[i + 1] : true]]) : a), []));
@@ -38,7 +39,7 @@ export const TYPES = ["trafego", "clima", "cidade", "natureza", "praia", "montan
 const T0 = Date.now();
 const log = (...m) => console.log(`[${((Date.now() - T0) / 1000).toFixed(1)}s]`, ...m);
 
-const SOURCES = [...ibi511, ...usa, ...canada, ...europe, ...asiapac, ...brasil, ...paginas, ...global, ...portais].filter((s) => !ONLY || ONLY.has(s.id));
+const SOURCES = [...ibi511, ...usa, ...canada, ...europe, ...hak, ...asiapac, ...brasil, ...paginas, ...global, ...portais].filter((s) => !ONLY || ONLY.has(s.id));
 
 // ---------- normalização ----------
 const BUST = /^(t|v|_|ts|time|timestamp|rand|r|cache|nocache|cb|dummy|x)$/i;
