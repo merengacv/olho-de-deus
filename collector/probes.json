@@ -1,14 +1,11 @@
 {
  "probes": [
-  { "id": "src_hak", "source": "hak:hak", "sample": 3 },
-  { "id": "src_va", "source": "usa:va511", "sample": 2 },
-  { "id": "src_mi", "source": "usa:midrive", "sample": 2 },
   { "id": "src_ok", "source": "usa:oktraffic", "sample": 2 },
   { "id": "src_or", "source": "usa:tripcheck", "sample": 2 },
   { "id": "src_hi", "source": "usa:goakamai", "sample": 2 },
-  { "id": "or_img", "url": "https://tripcheck.com/RoadCams/cams/AstoriaUS101MeglerBrNB_pid392.jpg", "noOrigin": true },
-  { "id": "hi_img", "url": "https://cctv.cdn.goakamai.org/SnapShot/320x240/TL-0001.jpg", "noOrigin": true },
-  { "id": "ok_hls", "url": "https://stream.oktraffic.org/delay-stream/56681ecaf08a5075.stream/playlist.m3u8", "text": true },
-  { "id": "va_hls", "url": "https://media-sfs7.vdotcameras.com/rtplive/0i6a7bfbs60yq2lbgivq0b8xk3scij3c/playlist.m3u8", "text": true }
+  { "id": "ok_poles", "url": "https://oktraffic.org/api/CameraPoles", "noOrigin": true, "headers": { "Referer": "https://oktraffic.org/" }, "save": 3000 },
+  { "id": "hi_cams", "url": "https://a.cameraservice.goakamai.org/cameras?format=mapPage&{}", "headers": { "Referer": "https://goakamai.org/" }, "save": 2000 },
+  { "id": "tx_snap", "url": "https://its.txdot.gov/its/DistrictIts/GetCctvSnapshotByIcdId?icdId=ABL-%20IH20%20%40%20Arnold&districtCode=ABL", "save": 3000 },
+  { "id": "tx_page", "url": "https://its.txdot.gov/its/District/ABL/cameras", "noOrigin": true, "text": true, "save": 30000 }
  ]
 }

@@ -125,7 +125,7 @@ export default [
 
   // Oklahoma (OKTraffic): postes com uma ou mais câmeras, vídeo HLS
   T({ id: "oktraffic", name: "OKTraffic", org: "Oklahoma DOT", home: "https://oktraffic.org/", attr: "ODOT — OKTraffic", run: async () => {
-    const poles = await fetchJSON("https://oktraffic.org/api/CameraPoles", { timeout: 120000 });
+    const poles = await fetchJSON("https://oktraffic.org/api/CameraPoles", { timeout: 120000, headers: { Referer: "https://oktraffic.org/", Origin: "https://oktraffic.org" } });
     const out = [];
     for (const p of Array.isArray(poles) ? poles : []) for (const c of p.mapCameras || []) {
       const src = c.streamDictionary && c.streamDictionary.streamSrc;
@@ -137,14 +137,14 @@ export default [
 
   // Oregon (TripCheck): inventário de câmeras do mapa, foto em /RoadCams/cams/
   T({ id: "tripcheck", name: "TripCheck", org: "Oregon DOT", home: "https://tripcheck.com/", attr: "ODOT — TripCheck", run: async () => {
-    const j = await fetchJSON("https://tripcheck.com/Scripts/map/data/cctvinventory.js?dt=" + Date.now(), { timeout: 120000 });
+    const j = JSON.parse(await fetchText("https://tripcheck.com/Scripts/map/data/cctvinventory.js?dt=" + Date.now(), { timeout: 120000, accept: "*/*", headers: { Referer: "https://tripcheck.com/" } }));
     return ((j && j.features) || []).map((f) => f.attributes || {}).filter((a) => a.filename && isFinite(a.latitude)).map((a) => ({
       id: String(a.cameraId) + "-" + a.publishedImageId, name: clean(a.title), lat: +a.latitude, lng: +a.longitude, img: "https://tripcheck.com/RoadCams/cams/" + encodeURIComponent(a.filename), where: clean(a.route) }));
   } }),
 
   // Havaí (GoAkamai): vídeo HLS e foto de cada câmera
   T({ id: "goakamai", name: "GoAkamai", org: "Hawaii DOT", home: "https://goakamai.org/", attr: "HDOT — GoAkamai", run: async () => {
-    const list = await fetchJSON("https://a.cameraservice.goakamai.org/cameras?format=mapPage&{}", { timeout: 120000 });
+    const list = await fetchJSON("https://a.cameraservice.goakamai.org/cameras?format=mapPage&{}", { timeout: 120000, headers: { Referer: "https://goakamai.org/", Origin: "https://goakamai.org" } });
     return (Array.isArray(list) ? list : []).filter((c) => isFinite(c.lat) && isFinite(c.lon)).map((c) => ({
       id: String(c.id), name: clean(c.description || c.id), lat: +c.lat, lng: +c.lon,
       hls: /^https:.+\.m3u8/i.test(c.streamingURL || "") ? c.streamingURL : undefined, img: c.cameraImageURL ? String(c.cameraImageURL).replace(/^http:/i, "https:") : undefined }));
