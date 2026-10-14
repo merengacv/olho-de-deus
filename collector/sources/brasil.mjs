@@ -147,13 +147,44 @@ async function santos(ctx) {
     if (!Number.isFinite(E) || !Number.isFinite(N)) return;
     let info = null;
     try { info = JSON.parse(await req("/Gestao/Cameras/Camera/exibirNumero", "args%5B%5D=" + encodeURIComponent(d.IDCAM[i]))); } catch (e) { fails++; return; }
-    const img = info && info.NUMERO ? String(info.NUMERO).trim() : "";
+    // o portal escreve o endereço da imagem em minúsculas antes de usar (com maiúsculas dá 404)
+    const img = info && info.NUMERO ? String(info.NUMERO).trim().toLowerCase() : "";
     if (!/^https:\/\//i.test(img)) { fails++; return; }
     const [lat, lng] = sad69UtmToWgs84(E, N, 23);
-    out.push({ id: String(d.IDCAM[i]), name: clean(info.DESCRICAO || d.NUMERO[i]), lat, lng, img, where: "Santos, SP", page: "https://www.santos.sp.gov.br/santosaovivo" });
+    // descrição vem como "Rua A x Rua B" (às vezes sem a segunda rua: "Rua A x")
+    const desc = String(info.DESCRICAO || "").replace(/\s+x\s*$/i, "").replace(/\s+x\s+/gi, " × ");
+    out.push({ id: String(d.IDCAM[i]), name: clean(desc || d.NUMERO[i]), lat, lng, img, where: "Santos, SP", page: "https://www.santos.sp.gov.br/santosaovivo" });
   });
   if (fails) ctx.warn(fails + " câmeras sem imagem https ou sem detalhes (de " + n + ")");
   return out;
+}
+
+// Barueri: mapa de câmeras da Prefeitura (Cidade Inteligente). A lista de pontos é pública;
+// a imagem só sai com uma chave de sessão do próprio portal, então o globo mostra o ponto
+// e leva à página oficial (sem copiar a imagem).
+async function barueri() {
+  const B = "https://servicos.barueri.sp.gov.br/cameras/";
+  const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 60000);
+  let key;
+  try {
+    const r = await fetch(B + "home/Check", { method: "POST", body: "token=", signal: ctl.signal,
+      headers: { "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With": "XMLHttpRequest", Referer: B } });
+    key = (await r.text()).trim().replace(/^"|"$/g, "");
+    if (!r.ok || !key || key === "0") throw new Error("chave do portal recusada (HTTP " + r.status + ")");
+  } finally { clearTimeout(timer); }
+  const list = await fetchJSON(B + "home/GetCameras?key=" + encodeURIComponent(key), { timeout: 60000, headers: { Referer: B } });
+  return (Array.isArray(list) ? list : []).filter((c) => isFinite(c.lat) && isFinite(c.lon) && Math.abs(c.lat) > 1).map((c) => ({
+    id: String(c.cameraId || c.camera), name: clean(decodeXml(String(c.descricao || c.camera || "")).replace(/<[^>]+>/g, " "), 110), lat: +c.lat, lng: +c.lon,
+    where: "Barueri, SP", page: B,
+  }));
+}
+
+// Câmeras da Serra: rede privada de câmeras turísticas da Serra Gaúcha (RBT Internet). A
+// lista com coordenadas é pública; o vídeo fica no site deles, então aqui entra só o link.
+async function camerasDaSerra() {
+  const list = await fetchJSON("https://dev.rbt.psi.br:5045/cameras-ordered-by-cities", { timeout: 60000, headers: { Referer: "https://camerasdaserra.com.br/", Origin: "https://camerasdaserra.com.br" } });
+  return (Array.isArray(list) ? list : []).filter((c) => c && c.active !== 0 && !c.deleted_at && isFinite(c.latitude) && isFinite(c.longitude) && Math.abs(+c.latitude) > 1)
+    .map((c) => ({ id: String(c.id), name: clean(c.name, 100), lat: +c.latitude, lng: +c.longitude, where: clean(c.city_name, 60) + ", RS", page: "https://camerasdaserra.com.br/cameras/" + c.id }));
 }
 
 export default [
@@ -166,6 +197,16 @@ export default [
     id: "santos", name: "Santos ao Vivo — câmeras da cidade", org: "Prefeitura de Santos (SigSantos)", country: "BR", type: "cidade",
     home: "https://www.santos.sp.gov.br/santosaovivo", attr: "Prefeitura de Santos — Santos ao Vivo", lic: "imagens públicas do portal Santos ao Vivo",
     run: (ctx) => santos(ctx),
+  },
+  {
+    id: "barueri", name: "Barueri — câmeras da cidade", org: "Prefeitura de Barueri (Cidade Inteligente)", country: "BR", type: "cidade",
+    home: "https://servicos.barueri.sp.gov.br/cameras/", attr: "Prefeitura de Barueri", lic: "pontos do mapa público de câmeras; imagem só na página oficial",
+    run: () => barueri(),
+  },
+  {
+    id: "camerasdaserra", name: "Câmeras da Serra (rede privada)", org: "Câmeras da Serra — RBT Internet", country: "BR", type: "cidade",
+    home: "https://camerasdaserra.com.br/", attr: "Câmeras da Serra", lic: "rede privada: só o link para a câmera no site deles",
+    run: () => camerasDaSerra(),
   },
   {
     id: "der-sp", name: "DER-SP — câmeras das rodovias", org: "Departamento de Estradas de Rodagem do Estado de São Paulo", country: "BR", type: "trafego",

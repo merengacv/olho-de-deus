@@ -95,7 +95,7 @@ async function runSource(p) {
     const mod = await import("./sources/" + file + ".mjs");
     const src = (mod.default || []).find((s) => s.id === id);
     if (!src) return { id: p.id, error: "leitor não encontrado: " + p.source };
-    const out = await src.run({ warn: (m) => warns.push(String(m).slice(0, 300)), partial: [] });
+    const out = await src.run({ warn: (m) => warns.push(String(m).slice(0, 300)), partial: [], cache: "collector/.cache" });
     const arr = Array.isArray(out) ? out : [];
     return { id: p.id, source: p.source, count: arr.length, ms: Date.now() - t0, warns: warns.slice(0, 30), sample: JSON.parse(scrub(JSON.stringify(arr.slice(0, p.sample || 25)))) };
   } catch (e) {

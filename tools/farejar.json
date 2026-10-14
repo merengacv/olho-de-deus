@@ -1,129 +1,81 @@
 {
  "pages": [
   {
-   "id": "br-camerascet",
+   "id": "br-transalvador2",
+   "url": "https://cameras-transalvador.salvador.ba.gov.br/",
+   "wait": 15000,
+   "scroll": true
+  },
+  {
+   "id": "br-camerascet2",
    "url": "https://camerascet.prefeitura.sp.gov.br/",
-   "wait": 14000,
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-barueri",
-   "url": "http://servicos.barueri.sp.gov.br/cameras",
-   "wait": 14000,
+   "id": "br-csg-cams",
+   "url": "https://www.csg.com.br/pagina/cameras",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-camerasrj",
-   "url": "https://www.camerasrj.com.br/",
-   "wait": 14000,
+   "id": "br-cav-cidades",
+   "url": "https://www.climaaovivo.com.br/cidades",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-friburgo",
-   "url": "https://nfci.pmnf.rj.gov.br/camerasaovivo.html",
-   "wait": 14000,
+   "id": "br-vejoaovivo",
+   "url": "https://www.vejoaovivo.com.br/",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-saocaetano",
-   "url": "https://www.saocaetanodosul.sp.gov.br/pages/24",
-   "wait": 14000,
+   "id": "br-surfguru",
+   "url": "https://www.surfguru.com.br/",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-praiagrande",
-   "url": "https://www2.praiagrande.sp.gov.br/noticia/id/60851",
-   "wait": 14000,
+   "id": "br-ricosurf",
+   "url": "https://ricosurf.com.br/",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-itaoca",
-   "url": "https://www.itaoca.sp.gov.br/camerasaovivo",
-   "wait": 14000,
+   "id": "br-backupti",
+   "url": "https://backupti.camerite.com/",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-buritama",
-   "url": "https://buritama.sp.gov.br/camera-ao-vivo/",
-   "wait": 14000,
+   "id": "br-viaaraucaria-mapa",
+   "url": "https://viaaraucaria.com.br/mapa-rotas/index.php",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-feliz",
-   "url": "https://www.feliz.rs.gov.br/site/cameras-ao-vivo",
-   "wait": 14000,
+   "id": "br-rota116",
+   "url": "https://www.rota116.com.br/",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-riodasantas",
-   "url": "https://riodasantas.sc.gov.br/pagina-35081/",
-   "wait": 14000,
+   "id": "br-jau",
+   "url": "https://jaucameras.com.br/",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-joaopessoa",
-   "url": "http://antigo.joaopessoa.pb.gov.br/semob-jp-disponibiliza-link-direto-para-populacao-acessar-as-68-cameras-e-se-programar-no-transito/cameras-de-transito/",
-   "wait": 14000,
+   "id": "br-itaoca-balsa",
+   "url": "https://www.itaoca.sp.gov.br/cameras-ao-vivo-balsa",
+   "wait": 15000,
    "scroll": true
   },
   {
-   "id": "br-imperatriz",
-   "url": "https://imperatriz.ma.gov.br/noticias/transito-e-transporte/prefeitura-disponibiliza-imagens-de-cameras-de-monitoramento-de-transito.html",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-parnamirim",
-   "url": "https://tribunadonorte.com.br/natal/prefeitura-de-parnamirim-disponibiliza-site-com-imagens-das-cameras-de-monitoramento/",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-niveldorio",
-   "url": "https://niveldorio.com/ao-vivo",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-espiai",
-   "url": "https://aovivo.alertaitajuba.com.br/",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-camerasdaserra",
-   "url": "https://camerasdaserra.com.br/",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-brusque",
-   "url": "https://www.brusqueaovivo.com/cameras",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-torres",
-   "url": "https://torresaovivo.com.br/",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-eptc-mon",
-   "url": "https://prefeitura.poa.br/eptc/controle-e-monitoramento-da-mobilidade",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-transitoaovivo",
-   "url": "https://transitoaovivo.com/transito-cetsp-1/",
-   "wait": 14000,
-   "scroll": true
-  },
-  {
-   "id": "br-copacabana",
-   "url": "https://copacabana.com/cameras",
-   "wait": 14000,
+   "id": "br-webcampos",
+   "url": "https://www.webcampos.com.br/",
+   "wait": 15000,
    "scroll": true
   }
  ]

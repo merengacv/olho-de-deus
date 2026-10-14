@@ -2482,7 +2482,7 @@ const MEDIA = { timer: 0, hls: null, tok: 0 };
 function camModes(i, row) {
   const out = [];
   if (row[3]) out.push({ k: "hls", label: "Vídeo ao vivo" });
-  if (row[5]) out.push({ k: "emb", label: /youtube/.test(row[5]) ? "Vídeo (YouTube)" : "Player ao vivo" });
+  if (row[5]) out.push({ k: "emb", label: /youtube/.test(row[5]) ? "Vídeo (YouTube)" : /twitch\.tv/.test(row[5]) ? "Vídeo (Twitch)" : "Player ao vivo" });
   if (row[2]) out.push({ k: "img", label: "Imagem atual" });
   if (row[4]) out.push({ k: "mp4", label: "Clipe de vídeo" });
   return out;
@@ -2538,7 +2538,9 @@ async function startMedia(i, row, mode, tok) {
     v.onerror = () => fail("O clipe de vídeo não carregou.");
     v.src = row[4];
   } else if (mode === "emb") {
-    box.innerHTML = '<iframe title="Câmera ' + esc(row[1]) + '" src="' + esc(safeUrl(row[5])) + '" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe>';
+    // players que exigem o endereço do site que os embute (Twitch): {host} vira o nosso
+    const emb = String(row[5]).split("{host}").join(encodeURIComponent(location.hostname || "localhost"));
+    box.innerHTML = '<iframe title="Câmera ' + esc(row[1]) + '" src="' + esc(safeUrl(emb)) + '" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe>';
   } else if (mode === "hls") {
     box.innerHTML = '<video id="camVid" muted autoplay playsinline controls></video><span class="live">AO VIVO</span>';
     const v = $("#camVid"), url = row[3];

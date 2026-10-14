@@ -19,7 +19,12 @@ export async function fetchText(url, opt = {}) {
       const r = await fetch(url, { method: opt.method || (body ? "POST" : "GET"), headers, body, signal: ctl.signal, redirect: "follow" });
       if (r.status === 429 || r.status >= 500) throw Object.assign(new Error("HTTP " + r.status), { retry: true, status: r.status });
       if (!r.ok) throw Object.assign(new Error("HTTP " + r.status), { status: r.status });
-      return await r.text();
+      if (opt.charset !== "auto") return await r.text();
+      // páginas antigas em ISO-8859-1/Windows-1252: usa o charset do cabeçalho ou da <meta>
+      const buf = await r.arrayBuffer();
+      let cs = ((r.headers.get("content-type") || "").match(/charset=["']?([\w-]+)/i) || [])[1];
+      if (!cs) cs = (new TextDecoder("latin1").decode(buf.slice(0, 4096)).match(/<meta[^>]+charset=["']?([\w-]+)/i) || [])[1];
+      try { return new TextDecoder(cs || "utf-8").decode(buf); } catch { return new TextDecoder("utf-8").decode(buf); }
     } catch (e) {
       last = e;
       const retry = e.retry || e.name === "AbortError" || /fetch failed|ECONNRESET|socket|ETIMEDOUT|EAI_AGAIN/i.test(String(e.message) + String(e.cause && e.cause.code));

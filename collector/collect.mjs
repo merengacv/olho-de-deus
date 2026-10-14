@@ -24,6 +24,7 @@ import asiapac from "./sources/asiapac.mjs";
 import global from "./sources/global.mjs";
 import portais from "./sources/portais.mjs";
 import brasil from "./sources/brasil.mjs";
+import paginas from "./sources/paginas.mjs";
 import { loadSeed, seedSourceName } from "./sources/seed.mjs";
 
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, x, i, arr) => (x.startsWith("--") ? a.concat([[x.slice(2), arr[i + 1] && !arr[i + 1].startsWith("--") ? arr[i + 1] : true]]) : a), []));
@@ -37,7 +38,7 @@ export const TYPES = ["trafego", "clima", "cidade", "natureza", "praia", "montan
 const T0 = Date.now();
 const log = (...m) => console.log(`[${((Date.now() - T0) / 1000).toFixed(1)}s]`, ...m);
 
-const SOURCES = [...ibi511, ...usa, ...canada, ...europe, ...asiapac, ...brasil, ...global, ...portais].filter((s) => !ONLY || ONLY.has(s.id));
+const SOURCES = [...ibi511, ...usa, ...canada, ...europe, ...asiapac, ...brasil, ...paginas, ...global, ...portais].filter((s) => !ONLY || ONLY.has(s.id));
 
 // ---------- normalização ----------
 const BUST = /^(t|v|_|ts|time|timestamp|rand|r|cache|nocache|cb|dummy|x)$/i;
@@ -91,7 +92,7 @@ async function runSource(src) {
     const left = DEADLINE - Date.now();
     if (left < 5000) throw new Error("sem tempo nesta coleta (prazo geral esgotado)");
     // ctx.partial: regiões que falharam hoje (a fonte devolve só parte); delas fica a coleta anterior
-    const ctx = { warn: (m) => warns.push(m), partial: [] };
+    const ctx = { warn: (m) => warns.push(m), partial: [], cache: CACHE };
     const raw = await withTimeout(src.run(ctx), Math.min(src.timeout || 15 * 60000, left));
     const cams = (raw || []).map((c) => norm(c, src)).filter(Boolean);
     if (ctx.partial.length) {
@@ -184,7 +185,7 @@ async function main() {
 
   // ---------- duplicatas e países ----------
   const seen = new Map();
-  const uniq = [];
+  let uniq = [];
   for (const c of all) {
     const k = urlKey(mediaOf(c));
     if (seen.has(k)) continue;
@@ -193,6 +194,22 @@ async function main() {
     uniq.push(c);
   }
   log(`${all.length} câmeras, ${uniq.length} sem duplicatas`);
+  // a mesma câmera em duas fontes (página oficial com vídeo + rede que só dá o link): fica a
+  // com vídeo/imagem; se a posição dela era aproximada (nome sem endereço), herda a da outra
+  {
+    const key = (s) => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    const linkOnly = new Map(), drop = new Set();
+    for (const c of uniq) if (!mediaOf({ ...c, page: "" })) { const k = key(c.name); if (k.length >= 5) { if (!linkOnly.has(k)) linkOnly.set(k, []); linkOnly.get(k).push(c); } }
+    for (const c of uniq) {
+      if (!linkOnly.size || !mediaOf({ ...c, page: "" })) continue;
+      for (const o of linkOnly.get(key(c.name.split(" — ").pop())) || []) {
+        if (drop.has(o) || o.s === c.s || Math.hypot(o.lat - c.lat, (o.lng - c.lng) * Math.cos((c.lat * Math.PI) / 180)) * 111 > 3) continue;
+        drop.add(o);
+        if (/posição aproximada/.test(c.where || "")) { c.lat = o.lat; c.lng = o.lng; c.where = c.where.replace(/\s*\(posição aproximada\)/, ""); }
+      }
+    }
+    if (drop.size) { uniq = uniq.filter((c) => !drop.has(c)); log(`${drop.size} câmeras só com link já vinham com imagem de outra fonte`); }
+  }
   // mesma fonte, mesmo nome, mesmo lugar: são vistas diferentes do mesmo poste
   const views = new Map();
   for (const c of uniq) {
