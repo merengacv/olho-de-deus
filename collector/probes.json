@@ -1,6 +1,12 @@
 {
  "probes": [
-  { "id": "src_rotaoeste", "source": "brasil:rota-do-oeste", "sample": 6 },
-  { "id": "src_eco", "source": "brasil:ecorodovias", "sample": 3 }
+  { "id": "ab_roads", "url": "https://verkehr.autobahn.de/o/autobahn/", "noOrigin": true, "timeout": 60000, "save": 20000 },
+  { "id": "ab_a1", "url": "https://verkehr.autobahn.de/o/autobahn/A1/services/webcam", "noOrigin": true, "timeout": 60000, "save": 60000 },
+  { "id": "ab_a9", "url": "https://verkehr.autobahn.de/o/autobahn/A9/services/webcam", "noOrigin": true, "timeout": 60000, "save": 60000 },
+  { "id": "hak_page", "url": "https://www.hak.hr/info/kamere/", "noOrigin": true, "text": true, "save": 60000 },
+  { "id": "hak_a1", "url": "https://www.hak.hr/info/kamere/manifest/A1.json", "noOrigin": true, "save": 40000 },
+  { "id": "geonet_page", "url": "https://www.geonet.org.nz/volcano/cameras", "noOrigin": true, "text": true, "save": 200000 },
+  { "id": "magma_cctv", "url": "https://magma.esdm.go.id/v1/gunung-api/cctv", "noOrigin": true, "text": true, "save": 300000, "timeout": 60000 },
+  { "id": "promet_si", "url": "https://www.promet.si/sl/kamere", "noOrigin": true, "text": true, "save": 100000 }
  ]
 }
