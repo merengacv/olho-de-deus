@@ -1,7 +1,157 @@
 {
  "probes": [
-  { "id": "src_geonet", "source": "asiapac:geonet-volcano", "sample": 3 },
-  { "id": "src_magma", "source": "asiapac:magma-cctv", "sample": 3 },
-  { "id": "geonet_img", "url": "https://images.geonet.org.nz/volcano/cameras/latest/ruapehunorth.jpg", "noOrigin": true }
+  {
+   "id": "hak_A1",
+   "url": "https://www.hak.hr/info/kamere/grupa/A1",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A2",
+   "url": "https://www.hak.hr/info/kamere/grupa/A2",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A3",
+   "url": "https://www.hak.hr/info/kamere/grupa/A3",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A4",
+   "url": "https://www.hak.hr/info/kamere/grupa/A4",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A5",
+   "url": "https://www.hak.hr/info/kamere/grupa/A5",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A6",
+   "url": "https://www.hak.hr/info/kamere/grupa/A6",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A7",
+   "url": "https://www.hak.hr/info/kamere/grupa/A7",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A8",
+   "url": "https://www.hak.hr/info/kamere/grupa/A8",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A9",
+   "url": "https://www.hak.hr/info/kamere/grupa/A9",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A10",
+   "url": "https://www.hak.hr/info/kamere/grupa/A10",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_A11",
+   "url": "https://www.hak.hr/info/kamere/grupa/A11",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_D8",
+   "url": "https://www.hak.hr/info/kamere/grupa/D8",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_GP",
+   "url": "https://www.hak.hr/info/kamere/grupa/GP",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_TP",
+   "url": "https://www.hak.hr/info/kamere/grupa/TP",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_MT",
+   "url": "https://www.hak.hr/info/kamere/grupa/MT",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_HC",
+   "url": "https://www.hak.hr/info/kamere/grupa/HC",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hak_MJ",
+   "url": "https://www.hak.hr/info/kamere/grupa/MJ",
+   "noOrigin": true,
+   "text": true,
+   "save": 400000,
+   "timeout": 60000
+  },
+  {
+   "id": "hr_osm",
+   "url": "https://overpass-api.de/api/interpreter",
+   "noOrigin": true,
+   "timeout": 240000,
+   "method": "POST",
+   "headers": {
+    "Content-Type": "application/x-www-form-urlencoded"
+   },
+   "body": "data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%0Aarea%5B%22ISO3166-1%22%3D%22HR%22%5D%5Badmin_level%3D2%5D-%3E.hr%3B%0A%28%0A%20node%5B%22highway%22%3D%22motorway_junction%22%5D%28area.hr%29%3B%0A%20nwr%5B%22barrier%22%3D%22toll_booth%22%5D%28area.hr%29%3B%0A%20way%5B%22tunnel%22%5D%5B%22name%22%5D%28area.hr%29%3B%0A%20way%5B%22tunnel%22%5D%5B%22tunnel%3Aname%22%5D%28area.hr%29%3B%0A%20way%5B%22bridge%22%5D%5B%22name%22%5D%28area.hr%29%3B%0A%20way%5B%22bridge%22%5D%5B%22bridge%3Aname%22%5D%28area.hr%29%3B%0A%20nwr%5B%22highway%22~%22rest_area%7Cservices%22%5D%28area.hr%29%3B%0A%20nwr%5B%22barrier%22%3D%22border_control%22%5D%28area.hr%29%3B%0A%20nwr%5B%22amenity%22%3D%22ferry_terminal%22%5D%28area.hr%29%3B%0A%20node%5B%22place%22~%22city%7Ctown%7Cvillage%7Chamlet%7Clocality%7Csuburb%22%5D%28area.hr%29%3B%0A%29%3B%0Aout%20center%20tags%3B",
+   "raw": true
+  },
+  {
+   "id": "hak_img",
+   "url": "https://www.hak.hr/info/kamere/23.jpg",
+   "noOrigin": true
+  }
  ]
 }
