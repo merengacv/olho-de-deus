@@ -1,5 +1,14 @@
 {
  "probes": [
-  { "id": "src_hak", "source": "hak:hak", "sample": 5 }
+  { "id": "src_hak", "source": "hak:hak", "sample": 3 },
+  { "id": "src_va", "source": "usa:va511", "sample": 2 },
+  { "id": "src_mi", "source": "usa:midrive", "sample": 2 },
+  { "id": "src_ok", "source": "usa:oktraffic", "sample": 2 },
+  { "id": "src_or", "source": "usa:tripcheck", "sample": 2 },
+  { "id": "src_hi", "source": "usa:goakamai", "sample": 2 },
+  { "id": "or_img", "url": "https://tripcheck.com/RoadCams/cams/AstoriaUS101MeglerBrNB_pid392.jpg", "noOrigin": true },
+  { "id": "hi_img", "url": "https://cctv.cdn.goakamai.org/SnapShot/320x240/TL-0001.jpg", "noOrigin": true },
+  { "id": "ok_hls", "url": "https://stream.oktraffic.org/delay-stream/56681ecaf08a5075.stream/playlist.m3u8", "text": true },
+  { "id": "va_hls", "url": "https://media-sfs7.vdotcameras.com/rtplive/0i6a7bfbs60yq2lbgivq0b8xk3scij3c/playlist.m3u8", "text": true }
  ]
 }

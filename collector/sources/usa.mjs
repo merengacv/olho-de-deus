@@ -102,6 +102,54 @@ export default [
     return out;
   } })),
 
+  // Virginia (511 Virginia, plataforma Iteris): cada câmera com vídeo HLS e foto
+  T({ id: "va511", name: "511 Virginia", org: "Virginia DOT", home: "https://511.vdot.virginia.gov/", attr: "VDOT — 511 Virginia", run: async () => {
+    const j = await fetchJSON("https://511.vdot.virginia.gov/services/511/map/array/cameras", { timeout: 120000 });
+    return ((j && j.data) || []).filter((f) => f && f.geometry && f.properties && f.properties.active !== false).map((f) => {
+      const p = f.properties;
+      return { id: String(p.id || p.name), name: clean(p.description || p.name), lat: +f.geometry.coordinates[1], lng: +f.geometry.coordinates[0], where: clean(p.jurisdiction), dir: clean(p.direction, 24),
+        hls: /^https:.+\.m3u8/i.test(p.https_url || "") ? p.https_url : undefined, img: /^https:/i.test(p.image_url || "") ? p.image_url : undefined };
+    });
+  } }),
+
+  // Michigan (Mi Drive): a lista vem com HTML dentro; posição no link "Go to", foto no <img>
+  T({ id: "midrive", name: "Mi Drive", org: "Michigan DOT", home: "https://mdotjboss.state.mi.us/MiDrive/cameras", attr: "MDOT — Mi Drive", run: async () => {
+    const list = await fetchJSON("https://mdotjboss.state.mi.us/MiDrive/camera/list", { timeout: 120000 });
+    return (Array.isArray(list) ? list : []).map((c) => {
+      const ll = String(c.county || "").match(/lat=(-?[\d.]+)&lon=(-?[\d.]+)[^"]*?id=(\d+)/), img = (String(c.image || "").match(/src="(https:[^"]+)"/) || [])[1];
+      if (!ll || !img) return null;
+      return { id: ll[3], name: clean(`${c.route || ""} ${c.location || ""}`), lat: +ll[1], lng: +ll[2], img: img.replace(/\?item=\d+$/, ""),
+        where: clean(String(c.county || "").replace(/<[^>]+>.*$/, "")), dir: clean(String(c.direction || "").replace(/^Traffic closest to camera is traveling\s*/i, "").replace(/\.$/, ""), 24) };
+    }).filter(Boolean);
+  } }),
+
+  // Oklahoma (OKTraffic): postes com uma ou mais câmeras, vídeo HLS
+  T({ id: "oktraffic", name: "OKTraffic", org: "Oklahoma DOT", home: "https://oktraffic.org/", attr: "ODOT — OKTraffic", run: async () => {
+    const poles = await fetchJSON("https://oktraffic.org/api/CameraPoles", { timeout: 120000 });
+    const out = [];
+    for (const p of Array.isArray(poles) ? poles : []) for (const c of p.mapCameras || []) {
+      const src = c.streamDictionary && c.streamDictionary.streamSrc;
+      if (!/^https:.+\.m3u8/i.test(src || "") || !isFinite(c.latitude)) continue;
+      out.push({ id: String(c.id), name: clean(c.location || p.name), lat: +c.latitude, lng: +c.longitude, hls: src, where: clean(c.city), dir: clean(c.direction, 24) });
+    }
+    return out;
+  } }),
+
+  // Oregon (TripCheck): inventário de câmeras do mapa, foto em /RoadCams/cams/
+  T({ id: "tripcheck", name: "TripCheck", org: "Oregon DOT", home: "https://tripcheck.com/", attr: "ODOT — TripCheck", run: async () => {
+    const j = await fetchJSON("https://tripcheck.com/Scripts/map/data/cctvinventory.js?dt=" + Date.now(), { timeout: 120000 });
+    return ((j && j.features) || []).map((f) => f.attributes || {}).filter((a) => a.filename && isFinite(a.latitude)).map((a) => ({
+      id: String(a.cameraId) + "-" + a.publishedImageId, name: clean(a.title), lat: +a.latitude, lng: +a.longitude, img: "https://tripcheck.com/RoadCams/cams/" + encodeURIComponent(a.filename), where: clean(a.route) }));
+  } }),
+
+  // Havaí (GoAkamai): vídeo HLS e foto de cada câmera
+  T({ id: "goakamai", name: "GoAkamai", org: "Hawaii DOT", home: "https://goakamai.org/", attr: "HDOT — GoAkamai", run: async () => {
+    const list = await fetchJSON("https://a.cameraservice.goakamai.org/cameras?format=mapPage&{}", { timeout: 120000 });
+    return (Array.isArray(list) ? list : []).filter((c) => isFinite(c.lat) && isFinite(c.lon)).map((c) => ({
+      id: String(c.id), name: clean(c.description || c.id), lat: +c.lat, lng: +c.lon,
+      hls: /^https:.+\.m3u8/i.test(c.streamingURL || "") ? c.streamingURL : undefined, img: c.cameraImageURL ? String(c.cameraImageURL).replace(/^http:/i, "https:") : undefined }));
+  } }),
+
   T({ id: "wsdot", name: "WSDOT", org: "Washington State DOT", home: "https://wsdot.com/travel/real-time/map/", attr: "WSDOT", run: async () => {
     const j = await fetchJSON("https://data.wsdot.wa.gov/travelcenter/Cameras.json");
     return (j.features || []).map((f) => {
