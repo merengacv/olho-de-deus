@@ -204,10 +204,13 @@ async function climaAoVivo() {
 async function praiaGrande() {
   const B = "https://cameras.praiagrande.sp.gov.br/aovivo";
   const list = await fetchJSON(B + "/api", { timeout: 60000, headers: { Referer: B } });
-  return (Array.isArray(list) ? list : []).filter((c) => isFinite(c.Latitude) && isFinite(c.Longitude) && Math.abs(+c.Latitude) > 1).map((c) => ({
-    id: String(c.Id || c.Name), name: clean(decodeXml(String(c.Description || c.Name || "")).replace(/<[^>]+>/g, " "), 110),
-    lat: +c.Latitude, lng: +c.Longitude, where: "Praia Grande, SP", page: B,
-  }));
+  // "POSTE PRAIA 004 - Forte (Briefcam) (Internet)" → "Poste Praia 004 - Forte" (tira anotações internas)
+  const tidy = (s) => clean(decodeXml(String(s || "")).replace(/<[^>]+>/g, " ").replace(/\s*\((briefcam|internet|ptz|fixa|speed ?dome|dome)\)/gi, ""), 110)
+    .replace(/\b(\p{Lu})(\p{Lu}{2,})\b/gu, (w, a, b) => (/^(SP|BR|PG|AV|CAM|PTZ|UBS|ETEC|SESC|SENAI)$/.test(w) ? w : a + b.toLowerCase()));
+  return (Array.isArray(list) ? list : []).filter((c) => isFinite(c.Latitude) && isFinite(c.Longitude) && Math.abs(+c.Latitude) > 1).map((c) => {
+    const name = tidy(c.Description || c.Name).replace(/\bAV\./g, "Av.").replace(/\bR\. /g, "R. ");
+    return { id: String(c.Id || c.Name), name, lat: +c.Latitude, lng: +c.Longitude, where: "Praia Grande, SP", page: B, type: /praia|orla|quiosque/i.test(name) ? "praia" : undefined };
+  });
 }
 
 export default [
