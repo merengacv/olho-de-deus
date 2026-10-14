@@ -59,6 +59,12 @@ export async function loadSeed(log) {
     const pm = feed.match(/^([a-z-]+):\/\/([\w-]+)/i);
     if (pm && PSEUDO[pm[1]]) cam.page = PSEUDO[pm[1]](pm[2]); // endereço interno de outro catálogo: vira link para a página oficial
     else if (LINK_ONLY.has(src)) { if (!isHttp(feed)) { skipped++; continue; } cam.page = feed; }
+    // TxDOT: a foto vem num JSON sem permissão para outros sites; vira link para a página do distrito
+    else if (ft === "txdot-json") {
+      const d = (feed.match(/[?&]districtCode=([A-Z]{3})/) || [])[1];
+      if (!d) { skipped++; continue; }
+      cam.page = "https://its.txdot.gov/its/District/" + d + "/cameras";
+    }
     else if (/^image|mjpeg/.test(ft)) { if (!isHttp(feed) || STALE.test(feed)) { skipped++; continue; } cam.img = feed; }
     else if (ft === "m3u8") { const u = stream || feed; if (!/^https:\/\//i.test(u) || STALE.test(u)) { skipped++; continue; } cam.hls = u; }
     else if (ft === "mp4") { if (!/^https:\/\//i.test(feed)) { skipped++; continue; } cam.mp4 = feed; }
@@ -79,6 +85,7 @@ export async function loadSeed(log) {
 
 // nomes legíveis das redes mais comuns da semente: [nome, responsável]
 const SEED_NAMES = {
+  txdot: ["TxDOT — câmeras das rodovias do Texas", "Texas Department of Transportation"],
   rivergojp: ["Câmeras dos rios do Japão (川の防災情報)", "MLIT — Ministério da Terra e Transportes do Japão"],
   arcgis_cams: ["Câmeras de DOTs do Meio-Oeste (EUA)", "Departamentos de transporte dos EUA"],
   trafficengland: ["Traffic England", "National Highways (Inglaterra)"],
