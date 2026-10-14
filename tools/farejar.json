@@ -1,82 +1,164 @@
 {
  "pages": [
   {
-   "id": "br-transalvador2",
-   "url": "https://cameras-transalvador.salvador.ba.gov.br/",
+   "id": "us-midrive",
+   "url": "https://mdotjboss.state.mi.us/MiDrive/cameras",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-camerascet2",
-   "url": "https://camerascet.prefeitura.sp.gov.br/",
+   "id": "us-drivenc",
+   "url": "https://drivenc.gov/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-csg-cams",
-   "url": "https://www.csg.com.br/pagina/cameras",
+   "id": "us-cotrip",
+   "url": "https://maps.cotrip.org/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-cav-cidades",
-   "url": "https://www.climaaovivo.com.br/cidades",
+   "id": "us-drivetexas",
+   "url": "https://drivetexas.org/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-vejoaovivo",
-   "url": "https://www.vejoaovivo.com.br/",
+   "id": "us-ohgo",
+   "url": "https://www.ohgo.com/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-surfguru",
-   "url": "https://www.surfguru.com.br/",
+   "id": "us-tripcheck",
+   "url": "https://tripcheck.com/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-ricosurf",
-   "url": "https://ricosurf.com.br/",
+   "id": "us-smartway",
+   "url": "https://smartway.tn.gov/traffic",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-backupti",
-   "url": "https://backupti.camerite.com/",
+   "id": "us-algo",
+   "url": "https://algotraffic.com/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-viaaraucaria-mapa",
-   "url": "https://viaaraucaria.com.br/mapa-rotas/index.php",
+   "id": "us-511va",
+   "url": "https://www.511virginia.org/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-rota116",
-   "url": "https://www.rota116.com.br/",
+   "id": "us-getaroundil",
+   "url": "https://www.gettingaroundillinois.com/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-jau",
-   "url": "https://jaucameras.com.br/",
+   "id": "us-mdottraffic",
+   "url": "https://www.mdottraffic.com/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-itaoca-balsa",
-   "url": "https://www.itaoca.sp.gov.br/cameras-ao-vivo-balsa",
+   "id": "us-idrivear",
+   "url": "https://www.idrivearkansas.com/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   },
   {
-   "id": "br-webcampos",
-   "url": "https://www.webcampos.com.br/",
+   "id": "us-oktraffic",
+   "url": "https://oktraffic.org/",
    "wait": 15000,
-   "scroll": true
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
+  },
+  {
+   "id": "us-wyoroad",
+   "url": "https://www.wyoroad.info/",
+   "wait": 15000,
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
+  },
+  {
+   "id": "us-goakamai",
+   "url": "https://goakamai.org/",
+   "wait": 15000,
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
+  },
+  {
+   "id": "us-511mt",
+   "url": "https://www.511mt.net/",
+   "wait": 15000,
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
+  },
+  {
+   "id": "us-nmroads",
+   "url": "https://nmroads.com/",
+   "wait": 15000,
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
+  },
+  {
+   "id": "us-wv511",
+   "url": "https://wv511.org/",
+   "wait": 15000,
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
+  },
+  {
+   "id": "us-511sc",
+   "url": "https://www.511sc.org/",
+   "wait": 15000,
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
+  },
+  {
+   "id": "us-houston",
+   "url": "https://traffic.houstontranstar.org/",
+   "wait": 15000,
+   "scroll": false,
+   "maxBodies": 20,
+   "bodyMax": 150000
   }
  ]
 }

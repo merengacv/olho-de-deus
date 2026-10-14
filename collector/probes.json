@@ -1,91 +1,304 @@
 {
  "probes": [
   {
-   "id": "cars_co",
-   "url": "https://511.cotrip.org/api/graphql",
+   "id": "iteris_va",
+   "url": "https://va.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
    "noOrigin": true,
-   "timeout": 90000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 39.8,
-       "south": 39.6,
-       "east": -104.8,
-       "west": -105.1,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "save": 20000
+   "timeout": 30000
   },
   {
-   "id": "cars_ks_full",
-   "url": "https://www.kandrive.gov/api/graphql",
+   "id": "iteris_mt",
+   "url": "https://mt.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
    "noOrigin": true,
-   "timeout": 90000,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 40.0,
-       "south": 37.0,
-       "east": -94.6,
-       "west": -102.05,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "save": 20000
+   "timeout": 30000
   },
   {
-   "id": "cat_bcn_https",
-   "url": "https://www.bcn.cat/transit/imatges/PlCerda.gif",
-   "noOrigin": true
-  },
-  {
-   "id": "src_qld",
-   "source": "asiapac:qldtraffic",
-   "sample": 2
-  },
-  {
-   "id": "src_cat",
-   "source": "europe:sct-cat",
-   "sample": 3
-  },
-  {
-   "id": "midrive",
-   "url": "https://mdotjboss.state.mi.us/MiDrive/map",
+   "id": "iteris_nd",
+   "url": "https://nd.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
    "noOrigin": true,
-   "text": true,
-   "save": 60000
+   "timeout": 30000
   },
   {
-   "id": "drivenc",
-   "url": "https://drivenc.gov/",
+   "id": "iteris_wy",
+   "url": "https://wy.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
    "noOrigin": true,
-   "text": true,
-   "save": 60000
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ky",
+   "url": "https://ky.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ms",
+   "url": "https://ms.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ar",
+   "url": "https://ar.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ok",
+   "url": "https://ok.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_tn",
+   "url": "https://tn.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_nm",
+   "url": "https://nm.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_oh",
+   "url": "https://oh.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_mo",
+   "url": "https://mo.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ks",
+   "url": "https://ks.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_co",
+   "url": "https://co.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_sc",
+   "url": "https://sc.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_nc",
+   "url": "https://nc.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_md",
+   "url": "https://md.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_nj",
+   "url": "https://nj.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ny",
+   "url": "https://ny.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_wv",
+   "url": "https://wv.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_al",
+   "url": "https://al.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_tx",
+   "url": "https://tx.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_la",
+   "url": "https://la.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_il",
+   "url": "https://il.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_mi",
+   "url": "https://mi.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_hi",
+   "url": "https://hi.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_or",
+   "url": "https://or.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ia",
+   "url": "https://ia.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_mn",
+   "url": "https://mn.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ne",
+   "url": "https://ne.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_in",
+   "url": "https://in.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_wi",
+   "url": "https://wi.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ga",
+   "url": "https://ga.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_fl",
+   "url": "https://fl.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_nh",
+   "url": "https://nh.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_vt",
+   "url": "https://vt.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_me",
+   "url": "https://me.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ri",
+   "url": "https://ri.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_de",
+   "url": "https://de.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_dc",
+   "url": "https://dc.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ut",
+   "url": "https://ut.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_nv",
+   "url": "https://nv.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_id",
+   "url": "https://id.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_az",
+   "url": "https://az.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ca",
+   "url": "https://ca.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_wa",
+   "url": "https://wa.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ak",
+   "url": "https://ak.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_pa",
+   "url": "https://pa.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ct",
+   "url": "https://ct.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
+  },
+  {
+   "id": "iteris_ma",
+   "url": "https://ma.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson",
+   "noOrigin": true,
+   "timeout": 30000
   }
  ]
 }

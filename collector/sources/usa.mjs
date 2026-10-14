@@ -78,6 +78,7 @@ export default [
      ["in", "511 Indiana", "https://511in.org/api/graphql", [41.8, 37.7, -84.7, -88.1], "Indiana DOT", 120000],
      ["mn", "511 Minnesota", "https://511mn.org/api/graphql", [49.4, 43.4, -89.4, -97.3], "Minnesota DOT", 120000],
      ["ma", "Mass 511", "https://mass511.com/api/graphql", [42.9, 41.2, -69.8, -73.6], "Massachusetts DOT", 120000],
+     ["ks", "KanDrive", "https://www.kandrive.gov/api/graphql", [40.1, 36.9, -94.5, -102.1], "Kansas DOT", 120000],
   ].map(([k, name, api, box, org]) => T({ id: "cars-" + k, name, org, home: api.replace("/api/graphql", "/"), attr: org, run: () => cars(api, box) })),
 
   T({ id: "sd511", name: "SD511", org: "South Dakota DOT", home: "https://www.sd511.org/", attr: "South Dakota DOT", run: async () => {
