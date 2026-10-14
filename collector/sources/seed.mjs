@@ -15,6 +15,8 @@ import { fetchText, clean, isHttp, ytEmbed } from "../lib/util.mjs";
 export const SEED_URL = "https://raw.githubusercontent.com/GoSlowPoke168/Argus/master/public/cameras.geojson";
 
 const EXCLUDE = new Set([
+  // já lidas direto da fonte oficial (lista completa e atual): a cópia da semente só duplicaria
+  "opencctv_hak", "opencctv_climaaovivo",
   "windy", "opencctv_windy", "opencctv_windy-providers", "opencctv_swisswebcams",
   "opencctv_earthcam", "opencctv_feratel", "opencctv_panomax", "opencctv_webcamera-pl", "opencctv_livespotting",
   "opencctv_hdontap", "opencctv_hdontap-wildlife", "opencctv_fws-wildlife", "opencctv_opensnow", "opencctv_opentopia",
