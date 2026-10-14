@@ -16,6 +16,7 @@ const INSTANCES = [
   ["ne", "New England 511", "newengland511.org", "US", "Maine, New Hampshire e Vermont DOTs"],
   ["fl", "FL511", "fl511.com", "US", "Florida DOT"],
   ["pa", "511PA", "www.511pa.com", "US", "PennDOT"],
+  ["nc", "DriveNC", "www.drivenc.gov", "US", "North Carolina DOT"],
   ["on", "Ontario 511", "511on.ca", "CA", "Ministry of Transportation Ontario"],
   ["ab", "511 Alberta", "511.alberta.ca", "CA", "Alberta Transportation"],
   ["nb", "511 New Brunswick", "511.gnb.ca", "CA", "New Brunswick DTI"],

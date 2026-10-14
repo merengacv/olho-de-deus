@@ -3,6 +3,21 @@ import { fetchJSON, fetchText, pool, mercToLatLng, clean, isHttp } from "../lib/
 
 const T = (o) => ({ country: "US", type: "trafego", lic: "dados públicos (governo dos EUA)", ...o });
 
+// o objeto JSON que vem logo depois de "marca" num script (conta chaves, respeitando textos)
+export function jsonAfter(js, mark) {
+  const i = js.indexOf(mark), a = i < 0 ? -1 : js.indexOf("{", i);
+  if (a < 0) throw new Error("\"" + mark + "\" não encontrado no script");
+  let depth = 0, str = false;
+  for (let k = a; k < js.length; k++) {
+    const ch = js[k];
+    if (str) { if (ch === "\\") k++; else if (ch === '"') str = false; continue; }
+    if (ch === '"') str = true;
+    else if (ch === "{" || ch === "[") depth++;
+    else if ((ch === "}" || ch === "]") && --depth === 0) return js.slice(a, k + 1);
+  }
+  throw new Error("objeto incompleto depois de \"" + mark + "\"");
+}
+
 // ---------- Castle Rock "CARS" (GraphQL) ----------
 const CARS_Q = "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri features { geometry } __typename ... on Camera { views(limit: 30) { uri ... on CameraView { title category url sources { type src } } category } } } error { message } } }";
 // Uma consulta por estado no zoom 12 devolve as câmeras soltas (sem agrupar). Se ainda
@@ -10,7 +25,7 @@ const CARS_Q = "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(i
 async function cars(api, box) {
   const seen = new Map();
   const ask = async (b, depth) => {
-    const q = [{ query: CARS_Q, variables: { input: { north: b[0], south: b[1], east: b[2], west: b[3], zoom: 12, layerSlugs: ["normalCameras"], nonClusterableUris: [] } } }];
+    const q = [{ query: CARS_Q, variables: { input: { north: b[0], south: b[1], east: b[2], west: b[3], zoom: 12, layerSlugs: ["normalCameras", "hotspotCameras", "trafficCameras", "cameras"], nonClusterableUris: [] } } }];
     const d = await fetchJSON(api, { body: q, timeout: 120000 });
     const feats = (d && d[0] && d[0].data && d[0].data.mapFeaturesQuery && d[0].data.mapFeaturesQuery.mapFeatures) || [];
     let clusters = 0;
@@ -128,6 +143,26 @@ export default [
     const j = JSON.parse(await fetchText("https://tripcheck.com/Scripts/map/data/cctvinventory.js?dt=" + Date.now(), { timeout: 120000, accept: "*/*", headers: { Referer: "https://tripcheck.com/" } }));
     return ((j && j.features) || []).map((f) => f.attributes || {}).filter((a) => a.filename && isFinite(a.latitude)).map((a) => ({
       id: String(a.cameraId) + "-" + a.publishedImageId, name: clean(a.title), lat: +a.latitude, lng: +a.longitude, img: "https://tripcheck.com/RoadCams/cams/" + encodeURIComponent(a.filename), where: clean(a.route) }));
+  } }),
+
+  // West Virginia (WV511): a lista sai de um script do mapa; o vídeo de cada câmera fica em
+  // vtc1.roadsummary.com/rtplive/{CAMxxx}/playlist.m3u8
+  T({ id: "wv511", name: "WV511", org: "West Virginia DOT", home: "https://wv511.org/", attr: "WVDOT — WV511", run: async () => {
+    const js = await fetchText("https://wv511.org/wsvc/gmap.asmx/buildCamerasJSONjs", { timeout: 90000, accept: "*/*", headers: { Referer: "https://wv511.org/" } });
+    const d = JSON.parse(jsonAfter(js, "var camera_data"));
+    return (d.cams || []).filter((c) => /^CAM\d+$/i.test(c.md5 || "") && isFinite(c.start_lat)).map((c) => ({
+      id: c.md5, name: clean(String(c.description || c.title || "").replace(/<!--[\s\S]*?-->/g, " ").replace(/<[^>]+>/g, " ").replace(/West Virginia DOT/i, "").replace(/^\s*\[[A-Z]{2,4}\]\s*/, "")),
+      lat: +c.start_lat, lng: +c.start_lng, hls: `https://vtc1.roadsummary.com/rtplive/${c.md5}/playlist.m3u8`, page: "https://wv511.org/" }));
+  } }),
+
+  // Arkansas (IDrive Arkansas): GeoJSON público das câmeras, cada uma com vídeo HLS
+  T({ id: "idrivear", name: "IDrive Arkansas", org: "Arkansas DOT (ARDOT)", home: "https://www.idrivearkansas.com/", attr: "ARDOT — IDrive Arkansas", run: async () => {
+    const j = await fetchJSON("https://layers.idrivearkansas.com/cameras.geojson?v=" + Math.floor(Date.now() / 1e4), { timeout: 90000, headers: { Referer: "https://www.idrivearkansas.com/" } });
+    return ((j && j.features) || []).filter((f) => f && f.geometry && f.properties && f.properties.status !== "offline").map((f) => {
+      const p = f.properties, hls = p.hls_stream_protected || p.hls_stream || "";
+      return { id: String(p.id), name: clean(p.name), lat: +f.geometry.coordinates[1], lng: +f.geometry.coordinates[0], dir: clean(p.direction_name, 24),
+        hls: /^https:.+\.m3u8/i.test(hls) ? hls : undefined, page: "https://www.idrivearkansas.com/" };
+    });
   } }),
 
   T({ id: "wsdot", name: "WSDOT", org: "Washington State DOT", home: "https://wsdot.com/travel/real-time/map/", attr: "WSDOT", run: async () => {

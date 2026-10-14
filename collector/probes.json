@@ -1,111 +1,11 @@
 {
  "probes": [
-  {
-   "id": "nc_icons",
-   "url": "https://www.drivenc.gov/map/mapIcons/Cameras",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://www.drivenc.gov/"
-   },
-   "save": 3000
-  },
-  {
-   "id": "nc_list",
-   "url": "https://www.drivenc.gov/List/GetData/Cameras",
-   "noOrigin": true,
-   "method": "POST",
-   "headers": {
-    "Referer": "https://www.drivenc.gov/cctv",
-    "Content-Type": "application/json"
-   },
-   "body": {
-    "draw": 1,
-    "columns": [
-     {
-      "data": "sortId",
-      "name": "sortId",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     },
-     {
-      "data": "roadway",
-      "name": "roadway",
-      "searchable": true,
-      "orderable": true,
-      "search": {
-       "value": "",
-       "regex": false
-      }
-     }
-    ],
-    "order": [
-     {
-      "column": 0,
-      "dir": "asc"
-     }
-    ],
-    "start": 0,
-    "length": 10,
-    "search": {
-     "value": "",
-     "regex": false
-    }
-   },
-   "save": 3000
-  },
-  {
-   "id": "tn_cams",
-   "url": "https://www.tdot.tn.gov/opendata/api/public/RoadwayCameras",
-   "noOrigin": true,
-   "save": 2000
-  },
-  {
-   "id": "wy_cams",
-   "url": "https://www.wyoroad.info/highway/webcameras/webcameras.html",
-   "noOrigin": true,
-   "text": true,
-   "save": 60000
-  },
-  {
-   "id": "ar_cams",
-   "url": "https://layers.idrivearkansas.com/cameras.geojson",
-   "noOrigin": true,
-   "save": 3000
-  },
-  {
-   "id": "ma_cars",
-   "url": "https://mass511.com/api/graphql",
-   "noOrigin": true,
-   "method": "POST",
-   "headers": {
-    "Content-Type": "application/json"
-   },
-   "body": [
-    {
-     "query": "query MapFeatures($input: MapFeaturesArgs!) { mapFeaturesQuery(input: $input) { mapFeatures { tooltip uri __typename } error { message } } }",
-     "variables": {
-      "input": {
-       "north": 42.9,
-       "south": 41.2,
-       "east": -69.8,
-       "west": -73.6,
-       "zoom": 12,
-       "layerSlugs": [
-        "normalCameras",
-        "hotspotCameras",
-        "trafficCameras",
-        "cameras"
-       ],
-       "nonClusterableUris": []
-      }
-     }
-    }
-   ],
-   "save": 3000
-  }
+  { "id": "src_nc", "source": "ibi511:511-nc", "sample": 2 },
+  { "id": "src_ar", "source": "usa:idrivear", "sample": 2 },
+  { "id": "src_wv", "source": "usa:wv511", "sample": 2 },
+  { "id": "src_ma", "source": "usa:cars-ma", "sample": 2 },
+  { "id": "src_mn", "source": "usa:cars-mn", "sample": 1 },
+  { "id": "ar_hls", "url": "https://cdn.idrivearkansas.com/live/idrive_457_base.stream/playlist.m3u8", "text": true, "save": 2000 },
+  { "id": "wy_i80", "url": "https://www.wyoroad.info/Highway/webcameras/all?route=I80Cameras", "noOrigin": true, "text": true, "save": 60000 }
  ]
 }
