@@ -1,6 +1,9 @@
 {
  "probes": [
-  { "id": "promet_js", "url": "https://www.promet.si/ClientScript/Promet/promet-si.js", "noOrigin": true, "text": true, "save": 120000 },
-  { "id": "promet_lib", "url": "https://www.promet.si/ClientScript/Promet/lib-min.js?v=38", "noOrigin": true, "text": true, "save": 400000 }
+  { "id": "si_georss1", "url": "https://www.promet.si/portal/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 },
+  { "id": "si_georss2", "url": "https://www.promet.si/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 },
+  { "id": "si_georss3", "url": "https://www.promet.si/portal/sl/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 },
+  { "id": "si_georss4", "url": "https://www.promet.si/dc/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 },
+  { "id": "si_georss5", "url": "http://www.promet.si/portal/sl/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 }
  ]
 }
