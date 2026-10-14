@@ -109,13 +109,25 @@ const tilesReady = async (page, max = 30) => {
   }
   return -1;
 };
-const nearest = (page, lat, lng, video) => page.evaluate(([la, lo, v]) => {
-  const o = window.__olho, c = o.CAMS;
-  let best = -1, bd = 1e9;
-  for (let k = 0; k < c.n; k++) { if (v && !(c.m[k] & 2)) continue; const d = Math.abs(c.lat[k] - la) + Math.abs(c.lng[k] - lo); if (d < bd) { bd = d; best = k; } }
-  if (best >= 0) o.select("cam", o.camRef(best));
-  return best;
-}, [lat, lng, video]);
+// escolhe a câmera mais perto do ponto, seleciona e espera o voo da câmera terminar
+// (no Actions o WebGL é lento e o voo pode levar vários segundos)
+const nearest = async (page, lat, lng, video) => {
+  const r = await page.evaluate(([la, lo, v]) => {
+    const o = window.__olho, c = o.CAMS;
+    let best = -1, bd = 1e9;
+    for (let k = 0; k < c.n; k++) { if (v && !(c.m[k] & 2)) continue; const d = Math.abs(c.lat[k] - la) + Math.abs(c.lng[k] - lo); if (d < bd) { bd = d; best = k; } }
+    if (best >= 0) o.select("cam", o.camRef(best));
+    return best >= 0 ? { i: best, lat: c.lat[best], lng: c.lng[best] } : { i: -1 };
+  }, [lat, lng, video]);
+  if (r.i >= 0) {
+    for (let k = 0; k < 30; k++) {
+      const pov = await page.evaluate(() => window.__olho.globe().pointOfView()).catch(() => null);
+      if (pov && Math.abs(pov.lat - r.lat) < 0.05 && Math.abs(((pov.lng - r.lng + 540) % 360) - 180) < 0.05) break;
+      await sleep(1000);
+    }
+  }
+  return r.i;
+};
 
 let page;
 await tryStep("primeira-carga", async () => {
@@ -178,8 +190,8 @@ if (page) {
     await shot(page, "05-camera-video.png");
   });
   await tryStep("camera-brasil", async () => {
-    // câmera do Brasil (DER-SP em São Paulo, se houver)
-    const i = await nearest(page, -23.62, -46.68, false);
+    // câmera do Brasil (Santos ao Vivo, se houver; senão a mais perto de Santos)
+    const i = await nearest(page, -23.965, -46.333, false);
     const k = await dossierReady(page);
     await sleep(10000);
     step("camera-brasil", { i, dossieEm: k, dossier: await dossierText(page),

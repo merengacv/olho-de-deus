@@ -1203,7 +1203,7 @@ function applyOverlays() {
 }
 // depois de um salto de câmera (busca, seleção), os motores precisam olhar de novo
 // com as matrizes já atualizadas; senão o lugar novo fica sem ladrilhos até mexer
-let settleTimer = 0;
+let settleTimer = 0, pruneTimer = 0;
 function settleTiles() {
   clearTimeout(settleTimer);
   settleTimer = setTimeout(() => {
@@ -1213,6 +1213,20 @@ function settleTiles() {
     try { if (ENGINE && ENGINE.tileUrl) ENGINE.updatePov(cam); } catch (e) { /* ignora */ }
     overlayPov();
   }, 150);
+  clearTimeout(pruneTimer);
+  pruneTimer = setTimeout(pruneTiles, 4000);
+}
+// O motor de ladrilhos guarda tudo o que já baixou (cada ladrilho ocupa ~256 KB na placa
+// de vídeo). Depois de muita navegação, com a câmera parada, limpa e recarrega só o que
+// está à vista (vem do cache do navegador, em instantes).
+function pruneTiles() {
+  if (!globe || !ENGINE) return;
+  const max = NARROW.matches ? 320 : 650, cam = globe.camera();
+  const count = (E) => E.children.reduce((n, o) => n + (o.isMesh && !(o.material && o.material.userData && o.material.userData.olhoNight === true) ? 1 : 0), 0);
+  try {
+    if (ENGINE.tileUrl && count(ENGINE) > max) { ENGINE.clearTiles(); ENGINE.updatePov(cam); }
+    for (const k in OVL) { const E = OVL[k]; if (E && E.tileUrl && count(E) > max) { E.clearTiles(); E.updatePov(cam); } }
+  } catch (e) { /* tenta na próxima */ }
 }
 function overlayPov() {
   if (!globe) return;
@@ -3264,7 +3278,7 @@ async function boot() {
   if (h) selectPlace(h[0], h[1], {}, true);
   setTimeout(checkOffline, 9000);
   // gancho de depuração: abra com ?debug no fim do endereço
-  if (/[?&]debug\b/.test(location.search)) window.__olho = { S, ISS, CAMS, GRID, OVL, select, selectPlace, pickAt, screenToGlobe, camRef, applyBasemap, flyTo, stopInertia, globe: () => globe, engine: () => ENGINE };
+  if (/[?&]debug\b/.test(location.search)) window.__olho = { S, ISS, CAMS, GRID, OVL, pruneTiles, select, selectPlace, pickAt, screenToGlobe, camRef, applyBasemap, flyTo, stopInertia, globe: () => globe, engine: () => ENGINE };
 }
 boot();
 })();

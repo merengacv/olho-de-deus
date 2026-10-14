@@ -159,7 +159,7 @@ async function main() {
         // id único (duas redes da semente podem ter o mesmo nome curto)
         let sid = "s-" + src.replace(/^opencctv_/, "");
         while (sources.some((x) => x.id === sid)) sid += "_";
-        const rec = { id: sid, name: nm.name, org: nm.host, cc: "", home: nm.host ? "https://" + nm.host + "/" : "", lic: "catálogo aberto Argus (MIT); imagens dos respectivos donos", attr: nm.host, seed: true };
+        const rec = { id: sid, name: nm.name, org: nm.org || nm.host, cc: "", home: nm.host ? "https://" + nm.host + "/" : "", lic: "catálogo aberto Argus (MIT); imagens dos respectivos donos", attr: nm.org || nm.host, seed: true };
         const ok = keep.map((c) => norm(c, rec)).filter(Boolean);
         rec.n = ok.length; rec.ok = true; rec.from = "semente";
         if (ok.length) { sources.push(rec); all.push(...ok); used += ok.length; }

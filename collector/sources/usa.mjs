@@ -163,6 +163,22 @@ export default [
         img: `https://phenocam.nau.edu/data/latest/${c.Sitename}.jpg`, page: `https://phenocam.nau.edu/webcam/sites/${c.Sitename}/` }));
     } }),
 
+  // FAA WeatherCams: câmeras de tempo para a aviação (Alasca, EUA e Canadá). A API só
+  // responde para o próprio site da FAA e as imagens têm nome com data, então entram como
+  // ponto com link (abre o mapa oficial no lugar), um por aeródromo/local.
+  T({ id: "faa-wcams", name: "FAA WeatherCams", org: "Federal Aviation Administration (EUA)", type: "aviacao", home: "https://weathercams.faa.gov/", attr: "FAA WeatherCams", lic: "dados públicos do governo dos EUA (imagens no site da FAA)",
+    run: async () => {
+      const j = await fetchJSON("https://weathercams.faa.gov/api/sites", { timeout: 120000, headers: { Referer: "https://weathercams.faa.gov/" } });
+      return (j.payload || []).filter((s) => s && s.siteActive !== false && Number.isFinite(s.latitude) && Number.isFinite(s.longitude) && Array.isArray(s.cameras) && s.cameras.length).map((s) => {
+        const n = s.cameras.length, dirs = s.cameras.map((c) => c.cameraDirection).filter(Boolean).slice(0, 8).join(", ");
+        return {
+          id: String(s.siteId), lat: s.latitude, lng: s.longitude, cc: /^[A-Z]{2}$/.test(s.country || "") ? s.country : "",
+          name: clean(`${s.siteName}${s.icao ? " (" + s.icao + ")" : ""} — ${n} câmera${n > 1 ? "s" : ""}${dirs ? ": " + dirs : ""}`),
+          page: `https://weathercams.faa.gov/map/${(+s.longitude).toFixed(4)},${(+s.latitude).toFixed(4)},11`, where: clean([s.siteArea !== s.siteName ? s.siteArea : "", s.state].filter(Boolean).join(", ")),
+        };
+      });
+    } }),
+
   T({ id: "ndbc", name: "NOAA BuoyCAM", org: "NOAA National Data Buoy Center", type: "porto", home: "https://www.ndbc.noaa.gov/buoycams.shtml", attr: "NOAA NDBC", lic: "domínio público (NOAA)",
     run: async () => {
       const j = await fetchJSON("https://www.ndbc.noaa.gov/buoycams.php");

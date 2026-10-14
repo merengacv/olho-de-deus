@@ -26,6 +26,8 @@ const INSTANCES = [
   ["mb", "Manitoba 511", "www.manitoba511.ca", "CA", "Manitoba Transportation"],
   ["sk", "Saskatchewan Highway Hotline", "hotline.gov.sk.ca", "CA", "Saskatchewan Highways"],
   ["za", "i-traffic", "www.i-traffic.co.za", "ZA", "SANRAL (África do Sul)"],
+  ["nc", "DriveNC", "drivenc.gov", "US", "North Carolina DOT"],
+  ["ny", "511NY", "511ny.org", "US", "New York State DOT"],
 ];
 
 const body = (start, length) => ({

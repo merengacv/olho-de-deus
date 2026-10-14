@@ -1,57 +1,63 @@
 {
  "probes": [
   {
-   "id": "br_santos_lista",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/Camera/listarPontosCamerasSantosAoVivo",
-   "method": "POST",
-   "body": "",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://www.santos.sp.gov.br/santosaovivo",
-    "X-Requested-With": "XMLHttpRequest",
-    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "Accept": "application/json, text/javascript, */*; q=0.01"
-   },
-   "save": 400000,
-   "timeout": 60000
+   "id": "run_santos",
+   "source": "brasil:santos",
+   "sample": 12
   },
   {
-   "id": "br_santos_lista_get",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/Camera/listarPontosCamerasSantosAoVivo",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://www.santos.sp.gov.br/santosaovivo",
-    "X-Requested-With": "XMLHttpRequest"
-   },
-   "save": 20000
+   "id": "run_faa",
+   "source": "usa:faa-wcams",
+   "sample": 5
   },
   {
-   "id": "br_santos_top",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/MapaCamera/listarCamerasMaisAcessadas",
-   "method": "POST",
-   "body": "",
-   "noOrigin": true,
-   "headers": {
-    "Referer": "https://www.santos.sp.gov.br/santosaovivo",
-    "X-Requested-With": "XMLHttpRequest",
-    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "Accept": "application/json, text/javascript, */*; q=0.01"
-   },
-   "save": 100000
+   "id": "run_511nc",
+   "source": "ibi511:511-nc",
+   "sample": 3
   },
   {
-   "id": "br_santos_num",
-   "url": "https://egov.santos.sp.gov.br/santosmapeada/Gestao/Cameras/Camera/exibirNumero",
-   "method": "POST",
-   "body": "args%5B%5D=1",
+   "id": "run_511ny",
+   "source": "ibi511:511-ny",
+   "sample": 3
+  },
+  {
+   "id": "run_motiva",
+   "source": "brasil:motiva",
+   "sample": 3
+  },
+  {
+   "id": "br_climaaovivo_sc",
+   "url": "https://www.climaaovivo.com.br/_next/data/9CCVMfmbFIZRrpcNiDbMF/cidades/brasil/sc.json",
    "noOrigin": true,
-   "headers": {
-    "Referer": "https://www.santos.sp.gov.br/santosaovivo",
-    "X-Requested-With": "XMLHttpRequest",
-    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "Accept": "application/json, text/javascript, */*; q=0.01"
-   },
-   "save": 20000
+   "save": 200000
+  },
+  {
+   "id": "br_climaaovivo_widget",
+   "url": "https://www.climaaovivo.com.br/_next/data/9CCVMfmbFIZRrpcNiDbMF/widget.json",
+   "noOrigin": true,
+   "save": 60000
+  },
+  {
+   "id": "br_csg_cams",
+   "url": "https://www.csg.com.br/pagina/cameras",
+   "noOrigin": true,
+   "text": true,
+   "save": 300000,
+   "grep": [
+    "[^\"'<> ]*(camera|câmera|cam[0-9_-]|cctv|m3u8|ipcamlive|youtube\\.com/embed/[\\w-]+|\\.jpg)[^\"'<> ]*"
+   ],
+   "grepMax": 80
+  },
+  {
+   "id": "br_viaaraucaria_mapa",
+   "url": "https://viaaraucaria.com.br/mapa-rotas/index.php",
+   "noOrigin": true,
+   "text": true,
+   "save": 300000,
+   "grep": [
+    "[^\"'<> ]*(camera|câmera|cam[0-9_-]|cctv|m3u8|ipcamlive|youtube\\.com/embed/[\\w-]+|\\.json)[^\"'<> ]*"
+   ],
+   "grepMax": 80
   }
  ]
 }

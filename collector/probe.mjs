@@ -87,6 +87,22 @@ async function windyChain(p) {
   return out;
 }
 
+// Roda um leitor do coletor (ex.: "brasil:santos") na rede do Actions e grava a contagem,
+// avisos e uma amostra. Serve para testar um leitor novo antes de ligar na coleta.
+async function runSource(p) {
+  const [file, id] = p.source.split(":"), t0 = Date.now(), warns = [];
+  try {
+    const mod = await import("./sources/" + file + ".mjs");
+    const src = (mod.default || []).find((s) => s.id === id);
+    if (!src) return { id: p.id, error: "leitor não encontrado: " + p.source };
+    const out = await src.run({ warn: (m) => warns.push(String(m).slice(0, 300)), partial: [] });
+    const arr = Array.isArray(out) ? out : [];
+    return { id: p.id, source: p.source, count: arr.length, ms: Date.now() - t0, warns: warns.slice(0, 30), sample: JSON.parse(scrub(JSON.stringify(arr.slice(0, p.sample || 25)))) };
+  } catch (e) {
+    return { id: p.id, source: p.source, error: scrub(String(e && e.stack || e).slice(0, 1500)), ms: Date.now() - t0, warns: warns.slice(0, 30) };
+  }
+}
+
 const spec = JSON.parse(await readFile(specPath, "utf8"));
 await mkdir(join(outDir, "samples"), { recursive: true });
 const results = [];
@@ -94,7 +110,7 @@ const queue = spec.probes.slice();
 const workers = Array.from({ length: 8 }, async () => {
   while (queue.length) {
     const p = queue.shift();
-    const rs = p.windyChain ? await windyChain(p) : [await hit(p)];
+    const rs = p.source ? [await runSource(p)] : p.windyChain ? await windyChain(p) : [await hit(p)];
     for (const r of rs) {
       const save = p.save || (r.id.includes(":") ? 2000 : 0);
       if (r._text && save) await writeFile(join(outDir, "samples", r.id.replace(/[^\w.-]+/g, "_") + ".txt"), scrub(r._text.slice(0, save)));
@@ -108,4 +124,4 @@ await Promise.all(workers);
 const order = new Map(spec.probes.map((p, i) => [p.id, i]));
 results.sort((a, b) => (order.get(a.id.split(":")[0]) - order.get(b.id.split(":")[0])) || a.id.localeCompare(b.id));
 await writeFile(join(outDir, "probe.json"), scrub(JSON.stringify({ ranAt: new Date().toISOString(), results }, null, 1)));
-for (const r of results) console.log(String(r.status || r.error).slice(0, 30).padEnd(10), r.id, r.headers ? (r.headers["access-control-allow-origin"] || "-") : "");
+for (const r of results) console.log(String(r.status || r.count || r.error).slice(0, 30).padEnd(10), r.id, r.headers ? (r.headers["access-control-allow-origin"] || "-") : "");

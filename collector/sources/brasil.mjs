@@ -1,6 +1,6 @@
 // Brasil: órgãos públicos com câmeras abertas na web. Cada leitor usa a mesma lista que
 // o portal oficial carrega no navegador (descoberta com o farejador, tools/farejar.mjs).
-import { fetchJSON, fetchText, clean, xmlBlocks, xmlVal, decodeXml, pool } from "../lib/util.mjs";
+import { UA, fetchJSON, fetchText, clean, xmlBlocks, xmlVal, decodeXml, pool } from "../lib/util.mjs";
 
 // número da rodovia + km inteiro: junta a lista com coordenadas e a lista com imagens
 const roadKey = (rod, km) => {
@@ -95,11 +95,77 @@ async function motiva(ctx) {
   return out;
 }
 
+// ---------- coordenadas: UTM no datum SAD69 (cadastros antigos de prefeituras) ----------
+function utmToGeo(E, N, zone, south, a, f) {
+  const k0 = 0.9996, e2 = f * (2 - f), ep2 = e2 / (1 - e2), x = E - 500000, y = south ? N - 10000000 : N;
+  const mu = y / k0 / (a * (1 - e2 / 4 - (3 * e2 * e2) / 64 - (5 * e2 ** 3) / 256));
+  const e1 = (1 - Math.sqrt(1 - e2)) / (1 + Math.sqrt(1 - e2));
+  const p1 = mu + ((3 * e1) / 2 - (27 * e1 ** 3) / 32) * Math.sin(2 * mu) + ((21 * e1 * e1) / 16 - (55 * e1 ** 4) / 32) * Math.sin(4 * mu) + ((151 * e1 ** 3) / 96) * Math.sin(6 * mu) + ((1097 * e1 ** 4) / 512) * Math.sin(8 * mu);
+  const s1 = Math.sin(p1), c1 = Math.cos(p1), t1 = Math.tan(p1), N1 = a / Math.sqrt(1 - e2 * s1 * s1), T1 = t1 * t1, C1 = ep2 * c1 * c1;
+  const R1 = (a * (1 - e2)) / Math.pow(1 - e2 * s1 * s1, 1.5), D = x / (N1 * k0);
+  const lat = p1 - ((N1 * t1) / R1) * ((D * D) / 2 - ((5 + 3 * T1 + 10 * C1 - 4 * C1 * C1 - 9 * ep2) * D ** 4) / 24 + ((61 + 90 * T1 + 298 * C1 + 45 * T1 * T1 - 252 * ep2 - 3 * C1 * C1) * D ** 6) / 720);
+  const lon = ((zone - 1) * 6 - 177) * (Math.PI / 180) + (D - ((1 + 2 * T1 + C1) * D ** 3) / 6 + ((5 - 2 * C1 + 28 * T1 - 3 * C1 * C1 + 8 * ep2 + 24 * T1 * T1) * D ** 5) / 120) / c1;
+  return [(lat * 180) / Math.PI, (lon * 180) / Math.PI];
+}
+// SAD69 → SIRGAS 2000 (≈ WGS84), parâmetros do IBGE: ΔX = −67,35 m; ΔY = +3,88 m; ΔZ = −38,22 m
+export function sad69UtmToWgs84(E, N, zone) {
+  const r = Math.PI / 180, [la0, lo0] = utmToGeo(E, N, zone, true, 6378160, 1 / 298.25);
+  const xyz = (la, lo, a, f) => { const e2 = f * (2 - f), s = Math.sin(la), n = a / Math.sqrt(1 - e2 * s * s); return [n * Math.cos(la) * Math.cos(lo), n * Math.cos(la) * Math.sin(lo), n * (1 - e2) * s]; };
+  const [X, Y, Z] = xyz(la0 * r, lo0 * r, 6378160, 1 / 298.25), x = X - 67.35, y = Y + 3.88, z = Z - 38.22;
+  const a = 6378137, f = 1 / 298.257222101, e2 = f * (2 - f), p = Math.hypot(x, y);
+  let la = Math.atan2(z, p * (1 - e2));
+  for (let i = 0; i < 6; i++) { const s = Math.sin(la), n = a / Math.sqrt(1 - e2 * s * s); la = Math.atan2(z + e2 * n * s, p); }
+  return [la / r, Math.atan2(y, x) / r];
+}
+
+// Santos ao Vivo: mapa público de câmeras da Prefeitura de Santos (SigSantos). O sistema
+// pede uma sessão anônima (abre a página e "autentica" sem usuário) antes de dar a lista.
+async function santos(ctx) {
+  const B = "https://egov.santos.sp.gov.br/santosmapeada", jar = new Map();
+  const req = async (path, body) => {
+    const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 60000);
+    try {
+      const r = await fetch(B + path, {
+        method: body == null ? "GET" : "POST", body: body == null ? undefined : body, signal: ctl.signal, redirect: "follow",
+        headers: {
+          "User-Agent": UA, Accept: "application/json, text/javascript, */*; q=0.01", Referer: B + "/Gestao/Cameras/MapaCamera/", "X-Requested-With": "XMLHttpRequest",
+          Cookie: [...jar].map(([k, v]) => k + "=" + v).join("; "), ...(body == null ? {} : { "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8" }),
+        },
+      });
+      for (const c of (r.headers.getSetCookie ? r.headers.getSetCookie() : [])) { const kv = c.split(";")[0], i = kv.indexOf("="); if (i > 0) jar.set(kv.slice(0, i).trim(), kv.slice(i + 1)); }
+      if (!r.ok) throw new Error("HTTP " + r.status + " em " + path);
+      return await r.text();
+    } finally { clearTimeout(timer); }
+  };
+  await req("/Gestao/Cameras/MapaCamera/");
+  await req("/Usuario/Usuario/autenticar", "args%5B%5D=&args%5B%5D=");
+  const d = JSON.parse(await req("/Gestao/Cameras/Camera/listarPontosCamerasSantosAoVivo", "")).aaData || {};
+  const n = (d.IDCAM || []).length, out = [];
+  let fails = 0;
+  await pool([...Array(n).keys()], 6, async (i) => {
+    const E = parseFloat(String(d.X[i]).replace(",", ".")), N = parseFloat(String(d.Y[i]).replace(",", "."));
+    if (!Number.isFinite(E) || !Number.isFinite(N)) return;
+    let info = null;
+    try { info = JSON.parse(await req("/Gestao/Cameras/Camera/exibirNumero", "args%5B%5D=" + encodeURIComponent(d.IDCAM[i]))); } catch (e) { fails++; return; }
+    const img = info && info.NUMERO ? String(info.NUMERO).trim() : "";
+    if (!/^https:\/\//i.test(img)) { fails++; return; }
+    const [lat, lng] = sad69UtmToWgs84(E, N, 23);
+    out.push({ id: String(d.IDCAM[i]), name: clean(info.DESCRICAO || d.NUMERO[i]), lat, lng, img, where: "Santos, SP", page: "https://www.santos.sp.gov.br/santosaovivo" });
+  });
+  if (fails) ctx.warn(fails + " câmeras sem imagem https ou sem detalhes (de " + n + ")");
+  return out;
+}
+
 export default [
   {
     id: "motiva", name: "Motiva — câmeras ao vivo das rodovias", org: "Motiva (concessionárias de rodovias, antigo Grupo CCR)", country: "BR", type: "trafego",
     home: "https://rodovias.motiva.com.br/", attr: "Motiva — câmeras das concessionárias", lic: "vídeo público dos sites das concessionárias",
     run: (ctx) => motiva(ctx),
+  },
+  {
+    id: "santos", name: "Santos ao Vivo — câmeras da cidade", org: "Prefeitura de Santos (SigSantos)", country: "BR", type: "cidade",
+    home: "https://www.santos.sp.gov.br/santosaovivo", attr: "Prefeitura de Santos — Santos ao Vivo", lic: "imagens públicas do portal Santos ao Vivo",
+    run: (ctx) => santos(ctx),
   },
   {
     id: "der-sp", name: "DER-SP — câmeras das rodovias", org: "Departamento de Estradas de Rodagem do Estado de São Paulo", country: "BR", type: "trafego",
