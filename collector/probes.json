@@ -1,9 +1,7 @@
 {
  "probes": [
   { "id": "si_georss1", "url": "https://www.promet.si/portal/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 },
-  { "id": "si_georss2", "url": "https://www.promet.si/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 },
   { "id": "si_georss3", "url": "https://www.promet.si/portal/sl/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 },
-  { "id": "si_georss4", "url": "https://www.promet.si/dc/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 },
-  { "id": "si_georss5", "url": "http://www.promet.si/portal/sl/kamere_georss.xml", "noOrigin": true, "text": true, "save": 50000 }
+  { "id": "src_rotaoeste", "source": "brasil:rota-do-oeste", "sample": 2 }
  ]
 }

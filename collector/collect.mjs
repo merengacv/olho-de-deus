@@ -49,6 +49,9 @@ function urlKey(u) {
     return (x.hostname.replace(/^www\./, "") + x.pathname + (x.search || "")).toLowerCase();
   } catch { return String(u).toLowerCase(); }
 }
+// players usados por muita gente (YouTube, Twitch, ipcamlive...): uma fonte direta com vídeo do
+// YouTube não quer dizer que todas as câmeras do YouTube da semente já estão cobertas
+const SHARED_HOST = /(^|\.)(youtube(-nocookie)?\.com|youtu\.be|twitch\.tv|ipcamlive\.com|rtsp\.me|camerite\.com|vimeo\.com|ustream\.tv|dailymotion\.com|facebook\.com|nethorizontes\.com\.br|wowza\w*\.\w+|streamlock\.net|akamaized\.net)$/i;
 function hostKey(u) {
   try { const x = new URL(u); const h = x.hostname.replace(/^www\./, "").toLowerCase(); return /amazonaws\.com$|blob\.core\.windows\.net$|cloudfront\.net$/.test(h) ? h + "/" + x.pathname.split("/")[1] : h; }
   catch { return ""; }
@@ -138,7 +141,7 @@ async function main() {
     sources.push(rec);
     const src = SOURCES.find((x) => x.id === rec.id) || {};
     if (src.aggregate) { later.push([rec, cams]); continue; }
-    for (const c of cams) { all.push(c); covered.add(hostKey(mediaOf(c))); }
+    for (const c of cams) { all.push(c); const h = hostKey(mediaOf(c)); if (!SHARED_HOST.test(h)) covered.add(h); }
   }
 
   // ---------- semente ----------

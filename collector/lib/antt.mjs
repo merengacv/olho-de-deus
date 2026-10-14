@@ -57,7 +57,7 @@ async function load(opt = {}) {
     try { if (Date.now() - (await stat(file)).mtimeMs < 45 * 86400e3) return JSON.parse(await readFile(file, "utf8")); } catch { /* baixa de novo */ }
     const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 300000);
     try {
-      const r = await fetch(ANTT_KMZ, { headers: { "User-Agent": UA }, signal: ctl.signal });
+      const r = await fetch(ANTT_KMZ, { headers: { "User-Agent": UA }, signal: ctl.signal }).catch((e) => { throw new Error(e.name === "AbortError" ? "tempo esgotado" : (e.cause && e.cause.code) || e.message); });
       if (!r.ok) throw new Error("ANTT: HTTP " + r.status);
       const idx = await buildIndex(Buffer.from(await r.arrayBuffer()));
       try { await writeFile(file, JSON.stringify(idx)); } catch { /* sem cache em disco */ }
@@ -73,7 +73,9 @@ async function load(opt = {}) {
 // posição do km de uma rodovia federal concedida (interpola entre os marcos vizinhos);
 // null se a rodovia não está na tabela ou o km fica a mais de 1 km de um marco
 export async function kmPosition(road, km, opt = {}) {
-  const pts = (await load(opt))[roadKey(road)];
+  let idx;
+  try { idx = await load(opt); } catch (e) { loading = null; throw new Error("tabela de km da ANTT indisponível: " + e.message); }
+  const pts = idx[roadKey(road)];
   if (!pts || !pts.length || !Number.isFinite(km)) return null;
   let lo = 0, hi = pts.length - 1;
   while (hi - lo > 1) { const mid = (lo + hi) >> 1; if (pts[mid][0] <= km) lo = mid; else hi = mid; }

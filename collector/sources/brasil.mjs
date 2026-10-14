@@ -38,6 +38,7 @@ function kmToPoint(pois, km) {
 }
 async function ecorodovias(ctx) {
   const out = [];
+  let anttErr = "";
   await pool(ECO, 4, async ([name, base]) => {
     let d;
     try { d = await fetchJSON(base + "/api/playful-map", { timeout: 60000, retries: 1 }); }
@@ -58,7 +59,7 @@ async function ecorodovias(ctx) {
         let pt = kmToPoint(pois, +c.KM);
         if (!/^https:\/\//i.test(c.Url || "")) { noImg++; continue; }
         // rodovia federal: o km sai da tabela oficial da ANTT quando a concessionária não tem ponto perto
-        if (!pt && federalRoad(g.Name)) { const p = await kmPosition(g.Name, +c.KM, { cache: ctx.cache }).catch(() => null); if (p) pt = { lat: p[0], lng: p[1] }; }
+        if (!pt && federalRoad(g.Name)) { const p = await kmPosition(g.Name, +c.KM, { cache: ctx.cache }).catch((e) => { anttErr = e.message; return null; }); if (p) pt = { lat: p[0], lng: p[1] }; }
         if (!pt) { noPos++; lost.add(g.Name + " km " + c.KM); continue; }
         out.push({ id: base.replace(/^https:\/\/(www\.)?/, "") + "-" + c.CameraID, name: clean(`${titleCase(c.Description)} — ${g.DisplayName || g.Name}, km ${c.KM}`),
           lat: pt.lat, lng: pt.lng, img: c.Url, page: base + "/", where: name });
@@ -66,6 +67,7 @@ async function ecorodovias(ctx) {
     }
     if (noPos || noImg) ctx.warn(`${name}: ${total} câmeras, ${noPos} sem posição (${[...lost].slice(0, 6).join("; ")}), ${noImg} sem imagem https`);
   });
+  if (anttErr) ctx.warn(anttErr);
   return out;
 }
 
@@ -230,7 +232,9 @@ async function rotaDoOeste(ctx) {
   for (const m of html.matchAll(/https:\/\/([\w.-]*ipcamlive\.com)\/player\/player\.php\?alias=(camerakm(\d+)[\w-]*)/gi)) {
     if (seen.has(m[2])) continue;
     seen.add(m[2]);
-    const km = +m[3], p = await kmPosition("BR-163/MT", km, { cache: ctx.cache }).catch(() => null);
+    const km = +m[3];
+    let p = null;
+    try { p = await kmPosition("BR-163/MT", km, { cache: ctx.cache }); } catch (e) { throw e; } // sem a tabela não há posição: a coleta anterior fica
     if (!p) { ctx.warn("km " + km + " fora da tabela da ANTT"); continue; }
     out.push({ id: m[2], name: `BR-163 km ${km} — Nova Rota do Oeste`, lat: p[0], lng: p[1], where: "BR-163, MT", page: B,
       emb: `https://${m[1]}/player/player.php?alias=${m[2]}&autoplay=1&mute=1&disableautofullscreen` });
