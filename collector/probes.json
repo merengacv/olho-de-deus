@@ -1,10 +1,6 @@
 {
  "probes": [
-  { "id": "promet_datajs", "url": "https://www.promet.si/Data/SuperFlexi/Solutions/Kamere%20(Detail)/resources/data.js", "noOrigin": true, "text": true, "save": 120000 },
-  { "id": "promet_rm2", "url": "https://www.promet.si/ClientScript/Promet/rm2.js?v=4", "noOrigin": true, "text": true, "head": 200, "grep": ["[^\"'`]{0,60}(api|kamer|camera)[^\"'`]{0,80}"], "grepMax": 60 },
-  { "id": "promet_js", "url": "https://www.promet.si/ClientScript/Promet/promet-si.js", "noOrigin": true, "text": true, "head": 200, "grep": ["[^\"'`]{0,60}(api|kamer|camera)[^\"'`]{0,80}"], "grepMax": 60 },
-  { "id": "ab_a3", "url": "https://verkehr.autobahn.de/o/autobahn/A3/services/webcam", "noOrigin": true, "timeout": 60000, "save": 30000 },
-  { "id": "ab_a8", "url": "https://verkehr.autobahn.de/o/autobahn/A8/services/webcam", "noOrigin": true, "timeout": 60000, "save": 30000 },
-  { "id": "hak_grupa", "url": "https://www.hak.hr/info/kamere/grupa/A1", "noOrigin": true, "text": true, "save": 160000 }
+  { "id": "promet_js", "url": "https://www.promet.si/ClientScript/Promet/promet-si.js", "noOrigin": true, "text": true, "save": 120000 },
+  { "id": "promet_lib", "url": "https://www.promet.si/ClientScript/Promet/lib-min.js?v=38", "noOrigin": true, "text": true, "save": 400000 }
  ]
 }
