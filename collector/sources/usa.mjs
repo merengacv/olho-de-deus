@@ -87,9 +87,17 @@ export default [
       ["iteris-sc", "511SC", "South Carolina DOT", "sc", "https://www.511sc.org/"]].map(([id, name, org, st, home]) => T({ id, name, org, home, attr: org, run: async () => {
     const j = await fetchJSON(`https://${st}.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson`, { timeout: 90000 });
     const out = [];
-    for (const f of j.features || []) for (const c of (f.properties && f.properties.cameras) || []) {
-      if (!f.geometry || !c || !/^https?:/i.test(c.image || "")) continue;
-      out.push({ id: f.id + "-" + c.id, name: clean(`${f.properties.name} — ${c.name}`), lat: f.geometry.coordinates[1], lng: f.geometry.coordinates[0], img: c.image });
+    for (const f of j.features || []) {
+      const p = f.properties || {}, [lng, lat] = (f.geometry && f.geometry.coordinates) || [];
+      // formato 1 (SD, MT): um ponto com várias câmeras; formato 2 (SC): cada câmera é um vídeo
+      for (const c of p.cameras || []) {
+        if (!c || !/^https?:/i.test(c.image || "")) continue;
+        out.push({ id: f.id + "-" + c.id, name: clean([p.name || p.description || c.description, c.name].filter(Boolean).join(" — ")), lat, lng, img: c.image, dir: clean(c.direction, 24) });
+      }
+      if (!p.cameras && (p.https_url || p.image_url) && p.active !== false) {
+        out.push({ id: String(p.id || p.name), name: clean(p.description || p.name), lat, lng, dir: clean(p.direction, 24), where: clean(p.jurisdiction),
+          hls: /^https:.+\.m3u8/i.test(p.https_url || "") ? p.https_url : undefined, img: /^https:/i.test(p.image_url || "") ? p.image_url : undefined });
+      }
     }
     return out;
   } })),
