@@ -81,13 +81,18 @@ export default [
      ["ks", "KanDrive", "https://www.kandrive.gov/api/graphql", [40.1, 36.9, -94.5, -102.1], "Kansas DOT", 120000],
   ].map(([k, name, api, box, org]) => T({ id: "cars-" + k, name, org, home: api.replace("/api/graphql", "/"), attr: org, run: () => cars(api, box) })),
 
-  T({ id: "sd511", name: "SD511", org: "South Dakota DOT", home: "https://www.sd511.org/", attr: "South Dakota DOT", run: async () => {
-    const j = await fetchJSON("https://sd.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson");
+  // plataforma Iteris (ATIS): o mapa oficial lê um GeoJSON com cada ponto e as câmeras dele
+  ...[["sd511", "SD511", "South Dakota DOT", "sd", "https://www.sd511.org/"],
+      ["iteris-mt", "511MT", "Montana DOT", "mt", "https://www.511mt.net/"],
+      ["iteris-sc", "511SC", "South Carolina DOT", "sc", "https://www.511sc.org/"]].map(([id, name, org, st, home]) => T({ id, name, org, home, attr: org, run: async () => {
+    const j = await fetchJSON(`https://${st}.cdn.iteris-atis.com/geojson/icons/metadata/icons.cameras.geojson`, { timeout: 90000 });
     const out = [];
-    for (const f of j.features || []) for (const c of (f.properties && f.properties.cameras) || [])
+    for (const f of j.features || []) for (const c of (f.properties && f.properties.cameras) || []) {
+      if (!f.geometry || !c || !/^https?:/i.test(c.image || "")) continue;
       out.push({ id: f.id + "-" + c.id, name: clean(`${f.properties.name} — ${c.name}`), lat: f.geometry.coordinates[1], lng: f.geometry.coordinates[0], img: c.image });
+    }
     return out;
-  } }),
+  } })),
 
   T({ id: "wsdot", name: "WSDOT", org: "Washington State DOT", home: "https://wsdot.com/travel/real-time/map/", attr: "WSDOT", run: async () => {
     const j = await fetchJSON("https://data.wsdot.wa.gov/travelcenter/Cameras.json");
