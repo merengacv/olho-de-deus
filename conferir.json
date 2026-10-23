@@ -1,0 +1,561 @@
+{
+ "url": "https://merengacv.github.io/olho-de-deus/?debug",
+ "when": "2026-10-23T08:14:02.339Z",
+ "steps": [
+  {
+   "name": "primeira",
+   "s": 9,
+   "cams": "ok",
+   "n": 114872,
+   "windy": 50,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 3,
+     "tiles": 64
+    }
+   },
+   "basemap": "esri",
+   "level": 3,
+   "tiles": 80,
+   "tilesLoaded": 80,
+   "pov": {
+    "lat": -8,
+    "lng": -48.604683053119345,
+    "altitude": 2.3500000000000028
+   },
+   "chunks": {
+    "ok": 0,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 45
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 87
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 114872
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 50
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "inicio",
+   "s": 31,
+   "cams": "ok",
+   "n": 114872,
+   "windy": 50,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 3,
+     "tiles": 64
+    }
+   },
+   "basemap": "esri",
+   "level": 3,
+   "tiles": 80,
+   "tilesLoaded": 80,
+   "pov": {
+    "lat": -8,
+    "lng": -56.26002727978269,
+    "altitude": 2.350000000000009
+   },
+   "chunks": {
+    "ok": 0,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 45
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 87
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 114872
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 50
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   },
+   "fps": 1.8
+  },
+  {
+   "name": "sao-paulo",
+   "s": 44,
+   "tilesEm": 0,
+   "fps": 0.7,
+   "cams": "ok",
+   "n": 114872,
+   "windy": 97,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 10,
+     "tiles": 144
+    }
+   },
+   "basemap": "esri",
+   "level": 10,
+   "tiles": 350,
+   "tilesLoaded": 350,
+   "pov": {
+    "lat": -23.55000000000001,
+    "lng": -46.64761730909092,
+    "altitude": 0.04999999999999982
+   },
+   "chunks": {
+    "ok": 0,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 45
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 87
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 114872
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 97
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "nova-york",
+   "s": 53,
+   "tilesEm": 0,
+   "fps": 0.6,
+   "cams": "ok",
+   "n": 114872,
+   "windy": 105,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 15,
+     "tiles": 126
+    }
+   },
+   "basemap": "esri",
+   "level": 15,
+   "tiles": 476,
+   "tilesLoaded": 476,
+   "pov": {
+    "lat": 40.75799999999999,
+    "lng": -73.9855,
+    "altitude": 0.0012000000000000899
+   },
+   "chunks": {
+    "ok": 0,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 45
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 87
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 114872
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 105
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "camera-londres",
+   "s": 57,
+   "i": 24996,
+   "dossieEm": 0,
+   "dossier": "CÂMERA · TRÂNSITO\nTrafalgar Square\nReino Unido\n✕\nrecebida às 05:14\nAO VIVO\nImagem atual\nClipe de vídeo\nFONTE\nTfL JamCams\nTransport for London\nTIPO\nTrânsito\nIMAGEM\nimagem atual, clipe de vídeo\nDIREÇÃO\nZoom - Horse Guards Aven\nPAÍS\nReino Unido\nCOORDENADAS\n51.5074, -0.1277\n\nPowered by TfL Open Data. Contém dados da OS © Crown copyright. · TfL Open Data\n\nCÂMERAS POR PERTO · 1.064 NUM RAIO DE 25 KM\nTRÂNSITO▶ Online services in Our Lady of Grace School\n23 m\nTRÂNSITO◉ Northumberland Ave/Victoria Emb\n397 m\nTRÂNSITO◉ Charing Cross Rd/Cranbourne St\n436 m\nTRÂNSITO◉ Piccadilly Circus\n549 m\nTRÂNSITO◉ Shaftesbury Ave / Macclesfield St\n588 m\nTRÂNSITO◉ Charing Cross Rd / Cambridge Circus\n641 m\nTRÂNSITO◉ Par",
+   "cams": "ok",
+   "n": 114872,
+   "windy": 105,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 15,
+     "tiles": 158
+    }
+   },
+   "basemap": "esri",
+   "level": 15,
+   "tiles": 565,
+   "tilesLoaded": 565,
+   "pov": {
+    "lat": 51.5074,
+    "lng": -0.12770000000000437,
+    "altitude": 0.0012000000000000899
+   },
+   "chunks": {
+    "ok": 2,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 45
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 87
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 114872
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 105
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "camera-video",
+   "s": 82,
+   "i": 108648,
+   "dossieEm": 3,
+   "dossier": "CÂMERA · TRÂNSITO\nWest Street at W. 23 St\nNew York City · Estados Unidos\n✕\nAO VIVO\nFONTE\n511NY\nNew York State DOT\nTIPO\nTrânsito\nIMAGEM\nvídeo ao vivo\nPAÍS\nEstados Unidos\nCOORDENADAS\n40.7483, -74.0077\n\nNew York State DOT · catálogo aberto Argus (MIT); imagens dos respectivos donos\n\nCÂMERAS POR PERTO · 1.395 NUM RAIO DE 25 KM\nTRÂNSITO◉ 12 Ave @ 22 St\n8 m\nTRÂNSITO◉ 12 Avenue @ 22 Street\n69 m\nTRÂNSITO◉ C4-WST-07-Med_at_W.23rd_St\n127 m\nTRÂNSITO◉ 10 Ave @ 23 St\n302 m\nTRÂNSITO◉ 9 Ave @ 23 St\n567 m\nTRÂNSITO◉ 9 Avenue @ 23 Street\n614 m\nTRÂNSITO◉ 11 Ave/Rt 9A @ 14 St\n672 m\nTRÂNSITO▶ West Street at W. 14 St\n674 m\nWINDY◉ Nova Iorque: L’industrie Pizzeria - West Village\n1,7 km\nSite da fonte\nClima e passag",
+   "video": {
+    "rs": 0,
+    "t": 0,
+    "w": 0,
+    "err": null
+   },
+   "cams": "ok",
+   "n": 114872,
+   "windy": 155,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 15,
+     "tiles": 945
+    }
+   },
+   "basemap": "esri",
+   "level": 15,
+   "tiles": 84,
+   "tilesLoaded": 84,
+   "pov": {
+    "lat": 40.7483,
+    "lng": -74.00770000000003,
+    "altitude": 0.0012000000000000899
+   },
+   "chunks": {
+    "ok": 3,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 45
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 87
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 114872
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 155
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "camera-brasil",
+   "s": 107,
+   "i": 4521,
+   "dossieEm": 10,
+   "dossier": "CÂMERA · CIDADE\nAvenida Anna Costa × Rua Tolentino Filgueiras\nSantos, SP · Brasil\n✕\nrecebida às 05:15\nAO VIVO\nFONTE\nSantos ao Vivo — câmeras da cidade\nPrefeitura de Santos (SigSantos)\nTIPO\nCidade\nIMAGEM\nimagem atual\nPAÍS\nBrasil\nCOORDENADAS\n-23.9645, -46.3325\n\nPrefeitura de Santos — Santos ao Vivo · imagens públicas do portal Santos ao Vivo\n\nCÂMERAS POR PERTO · 481 NUM RAIO DE 25 KM\nCIDADE◉ Avenida Anna Costa × Rua Tolentino Filgueiras · vista 2\n0 m\nCIDADE◉ Avenida Anna Costa × Rua Tolentino Filgueiras · vista 3\n0 m\nCIDADE◉ Avenida Anna Costa × Rua Luiz de Faria\n156 m\nCIDADE◉ Avenida Anna Costa × Rua Luiz de Faria · vista 2\n156 m\nCIDADE◉ Rua José Caballero × Rua Tolentino Filgueiras\n164 m\nCID",
+   "media": {
+    "img": {
+     "w": 768,
+     "src": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1764/snap_c1.jpg?_olho=59758111"
+    },
+    "video": null,
+    "msg": "recebida às 05:15\nAO VIVO"
+   }
+  },
+  {
+   "name": "fundo-s2",
+   "s": 118,
+   "tilesEm": 3,
+   "tiles": 54
+  },
+  {
+   "name": "fundo-gibs",
+   "s": 123,
+   "tilesEm": 1,
+   "tiles": 94
+  },
+  {
+   "name": "fundo-dark",
+   "s": 132,
+   "tilesEm": 0,
+   "tiles": 0
+  },
+  {
+   "name": "fundo-esri",
+   "s": 134,
+   "tilesEm": 0,
+   "tiles": 101
+  },
+  {
+   "name": "fim-desktop",
+   "s": 148,
+   "cams": "ok",
+   "n": 114872,
+   "windy": 229,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 7,
+     "tiles": 187
+    }
+   },
+   "basemap": "esri",
+   "level": 7,
+   "tiles": 326,
+   "tilesLoaded": 326,
+   "pov": {
+    "lat": -23,
+    "lng": -45.5,
+    "altitude": 0.3999999999999999
+   },
+   "chunks": {
+    "ok": 6,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 45
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 87
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 114872
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 229
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  }
+ ],
+ "errors": [],
+ "console": [
+  "p1: Access to image at 'https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-10-22/GoogleMapsCompatible_Level9/8/88/126.jpg' from origin 'https://merengacv.github.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+  "p1: Failed to load resource: net::ERR_FAILED"
+ ],
+ "requests": {
+  "merengacv.github.io 200": 35,
+  "fonts.googleapis.com 200": 3,
+  "fonts.gstatic.com 200": 14,
+  "earthquake.usgs.gov 200": 4,
+  "server.arcgisonline.com 200": 6695,
+  "eonet.gsfc.nasa.gov 200": 3,
+  "api.windy.com 200": 10,
+  "api.wheretheiss.at 200": 3,
+  "s3-eu-west-1.amazonaws.com 200": 1,
+  "egov.santos.sp.gov.br 200": 1,
+  "tiles.maps.eox.at 200": 101,
+  "gibs.earthdata.nasa.gov 200": 100,
+  "gibs.earthdata.nasa.gov FALHOU net::ERR_FAILED": 1
+ },
+ "cams": [
+  {
+   "tag": "p0",
+   "u": "meta.js?v=5975810",
+   "ms": 111,
+   "st": 200,
+   "at": 3
+  },
+  {
+   "tag": "p0",
+   "u": "g20261023T081214/pts.js",
+   "ms": 542,
+   "st": 200,
+   "at": 3
+  },
+  {
+   "tag": "p1",
+   "u": "meta.js?v=5975810",
+   "ms": 340,
+   "st": 200,
+   "at": 15
+  },
+  {
+   "tag": "p1",
+   "u": "g20261023T081214/pts.js",
+   "ms": 1605,
+   "st": 200,
+   "at": 15
+  },
+  {
+   "tag": "p1",
+   "u": "g20261023T081214/c/24.js",
+   "ms": 83,
+   "st": 200,
+   "at": 55
+  },
+  {
+   "tag": "p1",
+   "u": "g20261023T081214/c/25.js",
+   "ms": 45,
+   "st": 200,
+   "at": 55
+  },
+  {
+   "tag": "p1",
+   "u": "g20261023T081214/c/108.js",
+   "ms": 5151,
+   "st": 200,
+   "at": 60
+  },
+  {
+   "tag": "p1",
+   "u": "g20261023T081214/c/4.js",
+   "ms": 11385,
+   "st": 200,
+   "at": 85
+  },
+  {
+   "tag": "p1",
+   "u": "g20261023T081214/c/22.js",
+   "ms": 552,
+   "st": 200,
+   "at": 136
+  },
+  {
+   "tag": "p1",
+   "u": "g20261023T081214/c/5.js",
+   "ms": 179,
+   "st": 200,
+   "at": 137
+  },
+  {
+   "tag": "cel",
+   "u": "meta.js?v=5975811",
+   "ms": 215,
+   "st": 200,
+   "at": 164
+  },
+  {
+   "tag": "cel",
+   "u": "g20261023T081214/pts.js",
+   "ms": 176,
+   "st": 200,
+   "at": 164
+  },
+  {
+   "tag": "cel",
+   "u": "g20261023T081214/c/5.js",
+   "ms": 67,
+   "st": 200,
+   "at": 188
+  }
+ ],
+ "camsPending": [],
+ "tileStats": {
+  "n": 0,
+  "fail": 0,
+  "p50": 0,
+  "p90": 0,
+  "max": 0
+ }
+}
