@@ -2086,7 +2086,7 @@ function drawQuads() {
   x.setTransform(QD.dpr, 0, 0, QD.dpr, 0, 0);
   x.clearRect(0, 0, QD.w, QD.h);
   QD.hits = [];
-  if (!quadsOn() || !globe || FS.on) return;
+  if (!quadsOn() || !globe || FS.on) return showQuads(false);
   const cam = globe.camera();
   cam.updateMatrixWorld();
   const proj = projector(), cp = cam.position, R = 100 * (1 + S.camAlt), w = QD.w, h = QD.h, rgb = hexRgb(QD.color);
@@ -2126,6 +2126,13 @@ function drawQuads() {
     QD.hits.push([g.sx, g.sy, r, g]);
   }
   x.globalAlpha = 1;
+  showQuads(QD.hits.length > 0);
+}
+// sem círculos, o canvas sai da tela (o Chrome às vezes reapresentava o último quadro
+// desenhado de um canvas que ficou vazio)
+function showQuads(on) {
+  const v = on ? "" : "none";
+  if (QD.cv && QD.cv.style.display !== v) QD.cv.style.display = v;
 }
 // nível pela altitude, com folga de 4% nas fronteiras (sem piscar ao parar bem no limite)
 function quadModeFor(a, cur) {

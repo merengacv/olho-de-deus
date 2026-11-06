@@ -233,6 +233,7 @@ if (page) {
     await sleep(8000);
     step("busca", { sug, dossier: await dossierText(page), ...(await state(page)) });
     await shot(page, "13-busca-bairro.png");
+    await page.keyboard.press("Escape"); await page.keyboard.press("Escape"); // fecha a lista e sai da caixa
   });
   await tryStep("aba-cameras", async () => {
     await page.evaluate(() => { const t = document.getElementById("tab-cams"); if (t) t.click(); });
