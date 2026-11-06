@@ -19,7 +19,8 @@ concurrency:
 
 jobs:
   conferir:
-    runs-on: ubuntu-latest
+    # o Playwright 1.56 não instala o Chromium no Ubuntu 26.04 (o "ubuntu-latest" atual)
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
