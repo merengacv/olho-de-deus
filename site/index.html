@@ -2087,15 +2087,32 @@ function drawQuads() {
   x.clearRect(0, 0, QD.w, QD.h);
   QD.hits = [];
   if (!quadsOn() || !globe || FS.on) return showQuads(false);
+  // o globo nasce escondido e entra crescendo e girando (animação do globe.gl): os círculos
+  // esperam ele aparecer e acompanham essa transformação até ela acabar
+  const root = quadRoot();
+  if (root && !root.visible) { showQuads(false); quadsSoon(); return; }
+  let M = null;
+  if (root) {
+    root.updateMatrixWorld();
+    const e = root.matrixWorld.elements;
+    for (let k = 0; k < 16; k++) if (Math.abs(e[k] - (k % 5 === 0 ? 1 : 0)) > 1e-9) { M = e; break; }
+  }
   const cam = globe.camera();
   cam.updateMatrixWorld();
   const proj = projector(), cp = cam.position, R = 100 * (1 + S.camAlt), w = QD.w, h = QD.h, rgb = hexRgb(QD.color);
+  const ox = M ? M[12] : 0, oy = M ? M[13] : 0, oz = M ? M[14] : 0;
   const seen = [];
   for (const c of QD.clusters[QD.mode] || []) {
-    const px = c.x * R, py = c.y * R, pz = c.z * R, s = proj(px, py, pz);
+    let px = c.x * R, py = c.y * R, pz = c.z * R;
+    if (M) {
+      const X = M[0] * px + M[4] * py + M[8] * pz + M[12], Y = M[1] * px + M[5] * py + M[9] * pz + M[13], Z = M[2] * px + M[6] * py + M[10] * pz + M[14];
+      px = X; py = Y; pz = Z;
+    }
+    const s = proj(px, py, pz);
     if (!s || s[0] < -40 || s[1] < -40 || s[0] > w + 40 || s[1] > h + 40) continue;
     // perto da borda do globo o círculo some aos poucos
-    const vx = cp.x - px, vy = cp.y - py, vz = cp.z - pz, facing = (c.x * vx + c.y * vy + c.z * vz) / (Math.hypot(vx, vy, vz) || 1);
+    const nx = px - ox, ny = py - oy, nz = pz - oz, vx = cp.x - px, vy = cp.y - py, vz = cp.z - pz;
+    const facing = (nx * vx + ny * vy + nz * vz) / ((Math.hypot(nx, ny, nz) * Math.hypot(vx, vy, vz)) || 1);
     const a = smooth(0.02, 0.3, facing);
     if (a >= 0.04) seen.push({ c, sx: s[0], sy: s[1], a });
   }
@@ -2127,6 +2144,12 @@ function drawQuads() {
   }
   x.globalAlpha = 1;
   showQuads(QD.hits.length > 0);
+  if (M) quadsSoon(); // a entrada do globo ainda está acontecendo: desenha de novo no próximo quadro
+}
+// o objeto do globo (three-globe) dentro da cena: é ele que a animação de entrada escala e gira
+function quadRoot() {
+  if (!QD.root && globe) QD.root = globe.scene().children.find((o) => o && typeof o.getCoords === "function") || null;
+  return QD.root;
 }
 // sem círculos, o canvas sai da tela (o Chrome às vezes reapresentava o último quadro
 // desenhado de um canvas que ficou vazio)
