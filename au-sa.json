@@ -1,0 +1,157 @@
+{
+ "id": "au-sa",
+ "url": "https://traffic.sa.gov.au/",
+ "requests": [
+  {
+   "u": "https://traffic.sa.gov.au/",
+   "t": "document",
+   "s": 307,
+   "ct": "",
+   "m": "GET"
+  },
+  {
+   "u": "https://traffic.sa.gov.au/",
+   "t": "document",
+   "s": 403,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://traffic.sa.gov.au/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5664a46be89ddae",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://challenges.cloudflare.com/turnstile/v0/b/8340802ab0bb/api.js?onload=_72f3aeb37c183f1074758861&render=explicit",
+   "t": "script",
+   "s": 200,
+   "ct": "application/javascript; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://traffic.sa.gov.au/cdn-cgi/challenge-platform/h/b/fo/2452778913:1793988632:zUdkgMOiwSz2FTT3sAqsoxds42rux5KuErpa7RqUfes/a5664a46be89ddae/ND7R2vG2aVWk1MgHJuealfPd0yYGzmYPoYqCrA7z_x0-1793991092-1.2.1.1-mNDXlwwbcUesuB9wUPriQImQtr3ac6Su0tF0S3WlUKCYotvtVYvR4QY7xxDfj46H",
+   "t": "xhr",
+   "s": 200,
+   "ct": "text/plain; charset=utf-8",
+   "m": "POST",
+   "post": "u$ZQhe1+RyUXEouu30ouzVQ5PNnboL93M4i8OipUlTfNy+LozXtAe4u8iJD4O$pNRtgCNwwt0$toc1fECksyVrNyjXAqLcNmEsVM+U2fl2ZPsoLeaAwlzT0dgpeQ0JB4dJUpU0Y-4Pm9VjKhPxhxLmqMCYWghTWGAdcvSLmRoqsbFUSbqGBI+4wtVmjRy1UPMjRF-yDT+BT7BrB0tu-7ySVL5ViJn+8qMcgD+YnO310JxKZLxvOM5YB3a$b$W6ZiAUGnJxnMUqkiPojQylwQyYcGy34IxUstOoE0wZ$-oOCLkSIqtisqLMsSVOxy0th8uo9uqPxyqCPQ1BipnfXknw1QRw+oJULkWxaoW2d13R1bvhbrk0GwWTKta1ir2Sx7Md5U8B8f0JOruel-f8BCOhJGZgrArbP1BM+8ERFm4wCJKGi8EVw2nvVAKxdTErKIlR4XSreqhwGJe7kMWEakwtqiGd5ez5yMrpAQKLfQKhTaCfT3q7eyGtmvwKcEXoScObzo$zjgjAzP-n6DAYctKc6oWoPjsAUW7g1WVGPCrPjEXr92Ii695ytKhzcCWaujlg7F4q8gkVYZpN0qrAh4GN-Z"
+  },
+  {
+   "u": "blob:https://traffic.sa.gov.au/20f03907-f4f1-4e1a-b16d-1ce19d10cb94",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/e4una/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+   "t": "document",
+   "s": 200,
+   "ct": "text/html; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/2160121793:1793988633:43aVsW6mpzvJIqxnQDq31BejdJW3KE1A0vhq9nI9gi4/a5664a4a8db593d5/Cu_lkJvcUYj5KmretgZahKSka4Plqgx6P-GuDk1TdAwvaScocaCVeAttXlS4RYglJ1177CFOcHPYp3ts8vkiggjOnuZJK09UuN47DKn7i-9cpHhVYGEJwC1NeeznWEU9hw",
+   "t": "xhr",
+   "s": 200,
+   "ct": "text/plain; charset=utf-8",
+   "m": "POST",
+   "post": "eqNgZr-Ld9$M23bJq7FKSo7Gcwc3Zs22aBhf94C6vXGc1gbJNGPEessBFtSKO-iuc8aSgn2J0Oa9KWoRZOd9x$UcAnGH5VreDITI4Em7i0VaV9iWhHqdvJXbQ779XdHEitCmk7sGF6RfKbzV9c1JpQvxWalAw54jSI4-b4j9akZ3IC5BVd+xMbZ7Sn4PXj$wPwSFcID-2rN9L8eek5iVKvC5cdrLASrg2bFYI-NNF6938mdAH6X5X9RVoOmqTP5ZsEvdeas$9jq1R5fzjHpEO2ChQsITXQ+1GFValwqpstsCZmZ70uSZZxeJII7RS1vwwcPc+fWSGLf0romdEhYdBCo30f8R5f3ArbjZM2dNBIhQGs-JNuc13KXZ-fSNBWLx-iPauheZFrEcr80h8XiI48Ql2zSzLM2J7v-mx0bXt0w0NMVBW7gdRk$g11sfFL0VCFOmOOtpvDYiFm8UBJCwXRP0JGpMbkupPdxvp5lgvD5je6c2EUV8dsiKvCnZ6n9fmxhaPoHASWXN-7x1-5woDLOcaoOv$lwzM-LGfewAzVSN-hD0RpipYaEzKHHWpoi-$2lD+wrQ38TNAwT5AVZaeYDZ"
+  },
+  {
+   "u": "blob:https://challenges.cloudflare.com/a3c26a99-e6f6-4fc6-b13e-5cec5a6b0ed7",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a5664a4a8db593d5/1793991093253/[CHAVE]/Cu8jLbd9g_Ooxi8lh2iV5uOqZmPNFd4vbSptuA-3gGj81hfaXYKeVLfNnslhSfPBvRF2VAPHTexiMRvX8qRcfJ1iOoa87p53f8Gc55Wf-WXMt2BEDn-Hrj1V9BMMNmI6txRLPgar3qWi9Gek3uqEWg-4GGk4nxoed_ZDxKw3jcaGnnMHTMt_2IpMCJY5OsqaG9EOt3plG797JvsDKkcyy_SzEo9lraT62yLLCMZo-Dz",
+   "t": "fetch",
+   "s": 401,
+   "ct": "text/plain; charset=utf-8",
+   "m": "GET"
+  },
+  {
+   "u": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/ci/a5664a4a8db593d5/1793991093253/CtRbpGc-Gve-yzmLHRda-AD7IkykFisKAloEU_26-7jk2izMxjTjNe_KDx5vcK4Upo-p_XAGL33qAzNm_1pxPbLnEElIovTxKnHEMqOB7L8Az-eh6L8xfS5cCUCa9Edai04W2SB4C0EzZpVzQJyFgBSxDxfQtTEn-C4B6PA6blFFN0ZEZD6IkLfxeEP6iU2u2T0LmBLU7HU6E2uz7Bt9vH61i0tmlYytz7bM0mMj_7m9gAcXvmORMtDK4Tg-kpzRTZtACY8yL2fplMZlCv2vPIBff-WNI6ODrHMmxX7ctqwN4",
+   "t": "image",
+   "s": 200,
+   "ct": "image/png",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://challenges.cloudflare.com/a3c26a99-e6f6-4fc6-b13e-5cec5a6b0ed7",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "blob:https://challenges.cloudflare.com/a3c26a99-e6f6-4fc6-b13e-5cec5a6b0ed7",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  },
+  {
+   "u": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/2160121793:1793988633:43aVsW6mpzvJIqxnQDq31BejdJW3KE1A0vhq9nI9gi4/a5664a4a8db593d5/Cu_lkJvcUYj5KmretgZahKSka4Plqgx6P-GuDk1TdAwvaScocaCVeAttXlS4RYglJ1177CFOcHPYp3ts8vkiggjOnuZJK09UuN47DKn7i-9cpHhVYGEJwC1NeeznWEU9hw",
+   "t": "xhr",
+   "s": 200,
+   "ct": "text/plain; charset=utf-8",
+   "m": "POST",
+   "post": "eqNgZr-Ld9$M23bJq7FKSo7Gcwc3Zs22aBhf94C6vXGc1gbJNGPEessBFtSKO-iuc8aSgn2J0Oa9KWoRZOd9x$UcAnGH5VreDITI4Em7i0VaV9iWhHqdvJXbQ779XdHEitCmk7sGF6RfKbzV9c1JpQvxWalAw54jSI4-b4j9akZasHwrNNto+MzxjhvcqZt+p61IsEEp8VSjdGwUjXoANaCU0TR1eBlUoD+AgdxiD84ZHOOwaQuP0RlFPfcIknGp0UqIxsfCfAEaMJewNiwUUVrZNMqYHS977eGG71Ffi4hJggkqbG2ab+gZkhqDLB-pabXkN+XImvj3Zi4zvuJS7lt6IC3k$M2z4X0T5qhmtfnc+qzkl8ZXuFd-k$UN-HaBcBqpKd4YYMwEwBGF99NdskLxiZi6d3Y8306EztbimXxOXgFvd4fkQU7GMqX9bKWjPHP9g1TTpw+4Iaub+BDhmaNnicDhTM-bGfuhcKHxU1i9AXL3QM1jjYaT2oxuNp37oz8fcEaNf4dIr1qDGGbJrEPtRZhYE$0kSMZPGjQ6joquahR-UESBuVL0xtV8pf9K7EduDHiK2z98aQ88Cr3$5bdb"
+  },
+  {
+   "u": "blob:https://challenges.cloudflare.com/cdf785e4-9e3e-40a1-8df1-788607231e73",
+   "t": "script",
+   "s": 200,
+   "ct": "text/javascript",
+   "m": "GET"
+  }
+ ],
+ "bodies": [
+  {
+   "file": "au-sa-1.txt",
+   "u": "https://traffic.sa.gov.au/cdn-cgi/challenge-platform/h/b/fo/2452778913:1793988632:zUdkgMOiwSz2FTT3sAqsoxds42rux5KuErpa7RqUfes/a5664a46be89ddae/ND7R2vG2aVWk1MgHJuealfPd0yYGzmYPoYqCrA7z_x0-1793991092-1.2.1.1-mNDXlwwbcUesuB9wUPriQImQtr3ac6Su0tF0S3WlUKCYotvtVYvR4QY7xxDfj46H",
+   "bytes": 229968,
+   "type": "xhr"
+  },
+  {
+   "file": "au-sa-2.txt",
+   "u": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/e4una/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+   "bytes": 632438,
+   "type": "document"
+  },
+  {
+   "file": "au-sa-3.txt",
+   "u": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/2160121793:1793988633:43aVsW6mpzvJIqxnQDq31BejdJW3KE1A0vhq9nI9gi4/a5664a4a8db593d5/Cu_lkJvcUYj5KmretgZahKSka4Plqgx6P-GuDk1TdAwvaScocaCVeAttXlS4RYglJ1177CFOcHPYp3ts8vkiggjOnuZJK09UuN47DKn7i-9cpHhVYGEJwC1NeeznWEU9hw",
+   "bytes": 1965548,
+   "type": "xhr"
+  },
+  {
+   "file": "au-sa-4.txt",
+   "u": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/2160121793:1793988633:43aVsW6mpzvJIqxnQDq31BejdJW3KE1A0vhq9nI9gi4/a5664a4a8db593d5/Cu_lkJvcUYj5KmretgZahKSka4Plqgx6P-GuDk1TdAwvaScocaCVeAttXlS4RYglJ1177CFOcHPYp3ts8vkiggjOnuZJK09UuN47DKn7i-9cpHhVYGEJwC1NeeznWEU9hw",
+   "bytes": 274608,
+   "type": "xhr"
+  }
+ ],
+ "dom": {
+  "img": [
+   "https://traffic.sa.gov.au/favicon.ico"
+  ],
+  "iframe": [],
+  "video": [],
+  "links": [
+   {
+    "h": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=m",
+    "t": "Cloudflare"
+   }
+  ],
+  "text": "traffic.sa.gov.au\nExecutando verificação de segurança\n\nEste site utiliza um serviço de segurança para proteção contra bots maliciosos. Esta página é exibida enquanto o site verifica se você não é um bot.\n\nRay ID: a5664a46be89ddae\nDesempenho e segurança da Cloudflare\nPrivacidade"
+ },
+ "errors": [],
+ "title": "Um momento…",
+ "mediaRequests": []
+}

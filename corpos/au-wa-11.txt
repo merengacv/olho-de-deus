@@ -1,0 +1,5 @@
+POST https://australiaeast-1.in.applicationinsights.azure.com//v2/track
+POST [{"time":"2026-11-06T18:51:50.057Z","iKey":"cef79574-41cd-45c3-9c7e-d5f1096a768d","name":"Microsoft.ApplicationInsights.[CHAVE].RemoteDependency","tags":{"ai.user.id":"W+casQvfN/R4WI6efX+xcN","ai.session.id":"wefOD5Y0Ix6FFR1S/TUfeW","ai.device.id":"browser","ai.device.type":"Browser","ai.operation.name":"/","ai.operation.id":"[CHAVE]","ai.internal.sdkVersion":"javascript:2.8.18"},"data":{"baseType":"RemoteDependencyData","baseData":{"id":"|[CHAVE].4009e157f8b64dee.","ver":2,"name":"GET https://api-cdn.mypurecloud.com.au
+content-type: application/json; charset=utf-8
+
+{"itemsReceived":4,"itemsAccepted":4,"appId":null,"errors":[]}

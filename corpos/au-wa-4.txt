@@ -1,0 +1,4 @@
+GET https://api-cdn.mypurecloud.com.au/webdeployments/v1/deployments/8a8ad8a8-ec56-4909-9c62-318ec9162c43/domains.json
+content-type: application/json
+
+{"allowAllDomains":true,"allowedDomains":[]}

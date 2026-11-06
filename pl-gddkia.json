@@ -1,0 +1,11 @@
+{
+ "id": "pl-gddkia",
+ "url": "https://www.gddkia.gov.pl/",
+ "requests": [],
+ "bodies": [],
+ "dom": {},
+ "errors": [
+  "page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.gddkia.gov.pl/\", waiting until \"domcontentloaded\"\n"
+ ],
+ "mediaRequests": []
+}

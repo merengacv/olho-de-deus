@@ -1,0 +1,4 @@
+GET https://js.arcgis.com/4.17/esri/widgets/BasemapGallery/t9n/BasemapGallery_et.json
+content-type: application/json
+
+{"widgetLabel":"Aluskaartide galerii","noBasemaps":"Ühtegi aluskaarti pole saadaval"}

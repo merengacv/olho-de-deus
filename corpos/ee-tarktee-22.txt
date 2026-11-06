@@ -1,0 +1,4 @@
+GET https://js.arcgis.com/4.17/esri/widgets/Zoom/t9n/Zoom_et.json
+content-type: application/json
+
+{"widgetLabel":"Suumi","zoomIn":"Suurenda","zoomOut":"Vähenda"}

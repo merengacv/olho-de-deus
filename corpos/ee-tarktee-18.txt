@@ -1,0 +1,4 @@
+GET https://js.arcgis.com/4.17/esri/widgets/Home/t9n/Home_et.json
+content-type: application/json
+
+{"widgetLabel":"Kodu","button":"Kodu","title":"Vaikimisi kaardivaade"}

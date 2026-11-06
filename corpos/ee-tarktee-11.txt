@@ -1,0 +1,4 @@
+GET https://tarktee.ee/api/v1/mapLayersPredefined
+content-type: application/json
+
+[{"id":3,"name":"road_conditions","position":1,"isDisplayed":true,"isActive":false,"layers":"25,8,7,10,9"},{"id":1,"name":"restrictions_traffic","position":2,"isDisplayed":true,"isActive":true,"layers":"3,25,1,10,37"},{"id":2,"name":"restrictions_size","position":3,"isDisplayed":true,"isActive":false,"layers":"6,4"}]

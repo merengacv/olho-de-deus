@@ -1,0 +1,10 @@
+GET https://apps.mypurecloud.com.au/genesys-bootstrap/hub.html
+content-type: text/html
+
+<html>
+<head></head>
+<body>
+    <!-- Load the cross storage hub plugin. The path here is relative to the iframe. -->
+    <script type="text/javascript" src="./plugins/storagehub.min.js"></script>
+</body>
+</html>

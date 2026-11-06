@@ -1,0 +1,4 @@
+GET https://js.arcgis.com/4.17/esri/widgets/Attribution/t9n/Attribution_et.json
+content-type: application/json
+
+{"widgetLabel":"Omistamine"}

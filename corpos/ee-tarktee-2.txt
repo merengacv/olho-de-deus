@@ -1,0 +1,4 @@
+GET https://tarktee.ee/api/v1/config
+content-type: application/json
+
+{"arcgisRestPath":"/tarktee/rest/services/tram","cameraImagesPrefix":"/images/","gaTrackingId":"UA-48590228-2","isAdmin":false,"futureDays":7,"feedbackQuestionnaireDelaySeconds":300,"externalLinks":{"specialPermits":"https://eteenindus.mnt.ee/maantee.jsf","roadWeatherStations":"http://www.balticroads.net","roadCameras":"https://www.mnt.ee/et/tee/teeilmajaamad-ja-kaamerad/pildid","peatusApplication":"http://www.peatus.ee/#route_search","bicicleRoads":"http://www.eurovelo.com/en/cycling-in/estonia","ferries":"https://www.praamid.ee","borderPoints":"https://www.eestipiir.ee/yphis/index.action?request_locale=et"},"theme":"winter","pressReleasesAlertTimeoutSeconds":5}

@@ -1,0 +1,4 @@
+GET https://storage.googleapis.com/trafikkort-data/geojson/25832/current-swedish-accidents.point.json?cachekey=1793990841111
+content-type: application/json
+
+{"layerId":"layer_id_42", "layerName":"25832/current-swedish-accidents.point", "type":"FeatureCollection", "features":[]}
