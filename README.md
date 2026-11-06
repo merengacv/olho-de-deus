@@ -17,10 +17,20 @@ ao aproximar, a noite some para mostrar a foto do lugar.
 
 **Câmeras públicas.** Um banco montado todo dia por um robô (veja abaixo) com mais de
 110 mil câmeras de mais de 100 países: trânsito, cidades, praias, montanhas, rios, portos,
-aeroportos, vulcões, ciência. Cada cor é um tipo. Clique num ponto para ver a câmera:
+aeroportos, vulcões, ciência. Cada cor é um tipo.
+
+Para o site não pesar, as câmeras não ficam todas no mapa o tempo todo: o mundo é dividido
+em **quadrantes**. De longe, cada área aparece como um círculo com quantas câmeras há ali
+(os círculos ficam mais finos conforme você aproxima: áreas de 15°, depois 6°, depois 2°).
+Clique num círculo para aproximar. Abaixo de uns 1.300 km de altitude as câmeras viram
+pontos, e só as dos quadrantes que estão na tela são desenhadas. Clique num ponto para ver
+a câmera:
 
 - imagem atual (renova a cada minuto), vídeo ao vivo, player (YouTube, Twitch, WebRTC) ou
   clipe, conforme a fonte;
+- **tela cheia** a qualquer momento: botão no canto da imagem, tecla `F` ou dois cliques na
+  imagem (`Esc` sai). Troca de modo (vídeo → imagem) não tira da tela cheia; no celular
+  sem a função de tela cheia do navegador (iPhone), a câmera cobre a tela inteira do mesmo jeito;
 - quando o dono não permite embutir (ou é uma rede privada), o botão abre a câmera no site
   oficial;
 - "Câmeras por perto" lista as vizinhas (também aparece ao buscar uma cidade).
@@ -35,7 +45,14 @@ consultadas na hora pela API oficial, com a imagem levando à página de cada um
 visíveis), **clima** em qualquer ponto clicado (Open-Meteo), **notícias** (GDELT) e
 **voos** (OpenSky) continuam como antes.
 
-Atalhos: `/` buscar, `Esc` fechar, `M` trocar o mapa, `R` atualizar, `G` girar, `I` ISS.
+**Busca.** Bairro, rua, endereço, cidade, estado ou país (ou `lat, lng`). As sugestões vêm
+do OpenStreetMap enquanto você digita (Photon, puxando para perto do que está na tela) e do
+Open-Meteo (nomes em português de países e cidades, como "Japão"); se nada aparecer, o Enter
+faz uma busca completa no Nominatim. O globo voa até o lugar na distância certa para ele
+(rua bem de perto, país inteiro de longe) e já mostra as câmeras por perto.
+
+Atalhos: `/` buscar, `Esc` fechar, `M` trocar o mapa, `R` atualizar, `G` girar, `I` ISS,
+`F` câmera em tela cheia.
 
 ## O robô diário
 
@@ -103,6 +120,6 @@ Mapa: Esri World Imagery (Esri, Vantor, Earthstar Geographics e comunidade GIS);
 rótulos e ruas: Esri, HERE, Garmin, © colaboradores do OpenStreetMap; Sentinel-2
 cloudless 2024 © EOX IT Services (CC BY-NC-SA 4.0); NASA GIBS, Blue Marble e Black Marble;
 Natural Earth. Dados: USGS, NASA EONET, wheretheiss.at, CelesTrak, Open-Meteo (CC BY 4.0),
-GDELT, OpenSky, OpenStreetMap/Nominatim (ODbL), Windy.com e as fontes de câmeras listadas
+GDELT, OpenSky, OpenStreetMap/Nominatim e Photon/komoot (ODbL), Windy.com e as fontes de câmeras listadas
 na aba Fontes do site. Bibliotecas: globe.gl e three.js (MIT), satellite.js (MIT),
 hls.js (Apache 2.0).

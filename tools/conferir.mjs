@@ -64,7 +64,9 @@ const state = (page) => page.evaluate(() => {
   if (E) E.children.forEach((m) => { if (m.isMesh && m.material && !(m.material.userData && m.material.userData.olhoNight === true)) { tt++; if (m.material.map && m.material.map.image) tl++; } });
   const ovl = {};
   for (const k in o.OVL || {}) { const L = o.OVL[k]; if (L) ovl[k] = { on: !!L.tileUrl, level: L.level, tiles: L.children.filter((m) => m.isMesh && m.visible).length }; }
-  return { cams: C.state, n: C.n, windy: o.S.windy.length, ovl, basemap: o.S.basemap, level: E && E.level, tiles: tt, tilesLoaded: tl, pov: o.globe().pointOfView(),
+  // quadrantes: modo 0–2 = círculos por área (quantos à vista), 3 = câmeras soltas (quantas desenhadas)
+  const Q = o.QD ? { modo: o.QD.mode, circulos: o.QD.hits.length, soltas: o.QD.drawnList.length } : null;
+  return { cams: C.state, n: C.n, quads: Q, windy: o.S.windy.length, ovl, basemap: o.S.basemap, level: E && E.level, tiles: tt, tilesLoaded: tl, pov: o.globe().pointOfView(),
     chunks: { ok: C.chunks.size, loading: [...C.loading.keys()].filter((k) => !C.chunks.has(k)), waiting: [...C.waiting.keys()] }, src };
 });
 // quadros por segundo do globo (no Actions o WebGL roda no processador, então é lento)
@@ -179,6 +181,16 @@ if (page) {
     step("camera-londres", { i, dossieEm: k, ...extra, dossier: await dossierText(page), ...(await state(page)) });
     await shot(page, "04-camera-londres.png");
   });
+  await tryStep("tela-cheia", async () => {
+    // botão de tela cheia da câmera aberta; Esc sai e a câmera continua aberta
+    await page.click("#camMedia .fsb", { timeout: 10000 });
+    await sleep(3000);
+    const dentro = await page.evaluate(() => ({ fs: window.__olho.FS.on, navegador: !!document.fullscreenElement, cobre: (() => { const r = document.getElementById("camMedia").getBoundingClientRect(); return Math.round(r.width) + "x" + Math.round(r.height); })() }));
+    await shot(page, "04b-tela-cheia.png");
+    await page.keyboard.press("Escape");
+    await sleep(1500);
+    step("tela-cheia", { dentro, depois: await page.evaluate(() => ({ fs: window.__olho.FS.on, sel: window.__olho.S.sel && window.__olho.S.sel.kind })) });
+  });
   await tryStep("camera-video", async () => {
     // uma câmera com vídeo ao vivo (HLS) perto de Nova York
     const i = await nearest(page, 40.75, -73.99, true);
@@ -207,6 +219,20 @@ if (page) {
       step("fundo-" + bm, { tilesEm: w, tiles: (await state(page)).tiles });
       if (file) await shot(page, file);
     }
+  });
+  await tryStep("busca", async () => {
+    // bairro pelo nome: sugestões do OpenStreetMap (Photon) e voo até lá
+    await page.evaluate(() => { const b = document.querySelector('[data-act="close"]'); if (b) b.click(); });
+    await page.click("#q");
+    await page.fill("#q", "");
+    await page.keyboard.type("Copacabana Rio de Janeiro", { delay: 40 });
+    await page.waitForSelector("#sugg li[data-i]", { timeout: 15000 }).catch(() => null);
+    const sug = await page.evaluate(() => [...document.querySelectorAll("#sugg li")].map((li) => li.innerText.replace(/\n/g, " | ")).slice(0, 8));
+    await shot(page, "12-busca.png");
+    await page.keyboard.press("Enter");
+    await sleep(8000);
+    step("busca", { sug, dossier: await dossierText(page), ...(await state(page)) });
+    await shot(page, "13-busca-bairro.png");
   });
   await tryStep("aba-cameras", async () => {
     await page.evaluate(() => { const t = document.getElementById("tab-cams"); if (t) t.click(); });

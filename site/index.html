@@ -136,7 +136,9 @@ kbd, .kbd { font: 500 10px var(--f-mono); color: var(--muted); border: 1px solid
 .sugg li { display: flex; flex-direction: column; gap: 1px; padding: 7px 9px; border-radius: 7px; cursor: pointer; }
 .sugg li[aria-selected="true"], .sugg li:hover { background: rgba(53, 224, 214, .12); }
 .sugg b { font-weight: 500; font-size: 13px; }
+.sugg b .sk { margin-left: 7px; padding: 0 5px; border: 1px solid currentColor; border-radius: 4px; font: 500 9px/1.6 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); vertical-align: 1px; white-space: nowrap; }
 .sugg small { color: var(--muted); font-size: 11px; }
+.sugg li.foot { padding: 4px 9px 3px; font-size: 10px; color: var(--dim); cursor: default; background: none; }
 .sugg li.empty { color: var(--muted); cursor: default; background: none; }
 
 .ticker { flex: 1 1 auto; min-width: 0; display: flex; justify-content: center; gap: 8px; }
@@ -365,8 +367,30 @@ kbd, .kbd { font: 500 10px var(--f-mono); color: var(--muted); border: 1px solid
   text-shadow: 0 0 3px #000, 0 0 2px #000; pointer-events: none; }
 .attrib a { color: inherit; pointer-events: auto; }
 .cam-media { position: relative; margin: 0 14px 8px; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 9px; border: 1px solid var(--line); background: #000; }
-.cam-media > img, .cam-media > video, .cam-media > iframe, .cam-media > a > img { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: contain; background: #000; display: block; }
-.cam-media > a { position: absolute; inset: 0; display: block; }
+.cam-media .cm-body { position: absolute; inset: 0; }
+.cm-body > img, .cm-body > video, .cm-body > iframe, .cm-body > a > img { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: contain; background: #000; display: block; }
+.cm-body > a { position: absolute; inset: 0; display: block; }
+/* botão de tela cheia: sempre à mostra sobre a imagem/vídeo da câmera */
+.fsb { position: absolute; z-index: 3; left: 7px; top: 7px; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 8px;
+  background: rgba(0, 0, 0, .62); color: #fff; border: 1px solid rgba(255, 255, 255, .22); opacity: .88; transition: opacity .15s, border-color .15s; }
+.fsb:hover, .fsb:focus-visible { opacity: 1; border-color: var(--accent); color: var(--accent); }
+.fsb svg { width: 17px; height: 17px; }
+.fs-cap { display: none; }
+.cam-media.full { position: fixed; inset: 0; z-index: 90; margin: 0; border: 0; border-radius: 0; aspect-ratio: auto; }
+.cam-media.full .fsb { left: calc(env(safe-area-inset-left, 0px) + 12px); top: calc(var(--safe-t) + 12px); width: 40px; height: 40px; }
+.cam-media.full .fsb svg { width: 21px; height: 21px; }
+.cam-media.full .fs-cap { display: block; position: absolute; z-index: 2; left: 0; right: 0; top: 0; padding: calc(var(--safe-t) + 14px) 120px 22px 64px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, .7), transparent); font: 600 15px/1.3 var(--f-disp); letter-spacing: .02em; color: #fff;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; }
+.cam-media.full .fs-cap small { margin-left: 8px; font: 12px var(--f-body); color: var(--muted); }
+.cam-media.full .live { top: calc(var(--safe-t) + 22px); right: 16px; }
+.cam-media.full .stamp { left: 16px; bottom: calc(var(--safe-b) + 14px); }
+body.cam-full .side { z-index: 90; }
+/* o desfoque do painel prenderia o "position: fixed" dentro dele */
+body.cam-full .dossier { -webkit-backdrop-filter: none; backdrop-filter: none; }
+/* quadrantes: de longe, as câmeras aparecem agrupadas por área num canvas por cima do globo */
+#quads { position: absolute; left: 0; top: 0; pointer-events: none; }
+#globe canvas.olho-pick { cursor: pointer; }
 .cam-media .msg { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 8px; padding: 14px; text-align: center; color: var(--muted); font-size: 12px; line-height: 1.5; }
 .cam-media .stamp { position: absolute; left: 8px; bottom: 7px; padding: 2px 6px; border-radius: 4px; background: rgba(0, 0, 0, .66); font: 10.5px var(--f-mono); pointer-events: none; }
 .cam-media .live { position: absolute; right: 8px; top: 7px; display: inline-flex; align-items: center; gap: 5px; padding: 2px 6px; border-radius: 4px; background: rgba(0, 0, 0, .66); font: 600 9.5px var(--f-mono); letter-spacing: .1em; color: #ff9aa3; pointer-events: none; }
@@ -420,8 +444,8 @@ kbd, .kbd { font: 500 10px var(--f-mono); color: var(--muted); border: 1px solid
 
   <div class="search" id="searchBox">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-    <input id="q" type="search" placeholder="Cidade, país ou lat, lng" autocomplete="off" spellcheck="false" enterkeyhint="search"
-      role="combobox" aria-label="Buscar lugar ou coordenadas" aria-autocomplete="list" aria-controls="sugg" aria-expanded="false">
+    <input id="q" type="search" placeholder="Bairro, rua, cidade, país ou lat, lng" autocomplete="off" spellcheck="false" enterkeyhint="search"
+      role="combobox" aria-label="Buscar bairro, rua, cidade, estado, país ou coordenadas" aria-autocomplete="list" aria-controls="sugg" aria-expanded="false">
     <button class="locbtn" id="locBtn" type="button" title="Ir para a minha localização" aria-label="Ir para a minha localização">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
     </button>
@@ -633,7 +657,7 @@ function ccName(cc) {
 /* =========================================================================
    1. CONFIGURAÇÃO
    ========================================================================= */
-const VERSION = "3.1";
+const VERSION = "3.2";
 const CFG = window.__OLHO_CFG || {};
 const LIBS = {
   globe: ["vendor/globe.gl.min.js", "https://unpkg.com/globe.gl@2.46.2/dist/globe.gl.min.js", "https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js"],
@@ -655,6 +679,11 @@ const API = {
     "&current=temperature_2m,apparent_temperature,relative_humidity_2m,precipitation,weather_code,cloud_cover,wind_speed_10m,wind_direction_10m,wind_gusts_10m,is_day" +
     "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset&timezone=auto&forecast_days=1",
   geocode: (q) => "https://geocoding-api.open-meteo.com/v1/search?count=6&language=pt&format=json&name=" + encodeURIComponent(q),
+  // busca de bairro, rua, cidade, estado e país (OpenStreetMap). Photon é feito para sugerir
+  // enquanto se digita; o Nominatim só é consultado ao apertar Enter (regra de uso dele).
+  photon: (q, b) => "https://photon.komoot.io/api/?limit=10&q=" + encodeURIComponent(q) +
+    (b ? "&lat=" + b.lat.toFixed(3) + "&lon=" + b.lng.toFixed(3) + "&zoom=" + b.zoom + "&location_bias_scale=0.3" : ""),
+  nominatim: (q) => "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=8&accept-language=pt-BR&q=" + encodeURIComponent(q),
   reverse: (lat, lng) => "https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=10&accept-language=pt-BR&lat=" + lat.toFixed(3) + "&lon=" + lng.toFixed(3),
   gdelt: (q) => "https://api.gdeltproject.org/api/v2/geo/geo?mode=PointData&format=GeoJSON&timespan=24h&maxpoints=250&query=" + encodeURIComponent(q),
   opensky: (b) => "https://opensky-network.org/api/states/all?lamin=" + b[0] + "&lomin=" + b[1] + "&lamax=" + b[2] + "&lomax=" + b[3],
@@ -733,7 +762,8 @@ const SOURCES = [
   { k: "quakes", short: "USGS", name: "USGS — sismos em tempo quase real", url: "https://earthquake.usgs.gov/earthquakes/map/", lic: "domínio público (governo dos EUA)" },
   { k: "events", short: "NASA", name: "NASA EONET — eventos naturais abertos", url: "https://eonet.gsfc.nasa.gov/", lic: "dados abertos da NASA" },
   { k: "iss", short: "ISS", name: "ISS — TLE (wheretheiss.at / CelesTrak) + cálculo SGP4", url: "https://wheretheiss.at/", lic: "elementos orbitais públicos" },
-  { k: "wx", short: "Clima", name: "Open-Meteo — clima e busca de lugares", url: "https://open-meteo.com/", lic: "CC BY 4.0" },
+  { k: "wx", short: "Clima", name: "Open-Meteo — clima (e busca reserva de cidades)", url: "https://open-meteo.com/", lic: "CC BY 4.0" },
+  { k: "search", short: "Busca", name: "Photon (komoot) e Nominatim — busca de bairro, rua, cidade, estado e país", url: "https://photon.komoot.io/", lic: "© colaboradores do OpenStreetMap (ODbL)" },
   { k: "news", short: "GDELT", name: "GDELT GEO 2.0 — notícias geolocalizadas", url: "https://www.gdeltproject.org/", lic: "uso livre com citação" },
   { k: "flights", short: "Voos", name: "OpenSky Network — posições ADS-B", url: "https://opensky-network.org/", lic: "uso não comercial" },
   { k: "geo", short: "OSM", name: "Nominatim / OpenStreetMap — nome do ponto clicado", url: "https://www.openstreetmap.org/copyright", lic: "© colaboradores do OpenStreetMap (ODbL)" },
@@ -1031,7 +1061,7 @@ function initGlobe() {
   const cv = globe.renderer().domElement;
   ["pointerdown", "wheel"].forEach((t) => cv.addEventListener(t, userInteract, { passive: true }));
   cv.addEventListener("pointermove", onHover, { passive: true });
-  cv.addEventListener("pointerleave", () => { $("#tip").hidden = true; });
+  cv.addEventListener("pointerleave", () => { $("#tip").hidden = true; if (QD.hover) { QD.hover = null; drawQuads(); } });
 
   ISS.mk.el = makeIssEl();
   SUN.mk.el = document.createElement("div");
@@ -1044,6 +1074,7 @@ function initGlobe() {
 
   setupShaders();
   setupEngine();
+  setupQuads();
   applyBasemap(true);
   whenTex((T) => {
     setupParticleTextures(T);
@@ -1291,7 +1322,6 @@ function nightFade() {
 // ---------- câmera do globo: zoom suave até 1 km do chão ----------
 function tuneView() {
   if (!globe) return;
-  overlayPov();
   const cam = globe.camera(), d = cam.position.length(), a = d / 100 - 1;
   // cada giro da roda muda a altitude em ~15%, perto ou longe
   controls.zoomSpeed = clamp((2.6 * a) / (1 + a), 0.006, 1.4);
@@ -1315,7 +1345,7 @@ function onCamAlt() {
   rebuildRings(); rebuildHtml();
 }
 function onCamSize() {
-  for (const s of CAMS.sets) s.size = S.camSize;
+  for (const s of QD.setsBy) if (s) s.size = S.camSize;
   if (S.windySet) S.windySet.size = S.camSize + 3;
   if (globe) globe.particlesSize("size");
 }
@@ -1371,7 +1401,8 @@ let flightSet = null;
 function rebuildParticles() {
   if (!globe) return;
   const sets = [];
-  if (S.layers.cams && CAMS.state === "ok") for (const s of CAMS.sets) sets.push(s);
+  // câmeras do banco: só as dos quadrantes à vista, e só de perto (de longe são os círculos)
+  if (S.layers.cams && CAMS.state === "ok" && QD.mode === QD_DETAIL) for (const s of QD.sets) if (s.length) sets.push(s);
   if (S.layers.windy && S.windy.length) {
     if (!S.windySet || S.windySet.src !== S.windy) { S.windySet = particleSet(S.windy.slice(), WINDY.color, S.camSize + 3, { ring: true }); S.windySet.src = S.windy; }
     sets.push(S.windySet);
@@ -1460,6 +1491,7 @@ function layoutOffset() {
     if (!NARROW.matches) {
       const left = 14 + 256, right = 14 + 340;
       globe.globeOffset([Math.round((left - right) / 2), 0]);
+      quadsSoon();
       return;
     }
     let h = 0;
@@ -1467,6 +1499,7 @@ function layoutOffset() {
     if (el && el.getClientRects().length) h = el.getBoundingClientRect().height + 76;
     const top = 100;
     globe.globeOffset([0, Math.round((top - Math.max(h, 64)) / 2)]);
+    quadsSoon();
   });
 }
 // De perto, o pontilhado vira bolhas gigantes: some abaixo de certa altitude.
@@ -1478,6 +1511,7 @@ let povTimer = 0, windyTimer = 0;
 function onPov(pov) {
   const a = pov.altitude;
   overlayPov(); settleTiles();
+  updateQuads(pov);
   const near = a < 0.32;
   if (near !== S.hexHidden) { S.hexHidden = near; setHexVisible(!near); }
   nightFade();
@@ -1485,7 +1519,7 @@ function onPov(pov) {
   const ca = camAltFor(a), cs = camSizeFor(a);
   if (ca !== S.camAlt) { S.camAlt = ca; onCamAlt(); }
   if (cs !== S.camSize) { S.camSize = cs; onCamSize(); }
-  if (currentTab() === "cams") scheduleRegion();
+  if (camsListShown()) scheduleRegion();
   if (S.layers.windy) { clearTimeout(windyTimer); windyTimer = setTimeout(() => windyMaybe(pov), 1600); }
   if (!S.layers.flights) return;
   clearTimeout(povTimer);
@@ -1541,6 +1575,14 @@ function precompute(items) {
 // O que está sob o cursor: voo, webcam do Windy ou câmera do banco (índice numérico).
 function pickAt(cx, cy, maxPx) {
   if (!globe) return null;
+  // de longe: o círculo do quadrante (desenhado por cima de tudo) tem a preferência
+  if (quadsOn()) {
+    const pad = (maxPx || 13) > 13 ? 6 : 2;
+    for (let k = QD.hits.length - 1; k >= 0; k--) {
+      const h = QD.hits[k], dx = h[0] - cx, dy = h[1] - cy;
+      if (dx * dx + dy * dy <= (h[2] + pad) * (h[2] + pad)) return h[3];
+    }
+  }
   const proj = projector();
   let best = null, bd = (maxPx || 13) ** 2;
   const test = (x, y, z, it) => {
@@ -1551,7 +1593,7 @@ function pickAt(cx, cy, maxPx) {
   };
   if (S.layers.flights) for (const f of S.flights) test(f._x, f._y, f._z, f);
   if (S.layers.windy) for (const w of S.windy) test(w._x, w._y, w._z, w);
-  if (S.layers.cams && CAMS.state === "ok") {
+  if (S.layers.cams && CAMS.state === "ok" && QD.mode === QD_DETAIL && QD.drawnList.length) {
     const g = screenToGlobe(cx, cy);
     if (g) {
       const cam = globe.camera();
@@ -1559,7 +1601,7 @@ function pickAt(cx, cy, maxPx) {
       const rDeg = Math.min(30, (((maxPx || 13) * perPx) / Math.max(0.18, g.cos) / 100) * R2D * 1.3);
       const R = 100 * (1 + S.camAlt), cosLat = Math.max(0.02, Math.cos(g.lat * D2R));
       gridEach(g.lat - rDeg, g.lat + rDeg, g.lng - rDeg / cosLat, g.lng + rDeg / cosLat, (i) => {
-        if (CAMS.vis[i]) test(CAMS.ux[i] * R, CAMS.uy[i] * R, CAMS.uz[i] * R, i);
+        if (CAMS.drawn[i]) test(CAMS.ux[i] * R, CAMS.uy[i] * R, CAMS.uz[i] * R, i);
       });
     }
   }
@@ -1574,6 +1616,7 @@ function onGlobeClick(coords, ev, radius) {
 }
 function selectPicked(it) {
   if (typeof it === "number") return select("cam", camRef(it));
+  if (it.kind === "quad") return zoomQuad(it);
   return select(it.kind, it);
 }
 let hoverRaf = 0, hoverEv = null, hoverIt = null;
@@ -1586,6 +1629,9 @@ function onHover(ev) {
     const tip = $("#tip"), e = hoverEv;
     const it = e.buttons ? null : pickAt(e.clientX, e.clientY, 10);
     hoverIt = it;
+    const hq = it && it.kind === "quad" ? it : null;
+    if ((hq && hq.cells[0]) !== (QD.hover && QD.hover.cells[0])) { QD.hover = hq; drawQuads(); }
+    if (globe) globe.renderer().domElement.classList.toggle("olho-pick", it != null);
     if (it == null) { tip.hidden = true; return; }
     tip.innerHTML = tipHTML(it);
     tip.style.left = e.clientX + "px"; tip.style.top = e.clientY + "px";
@@ -1601,6 +1647,7 @@ function tipHTML(it) {
     const tt = camT(CAMS.types[CAMS.t[it]]), src = camSrc(it), row = cachedRow(it);
     return '<span class="tt-k">' + esc(tt[0]) + " · " + esc(src.name || "câmera") + "</span>" + (row ? esc(row[1]) : "…") + mediaHint(CAMS.m[it]);
   }
+  if (it.kind === "quad") return quadTip(it);
   if (it.kind === "windy") return '<span class="tt-k">webcam · windy.com</span>' + esc(it.title);
   return '<span class="tt-k">voo · ' + esc(it.country || "") + "</span>" + esc(it.call || it.id.toUpperCase()) + " · " + esc(altTxt(it));
 }
@@ -1764,6 +1811,7 @@ async function loadTLE() {
       ISS.mode = "sgp4"; ISS.epoch = (rec.jdsatepoch - 2440587.5) * 86400000; ISS.tleSrc = /wheretheiss/.test(url) ? "wheretheiss.at" : "CelesTrak";
       setSrc("iss", "ok", { note: "TLE " + ago(ISS.epoch) + " · " + ISS.tleSrc });
       issTick(true); computeOrbit();
+      if (S.sel && S.sel.kind === "place" && document.getElementById("d-pass")) fillPasses(S.sel.ref, S.tok);
       return;
     } catch (e) { lastErr = e; }
   }
@@ -1845,7 +1893,7 @@ function issPasses(lat, lng, hours, minEl) {
 const CAMS = {
   state: "idle", meta: null, base: "", n: 0, chunk: 1000, types: [],
   lat: null, lng: null, t: null, s: null, m: null, ux: null, uy: null, uz: null, vis: null,
-  byType: [], sets: [], counts: [], visCount: 0, ccStart: [], chunks: new Map(), loading: new Map(), waiting: new Map(),
+  byType: [], counts: [], visCount: 0, ccStart: [], chunks: new Map(), loading: new Map(), waiting: new Map(), drawn: null,
 };
 const GRID = { cols: 720, rows: 360, start: null, order: null }; // células de 0,5°
 window.__olhoChunk = function (k, rows) {
@@ -1879,7 +1927,7 @@ async function loadCamDB() {
     }
     Object.assign(CAMS, {
       meta, base, n, chunk: meta.chunk || 1000, types: meta.types || Object.keys(CAM_T),
-      lat, lng, ux, uy, uz, t: Uint8Array.from(P.t), s: Uint16Array.from(P.s), m: Uint8Array.from(P.m), vis: new Uint8Array(n),
+      lat, lng, ux, uy, uz, t: Uint8Array.from(P.t), s: Uint16Array.from(P.s), m: Uint8Array.from(P.m), vis: new Uint8Array(n), drawn: new Uint8Array(n),
       ccStart: (meta.countries || []).map((c) => c[1]),
     });
     window.__OLHO_CAMS_PTS = null; // libera a memória do arquivo bruto
@@ -1888,28 +1936,34 @@ async function loadCamDB() {
     CAMS.counts = CAMS.types.map(() => 0);
     for (let i = 0; i < n; i++) { const t = CAMS.t[i]; if (CAMS.byType[t]) { CAMS.byType[t].push(i); CAMS.counts[t]++; } }
     CAMS.state = "ok";
+    QD.mode = -1; QD.drawnList = [];
     rebuildCamSets();
     setSrc("cams", "ok", { count: n, note: f0(n) + " câmeras · coleta " + ago(Date.parse(meta.generated)) });
+    updateQuads();
     rebuildParticles(); renderLayers(); renderFeed();
-    if (S.sel && S.sel.kind === "place") renderDossier(true);
-    if (currentTab() === "cams") scheduleRegion(0);
+    // só a lista "câmeras por perto" muda: o resto do dossiê (clima, nome) fica como está
+    if (S.sel && document.getElementById("d-cams")) fillCamsNear("d-cams", S.sel.ref.lat, S.sel.ref.lng, S.tok, S.sel.kind === "cam" ? S.sel.ref.i : -1, S.sel.kind === "windy" ? S.sel.ref : null);
+    if (camsListShown()) scheduleRegion(0);
   } catch (e) {
     CAMS.state = "error";
     setSrc("cams", "error", { err: e });
     renderLayers();
   }
 }
-function buildGrid() {
-  const C2 = GRID.cols, R2 = GRID.rows, N = C2 * R2, n = CAMS.n, cellOf = new Int32Array(n), start = new Int32Array(N + 1);
-  for (let i = 0; i < n; i++) {
-    const r = Math.min(R2 - 1, Math.max(0, Math.floor((CAMS.lat[i] + 90) * 2))), c = Math.min(C2 - 1, Math.max(0, Math.floor((CAMS.lng[i] + 180) * 2)));
-    const k = r * C2 + c;
-    cellOf[i] = k; start[k + 1]++;
-  }
+// índice das câmeras por célula de "deg" graus: start[k]..start[k+1] em order são as da célula k
+const cellRC = (lat, lng, deg, rows, cols) => Math.min(rows - 1, Math.max(0, Math.floor((lat + 90) / deg))) * cols + Math.min(cols - 1, Math.max(0, Math.floor((lng + 180) / deg)));
+function makeIndex(deg) {
+  const cols = Math.round(360 / deg), rows = Math.round(180 / deg), N = cols * rows, n = CAMS.n, cellOf = new Int32Array(n), start = new Int32Array(N + 1);
+  for (let i = 0; i < n; i++) { const k = cellRC(CAMS.lat[i], CAMS.lng[i], deg, rows, cols); cellOf[i] = k; start[k + 1]++; }
   for (let k = 0; k < N; k++) start[k + 1] += start[k];
   const fill = start.slice(0, N), order = new Int32Array(n);
   for (let i = 0; i < n; i++) order[fill[cellOf[i]]++] = i;
-  GRID.start = start; GRID.order = order;
+  return { deg, cols, rows, start, order };
+}
+function buildGrid() {
+  const ix = makeIndex(0.5);
+  GRID.start = ix.start; GRID.order = ix.order;
+  QD.idx = makeIndex(QD.cell);
 }
 // percorre as câmeras das células que cobrem a caixa (com volta no antimeridiano)
 function gridEach(lat0, lat1, lng0, lng1, fn) {
@@ -1931,22 +1985,286 @@ function gridEach(lat0, lat1, lng0, lng1, fn) {
   }
 }
 const camHasVideo = (m) => (m & 14) !== 0; // vídeo ao vivo, clipe ou player
+const camHasMedia = (m) => (m & 15) !== 0; // algo que dá para mostrar aqui (não só o link)
+// quais câmeras passam nos filtros da camada (tipo, só vídeo); refaz os quadrantes
 function rebuildCamSets() {
   if (CAMS.state !== "ok") return;
   const vis = CAMS.vis;
   vis.fill(0);
-  CAMS.sets = [];
   let total = 0;
   CAMS.types.forEach((key, t) => {
     if (S.camOff.includes(key)) return;
-    let idx = CAMS.byType[t] || [];
-    if (S.camVideo) idx = idx.filter((i) => camHasVideo(CAMS.m[i]));
-    if (!idx.length) return;
-    for (const i of idx) vis[i] = 1;
-    total += idx.length;
-    CAMS.sets.push(particleSet(S.camVideo ? idx : idx.slice(), camT(key)[1], S.camSize, { camType: key }));
+    for (const i of CAMS.byType[t] || []) if (!S.camVideo || camHasVideo(CAMS.m[i])) { vis[i] = 1; total++; }
   });
   CAMS.visCount = total;
+  buildClusters();
+  if (QD.mode === QD_DETAIL) fillDetail();
+  quadsSoon();
+}
+
+// ---------- quadrantes ----------
+// Desenhar as 100 mil câmeras o tempo todo deixava o site pesado. O mundo agora é dividido
+// em quadrantes: de longe, cada área com câmeras vira um círculo com quantas há ali (num
+// canvas 2D por cima do globo, sem custo para a placa de vídeo); abaixo de certa altitude
+// as câmeras viram pontos, e só as dos quadrantes que estão à vista.
+const QD = {
+  // nível de agrupamento por altitude (em raios da Terra); abaixo do último, câmeras soltas
+  levels: [{ deg: 15, alt: 1.6 }, { deg: 6, alt: 0.7 }, { deg: 2, alt: 0.2 }],
+  cell: 2, // quadrante de carga das câmeras soltas (graus)
+  max: 40000, // teto de câmeras soltas desenhadas de uma vez
+  mode: -1, clusters: [], idx: null, loaded: new Set(), sets: [], setsBy: [], drawnList: [], hits: [], hover: null,
+  cv: null, ctx: null, dpr: 1, w: 0, h: 0, lastCheck: 0, checkTimer: 0, raf: 0, tw: new Map(), color: C.accent,
+};
+const QD_DETAIL = 3; // modo "câmeras soltas" (depois dos três níveis de agrupamento)
+const QUAD_FONT = "600 10.5px 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace";
+const hexRgb = (hex) => { const n = parseInt(String(hex).slice(1), 16); return ((n >> 16) & 255) + "," + ((n >> 8) & 255) + "," + (n & 255); };
+function quadLabel(n) {
+  if (n < 1000) return String(n);
+  if (n < 9950) return NF1.format(n / 1000) + " mil";
+  return NF0.format(Math.round(n / 1000)) + " mil";
+}
+// soma, por célula de cada nível, as câmeras visíveis (e o centro delas, pelo vetor médio)
+function buildClusters() {
+  const n = CAMS.n, vis = CAMS.vis, lat = CAMS.lat, lng = CAMS.lng, ux = CAMS.ux, uy = CAMS.uy, uz = CAMS.uz, m = CAMS.m;
+  QD.clusters = QD.levels.map((L) => {
+    const deg = L.deg, cols = Math.round(360 / deg), rows = Math.round(180 / deg), N = cols * rows;
+    const cnt = new Int32Array(N), vid = new Int32Array(N), sx = new Float64Array(N), sy = new Float64Array(N), sz = new Float64Array(N);
+    for (let i = 0; i < n; i++) {
+      if (!vis[i]) continue;
+      const k = cellRC(lat[i], lng[i], deg, rows, cols);
+      cnt[k]++; sx[k] += ux[i]; sy[k] += uy[i]; sz[k] += uz[i];
+      if (camHasVideo(m[i])) vid[k]++;
+    }
+    const out = [];
+    for (let k = 0; k < N; k++) {
+      if (!cnt[k]) continue;
+      const len = Math.hypot(sx[k], sy[k], sz[k]) || 1, x = sx[k] / len, y = sy[k] / len, z = sz[k] / len;
+      out.push({ k, deg, n: cnt[k], nv: vid[k], x, y, z, lat: Math.asin(clamp(y, -1, 1)) * R2D, lng: Math.atan2(x, z) * R2D });
+    }
+    return out;
+  });
+  // com um tipo só ligado, os círculos ficam da cor dele
+  const on = CAMS.types.filter((key, t) => !S.camOff.includes(key) && CAMS.counts[t] > 0);
+  QD.color = on.length === 1 ? camT(on[0])[1] : C.accent;
+  QD.hover = null;
+}
+function setupQuads() {
+  if (QD.cv || !globe) return;
+  const gl = globe.renderer().domElement, cv = document.createElement("canvas");
+  cv.id = "quads"; cv.setAttribute("aria-hidden", "true");
+  // logo depois do canvas do globo: fica por cima dos pontos e por baixo dos marcadores HTML (ISS, mira)
+  gl.parentNode.insertBefore(cv, gl.nextSibling);
+  QD.cv = cv; QD.ctx = cv.getContext("2d");
+  sizeQuads();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { QD.tw.clear(); quadsSoon(); }).catch(() => {});
+}
+function sizeQuads() {
+  if (!QD.cv) return;
+  const dpr = Math.min(2, window.devicePixelRatio || 1), w = innerWidth, h = innerHeight;
+  Object.assign(QD, { dpr, w, h });
+  QD.cv.width = Math.round(w * dpr); QD.cv.height = Math.round(h * dpr);
+  QD.cv.style.width = w + "px"; QD.cv.style.height = h + "px";
+}
+const quadsOn = () => S.layers.cams && CAMS.state === "ok" && QD.mode >= 0 && QD.mode < QD_DETAIL;
+// raio do círculo: cresce com a quantidade e sempre cabe o número
+function quadR(n) {
+  const label = quadLabel(n);
+  let tw = QD.tw.get(label);
+  if (tw == null) { QD.ctx.font = QUAD_FONT; tw = QD.ctx.measureText(label).width; QD.tw.set(label, tw); }
+  return Math.max(9 + 3.1 * Math.log10(n), tw / 2 + 5.5);
+}
+function quadsSoon() {
+  if (QD.raf) return;
+  QD.raf = requestAnimationFrame(() => { QD.raf = 0; drawQuads(); });
+}
+// Desenha os círculos da vista atual. Chamado no mesmo instante em que a câmera do globo
+// muda (antes de o quadro ser pintado), então os círculos acompanham o giro sem atraso.
+// Círculos que se encostam na tela (perto do horizonte, ou de longe) viram um só, com a soma.
+function drawQuads() {
+  const x = QD.ctx;
+  if (!x) return;
+  x.setTransform(QD.dpr, 0, 0, QD.dpr, 0, 0);
+  x.clearRect(0, 0, QD.w, QD.h);
+  QD.hits = [];
+  if (!quadsOn() || !globe || FS.on) return;
+  const cam = globe.camera();
+  cam.updateMatrixWorld();
+  const proj = projector(), cp = cam.position, R = 100 * (1 + S.camAlt), w = QD.w, h = QD.h, rgb = hexRgb(QD.color);
+  const seen = [];
+  for (const c of QD.clusters[QD.mode] || []) {
+    const px = c.x * R, py = c.y * R, pz = c.z * R, s = proj(px, py, pz);
+    if (!s || s[0] < -40 || s[1] < -40 || s[0] > w + 40 || s[1] > h + 40) continue;
+    // perto da borda do globo o círculo some aos poucos
+    const vx = cp.x - px, vy = cp.y - py, vz = cp.z - pz, facing = (c.x * vx + c.y * vy + c.z * vz) / (Math.hypot(vx, vy, vz) || 1);
+    const a = smooth(0.02, 0.3, facing);
+    if (a >= 0.04) seen.push({ c, sx: s[0], sy: s[1], a });
+  }
+  // dos maiores para os menores: cada um entra num grupo já posto, se encostar nele
+  seen.sort((p, q) => q.c.n - p.c.n);
+  const groups = [];
+  for (const it of seen) {
+    const r = quadR(it.c.n);
+    let g = null;
+    for (const G of groups) {
+      const dx = G.sx - it.sx, dy = G.sy - it.sy, lim = (G.r + r) * 0.82;
+      if (dx * dx + dy * dy < lim * lim) { g = G; break; }
+    }
+    if (g) { g.n += it.c.n; g.nv += it.c.nv; g.cells.push(it.c); g.a = Math.max(g.a, it.a); g.r = quadR(g.n); }
+    else groups.push({ kind: "quad", sx: it.sx, sy: it.sy, a: it.a, n: it.c.n, nv: it.c.nv, cells: [it.c], lat: it.c.lat, lng: it.c.lng, deg: it.c.deg, r });
+  }
+  x.font = QUAD_FONT; x.textAlign = "center"; x.textBaseline = "middle";
+  const hk = QD.hover ? QD.hover.cells[0] : null;
+  for (let j = groups.length - 1; j >= 0; j--) { // os maiores por último, por cima
+    const g = groups[j], r = g.r, hot = !!hk && g.cells.includes(hk);
+    if (g.sx < -r || g.sy < -r || g.sx > w + r || g.sy > h + r) continue;
+    g.label = quadLabel(g.n);
+    x.globalAlpha = g.a;
+    x.beginPath(); x.arc(g.sx, g.sy, r + 4, 0, 6.2832); x.fillStyle = "rgba(" + rgb + ",0.2)"; x.fill();
+    x.beginPath(); x.arc(g.sx, g.sy, r, 0, 6.2832); x.fillStyle = "rgba(" + rgb + "," + (hot ? 1 : 0.86) + ")"; x.fill();
+    x.lineWidth = hot ? 2 : 1.5; x.strokeStyle = hot ? "#ffffff" : "rgba(3,6,12,0.85)"; x.stroke();
+    x.fillStyle = "#03161a"; x.fillText(g.label, g.sx, g.sy + 0.5);
+    QD.hits.push([g.sx, g.sy, r, g]);
+  }
+  x.globalAlpha = 1;
+}
+// nível pela altitude, com folga de 4% nas fronteiras (sem piscar ao parar bem no limite)
+function quadModeFor(a, cur) {
+  let m = 0;
+  QD.levels.forEach((L, j) => { if (a < L.alt * (cur > j ? 1.04 : 0.96)) m = j + 1; });
+  return m;
+}
+function updateQuads(pov) {
+  if (CAMS.state !== "ok" || !globe) return;
+  const m = quadModeFor((pov || globe.pointOfView()).altitude, QD.mode);
+  if (m !== QD.mode) {
+    const was = QD.mode;
+    QD.mode = m; QD.hover = null;
+    $("#tip").hidden = true;
+    if (m === QD_DETAIL) checkDetail(true);
+    else if (was === QD_DETAIL) { clearDetail(); rebuildParticles(); }
+    updateLayerStatus();
+  } else if (m === QD_DETAIL) checkDetailSoon();
+  drawQuads();
+}
+// quadrantes (células de QD.cell graus) que cobrem a tela, com "margin" células de folga
+function viewQuadCells(margin) {
+  if (!globe || !QD.idx) return null;
+  const cam = globe.camera();
+  cam.updateMatrixWorld();
+  const w = innerWidth, h = innerHeight, pov = globe.pointOfView(), ref = pov.lng, hits = [];
+  for (let i = 0; i <= 6; i++) for (let j = 0; j <= 4; j++) { const g = screenToGlobe((i / 6) * w, (j / 4) * h); if (g) hits.push(g); }
+  if (!hits.length) return null;
+  let la0 = 90, la1 = -90, lo0 = 180, lo1 = -180;
+  for (const g of hits) {
+    const d = normLng(g.lng - ref);
+    la0 = Math.min(la0, g.lat); la1 = Math.max(la1, g.lat); lo0 = Math.min(lo0, d); lo1 = Math.max(lo1, d);
+  }
+  if (hits.length < 35) { // o horizonte aparece: inclui tudo até ele
+    const hz = Math.acos(1 / (1 + pov.altitude)) * R2D;
+    la0 = Math.min(la0, pov.lat - hz); la1 = Math.max(la1, pov.lat + hz);
+    const wz = hz / Math.max(0.05, Math.cos(clamp(Math.abs(pov.lat) + hz, 0, 89) * D2R));
+    lo0 = Math.min(lo0, -wz); lo1 = Math.max(lo1, wz);
+  }
+  const ix = QD.idx, deg = ix.deg;
+  const r0 = Math.max(0, Math.floor((la0 + 90) / deg) - margin), r1 = Math.min(ix.rows - 1, Math.floor((la1 + 90) / deg) + margin);
+  const allLng = la1 > 88 || la0 < -88 || lo1 - lo0 + 2 * (margin + 1) * deg >= 360;
+  const c0 = Math.floor((ref + lo0 + 180) / deg) - margin, c1 = Math.floor((ref + lo1 + 180) / deg) + margin;
+  const cr = Math.floor((pov.lat + 90) / deg), cc = Math.floor((ref + 180) / deg), out = [];
+  for (let r = r0; r <= r1; r++) {
+    for (let c = allLng ? 0 : c0; c <= (allLng ? ix.cols - 1 : c1); c++) {
+      const col = ((c % ix.cols) + ix.cols) % ix.cols, k = r * ix.cols + col;
+      const dc = Math.abs(col - cc);
+      if (ix.start[k + 1] > ix.start[k]) out.push({ k, d: Math.hypot(r - cr, Math.min(dc, ix.cols - dc)) });
+    }
+  }
+  return out;
+}
+const cellCams = (k) => QD.idx.start[k + 1] - QD.idx.start[k];
+function checkDetailSoon() {
+  if (Date.now() - QD.lastCheck >= 200) return checkDetail();
+  clearTimeout(QD.checkTimer);
+  QD.checkTimer = setTimeout(checkDetail, 220);
+}
+// garante que as câmeras dos quadrantes à vista estão desenhadas; troca o conjunto só
+// quando aparece um quadrante novo (ou quando sobra muito fora da tela)
+function checkDetail(force) {
+  clearTimeout(QD.checkTimer);
+  QD.lastCheck = Date.now();
+  if (QD.mode !== QD_DETAIL || !S.layers.cams || CAMS.state !== "ok") return;
+  const need = viewQuadCells(1);
+  if (!need) return;
+  const missing = force === true || need.some((c) => !QD.loaded.has(c.k));
+  if (!missing && QD.loaded.size <= Math.max(48, need.length * 4)) return;
+  let pick = viewQuadCells(2) || need;
+  const max = NARROW.matches ? QD.max / 2 : QD.max; // celular: metade
+  const sum = (arr) => arr.reduce((a, c) => a + cellCams(c.k), 0);
+  if (sum(pick) > max) pick = need;
+  if (sum(pick) > max) { // área densa demais: as do centro primeiro, até o teto
+    pick = need.slice().sort((a, b) => a.d - b.d);
+    let tot = 0, cut = pick.length;
+    for (let j = 0; j < pick.length; j++) { tot += cellCams(pick[j].k); if (tot > max) { cut = Math.max(1, j); break; } }
+    pick = pick.slice(0, cut);
+  }
+  QD.loaded = new Set(pick.map((c) => c.k));
+  fillDetail();
+  rebuildParticles();
+}
+// conjuntos de pontos por tipo, só com as câmeras dos quadrantes carregados. Os arrays são
+// sempre os mesmos (o globo só recalcula as posições, não recria os objetos).
+function fillDetail() {
+  const ix = QD.idx, vis = CAMS.vis, drawn = CAMS.drawn;
+  for (const i of QD.drawnList) drawn[i] = 0;
+  const sets = CAMS.types.map((key, t) => {
+    const s = QD.setsBy[t] || (QD.setsBy[t] = particleSet([], camT(key)[1], S.camSize, { camType: key }));
+    s.length = 0; s.size = S.camSize;
+    return s;
+  });
+  const list = [];
+  if (ix) for (const k of QD.loaded) {
+    for (let j = ix.start[k], e = ix.start[k + 1]; j < e; j++) {
+      const i = ix.order[j];
+      if (!vis[i]) continue;
+      drawn[i] = 1; list.push(i);
+      const s = sets[CAMS.t[i]];
+      if (s) s.push(i);
+    }
+  }
+  QD.drawnList = list;
+  QD.sets = sets;
+}
+function clearDetail() {
+  for (const i of QD.drawnList) CAMS.drawn[i] = 0;
+  QD.drawnList = []; QD.loaded = new Set();
+  for (const s of QD.sets) s.length = 0;
+}
+// clique num círculo: aproxima até as câmeras daquela área (mediana e espalhamento delas)
+function zoomQuad(g) {
+  S.clickAt = Date.now();
+  $("#tip").hidden = true;
+  if (NARROW.matches && S.sheet) setSheet(null);
+  const la = [], lo = [], e = 1e-7;
+  for (const c of g.cells) {
+    const cols = Math.round(360 / c.deg), lat0 = Math.floor(c.k / cols) * c.deg - 90, lng0 = (c.k % cols) * c.deg - 180;
+    gridEach(lat0, lat0 + c.deg - e, lng0, lng0 + c.deg - e, (i) => {
+      const y = CAMS.lat[i], x = CAMS.lng[i];
+      if (CAMS.vis[i] && y >= lat0 && y < lat0 + c.deg && x >= lng0 && x < lng0 + c.deg) { la.push(y); lo.push(normLng(x - g.lng)); }
+    });
+  }
+  let lat = g.lat, lng = g.lng, alt = 0.03;
+  if (la.length > 1) {
+    la.sort((a, b) => a - b); lo.sort((a, b) => a - b);
+    const q = (arr, p) => arr[Math.min(arr.length - 1, Math.floor(arr.length * p))];
+    lat = q(la, 0.5); lng = normLng(g.lng + q(lo, 0.5));
+    const km = Math.max((q(la, 0.9) - q(la, 0.1)) * 111.2, (q(lo, 0.9) - q(lo, 0.1)) * 111.2 * Math.cos(lat * D2R));
+    // sempre desce pelo menos um nível; nunca mais perto que uma vista de bairro
+    alt = clamp((km / 5900) * 1.8, 0.02, QD.levels[clamp(QD.mode, 0, QD.levels.length - 1)].alt * 0.9);
+  }
+  userInteract();
+  flyTo(lat, lng, alt, 1300);
+}
+function quadTip(c) {
+  return '<span class="tt-k">área · ' + esc(whereIs(c.lat, c.lng)) + "</span><b>" + f0(c.n) + "</b> " + (c.n === 1 ? "câmera" : "câmeras") +
+    (c.nv && c.nv < c.n ? " · " + f0(c.nv) + " com vídeo" : "") + '<br><small style="color:var(--muted)">clique para aproximar e ver cada câmera</small>';
 }
 function cachedRow(i) {
   const ch = CAMS.chunks.get(Math.floor(i / CAMS.chunk));
@@ -2016,7 +2334,7 @@ function countryView(k) {
 let regionTimer = 0;
 function scheduleRegion(ms) { clearTimeout(regionTimer); regionTimer = setTimeout(computeRegion, ms == null ? 600 : ms); }
 async function computeRegion() {
-  if (CAMS.state !== "ok" || !globe || currentTab() !== "cams") return;
+  if (CAMS.state !== "ok" || !globe || !camsListShown()) return;
   const pov = globe.pointOfView();
   const km = clamp(pov.altitude * 3000, 8, 5000);
   const r = camsNear(pov.lat, pov.lng, km, 40);
@@ -2115,7 +2433,7 @@ async function loadWindy() {
     if (S.sel && S.sel.kind === "windy") { const w = byId.get(S.sel.ref.id); if (w && w !== S.sel.ref) S.sel.ref = w; }
   } catch (e) { setSrc("windy", "error", { err: e }); }
   rebuildParticles();
-  if (currentTab() === "cams") scheduleRegion(100);
+  if (camsListShown()) scheduleRegion(100);
 }
 // a imagem do Windy expira em poucos minutos: ao abrir, renova se estiver velha
 async function windyFresh(w) {
@@ -2221,12 +2539,14 @@ function afterData() {
 function selectPlace(lat, lng, meta, fly) {
   lat = clamp(lat, -89.99, 89.99); lng = normLng(lng);
   const named = meta && (meta.name || meta.mine);
-  const alt = named ? (meta.pop > 1e6 ? 0.22 : meta.pop > 1e5 ? 0.12 : 0.07) : null;
-  select("place", Object.assign({ kind: "place", lat, lng }, meta || {}), { fly: !!fly, alt });
+  // de um lugar buscado, chega perto o bastante para já ver as câmeras dele
+  const alt = meta && isNum(meta.alt) ? meta.alt : named ? (meta.pop > 5e6 ? 0.1 : meta.pop > 1e6 ? 0.07 : meta.pop > 1e5 ? 0.04 : 0.06) : null;
+  select("place", Object.assign({}, meta || {}, { kind: "place", lat, lng }), { fly: !!fly, alt });
 }
 function select(kind, ref, o) {
   o = o || {};
   S.clickAt = Date.now();
+  if (FS.on && kind !== "cam" && kind !== "windy") camFull(false);
   stopMedia();
   S.sel = { kind, ref }; S.tok++;
   S.selOff = null; S.selTzName = ""; S.selTzApprox = false;
@@ -2246,6 +2566,7 @@ function select(kind, ref, o) {
   layoutOffset();
 }
 function closeSel() {
+  if (FS.on) camFull(false);
   stopMedia();
   S.sel = null; S.tok++; S.selRing = null;
   document.body.classList.remove("has-sel");
@@ -2366,9 +2687,10 @@ function renderDossier(soft) {
   } else if (sel.kind === "cam") {
     const i = r.i, key = CAMS.types[CAMS.t[i]], tt = camT(key), src = camSrc(i), row = r.row || cachedRow(i), cc = camCC(i);
     if (!row) {
-      html = head("câmera · " + tt[0], tt[1], "Câmera", (src.name || "") + (cc ? " · " + ccName(cc) : "")) + '<p class="pad note load">Buscando os detalhes da câmera…</p>';
+      const sub0 = (src.name || "") + (cc ? " · " + ccName(cc) : "");
+      html = head("câmera · " + tt[0], tt[1], "Câmera", sub0) + (camHasMedia(CAMS.m[i]) ? mediaFigure("Câmera", sub0, '<div class="msg">Buscando os detalhes da câmera…</div>') : '<p class="pad note load">Buscando os detalhes da câmera…</p>');
       camRow(i).then((rw) => { if (S.sel && S.sel.ref === r && tok === S.tok) { r.row = rw; renderDossier(true); } },
-        (e) => { if (tok === S.tok) setHTML($("#dossier"), head("câmera", tt[1], "Câmera indisponível", "") + '<p class="pad note">' + esc(e.message) + "</p>"); });
+        (e) => { if (tok === S.tok) { setHTML($("#dossier"), head("câmera", tt[1], "Câmera indisponível", "") + '<p class="pad note">' + esc(e.message) + "</p>"); if (FS.on) camFull(false); } });
     } else {
       r.row = row;
       const name = row[1], where = row[7], dir = row[8], page = row[6];
@@ -2377,7 +2699,7 @@ function renderDossier(soft) {
       const sub = [where, ccName(cc)].filter(Boolean).join(" · ");
       html = head("câmera · " + tt[0], tt[1], name, sub) +
         (modes.length
-          ? '<figure class="cam-media" id="camMedia"><div class="msg">Conectando à câmera…</div></figure>' +
+          ? mediaFigure(name, sub, '<div class="msg">Conectando à câmera…</div>') +
             (modes.length > 1 ? '<div class="mchips" role="group" aria-label="Tipo de imagem">' + modes.map((x) => '<button class="chip" type="button" data-act="cam-mode" data-v="' + x.k + '" aria-pressed="' + (sel.mode === x.k) + '">' + esc(x.label) + "</button>").join("") + "</div>" : "")
           : '<div class="cam-page"><p class="note">Esta câmera é exibida só no site oficial de quem a opera (não pode ser embutida aqui).</p>' + linkBtn(page || src.home, "Abrir a câmera na fonte", "big") + "</div>") +
         kv([
@@ -2397,9 +2719,7 @@ function renderDossier(soft) {
   } else if (sel.kind === "windy") {
     const sub = [r.city, r.region, r.country].filter(Boolean).join(" · ");
     html = head("webcam · windy", WINDY.color, r.title, sub) +
-      '<figure class="cam-media" id="camMedia"><a href="' + esc(safeUrl(r.detail)) + '" target="_blank" rel="noopener noreferrer" title="Abrir esta webcam no Windy">' +
-      '<img id="wImg" alt="Imagem recente da webcam ' + esc(r.title) + '" referrerpolicy="no-referrer" decoding="async"></a>' +
-      '<figcaption class="stamp" id="camStamp">' + (r.updated ? "imagem de " + esc(ago(r.updated)) : "imagem recente") + '</figcaption><span class="live still">WINDY</span></figure>' +
+      mediaFigure(r.title, sub || "Windy", windyImgHTML(r)) +
       (r.player ? '<div class="mchips"><button class="chip" type="button" data-act="windy-player" aria-pressed="false">Timelapse de hoje</button></div>' : "") +
       kv([
         ["Local", esc(sub || "—")],
@@ -2428,9 +2748,9 @@ function renderDossier(soft) {
       '<div class="links">' + (r.call ? linkBtn("https://www.flightradar24.com/" + encodeURIComponent(r.call), "FlightRadar24") : "") +
       linkBtn("https://globe.adsbexchange.com/?icao=" + encodeURIComponent(r.id), "ADS-B Exchange") + "</div>";
   } else if (sel.kind === "place") {
-    const where = r.name || whereIs(r.lat, r.lng);
-    const sub = r.name ? r.sub || "" : countryAt(r.lat, r.lng) ? "" : "nome aproximado";
-    html = head(r.mine ? "sua localização" : "ponto", C.accent, where, sub) +
+    const where = r.name || (r.geo && r.geo.top) || whereIs(r.lat, r.lng);
+    const sub = r.name ? r.sub || "" : r.geo ? r.geo.sub : countryAt(r.lat, r.lng) ? "" : "nome aproximado";
+    html = head(r.mine ? "sua localização" : r.ptype ? r.ptype.toLowerCase() : "ponto", C.accent, where, sub) +
       kv([
         ["Coordenadas", coordHTML(r.lat, r.lng)],
         ["Graus", esc(dms(r.lat, r.lng))],
@@ -2439,15 +2759,21 @@ function renderDossier(soft) {
         isNum(r.elev) ? ["Altitude", f0(r.elev) + " m"] : null,
       ]) +
       '<section class="d-sec" id="d-cams"><h3>Câmeras por perto</h3><p class="note load">Procurando…</p></section>' +
-      '<section class="d-sec" id="d-wx"><h3>Clima agora</h3><p class="note load">Consultando o Open-Meteo…</p></section>' +
+      '<section class="d-sec" id="d-wx">' + (r.wx ? wxHTML(r.wx) : '<h3>Clima agora</h3><p class="note load">Consultando o Open-Meteo…</p>') + "</section>" +
       '<section class="d-sec" id="d-pass"><h3>Passagens da ISS</h3><p class="note load">Calculando…</p></section>' +
       nearbyHTML(r.lat, r.lng, 600) +
       '<div class="links">' + actBtn("copy", "Copiar coordenadas") + (/^https?:$/.test(location.protocol) ? actBtn("copy-link", "Copiar link deste ponto") : "") +
       linkBtn("https://www.openstreetmap.org/?mlat=" + r.lat.toFixed(5) + "&mlon=" + r.lng.toFixed(5) + "#map=15/" + r.lat.toFixed(4) + "/" + r.lng.toFixed(4), "OpenStreetMap") +
       linkBtn("https://www.google.com/maps/@?api=1&map_action=map&basemap=satellite&center=" + r.lat.toFixed(5) + "," + r.lng.toFixed(5) + "&zoom=15", "Google Maps") +
       linkBtn("https://www.windy.com/?" + r.lat.toFixed(3) + "," + r.lng.toFixed(3) + ",8", "Windy") + "</div>" +
-      '<p class="attr note" id="pl-attr"></p>';
-    after = () => fillCamsNear("d-cams", r.lat, r.lng, tok);
+      '<p class="attr note" id="pl-attr">' + (r.geo ? "Nome do lugar: © colaboradores do OpenStreetMap (Nominatim)." : "") + "</p>";
+    after = () => {
+      fillCamsNear("d-cams", r.lat, r.lng, tok);
+      // clima e nome ficam guardados no ponto: redesenhar o dossiê não perde o que já chegou
+      if (r.wx) { S.selOff = r.wx.utc_offset_seconds; S.selTzName = r.wx.timezone || ""; S.selTzApprox = false; updatePlaceTime(); fillPasses(r, tok); }
+      else fillWeather(r, tok);
+      if (!r.name && !r.geo) fillName(r, tok);
+    };
   }
   if (!soft) setText("srLive", "");
   const keepScroll = soft ? box.scrollTop : 0;
@@ -2459,10 +2785,7 @@ function renderDossier(soft) {
   if (!soft) { const h2 = box.querySelector("h2"), msg = "Selecionado: " + (h2 ? h2.textContent : sel.kind); setTimeout(() => setText("srLive", msg), 60); }
   if (sel.kind === "iss") updateIssLive();
   if (after) after();
-  if (sel.kind === "place" && !soft) {
-    fillWeather(r, tok);
-    if (!r.name) fillName(r, tok);
-  }
+  if (FS.on && !$("#camMedia")) camFull(false); // câmera sem imagem embutível: sai da tela cheia
 }
 function setText(id, v) { const el = document.getElementById(id); if (el) el.textContent = v; }
 function updateIssLive() {
@@ -2478,6 +2801,61 @@ function updateIssLive() {
 
 // ---------- imagem e vídeo das câmeras ----------
 const MEDIA = { timer: 0, hls: null, tok: 0 };
+// ---------- tela cheia da câmera ----------
+// O estado é do site, não do elemento: a imagem pode trocar (outro modo, outra câmera) sem
+// sair da tela cheia. O pedido ao navegador vai para a página inteira e o quadro da câmera
+// cobre tudo; onde não há essa API (iPhone), só a cobertura já resolve.
+const FS = { on: false, real: false, off: 0 };
+const FS_ICON = {
+  enter: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
+  exit: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>',
+};
+const fsLabel = () => (FS.on ? "Sair da tela cheia (Esc)" : "Tela cheia (F)");
+const fsEl = () => document.fullscreenElement || document.webkitFullscreenElement || null;
+// quadro da câmera: conteúdo trocável (#camBody) + legenda e botão de tela cheia fixos
+function mediaFigure(title, sub, inner) {
+  return '<figure class="cam-media' + (FS.on ? " full" : "") + '" id="camMedia"><div class="cm-body" id="camBody">' + inner + "</div>" +
+    '<div class="fs-cap">' + esc(title) + (sub ? "<small>" + esc(sub) + "</small>" : "") + "</div>" +
+    '<button class="fsb" type="button" data-act="cam-full" aria-pressed="' + FS.on + '" aria-label="' + fsLabel() + '" title="' + fsLabel() + '">' + (FS.on ? FS_ICON.exit : FS_ICON.enter) + "</button></figure>";
+}
+const windyImgHTML = (r) => '<a href="' + esc(safeUrl(r.detail)) + '" target="_blank" rel="noopener noreferrer" title="Abrir esta webcam no Windy">' +
+  '<img id="wImg" alt="Imagem recente da webcam ' + esc(r.title) + '" referrerpolicy="no-referrer" decoding="async"></a>' +
+  '<span class="stamp" id="camStamp">' + (r.updated ? "imagem de " + esc(ago(r.updated)) : "imagem recente") + '</span><span class="live still">WINDY</span>';
+function applyCamFull() {
+  const m = $("#camMedia");
+  if (!m) return;
+  m.classList.toggle("full", FS.on);
+  const b = m.querySelector(".fsb");
+  if (b) { b.innerHTML = FS.on ? FS_ICON.exit : FS_ICON.enter; b.setAttribute("aria-pressed", String(FS.on)); b.setAttribute("aria-label", fsLabel()); b.title = fsLabel(); }
+}
+function camFull(want) {
+  want = want == null ? !FS.on : !!want;
+  if (want && !(S.sel && (S.sel.kind === "cam" || S.sel.kind === "windy") && $("#camMedia"))) want = false;
+  if (want === FS.on) return;
+  FS.on = want;
+  document.body.classList.toggle("cam-full", want);
+  applyCamFull();
+  if (want) {
+    FS.real = false;
+    const de = document.documentElement, req = de.requestFullscreen || de.webkitRequestFullscreen;
+    if (req && !fsEl()) {
+      try { const p = req.call(de); FS.real = true; if (p && p.catch) p.catch(() => { FS.real = false; }); } catch (e) { FS.real = false; }
+    }
+    $("#tip").hidden = true;
+    if (globe) globe.pauseAnimation(); // o globo fica escondido atrás: não precisa desenhar
+    const b = $("#camMedia .fsb");
+    if (b) b.focus({ preventScroll: true });
+  } else {
+    FS.off = Date.now();
+    if (FS.real && fsEl()) {
+      const ex = document.exitFullscreen || document.webkitExitFullscreen;
+      try { const p = ex && ex.call(document); if (p && p.catch) p.catch(() => {}); } catch (e) { /* já saiu */ }
+    }
+    FS.real = false;
+    if (globe && !document.hidden) globe.resumeAnimation();
+    quadsSoon();
+  }
+}
 // o que dá para mostrar de cada câmera, na ordem de preferência
 function camModes(i, row) {
   const out = [];
@@ -2490,7 +2868,7 @@ function camModes(i, row) {
 function stopMedia() {
   clearInterval(MEDIA.timer); MEDIA.timer = 0; MEDIA.tok++;
   if (MEDIA.hls) { try { MEDIA.hls.destroy(); } catch (e) { /* já destruído */ } MEDIA.hls = null; }
-  const box = $("#camMedia");
+  const box = $("#camBody");
   if (box) {
     box.querySelectorAll("video, iframe").forEach((v) => { try { if (v.pause) v.pause(); v.removeAttribute("src"); if (v.load) v.load(); } catch (e) { /* ok */ } v.remove(); });
     // imagem MJPEG é uma conexão aberta: sem o src, o navegador fecha
@@ -2503,7 +2881,7 @@ function mediaMsg(box, html) { box.innerHTML = '<div class="msg">' + html + "</d
 function stampTxt() { return "recebida às " + new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }); }
 async function startMedia(i, row, mode, tok) {
   stopMedia();
-  const mt = MEDIA.tok, box = $("#camMedia");
+  const mt = MEDIA.tok, box = $("#camBody");
   if (!box || !mode) return;
   const alive = () => mt === MEDIA.tok && tok === S.tok && document.body.contains(box);
   const src = camSrc(i), page = row[6] || src.home;
@@ -2518,7 +2896,7 @@ async function startMedia(i, row, mode, tok) {
     let url = row[2];
     if (src.live === "sg") url = await sgImage(row[0]).catch(() => url);
     if (!alive()) return;
-    box.innerHTML = '<img id="camImg" alt="Imagem atual da câmera ' + esc(row[1]) + '" referrerpolicy="no-referrer" decoding="async"><figcaption class="stamp" id="camStamp">carregando imagem…</figcaption><span class="live">AO VIVO</span>';
+    box.innerHTML = '<img id="camImg" alt="Imagem atual da câmera ' + esc(row[1]) + '" referrerpolicy="no-referrer" decoding="async"><span class="stamp" id="camStamp">carregando imagem…</span><span class="live">AO VIVO</span>';
     const img = $("#camImg"), stamp = $("#camStamp"), mj = isMjpeg(url);
     let plain = mj, okOnce = false;
     const bust = () => (plain ? url : url + (url.indexOf("?") >= 0 ? "&" : "?") + "_olho=" + Math.floor(Date.now() / 30000));
@@ -2531,7 +2909,13 @@ async function startMedia(i, row, mode, tok) {
     };
     img.src = bust();
     if (mj) { if (stamp) stamp.textContent = "vídeo contínuo (MJPEG)"; return; }
-    MEDIA.timer = setInterval(() => { if (!alive()) return clearInterval(MEDIA.timer); if (!document.hidden) img.src = bust(); }, 60000);
+    MEDIA.timer = setInterval(async () => {
+      if (!alive()) return clearInterval(MEDIA.timer);
+      if (document.hidden) return;
+      // Singapura: o endereço assinado vence em minutos; pede o atual antes de renovar
+      if (src.live === "sg") { try { url = await sgImage(row[0]); } catch (e) { /* tenta o anterior */ } if (!alive()) return; }
+      img.src = bust();
+    }, 60000);
   } else if (mode === "mp4") {
     box.innerHTML = '<video id="camVid" muted autoplay loop playsinline controls preload="auto"></video><span class="live still">CLIPE</span>';
     const v = $("#camVid");
@@ -2586,19 +2970,24 @@ async function startWindy(w, tok) {
   img.src = w.img;
 }
 async function fillWeather(ref, tok) {
-  const box = $("#d-wx");
+  if (ref.wxBusy) return;
+  ref.wxBusy = true;
   try {
     const d = await getJSON(API.wx(ref.lat, ref.lng), { timeout: 12000 });
+    ref.wx = d;
     if (tok !== S.tok) return;
     S.selOff = d.utc_offset_seconds; S.selTzName = d.timezone || ""; S.selTzApprox = false;
+    const box = $("#d-wx");
     if (box) box.innerHTML = wxHTML(d);
     setSrc("wx", "ok");
   } catch (e) {
     if (tok !== S.tok) return;
     S.selOff = Math.round(ref.lng / 15) * 3600; S.selTzApprox = true;
+    const box = $("#d-wx");
     if (box) box.innerHTML = '<h3>Clima agora</h3><p class="note">Clima indisponível: ' + esc(e.message) + ".</p>";
     setSrc("wx", "error", { err: e });
-  }
+  } finally { ref.wxBusy = false; }
+  if (tok !== S.tok) return;
   updatePlaceTime();
   fillPasses(ref, tok);
 }
@@ -2626,10 +3015,19 @@ function updatePlaceTime() {
 }
 let lastRev = 0;
 async function fillName(ref, tok) {
-  const wait = Math.max(0, 1100 - (Date.now() - lastRev)); // Nominatim: no máximo 1 consulta por segundo
+  if (ref.nameBusy) return;
+  ref.nameBusy = true;
+  try { await fillName1(ref, tok); } finally { ref.nameBusy = false; }
+}
+// Nominatim: no máximo 1 consulta por segundo (nome do ponto e busca pelo Enter)
+async function nominatimTurn() {
+  const wait = Math.max(0, 1100 - (Date.now() - lastRev));
+  lastRev = Date.now() + wait;
   if (wait) await sleep(wait);
+}
+async function fillName1(ref, tok) {
+  await nominatimTurn();
   if (tok !== S.tok) return;
-  lastRev = Date.now();
   try {
     const d = await getJSON(API.reverse(ref.lat, ref.lng), { timeout: 9000 });
     if (tok !== S.tok || !d || d.error) return;
@@ -2637,8 +3035,9 @@ async function fillName(ref, tok) {
     const local = a.city || a.town || a.village || a.municipality || a.hamlet || a.suburb || a.county || a.state_district;
     const top = local || a.state || a.country;
     if (!top) return;
-    setText("d-name", top);
-    setText("d-sub", [local ? a.state : null, a.country].filter(Boolean).join(" · "));
+    ref.geo = { top, sub: [local ? a.state : null, a.country].filter(Boolean).join(" · ") };
+    setText("d-name", ref.geo.top);
+    setText("d-sub", ref.geo.sub);
     setText("pl-attr", "Nome do lugar: © colaboradores do OpenStreetMap (Nominatim).");
     setSrc("geo", "ok");
   } catch (e) { if (tok === S.tok) setSrc("geo", "error", { err: e }); }
@@ -2738,7 +3137,8 @@ function layerOptsHTML(k) {
     return '<button class="chip" type="button" data-act="camall" aria-pressed="' + allOn + '">Todos</button>' +
       show.map((x) => { const tt = camT(x.key); return '<button class="chip" type="button" data-act="camtype" data-v="' + x.key + '" aria-pressed="' + !S.camOff.includes(x.key) + '"><i class="cdot" style="background:' + tt[1] + '"></i>' + esc(tt[0]) + '<span class="n">' + f0(x.n) + "</span></button>"; }).join("") +
       (many ? '<button class="chip" type="button" data-act="types-open" aria-expanded="' + !!S.typesOpen + '">' + (S.typesOpen ? "menos tipos" : "+" + (order.length - show.length) + " tipos") + "</button>" : "") +
-      '<button class="chip" type="button" data-act="camvideo" aria-pressed="' + S.camVideo + '" title="Mostrar só câmeras com vídeo ao vivo, player ou clipe">▶ Só vídeo</button>';
+      '<button class="chip" type="button" data-act="camvideo" aria-pressed="' + S.camVideo + '" title="Mostrar só câmeras com vídeo ao vivo, player ou clipe">▶ Só vídeo</button>' +
+      '<p class="note">De longe, as câmeras ficam agrupadas por área: o número diz quantas há ali. Aproxime o globo (ou clique num grupo) para ver cada câmera.</p>';
   }
   if (k === "windy") {
     return '<p class="note">' + (WINDY.key ? "As webcams do Windy mais vistas na região da tela (até 50 por consulta). Mova ou aproxime o globo para ver outras." : "Para ligar, o site precisa da chave da API do Windy (configurada na publicação).") + "</p>";
@@ -2806,6 +3206,7 @@ function toggleLayer(k) {
   if (k === "night") { nightFade(); rebuildHtml(); }
   if (k === "iss") { if (on && ISS.mode === "sgp4") { issTick(true); computeOrbit(); } if (!on && ISS.follow) setFollow(false); rebuildHtml(); rebuildPaths(); }
   if (k === "flights" && !on) { S.flights = []; S.flightBox = null; }
+  if (k === "cams") { clearDetail(); QD.mode = -1; if (on) updateQuads(); else drawQuads(); }
   if (k === "windy") { if (on) { WIN.box = null; runJob("windy", true); } renderAttrib(); }
   if (on && JOBS[k]) runJob(k);
   if (!on && S.sel && (S.sel.kind === { quakes: "quake", events: "event", news: "news", cams: "cam", windy: "windy", flights: "flight", iss: "iss" }[k])) closeSel();
@@ -2816,6 +3217,8 @@ function toggleLayer(k) {
 // ---------- listas da direita ----------
 let FEED = [];
 function currentTab() { return NARROW.matches && S.sheet && S.sheet !== "layers" ? S.sheet : S.tab; }
+// a lista de câmeras está à vista? (no celular, só com a folha "Câmeras" aberta)
+const camsListShown = () => (NARROW.matches ? S.sheet === "cams" : S.tab === "cams");
 function feedItems() {
   const f = S.filter, out = [];
   if (S.layers.quakes && (f === "all" || f === "quakes")) for (const q of S.quakes) out.push({ t: q.time || 0, kind: "quake", ref: q });
@@ -2920,6 +3323,7 @@ function srcLine(k) {
   if (st === "loading") return "consultando…";
   if (st === "error") return "falhou " + ago(s.failedAt) + (s.updated ? " · último sucesso " + ago(s.updated) : "");
   if (st === "ok") return (s.note ? s.note + " · " : "") + "atualizado " + ago(s.updated);
+  if (k === "search") return "usado quando você busca um lugar";
   return k === "wx" || k === "geo" ? "usado quando você seleciona um ponto" : (s.note || "aguardando");
 }
 function camSourcesHTML() {
@@ -2955,13 +3359,13 @@ function sourcesTabHTML() {
     '<div class="sec-h"><span class="k">Bibliotecas</span></div>' +
     '<p class="pad note">Globo 3D: globe.gl e three.js (MIT). Órbita: satellite.js (MIT). Vídeo: hls.js (Apache 2.0). Tudo roda no seu navegador; o robô diário só monta a lista de câmeras.</p>' +
     '<div class="sec-h"><span class="k">Atalhos</span></div>' +
-    '<div class="keys"><kbd>/</kbd><span>buscar lugar</span><kbd>Esc</kbd><span>fechar painel</span><kbd>M</kbd><span>trocar o mapa de fundo</span><kbd>R</kbd><span>atualizar dados</span><kbd>G</kbd><span>ligar ou parar o giro</span><kbd>I</kbd><span>ir até a ISS</span></div>' +
+    '<div class="keys"><kbd>/</kbd><span>buscar lugar</span><kbd>Esc</kbd><span>fechar painel</span><kbd>M</kbd><span>trocar o mapa de fundo</span><kbd>R</kbd><span>atualizar dados</span><kbd>G</kbd><span>ligar ou parar o giro</span><kbd>I</kbd><span>ir até a ISS</span><kbd>F</kbd><span>câmera em tela cheia</span></div>' +
     '<p class="pad note">Olho de Deus v' + VERSION + "</p>";
 }
 function renderFooter() {
   const box = $("#srcs");
   if (box) {
-    setHTML(box, SOURCES.filter((s) => s.k !== "geo").map((s) =>
+    setHTML(box, SOURCES.filter((s) => s.k !== "geo" && s.k !== "search").map((s) =>
       '<span class="src" data-s="' + srcState(s.k) + '" title="' + esc(s.name + ": " + srcLine(s.k)) + '"><i></i>' + esc(s.short) + "</span>").join(""));
   }
   $("#upd").textContent = S.lastUpdate ? new Date(S.lastUpdate).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" }) : "—";
@@ -3007,7 +3411,99 @@ function setSheet(name) {
 /* =========================================================================
    10. BUSCA (Open-Meteo geocoding + coordenadas)
    ========================================================================= */
-const Q = { list: [], idx: -1, timer: 0, seq: 0 };
+const Q = { list: [], idx: -1, timer: 0, seq: 0, q: "", src: "" };
+// tipo do lugar no OpenStreetMap → nome em português
+const PLACE_KIND = {
+  continent: "Continente", country: "País", state: "Estado", province: "Província", region: "Região", state_district: "Região", county: "Região",
+  municipality: "Município", city: "Cidade", town: "Cidade", village: "Vila", hamlet: "Povoado", borough: "Distrito", district: "Bairro",
+  suburb: "Bairro", quarter: "Bairro", neighbourhood: "Bairro", city_block: "Quarteirão", locality: "Localidade", isolated_dwelling: "Localidade",
+  island: "Ilha", islet: "Ilha", archipelago: "Arquipélago", square: "Praça", street: "Rua", road: "Rua", house: "Endereço", postcode: "CEP",
+  aerodrome: "Aeroporto", airport: "Aeroporto", station: "Estação", beach: "Praia", peak: "Montanha", volcano: "Vulcão", bay: "Baía",
+  lake: "Lago", river: "Rio", park: "Parque", stadium: "Estádio",
+};
+function kindOf(key, value, type) {
+  if (key === "highway") return /^(motorway|trunk)/.test(value || "") ? "Rodovia" : "Rua";
+  if (key === "place" && PLACE_KIND[value]) return PLACE_KIND[value];
+  if (key === "boundary" || key === "place") return PLACE_KIND[type] || "Região";
+  if (key === "aeroway") return "Aeroporto";
+  if (key === "railway" && /station|halt/.test(value || "")) return "Estação";
+  if (key === "building" || type === "house") return "Endereço";
+  return PLACE_KIND[value] || PLACE_KIND[type] || "Lugar";
+}
+// altitude para enquadrar o lugar: pela caixa dele (quando é confiável) ou pelo tipo
+const KIND_ALT = {
+  Continente: 2.2, País: 1.2, Estado: 0.45, Província: 0.45, Região: 0.18, Arquipélago: 0.3, Ilha: 0.05, Município: 0.04, Cidade: 0.04,
+  Distrito: 0.02, Vila: 0.012, Povoado: 0.006, Bairro: 0.007, Quarteirão: 0.0015, Localidade: 0.008, Rua: 0.0025, Rodovia: 0.03,
+  Endereço: 0.0012, CEP: 0.005, Praça: 0.0012, Aeroporto: 0.006, Estação: 0.0018, Praia: 0.004, Montanha: 0.01, Vulcão: 0.015,
+  Baía: 0.03, Lago: 0.02, Rio: 0.05, Parque: 0.006, Estádio: 0.0015, Lugar: 0.002,
+};
+const BIG_KIND = { Continente: 1, País: 1, Estado: 1, Província: 1, Região: 1, Arquipélago: 1, Ilha: 1 };
+function boxAlt(lat, s, n, w, e) { // sul, norte, oeste, leste
+  if (![s, n, w, e].every(isNum)) return null;
+  const km = Math.max(Math.abs(n - s) * 111.2, Math.abs(e - w) * 111.2 * Math.cos(clamp(lat, -85, 85) * D2R));
+  return km > 0 ? (km / 5900) * 1.6 : null;
+}
+function placeAlt(kind, bAlt) {
+  const base = KIND_ALT[kind] || 0.01;
+  const alt = bAlt == null ? base : BIG_KIND[kind] ? bAlt : clamp(bAlt, base / 5, base * 3);
+  return clamp(alt, 0.0012, 2.2);
+}
+const uniqStr = (arr) => arr.filter((x, i) => x && arr.indexOf(x) === i);
+function fromPhoton(f) {
+  const p = (f && f.properties) || {}, c = f && f.geometry && f.geometry.coordinates;
+  if (!c || !isNum(c[0]) || !isNum(c[1])) return null;
+  const ptype = kindOf(p.osm_key, p.osm_value, p.type);
+  const cc = String(p.countrycode || "").toUpperCase(), country = cc ? ccName(cc) : p.country || "";
+  let name = p.name || (p.street ? p.street + (p.housenumber ? ", " + p.housenumber : "") : "") || p.city || p.state || country;
+  if (ptype === "País" && cc) name = country;
+  const street = p.osm_key === "highway" || ptype === "Endereço";
+  const sub = uniqStr([street ? p.district || p.locality : null, p.city, p.city ? null : p.county, p.state, ptype === "País" ? null : country].filter((x) => x && x !== name)).join(", ");
+  const ex = p.extent; // [oeste, norte, leste, sul]
+  const bAlt = Array.isArray(ex) && ex.length === 4 ? boxAlt(c[1], ex[3], ex[1], ex[0], ex[2]) : null;
+  return { name, sub, ptype, lat: c[1], lng: c[0], alt: placeAlt(ptype, bAlt) };
+}
+function fromNominatim(r) {
+  const a = r.address || {}, lat = +r.lat, lng = +r.lon;
+  if (!isNum(lat) || !isNum(lng)) return null;
+  const ptype = kindOf(r.category || r.class, r.type, r.addresstype);
+  const city = a.city || a.town || a.village || a.municipality;
+  const cc = String(a.country_code || "").toUpperCase(), country = cc ? ccName(cc) : a.country || "";
+  let name = r.name || (a.road ? a.road + (a.house_number ? ", " + a.house_number : "") : "") || city || a.state || country || String(r.display_name || "").split(",")[0];
+  if (ptype === "País" && cc) name = country;
+  const sub = uniqStr([a.suburb || a.neighbourhood || a.quarter, city, a.state, ptype === "País" ? null : country].filter((x) => x && x !== name)).join(", ");
+  const bb = (r.boundingbox || []).map(Number); // [sul, norte, oeste, leste]
+  return { name, sub, ptype, lat, lng, alt: placeAlt(ptype, bb.length === 4 ? boxAlt(lat, bb[0], bb[1], bb[2], bb[3]) : null) };
+}
+// Open-Meteo (GeoNames): conhece os nomes em português de países e cidades ("Japão", "Alemanha")
+function fromMeteo(r) {
+  if (!r || !isNum(r.latitude) || !isNum(r.longitude)) return null;
+  const fc = String(r.feature_code || "");
+  const ptype = /^PCL/.test(fc) ? "País" : /^ADM1/.test(fc) ? "Estado" : /^ADM/.test(fc) ? "Região" : /^PPL/.test(fc) ? "Cidade" : /^ISL/.test(fc) ? "Ilha" : "Lugar";
+  const pop = r.population || 0;
+  const alt = ptype === "Cidade" ? (pop > 5e6 ? 0.1 : pop > 1e6 ? 0.07 : pop > 1e5 ? 0.04 : 0.025) : ptype === "País" ? (pop > 1e8 ? 1.3 : pop > 2e7 ? 0.8 : pop > 2e6 ? 0.4 : 0.15) : KIND_ALT[ptype];
+  return { name: r.name, sub: uniqStr([r.admin1, ptype === "País" ? null : r.country].filter((x) => x && x !== r.name)).join(", "), ptype, lat: r.latitude, lng: r.longitude, pop, elev: r.elevation, alt };
+}
+// junta as duas listas: países e estados do Open-Meteo vão para o topo (o Photon não entende
+// nomes em português), as cidades dele entram no fim se ainda não estiverem na lista
+function mergePlaces(ph, om) {
+  const near = (a, b, km) => hav(a.lat, a.lng, b.lat, b.lng) < km;
+  const big = (r) => r.ptype === "País" || r.ptype === "Estado";
+  const dup = (r, list) => list.some((x) => (x.ptype === r.ptype || (big(x) && big(r))) && near(x, r, big(r) ? 600 : 25));
+  const top = om.filter((r) => big(r) && !dup(r, ph));
+  const rest = om.filter((r) => !big(r) && !dup(r, ph));
+  const out = [], seen = new Set();
+  for (const r of top.concat(ph, rest)) {
+    const k = r.name + "|" + r.ptype + "|" + r.sub;
+    if (!seen.has(k)) { seen.add(k); out.push(r); }
+  }
+  return out.slice(0, 8);
+}
+// puxa as sugestões para perto do que está na tela (ruas e bairros com nomes repetidos)
+function searchBias() {
+  if (!globe) return null;
+  const p = globe.pointOfView(), a = p.altitude;
+  return { lat: clamp(p.lat, -85, 85), lng: normLng(p.lng), zoom: a > 1.5 ? 3 : a > 0.5 ? 5 : a > 0.1 ? 8 : a > 0.02 ? 11 : 13 };
+}
 function parseCoords(v) {
   const m = String(v).replace(/[°º]/g, " ").match(/^\s*([+-]?\d{1,2}(?:\.\d+)?)\s*([NSns])?\s*[,;\s]\s*([+-]?\d{1,3}(?:\.\d+)?)\s*([EeWwLlOo])?\s*$/);
   if (!m) return null;
@@ -3018,45 +3514,75 @@ function parseCoords(v) {
   return [lat, lng];
 }
 function hideSugg() { const ul = $("#sugg"); ul.hidden = true; $("#q").setAttribute("aria-expanded", "false"); $("#q").removeAttribute("aria-activedescendant"); }
-function paintSugg(v, err) {
+function paintSugg(v, err, busy) {
   const ul = $("#sugg"), input = $("#q");
-  if (err) ul.innerHTML = '<li class="empty">Busca indisponível agora (' + esc(err.message) + ").</li>";
-  else if (!Q.list.length) ul.innerHTML = '<li class="empty">Nada encontrado para “' + esc(v) + "”. Tente só o nome da cidade, ou “lat, lng”.</li>";
-  else ul.innerHTML = Q.list.map((r, i) => '<li role="option" id="sg' + i + '" data-i="' + i + '" aria-selected="' + (i === Q.idx) + '"><b>' + esc(r.name) + "</b><small>" +
-    esc([r.admin1, r.country].filter(Boolean).join(", ")) + (r.population ? " · " + esc(popTxt(r.population)) : "") + "</small></li>").join("");
+  if (busy) ul.innerHTML = '<li class="empty">Procurando “' + esc(v) + "” no OpenStreetMap…</li>";
+  else if (err && !Q.list.length) ul.innerHTML = '<li class="empty">Busca indisponível agora (' + esc(err.message) + ").</li>";
+  else if (!Q.list.length) ul.innerHTML = '<li class="empty">Nada encontrado para “' + esc(v) + "”. Tente o nome do bairro, rua, cidade ou país, ou “lat, lng”.</li>";
+  else ul.innerHTML = Q.list.map((r, i) => '<li role="option" id="sg' + i + '" data-i="' + i + '" aria-selected="' + (i === Q.idx) + '"><b>' + esc(r.name) +
+    '<span class="sk">' + esc(r.ptype) + "</span></b><small>" + esc([r.sub, r.pop ? popTxt(r.pop) : ""].filter(Boolean).join(" · ") || " ") + "</small></li>").join("") +
+    (Q.src ? '<li class="foot" aria-hidden="true">' + esc(Q.src) + "</li>" : "");
   ul.hidden = false;
   input.setAttribute("aria-expanded", "true");
   if (Q.idx >= 0 && Q.list.length) input.setAttribute("aria-activedescendant", "sg" + Q.idx); else input.removeAttribute("aria-activedescendant");
 }
+// sugestões enquanto digita: Photon (bairros, ruas, cidades) + Open-Meteo (nomes em português)
 async function suggest(v) {
   const seq = ++Q.seq;
-  try {
-    const d = await getJSON(API.geocode(v), { timeout: 8000 });
-    if (seq !== Q.seq) return;
-    Q.list = (d.results || []).slice(0, 6); Q.idx = Q.list.length ? 0 : -1;
-    if (document.activeElement === $("#q")) paintSugg(v);
-    setSrc("wx", "ok");
-  } catch (e) {
-    if (seq !== Q.seq) return;
-    Q.list = []; Q.idx = -1;
-    paintSugg(v, e);
-  }
+  const [ph, om] = await Promise.allSettled([
+    getJSON(API.photon(v, searchBias()), { timeout: 8000 }).then((d) => (d.features || []).map(fromPhoton).filter(Boolean)),
+    getJSON(API.geocode(v), { timeout: 8000 }).then((d) => (d.results || []).map(fromMeteo).filter(Boolean)),
+  ]);
+  if (seq !== Q.seq) return;
+  if (ph.status === "fulfilled") setSrc("search", "ok"); else setSrc("search", "error", { err: ph.reason });
+  if (om.status === "fulfilled") setSrc("wx", "ok");
+  const a = ph.status === "fulfilled" ? ph.value : [], b = om.status === "fulfilled" ? om.value : [];
+  Q.list = mergePlaces(a, b); Q.idx = Q.list.length ? 0 : -1; Q.q = v;
+  Q.src = ph.status === "fulfilled" ? "© OpenStreetMap · Photon" + (b.length ? " · Open-Meteo" : "") : b.length ? "Open-Meteo (só cidades e países: a busca de ruas não respondeu)" : "";
+  const err = ph.status === "rejected" && om.status === "rejected" ? ph.reason : null;
+  if (document.activeElement === $("#q")) paintSugg(v, err);
 }
 function pickSugg(i) {
   const r = Q.list[i];
   if (!r) return;
   hideSugg();
   $("#q").value = r.name; $("#q").blur();
-  selectPlace(r.latitude, r.longitude, { name: r.name, sub: [r.admin1, r.country].filter(Boolean).join(" · "), pop: r.population, elev: r.elevation }, true);
+  selectPlace(r.lat, r.lng, { name: r.name, sub: r.sub, pop: r.pop, elev: r.elev, alt: r.alt, ptype: r.ptype }, true);
 }
-function submitSearch() {
-  const v = $("#q").value.trim();
+// busca completa no Nominatim: só ao apertar Enter sem sugestão (regra de uso dele)
+async function searchNominatim(v) {
+  const seq = ++Q.seq;
+  paintSugg(v, null, true);
+  await nominatimTurn();
+  try {
+    const d = await getJSON(API.nominatim(v), { timeout: 12000 });
+    if (seq !== Q.seq) return false;
+    Q.list = (Array.isArray(d) ? d : []).map(fromNominatim).filter(Boolean).slice(0, 8);
+    Q.idx = Q.list.length ? 0 : -1; Q.q = v; Q.src = "© OpenStreetMap · Nominatim";
+    setSrc("search", "ok");
+  } catch (e) {
+    if (seq !== Q.seq) return false;
+    Q.list = []; Q.idx = -1;
+    setSrc("search", "error", { err: e });
+    paintSugg(v, e);
+    return false;
+  }
+  if (Q.list.length) { pickSugg(0); return true; }
+  paintSugg(v);
+  return false;
+}
+async function submitSearch() {
+  const input = $("#q"), v = input.value.trim();
   if (!v) return;
   const c = parseCoords(v);
-  if (c) { hideSugg(); $("#q").blur(); selectPlace(c[0], c[1], {}, true); return; }
-  if (Q.list.length) return pickSugg(Math.max(0, Q.idx));
+  if (c) { hideSugg(); input.blur(); selectPlace(c[0], c[1], {}, true); return; }
+  // só usa a lista se ela é do texto que está na caixa (senão "Rio" + Enter rápido abria a cidade errada)
+  if (Q.list.length && Q.q === v) return pickSugg(Math.max(0, Q.idx));
   clearTimeout(Q.timer);
-  suggest(v).then(() => { if (Q.list.length) pickSugg(0); });
+  await suggest(v);
+  if (input.value.trim() !== v) return; // continuou digitando
+  if (Q.list.length && Q.q === v) return pickSugg(0);
+  await searchNominatim(v);
 }
 
 
@@ -3098,6 +3624,7 @@ function act(el) {
     else if (a === "camall") S.camOff = S.camOff.length ? [] : CAMS.types.slice();
     else S.camVideo = !S.camVideo;
     savePrefs(); rebuildCamSets(); rebuildParticles(); renderLayers(); scheduleRegion(100);
+    drawQuads();
     if (S.sel && S.sel.kind === "cam" && !CAMS.vis[S.sel.ref.i]) closeSel();
     return;
   }
@@ -3110,15 +3637,17 @@ function act(el) {
   if (a === "types-open") { S.typesOpen = !S.typesOpen; renderLayers(); return; }
   if (a === "all-src") { S.allSrc = !S.allSrc; renderFeed(); return; }
   if (a === "cam-mode") { if (S.sel && S.sel.kind === "cam") { S.sel.mode = el.dataset.v; S.sel.tried = []; renderDossier(true); } return; }
+  if (a === "cam-full") return camFull();
   if (a === "windy-player") {
-    const box = $("#camMedia"), w = S.sel && S.sel.ref;
-    if (!box || !w || !w.player) return;
+    const w = S.sel && S.sel.ref;
+    if (!w || !w.player || S.sel.kind !== "windy") return;
     const on = el.getAttribute("aria-pressed") !== "true";
     el.setAttribute("aria-pressed", String(on));
-    if (on) {
+    const body = $("#camBody");
+    if (on && body) {
       stopMedia();
-      box.innerHTML = '<iframe title="Timelapse do dia: ' + esc(w.title) + '" src="' + esc(safeUrl(w.player)) + '" allow="autoplay; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
-    } else renderDossier(true);
+      body.innerHTML = '<iframe title="Timelapse do dia: ' + esc(w.title) + '" src="' + esc(safeUrl(w.player)) + '" allow="autoplay; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+    } else if (body) { stopMedia(); body.innerHTML = windyImgHTML(w); startWindy(w, S.tok); }
   }
 }
 // Clique no globo sem passar pelo globe.gl (no mapa de ladrilhos a esfera fica escondida):
@@ -3181,8 +3710,8 @@ function wire() {
   input.addEventListener("input", () => {
     clearTimeout(Q.timer);
     const v = input.value.trim();
-    if (v.length < 2 || parseCoords(v)) { Q.list = []; hideSugg(); return; }
-    Q.timer = setTimeout(() => suggest(v), 260);
+    if (v.length < 2 || parseCoords(v)) { Q.list = []; Q.seq++; hideSugg(); return; } // descarta respostas a caminho
+    Q.timer = setTimeout(() => suggest(v), 300);
   });
   input.addEventListener("keydown", (e) => {
     if ((e.key === "ArrowDown" || e.key === "ArrowUp") && Q.list.length) {
@@ -3197,8 +3726,15 @@ function wire() {
   // teclado
   document.addEventListener("keydown", (e) => {
     const typing = /^(INPUT|TEXTAREA|SELECT)$/.test((document.activeElement || {}).tagName || "");
-    if (e.key === "Escape") { if (S.sel) closeSel(); else if (S.sheet) setSheet(null); return; }
+    if (e.key === "Escape") {
+      if (FS.on) { e.preventDefault(); camFull(false); return; }
+      if (Date.now() - FS.off < 600) return; // o Esc que o navegador usou para sair da tela cheia
+      if (S.sel) closeSel(); else if (S.sheet) setSheet(null);
+      return;
+    }
     if (typing || e.metaKey || e.ctrlKey || e.altKey) return;
+    if ((e.key === "f" || e.key === "F") && S.sel && (S.sel.kind === "cam" || S.sel.kind === "windy")) { e.preventDefault(); camFull(); return; }
+    if (FS.on) return; // na tela cheia, os outros atalhos (girar, trocar mapa) não fazem sentido
     if (e.key === "/") { e.preventDefault(); input.focus(); input.select(); }
     else if (e.key === "r" || e.key === "R") refreshAll();
     else if (e.key === "g" || e.key === "G") { S.rotate = !S.rotate; savePrefs(); applyRotate(); renderFooter(); }
@@ -3211,13 +3747,17 @@ function wire() {
   document.addEventListener("visibilitychange", () => {
     if (!globe) return;
     if (document.hidden) globe.pauseAnimation();
-    else { globe.resumeAnimation(); issTick(true); scheduler(); }
+    else { if (!FS.on) globe.resumeAnimation(); issTick(true); scheduler(); }
   });
   let rz = 0;
   window.addEventListener("resize", () => {
     clearTimeout(rz);
-    rz = setTimeout(() => { if (globe) globe.width(innerWidth).height(innerHeight); drawStars(); layoutOffset(); }, 120);
+    rz = setTimeout(() => { if (globe) globe.width(innerWidth).height(innerHeight); sizeQuads(); drawStars(); layoutOffset(); }, 120);
   });
+  const onFs = () => { if (!fsEl() && FS.on && FS.real) { FS.real = false; camFull(false); } };
+  document.addEventListener("fullscreenchange", onFs);
+  document.addEventListener("webkitfullscreenchange", onFs);
+  $("#dossier").addEventListener("dblclick", (e) => { if (e.target.closest("#camBody") && !e.target.closest("a, video, iframe")) camFull(); });
   const onNarrow = () => { setSheet(null); layoutOffset(); };
   if (NARROW.addEventListener) NARROW.addEventListener("change", onNarrow); else if (NARROW.addListener) NARROW.addListener(onNarrow);
 }
@@ -3280,7 +3820,7 @@ async function boot() {
   if (h) selectPlace(h[0], h[1], {}, true);
   setTimeout(checkOffline, 9000);
   // gancho de depuração: abra com ?debug no fim do endereço
-  if (/[?&]debug\b/.test(location.search)) window.__olho = { S, ISS, CAMS, GRID, OVL, pruneTiles, select, selectPlace, pickAt, screenToGlobe, camRef, applyBasemap, flyTo, stopInertia, globe: () => globe, engine: () => ENGINE };
+  if (/[?&]debug\b/.test(location.search)) window.__olho = { S, ISS, CAMS, GRID, OVL, QD, FS, camFull, zoomQuad, viewQuadCells, pruneTiles, select, selectPlace, pickAt, screenToGlobe, camRef, applyBasemap, flyTo, stopInertia, globe: () => globe, engine: () => ENGINE };
 }
 boot();
 })();
