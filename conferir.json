@@ -1,0 +1,785 @@
+{
+ "url": "https://merengacv.github.io/olho-de-deus/?debug",
+ "when": "2026-11-14T14:26:39.697Z",
+ "steps": [
+  {
+   "name": "primeira",
+   "s": 9,
+   "cams": "ok",
+   "n": 115377,
+   "quads": {
+    "modo": 0,
+    "circulos": 31,
+    "soltas": 0
+   },
+   "windy": 49,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 3,
+     "tiles": 64
+    }
+   },
+   "basemap": "esri",
+   "level": 3,
+   "tiles": 80,
+   "tilesLoaded": 80,
+   "pov": {
+    "lat": -8,
+    "lng": -55.254444909939565,
+    "altitude": 2.3500000000000068
+   },
+   "chunks": {
+    "ok": 0,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 61
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 115377
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "inicio",
+   "s": 26,
+   "cams": "ok",
+   "n": 115377,
+   "quads": {
+    "modo": 0,
+    "circulos": 29,
+    "soltas": 0
+   },
+   "windy": 49,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 3,
+     "tiles": 64
+    }
+   },
+   "basemap": "esri",
+   "level": 3,
+   "tiles": 80,
+   "tilesLoaded": 80,
+   "pov": {
+    "lat": -8,
+    "lng": -60.063780957827476,
+    "altitude": 2.3500000000000107
+   },
+   "chunks": {
+    "ok": 0,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 61
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 115377
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   },
+   "fps": 5.6
+  },
+  {
+   "name": "sao-paulo",
+   "s": 33,
+   "tilesEm": 0,
+   "fps": 4.9,
+   "cams": "ok",
+   "n": 115377,
+   "quads": {
+    "modo": 3,
+    "circulos": 0,
+    "soltas": 773
+   },
+   "windy": 94,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 10,
+     "tiles": 90
+    }
+   },
+   "basemap": "esri",
+   "level": 10,
+   "tiles": 356,
+   "tilesLoaded": 356,
+   "pov": {
+    "lat": -23.549999999999997,
+    "lng": -46.63937265454547,
+    "altitude": 0.04999999999999982
+   },
+   "chunks": {
+    "ok": 0,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 61
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 115377
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 94
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "nova-york",
+   "s": 42,
+   "tilesEm": 0,
+   "fps": 3.8,
+   "cams": "ok",
+   "n": 115377,
+   "quads": {
+    "modo": 3,
+    "circulos": 0,
+    "soltas": 11278
+   },
+   "windy": 98,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 15,
+     "tiles": 126
+    }
+   },
+   "basemap": "esri",
+   "level": 15,
+   "tiles": 482,
+   "tilesLoaded": 482,
+   "pov": {
+    "lat": 40.75799999999999,
+    "lng": -73.9855,
+    "altitude": 0.0012000000000000899
+   },
+   "chunks": {
+    "ok": 0,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 61
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 115377
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 98
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "camera-londres",
+   "s": 47,
+   "i": 25177,
+   "dossieEm": 0,
+   "dossier": "CÂMERA · TRÂNSITO\nTrafalgar Square\nReino Unido\n✕\nrecebida às 11:27\nAO VIVO\nImagem atual\nClipe de vídeo\nFONTE\nTfL JamCams\nTransport for London\nTIPO\nTrânsito\nIMAGEM\nimagem atual, clipe de vídeo\nDIREÇÃO\nZoom - Horse Guards Aven\nPAÍS\nReino Unido\nCOORDENADAS\n51.5074, -0.1277\n\nPowered by TfL Open Data. Contém dados da OS © Crown copyright. · TfL Open Data\n\nCÂMERAS POR PERTO · 1.049 NUM RAIO DE 25 KM\nTRÂNSITO▶ Online services in Our Lady of Grace School\n23 m\nTRÂNSITO◉ Northumberland Ave/Victoria Emb\n397 m\nTRÂNSITO◉ Charing Cross Rd/Cranbourne St\n436 m\nTRÂNSITO◉ Piccadilly Circus\n549 m\nTRÂNSITO◉ Shaftesbury Ave / Macclesfield St\n588 m\nTRÂNSITO◉ Charing Cross Rd / Cambridge Circus\n641 m\nTRÂNSITO◉ Par",
+   "cams": "ok",
+   "n": 115377,
+   "quads": {
+    "modo": 3,
+    "circulos": 0,
+    "soltas": 344
+   },
+   "windy": 98,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 15,
+     "tiles": 135
+    }
+   },
+   "basemap": "esri",
+   "level": 15,
+   "tiles": 579,
+   "tilesLoaded": 579,
+   "pov": {
+    "lat": 51.5074,
+    "lng": -0.12770000000000437,
+    "altitude": 0.0012000000000000899
+   },
+   "chunks": {
+    "ok": 2,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 61
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 115377
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 98
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "tela-cheia",
+   "s": 54,
+   "dentro": {
+    "fs": true,
+    "navegador": true,
+    "cobre": "1280x800"
+   },
+   "depois": {
+    "fs": false,
+    "sel": "cam"
+   }
+  },
+  {
+   "name": "camera-video",
+   "s": 71,
+   "i": 109069,
+   "dossieEm": 0,
+   "dossier": "CÂMERA · TRÂNSITO\nWest Street at W. 23 St\nNew York City · Estados Unidos\n✕\nO vídeo ao vivo não abriu (a fonte pode estar fora do ar ou não permitir outros sites).\n\nVer na fonte\nFONTE\n511NY\nNew York State DOT\nTIPO\nTrânsito\nIMAGEM\nvídeo ao vivo\nPAÍS\nEstados Unidos\nCOORDENADAS\n40.7483, -74.0077\n\nNew York State DOT · catálogo aberto Argus (MIT); imagens dos respectivos donos\n\nCÂMERAS POR PERTO · 1.494 NUM RAIO DE 25 KM\nTRÂNSITO◉ 12 Ave @ 22 St\n8 m\nTRÂNSITO◉ 12 Avenue @ 22 Street\n69 m\nTRÂNSITO◉ C4-WST-07-Med_at_W.23rd_St\n127 m\nTRÂNSITO◉ 10 Ave @ 23 St\n302 m\nTRÂNSITO◉ 9 Ave @ 23 St\n567 m\nTRÂNSITO◉ 9 Avenue @ 23 Street\n614 m\nTRÂNSITO◉ 11 Ave/Rt 9A @ 14 St\n672 m\nTRÂNSITO▶ West Street at W. 14 St\n674",
+   "video": null,
+   "cams": "ok",
+   "n": 115377,
+   "quads": {
+    "modo": 3,
+    "circulos": 0,
+    "soltas": 11278
+   },
+   "windy": 148,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 15,
+     "tiles": 84
+    }
+   },
+   "basemap": "esri",
+   "level": 15,
+   "tiles": 250,
+   "tilesLoaded": 250,
+   "pov": {
+    "lat": 40.7483,
+    "lng": -74.00770000000003,
+    "altitude": 0.0012000000000000899
+   },
+   "chunks": {
+    "ok": 3,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 61
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 115377
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 148
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "camera-brasil",
+   "s": 96,
+   "i": 4494,
+   "dossieEm": 12,
+   "dossier": "CÂMERA · CIDADE\nAvenida Anna Costa × Rua Tolentino Filgueiras\nSantos, SP · Brasil\n✕\nrecebida às 11:28\nAO VIVO\nFONTE\nSantos ao Vivo — câmeras da cidade\nPrefeitura de Santos (SigSantos)\nTIPO\nCidade\nIMAGEM\nimagem atual\nPAÍS\nBrasil\nCOORDENADAS\n-23.9645, -46.3325\n\nPrefeitura de Santos — Santos ao Vivo · imagens públicas do portal Santos ao Vivo\n\nCÂMERAS POR PERTO · 481 NUM RAIO DE 25 KM\nCIDADE◉ Avenida Anna Costa × Rua Tolentino Filgueiras · vista 2\n0 m\nCIDADE◉ Avenida Anna Costa × Rua Tolentino Filgueiras · vista 3\n0 m\nCIDADE◉ Avenida Anna Costa × Rua Luiz de Faria\n156 m\nCIDADE◉ Avenida Anna Costa × Rua Luiz de Faria · vista 2\n156 m\nCIDADE◉ Rua José Caballero × Rua Tolentino Filgueiras\n164 m\nCID",
+   "media": {
+    "img": {
+     "w": 768,
+     "src": "https://egov.santos.sp.gov.br/santosmapeada/css/img/cameras/cam1764/snap_c1.jpg?_olho=59822216"
+    },
+    "video": null,
+    "msg": "recebida às 11:28\nAO VIVO"
+   }
+  },
+  {
+   "name": "fundo-s2",
+   "s": 114,
+   "tilesEm": 13,
+   "tiles": 20
+  },
+  {
+   "name": "fundo-gibs",
+   "s": 146,
+   "tilesEm": -1,
+   "tiles": 0
+  },
+  {
+   "name": "fundo-dark",
+   "s": 153,
+   "tilesEm": 0,
+   "tiles": 0
+  },
+  {
+   "name": "fundo-esri",
+   "s": 155,
+   "tilesEm": 0,
+   "tiles": 101
+  },
+  {
+   "name": "busca",
+   "s": 169,
+   "sug": [
+    "CopacabanaBAIRRO | Rio de Janeiro, Brasil",
+    "Hotel Copacabana PalaceENDEREÇO | Copacabana, Rio de Janeiro, Brasil",
+    "Siqueira Campos / CopacabanaESTAÇÃO | Rio de Janeiro, Brasil",
+    "Cardeal Arcoverde / CopacabanaESTAÇÃO | Rio de Janeiro, Brasil",
+    "Cantagalo / CopacabanaESTAÇÃO | Rio de Janeiro, Brasil",
+    "Forte de CopacabanaENDEREÇO | Copacabana, Rio de Janeiro, Brasil",
+    "Praia de CopacabanaPRAIA | Rio de Janeiro, Brasil",
+    "Hilton Rio de Janeiro CopacabanaENDEREÇO | Leme, Rio de Janeiro, Brasil"
+   ],
+   "dossier": "BAIRRO\nCopacabana\nRio de Janeiro, Brasil\n✕\nCOORDENADAS\n-22.9720, -43.1843\nGRAUS\n22°58′19″S 43°11′03″O\nHORA LOCAL\n11:29 · UTC−03:00 · America/Sao_Paulo\nCÂMERAS POR PERTO\nTRÂNSITO◉ Acessos Rio De Janeiro — Ponte Rio-Niterói (Ponte Presidente Costa e Silva), km 334.4\n11 km\nTRÂNSITO◉ Cais Do Porto — Ponte Rio-Niterói (Ponte Presidente Costa e Silva), km 332.8\n11 km\nTRÂNSITO◉ Grande Curva — Ponte Rio-Niterói (Ponte Presidente Costa e Silva), km 331.3\n12 km\nTRÂNSITO◉ Grande Reta — Ponte Rio-Niterói (Ponte Presidente Costa e Silva), km 329.9\n12 km\nTRÂNSITO◉ Vão Central — Ponte Rio-Niterói (Ponte Presidente Costa e Silva), km 325.19\n12 km\nTRÂNSITO◉ Acessos Niterói — Ponte Rio-Niterói (Ponte Presiden",
+   "cams": "ok",
+   "n": 115377,
+   "quads": {
+    "modo": 3,
+    "circulos": 0,
+    "soltas": 697
+   },
+   "windy": 191,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 15,
+     "tiles": 0
+    }
+   },
+   "basemap": "esri",
+   "level": 15,
+   "tiles": 373,
+   "tilesLoaded": 373,
+   "pov": {
+    "lat": -22.971974000000003,
+    "lng": -43.1842997,
+    "altitude": 0.0014000000000000679
+   },
+   "chunks": {
+    "ok": 5,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 61
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 115377
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 191
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    },
+    "search": {
+     "status": "ok",
+     "msg": ""
+    },
+    "wx": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  },
+  {
+   "name": "fim-desktop",
+   "s": 186,
+   "cams": "ok",
+   "n": 115377,
+   "quads": {
+    "modo": 2,
+    "circulos": 46,
+    "soltas": 0
+   },
+   "windy": 225,
+   "ovl": {
+    "l": {
+     "on": true,
+     "level": 7,
+     "tiles": 187
+    }
+   },
+   "basemap": "esri",
+   "level": 7,
+   "tiles": 202,
+   "tilesLoaded": 202,
+   "pov": {
+    "lat": -23,
+    "lng": -45.5,
+    "altitude": 0.3999999999999999
+   },
+   "chunks": {
+    "ok": 5,
+    "loading": [],
+    "waiting": []
+   },
+   "src": {
+    "quakes": {
+     "status": "ok",
+     "msg": "",
+     "count": 49
+    },
+    "events": {
+     "status": "ok",
+     "msg": "",
+     "count": 61
+    },
+    "cams": {
+     "status": "ok",
+     "msg": "",
+     "count": 115377
+    },
+    "windy": {
+     "status": "ok",
+     "msg": "",
+     "count": 225
+    },
+    "iss": {
+     "status": "ok",
+     "msg": ""
+    },
+    "search": {
+     "status": "ok",
+     "msg": ""
+    },
+    "wx": {
+     "status": "ok",
+     "msg": ""
+    }
+   }
+  }
+ ],
+ "errors": [],
+ "console": [
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()",
+  "p1: Failed to load resource: the server responded with a status of 404 ()"
+ ],
+ "requests": {
+  "merengacv.github.io 200": 34,
+  "fonts.googleapis.com 200": 3,
+  "fonts.gstatic.com 200": 15,
+  "earthquake.usgs.gov 200": 4,
+  "server.arcgisonline.com 200": 8292,
+  "eonet.gsfc.nasa.gov 200": 3,
+  "api.windy.com 200": 11,
+  "api.wheretheiss.at 200": 3,
+  "s3-eu-west-1.amazonaws.com 200": 1,
+  "s9.nysdot.skyvdn.com 200": 1,
+  "egov.santos.sp.gov.br 200": 1,
+  "tiles.maps.eox.at 200": 101,
+  "gibs.earthdata.nasa.gov 404": 101,
+  "geocoding-api.open-meteo.com 200": 1,
+  "photon.komoot.io 200": 1,
+  "api.open-meteo.com 200": 1
+ },
+ "cams": [
+  {
+   "tag": "p0",
+   "u": "meta.js?v=5982221",
+   "ms": 140,
+   "st": 200,
+   "at": 2
+  },
+  {
+   "tag": "p0",
+   "u": "g20261114T142503/pts.js",
+   "ms": 765,
+   "st": 200,
+   "at": 2
+  },
+  {
+   "tag": "p1",
+   "u": "meta.js?v=5982221",
+   "ms": 71,
+   "st": 200,
+   "at": 12
+  },
+  {
+   "tag": "p1",
+   "u": "g20261114T142503/pts.js",
+   "ms": 110,
+   "st": 200,
+   "at": 12
+  },
+  {
+   "tag": "p1",
+   "u": "g20261114T142503/c/25.js",
+   "ms": 69,
+   "st": 200,
+   "at": 45
+  },
+  {
+   "tag": "p1",
+   "u": "g20261114T142503/c/24.js",
+   "ms": 70,
+   "st": 200,
+   "at": 45
+  },
+  {
+   "tag": "p1",
+   "u": "g20261114T142503/c/109.js",
+   "ms": 67,
+   "st": 200,
+   "at": 54
+  },
+  {
+   "tag": "p1",
+   "u": "g20261114T142503/c/4.js",
+   "ms": 12735,
+   "st": 200,
+   "at": 72
+  },
+  {
+   "tag": "p1",
+   "u": "g20261114T142503/c/5.js",
+   "ms": 273,
+   "st": 200,
+   "at": 161
+  },
+  {
+   "tag": "cel",
+   "u": "meta.js?v=5982221",
+   "ms": 67,
+   "st": 200,
+   "at": 196
+  },
+  {
+   "tag": "cel",
+   "u": "g20261114T142503/pts.js",
+   "ms": 227,
+   "st": 200,
+   "at": 196
+  },
+  {
+   "tag": "cel",
+   "u": "g20261114T142503/c/5.js",
+   "ms": 59,
+   "st": 200,
+   "at": 212
+  }
+ ],
+ "camsPending": [],
+ "tileStats": {
+  "n": 0,
+  "fail": 0,
+  "p50": 0,
+  "p90": 0,
+  "max": 0
+ }
+}
